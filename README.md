@@ -1,0 +1,5 @@
+# Pantheon Empty Upstream
+
+This is an empty repository that is, save for this explanatory text, devoid of all content. This upstream is appropriate to use in situations where a Pantheon site will be created through a build step (see the [Terminus Build Tools Plugin](https://github.com/pantheon-systems/terminus-build-tools-plugin) and managed completely by Composer. Typically, the build step should completely replace the content provided by the upstream. If this README persists after the build step, it will do no harm; however, it would be advisable to replace this text with a description of the project.
+
+If this upstream is used to install a site that does not have a build step, then you will not be able to install or use your site. In that event, the best thing to do would be to delete it and start over, either by selecting a different upstream, or by using the [Terminus Build Tools Plugin](https://github.com/pantheon-systems/terminus-build-tools-plugin) `terminus build-env:create-project` command to set up a build server.
