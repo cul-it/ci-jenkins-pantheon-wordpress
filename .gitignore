@@ -69,3 +69,6 @@ Thumbs.db
 .sass-cache
 
 capybara-*.html
+
+# ignore composer vendor directory
+/vendor
