@@ -92,7 +92,7 @@ final class Versions
   'wp-coding-standards/wpcs' => 'dev-master@1f64b1a0b5b789822d0303436ee4e30e0135e4dc',
   'zendframework/zend-code' => '3.1.0@2899c17f83a7207f2d7f53ec2f421204d3beea27',
   'zendframework/zend-eventmanager' => '3.2.0@9d72db10ceb6e42fb92350c0cb54460da61bd79c',
-  'pantheon-systems/example-wordpress-composer' => '1.0.1.0@',
+  'pantheon-systems/example-wordpress-composer' => 'dev-release/ignore_vendor@cdc7cd5ffecfaa0d9b9369dcceebed94225e4ce8',
 );
 
     private function __construct()
