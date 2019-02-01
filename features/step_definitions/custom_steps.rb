@@ -9,28 +9,22 @@ require 'webdrivers'
 require 'selenium-webdriver'
 
 Before do |scenario|
-  @url = {:domain => getSiteURL}
-  Capybara.app_host = @url[:domain]
+  fullUrl = getProtocol + getSiteURL
+
+  @url = {:domain => getSiteURL, :full => fullUrl}
+  Capybara.app_host = @url[:full]
 end
 
 def getSiteURL
   site = ENV['SITE']
   stage = ENV['STAGE']
-  case stage
-  when 'dev', 'test', 'live', 'prod'
-    url = $anyini[":#{site}"][":#{stage}"]
-  when 'ares'
-    if site == 'music.library.cornell.edu'
-      url = $anyini[":#{site}"][":#{stage}"]
-    else
-      raise "invalid STAGE for this site"
-    end
-  else
-    # invalid stage
-    #raise "invalid STAGE"
-    url = site + "." + stage
-  end
-  return url
+  return stage + "-" + site
+end
+
+def getProtocol
+  https = ENV['HTTPS'] || 0
+  proto = https == 0 ? 'http://' : 'https://'
+  return proto
 end
 
 def wait_for(seconds)
