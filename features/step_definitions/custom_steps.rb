@@ -484,7 +484,7 @@ end
 
 Then /^I should see a Submit button labeled "(.*?)"$/ do |string|
   wait_for(5) {
-    expect(page.find(:css, "button.webform-submit")).to have_content(string)
+    expect(page).to have_selector("input[value='#{string}']")
   }
 end
 
