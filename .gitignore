@@ -71,4 +71,5 @@ Thumbs.db
 capybara-*.html
 
 # ignore composer vendor directory
-/vendor
+#/vendor -- can't until Jenkins updates its PHP version from 5.5.38
+
