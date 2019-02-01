@@ -4,6 +4,7 @@ cucumber tests for web sites
 These are some variations of the command line:
 
 ```
+bundle exec cucumber SITE=ci-jenkins-pantheon-wordpress.pantheonsite.io STAGE=dev HTTPS=1 HEADLESS=1
 bundle exec cucumber SITE=www.library.cornell.edu STAGE=prod HTTPS=1
 bundle exec cucumber SITE=www.library.cornell.edu STAGE=dev HEADLESS=1 --tags @site_up
 bundle exec cucumber SITE=www.library.cornell.edu STAGE=prod HEADLESS=1 HEADLESS_BROWSER=headless_chrome
@@ -16,7 +17,7 @@ Add new sites to site-testing.ini
 ```
 SITE ()
 STAGE ()
-HEADLESS ()
+HEADLESS () - without this it defaults to chrome but there's no chrome driver on Jenkins
 HEADLESS_BROWSER (0)
 POLTERGEIST_DEBUG (0)
 SUBMIT (0) - 1: click the submit button on forms
