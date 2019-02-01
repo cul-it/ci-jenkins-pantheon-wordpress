@@ -1,0 +1,147 @@
+GIT
+  remote: git@github.com:makandra/cucumber_priority.git
+  revision: 00ab7f2b8c643eab0bb949857a5da96d732b5be6
+  specs:
+    cucumber_priority (0.3.2)
+      cucumber
+
+GIT
+  remote: git@github.com:makandra/spreewald.git
+  revision: ce416e084aadf9ecc95636346f7ab7feba02ffa0
+  specs:
+    spreewald (1.12.0)
+      cucumber
+      cucumber_priority (>= 0.3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.6.0)
+      public_suffix (>= 2.0.2, < 4.0)
+    appium_lib (9.18.0)
+      appium_lib_core (~> 2.3)
+      nokogiri (~> 1.8, >= 1.8.1)
+      tomlrb (~> 1.1)
+    appium_lib_core (2.3.4)
+      faye-websocket (~> 0.10.0)
+      selenium-webdriver (~> 3.14, >= 3.14.1)
+    archive-zip (0.11.0)
+      io-like (~> 0.3.0)
+    backports (3.11.4)
+    builder (3.2.3)
+    capybara (3.13.2)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (~> 1.2)
+      xpath (~> 3.2)
+    capybara-selenium (0.0.6)
+      capybara
+      selenium-webdriver
+    childprocess (0.9.0)
+      ffi (~> 1.0, >= 1.0.11)
+    chromedriver-helper (2.1.0)
+      archive-zip (~> 0.10)
+      nokogiri (~> 1.8)
+    chunky_png (1.3.11)
+    cliver (0.3.2)
+    cucumber (3.1.2)
+      builder (>= 2.1.2)
+      cucumber-core (~> 3.2.0)
+      cucumber-expressions (~> 6.0.1)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (~> 1.3)
+      gherkin (~> 5.1.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (3.2.1)
+      backports (>= 3.8.0)
+      cucumber-tag_expressions (~> 1.1.0)
+      gherkin (~> 5.0)
+    cucumber-expressions (6.0.1)
+    cucumber-tag_expressions (1.1.1)
+    cucumber-wire (0.0.1)
+    diff-lcs (1.3)
+    eventmachine (1.2.7)
+    faye-websocket (0.10.7)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    ffi (1.10.0)
+    gherkin (5.1.0)
+    inifile (3.0.0)
+    io-like (0.3.0)
+    mini_mime (1.0.1)
+    mini_portile2 (2.4.0)
+    multi_json (1.13.1)
+    multi_test (0.1.2)
+    net_http_ssl_fix (0.0.10)
+    nokogiri (1.10.1)
+      mini_portile2 (~> 2.4.0)
+    phantomjs (2.1.1.0)
+    poltergeist (1.18.1)
+      capybara (>= 2.1, < 4)
+      cliver (~> 0.3.1)
+      websocket-driver (>= 0.2.0)
+    public_suffix (3.0.3)
+    rack (2.0.6)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    regexp_parser (1.3.0)
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-expectations (3.8.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
+    rubyzip (1.2.2)
+    selenium-cucumber (3.1.5)
+      appium_lib (>= 8.0.2)
+      chunky_png (>= 1.3.5)
+      cucumber (>= 2.3.0)
+      rspec (>= 3.4.0)
+      selenium-webdriver (>= 2.53.0)
+    selenium-webdriver (3.141.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.2, >= 1.2.2)
+    tomlrb (1.2.8)
+    webdrivers (3.6.0)
+      net_http_ssl_fix
+      nokogiri (~> 1.6)
+      rubyzip (~> 1.0)
+      selenium-webdriver (~> 3.0)
+    websocket-driver (0.7.0)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.3)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capybara
+  capybara-selenium
+  chromedriver-helper
+  cucumber
+  cucumber_priority!
+  inifile
+  phantomjs
+  poltergeist
+  rspec-expectations
+  rubyzip
+  selenium-cucumber
+  selenium-webdriver
+  spreewald!
+  webdrivers (~> 3.0)
+
+BUNDLED WITH
+   1.16.5

@@ -67,3 +67,5 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
+
+capybara-*.html
