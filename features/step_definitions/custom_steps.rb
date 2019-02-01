@@ -93,22 +93,22 @@ end
 
 
 Given("I am testing the correct domain") do
-  puts "Domain: #{@url[:domain]}"
+  puts "Domain: #{@url[:full]}"
 end
 
 Given("I am testing domain {string}") do |string|
-  expect(string).to be == "#{@url[:domain]}"
+  expect(string).to be == "#{@url[:full]}"
 end
 
 Given("I go to the home page") do
   patiently do
-    visit(@url[:domain])
+    visit(@url[:full])
   end
 end
 
 Then /^I go to page "(.*?)"$/ do |sitepage|
   wait_for(20) {
-    target = "#{@url[:domain]}" + "/#{sitepage}"
+    target = "#{@url[:full]}" + "/#{sitepage}"
     visit "#{target}"
   }
 end
@@ -182,7 +182,7 @@ Then /^I search ares for "(.*?)"$/ do |searchstring|
 end
 
 Then /^I visit page "(.*?)"$/ do |sitepage|
-  target = "#{@url[:domain]}" + "/#{sitepage}"
+  target = "#{@url[:full]}" + "/#{sitepage}"
   visit target
 end
 
@@ -410,12 +410,12 @@ Then ("I use site {string} and stage {string}") do |string,string2|
   pending # can't figure out how to do this
   url = $anyini[":#{string}"][":#{string2}"]
   @url = {:domain => url}
-  Capybara.app_host = @url[:domain]
+  Capybara.app_host = @url[:full]
 end
 
 Then("I log in with SAML") do
   wait_for(15) {
-    target = "#{@url[:domain]}" + "/saml_login"
+    target = "#{@url[:full]}" + "/saml_login"
     visit target
     fill_in "netid", with: ENV["NETID"]
     fill_in "password", with: ENV["PASS"] 
