@@ -4,7 +4,7 @@ cucumber tests for web sites
 These are some variations of the command line:
 
 ```
-bundle exec cucumber SITE=www.library.cornell.edu STAGE=prod
+bundle exec cucumber SITE=www.library.cornell.edu STAGE=prod HTTPS=1
 bundle exec cucumber SITE=www.library.cornell.edu STAGE=dev HEADLESS=1 --tags @site_up
 bundle exec cucumber SITE=www.library.cornell.edu STAGE=prod HEADLESS=1 HEADLESS_BROWSER=headless_chrome
 bundle exec cucumber SITE=www.library.cornell.edu STAGE=test HEADLESS=1 POLTERGEIST_DEBUG=1
@@ -20,6 +20,7 @@ HEADLESS ()
 HEADLESS_BROWSER (0)
 POLTERGEIST_DEBUG (0)
 SUBMIT (0) - 1: click the submit button on forms
+HTTPS (0) - 1: use https:// protocol
 ```
 
 ### Stages
@@ -28,6 +29,7 @@ SUBMIT (0) - 1: click the submit button on forms
 * `test`
 * `live` - (live-xyzcornelledu.panthion.io)
 * `prod` - (actual domain name)
+* `ci-123` - (multidev)
 
 These are set up in site-testing.ini
 
