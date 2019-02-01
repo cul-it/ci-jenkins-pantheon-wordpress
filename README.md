@@ -1,5 +1,7 @@
 # Example WordPress Composer
 
+## skip down to the bottom for Jenkins Workflow
+
 [![CircleCI](https://circleci.com/gh/pantheon-systems/example-wordpress-composer.svg?style=svg)](https://circleci.com/gh/pantheon-systems/example-wordpress-composer)
 
 This repository is a start state for a Composer-based WordPress workflow with Pantheon. It is meant to be copied by the the [Terminus Build Tools Plugin](https://github.com/pantheon-systems/terminus-build-tools-plugin) which will set up for you a brand new
@@ -66,4 +68,27 @@ If you are just browsing this repository on GitHub, you may not see some of the 
 
 So that CircleCI will have some test to run, this repository includes a configuration of [WordHat](https://wordhat.info/), A WordPress Behat extension. You can add your own `.feature` files within `/tests/behat/features`. [A fuller guide on WordPress testing with Behat is forthcoming.](https://github.com/pantheon-systems/documentation/issues/2469)
 
-Comment to start pr for Jenkins job #33
+## Jenkins Workflow
+
+We're not using behat for testing - I couldn't get that to work. Check out the /features
+directory for cucumber tests.
+
+bundle exec cucumber SITE=ci-jenkins-pantheon-wordpress.pantheonsite.io STAGE=dev HTTPS=1 HEADLESS=1
+
+When a pull request is put into GitHub, the Jenkins job kicks off, creates a Pantheon multi-dev with the new PR code, runs the cucumber tests against it. If they succeed, the multidev is deleted, but the code is saved in a git branch by Pantheon. When the pull request in merged in GitHub (now a manual process), another Jenkins job gets kicked off, and if THAT one succeeds, Pantheon merges the changes for the multidev into dev. At this point, you can work with the dev branch as you normally would (Lando etc.).
+
+Also, each multi-dev is created based on the current dev branch, so your dev code and database updates are included.
+
+Notes about the Pull Requests:
+
+* They have to be pull requests against the master branch
+* If you use GitFlow, push your 'release' branches to GitHub to form the pull requests
+* If you don't use GitFlow, make a local branch based on the master branch, do your work there, and push that to GitHub and make that branch a pull request
+* Once the pull request passes all it's tests, you have to manually merge it into master (not like the automatic merge in blacklight). After you've merged it, it will take a few minutes before the Jenkins job kicks off, and a few minutes after that before the new code is available in the Pantheon dev branch.
+
+The Jenkins job is 
+https://jenkins.library.cornell.edu/view/wordpress/job/ci-jenkins-pantheon-wordpress/
+
+The multidev sites in Pantheon are named ci-1, ci-2, ci-3, etc.
+
+
