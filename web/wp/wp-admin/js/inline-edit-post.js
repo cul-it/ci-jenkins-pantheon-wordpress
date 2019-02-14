@@ -413,8 +413,7 @@ var inlineEditPost;
 		// Make ajax request.
 		$.post( ajaxurl, params,
 			function(r) {
-				var $errorNotice = $( '#edit-' + id + ' .inline-edit-save .notice-error' ),
-					$error = $errorNotice.find( '.error' );
+				var $errorSpan = $( '#edit-' + id + ' .inline-edit-save .error' );
 
 				$( 'table.widefat .spinner' ).removeClass( 'is-active' );
 				$( '.ac_results' ).hide();
@@ -430,13 +429,11 @@ var inlineEditPost;
 						});
 					} else {
 						r = r.replace( /<.[^<>]*?>/g, '' );
-						$errorNotice.removeClass( 'hidden' );
-						$error.html( r );
-						wp.a11y.speak( $error.text() );
+						$errorSpan.html( r ).show();
+						wp.a11y.speak( $errorSpan.text() );
 					}
 				} else {
-					$errorNotice.removeClass( 'hidden' );
-					$error.html( inlineEditL10n.error );
+					$errorSpan.html( inlineEditL10n.error ).show();
 					wp.a11y.speak( inlineEditL10n.error );
 				}
 			},

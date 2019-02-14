@@ -3,7 +3,6 @@
 
 	var NativeHandler, YouTubeHandler;
 
-	/** @namespace wp */
 	window.wp = window.wp || {};
 
 	// Fail gracefully in unsupported browsers.
@@ -33,9 +32,7 @@
 	/**
 	 * Create a custom header instance.
 	 *
-	 * @memberOf wp
-	 *
-	 * @class
+	 * @class CustomHeader
 	 */
 	function CustomHeader() {
 		this.handlers = {
@@ -94,9 +91,7 @@
 	/**
 	 * Create a video handler instance.
 	 *
-	 * @memberOf wp
-	 *
-	 * @class
+	 * @class BaseHandler
 	 */
 	function BaseHandler() {}
 
@@ -233,8 +228,6 @@
 	/**
 	 * Create a custom handler.
 	 *
-	 * @memberOf wp
-	 *
 	 * @param {object} protoProps Properties to apply to the prototype.
 	 * @return CustomHandler The subclass.
 	 */
@@ -259,11 +252,9 @@
 	/**
 	 * Native video handler.
 	 *
-	 * @memberOf wp
-	 *
-	 * @class
+	 * @class NativeHandler
 	 */
-	NativeHandler = BaseHandler.extend(/** @lends wp.NativeHandler.prototype */{
+	NativeHandler = BaseHandler.extend({
 		/**
 		 * Whether the native handler supports a video.
 		 *
@@ -333,11 +324,9 @@
 	/**
 	 * YouTube video handler.
 	 *
-	 * @memberOf wp
-	 *
-	 * @class wp.YouTubeHandler
+	 * @class YouTubeHandler
 	 */
-	YouTubeHandler = BaseHandler.extend(/** @lends wp.YouTubeHandler.prototype */{
+	YouTubeHandler = BaseHandler.extend({
 		/**
 		 * Whether the handler supports a video.
 		 *

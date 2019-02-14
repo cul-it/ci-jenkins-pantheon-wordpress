@@ -223,26 +223,6 @@ if ( $can_publish ) : // Contributors don't get to choose the date of publish ?>
 </div><?php // /misc-pub-section ?>
 <?php endif; ?>
 
-<?php if ( 'draft' === $post->post_status && get_post_meta( $post->ID, '_customize_changeset_uuid', true ) ) : ?>
-	<div class="notice notice-info notice-alt inline">
-		<p>
-			<?php
-			echo sprintf(
-				/* translators: %s: URL to the Customizer */
-				__( 'This draft comes from your <a href="%s">unpublished customization changes</a>. You can edit, but there&#8217;s no need to publish now. It will be published automatically with those changes.' ),
-				esc_url(
-					add_query_arg(
-						'changeset_uuid',
-						rawurlencode( get_post_meta( $post->ID, '_customize_changeset_uuid', true ) ),
-						admin_url( 'customize.php' )
-					)
-				)
-			);
-			?>
-		</p>
-	</div>
-<?php endif; ?>
-
 <?php
 /**
  * Fires after the post time/date setting in the Publish meta box.
@@ -264,12 +244,8 @@ do_action( 'post_submitbox_misc_actions', $post );
  * Fires at the beginning of the publishing actions section of the Publish meta box.
  *
  * @since 2.7.0
- * @since 4.9.0 Added the `$post` parameter.
- *
- * @param WP_Post|null $post WP_Post object for the current post on Edit Post screen,
- *                           null on Edit Link screen.
  */
-do_action( 'post_submitbox_start', $post );
+do_action( 'post_submitbox_start' );
 ?>
 <div id="delete-action">
 <?php
@@ -289,8 +265,8 @@ if ( current_user_can( "delete_post", $post->ID ) ) {
 if ( !in_array( $post->post_status, array('publish', 'future', 'private') ) || 0 == $post->ID ) {
 	if ( $can_publish ) :
 		if ( !empty($post->post_date_gmt) && time() < strtotime( $post->post_date_gmt . ' +0000' ) ) : ?>
-		<input name="original_publish" type="hidden" id="original_publish" value="<?php echo esc_attr_x( 'Schedule', 'post action/button label' ); ?>" />
-		<?php submit_button( _x( 'Schedule', 'post action/button label' ), 'primary large', 'publish', false ); ?>
+		<input name="original_publish" type="hidden" id="original_publish" value="<?php esc_attr_e('Schedule') ?>" />
+		<?php submit_button( __( 'Schedule' ), 'primary large', 'publish', false ); ?>
 <?php	else : ?>
 		<input name="original_publish" type="hidden" id="original_publish" value="<?php esc_attr_e('Publish') ?>" />
 		<?php submit_button( __( 'Publish' ), 'primary large', 'publish', false ); ?>
@@ -333,19 +309,15 @@ function attachment_submit_meta_box( $post ) {
 
 
 <div id="misc-publishing-actions">
+	<?php
+	/* translators: Publish box date format, see https://secure.php.net/date */
+	$datef = __( 'M j, Y @ H:i' );
+	/* translators: Attachment information. 1: Date the attachment was uploaded */
+	$stamp = __('Uploaded on: <b>%1$s</b>');
+	$date = date_i18n( $datef, strtotime( $post->post_date ) );
+	?>
 	<div class="misc-pub-section curtime misc-pub-curtime">
-		<span id="timestamp"><?php
-			$date = date_i18n(
-				/* translators: Publish box date format, see https://secure.php.net/date */
-				__( 'M j, Y @ H:i' ),
-				strtotime( $post->post_date )
-			);
-			printf(
-				/* translators: Attachment information. %s: Date the attachment was uploaded */
-				__( 'Uploaded on: %s' ),
-				'<b>' . $date . '</b>'
-			);
-		?></span>
+		<span id="timestamp"><?php printf($stamp, $date); ?></span>
 	</div><!-- .misc-pub-section -->
 
 	<?php
@@ -354,11 +326,8 @@ function attachment_submit_meta_box( $post ) {
 	 * in the attachment editing screen.
 	 *
 	 * @since 3.5.0
-	 * @since 4.9.0 Added the `$post` parameter.
-	 *
-	 * @param WP_Post $post WP_Post object for the current attachment. 
 	 */
-	do_action( 'attachment_submitbox_misc_actions', $post );
+	do_action( 'attachment_submitbox_misc_actions' );
 	?>
 </div><!-- #misc-publishing-actions -->
 <div class="clear"></div>
@@ -484,7 +453,7 @@ function post_tags_meta_box( $post, $box ) {
 		<p><?php echo $taxonomy->labels->no_terms; ?></p>
 	<?php endif; ?>
 	</div>
-	<ul class="tagchecklist" role="list"></ul>
+	<div class="tagchecklist"></div>
 </div>
 <?php if ( $user_can_assign_terms ) : ?>
 <p class="hide-if-no-js"><button type="button" class="button-link tagcloud-link" id="link-<?php echo $tax_name; ?>" aria-expanded="false"><?php echo $taxonomy->labels->choose_from_most_used; ?></button></p>
@@ -527,7 +496,7 @@ function post_categories_meta_box( $post, $box ) {
 	<div id="taxonomy-<?php echo $tax_name; ?>" class="categorydiv">
 		<ul id="<?php echo $tax_name; ?>-tabs" class="category-tabs">
 			<li class="tabs"><a href="#<?php echo $tax_name; ?>-all"><?php echo $taxonomy->labels->all_items; ?></a></li>
-			<li class="hide-if-no-js"><a href="#<?php echo $tax_name; ?>-pop"><?php echo esc_html( $taxonomy->labels->most_used ); ?></a></li>
+			<li class="hide-if-no-js"><a href="#<?php echo $tax_name; ?>-pop"><?php _e( 'Most Used' ); ?></a></li>
 		</ul>
 
 		<div id="<?php echo $tax_name; ?>-pop" class="tabs-panel" style="display: none;">
@@ -852,7 +821,7 @@ function page_attributes_meta_box($post) {
 		 * @see wp_dropdown_pages()
 		 *
 		 * @param array   $dropdown_args Array of arguments used to generate the pages drop-down.
-		 * @param WP_Post $post          The current post.
+		 * @param WP_Post $post          The current WP_Post object.
 		 */
 		$dropdown_args = apply_filters( 'page_attributes_dropdown_pages_args', $dropdown_args, $post );
 		$pages = wp_dropdown_pages( $dropdown_args );
@@ -899,16 +868,6 @@ $default_title = apply_filters( 'default_page_template_title',  __( 'Default Tem
 <?php if ( post_type_supports( $post->post_type, 'page-attributes' ) ) : ?>
 <p class="post-attributes-label-wrapper"><label class="post-attributes-label" for="menu_order"><?php _e( 'Order' ); ?></label></p>
 <input name="menu_order" type="text" size="4" id="menu_order" value="<?php echo esc_attr( $post->menu_order ); ?>" />
-<?php
-/**
- * Fires before the help hint text in the 'Page Attributes' meta box.
- *
- * @since 4.9.0
- *
- * @param WP_Post $post The current post.
- */
-do_action( 'page_attributes_misc_attributes', $post );
-?>
 <?php if ( 'page' == $post->post_type && get_current_screen()->get_help_tabs() ) : ?>
 <p><?php _e( 'Need help? Use the Help tab above the screen title.' ); ?></p>
 <?php endif;
@@ -955,7 +914,7 @@ function link_submit_meta_box($link) {
 <div id="major-publishing-actions">
 <?php
 /** This action is documented in wp-admin/includes/meta-boxes.php */
-do_action( 'post_submitbox_start', null );
+do_action( 'post_submitbox_start' );
 ?>
 <div id="delete-action">
 <?php
@@ -998,7 +957,7 @@ function link_categories_meta_box($link) {
 <div id="taxonomy-linkcategory" class="categorydiv">
 	<ul id="category-tabs" class="category-tabs">
 		<li class="tabs"><a href="#categories-all"><?php _e( 'All Categories' ); ?></a></li>
-		<li class="hide-if-no-js"><a href="#categories-pop"><?php _ex( 'Most Used', 'categories' ); ?></a></li>
+		<li class="hide-if-no-js"><a href="#categories-pop"><?php _e( 'Most Used' ); ?></a></li>
 	</ul>
 
 	<div id="categories-all" class="tabs-panel">

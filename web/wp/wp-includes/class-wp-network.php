@@ -30,6 +30,7 @@ class WP_Network {
 	 * @since 4.6.0 Converted from public to private to explicitly enable more intuitive
 	 *              access via magic methods. As part of the access change, the type was
 	 *              also changed from `string` to `int`.
+	 * @access private
 	 * @var int
 	 */
 	private $id;
@@ -38,6 +39,7 @@ class WP_Network {
 	 * Domain of the network.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var string
 	 */
 	public $domain = '';
@@ -46,6 +48,7 @@ class WP_Network {
 	 * Path of the network.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var string
 	 */
 	public $path = '';
@@ -59,6 +62,7 @@ class WP_Network {
 	 * A numeric string, for compatibility reasons.
 	 *
 	 * @since 4.4.0
+	 * @access private
 	 * @var string
 	 */
 	private $blog_id = '0';
@@ -67,6 +71,7 @@ class WP_Network {
 	 * Domain used to set cookies for this network.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var string
 	 */
 	public $cookie_domain = '';
@@ -77,6 +82,7 @@ class WP_Network {
 	 * Named "site" vs. "network" for legacy reasons.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var string
 	 */
 	public $site_name = '';
@@ -85,6 +91,7 @@ class WP_Network {
 	 * Retrieve a network from the database by its ID.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *
@@ -121,6 +128,7 @@ class WP_Network {
 	 * default properties based on that information.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @param WP_Network|object $network A network object.
 	 */
@@ -139,18 +147,19 @@ class WP_Network {
 	 * Allows current multisite naming conventions when getting properties.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 *
 	 * @param string $key Property to get.
 	 * @return mixed Value of the property. Null if not available.
 	 */
 	public function __get( $key ) {
 		switch ( $key ) {
-			case 'id':
+			case 'id';
 				return (int) $this->id;
 			case 'blog_id':
-				return (string) $this->get_main_site_id();
+				return $this->blog_id;
 			case 'site_id':
-				return $this->get_main_site_id();
+				return (int) $this->blog_id;
 		}
 
 		return null;
@@ -162,6 +171,7 @@ class WP_Network {
 	 * Allows current multisite naming conventions when checking for properties.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 *
 	 * @param string $key Property to check if set.
 	 * @return bool Whether the property is set.
@@ -183,6 +193,7 @@ class WP_Network {
 	 * Allows current multisite naming conventions while setting properties.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 *
 	 * @param string $key   Property to set.
 	 * @param mixed  $value Value to assign to the property.
@@ -202,80 +213,10 @@ class WP_Network {
 	}
 
 	/**
-	 * Returns the main site ID for the network.
-	 *
-	 * Internal method used by the magic getter for the 'blog_id' and 'site_id'
-	 * properties.
-	 *
-	 * @since 4.9.0
-	 *
-	 * @return int The ID of the main site.
-	 */
-	private function get_main_site_id() {
-		/**
-		 * Filters the main site ID.
-		 *
-		 * Returning a positive integer will effectively short-circuit the function.
-		 *
-		 * @since 4.9.0
-		 *
-		 * @param int|null   $main_site_id If a positive integer is returned, it is interpreted as the main site ID.
-		 * @param WP_Network $network      The network object for which the main site was detected.
-		 */
-		$main_site_id = (int) apply_filters( 'pre_get_main_site_id', null, $this );
-		if ( 0 < $main_site_id ) {
-			return $main_site_id;
-		}
-
-		if ( 0 < (int) $this->blog_id ) {
-			return (int) $this->blog_id;
-		}
-
-		if ( ( defined( 'DOMAIN_CURRENT_SITE' ) && defined( 'PATH_CURRENT_SITE' ) && $this->domain === DOMAIN_CURRENT_SITE && $this->path === PATH_CURRENT_SITE )
-			|| ( defined( 'SITE_ID_CURRENT_SITE' ) && $this->id == SITE_ID_CURRENT_SITE ) ) {
-			if ( defined( 'BLOG_ID_CURRENT_SITE' ) ) {
-				$this->blog_id = (string) BLOG_ID_CURRENT_SITE;
-
-				return (int) $this->blog_id;
-			}
-
-			if ( defined( 'BLOGID_CURRENT_SITE' ) ) { // deprecated.
-				$this->blog_id = (string) BLOGID_CURRENT_SITE;
-
-				return (int) $this->blog_id;
-			}
-		}
-
-		$site = get_site();
-		if ( $site->domain === $this->domain && $site->path === $this->path ) {
-			$main_site_id = (int) $site->id;
-		} else {
-			$cache_key = 'network:' . $this->id . ':main_site';
-
-			$main_site_id = wp_cache_get( $cache_key, 'site-options' );
-			if ( false === $main_site_id ) {
-				$_sites = get_sites( array(
-					'fields'     => 'ids',
-					'number'     => 1,
-					'domain'     => $this->domain,
-					'path'       => $this->path,
-					'network_id' => $this->id,
-				) );
-				$main_site_id = ! empty( $_sites ) ? array_shift( $_sites ) : 0;
-
-				wp_cache_add( $cache_key, $main_site_id, 'site-options' );
-			}
-		}
-
-		$this->blog_id = (string) $main_site_id;
-
-		return (int) $this->blog_id;
-	}
-
-	/**
 	 * Set the site name assigned to the network if one has not been populated.
 	 *
 	 * @since 4.4.0
+	 * @access private
 	 */
 	private function _set_site_name() {
 		if ( ! empty( $this->site_name ) ) {
@@ -293,6 +234,7 @@ class WP_Network {
 	 * @todo What if the domain of the network doesn't match the current site?
 	 *
 	 * @since 4.4.0
+	 * @access private
 	 */
 	private function _set_cookie_domain() {
 		if ( ! empty( $this->cookie_domain ) ) {
@@ -316,6 +258,7 @@ class WP_Network {
 	 * requested site address.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @static
 	 *
 	 * @param string   $domain   Domain to check.
@@ -344,7 +287,7 @@ class WP_Network {
 		 * only domains, thus meaning paths never need to be considered.
 		 *
 		 * This is a very basic optimization; anything further could have
-		 * drawbacks depending on the setup, so this is best done per-installation.
+		 * drawbacks depending on the setup, so this is best done per-install.
 		 */
 		$using_paths = true;
 		if ( wp_using_ext_object_cache() ) {

@@ -25,6 +25,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 	 * Constructor.
 	 *
 	 * @since 3.1.0
+	 * @access public
 	 *
 	 * @see WP_List_Table::__construct() for more information on default arguments.
 	 *
@@ -71,6 +72,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 	}
 
 	/**
+	 * @access public
 	 */
 	public function prepare_items() {
 		$tags_per_page = $this->get_items_per_page( 'edit_' . $this->screen->taxonomy . '_per_page' );
@@ -137,6 +139,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 	}
 
 	/**
+	 * @access public
 	 */
 	public function no_items() {
 		echo get_taxonomy( $this->screen->taxonomy )->labels->not_found;
@@ -203,6 +206,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 	}
 
 	/**
+	 * @access public
 	 */
 	public function display_rows_or_placeholder() {
 		$taxonomy = $this->screen->taxonomy;
@@ -395,6 +399,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 	 * Gets the name of the default primary column.
 	 *
 	 * @since 4.3.0
+	 * @access protected
 	 *
 	 * @return string Name of the default primary column, in this case, 'name'.
 	 */
@@ -406,6 +411,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 	 * Generates and displays row action links.
 	 *
 	 * @since 4.3.0
+	 * @access protected
 	 *
 	 * @param WP_Term $tag         Tag being acted upon.
 	 * @param string  $column_name Current column name.
@@ -495,11 +501,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 	 * @return string
 	 */
 	public function column_description( $tag ) {
-		if ( $tag->description ) {
-			return $tag->description;
-		} else {
-			return '<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">' . __( 'No description' ) . '</span>';
-		}
+		return $tag->description;
 	}
 
 	/**
@@ -616,18 +618,16 @@ class WP_Terms_List_Table extends WP_List_Table {
 
 	?>
 
-		<div class="inline-edit-save submit">
+		<p class="inline-edit-save submit">
 			<button type="button" class="cancel button alignleft"><?php _e( 'Cancel' ); ?></button>
 			<button type="button" class="save button button-primary alignright"><?php echo $tax->labels->update_item; ?></button>
 			<span class="spinner"></span>
+			<span class="error" style="display:none;"></span>
 			<?php wp_nonce_field( 'taxinlineeditnonce', '_inline_edit', false ); ?>
 			<input type="hidden" name="taxonomy" value="<?php echo esc_attr( $this->screen->taxonomy ); ?>" />
 			<input type="hidden" name="post_type" value="<?php echo esc_attr( $this->screen->post_type ); ?>" />
 			<br class="clear" />
-			<div class="notice notice-error notice-alt inline hidden">
-				<p class="error"></p>
-			</div>
-		</div>
+		</p>
 		</td></tr>
 		</tbody></table></form>
 	<?php

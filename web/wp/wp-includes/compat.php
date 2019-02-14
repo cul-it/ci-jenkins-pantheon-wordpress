@@ -488,52 +488,93 @@ if ( ! function_exists( 'array_replace_recursive' ) ) :
 	}
 endif;
 
-/**
- * Polyfill for the SPL autoloader. In PHP 5.2 (but not 5.3 and later), SPL can
- * be disabled, and PHP 7.2 raises notices if the compiler finds an __autoload()
- * function declaration. Function availability is checked here, and the
- * autoloader is included only if necessary.
- */
-if ( ! function_exists( 'spl_autoload_register' ) ) {
-	require_once ABSPATH . WPINC . '/spl-autoload-compat.php';
-}
+// SPL can be disabled on PHP 5.2
+if ( ! function_exists( 'spl_autoload_register' ) ):
+	$_wp_spl_autoloaders = array();
 
-if ( ! function_exists( 'is_countable' ) ) {
 	/**
-	 * Polyfill for is_countable() function added in PHP 7.3.
+	 * Autoloader compatibility callback.
 	 *
-	 * Verify that the content of a variable is an array or an object
-	 * implementing the Countable interface.
+	 * @since 4.6.0
 	 *
-	 * @since 4.9.6
-	 *
-	 * @param mixed $var The value to check.
-	 *
-	 * @return bool True if `$var` is countable, false otherwise.
+	 * @param string $classname Class to attempt autoloading.
 	 */
-	function is_countable( $var ) {
-		return ( is_array( $var )
-			|| $var instanceof Countable
-			|| $var instanceof SimpleXMLElement
-			|| $var instanceof ResourceBundle
-		);
-	}
-}
+	function __autoload( $classname ) {
+		global $_wp_spl_autoloaders;
+		foreach ( $_wp_spl_autoloaders as $autoloader ) {
+			if ( ! is_callable( $autoloader ) ) {
+				// Avoid the extra warning if the autoloader isn't callable.
+				continue;
+			}
 
-if ( ! function_exists( 'is_iterable' ) ) {
-	/**
-	 * Polyfill for is_iterable() function added in PHP 7.1.
-	 *
-	 * Verify that the content of a variable is an array or an object
-	 * implementing the Traversable interface.
-	 *
-	 * @since 4.9.6
-	 *
-	 * @param mixed $var The value to check.
-	 *
-	 * @return bool True if `$var` is iterable, false otherwise.
-	 */
-	function is_iterable( $var ) {
-		return ( is_array( $var ) || $var instanceof Traversable );
+			call_user_func( $autoloader, $classname );
+
+			// If it has been autoloaded, stop processing.
+			if ( class_exists( $classname, false ) ) {
+				return;
+			}
+		}
 	}
-}
+
+	/**
+	 * Registers a function to be autoloaded.
+	 *
+	 * @since 4.6.0
+	 *
+	 * @param callable $autoload_function The function to register.
+	 * @param bool     $throw             Optional. Whether the function should throw an exception
+	 *                                    if the function isn't callable. Default true.
+	 * @param bool     $prepend           Whether the function should be prepended to the stack.
+	 *                                    Default false.
+	 */
+	function spl_autoload_register( $autoload_function, $throw = true, $prepend = false ) {
+		if ( $throw && ! is_callable( $autoload_function ) ) {
+			// String not translated to match PHP core.
+			throw new Exception( 'Function not callable' );
+		}
+
+		global $_wp_spl_autoloaders;
+
+		// Don't allow multiple registration.
+		if ( in_array( $autoload_function, $_wp_spl_autoloaders ) ) {
+			return;
+		}
+
+		if ( $prepend ) {
+			array_unshift( $_wp_spl_autoloaders, $autoload_function );
+		} else {
+			$_wp_spl_autoloaders[] = $autoload_function;
+		}
+	}
+
+	/**
+	 * Unregisters an autoloader function.
+	 *
+	 * @since 4.6.0
+	 *
+	 * @param callable $function The function to unregister.
+	 * @return bool True if the function was unregistered, false if it could not be.
+	 */
+	function spl_autoload_unregister( $function ) {
+		global $_wp_spl_autoloaders;
+		foreach ( $_wp_spl_autoloaders as &$autoloader ) {
+			if ( $autoloader === $function ) {
+				unset( $autoloader );
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	/**
+	 * Retrieves the registered autoloader functions.
+	 *
+	 * @since 4.6.0
+	 *
+	 * @return array List of autoloader functions.
+	 */
+	function spl_autoload_functions() {
+		return $GLOBALS['_wp_spl_autoloaders'];
+	}
+endif;

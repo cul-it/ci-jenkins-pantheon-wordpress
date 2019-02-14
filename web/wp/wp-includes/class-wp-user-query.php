@@ -20,6 +20,7 @@ class WP_User_Query {
 	 * Query vars, after parsing
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 * @var array
 	 */
 	public $query_vars = array();
@@ -28,6 +29,7 @@ class WP_User_Query {
 	 * List of found user ids
 	 *
 	 * @since 3.1.0
+	 * @access private
 	 * @var array
 	 */
 	private $results;
@@ -36,6 +38,7 @@ class WP_User_Query {
 	 * Total number of found users for the current query
 	 *
 	 * @since 3.1.0
+	 * @access private
 	 * @var int
 	 */
 	private $total_users = 0;
@@ -44,6 +47,7 @@ class WP_User_Query {
 	 * Metadata query container.
 	 *
 	 * @since 4.2.0
+	 * @access public
 	 * @var WP_Meta_Query
 	 */
 	public $meta_query = false;
@@ -52,6 +56,7 @@ class WP_User_Query {
 	 * The SQL query used to fetch matching users.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var string
 	 */
 	public $request;
@@ -83,6 +88,7 @@ class WP_User_Query {
 	 * Fills in missing query variables with default values.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @param array $args Query vars, as passed to `WP_User_Query`.
 	 * @return array Complete query variables with undefined ones filled in with defaults.
@@ -134,6 +140,7 @@ class WP_User_Query {
 	 * @since 4.7.0 Added 'nicename', 'nicename__in', 'nicename__not_in', 'login', 'login__in',
 	 *              and 'login__not_in' parameters.
 	 *
+	 * @access public
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 * @global int  $blog_id
@@ -515,9 +522,8 @@ class WP_User_Query {
 				$search = trim($search, '*');
 
 			$search_columns = array();
-			if ( $qv['search_columns'] ) {
-				$search_columns = array_intersect( $qv['search_columns'], array( 'ID', 'user_login', 'user_email', 'user_url', 'user_nicename', 'display_name' ) );
-			}
+			if ( $qv['search_columns'] )
+				$search_columns = array_intersect( $qv['search_columns'], array( 'ID', 'user_login', 'user_email', 'user_url', 'user_nicename' ) );
 			if ( ! $search_columns ) {
 				if ( false !== strpos( $search, '@') )
 					$search_columns = array('user_email');
@@ -630,6 +636,7 @@ class WP_User_Query {
 	 * Retrieve query variable.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param string $query_var Query variable key.
 	 * @return mixed
@@ -645,6 +652,7 @@ class WP_User_Query {
 	 * Set query variable.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param string $query_var Query variable key.
 	 * @param mixed $value Query variable value.
@@ -656,6 +664,7 @@ class WP_User_Query {
 	/**
 	 * Used internally to generate an SQL string for searching across multiple columns
 	 *
+	 * @access protected
 	 * @since 3.1.0
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
@@ -689,6 +698,7 @@ class WP_User_Query {
 	 * Return the list of users.
 	 *
 	 * @since 3.1.0
+	 * @access public
 	 *
 	 * @return array Array of results.
 	 */
@@ -700,6 +710,7 @@ class WP_User_Query {
 	 * Return the total number of users for the current query.
 	 *
 	 * @since 3.1.0
+	 * @access public
 	 *
 	 * @return int Number of total users.
 	 */
@@ -711,6 +722,7 @@ class WP_User_Query {
 	 * Parse and sanitize 'orderby' keys passed to the user query.
 	 *
 	 * @since 4.2.0
+	 * @access protected
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *
@@ -770,6 +782,7 @@ class WP_User_Query {
 	 * Parse an 'order' query variable and cast it to ASC or DESC as necessary.
 	 *
 	 * @since 4.2.0
+	 * @access protected
 	 *
 	 * @param string $order The 'order' query variable.
 	 * @return string The sanitized 'order' query variable.
@@ -790,6 +803,7 @@ class WP_User_Query {
 	 * Make private properties readable for backward compatibility.
 	 *
 	 * @since 4.0.0
+	 * @access public
 	 *
 	 * @param string $name Property to get.
 	 * @return mixed Property.
@@ -804,6 +818,7 @@ class WP_User_Query {
 	 * Make private properties settable for backward compatibility.
 	 *
 	 * @since 4.0.0
+	 * @access public
 	 *
 	 * @param string $name  Property to check if set.
 	 * @param mixed  $value Property value.
@@ -819,6 +834,7 @@ class WP_User_Query {
 	 * Make private properties checkable for backward compatibility.
 	 *
 	 * @since 4.0.0
+	 * @access public
 	 *
 	 * @param string $name Property to check if set.
 	 * @return bool Whether the property is set.
@@ -833,6 +849,7 @@ class WP_User_Query {
 	 * Make private properties un-settable for backward compatibility.
 	 *
 	 * @since 4.0.0
+	 * @access public
 	 *
 	 * @param string $name Property to unset.
 	 */
@@ -846,6 +863,7 @@ class WP_User_Query {
 	 * Make private/protected methods readable for backward compatibility.
 	 *
 	 * @since 4.0.0
+	 * @access public
 	 *
 	 * @param callable $name      Method to call.
 	 * @param array    $arguments Arguments to pass when calling.

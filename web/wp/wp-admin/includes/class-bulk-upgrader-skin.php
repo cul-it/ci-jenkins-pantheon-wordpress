@@ -34,6 +34,7 @@ class Bulk_Upgrader_Skin extends WP_Upgrader_Skin {
 	}
 
 	/**
+	 * @access public
 	 */
 	public function add_strings() {
 		$this->upgrader->strings['skin_upgrade_start'] = __('The update process is starting. This process may take a while on some hosts, so please be patient.');
@@ -47,7 +48,6 @@ class Bulk_Upgrader_Skin extends WP_Upgrader_Skin {
 	}
 
 	/**
-	 *
 	 * @param string $string
 	 */
 	public function feedback($string) {
@@ -72,12 +72,14 @@ class Bulk_Upgrader_Skin extends WP_Upgrader_Skin {
 	}
 
 	/**
+	 * @access public
 	 */
 	public function header() {
 		// Nothing, This will be displayed within a iframe.
 	}
 
 	/**
+	 * @access public
 	 */
 	public function footer() {
 		// Nothing, This will be displayed within a iframe.
@@ -105,12 +107,14 @@ class Bulk_Upgrader_Skin extends WP_Upgrader_Skin {
 	}
 
 	/**
+	 * @access public
 	 */
 	public function bulk_header() {
 		$this->feedback('skin_upgrade_start');
 	}
 
 	/**
+	 * @access public
 	 */
 	public function bulk_footer() {
 		$this->feedback('skin_upgrade_end');
@@ -160,6 +164,7 @@ class Bulk_Upgrader_Skin extends WP_Upgrader_Skin {
 	}
 
 	/**
+	 * @access public
 	 */
 	public function reset() {
 		$this->in_loop = false;
@@ -167,6 +172,7 @@ class Bulk_Upgrader_Skin extends WP_Upgrader_Skin {
 	}
 
 	/**
+	 * @access public
 	 */
 	public function flush_output() {
 		wp_ob_end_flush_all();

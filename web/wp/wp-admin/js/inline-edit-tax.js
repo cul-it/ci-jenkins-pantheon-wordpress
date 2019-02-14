@@ -196,8 +196,7 @@ inlineEditTax = {
 			 */
 			function(r) {
 				var row, new_id, option_value,
-					$errorNotice = $( '#edit-' + id + ' .inline-edit-save .notice-error' ),
-					$error = $errorNotice.find( '.error' );
+					$errorSpan = $( '#edit-' + id + ' .inline-edit-save .error' );
 
 				$( 'table.widefat .spinner' ).removeClass( 'is-active' );
 
@@ -226,17 +225,15 @@ inlineEditTax = {
 						});
 
 					} else {
-						$errorNotice.removeClass( 'hidden' );
-						$error.html( r );
+						$errorSpan.html( r ).show();
 						/*
 						 * Some error strings may contain HTML entities (e.g. `&#8220`), let's use
 						 * the HTML element's text.
 						 */
-						wp.a11y.speak( $error.text() );
+						wp.a11y.speak( $errorSpan.text() );
 					}
 				} else {
-					$errorNotice.removeClass( 'hidden' );
-					$error.html( inlineEditL10n.error );
+					$errorSpan.html( inlineEditL10n.error ).show();
 					wp.a11y.speak( inlineEditL10n.error );
 				}
 			}

@@ -20,6 +20,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Constructor.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 */
 	public function __construct() {
 		$this->namespace = 'wp/v2';
@@ -30,6 +31,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Registers the routes for the objects of the controller.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @see register_rest_route()
 	 */
@@ -68,6 +70,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Checks whether a given request has permission to read post statuses.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @param WP_REST_Request $request Full details about the request.
 	 * @return WP_Error|bool True if the request has read access, WP_Error object otherwise.
@@ -91,6 +94,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Retrieves all post statuses, depending on user context.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @param WP_REST_Request $request Full details about the request.
 	 * @return WP_Error|WP_REST_Response Response object on success, or WP_Error object on failure.
@@ -118,6 +122,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Checks if a given request has access to read a post status.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @param WP_REST_Request $request Full details about the request.
 	 * @return WP_Error|bool True if the request has read access for the item, WP_Error object otherwise.
@@ -142,6 +147,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Checks whether a given post status should be visible.
 	 *
 	 * @since 4.7.0
+	 * @access protected
 	 *
 	 * @param object $status Post status.
 	 * @return bool True if the post status is visible, otherwise false.
@@ -168,6 +174,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Retrieves a specific post status.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @param WP_REST_Request $request Full details about the request.
 	 * @return WP_Error|WP_REST_Response Response object on success, or WP_Error object on failure.
@@ -188,6 +195,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Prepares a post status object for serialization.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @param stdClass        $status  Post status data.
 	 * @param WP_REST_Request $request Full details about the request.
@@ -195,36 +203,15 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 */
 	public function prepare_item_for_response( $status, $request ) {
 
-		$fields = $this->get_fields_for_response( $request );
-		$data   = array();
-
-		if ( in_array( 'name', $fields, true ) ) {
-			$data['name'] = $status->label;
-		}
-
-		if ( in_array( 'private', $fields, true ) ) {
-			$data['private'] = (bool) $status->private;
-		}
-
-		if ( in_array( 'protected', $fields, true ) ) {
-			$data['protected'] = (bool) $status->protected;
-		}
-
-		if ( in_array( 'public', $fields, true ) ) {
-			$data['public'] = (bool) $status->public;
-		}
-
-		if ( in_array( 'queryable', $fields, true ) ) {
-			$data['queryable'] = (bool) $status->publicly_queryable;
-		}
-
-		if ( in_array( 'show_in_list', $fields, true ) ) {
-			$data['show_in_list'] = (bool) $status->show_in_admin_all_list;
-		}
-
-		if ( in_array( 'slug', $fields, true ) ) {
-			$data['slug'] = $status->name;
-		}
+		$data = array(
+			'name'         => $status->label,
+			'private'      => (bool) $status->private,
+			'protected'    => (bool) $status->protected,
+			'public'       => (bool) $status->public,
+			'queryable'    => (bool) $status->publicly_queryable,
+			'show_in_list' => (bool) $status->show_in_admin_all_list,
+			'slug'         => $status->name,
+		);
 
 		$context = ! empty( $request['context'] ) ? $request['context'] : 'view';
 		$data = $this->add_additional_fields_to_object( $data, $request );
@@ -256,12 +243,13 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Retrieves the post status' schema, conforming to JSON Schema.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @return array Item schema data.
 	 */
 	public function get_item_schema() {
 		$schema = array(
-			'$schema'              => 'http://json-schema.org/draft-04/schema#',
+			'$schema'              => 'http://json-schema.org/schema#',
 			'title'                => 'status',
 			'type'                 => 'object',
 			'properties'           => array(
@@ -317,6 +305,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 	 * Retrieves the query params for collections.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @return array Collection parameters.
 	 */

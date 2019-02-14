@@ -20,6 +20,7 @@ class WP_Customize_Sidebar_Section extends WP_Customize_Section {
 	 * Type of this section.
 	 *
 	 * @since 4.1.0
+	 * @access public
 	 * @var string
 	 */
 	public $type = 'sidebar';
@@ -28,6 +29,7 @@ class WP_Customize_Sidebar_Section extends WP_Customize_Section {
 	 * Unique identifier.
 	 *
 	 * @since 4.1.0
+	 * @access public
 	 * @var string
 	 */
 	public $sidebar_id;
@@ -49,6 +51,7 @@ class WP_Customize_Sidebar_Section extends WP_Customize_Section {
 	 * Whether the current sidebar is rendered on the page.
 	 *
 	 * @since 4.1.0
+	 * @access public
 	 *
 	 * @return bool Whether sidebar is rendered.
 	 */

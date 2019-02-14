@@ -88,7 +88,7 @@
 				}
 			}
 
-			event.content = wp.mce.views.setMarkers( event.content, editor );
+			event.content = wp.mce.views.setMarkers( event.content );
 		} );
 
 		// Replace any new markers nodes with views.
@@ -155,7 +155,7 @@
 		} );
 
 		editor.addButton( 'wp_view_edit', {
-			tooltip: 'Edit|button', // '|button' is not displayed, only used for context
+			tooltip: 'Edit ', // trailing space is needed, used for context
 			icon: 'dashicon dashicons-edit',
 			onclick: function() {
 				var node = editor.selection.getNode();
