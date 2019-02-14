@@ -19,6 +19,7 @@ class Walker_Nav_Menu extends Walker {
 	 * What the class handles.
 	 *
 	 * @since 3.0.0
+	 * @access public
 	 * @var string
 	 *
 	 * @see Walker::$tree_type
@@ -29,6 +30,7 @@ class Walker_Nav_Menu extends Walker {
 	 * Database fields to use.
 	 *
 	 * @since 3.0.0
+	 * @access public
 	 * @todo Decouple this.
 	 * @var array
 	 *
@@ -43,7 +45,7 @@ class Walker_Nav_Menu extends Walker {
 	 *
 	 * @see Walker::start_lvl()
 	 *
-	 * @param string   $output Used to append additional content (passed by reference).
+	 * @param string   $output Passed by reference. Used to append additional content.
 	 * @param int      $depth  Depth of menu item. Used for padding.
 	 * @param stdClass $args   An object of wp_nav_menu() arguments.
 	 */
@@ -72,7 +74,7 @@ class Walker_Nav_Menu extends Walker {
 		$class_names = join( ' ', apply_filters( 'nav_menu_submenu_css_class', $classes, $args, $depth ) );
 		$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
 
-		$output .= "{$n}{$indent}<ul$class_names>{$n}";
+		$output .= "{$n}{$indent}<ul $class_names>{$n}";
 	}
 
 	/**
@@ -82,7 +84,7 @@ class Walker_Nav_Menu extends Walker {
 	 *
 	 * @see Walker::end_lvl()
 	 *
-	 * @param string   $output Used to append additional content (passed by reference).
+	 * @param string   $output Passed by reference. Used to append additional content.
 	 * @param int      $depth  Depth of menu item. Used for padding.
 	 * @param stdClass $args   An object of wp_nav_menu() arguments.
 	 */
@@ -106,7 +108,7 @@ class Walker_Nav_Menu extends Walker {
 	 *
 	 * @see Walker::start_el()
 	 *
-	 * @param string   $output Used to append additional content (passed by reference).
+	 * @param string   $output Passed by reference. Used to append additional content.
 	 * @param WP_Post  $item   Menu item data object.
 	 * @param int      $depth  Depth of menu item. Used for padding.
 	 * @param stdClass $args   An object of wp_nav_menu() arguments.
@@ -245,7 +247,7 @@ class Walker_Nav_Menu extends Walker {
 	 *
 	 * @see Walker::end_el()
 	 *
-	 * @param string   $output Used to append additional content (passed by reference).
+	 * @param string   $output Passed by reference. Used to append additional content.
 	 * @param WP_Post  $item   Page data object. Not used.
 	 * @param int      $depth  Depth of page. Not Used.
 	 * @param stdClass $args   An object of wp_nav_menu() arguments.

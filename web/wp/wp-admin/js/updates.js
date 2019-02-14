@@ -183,11 +183,7 @@
 		if ( $notice.length ) {
 			$notice.replaceWith( $adminNotice );
 		} else {
-			if ( 'customize' === pagenow ) {
-				$( '.customize-themes-notifications' ).append( $adminNotice );
-			} else {
-				$( '.wrap' ).find( '> h1' ).after( $adminNotice );
-			}
+			$( '.wrap' ).find( '> h1' ).after( $adminNotice );
 		}
 
 		$document.trigger( 'wp-updates-notice-added' );
@@ -585,15 +581,9 @@
 
 		$message
 			.removeClass( 'updating-message' )
-			.addClass( 'updated-message installed' )
+			.addClass( 'updated-message installed button-disabled' )
 			.attr( 'aria-label', wp.updates.l10n.pluginInstalledLabel.replace( '%s', response.pluginName ) )
 			.text( wp.updates.l10n.pluginInstalled );
-
-		if ( $message.hasClass( 'button-primary' ) ) {
-			$message.addClass( 'button-primary-disabled' );
-		} else {
-			$message.addClass( 'button-disabled' );
-		}
 
 		wp.a11y.speak( wp.updates.l10n.installedMsg, 'polite' );
 
@@ -603,11 +593,10 @@
 			setTimeout( function() {
 
 				// Transform the 'Install' button into an 'Activate' button.
-				$message.removeClass( 'install-now installed button-primary-disabled button-secondary-disabled button-disabled updated-message' )
-					.addClass( 'activate-now' )
+				$message.removeClass( 'install-now installed button-disabled updated-message' ).addClass( 'activate-now button-primary' )
 					.attr( 'href', response.activateUrl )
 					.attr( 'aria-label', wp.updates.l10n.activatePluginLabel.replace( '%s', response.pluginName ) )
-					.text( response.activateLabel || wp.updates.l10n.activatePlugin );
+					.text( wp.updates.l10n.activatePlugin );
 			}, 1000 );
 		}
 	};
@@ -941,17 +930,6 @@
 		if ( 'themes-network' === pagenow ) {
 			$notice = $( '[data-slug="' + args.slug + '"]' ).find( '.update-message' ).removeClass( 'notice-error' ).addClass( 'updating-message notice-warning' ).find( 'p' );
 
-		} else if ( 'customize' === pagenow ) {
-
-			// Update the theme details UI.
-			$notice = $( '[data-slug="' + args.slug + '"].notice' ).removeClass( 'notice-large' );
-
-			$notice.find( 'h3' ).remove();
-
-			// Add the top-level UI, and update both.
-			$notice = $notice.add( $( '#customize-control-installed_theme_' + args.slug ).find( '.update-message' ) );
-			$notice = $notice.addClass( 'updating-message' ).find( 'p' );
-
 		} else {
 			$notice = $( '#update-theme' ).closest( '.notice' ).removeClass( 'notice-large' );
 
@@ -994,18 +972,7 @@
 			},
 			$notice, newText;
 
-		if ( 'customize' === pagenow ) {
-			$theme = $( '.updating-message' ).siblings( '.theme-name' );
-
-			if ( $theme.length ) {
-
-				// Update the version number in the row.
-				newText = $theme.html().replace( response.oldVersion, response.newVersion );
-				$theme.html( newText );
-			}
-
-			$notice = $( '.theme-info .notice' ).add( wp.customize.control( 'installed_theme_' + response.slug ).container.find( '.theme' ).find( '.update-message' ) );
-		} else if ( 'themes-network' === pagenow ) {
+		if ( 'themes-network' === pagenow ) {
 			$notice = $theme.find( '.update-message' );
 
 			// Update the version number in the row.
@@ -1030,7 +997,7 @@
 		$document.trigger( 'wp-theme-update-success', response );
 
 		// Show updated message after modal re-rendered.
-		if ( isModalOpen && 'customize' !== pagenow ) {
+		if ( isModalOpen ) {
 			$( '.theme-info .theme-author' ).after( wp.updates.adminNotice( updatedMessage ) );
 		}
 	};
@@ -1057,10 +1024,6 @@
 
 		if ( wp.updates.maybeHandleCredentialError( response, 'update-theme' ) ) {
 			return;
-		}
-
-		if ( 'customize' === pagenow ) {
-			$theme = wp.customize.control( 'installed_theme_' + response.slug ).container.find( '.theme' );
 		}
 
 		if ( 'themes-network' === pagenow ) {
@@ -1199,23 +1162,12 @@
 			return;
 		}
 
-		if ( 'customize' === pagenow ) {
-			if ( $document.find( 'body' ).hasClass( 'modal-open' ) ) {
-				$button = $( '.theme-install[data-slug="' + response.slug + '"]' );
-				$card   = $( '.theme-overlay .theme-info' ).prepend( $message );
-			} else {
-				$button = $( '.theme-install[data-slug="' + response.slug + '"]' );
-				$card   = $button.closest( '.theme' ).addClass( 'theme-install-failed' ).append( $message );
-			}
-			wp.customize.notifications.remove( 'theme_installing' );
+		if ( $document.find( 'body' ).hasClass( 'full-overlay-active' ) ) {
+			$button = $( '.theme-install[data-slug="' + response.slug + '"]' );
+			$card   = $( '.install-theme-info' ).prepend( $message );
 		} else {
-			if ( $document.find( 'body' ).hasClass( 'full-overlay-active' ) ) {
-				$button = $( '.theme-install[data-slug="' + response.slug + '"]' );
-				$card   = $( '.install-theme-info' ).prepend( $message );
-			} else {
-				$card   = $( '[data-slug="' + response.slug + '"]' ).removeClass( 'focus' ).addClass( 'theme-install-failed' ).append( $message );
-				$button = $card.find( '.theme-install' );
-			}
+			$card   = $( '[data-slug="' + response.slug + '"]' ).removeClass( 'focus' ).addClass( 'theme-install-failed' ).append( $message );
+			$button = $card.find( '.theme-install' );
 		}
 
 		$button
@@ -2044,7 +1996,7 @@
 		 *
 		 * @param {Event} event Event interface.
 		 */
-		$bulkActionForm.on( 'click', '[type="submit"]:not([name="clear-recent-list"])', function( event ) {
+		$bulkActionForm.on( 'click', '[type="submit"]', function( event ) {
 			var bulkAction    = $( event.target ).siblings( 'select' ).val(),
 				itemsSelected = $bulkActionForm.find( 'input[name="checked[]"]:checked' ),
 				success       = 0,
@@ -2339,16 +2291,6 @@
 			$( 'input.wp-filter-search' ).trigger( 'input' );
 		} );
 
-		/** 
-		 * Trigger a search event when the "Try Again" button is clicked. 
-		 * 
-		 * @since 4.9.0
-		 */ 
-		$document.on( 'click', '.try-again', function( event ) { 
-			event.preventDefault(); 
-			$pluginInstallSearch.trigger( 'input' ); 
-		} );
-
 		/**
 		 * Trigger a search event when the search type gets changed.
 		 *
@@ -2444,7 +2386,7 @@
 				return;
 			}
 
-			if ( ! message || 'undefined' === typeof message.action ) {
+			if ( 'undefined' === typeof message.action ) {
 				return;
 			}
 

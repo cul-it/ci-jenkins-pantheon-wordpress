@@ -33,6 +33,7 @@ class WP_Metadata_Lazyloader {
 	 * Pending objects queue.
 	 *
 	 * @since 4.5.0
+	 * @access protected
 	 * @var array
 	 */
 	protected $pending_objects;
@@ -41,6 +42,7 @@ class WP_Metadata_Lazyloader {
 	 * Settings for supported object types.
 	 *
 	 * @since 4.5.0
+	 * @access protected
 	 * @var array
 	 */
 	protected $settings = array();
@@ -49,6 +51,7 @@ class WP_Metadata_Lazyloader {
 	 * Constructor.
 	 *
 	 * @since 4.5.0
+	 * @access public
 	 */
 	public function __construct() {
 		$this->settings = array(
@@ -67,6 +70,7 @@ class WP_Metadata_Lazyloader {
 	 * Adds objects to the metadata lazy-load queue.
 	 *
 	 * @since 4.5.0
+	 * @access public
 	 *
 	 * @param string $object_type Type of object whose meta is to be lazy-loaded. Accepts 'term' or 'comment'.
 	 * @param array  $object_ids  Array of object IDs.
@@ -108,6 +112,7 @@ class WP_Metadata_Lazyloader {
 	 * Resets lazy-load queue for a given object type.
 	 *
 	 * @since 4.5.0
+	 * @access public
 	 *
 	 * @param string $object_type Object type. Accepts 'comment' or 'term'.
 	 * @return bool|WP_Error True on success, WP_Error on failure.
@@ -130,6 +135,7 @@ class WP_Metadata_Lazyloader {
 	 * is no need to invoke it directly.
 	 *
 	 * @since 4.5.0
+	 * @access public
 	 *
 	 * @param mixed $check The `$check` param passed from the 'get_term_metadata' hook.
 	 * @return mixed In order not to short-circuit `get_metadata()`. Generally, this is `null`, but it could be

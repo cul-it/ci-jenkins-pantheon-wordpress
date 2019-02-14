@@ -20,6 +20,7 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 	 * Constructor.
 	 *
 	 * @since  4.8.0
+	 * @access public
 	 */
 	public function __construct() {
 		parent::__construct( 'media_image', __( 'Image' ), array(
@@ -33,11 +34,11 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 			'replace_media' => _x( 'Replace Image', 'label for button in the image widget; should preferably not be longer than ~13 characters long' ),
 			'edit_media' => _x( 'Edit Image', 'label for button in the image widget; should preferably not be longer than ~13 characters long' ),
 			'missing_attachment' => sprintf(
-				/* translators: %s: URL to media library */
+				/* translators: placeholder is URL to media library */
 				__( 'We can&#8217;t find that image. Check your <a href="%s">media library</a> and make sure it wasn&#8217;t deleted.' ),
 				esc_url( admin_url( 'upload.php' ) )
 			),
-			/* translators: %d: widget count */
+			/* translators: %d is widget count */
 			'media_library_state_multi' => _n_noop( 'Image Widget (%d)', 'Image Widget (%d)' ),
 			'media_library_state_single' => __( 'Image Widget' ),
 		) );
@@ -47,6 +48,7 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 	 * Get schema for properties of a widget instance (item).
 	 *
 	 * @since  4.8.0
+	 * @access public
 	 *
 	 * @see WP_REST_Controller::get_item_schema()
 	 * @see WP_REST_Controller::get_additional_fields()
@@ -92,10 +94,10 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 				'link_type' => array(
 					'type' => 'string',
 					'enum' => array( 'none', 'file', 'post', 'custom' ),
-					'default' => 'custom',
+					'default' => 'none',
 					'media_prop' => 'link',
 					'description' => __( 'Link To' ),
-					'should_preview_update' => true,
+					'should_preview_update' => false,
 				),
 				'link_url' => array(
 					'type' => 'string',
@@ -103,7 +105,7 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 					'format' => 'uri',
 					'media_prop' => 'linkUrl',
 					'description' => __( 'URL' ),
-					'should_preview_update' => true,
+					'should_preview_update' => false,
 				),
 				'image_classes' => array(
 					'type' => 'string',
@@ -162,6 +164,7 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 	 * Render the media on the frontend.
 	 *
 	 * @since  4.8.0
+	 * @access public
 	 *
 	 * @param array $instance Widget instance props.
 	 * @return void
@@ -177,10 +180,8 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 			$attachment = get_post( $instance['attachment_id'] );
 		}
 		if ( $attachment ) {
-			$caption = '';
-			if ( ! isset( $instance['caption'] ) ) {
-				$caption = $attachment->post_excerpt;
-			} elseif ( trim( $instance['caption'] ) ) {
+			$caption = $attachment->post_excerpt;
+			if ( $instance['caption'] ) {
 				$caption = $instance['caption'];
 			}
 
@@ -242,20 +243,14 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 		}
 
 		if ( $url ) {
-			$link = sprintf( '<a href="%s"', esc_url( $url ) );
-			if ( ! empty( $instance['link_classes'] ) ) {
-				$link .= sprintf( ' class="%s"', esc_attr( $instance['link_classes'] ) );
-			}
-			if ( ! empty( $instance['link_rel'] ) ) {
-				$link .= sprintf( ' rel="%s"', esc_attr( $instance['link_rel'] ) );
-			}
-			if ( ! empty( $instance['link_target_blank'] ) ) {
-				$link .= ' target="_blank"';
-			}
-			$link .= '>';
-			$link .= $image;
-			$link .= '</a>';
-			$image = $link;
+			$image = sprintf(
+				'<a href="%1$s" class="%2$s" rel="%3$s" target="%4$s">%5$s</a>',
+				esc_url( $url ),
+				esc_attr( $instance['link_classes'] ),
+				esc_attr( $instance['link_rel'] ),
+				! empty( $instance['link_target_blank'] ) ? '_blank' : '',
+				$image
+			);
 		}
 
 		if ( $caption ) {
@@ -272,6 +267,7 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 	 * Loads the required media files for the media manager and scripts for media widgets.
 	 *
 	 * @since 4.8.0
+	 * @access public
 	 */
 	public function enqueue_admin_scripts() {
 		parent::enqueue_admin_scripts();
@@ -310,22 +306,16 @@ class WP_Widget_Media_Image extends WP_Widget_Media {
 	 * Render form template scripts.
 	 *
 	 * @since 4.8.0
+	 * @access public
 	 */
 	public function render_control_template_scripts() {
 		parent::render_control_template_scripts();
 
 		?>
-		<script type="text/html" id="tmpl-wp-media-widget-image-fields">
-			<# var elementIdPrefix = 'el' + String( Math.random() ) + '_'; #>
-			<# if ( data.url ) { #>
-			<p class="media-widget-image-link">
-				<label for="{{ elementIdPrefix }}linkUrl"><?php esc_html_e( 'Link to:' ); ?></label>
-				<input id="{{ elementIdPrefix }}linkUrl" type="text" class="widefat link" value="{{ data.link_url }}" placeholder="http://" pattern="((\w+:)?\/\/\w.*|\w+:(?!\/\/$)|\/|\?|#).*">
-			</p>
-			<# } #>
-		</script>
 		<script type="text/html" id="tmpl-wp-media-widget-image-preview">
-			<# var describedById = 'describedBy-' + String( Math.random() ); #>
+			<#
+			var describedById = 'describedBy-' + String( Math.random() );
+			#>
 			<# if ( data.error && 'missing_attachment' === data.error ) { #>
 				<div class="notice notice-error notice-alt notice-missing-attachment">
 					<p><?php echo $this->l10n['missing_attachment']; ?></p>

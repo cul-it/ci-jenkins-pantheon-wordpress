@@ -231,13 +231,14 @@ function wp_image_editor($post_id, $msg = false) {
 
 /**
  * Streams image in WP_Image_Editor to browser.
+ * Provided for backcompat reasons
  *
- * @param WP_Image_Editor $image         The image editor instance.
- * @param string          $mime_type     The mime type of the image.
- * @param int             $attachment_id The image's attachment post ID.
- * @return bool True on success, false on failure.
+ * @param WP_Image_Editor $image
+ * @param string $mime_type
+ * @param int $post_id
+ * @return bool
  */
-function wp_stream_image( $image, $mime_type, $attachment_id ) {
+function wp_stream_image( $image, $mime_type, $post_id ) {
 	if ( $image instanceof WP_Image_Editor ) {
 
 		/**
@@ -245,10 +246,10 @@ function wp_stream_image( $image, $mime_type, $attachment_id ) {
 		 *
 		 * @since 3.5.0
 		 *
-		 * @param WP_Image_Editor $image         The image editor instance.
-		 * @param int             $attachment_id The attachment post ID.
+		 * @param WP_Image_Editor $image   WP_Image_Editor instance.
+		 * @param int             $post_id Post ID.
 		 */
-		$image = apply_filters( 'image_editor_save_pre', $image, $attachment_id );
+		$image = apply_filters( 'image_editor_save_pre', $image, $post_id );
 
 		if ( is_wp_error( $image->stream( $mime_type ) ) )
 			return false;
@@ -263,10 +264,10 @@ function wp_stream_image( $image, $mime_type, $attachment_id ) {
 		 * @since 2.9.0
 		 * @deprecated 3.5.0 Use image_editor_save_pre instead.
 		 *
-		 * @param resource $image         Image resource to be streamed.
-		 * @param int      $attachment_id The attachment post ID.
+		 * @param resource $image   Image resource to be streamed.
+		 * @param int      $post_id Post ID.
 		 */
-		$image = apply_filters( 'image_save_pre', $image, $attachment_id );
+		$image = apply_filters( 'image_save_pre', $image, $post_id );
 
 		switch ( $mime_type ) {
 			case 'image/jpeg':
@@ -379,8 +380,6 @@ function _image_get_preview_ratio($w, $h) {
  * Returns an image resource. Internal use only.
  *
  * @since 2.9.0
- * @deprecated 3.5.0 Use WP_Image_Editor::rotate()
- * @see WP_Image_Editor::rotate()
  *
  * @ignore
  * @param resource  $img   Image resource.
@@ -403,8 +402,6 @@ function _rotate_image_resource($img, $angle) {
  * Flips an image resource. Internal use only.
  *
  * @since 2.9.0
- * @deprecated 3.5.0 Use WP_Image_Editor::flip()
- * @see WP_Image_Editor::flip()
  *
  * @ignore
  * @param resource $img  Image resource.

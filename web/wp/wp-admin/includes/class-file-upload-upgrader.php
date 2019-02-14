@@ -22,6 +22,7 @@ class File_Upload_Upgrader {
 	 * The full path to the file package.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 * @var string $package
 	 */
 	public $package;
@@ -30,6 +31,7 @@ class File_Upload_Upgrader {
 	 * The name of the file.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 * @var string $filename
 	 */
 	public $filename;
@@ -38,6 +40,7 @@ class File_Upload_Upgrader {
 	 * The ID of the attachment post for this file.
 	 *
 	 * @since 3.3.0
+	 * @access public
 	 * @var int $id
 	 */
 	public $id = 0;
@@ -46,6 +49,7 @@ class File_Upload_Upgrader {
 	 * Construct the upgrader for a form.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 *
 	 * @param string $form      The name of the form the file was uploaded from.
 	 * @param string $urlholder The name of the `GET` parameter that holds the filename.
@@ -79,7 +83,7 @@ class File_Upload_Upgrader {
 			// Save the data.
 			$this->id = wp_insert_attachment( $object, $file['file'] );
 
-			// Schedule a cleanup for 2 hours from now in case of failed installation.
+			// Schedule a cleanup for 2 hours from now in case of failed install.
 			wp_schedule_single_event( time() + 2 * HOUR_IN_SECONDS, 'upgrader_scheduled_cleanup', array( $this->id ) );
 
 		} elseif ( is_numeric( $_GET[$urlholder] ) ) {
@@ -109,6 +113,7 @@ class File_Upload_Upgrader {
 	 * Delete the attachment/uploaded file.
 	 *
 	 * @since 3.2.2
+	 * @access public
 	 *
 	 * @return bool Whether the cleanup was successful.
 	 */

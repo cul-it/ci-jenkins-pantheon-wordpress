@@ -285,7 +285,7 @@ table.fixed td {
 	width: 29%;
 }
 
-.inline-edit-row .submit {
+.inline-edit-row p.submit {
 	zoom: 100%;
 }
 
@@ -441,7 +441,7 @@ div#dashboard-widgets {
 	padding-right: 1px;
 }
 
-.tagchecklist > li, .tagchecklist .ntdelbutton {
+.tagchecklist > span, .tagchecklist .ntdelbutton {
 	display: inline-block;
 	display: block;
 }

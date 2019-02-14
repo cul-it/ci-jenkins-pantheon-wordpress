@@ -4,8 +4,7 @@ wp.textWidgets = ( function( $ ) {
 	'use strict';
 
 	var component = {
-		dismissedPointers: [],
-		idBases: [ 'text' ]
+		dismissedPointers: []
 	};
 
 	/**
@@ -165,10 +164,9 @@ wp.textWidgets = ( function( $ ) {
 		 * @returns {void}
 		 */
 		initializeEditor: function initializeEditor() {
-			var control = this, changeDebounceDelay = 1000, id, textarea, triggerChangeIfDirty, restoreTextMode = false, needsTextareaChangeTrigger = false, previousValue;
+			var control = this, changeDebounceDelay = 1000, id, textarea, triggerChangeIfDirty, restoreTextMode = false, needsTextareaChangeTrigger = false;
 			textarea = control.fields.text;
 			id = textarea.attr( 'id' );
-			previousValue = textarea.val();
 
 			/**
 			 * Trigger change if dirty.
@@ -181,7 +179,7 @@ wp.textWidgets = ( function( $ ) {
 
 					/*
 					 * Account for race condition in customizer where user clicks Save & Publish while
-					 * focus was just previously given to the editor. Since updates to the editor
+					 * focus was just previously given to to the editor. Since updates to the editor
 					 * are debounced at 1 second and since widget input changes are only synced to
 					 * settings after 250ms, the customizer needs to be put into the processing
 					 * state during the time between the change event is triggered and updateWidget
@@ -203,11 +201,10 @@ wp.textWidgets = ( function( $ ) {
 					}
 				}
 
-				// Trigger change on textarea when it has changed so the widget can enter a dirty state.
-				if ( needsTextareaChangeTrigger && previousValue !== textarea.val() ) {
+				// Trigger change on textarea when it is dirty for sake of widgets in the Customizer needing to sync form inputs to setting models.
+				if ( needsTextareaChangeTrigger ) {
 					textarea.trigger( 'change' );
 					needsTextareaChangeTrigger = false;
-					previousValue = textarea.val();
 				}
 			};
 
@@ -232,8 +229,7 @@ wp.textWidgets = ( function( $ ) {
 				// The user has disabled TinyMCE.
 				if ( typeof window.tinymce === 'undefined' ) {
 					wp.editor.initialize( id, {
-						quicktags: true,
-						mediaButtons: true
+						quicktags: true
 					});
 
 					return;
@@ -245,23 +241,11 @@ wp.textWidgets = ( function( $ ) {
 					wp.editor.remove( id );
 				}
 
-				// Add or enable the `wpview` plugin.
-				$( document ).one( 'wp-before-tinymce-init.text-widget-init', function( event, init ) {
-					// If somebody has removed all plugins, they must have a good reason.
-					// Keep it that way.
-					if ( ! init.plugins ) {
-						return;
-					} else if ( ! /\bwpview\b/.test( init.plugins ) ) {
-						init.plugins += ',wpview';
-					}
-				} );
-
 				wp.editor.initialize( id, {
 					tinymce: {
 						wpautop: true
 					},
-					quicktags: true,
-					mediaButtons: true
+					quicktags: true
 				});
 
 				/**
@@ -369,11 +353,11 @@ wp.textWidgets = ( function( $ ) {
 	 * @returns {void}
 	 */
 	component.handleWidgetAdded = function handleWidgetAdded( event, widgetContainer ) {
-		var widgetForm, idBase, widgetControl, widgetId, animatedCheckDelay = 50, renderWhenAnimationDone, fieldContainer, syncContainer;
+		var widgetForm, idBase, widgetControl, widgetId, animatedCheckDelay = 50, widgetInside, renderWhenAnimationDone, fieldContainer, syncContainer;
 		widgetForm = widgetContainer.find( '> .widget-inside > .form, > .widget-inside > form' ); // Note: '.form' appears in the customizer, whereas 'form' on the widgets admin screen.
 
 		idBase = widgetForm.find( '> .id_base' ).val();
-		if ( -1 === component.idBases.indexOf( idBase ) ) {
+		if ( 'text' !== idBase ) {
 			return;
 		}
 
@@ -390,7 +374,7 @@ wp.textWidgets = ( function( $ ) {
 
 		/*
 		 * Create a container element for the widget control fields.
-		 * This is inserted into the DOM immediately before the .widget-content
+		 * This is inserted into the DOM immediately before the the .widget-content
 		 * element because the contents of this element are essentially "managed"
 		 * by PHP, where each widget update cause the entire element to be emptied
 		 * and replaced with the rendered output of WP_Widget::form() which is
@@ -416,8 +400,9 @@ wp.textWidgets = ( function( $ ) {
 		 * This ensures that the textarea is visible and an iframe can be embedded
 		 * with TinyMCE being able to set contenteditable on it.
 		 */
+		widgetInside = widgetContainer.parent();
 		renderWhenAnimationDone = function() {
-			if ( ! widgetContainer.hasClass( 'open' ) ) {
+			if ( widgetInside.is( ':animated' ) ) {
 				setTimeout( renderWhenAnimationDone, animatedCheckDelay );
 			} else {
 				widgetControl.initializeEditor();
@@ -439,7 +424,7 @@ wp.textWidgets = ( function( $ ) {
 		}
 
 		idBase = widgetForm.find( '> .widget-control-actions > .id_base' ).val();
-		if ( -1 === component.idBases.indexOf( idBase ) ) {
+		if ( 'text' !== idBase ) {
 			return;
 		}
 
@@ -476,7 +461,7 @@ wp.textWidgets = ( function( $ ) {
 		widgetForm = widgetContainer.find( '> .widget-inside > .form, > .widget-inside > form' );
 
 		idBase = widgetForm.find( '> .id_base' ).val();
-		if ( -1 === component.idBases.indexOf( idBase ) ) {
+		if ( 'text' !== idBase ) {
 			return;
 		}
 

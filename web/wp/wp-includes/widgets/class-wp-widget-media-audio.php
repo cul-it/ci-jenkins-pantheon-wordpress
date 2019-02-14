@@ -20,6 +20,7 @@ class WP_Widget_Media_Audio extends WP_Widget_Media {
 	 * Constructor.
 	 *
 	 * @since  4.8.0
+	 * @access public
 	 */
 	public function __construct() {
 		parent::__construct( 'media_audio', __( 'Audio' ), array(
@@ -33,11 +34,11 @@ class WP_Widget_Media_Audio extends WP_Widget_Media {
 			'replace_media' => _x( 'Replace Audio', 'label for button in the audio widget; should preferably not be longer than ~13 characters long' ),
 			'edit_media' => _x( 'Edit Audio', 'label for button in the audio widget; should preferably not be longer than ~13 characters long' ),
 			'missing_attachment' => sprintf(
-				/* translators: %s: URL to media library */
+				/* translators: placeholder is URL to media library */
 				__( 'We can&#8217;t find that audio file. Check your <a href="%s">media library</a> and make sure it wasn&#8217;t deleted.' ),
 				esc_url( admin_url( 'upload.php' ) )
 			),
-			/* translators: %d: widget count */
+			/* translators: %d is widget count */
 			'media_library_state_multi' => _n_noop( 'Audio Widget (%d)', 'Audio Widget (%d)' ),
 			'media_library_state_single' => __( 'Audio Widget' ),
 			'unsupported_file_type' => __( 'Looks like this isn&#8217;t the correct kind of file. Please link to an audio file instead.' ),
@@ -48,6 +49,7 @@ class WP_Widget_Media_Audio extends WP_Widget_Media {
 	 * Get schema for properties of a widget instance (item).
 	 *
 	 * @since  4.8.0
+	 * @access public
 	 *
 	 * @see WP_REST_Controller::get_item_schema()
 	 * @see WP_REST_Controller::get_additional_fields()
@@ -77,7 +79,7 @@ class WP_Widget_Media_Audio extends WP_Widget_Media {
 				'type' => 'string',
 				'default' => '',
 				'format' => 'uri',
-				/* translators: %s: audio extension */
+				/* translators: placeholder is audio extension */
 				'description' => sprintf( __( 'URL to the %s audio source file' ), $audio_extension ),
 			);
 		}
@@ -89,6 +91,7 @@ class WP_Widget_Media_Audio extends WP_Widget_Media {
 	 * Render the media on the frontend.
 	 *
 	 * @since  4.8.0
+	 * @access public
 	 *
 	 * @param array $instance Widget instance props.
 	 * @return void
@@ -124,6 +127,7 @@ class WP_Widget_Media_Audio extends WP_Widget_Media {
 	 * case a widget does get added.
 	 *
 	 * @since 4.8.0
+	 * @access public
 	 */
 	public function enqueue_preview_scripts() {
 		/** This filter is documented in wp-includes/media.php */
@@ -137,6 +141,7 @@ class WP_Widget_Media_Audio extends WP_Widget_Media {
 	 * Loads the required media files for the media manager and scripts for media widgets.
 	 *
 	 * @since 4.8.0
+	 * @access public
 	 */
 	public function enqueue_admin_scripts() {
 		parent::enqueue_admin_scripts();
@@ -178,6 +183,7 @@ class WP_Widget_Media_Audio extends WP_Widget_Media {
 	 * Render form template scripts.
 	 *
 	 * @since 4.8.0
+	 * @access public
 	 */
 	public function render_control_template_scripts() {
 		parent::render_control_template_scripts()

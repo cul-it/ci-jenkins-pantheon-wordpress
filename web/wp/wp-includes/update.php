@@ -97,30 +97,6 @@ function wp_version_check( $extra_stats = array(), $force_check = false ) {
 		'initial_db_version' => get_site_option( 'initial_db_version' ),
 	);
 
-	/**
-	 * Filter the query arguments sent as part of the core version check.
-	 *
-	 * WARNING: Changing this data may result in your site not receiving security updates.
-	 * Please exercise extreme caution.
-	 *
-	 * @since 4.9.0
-	 *
-	 * @param array $query {
-	 *     Version check query arguments. 
-	 *
-	 *     @type string $version            WordPress version number.
-	 *     @type string $php                PHP version number.
-	 *     @type string $locale             The locale to retrieve updates for.
-	 *     @type string $mysql              MySQL version number.
-	 *     @type string $local_package      The value of the $wp_local_package global, when set.
-	 *     @type int    $blogs              Number of sites on this WordPress installation.
-	 *     @type int    $users              Number of users on this WordPress installation.
-	 *     @type int    $multisite_enabled  Whether this WordPress installation uses Multisite.
-	 *     @type int    $initial_db_version Database version of WordPress at time of installation.
-	 * }
-	 */
-	$query = apply_filters( 'core_version_check_query_args', $query );
-
 	$post_body = array(
 		'translations' => wp_json_encode( $translations ),
 	);
@@ -259,7 +235,7 @@ function wp_update_plugins( $extra_stats = array() ) {
 			break;
 		default :
 			if ( $doing_cron ) {
-				$timeout = 2 * HOUR_IN_SECONDS;
+				$timeout = 0;
 			} else {
 				$timeout = 12 * HOUR_IN_SECONDS;
 			}
@@ -325,7 +301,7 @@ function wp_update_plugins( $extra_stats = array() ) {
 			'locale'       => wp_json_encode( $locales ),
 			'all'          => wp_json_encode( true ),
 		),
-		'user-agent' => 'WordPress/' . $wp_version . '; ' . home_url( '/' )
+		'user-agent' => 'WordPress/' . $wp_version . '; ' . get_bloginfo( 'url' )
 	);
 
 	if ( $extra_stats ) {
@@ -443,11 +419,7 @@ function wp_update_themes( $extra_stats = array() ) {
 			$timeout = HOUR_IN_SECONDS;
 			break;
 		default :
-			if ( $doing_cron ) {
-				$timeout = 2 * HOUR_IN_SECONDS;
-			} else {
-				$timeout = 12 * HOUR_IN_SECONDS;
-			}
+			$timeout = $doing_cron ? 0 : 12 * HOUR_IN_SECONDS;
 	}
 
 	$time_not_changed = isset( $last_update->last_checked ) && $timeout > ( time() - $last_update->last_checked );
@@ -507,7 +479,7 @@ function wp_update_themes( $extra_stats = array() ) {
 			'translations' => wp_json_encode( $translations ),
 			'locale'       => wp_json_encode( $locales ),
 		),
-		'user-agent'	=> 'WordPress/' . $wp_version . '; ' . home_url( '/' )
+		'user-agent'	=> 'WordPress/' . $wp_version . '; ' . get_bloginfo( 'url' )
 	);
 
 	if ( $extra_stats ) {

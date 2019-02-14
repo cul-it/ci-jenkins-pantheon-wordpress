@@ -87,7 +87,7 @@ function _pantheon_session_read( $sid ) {
  *
  * @param $sid The session ID of the session to write to.
  * @param $value Session data to write as a serialized string.
- * @return boolean
+ * @return true
  */
 function _pantheon_session_write( $sid, $value ) {
 
@@ -95,11 +95,6 @@ function _pantheon_session_write( $sid, $value ) {
 
 	if ( ! $session ) {
 		$session = \Pantheon_Sessions\Session::create_for_sid( $sid );
-	}
-
-	if ( ! $session ) {
-		trigger_error( 'Could not write session to the database. Please check MySQL configuration.', E_USER_WARNING );
-		return false;
 	}
 
 	$session->set_data( $value );
@@ -123,7 +118,6 @@ function _pantheon_session_destroy( $sid ) {
 
 	$session->destroy();
 
-	return true;
 }
 
 /**

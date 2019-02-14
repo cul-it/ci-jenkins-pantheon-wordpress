@@ -49,7 +49,7 @@ nocache_headers();
 $step = isset( $_GET['step'] ) ? (int) $_GET['step'] : 0;
 
 /**
- * Display installation header.
+ * Display install header.
  *
  * @since 2.5.0
  *
@@ -86,8 +86,6 @@ function display_header( $body_classes = '' ) {
  * Display installer setup form.
  *
  * @since 2.8.0
- *
- * @global wpdb $wpdb WordPress database abstraction object.
  *
  * @param string|null $error
  */

@@ -74,15 +74,15 @@ var tagBox, array_unique_noempty;
 			tagchecklist.empty();
 
 			$.each( current_tags, function( key, val ) {
-				var listItem, xbutton;
+				var span, xbutton;
 
 				val = $.trim( val );
 
 				if ( ! val )
 					return;
 
-				// Create a new list item, and ensure the text is properly escaped.
-				listItem = $( '<li />' ).text( val );
+				// Create a new span, and ensure the text is properly escaped.
+				span = $('<span />').text( val );
 
 				// If tags editing isn't disabled, create the X button.
 				if ( ! disabled ) {
@@ -92,7 +92,7 @@ var tagBox, array_unique_noempty;
 					 */
 					xbutton = $( '<button type="button" id="' + id + '-check-num-' + key + '" class="ntdelbutton">' +
 						'<span class="remove-tag-icon" aria-hidden="true"></span>' +
-						'<span class="screen-reader-text">' + window.tagsSuggestL10n.removeTerm + ' ' + listItem.html() + '</span>' +
+						'<span class="screen-reader-text">' + window.tagsSuggestL10n.removeTerm + ' ' + span.html() + '</span>' +
 						'</button>' );
 
 					xbutton.on( 'click keypress', function( e ) {
@@ -112,11 +112,11 @@ var tagBox, array_unique_noempty;
 						}
 					});
 
-					listItem.prepend( '&nbsp;' ).prepend( xbutton );
+					span.prepend( '&nbsp;' ).prepend( xbutton );
 				}
 
-				// Append the list item to the tag list.
-				tagchecklist.append( listItem );
+				// Append the span to the tag list.
+				tagchecklist.append( span );
 			});
 			// The buttons list is built now, give feedback to screen reader users.
 			tagBox.screenReadersMessage();
@@ -166,7 +166,7 @@ var tagBox, array_unique_noempty;
 					return;
 				}
 
-				r = $( '<div id="tagcloud-' + tax + '" class="the-tagcloud">' + r + '</div>' );
+				r = $( '<p id="tagcloud-' + tax + '" class="the-tagcloud">' + r + '</p>' );
 
 				$( 'a', r ).click( function() {
 					tagBox.userAction = 'add';
@@ -221,7 +221,7 @@ var tagBox, array_unique_noempty;
 				tagBox.flushTags( $( this ).closest( '.tagsdiv' ) );
 			});
 
-			$( 'input.newtag', ajaxtag ).keypress( function( event ) {
+			$( 'input.newtag', ajaxtag ).keyup( function( event ) {
 				if ( 13 == event.which ) {
 					tagBox.userAction = 'add';
 					tagBox.flushTags( $( this ).closest( '.tagsdiv' ) );
