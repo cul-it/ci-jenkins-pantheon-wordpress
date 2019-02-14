@@ -2,8 +2,8 @@
 Contributors: getpantheon, danielbachhuber
 Tags: pantheon, cdn, cache
 Requires at least: 4.7
-Tested up to: 4.8
-Stable tag: 0.1.5
+Tested up to: 5.0
+Stable tag: 0.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ Automatically clear related pages from Pantheon's Edge when you update content. 
 
 For sites wanting fine-grained control over how their responses are represented in their edge cache, Pantheon Advanced Page Cache is the golden ticket. Here's a high-level overview of how the plugin works:
 
-1. When a response is generated, the plugin uses surrogate keys to "tag" the response with identifers for the data used in the response.
+1. When a response is generated, the plugin uses surrogate keys based on WordPress' main `WP_Query` object to "tag" the response with identifers for the data used in the response. See the "Adding Custom Keys" section for including your own surrogate keys.
 2. When WordPress data is modified, the plugin triggers a purge request for the data's corresponding surrogate keys.
 
 Because of its surrogate key technology, Pantheon Advanced Page Cache empowers WordPress sites with a significantly more accurate cache purge mechanism, and generally higher cache hit rate. It even works with the WordPress REST API.
@@ -48,9 +48,13 @@ Because cached responses include metadata describing the data therein, surrogate
 * When a post is updated, clear the cache for the post's URL, the homepage, any index view the post appears on, and any REST API endpoints the post is present in.
 * When an author changes their name, clear the cache for the author's archive and any post they've authored.
 
-There is a limit to the number of surrogate keys in a response, so we've optimized them based on a user's expectation of a normal WordPress site. See the "Emitted Keys" section for full details.
+There is a limit to the number of surrogate keys in a response, so we've optimized them based on a user's expectation of a normal WordPress site. See the "Emitted Keys" section for full details on which keys are included, and the "Adding Custom Keys" section following for information on how to add your own.
 
-Use the `pantheon_wp_main_query_surrogate_keys` filter to customize surrogate keys in a response. For example, to include a surrogate key for a sidebar rendered on the homepage, you can filter the keys included in the response:
+= Adding Custom Keys =
+
+By default, Pantheon Advanced Page Cache generates surrogate keys based on an interpretation of the main `WP_Query` query object. Because WordPress sends headers before the page is rendered, you need to use the `pantheon_wp_main_query_surrogate_keys` filter to include additional surrogate keys for any data present on the page.
+
+For example, to include surrogate keys for a sidebar rendered on the homepage, you can filter the keys using the `is_home()` template tag:
 
     /**
      * Add surrogate key for the featured content sidebar rendered on the homepage.
@@ -71,7 +75,56 @@ Then, when sidebars are updated, you can use the `pantheon_wp_clear_edge_keys()`
         pantheon_wp_clear_edge_keys( array( 'sidebar-home-featured' ) );
     });
 
-Similarly, the `pantheon_wp_rest_api_surrogate_keys` filter lets you filter surrogate keys present in a REST API response.
+Similarly, to include surrogate keys for posts queried on the homepage, you can pre-fetch the posts before the page is rendered:
+
+    /**
+     * An example of pre-fetching a WP_Query to tag the
+     * response with queried data. You'd use `papcx_wp_query()`
+     * a second time within your template to use the data.
+     */
+    add_filter( 'pantheon_wp_main_query_surrogate_keys', function( $keys ) {
+        if ( is_home() ) {
+            $query = papcx_wp_query( array(
+                'post_type' => 'page',
+            ) );
+            foreach( $query->posts as $post ) {
+                $keys[] = 'post-' . $post->ID;
+            }
+        }
+        return $keys;
+    });
+
+    /**
+     * Register a 'papc-non-persistent' cache group to cache data
+     * in a non-persistent manner. We only want data in this group
+     * to be cached within the page request.
+     */
+    add_action( 'init', function(){
+        wp_cache_add_non_persistent_groups( array( 'papc-non-persistent' ) );
+    });
+
+    /**
+     * Helper function to instantiate a WP_Query object only
+     * once per page request.
+     *
+     * @param array $args Arguments to pass to WP_Query.
+     * @return WP_Query
+     */
+    function papcx_wp_query( $args = array() ) {
+        $cache_key = md5( serialize( $args ) );
+        // WP_Query object will be in cache the second time we use the function.
+        $cache_value = wp_cache_get( $cache_key, 'papc-non-persistent' );
+        if ( false !== $cache_value ) {
+            return $cache_value;
+        }
+        $query = new WP_Query( $args );
+        wp_cache_set( $cache_key, $query, 'papc-non-persistent' );
+        return $query;
+    }
+
+Because Pantheon Advanced Page Cache already handles WordPress post purge events, there's no additional call to `pantheon_wp_clear_edge_keys()`.
+
+Lastly, the `pantheon_wp_rest_api_surrogate_keys` filter lets you filter surrogate keys present in a REST API response.
 
 Need a bit more power? In addition to `pantheon_wp_clear_edge_keys()`, there are two additional helper functions you can use:
 
@@ -140,6 +193,10 @@ Use `wp help pantheon cache <command>` to learn more about each command.
 
 * Emits surrogate keys: `search`, either `search-results` or `search-no-results`, `post-<id>` (all posts in main query)
 
+**Not found (404)**
+
+* Emits surrogate keys: `404`
+
 = Emitted Keys on REST API Endpoints =
 
 **Posts**
@@ -182,8 +239,8 @@ Different WordPress actions cause different surrogate keys to be purged, documen
 
 **wp_insert_post / transition_post_status / before_delete_post / delete_attachment**
 
-* Purges surrogate keys: `home`, `front`, `post-<id>`, `user-<id>`, `term-<id>`, `rest-<type>-collection`, `rest-comment-post-<id>`
-* Affected views: homepage, single post, any archive where post displays, author archive, term archive, REST API collection and resource endpoints
+* Purges surrogate keys: `home`, `front`, `404`, `post-<id>`, `user-<id>`, `term-<id>`, `rest-<type>-collection`, `rest-comment-post-<id>`
+* Affected views: homepage, single post, any page with 404 header, any archive where post displays, author archive, term archive, REST API collection and resource endpoints
 
 **clean_post_cache**
 
@@ -221,6 +278,17 @@ Different WordPress actions cause different surrogate keys to be purged, documen
 * Affected views: REST API resource endpoint
 
 == Changelog ==
+
+= 0.3.0 (November 27th, 2017) =
+* Emits '404' surrogate key on 404s; purges when purging the homepage [[#107](https://github.com/pantheon-systems/pantheon-advanced-page-cache/pull/107)].
+* Adds more specific filters for modifying surrogate keys in different contexts [[#109](https://github.com/pantheon-systems/pantheon-advanced-page-cache/pull/109)].
+* Cleans up codebase according to WordPress Coding Standards [[#110](https://github.com/pantheon-systems/pantheon-advanced-page-cache/pull/110), [#116](https://github.com/pantheon-systems/pantheon-advanced-page-cache/pull/116)].
+
+= 0.2.1 (October 25th, 2017) =
+* Ensures use of `?_embed` emits correct surrogate keys [[#103](https://github.com/pantheon-systems/pantheon-advanced-page-cache/pull/103)].
+
+= 0.2.0 (August 10th, 2017) =
+* Automatically trims large lists of surrogate keys that break Nginx and Varnish limits for header size.
 
 = 0.1.5 (May 24th, 2017) =
 * Disables emitting surrogate keys for the admin, unless explicitly added by filter.
