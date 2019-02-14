@@ -37,6 +37,9 @@ web/private/scripts/quicksilver
 !web/private/config/
 !.circleci
 
+capybara-*.html
+
+
 # Add directories containing build assets below.
 # Keep all additions above the "cut" line.
 
