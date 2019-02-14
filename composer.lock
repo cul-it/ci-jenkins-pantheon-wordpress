@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50cf29003691a0b1cf4051d65442d970",
+    "content-hash": "62e6bbffb2a5776b09eb63a575e32b2e",
     "packages": [
         {
             "name": "composer/installers",
@@ -201,16 +201,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "5.0.1",
+            "version": "4.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "95ed1aece8ca8fca671463b02b4a66bb001f46a5"
+                "reference": "2b13d79e331571530f30f522dc457bbfbdb4cfff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/95ed1aece8ca8fca671463b02b4a66bb001f46a5",
-                "reference": "95ed1aece8ca8fca671463b02b4a66bb001f46a5",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/2b13d79e331571530f30f522dc457bbfbdb4cfff",
+                "reference": "2b13d79e331571530f30f522dc457bbfbdb4cfff",
                 "shasum": ""
             },
             "require": {
@@ -219,7 +219,7 @@
             "type": "wordpress-core",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.x-dev"
+                    "dev-master": "4.x-dev"
                 },
                 "wordpress-install-dir": "web/wp"
             },
@@ -228,10 +228,10 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.0.1",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/4.9.8",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2018-12-13T05:07:29+00:00"
+            "time": "2018-08-03T01:46:12+00:00"
         },
         {
             "name": "phpoption/phpoption",
