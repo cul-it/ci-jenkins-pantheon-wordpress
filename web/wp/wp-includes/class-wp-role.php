@@ -17,6 +17,7 @@ class WP_Role {
 	 * Role name.
 	 *
 	 * @since 2.0.0
+	 * @access public
 	 * @var string
 	 */
 	public $name;
@@ -25,6 +26,7 @@ class WP_Role {
 	 * List of capabilities the role contains.
 	 *
 	 * @since 2.0.0
+	 * @access public
 	 * @var array
 	 */
 	public $capabilities;
@@ -36,6 +38,7 @@ class WP_Role {
 	 * and the value a boolean of whether it is granted to the role.
 	 *
 	 * @since 2.0.0
+	 * @access public
 	 *
 	 * @param string $role Role name.
 	 * @param array $capabilities List of capabilities.
@@ -49,6 +52,7 @@ class WP_Role {
 	 * Assign role a capability.
 	 *
 	 * @since 2.0.0
+	 * @access public
 	 *
 	 * @param string $cap Capability name.
 	 * @param bool $grant Whether role has capability privilege.
@@ -67,6 +71,7 @@ class WP_Role {
 	 * because you don't need to enter the role name.
 	 *
 	 * @since 2.0.0
+	 * @access public
 	 *
 	 * @param string $cap Capability name.
 	 */
@@ -84,6 +89,7 @@ class WP_Role {
 	 * The third and final parameter for the hook is the role name.
 	 *
 	 * @since 2.0.0
+	 * @access public
 	 *
 	 * @param string $cap Capability name.
 	 * @return bool True if the role has the given capability. False otherwise.

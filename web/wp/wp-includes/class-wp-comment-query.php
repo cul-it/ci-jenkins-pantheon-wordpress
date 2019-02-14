@@ -20,6 +20,7 @@ class WP_Comment_Query {
 	 * SQL for database query.
 	 *
 	 * @since 4.0.1
+	 * @access public
 	 * @var string
 	 */
 	public $request;
@@ -28,6 +29,7 @@ class WP_Comment_Query {
 	 * Metadata query container
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 * @var object WP_Meta_Query
 	 */
 	public $meta_query = false;
@@ -36,6 +38,7 @@ class WP_Comment_Query {
 	 * Metadata query clauses.
 	 *
 	 * @since 4.4.0
+	 * @access protected
 	 * @var array
 	 */
 	protected $meta_query_clauses;
@@ -44,6 +47,7 @@ class WP_Comment_Query {
 	 * SQL query clauses.
 	 *
 	 * @since 4.4.0
+	 * @access protected
 	 * @var array
 	 */
 	protected $sql_clauses = array(
@@ -61,6 +65,7 @@ class WP_Comment_Query {
 	 * Stored after the {@see 'comments_clauses'} filter is run on the compiled WHERE sub-clauses.
 	 *
 	 * @since 4.4.2
+	 * @access protected
 	 * @var string
 	 */
 	protected $filtered_where_clause;
@@ -69,6 +74,7 @@ class WP_Comment_Query {
 	 * Date query container
 	 *
 	 * @since 3.7.0
+	 * @access public
 	 * @var object WP_Date_Query
 	 */
 	public $date_query = false;
@@ -77,6 +83,7 @@ class WP_Comment_Query {
 	 * Query vars set by the user.
 	 *
 	 * @since 3.1.0
+	 * @access public
 	 * @var array
 	 */
 	public $query_vars;
@@ -85,6 +92,7 @@ class WP_Comment_Query {
 	 * Default values for query vars.
 	 *
 	 * @since 4.2.0
+	 * @access public
 	 * @var array
 	 */
 	public $query_var_defaults;
@@ -93,6 +101,7 @@ class WP_Comment_Query {
 	 * List of comments located by the query.
 	 *
 	 * @since 4.0.0
+	 * @access public
 	 * @var array
 	 */
 	public $comments;
@@ -101,6 +110,7 @@ class WP_Comment_Query {
 	 * The amount of found comments for the current query.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var int
 	 */
 	public $found_comments = 0;
@@ -109,6 +119,7 @@ class WP_Comment_Query {
 	 * The number of pages.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var int
 	 */
 	public $max_num_pages = 0;
@@ -117,6 +128,7 @@ class WP_Comment_Query {
 	 * Make private/protected methods readable for backward compatibility.
 	 *
 	 * @since 4.0.0
+	 * @access public
 	 *
 	 * @param callable $name      Method to call.
 	 * @param array    $arguments Arguments to pass when calling.
@@ -140,7 +152,7 @@ class WP_Comment_Query {
 	 *              `$hierarchical`, and `$update_comment_post_cache` were added.
 	 * @since 4.5.0 Introduced the `$author_url` argument.
 	 * @since 4.6.0 Introduced the `$cache_domain` argument.
-	 * @since 4.9.0 Introduced the `$paged` argument.
+	 * @access public
 	 *
 	 * @param string|array $query {
 	 *     Optional. Array or query string of comment query parameters. Default empty.
@@ -171,8 +183,6 @@ class WP_Comment_Query {
 	 *                                                   See WP_Meta_Query. Default empty.
 	 *     @type int          $number                    Maximum number of comments to retrieve.
 	 *                                                   Default empty (no limit).
-	 *     @type int          $paged                     When used with $number, defines the page of results to return.
-	 *                                                   When used with $offset, $offset takes precedence. Default 1.
 	 *     @type int          $offset                    Number of comments to offset the query. Used to build
 	 *                                                   LIMIT clause. Default 0.
 	 *     @type bool         $no_found_rows             Whether to disable the `SQL_CALC_FOUND_ROWS` query.
@@ -266,7 +276,6 @@ class WP_Comment_Query {
 			'no_found_rows' => true,
 			'orderby' => '',
 			'order' => 'DESC',
-			'paged' => 1,
 			'parent' => '',
 			'parent__in' => '',
 			'parent__not_in' => '',
@@ -308,6 +317,7 @@ class WP_Comment_Query {
 	 *
 	 * @since 4.2.0 Extracted from WP_Comment_Query::query().
 	 *
+	 * @access public
 	 *
 	 * @param string|array $query WP_Comment_Query arguments. See WP_Comment_Query::__construct()
 	 */
@@ -323,7 +333,7 @@ class WP_Comment_Query {
 		 *
 		 * @since 4.2.0
 		 *
-		 * @param WP_Comment_Query $this The WP_Comment_Query instance (passed by reference).
+		 * @param WP_Comment_Query &$this The WP_Comment_Query instance (passed by reference).
 		 */
 		do_action_ref_array( 'parse_comment_query', array( &$this ) );
 	}
@@ -337,6 +347,7 @@ class WP_Comment_Query {
 	 *              'post__not_in', 'include_unapproved', 'type__in', and 'type__not_in'
 	 *              arguments to $query_vars.
 	 * @since 4.2.0 Moved parsing to WP_Comment_Query::parse_query().
+	 * @access public
 	 *
 	 * @param string|array $query Array or URL query string of parameters.
 	 * @return array|int List of comments, or number of comments when 'count' is passed as a query var.
@@ -350,6 +361,7 @@ class WP_Comment_Query {
 	 * Get a list of comments matching the query vars.
 	 *
 	 * @since 4.2.0
+	 * @access public
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *
@@ -369,7 +381,7 @@ class WP_Comment_Query {
 		 *
 		 * @since 3.1.0
 		 *
-		 * @param WP_Comment_Query $this Current instance of WP_Comment_Query (passed by reference).
+		 * @param WP_Comment_Query &$this Current instance of WP_Comment_Query, passed by reference.
 		 */
 		do_action_ref_array( 'pre_get_comments', array( &$this ) );
 
@@ -379,15 +391,10 @@ class WP_Comment_Query {
 			$this->meta_query_clauses = $this->meta_query->get_sql( 'comment', $wpdb->comments, 'comment_ID', $this );
 		}
 
-		/*
-		 * Only use the args defined in the query_var_defaults to compute the key,
-		 * but ignore 'fields', which does not affect query results.
-		 */
-		$_args = wp_array_slice_assoc( $this->query_vars, array_keys( $this->query_var_defaults ) );
-		unset( $_args['fields'] );
-
-		$key = md5( serialize( $_args ) );
+		// $args can include anything. Only use the args defined in the query_var_defaults to compute the key.
+		$key = md5( serialize( wp_array_slice_assoc( $this->query_vars, array_keys( $this->query_var_defaults ) ) ) );
 		$last_changed = wp_cache_get_last_changed( 'comment' );
+
 
 		$cache_key   = "get_comments:$key:$last_changed";
 		$cache_value = wp_cache_get( $cache_key, 'comment' );
@@ -449,8 +456,8 @@ class WP_Comment_Query {
 		 *
 		 * @since 3.1.0
 		 *
-		 * @param array            $_comments An array of comments.
-		 * @param WP_Comment_Query $this     Current instance of WP_Comment_Query (passed by reference).
+		 * @param array            $results  An array of comments.
+		 * @param WP_Comment_Query &$this    Current instance of WP_Comment_Query, passed by reference.
 		 */
 		$_comments = apply_filters_ref_array( 'the_comments', array( $_comments, &$this ) );
 
@@ -469,6 +476,7 @@ class WP_Comment_Query {
 	 * Used internally to get a list of comment IDs matching the query vars.
 	 *
 	 * @since 4.4.0
+	 * @access protected
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 */
@@ -632,13 +640,12 @@ class WP_Comment_Query {
 
 		$number = absint( $this->query_vars['number'] );
 		$offset = absint( $this->query_vars['offset'] );
-		$paged = absint( $this->query_vars['paged'] );
 
 		if ( ! empty( $number ) ) {
 			if ( $offset ) {
 				$limits = 'LIMIT ' . $offset . ',' . $number;
 			} else {
-				$limits = 'LIMIT ' . ( $number * ( $paged - 1 ) ) . ',' . $number;
+				$limits = 'LIMIT ' . $number;
 			}
 		}
 
@@ -848,7 +855,7 @@ class WP_Comment_Query {
 		 * @since 3.1.0
 		 *
 		 * @param array            $pieces A compacted array of comment query clauses.
-		 * @param WP_Comment_Query $this  Current instance of WP_Comment_Query (passed by reference).
+		 * @param WP_Comment_Query &$this  Current instance of WP_Comment_Query, passed by reference.
 		 */
 		$clauses = apply_filters_ref_array( 'comments_clauses', array( compact( $pieces ), &$this ) );
 
@@ -899,6 +906,7 @@ class WP_Comment_Query {
 	 * query if the limit clause was used.
 	 *
 	 * @since 4.6.0
+	 * @access private
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 */
@@ -927,8 +935,6 @@ class WP_Comment_Query {
 	 * the descendant trees for all matched top-level comments.
 	 *
 	 * @since 4.4.0
-	 *
-	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *
 	 * @param array $comments Array of top-level comments whose descendants should be filled in.
 	 * @return array
@@ -1041,6 +1047,7 @@ class WP_Comment_Query {
 	 * Used internally to generate an SQL string for searching across multiple columns
 	 *
 	 * @since 3.1.0
+	 * @access protected
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *
@@ -1065,6 +1072,7 @@ class WP_Comment_Query {
 	 * Parse and sanitize 'orderby' keys passed to the comment query.
 	 *
 	 * @since 4.2.0
+	 * @access protected
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *
@@ -1128,6 +1136,7 @@ class WP_Comment_Query {
 	 * Parse an 'order' query variable and cast it to ASC or DESC as necessary.
 	 *
 	 * @since 4.2.0
+	 * @access protected
 	 *
 	 * @param string $order The 'order' query variable.
 	 * @return string The sanitized 'order' query variable.

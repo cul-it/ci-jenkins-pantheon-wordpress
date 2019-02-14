@@ -35,6 +35,7 @@ abstract class WP_Image_Editor {
 	 * @since 3.5.0
 	 *
 	 * @static
+	 * @access public
 	 * @abstract
 	 *
 	 * @param array $args
@@ -51,6 +52,7 @@ abstract class WP_Image_Editor {
 	 * @since 3.5.0
 	 *
 	 * @static
+	 * @access public
 	 * @abstract
 	 *
 	 * @param string $mime_type
@@ -64,6 +66,7 @@ abstract class WP_Image_Editor {
 	 * Loads image from $this->file into editor.
 	 *
 	 * @since 3.5.0
+	 * @access protected
 	 * @abstract
 	 *
 	 * @return bool|WP_Error True if loaded; WP_Error on failure.
@@ -74,6 +77,7 @@ abstract class WP_Image_Editor {
 	 * Saves current image to file.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 * @abstract
 	 *
 	 * @param string $destfilename
@@ -90,6 +94,7 @@ abstract class WP_Image_Editor {
 	 * maintain aspect ratio according to the provided dimension.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 * @abstract
 	 *
 	 * @param  int|null $max_w Image width.
@@ -103,6 +108,7 @@ abstract class WP_Image_Editor {
 	 * Resize multiple images from a single source.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 * @abstract
 	 *
 	 * @param array $sizes {
@@ -122,6 +128,7 @@ abstract class WP_Image_Editor {
 	 * Crops Image.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 * @abstract
 	 *
 	 * @param int $src_x The start x position to crop from.
@@ -139,6 +146,7 @@ abstract class WP_Image_Editor {
 	 * Rotates current image counter-clockwise by $angle.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 * @abstract
 	 *
 	 * @param float $angle
@@ -150,6 +158,7 @@ abstract class WP_Image_Editor {
 	 * Flips current image.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 * @abstract
 	 *
 	 * @param bool $horz Flip along Horizontal Axis
@@ -162,10 +171,11 @@ abstract class WP_Image_Editor {
 	 * Streams current image to browser.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 * @abstract
 	 *
-	 * @param string $mime_type The mime type of the image.
-	 * @return bool|WP_Error True on success, WP_Error object or false on failure.
+	 * @param string $mime_type
+	 * @return bool|WP_Error
 	 */
 	abstract public function stream( $mime_type = null );
 
@@ -173,6 +183,7 @@ abstract class WP_Image_Editor {
 	 * Gets dimensions of image.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @return array {'width'=>int, 'height'=>int}
 	 */
@@ -184,6 +195,7 @@ abstract class WP_Image_Editor {
 	 * Sets current image size.
 	 *
 	 * @since 3.5.0
+	 * @access protected
 	 *
 	 * @param int $width
 	 * @param int $height
@@ -201,6 +213,7 @@ abstract class WP_Image_Editor {
 	 * Gets the Image Compression quality on a 1-100% scale.
 	 *
 	 * @since 4.0.0
+	 * @access public
 	 *
 	 * @return int $quality Compression Quality. Range: [1,100]
 	 */
@@ -216,6 +229,7 @@ abstract class WP_Image_Editor {
 	 * Sets Image Compression quality on a 1-100% scale.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param int $quality Compression Quality. Range: [1,100]
 	 * @return true|WP_Error True if set successfully; WP_Error on failure.
@@ -284,6 +298,7 @@ abstract class WP_Image_Editor {
 	 * Provides corrected filename only if filename is provided.
 	 *
 	 * @since 3.5.0
+	 * @access protected
 	 *
 	 * @param string $filename
 	 * @param string $mime_type
@@ -344,6 +359,7 @@ abstract class WP_Image_Editor {
 	 * Builds an output filename based on current file, and adding proper suffix
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param string $suffix
 	 * @param string $dest_path
@@ -371,6 +387,7 @@ abstract class WP_Image_Editor {
 	 * Builds and returns proper suffix for file based on height and width.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @return false|string suffix
 	 */
@@ -385,6 +402,7 @@ abstract class WP_Image_Editor {
 	 * Either calls editor's save function or handles file as a stream.
 	 *
 	 * @since 3.5.0
+	 * @access protected
 	 *
 	 * @param string|stream $filename
 	 * @param callable $function
@@ -427,6 +445,7 @@ abstract class WP_Image_Editor {
 	 * @since 3.5.0
 	 *
 	 * @static
+	 * @access protected
 	 *
 	 * @param string $extension
 	 * @return string|false
@@ -454,6 +473,7 @@ abstract class WP_Image_Editor {
 	 * @since 3.5.0
 	 *
 	 * @static
+	 * @access protected
 	 *
 	 * @param string $mime_type
 	 * @return string|false

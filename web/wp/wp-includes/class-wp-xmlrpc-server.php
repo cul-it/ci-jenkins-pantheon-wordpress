@@ -16,14 +16,15 @@
  * As of WordPress 3.5.0, XML-RPC is enabled by default. It can be disabled
  * via the {@see 'xmlrpc_enabled'} filter found in wp_xmlrpc_server::login().
  *
+ * @package WordPress
+ * @subpackage Publishing
  * @since 1.5.0
- *
- * @see IXR_Server
  */
 class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Methods.
 	 *
+	 * @access public
 	 * @var array
 	 */
 	public $methods;
@@ -31,6 +32,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Blog options.
 	 *
+	 * @access public
 	 * @var array
 	 */
 	public $blog_options;
@@ -38,6 +40,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * IXR_Error instance.
 	 *
+	 * @access public
 	 * @var IXR_Error
 	 */
 	public $error;
@@ -45,6 +48,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Flags that the user authentication has failed in this instance of wp_xmlrpc_server.
 	 *
+	 * @access protected
 	 * @var bool
 	 */
 	protected $auth_failed = false;
@@ -170,6 +174,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	 * Make private/protected methods readable for backward compatibility.
 	 *
 	 * @since 4.0.0
+	 * @access public
 	 *
 	 * @param callable $name      Method to call.
 	 * @param array    $arguments Arguments to pass when calling.
@@ -186,6 +191,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	 * Serves the XML-RPC request.
 	 *
 	 * @since 2.9.0
+	 * @access public
 	 */
 	public function serve_request() {
 		$this->IXR_Server($this->methods);
@@ -393,68 +399,6 @@ class wp_xmlrpc_server extends IXR_Server {
 				}
 			} elseif ( current_user_can( 'add_post_meta', $post_id, wp_unslash( $meta['key'] ) ) ) {
 				add_post_meta( $post_id, $meta['key'], $meta['value'] );
-			}
-		}
-	}
-
-	/**
-	 * Retrieve custom fields for a term.
-	 *
-	 * @since 4.9.0
-	 *
-	 * @param int $term_id Term ID.
-	 * @return array Array of custom fields, if they exist.
-	 */
-	public function get_term_custom_fields( $term_id ) {
-		$term_id = (int) $term_id;
-
-		$custom_fields = array();
-
-		foreach ( (array) has_term_meta( $term_id ) as $meta ) {
-
-			if ( ! current_user_can( 'edit_term_meta', $term_id ) ) {
-				continue;
-			}
-
-			$custom_fields[] = array(
-				'id'    => $meta['meta_id'],
-				'key'   => $meta['meta_key'],
-				'value' => $meta['meta_value'],
-			);
-		}
-
-		return $custom_fields;
-	}
-
-	/**
-	 * Set custom fields for a term.
-	 *
-	 * @since 4.9.0
-	 *
-	 * @param int $term_id Term ID.
-	 * @param array $fields Custom fields.
-	 */
-	public function set_term_custom_fields( $term_id, $fields ) {
-		$term_id = (int) $term_id;
-
-		foreach ( (array) $fields as $meta ) {
-			if ( isset( $meta['id'] ) ) {
-				$meta['id'] = (int) $meta['id'];
-				$pmeta = get_metadata_by_mid( 'term', $meta['id'] );
-				if ( isset( $meta['key'] ) ) {
-					$meta['key'] = wp_unslash( $meta['key'] );
-					if ( $meta['key'] !== $pmeta->meta_key ) {
-						continue;
-					}
-					$meta['value'] = wp_unslash( $meta['value'] );
-					if ( current_user_can( 'edit_term_meta', $term_id ) ) {
-						update_metadata_by_mid( 'term', $meta['id'], $meta['value'] );
-					}
-				} elseif ( current_user_can( 'delete_term_meta', $term_id ) ) {
-					delete_metadata_by_mid( 'term', $meta['id'] );
-				}
-			} elseif ( current_user_can( 'add_term_meta', $term_id ) ) {
-				add_term_meta( $term_id, $meta['key'], $meta['value'] );
 			}
 		}
 	}
@@ -718,6 +662,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	 * Checks if the method received at least the minimum number of arguments.
 	 *
 	 * @since 3.4.0
+	 * @access protected
 	 *
 	 * @param string|array $args Sanitize single string or array of strings.
 	 * @param int $count         Minimum number of arguments.
@@ -735,6 +680,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Prepares taxonomy data for return in an XML-RPC object.
 	 *
+	 * @access protected
 	 *
 	 * @param object $taxonomy The unprepared taxonomy data.
 	 * @param array $fields    The subset of taxonomy fields to return.
@@ -777,6 +723,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Prepares term data for return in an XML-RPC object.
 	 *
+	 * @access protected
 	 *
 	 * @param array|object $term The unprepared term data.
 	 * @return array The prepared term data.
@@ -795,9 +742,6 @@ class wp_xmlrpc_server extends IXR_Server {
 		// Count we are happy to return as an integer because people really shouldn't use terms that much.
 		$_term['count'] = intval( $_term['count'] );
 
-		// Get term meta.
-		$_term['custom_fields'] = $this->get_term_custom_fields( $_term['term_id'] );
-
 		/**
 		 * Filters XML-RPC-prepared data for the given term.
 		 *
@@ -812,6 +756,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Convert a WordPress date string to an IXR_Date object.
 	 *
+	 * @access protected
 	 *
 	 * @param string $date Date string to convert.
 	 * @return IXR_Date IXR_Date object.
@@ -826,6 +771,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Convert a WordPress GMT date string to an IXR_Date object.
 	 *
+	 * @access protected
 	 *
 	 * @param string $date_gmt WordPress GMT date string.
 	 * @param string $date     Date string.
@@ -841,6 +787,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Prepares post data for return in an XML-RPC object.
 	 *
+	 * @access protected
 	 *
 	 * @param array $post   The unprepared post data.
 	 * @param array $fields The subset of post type fields to return.
@@ -941,6 +888,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	 *
 	 * @since 3.4.0
 	 * @since 4.6.0 Converted the `$post_type` parameter to accept a WP_Post_Type object.
+	 * @access protected
 	 *
 	 * @param WP_Post_Type $post_type Post type object.
 	 * @param array        $fields    The subset of post fields to return.
@@ -991,6 +939,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Prepares media item data for return in an XML-RPC object.
 	 *
+	 * @access protected
 	 *
 	 * @param object $media_item     The unprepared media item data.
 	 * @param string $thumbnail_size The image size to use for the thumbnail URL.
@@ -1030,6 +979,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Prepares page data for return in an XML-RPC object.
 	 *
+	 * @access protected
 	 *
 	 * @param object $page The unprepared page data.
 	 * @return array The prepared page data.
@@ -1110,6 +1060,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Prepares comment data for return in an XML-RPC object.
 	 *
+	 * @access protected
 	 *
 	 * @param object $comment The unprepared comment data.
 	 * @return array The prepared comment data.
@@ -1158,6 +1109,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	/**
 	 * Prepares user data for return in an XML-RPC object.
 	 *
+	 * @access protected
 	 *
 	 * @param WP_User $user   The unprepared user object.
 	 * @param array   $fields The subset of user fields to return.
@@ -1302,6 +1254,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	 * and determining if the user has permission to do so
 	 *
 	 * @since 4.3.0
+	 * @access private
 	 *
 	 * @param array $post_data
 	 * @param bool  $update
@@ -1338,6 +1291,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	 * Helper method for wp_newPost() and wp_editPost(), containing shared logic.
 	 *
 	 * @since 3.4.0
+	 * @access protected
 	 *
 	 * @see wp_insert_post()
 	 *
@@ -1989,11 +1943,6 @@ class wp_xmlrpc_server extends IXR_Server {
 		if ( ! $term )
 			return new IXR_Error( 500, __( 'Sorry, your term could not be created.' ) );
 
-		// Add term meta.
-		if ( isset( $content_struct['custom_fields'] ) ) {
-			$this->set_term_custom_fields( $term['term_id'], $content_struct['custom_fields'] );
-		}
-
 		return strval( $term['term_id'] );
 	}
 
@@ -2065,7 +2014,7 @@ class wp_xmlrpc_server extends IXR_Server {
 
 		if ( ! empty( $content_struct['parent'] ) ) {
 			if ( ! $taxonomy['hierarchical'] )
-				return new IXR_Error( 403, __( 'Cannot set parent term, taxonomy is not hierarchical.' ) );
+				return new IXR_Error( 403, __( "This taxonomy is not hierarchical so you can't set a parent." ) );
 
 			$parent_term_id = (int) $content_struct['parent'];
 			$parent_term = get_term( $parent_term_id , $taxonomy['name'] );
@@ -2092,11 +2041,6 @@ class wp_xmlrpc_server extends IXR_Server {
 
 		if ( ! $term )
 			return new IXR_Error( 500, __( 'Sorry, editing the term failed.' ) );
-
-		// Update term meta.
-		if ( isset( $content_struct['custom_fields'] ) ) {
-			$this->set_term_custom_fields( $term_id, $content_struct['custom_fields'] );
-		}
 
 		return true;
 	}
@@ -3137,9 +3081,8 @@ class wp_xmlrpc_server extends IXR_Server {
 		do_action( 'xmlrpc_call', 'wp.newCategory' );
 
 		// Make sure the user is allowed to add a category.
-		if ( ! current_user_can( 'manage_categories' ) ) {
-			return new IXR_Error( 401, __( 'Sorry, you are not allowed to add a category.' ) );
-		}
+		if ( !current_user_can('manage_categories') )
+			return new IXR_Error(401, __('Sorry, you are not allowed to add a category.'));
 
 		// If no slug was provided make it empty so that
 		// WordPress will generate one.
@@ -3213,9 +3156,8 @@ class wp_xmlrpc_server extends IXR_Server {
 		/** This action is documented in wp-includes/class-wp-xmlrpc-server.php */
 		do_action( 'xmlrpc_call', 'wp.deleteCategory' );
 
-		if ( ! current_user_can( 'delete_term', $category_id ) ) {
-			return new IXR_Error( 401, __( 'Sorry, you are not allowed to delete this category.' ) );
-		}
+		if ( !current_user_can('manage_categories') )
+			return new IXR_Error( 401, __( 'Sorry, you are not allowed to delete a category.' ) );
 
 		$status = wp_delete_term( $category_id, 'category' );
 
@@ -3444,8 +3386,8 @@ class wp_xmlrpc_server extends IXR_Server {
 			return new IXR_Error( 404, __( 'Invalid comment ID.' ) );
 		}
 
-		if ( ! current_user_can( 'edit_comment', $comment_ID ) ) {
-			return new IXR_Error( 403, __( 'Sorry, you are not allowed to delete this comment.' ) );
+		if ( !current_user_can( 'edit_comment', $comment_ID ) ) {
+			return new IXR_Error( 403, __( 'Sorry, you are not allowed to moderate or edit this comment.' ) );
 		}
 
 		/** This action is documented in wp-includes/class-wp-xmlrpc-server.php */
@@ -3686,7 +3628,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		}
 
 		if ( ! $comment_ID ) {
-			return new IXR_Error( 403, __( 'Something went wrong.' ) );
+			return new IXR_Error( 403, __( 'An unknown error occurred' ) );
 		}
 
 		/**
@@ -4452,6 +4394,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	 * Private function for retrieving a users blogs for multisite setups
 	 *
 	 * @since 3.0.0
+	 * @access protected
 	 *
 	 * @param array $args {
 	 *     Method arguments. Note: arguments must be ordered as documented.
@@ -6486,10 +6429,6 @@ class wp_xmlrpc_server extends IXR_Server {
 		);
 
 		$comment_ID = wp_new_comment($commentdata);
-
-		if ( is_wp_error( $comment_ID ) ) {
-			return $this->pingback_error( 0, $comment_ID->get_error_message() );
-		}
 
 		/**
 		 * Fires after a post pingback has been sent.

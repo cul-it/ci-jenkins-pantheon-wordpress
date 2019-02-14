@@ -67,6 +67,7 @@ class WP_Http_Cookie {
 	 * or a header string detailing it.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 *
 	 * @param string|array $data {
 	 *     Raw cookie data as header string or data array.
@@ -139,6 +140,7 @@ class WP_Http_Cookie {
 	 *
 	 * Decision is based on RFC 2109/2965, so look there for details on validity.
 	 *
+	 * @access public
 	 * @since 2.8.0
 	 *
 	 * @param string $url URL you intend to send this cookie to
@@ -183,6 +185,7 @@ class WP_Http_Cookie {
 	/**
 	 * Convert cookie name and value back to header string.
 	 *
+	 * @access public
 	 * @since 2.8.0
 	 *
 	 * @return string Header encoded cookie name and value.
@@ -205,6 +208,7 @@ class WP_Http_Cookie {
 	/**
 	 * Retrieve cookie header for usage in the rest of the WordPress HTTP API.
 	 *
+	 * @access public
 	 * @since 2.8.0
 	 *
 	 * @return string
@@ -217,6 +221,7 @@ class WP_Http_Cookie {
 	 * Retrieves cookie attributes.
 	 *
 	 * @since 4.6.0
+	 * @access public
 	 *
 	 * @return array {
 	 *    List of attributes.

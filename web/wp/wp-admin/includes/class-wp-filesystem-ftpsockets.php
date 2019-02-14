@@ -10,16 +10,19 @@
  * WordPress Filesystem Class for implementing FTP Sockets.
  *
  * @since 2.5.0
- *
- * @see WP_Filesystem_Base
+ * @package WordPress
+ * @subpackage Filesystem
+ * @uses WP_Filesystem_Base Extends class
  */
 class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	/**
+	 * @access public
 	 * @var ftp
 	 */
 	public $ftp;
 
 	/**
+	 * @access public
 	 *
 	 * @param array $opt
 	 */
@@ -56,6 +59,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @return bool
 	 */
@@ -105,6 +109,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	 * Retrieves the file contents.
 	 *
 	 * @since 2.5.0
+	 * @access public
 	 *
 	 * @param string $file Filename.
 	 * @return string|false File contents on success, false if no temp file could be opened,
@@ -146,6 +151,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return array
@@ -155,6 +161,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @param string $contents
@@ -196,6 +203,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @return string
 	 */
@@ -207,6 +215,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return bool
@@ -216,6 +225,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @param int|bool $mode
@@ -244,6 +254,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return string
@@ -254,6 +265,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return string
@@ -264,6 +276,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return string
@@ -274,6 +287,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string   $source
 	 * @param string   $destination
@@ -293,6 +307,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $source
 	 * @param string $destination
@@ -304,6 +319,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @param bool   $recursive
@@ -322,6 +338,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return bool
@@ -338,6 +355,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return bool
@@ -351,6 +369,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $path
 	 * @return bool
@@ -365,6 +384,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return bool
@@ -374,6 +394,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return bool
@@ -383,6 +404,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return bool
@@ -392,6 +414,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @return int
@@ -409,6 +432,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $file
 	 * @param int $time
@@ -420,6 +444,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $path
 	 * @param mixed  $chmod
@@ -441,6 +466,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $path
 	 * @param bool $recursive
@@ -451,6 +477,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 *
 	 * @param string $path
 	 * @param bool   $include_hidden
@@ -510,6 +537,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 	}
 
 	/**
+	 * @access public
 	 */
 	public function __destruct() {
 		$this->ftp->quit();

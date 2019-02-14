@@ -18,6 +18,7 @@ class WP_HTTP_Response {
 	 * Response data.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var mixed
 	 */
 	public $data;
@@ -26,6 +27,7 @@ class WP_HTTP_Response {
 	 * Response headers.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var array
 	 */
 	public $headers;
@@ -34,6 +36,7 @@ class WP_HTTP_Response {
 	 * Response status.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 * @var int
 	 */
 	public $status;
@@ -42,13 +45,14 @@ class WP_HTTP_Response {
 	 * Constructor.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @param mixed $data    Response data. Default null.
 	 * @param int   $status  Optional. HTTP status code. Default 200.
 	 * @param array $headers Optional. HTTP header map. Default empty array.
 	 */
 	public function __construct( $data = null, $status = 200, $headers = array() ) {
-		$this->set_data( $data );
+		$this->data = $data;
 		$this->set_status( $status );
 		$this->set_headers( $headers );
 	}
@@ -57,6 +61,7 @@ class WP_HTTP_Response {
 	 * Retrieves headers associated with the response.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @return array Map of header name to header value.
 	 */
@@ -68,6 +73,7 @@ class WP_HTTP_Response {
 	 * Sets all header values.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @param array $headers Map of header name to header value.
 	 */
@@ -79,6 +85,7 @@ class WP_HTTP_Response {
 	 * Sets a single HTTP header.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @param string $key     Header name.
 	 * @param string $value   Header value.
@@ -97,6 +104,7 @@ class WP_HTTP_Response {
 	 * Retrieves the HTTP return code for the response.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @return int The 3-digit HTTP status code.
 	 */
@@ -108,6 +116,7 @@ class WP_HTTP_Response {
 	 * Sets the 3-digit HTTP status code.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @param int $code HTTP status.
 	 */
@@ -119,6 +128,7 @@ class WP_HTTP_Response {
 	 * Retrieves the response data.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @return mixed Response data.
 	 */
@@ -130,6 +140,7 @@ class WP_HTTP_Response {
 	 * Sets the response data.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @param mixed $data Response data.
 	 */
@@ -144,6 +155,7 @@ class WP_HTTP_Response {
 	 * however this may be different if you want to do custom JSON data handling.
 	 *
 	 * @since 4.4.0
+	 * @access public
 	 *
 	 * @return mixed Any JSON-serializable value.
 	 */

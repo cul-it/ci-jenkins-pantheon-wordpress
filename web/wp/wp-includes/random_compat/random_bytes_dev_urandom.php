@@ -30,7 +30,6 @@ if (!defined('RANDOM_COMPAT_READ_BUFFER')) {
     define('RANDOM_COMPAT_READ_BUFFER', 8);
 }
 
-if ( ! is_callable( 'random_bytes' ) ):
 /**
  * Unless open_basedir is enabled, use /dev/urandom for
  * random numbers in accordance with best practices
@@ -147,4 +146,3 @@ function random_bytes($bytes)
         'Error reading from source device'
     );
 }
-endif;
