@@ -80,10 +80,7 @@ function wp_list_widget_controls( $sidebar, $sidebar_name = '' ) {
 	if ( $sidebar_name ) {
 		?>
 		<div class="sidebar-name">
-			<button type="button" class="handlediv hide-if-no-js" aria-expanded="true">
-				<span class="screen-reader-text"><?php echo esc_html( $sidebar_name ); ?></span>
-				<span class="toggle-indicator" aria-hidden="true"></span>
-			</button>
+			<div class="sidebar-name-arrow"><br /></div>
 			<h2><?php echo esc_html( $sidebar_name ); ?> <span class="spinner"></span></h2>
 		</div>
 		<?php
@@ -256,11 +253,8 @@ function wp_widget_control( $sidebar_args ) {
 
 	<div class="widget-control-actions">
 		<div class="alignleft">
-			<button type="button" class="button-link button-link-delete widget-control-remove"><?php _e( 'Delete' ); ?></button>
-			<span class="widget-control-close-wrapper">
-				|
-				<button type="button" class="button-link widget-control-close"><?php _e( 'Done' ); ?></button>
-			</span>
+			<button type="button" class="button-link button-link-delete widget-control-remove"><?php _e( 'Delete' ); ?></button> |
+			<button type="button" class="button-link widget-control-close"><?php _e( 'Close' ); ?></button>
 		</div>
 		<div class="alignright<?php if ( 'noform' === $has_form ) echo ' widget-control-noform'; ?>">
 			<?php submit_button( __( 'Save' ), 'primary widget-control-save right', 'savewidget', false, array( 'id' => 'widget-' . esc_attr( $id_format ) . '-savewidget' ) ); ?>

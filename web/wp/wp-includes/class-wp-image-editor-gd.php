@@ -10,13 +10,15 @@
  * WordPress Image Editor Class for Image Manipulation through GD
  *
  * @since 3.5.0
- *
- * @see WP_Image_Editor
+ * @package WordPress
+ * @subpackage Image_Editor
+ * @uses WP_Image_Editor Extends class
  */
 class WP_Image_Editor_GD extends WP_Image_Editor {
 	/**
 	 * GD Resource.
 	 *
+	 * @access protected
 	 * @var resource
 	 */
 	protected $image;
@@ -34,6 +36,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * @since 3.5.0
 	 *
 	 * @static
+	 * @access public
 	 *
 	 * @param array $args
 	 * @return bool
@@ -59,6 +62,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * @since 3.5.0
 	 *
 	 * @static
+	 * @access public
 	 *
 	 * @param string $mime_type
 	 * @return bool
@@ -81,6 +85,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * Loads image from $this->file into new GD Resource.
 	 *
 	 * @since 3.5.0
+	 * @access protected
 	 *
 	 * @return bool|WP_Error True if loaded successfully; WP_Error on failure.
 	 */
@@ -118,6 +123,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * Sets or updates current image size.
 	 *
 	 * @since 3.5.0
+	 * @access protected
 	 *
 	 * @param int $width
 	 * @param int $height
@@ -142,6 +148,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * maintain aspect ratio according to the provided dimension.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param  int|null $max_w Image width.
 	 * @param  int|null $max_h Image height.
@@ -194,6 +201,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * Resize multiple images from a single source.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param array $sizes {
 	 *     An array of image size arrays. Default sizes are 'small', 'medium', 'medium_large', 'large'.
@@ -256,6 +264,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * Crops Image.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param int  $src_x   The start x position to crop from.
 	 * @param int  $src_y   The start y position to crop from.
@@ -301,6 +310,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * Ported from image-edit.php
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param float $angle
 	 * @return true|WP_Error
@@ -326,6 +336,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * Flips current image.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param bool $horz Flip along Horizontal Axis
 	 * @param bool $vert Flip along Vertical Axis
@@ -355,6 +366,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * Saves current in-memory image to file.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
 	 * @param string|null $filename
 	 * @param string|null $mime_type
@@ -428,9 +440,10 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * Returns stream of current image.
 	 *
 	 * @since 3.5.0
+	 * @access public
 	 *
-	 * @param string $mime_type The mime type of the image.
-	 * @return bool True on success, false on failure.
+	 * @param string $mime_type
+	 * @return bool
 	 */
 	public function stream( $mime_type = null ) {
 		list( $filename, $extension, $mime_type ) = $this->get_output_format( null, $mime_type );
@@ -452,6 +465,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 * Either calls editor's save function or handles file as a stream.
 	 *
 	 * @since 3.5.0
+	 * @access protected
 	 *
 	 * @param string|stream $filename
 	 * @param callable $function

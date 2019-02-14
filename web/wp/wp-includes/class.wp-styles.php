@@ -11,9 +11,9 @@
 /**
  * Core class used to register styles.
  *
+ * @package WordPress
+ * @uses WP_Dependencies
  * @since 2.6.0
- *
- * @see WP_Dependencies
  */
 class WP_Styles extends WP_Dependencies {
 	/**
@@ -22,6 +22,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Full URL with trailing slash.
 	 *
 	 * @since 2.6.0
+	 * @access public
 	 * @var string
 	 */
 	public $base_url;
@@ -30,6 +31,7 @@ class WP_Styles extends WP_Dependencies {
 	 * URL of the content directory.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 * @var string
 	 */
 	public $content_url;
@@ -38,6 +40,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Default version string for stylesheets.
 	 *
 	 * @since 2.6.0
+	 * @access public
 	 * @var string
 	 */
 	public $default_version;
@@ -46,6 +49,7 @@ class WP_Styles extends WP_Dependencies {
 	 * The current text direction.
 	 *
 	 * @since 2.6.0
+	 * @access public
 	 * @var string
 	 */
 	public $text_direction = 'ltr';
@@ -54,6 +58,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Holds a list of style handles which will be concatenated.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 * @var string
 	 */
 	public $concat = '';
@@ -63,6 +68,7 @@ class WP_Styles extends WP_Dependencies {
 	 *
 	 * @since 2.8.0
 	 * @deprecated 3.4.0
+	 * @access public
 	 * @var string
 	 */
 	public $concat_version = '';
@@ -71,6 +77,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Whether to perform concatenation.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 * @var bool
 	 */
 	public $do_concat = false;
@@ -80,6 +87,7 @@ class WP_Styles extends WP_Dependencies {
 	 * is enabled.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 * @var string
 	 */
 	public $print_html = '';
@@ -88,6 +96,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Holds inline styles if concatenation is enabled.
 	 *
 	 * @since 3.3.0
+	 * @access public
 	 * @var string
 	 */
 	public $print_code = '';
@@ -96,6 +105,7 @@ class WP_Styles extends WP_Dependencies {
 	 * List of default directories.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 * @var array
 	 */
 	public $default_dirs;
@@ -104,6 +114,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Constructor.
 	 *
 	 * @since 2.6.0
+	 * @access public
 	 */
 	public function __construct() {
 		/**
@@ -111,7 +122,7 @@ class WP_Styles extends WP_Dependencies {
 		 *
 		 * @since 2.6.0
 		 *
-		 * @param WP_Styles $this WP_Styles instance (passed by reference).
+		 * @param WP_Styles &$this WP_Styles instance, passed by reference.
 		 */
 		do_action_ref_array( 'wp_default_styles', array(&$this) );
 	}
@@ -120,6 +131,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Processes a style dependency.
 	 *
 	 * @since 2.6.0
+	 * @access public
 	 *
 	 * @see WP_Dependencies::do_item()
 	 *
@@ -234,6 +246,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Adds extra CSS styles to a registered stylesheet.
 	 *
 	 * @since 3.3.0
+	 * @access public
 	 *
 	 * @param string $handle The style's registered handle.
 	 * @param string $code   String containing the CSS styles to be added.
@@ -258,6 +271,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Prints extra CSS styles of a registered stylesheet.
 	 *
 	 * @since 3.3.0
+	 * @access public
 	 *
 	 * @param string $handle The style's registered handle.
 	 * @param bool   $echo   Optional. Whether to echo the inline style instead of just returning it.
@@ -286,6 +300,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Determines style dependencies.
 	 *
 	 * @since 2.6.0
+	 * @access public
 	 *
 	 * @see WP_Dependencies::all_deps()
 	 *
@@ -313,6 +328,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Generates an enqueued style's fully-qualified URL.
 	 *
 	 * @since 2.6.0
+	 * @access public
 	 *
 	 * @param string $src The source of the enqueued style.
 	 * @param string $ver The version of the enqueued style.
@@ -343,6 +359,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Whether a handle's source is in a default directory.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 *
 	 * @param string $src The source of the enqueued style.
 	 * @return bool True if found, false if not.
@@ -364,6 +381,7 @@ class WP_Styles extends WP_Dependencies {
 	 * HTML 5 allows styles in the body, grab late enqueued items and output them in the footer.
 	 *
 	 * @since 3.3.0
+	 * @access public
 	 *
 	 * @see WP_Dependencies::do_items()
 	 *
@@ -378,6 +396,7 @@ class WP_Styles extends WP_Dependencies {
 	 * Resets class properties.
 	 *
 	 * @since 3.3.0
+	 * @access public
 	 */
 	public function reset() {
 		$this->do_concat = false;

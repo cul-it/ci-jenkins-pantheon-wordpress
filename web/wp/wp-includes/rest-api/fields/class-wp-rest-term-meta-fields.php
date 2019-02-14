@@ -20,6 +20,7 @@ class WP_REST_Term_Meta_Fields extends WP_REST_Meta_Fields {
 	 * Taxonomy to register fields for.
 	 *
 	 * @since 4.7.0
+	 * @access protected
 	 * @var string
 	 */
 	protected $taxonomy;
@@ -28,6 +29,7 @@ class WP_REST_Term_Meta_Fields extends WP_REST_Meta_Fields {
 	 * Constructor.
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @param string $taxonomy Taxonomy to register fields for.
 	 */
@@ -39,6 +41,7 @@ class WP_REST_Term_Meta_Fields extends WP_REST_Meta_Fields {
 	 * Retrieves the object meta type.
 	 *
 	 * @since 4.7.0
+	 * @access protected
 	 *
 	 * @return string The meta type.
 	 */
@@ -47,20 +50,10 @@ class WP_REST_Term_Meta_Fields extends WP_REST_Meta_Fields {
 	}
 
 	/**
-	 * Retrieves the object meta subtype.
-	 *
-	 * @since 4.9.8
-	 *
-	 * @return string Subtype for the meta type, or empty string if no specific subtype.
-	 */
-	protected function get_meta_subtype() {
-		return $this->taxonomy;
-	}
-
-	/**
 	 * Retrieves the type for register_rest_field().
 	 *
 	 * @since 4.7.0
+	 * @access public
 	 *
 	 * @return string The REST field type.
 	 */

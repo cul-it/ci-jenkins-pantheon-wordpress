@@ -425,10 +425,7 @@ jQuery( function( $ ) {
 					template = wp.template( 'community-events-no-upcoming-events' );
 					$results.html( template( templateParams ) );
 				}
-
-				if ( 'user' === initiatedBy ) {
-					wp.a11y.speak( communityEventsData.l10n.city_updated.replace( l10nPlaceholder, templateParams.location.description ), 'assertive' );
-				}
+				wp.a11y.speak( communityEventsData.l10n.city_updated.replace( l10nPlaceholder, templateParams.location.description ), 'assertive' );
 
 				elementVisibility['#community-events-location-message'] = true;
 				elementVisibility['.community-events-toggle-location']  = true;

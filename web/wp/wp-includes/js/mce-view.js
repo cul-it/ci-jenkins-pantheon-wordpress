@@ -85,11 +85,10 @@
 		 * and creates a new instance for every match.
 		 *
 		 * @param {String} content The string to scan.
-		 * @param {tinymce.Editor} editor The editor.
 		 *
 		 * @return {String} The string with markers.
 		 */
-		setMarkers: function( content, editor ) {
+		setMarkers: function( content ) {
 			var pieces = [ { content: content } ],
 				self = this,
 				instance, current;
@@ -116,7 +115,6 @@
 							pieces.push( { content: remaining.substring( 0, result.index ) } );
 						}
 
-						result.options.editor = editor;
 						instance = self.createInstance( type, result.content, result.options );
 						text = instance.loader ? '.' : instance.text;
 
@@ -280,7 +278,7 @@
 
 	wp.mce.View.extend = Backbone.View.extend;
 
-	_.extend( wp.mce.View.prototype, /** @lends wp.mce.View.prototype */{
+	_.extend( wp.mce.View.prototype, {
 
 		/**
 		 * The content.
@@ -852,7 +850,7 @@
 		action: 'parse-media-shortcode',
 
 		initialize: function() {
-			var self = this, maxwidth = null;
+			var self = this;
 
 			if ( this.url ) {
 				this.loader = false;
@@ -861,16 +859,10 @@
 				} );
 			}
 
-			// Obtain the target width for the embed.
-			if ( self.editor ) {
-				maxwidth = self.editor.getBody().clientWidth;
-			}
-
 			wp.ajax.post( this.action, {
 				post_ID: media.view.settings.post.id,
 				type: this.shortcode.tag,
-				shortcode: this.shortcode.string(),
-				maxwidth: maxwidth
+				shortcode: this.shortcode.string()
 			} )
 			.done( function( response ) {
 				self.render( response );

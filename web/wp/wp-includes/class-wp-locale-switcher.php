@@ -17,6 +17,7 @@ class WP_Locale_Switcher {
 	 * Locale stack.
 	 *
 	 * @since 4.7.0
+	 * @access private
 	 * @var string[]
 	 */
 	private $locales = array();
@@ -25,6 +26,7 @@ class WP_Locale_Switcher {
 	 * Original locale.
 	 *
 	 * @since 4.7.0
+	 * @access private
 	 * @var string
 	 */
 	private $original_locale;
@@ -33,6 +35,7 @@ class WP_Locale_Switcher {
 	 * Holds all available languages.
 	 *
 	 * @since 4.7.0
+	 * @access private
 	 * @var array An array of language codes (file names without the .mo extension).
 	 */
 	private $available_languages = array();
@@ -45,7 +48,7 @@ class WP_Locale_Switcher {
 	 * @since 4.7.0
 	 */
 	public function __construct() {
-		$this->original_locale     = determine_locale();
+		$this->original_locale     = is_admin() ? get_user_locale() : get_locale();
 		$this->available_languages = array_merge( array( 'en_US' ), get_available_languages() );
 	}
 
@@ -67,7 +70,7 @@ class WP_Locale_Switcher {
 	 * @return bool True on success, false on failure.
 	 */
 	public function switch_to_locale( $locale ) {
-		$current_locale = determine_locale();
+		$current_locale = is_admin() ? get_user_locale() : get_locale();
 		if ( $current_locale === $locale ) {
 			return false;
 		}
@@ -158,11 +161,11 @@ class WP_Locale_Switcher {
 	}
 
 	/**
-	 * Filters the locale of the WordPress installation.
+	 * Filters the WordPress install's locale.
 	 *
 	 * @since 4.7.0
 	 *
-	 * @param string $locale The locale of the WordPress installation.
+	 * @param string $locale The WordPress install's locale.
 	 * @return string The locale currently being switched to.
 	 */
 	public function filter_locale( $locale ) {
@@ -181,6 +184,7 @@ class WP_Locale_Switcher {
 	 * When switching to a locale, translations for this locale must be loaded from scratch.
 	 *
 	 * @since 4.7.0
+	 * @access private
 	 *
 	 * @global Mo[] $l10n An array of all currently loaded text domains.
 	 *
@@ -210,6 +214,7 @@ class WP_Locale_Switcher {
 	 * all post type labels.
 	 *
 	 * @since 4.7.0
+	 * @access private
 	 *
 	 * @global WP_Locale $wp_locale The WordPress date and time locale object.
 	 *

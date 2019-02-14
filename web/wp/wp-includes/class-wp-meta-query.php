@@ -18,6 +18,8 @@
  * to the primary SQL query string.
  *
  * @since 3.2.0
+ * @package WordPress
+ * @subpackage Meta
  */
 class WP_Meta_Query {
 	/**
@@ -26,6 +28,7 @@ class WP_Meta_Query {
 	 * See WP_Meta_Query::__construct() for information on meta query arguments.
 	 *
 	 * @since 3.2.0
+	 * @access public
 	 * @var array
 	 */
 	public $queries = array();
@@ -34,6 +37,7 @@ class WP_Meta_Query {
 	 * The relation between the queries. Can be one of 'AND' or 'OR'.
 	 *
 	 * @since 3.2.0
+	 * @access public
 	 * @var string
 	 */
 	public $relation;
@@ -42,6 +46,7 @@ class WP_Meta_Query {
 	 * Database table to query for the metadata.
 	 *
 	 * @since 4.1.0
+	 * @access public
 	 * @var string
 	 */
 	public $meta_table;
@@ -50,6 +55,7 @@ class WP_Meta_Query {
 	 * Column in meta_table that represents the ID of the object the metadata belongs to.
 	 *
 	 * @since 4.1.0
+	 * @access public
 	 * @var string
 	 */
 	public $meta_id_column;
@@ -58,6 +64,7 @@ class WP_Meta_Query {
 	 * Database table that where the metadata's objects are stored (eg $wpdb->users).
 	 *
 	 * @since 4.1.0
+	 * @access public
 	 * @var string
 	 */
 	public $primary_table;
@@ -66,6 +73,7 @@ class WP_Meta_Query {
 	 * Column in primary_table that represents the ID of the object.
 	 *
 	 * @since 4.1.0
+	 * @access public
 	 * @var string
 	 */
 	public $primary_id_column;
@@ -74,6 +82,7 @@ class WP_Meta_Query {
 	 * A flat list of table aliases used in JOIN clauses.
 	 *
 	 * @since 4.1.0
+	 * @access protected
 	 * @var array
 	 */
 	protected $table_aliases = array();
@@ -82,6 +91,7 @@ class WP_Meta_Query {
 	 * A flat list of clauses, keyed by clause 'name'.
 	 *
 	 * @since 4.2.0
+	 * @access protected
 	 * @var array
 	 */
 	protected $clauses = array();
@@ -90,6 +100,7 @@ class WP_Meta_Query {
 	 * Whether the query contains any OR relations.
 	 *
 	 * @since 4.3.0
+	 * @access protected
 	 * @var bool
 	 */
 	protected $has_or_relation = false;
@@ -100,6 +111,7 @@ class WP_Meta_Query {
 	 * @since 3.2.0
 	 * @since 4.2.0 Introduced support for naming query clauses by associative array keys.
 	 *
+	 * @access public
 	 *
 	 * @param array $meta_query {
 	 *     Array of meta query clauses. When first-order clauses or sub-clauses use strings as
@@ -143,6 +155,7 @@ class WP_Meta_Query {
 	 * Eliminates empty items and ensures that a 'relation' is set.
 	 *
 	 * @since 4.1.0
+	 * @access public
 	 *
 	 * @param array $queries Array of query clauses.
 	 * @return array Sanitized array of query clauses.
@@ -211,6 +224,7 @@ class WP_Meta_Query {
 	 * a 'value' array key.
 	 *
 	 * @since 4.1.0
+	 * @access protected
 	 *
 	 * @param array $query Meta query arguments.
 	 * @return bool Whether the query clause is a first-order clause.
@@ -223,6 +237,7 @@ class WP_Meta_Query {
 	 * Constructs a meta query based on 'meta_*' query vars
 	 *
 	 * @since 3.2.0
+	 * @access public
 	 *
 	 * @param array $qv The query variables
 	 */
@@ -270,6 +285,7 @@ class WP_Meta_Query {
 	 * Return the appropriate alias for the given meta type if applicable.
 	 *
 	 * @since 3.7.0
+	 * @access public
 	 *
 	 * @param string $type MySQL type to cast meta_value.
 	 * @return string MySQL type.
@@ -293,6 +309,7 @@ class WP_Meta_Query {
 	 * Generates SQL clauses to be appended to a main query.
 	 *
 	 * @since 3.2.0
+	 * @access public
 	 *
 	 * @param string $type              Type of meta, eg 'user', 'post'.
 	 * @param string $primary_table     Database table where the object being filtered is stored (eg wp_users).
@@ -350,6 +367,7 @@ class WP_Meta_Query {
 	 * out to maintain parity with the other Query classes.
 	 *
 	 * @since 4.1.0
+	 * @access protected
 	 *
 	 * @return array {
 	 *     Array containing JOIN and WHERE SQL clauses to append to the main query.
@@ -380,8 +398,9 @@ class WP_Meta_Query {
 	 * produce the properly nested SQL.
 	 *
 	 * @since 4.1.0
+	 * @access protected
 	 *
-	 * @param array $query Query to parse (passed by reference).
+	 * @param array $query Query to parse, passed by reference.
 	 * @param int   $depth Optional. Number of tree levels deep we currently are.
 	 *                     Used to calculate indentation. Default 0.
 	 * @return array {
@@ -463,10 +482,11 @@ class WP_Meta_Query {
 	 * "First-order" means that it's an array with a 'key' or 'value'.
 	 *
 	 * @since 4.1.0
+	 * @access public
 	 *
 	 * @global wpdb $wpdb WordPress database abstraction object.
 	 *
-	 * @param array  $clause       Query clause (passed by reference).
+	 * @param array  $clause       Query clause, passed by reference.
 	 * @param array  $parent_query Parent query array.
 	 * @param string $clause_key   Optional. The array key used to name the clause in the original `$meta_query`
 	 *                             parameters. If not provided, a key will be generated automatically.
@@ -640,6 +660,7 @@ class WP_Meta_Query {
 	 * a value of 'orderby' corresponding to a meta clause.
 	 *
 	 * @since 4.2.0
+	 * @access public
 	 *
 	 * @return array Meta clauses.
 	 */
@@ -662,6 +683,7 @@ class WP_Meta_Query {
 	 * connected by the relation 'OR'.
 	 *
 	 * @since 4.1.0
+	 * @access protected
 	 *
 	 * @param  array       $clause       Query clause.
 	 * @param  array       $parent_query Parent query of $clause.

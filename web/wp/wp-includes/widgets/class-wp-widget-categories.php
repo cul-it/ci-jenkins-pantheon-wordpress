@@ -20,6 +20,7 @@ class WP_Widget_Categories extends WP_Widget {
 	 * Sets up a new Categories widget instance.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 */
 	public function __construct() {
 		$widget_ops = array(
@@ -34,8 +35,7 @@ class WP_Widget_Categories extends WP_Widget {
 	 * Outputs the content for the current Categories widget instance.
 	 *
 	 * @since 2.8.0
-	 *
-	 * @staticvar bool $first_dropdown
+	 * @access public
 	 *
 	 * @param array $args     Display arguments including 'before_title', 'after_title',
 	 *                        'before_widget', and 'after_widget'.
@@ -44,17 +44,14 @@ class WP_Widget_Categories extends WP_Widget {
 	public function widget( $args, $instance ) {
 		static $first_dropdown = true;
 
-		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Categories' );
-
 		/** This filter is documented in wp-includes/widgets/class-wp-widget-pages.php */
-		$title = apply_filters( 'widget_title', $title, $instance, $this->id_base );
+		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Categories' ) : $instance['title'], $instance, $this->id_base );
 
 		$c = ! empty( $instance['count'] ) ? '1' : '0';
 		$h = ! empty( $instance['hierarchical'] ) ? '1' : '0';
 		$d = ! empty( $instance['dropdown'] ) ? '1' : '0';
 
 		echo $args['before_widget'];
-
 		if ( $title ) {
 			echo $args['before_title'] . $title . $args['after_title'];
 		}
@@ -62,11 +59,10 @@ class WP_Widget_Categories extends WP_Widget {
 		$cat_args = array(
 			'orderby'      => 'name',
 			'show_count'   => $c,
-			'hierarchical' => $h,
+			'hierarchical' => $h
 		);
 
 		if ( $d ) {
-			echo sprintf( '<form action="%s" method="get">', esc_url( home_url() ) );
 			$dropdown_id = ( $first_dropdown ) ? 'cat' : "{$this->id_base}-dropdown-{$this->number}";
 			$first_dropdown = false;
 
@@ -79,16 +75,12 @@ class WP_Widget_Categories extends WP_Widget {
 			 * Filters the arguments for the Categories widget drop-down.
 			 *
 			 * @since 2.8.0
-			 * @since 4.9.0 Added the `$instance` parameter.
 			 *
 			 * @see wp_dropdown_categories()
 			 *
 			 * @param array $cat_args An array of Categories widget drop-down arguments.
-			 * @param array $instance Array of settings for the current widget.
 			 */
-			wp_dropdown_categories( apply_filters( 'widget_categories_dropdown_args', $cat_args, $instance ) );
-
-			echo '</form>';
+			wp_dropdown_categories( apply_filters( 'widget_categories_dropdown_args', $cat_args ) );
 			?>
 
 <script type='text/javascript'>
@@ -97,7 +89,7 @@ class WP_Widget_Categories extends WP_Widget {
 	var dropdown = document.getElementById( "<?php echo esc_js( $dropdown_id ); ?>" );
 	function onCatChange() {
 		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
-			dropdown.parentNode.submit();
+			location.href = "<?php echo home_url(); ?>/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
 		}
 	}
 	dropdown.onchange = onCatChange;
@@ -116,12 +108,10 @@ class WP_Widget_Categories extends WP_Widget {
 		 * Filters the arguments for the Categories widget.
 		 *
 		 * @since 2.8.0
-		 * @since 4.9.0 Added the `$instance` parameter.
 		 *
 		 * @param array $cat_args An array of Categories widget options.
-		 * @param array $instance Array of settings for the current widget.
 		 */
-		wp_list_categories( apply_filters( 'widget_categories_args', $cat_args, $instance ) );
+		wp_list_categories( apply_filters( 'widget_categories_args', $cat_args ) );
 ?>
 		</ul>
 <?php
@@ -134,6 +124,7 @@ class WP_Widget_Categories extends WP_Widget {
 	 * Handles updating settings for the current Categories widget instance.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 *
 	 * @param array $new_instance New settings for this instance as input by the user via
 	 *                            WP_Widget::form().
@@ -154,6 +145,7 @@ class WP_Widget_Categories extends WP_Widget {
 	 * Outputs the settings form for the Categories widget.
 	 *
 	 * @since 2.8.0
+	 * @access public
 	 *
 	 * @param array $instance Current settings.
 	 */

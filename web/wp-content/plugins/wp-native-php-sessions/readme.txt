@@ -2,8 +2,8 @@
 Contributors: getpantheon, outlandish josh, mpvanwinkle77, danielbachhuber
 Tags: comments, sessions
 Requires at least: 3.0.1
-Tested up to: 5.0
-Stable tag: 0.6.9
+Tested up to: 4.8
+Stable tag: 0.6.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,27 +65,6 @@ If you see an error like "Fatal error: session_start(): Failed to initialize sto
 
 
 == Changelog ==
-
-= 0.6.9 (May 15th, 2018) =
-* Ensures `_pantheon_session_destroy()` uses a return value.
-
-= 0.6.8 (May 4th, 2018) =
-* Switches to `E_USER_WARNING` instead of `E_WARNING` when triggering errors.
-
-= 0.6.7 (April 26th, 2018) =
-* Disables plugin load when `WP_INSTALLING`, because session table creation breaks installation process.
-
-= 0.6.6 (March 8th, 2018) =
-* Restores session instantiation when WP-CLI is executing, because not doing so causes other problems.
-
-= 0.6.5 (February 6th, 2018) =
-* Disables session instantiation when `defined( 'WP_CLI' ) && WP_CLI` because sessions don't work on CLI.
-
-= 0.6.4 (October 10th, 2017) =
-* Triggers PHP error when plugin fails to write session to database.
-
-= 0.6.3 (September 29th, 2017) =
-* Returns false when we entirely fail to generate a session.
 
 = 0.6.2 (June 6th, 2017) =
 * Syncs session user id when a user logs in and logs out.

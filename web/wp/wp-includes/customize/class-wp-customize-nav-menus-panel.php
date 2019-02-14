@@ -22,6 +22,7 @@ class WP_Customize_Nav_Menus_Panel extends WP_Customize_Panel {
 	 * Control type.
 	 *
 	 * @since 4.3.0
+	 * @access public
 	 * @var string
 	 */
 	public $type = 'nav_menus';
@@ -30,6 +31,7 @@ class WP_Customize_Nav_Menus_Panel extends WP_Customize_Panel {
 	 * Render screen options for Menus.
 	 *
 	 * @since 4.3.0
+	 * @access public
 	 */
 	public function render_screen_options() {
 		// Adds the screen options.
@@ -62,6 +64,7 @@ class WP_Customize_Nav_Menus_Panel extends WP_Customize_Panel {
 	 * export custom variables by overriding WP_Customize_Panel::json().
 	 *
 	 * @since 4.3.0
+	 * @access protected
 	 *
 	 * @see WP_Customize_Panel::print_template()
 	 */
@@ -92,10 +95,6 @@ class WP_Customize_Nav_Menus_Panel extends WP_Customize_Panel {
 				<?php $this->render_screen_options(); ?>
 			</div>
 		</li>
-		<?php
-		// NOTE: The following is a workaround for an inability to treat (and thus label) a list of sections as a whole.
-		?>
-		<li class="customize-control-title customize-section-title-nav_menus-heading"><?php _e( 'Menus' ); ?></li>
 	<?php
 	}
 }
