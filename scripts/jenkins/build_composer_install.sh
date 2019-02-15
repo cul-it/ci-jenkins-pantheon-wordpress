@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'try #16'
+echo 'try #17'
 pwd
 ls -l
 php --version
