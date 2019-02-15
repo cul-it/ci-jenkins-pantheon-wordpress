@@ -1,0 +1,41 @@
+sudo: false
+language: php
+
+php:
+  - 7.1
+  - 7.2
+
+env:
+  global:
+  - REPOSITORY_USER=wordhatautomation
+  - secure: "ISejhHxnc5Al9rnmDdPhs6bNKwGmsMyoWXQfs/gX5y+w77Yp6z44GlRT3W+vWBjMt2wVdsjVv/wzU2T3yQst1+DVboMH0DkvkXJLI+epOnJOUYVEpvnCibidbgxTRCPNWdfQ+3k+/V2294N2lrJBM2sE5CBkAhuj48pwZUfyuqh9IvR5rhXnbr+iedXROPepRK5Lum8JIueUjvwbC0PfhdCGVlO/QCEl1CgOZFIH4B16V0atFYPT4AZjNTuLe9/yhAV8bbrwWM7TQkN6DmPpWcp5PvoNkK0sHl8mU+2u320bR4BPLFDUKUtYFbNL64KGfrC7vEu443NKcWRksn1W8d5kaaNewoT6yLZ8pEA9u9QmIy7pLvRRwHul6y21iNDQois+mssWNx/9PYa/17x9vp4tGPzL3vr4UT6g9AmcZIX43xBObMZSqO+9dJ5TpRvZAMMFx6tzSULZFATnRa3ru/zYPlXO82/lM4DBpVFCXuSfM+QRmII+puv4UrsueFzcATvVgWz/DNTYh8U4q8SlXoDpkDct4GCMOOkE9Os+BpOqZvuzC3KlKDYesYTVu/9Mhec3A3cBZb7UBqVUkrEMs8yc5hFA/QsenXCzEZwChnTGQmFikkXAoA5QM0oq0H7NONUfEceJmT3cKWfHhgd/YcmG8/QmYNmU54NBxFeyQ+A="
+  matrix:
+  - WORDHAT_DRIVER=wpphp
+  - WORDHAT_DRIVER=wpcli
+
+services:
+  - docker
+
+cache:
+  apt: true
+  directories:
+    - "$HOME/.composer/cache/files"
+
+
+notifications:
+  email: false
+  slack:
+    secure: Q2ZkwH54kc9ieTdZ61JqKRLpb7Q6K49d7yMvlglDl4gl66n2LJDemOG7YOwxGnCL01nYKhK+8/wn7jtp23H0ZQ9UDtd8TXcJ0LoIAz9nqkZk+x/yIR9SCsSyPreKsnGRH+kNJ8BqMXc0M40t9zg/sceO8vFUUe4KRuinMiCK5ceLPWNOxg1ezBa1ZpYTj0QcTafpfUTWPbOX27gAIuNXXj4xNTerMI0o4mp6Pu2fO1LaTzI5NhIA9JdY8vYlBzeG1yo2UXCQF1nsmHKkJK6f0WZ1EECi+2C85va8tpmy3QEpy0YuKp3Msz6+4l7ErY36VMTFOzWXuifA4bUbsyLL2I/xEJrFKXYSaFR4UWATcdTlIsUdTIl/Epo4rCx5me6N2zSJBV2Ch0CwcMv/lQCsaqjBa2kZCFfAg2a/xaDANeMPNHJAsaXkvnOlhb+Rs2j3we71uIJfVg4+t+AKYaF1l4J70tGZBhahfF18dHIbjzzpxlzUvbMdE1GI8jfj5ggGA75BbR5KoKWl+91Ql3z+5YMcCrcxPDIv6Den612daMdGNnQldPz55cCPYXhPZHUxxinOZKILrVg8nOxRvUkdjvF6czeTTfl6oxLzDz4t4Tw0xfI/WcGFCHTpGc+feHTEspiM4Zn9xY34+ALaXfTtOtsI8jSC1XHmL1VPy2nA/dY=
+
+install:
+  # Install all of the dependencies you need here.
+  - composer install --no-interaction --prefer-dist --no-progress
+
+before_script:
+  - sudo /etc/init.d/mysql stop
+
+script:
+  # Execute all of the commands which should make the build pass or fail.
+  - find ./src -name "*.php" -print0 | xargs -0 -n1 -P8 php -l
+  - composer phpcs
+  - vendor/bin/phing -Dwordhat.php-version=${TRAVIS_PHP_VERSION} -Dwordhat.driver=${WORDHAT_DRIVER}

@@ -1,0 +1,32 @@
+FROM library/wordpress:${wordhat.wordpress-version}-php${wordhat.php-version}
+
+# change the port to 8080 so we don't have to run as root locally
+RUN sed -i '1 s/\*\:80/\*\:8080/' /etc/apache2/sites-available/000-default.conf
+RUN sed -i 's/Listen 80/Listen 8080/' /etc/apache2/ports.conf
+EXPOSE 8080
+
+RUN apt-get -y update && apt-get -y --force-yes install gnupg && apt-key update
+RUN apt-get install -y --force-yes netcat mysql-client zip unzip wget
+
+COPY ./build/docker/install-composer.sh /wordhat/install-composer.sh
+RUN chmod a+x /wordhat/install-composer.sh
+RUN /wordhat/install-composer.sh && mv composer.phar /usr/local/bin/composer
+#RUN yes | pecl install xdebug \
+#    && echo "zend_extension=$(find /usr/local/lib/php/extensions/ -name xdebug.so)" > /usr/local/etc/php/conf.d/xdebug.ini \
+#    && echo "xdebug.remote_enable=on" >> /usr/local/etc/php/conf.d/xdebug.ini \
+#    && echo "xdebug.remote_autostart=off" >> /usr/local/etc/php/conf.d/xdebug.ini \
+#    && echo "xdebug.remote_log=/tmp/xdebug.log" >> /usr/local/etc/php/conf.d/xdebug.ini \
+#    && touch /tmp/xdebug.log && chmod a+rw /tmp/xdebug.log
+
+COPY ./composer.json /wordhat/composer.json
+WORKDIR /wordhat
+RUN chown -R www-data /var/www /wordhat /usr/src/wordpress
+
+USER www-data
+RUN composer --no-ansi install --no-ansi --no-interaction --prefer-dist --no-progress
+
+COPY ./ /wordhat
+USER root
+RUN chown -R www-data /wordhat && chmod u+x build/docker/docker-entrypoint.sh
+USER www-data
+ENTRYPOINT [ "build/docker/docker-entrypoint.sh" ]

@@ -1,0 +1,8 @@
+wordhat:
+  base-url: http://localhost
+  wd-host: 127.0.0.1:4444/wd/hub
+  wp-cli-binary: c:\projects\wordhat\vendor\bin\wp
+  wp-path: c:\inetpub\wwwroot
+  db-restore: true
+  behat-tags: ~@javascript
+  driver: wpcli

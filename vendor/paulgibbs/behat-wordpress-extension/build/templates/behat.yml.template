@@ -1,0 +1,46 @@
+default:
+  suites:
+    default:
+      paths:
+        - features
+      contexts:
+        - PaulGibbs\WordpressBehatExtension\Context\WordpressContext
+        - Behat\MinkExtension\Context\MinkContext
+        - PaulGibbs\WordpressBehatExtension\Context\ContentContext
+        - PaulGibbs\WordpressBehatExtension\Context\DashboardContext
+        - PaulGibbs\WordpressBehatExtension\Context\SiteContext
+        - PaulGibbs\WordpressBehatExtension\Context\UserContext
+        - PaulGibbs\WordpressBehatExtension\Context\EditPostContext
+        - PaulGibbs\WordpressBehatExtension\Context\WidgetContext
+        - PaulGibbs\WordpressBehatExtension\Context\ToolbarContext
+
+  extensions:
+    Behat\MinkExtension:
+      base_url: ${wordhat.base-url}
+      browser_name: chrome
+      default_session: default
+      javascript_session: selenium2
+      sessions:
+        default:
+          goutte:
+            guzzle_parameters:
+              verify: false  # Allow self-signed SSL certificates
+        selenium2:
+          selenium2:
+            wd_host: ${wordhat.wd-host}
+            capabilities:
+              browser: chrome
+
+    PaulGibbs\WordpressBehatExtension:
+      path: ${wordhat.wp-path}
+      default_driver: ${wordhat.driver}
+      wpcli:
+        binary: ${wordhat.wp-cli-binary}
+      users:
+        -
+          roles:
+            - administrator
+          username: admin
+          password: password
+      database:
+        restore_after_test: ${wordhat.db-restore}

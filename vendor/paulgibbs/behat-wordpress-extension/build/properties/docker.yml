@@ -1,0 +1,7 @@
+wordhat:
+  base-url: http://wordpress:8080
+  wd-host: selenium:4444/wd/hub
+  wp-path: /usr/src/wordpress
+  wp-cli-binary: /wordhat/vendor/bin/wp
+  db-restore: true
+  driver: wpcli

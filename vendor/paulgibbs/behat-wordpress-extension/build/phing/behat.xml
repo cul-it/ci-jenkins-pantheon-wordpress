@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model xlink:href="/usr/share/php5/PEAR/data/phing/etc/phing-grammar.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0" ?>
+<project name="behat" default="behat:exec-tests">
+
+	<property name="behat.bin" value="${project.basedir}/vendor/bin/behat" />
+	<property name="behat.config.file" value="${project.basedir}/build/behat.yml" />
+	<property name="behat.report.dir" value="${project.basedir}/report/behat" />
+
+	<target name="behat:init" unless="behat.initialized" hidden="true">
+		<mkdir dir="${behat.report.dir}" />
+		<property name="behat.initialized" value="true" />
+	</target>
+
+	<target name="behat:exec-tests"
+		description="Runs Behat tests and prints human readable output."
+		depends="behat:init">
+		<if>
+			<isset property="behat.tags" />
+			<then>
+				<exec
+					command="${behat.bin} --no-colors --config ${behat.config.file} --tags=&quot;${behat.tags}&quot; --out std --format progress --out ${behat.report.dir} --format junit"
+					passthru="true" checkreturn="true" />
+			</then>
+			<else>
+				<exec
+					command="${behat.bin} --no-colors --config ${behat.config.file} --out std --format progress --out ${behat.report.dir} --format junit"
+					passthru="true" checkreturn="true" />
+			</else>
+		</if>
+	</target>
+
+</project>

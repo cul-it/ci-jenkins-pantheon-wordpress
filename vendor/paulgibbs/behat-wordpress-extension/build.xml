@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model xlink:href="/usr/share/php5/PEAR/data/phing/etc/phing-grammar.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0" ?>
+
+<project name="wordhat" description="BDD for Wordpress"
+    default="wordhat:test">
+
+    <import file="build/phing/docker.xml" />
+    <import file="build/phing/behat.xml" />
+
+    <property environment="env" />
+    <property name="wordhat.php-version" value="7.2" />
+    <property name="wordhat.wordpress-version" value="5.0.0" />
+    <property name="wordhat.phpstan-level" value="1" />
+    <property name="wordhat.phpstan-configfile"
+        value="${project.basedir}/phpstan.neon" />
+    <property name="wordhat.phpcs-configfile"
+        value="${project.basedir}/phpcs-ruleset.xml" />
+    <property name="wordhat.push-image" value="false" />
+
+    <target name="wordhat:test" depends="wordhat:prepare-config">
+        <phingcall target="wordhat:phpcs" />
+        <if>
+            <equals arg1="${wordhat.runstyle}" arg2="docker" />
+            <then>
+                <phingcall target="wordhat:docker-test" />
+            </then>
+            <elseif>
+                <equals arg1="${wordhat.runstyle}" arg2="native" />
+                <then>
+                    <phingcall target="wordhat:native-test" />
+                </then>
+            </elseif>
+        </if>
+    </target>
+
+    <target name="wordhat:docker-test">
+        <phingcall target="docker:build" />
+        <phingcall target="docker:up" />
+        <echo msg="Waiting for WordPress to start" />
+        <waitfor maxwaitunit="second" maxwait="60"
+            checkeveryunit="second" checkevery="5">
+            <http url="http://wordpress:8080" quiet="true" />
+        </waitfor>
+        <phingcall target="docker:exec-tests" />
+        <if>
+            <isset property="${wordhat.pauls-build}" />
+            <then>
+                <phingcall target="docker:push" />
+            </then>
+        </if>
+        <phingcall target="docker:stop" />
+        <phingcall target="docker:cleanup" />
+    </target>
+
+    <target name="wordhat:native-test">
+        <!-- scoping means that this needs to be reloaded here -->
+        <property
+            file="${project.basedir}/build/properties/${wordhat.ci-engine}.yml" />
+        <!-- for the moment assume all the pre-reqs are in place - gradually
+            migrate them in -->
+        <echo message="${wordhat.behat-tags}" />
+        <if>
+            <isset property="wordhat.behat-tags" />
+            <then>
+                <phingcall target="behat:exec-tests">
+                    <property name="behat.tags"
+                        value="${wordhat.behat-tags}" />
+                </phingcall>
+            </then>
+            <else>
+                <phingcall target="behat:exec-tests" />
+            </else>
+        </if>
+
+    </target>
+
+    <target name="wordhat:detect-ci" unless="wordhat.runstyle">
+
+        <if>
+            <isset property="env.TRAVIS" />
+            <then>
+                <property name="wordhat.runstyle"
+                    value="docker" />
+                <property name="wordhat.ci-engine"
+                    value="travis" />
+                <if>
+                    <equals
+                        arg1="paulgibbs/behat-wordpress-extension"
+                        arg2="${env.TRAVIS_REPO_SLUG}" />
+                    <then>
+                        <property name="wordhat.pauls-build"
+                            value="true" />
+                    </then>
+                </if>
+            </then>
+            <elseif>
+                <isset property="env.APPVEYOR" />
+                <then>
+                    <property name="wordhat.runstyle"
+                        value="native" />
+                    <property name="wordhat.ci-engine"
+                        value="appveyor" />
+                </then>
+            </elseif>
+            <else>
+                <property name="wordhat.runstyle"
+                    value="docker" />
+                <property name="wordhat.ci-engine"
+                    value="local" />
+            </else>
+        </if>
+    </target>
+
+    <target name="wordhat:prepare-config"
+        depends="wordhat:detect-ci">
+        <if>
+            <equals arg1="${wordhat.runstyle}" arg2="docker" />
+            <then>
+                <phingcall
+                    target="wordhat:prepare-docker-config" />
+            </then>
+            <elseif>
+                <equals arg1="${wordhat.runstyle}" arg2="native" />
+                <then>
+                    <phingcall
+                        target="wordhat:prepare-native-config" />
+                </then>
+            </elseif>
+
+        </if>
+    </target>
+
+    <target name="wordhat:prepare-docker-config">
+        <property
+            file="${project.basedir}/build/properties/docker.yml" />
+        <copy tofile="${project.basedir}/build/docker/Dockerfile"
+            file="${project.basedir}/build/templates/Dockerfile.template"
+            overwrite="true">
+            <filterchain>
+                <expandproperties />
+            </filterchain>
+        </copy>
+        <copy tofile="${project.basedir}/build/behat.yml"
+            file="${project.basedir}/build/templates/behat.yml.template"
+            overwrite="true">
+            <filterchain>
+                <expandproperties />
+            </filterchain>
+        </copy>
+        <copy
+            tofile="${project.basedir}/build/docker/docker-compose.yml"
+            file="${project.basedir}/build/templates/docker-compose.yml.template"
+            overwrite="true">
+            <filterchain>
+                <expandproperties />
+            </filterchain>
+        </copy>
+    </target>
+
+    <target name="wordhat:prepare-native-config">
+        <property
+            file="${project.basedir}/build/properties/${wordhat.ci-engine}.yml" />
+        <copy tofile="${project.basedir}/build/behat.yml"
+            file="${project.basedir}/build/templates/behat.yml.template"
+            overwrite="true">
+            <filterchain>
+                <expandproperties />
+            </filterchain>
+        </copy>
+    </target>
+
+    <target name="wordhat:phpstan">
+        <property name="wordhat.php-binary"
+            value="vendor/bin/phpstan" />
+        <if>
+            <os family="windows" />
+            <then>
+                <pathconvert targetos="windows"
+                    property="wordhat.php-binary">
+                    <path path="${wordhat.php-binary}">
+                    </path>
+                </pathconvert>
+                <pathconvert targetos="windows"
+                    property="wordhat.phpstan-configfile">
+                    <path path="${wordhat.phpstan-configfile}">
+                    </path>
+                </pathconvert>
+            </then>
+        </if>
+        <exec executable="${wordhat.php-binary}" passthru="true"
+            checkreturn="true">
+            <arg value="analyse" />
+            <arg value="-c" />
+            <arg value="${wordhat.phpstan-configfile}" />
+            <arg value="--level=${wordhat.phpstan-level}" />
+            <arg value="src" />
+        </exec>
+    </target>
+
+    <target name="wordhat:phpcs">
+        <property name="wordhat.php-binary"
+            value="vendor/bin/phpcs" />
+        <if>
+            <os family="windows" />
+            <then>
+                <pathconvert targetos="windows"
+                    property="wordhat.php-binary">
+                    <path path="${wordhat.php-binary}">
+                    </path>
+                </pathconvert>
+            </then>
+        </if>
+        <exec executable="${wordhat.php-binary}" passthru="true"
+            checkreturn="true">
+            <arg value="--standard=${wordhat.phpcs-configfile}" />
+            <arg value="-p" />
+            <arg value="-s" />
+            <arg value="-v" />
+            <arg value="-n" />
+            <arg value="src" />
+            <arg value="--extensions=php" />
+        </exec>
+    </target>
+
+    <target name="wordhat:check-syntax">
+        <foreach param="file" absparam="wordhat:file"
+            target="wordhat:check-file-syntax">
+            <fileset dir="${project.basedir}/src">
+                <include name="**/*.php" />
+            </fileset>
+        </foreach>
+    </target>
+
+    <target name="wordhat:check-file-syntax">
+        <exec command="php -l ${wordhat:file}" checkreturn="true" />
+    </target>
+
+</project>

@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+   db:
+     image: mysql:5.7.22
+     ports:
+       - "3306:3306"
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   wordpress:
+     depends_on:
+       - db
+       - selenium
+     image: wordhat/automation:5.0.0-php7.2
+     shm_size: 2G
+     ports:
+       - "8080:8080"
+     environment:
+       XDEBUG_CONFIG: "remote_host=10.0.2.2"
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+     cap_add:
+       - SYS_PTRACE
+     security_opt:
+       - seccomp:unconfined
+
+   selenium:
+     image: selenium/standalone-chrome-debug:3.11.0
+     ports:
+      - "4444:4444"
+      - "5900"
+     shm_size: 2G
