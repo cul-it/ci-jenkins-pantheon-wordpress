@@ -12,4 +12,5 @@ Feature: Test for basic site function
   @https_only
   Scenario: http requests are redirected to https
     Given I go to the home page
+    Then the page should show content "About"
     Then the protocol should be https
