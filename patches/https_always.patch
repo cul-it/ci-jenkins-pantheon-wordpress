@@ -1,0 +1,172 @@
+diff --git composer.json composer.json
+index 54966554e..16d48046b 100644
+--- composer.json
++++ composer.json
+@@ -60,7 +60,7 @@
+     },
+     "patches": {
+       "pantheon-systems/wordpress-composer": {
+-        "modify wp-config.php to use https all the time": "https://github.com/cul-it/ci-jenkins-pantheon-wordpress/commit/6bb2b3c9b261c512b853c12be2b6c3cad405d83a.diff"
++        "modify wp-config.php to use https all the time": "./patches/https_always.txt"
+       }
+     }
+   },
+diff --git composer.lock composer.lock
+index f06600ded..b8d4accfd 100644
+--- composer.lock
++++ composer.lock
+@@ -4,7 +4,7 @@
+         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+         "This file is @generated automatically"
+     ],
+-    "content-hash": "64c015d549f209d5b7815aac0c277d93",
++    "content-hash": "4b52b4a3cce01b70b2b5223b09d5684d",
+     "packages": [
+         {
+             "name": "composer/installers",
+@@ -265,7 +265,8 @@
+                 "branch-alias": {
+                     "dev-master": "4.x-dev"
+                 },
+-                "wordpress-install-dir": "web/wp"
++                "wordpress-install-dir": "web/wp",
++                "patches_applied": []
+             },
+             "license": [
+                 "GPL-2.0+"
+@@ -2587,6 +2588,7 @@
+                 "mock",
+                 "xunit"
+             ],
++            "abandoned": true,
+             "time": "2018-08-09T05:50:03+00:00"
+         },
+         {
+diff --git patches/https_always.diff patches/https_always.diff
+deleted file mode 100644
+index bf741ac3a..000000000
+--- patches/https_always.diff
++++ /dev/null
+@@ -1,61 +0,0 @@
+-diff --git a/web/wp-config.php b/web/wp-config.php
+-index a76e6d11d..63b7977b1 100644
+---- a/web/wp-config.php
+-+++ b/web/wp-config.php
+-@@ -184,6 +184,49 @@ define( 'WP_CONTENT_URL', WP_HOME . '/wp-content' );
+-  */
+- $table_prefix = getenv( 'DB_PREFIX' ) !== false ? getenv( 'DB_PREFIX' ) : 'wp_';
+- 
+-+
+-+/**
+-+  * CUL custom upstream settings
+-+  * example wp-config-cul-uls.php
+-+  *   <?php
+-+  *   define('ULS_SITE_DOMAIN_NAME', 'library.cornell.edu');
+-+  */
+-+  if (file_exists(dirname(__FILE__) . '/wp-config-cul-uls.php') && !isset($_ENV['PANTHEON_ENVIRONMENT'])) {
+-+	require_once(dirname(__FILE__) . '/wp-config-cul-uls.php');
+-+  }
+-+  
+-+/**
+-+ * Use https all the time
+-+ * see https://pantheon.io/docs/http-to-https/#redirect-to-https-and-the-primary-domain
+-+ * add the following line to wp-config-cul-uls.php in the Pantheon site repo
+-+ * define('ULS_SITE_DOMAIN_NAME', 'your_site_here.library.cornell.edu');
+-+ */
+-+if (isset($_ENV['PANTHEON_ENVIRONMENT']) && php_sapi_name() != 'cli') {
+-+	// Redirect to https://$primary_domain in the Live environment
+-+	if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live' && defined(ULS_SITE_DOMAIN_NAME)) {
+-+	  /** Replace www.example.com with your registered domain name */
+-+	  $primary_domain = ULS_SITE_DOMAIN_NAME;
+-+	}
+-+	else {
+-+	  // Redirect to HTTPS on every Pantheon environment.
+-+	  $primary_domain = $_SERVER['HTTP_HOST'];
+-+	}
+-+  
+-+	if ($_SERVER['HTTP_HOST'] != $primary_domain
+-+		|| !isset($_SERVER['HTTP_USER_AGENT_HTTPS'])
+-+		|| $_SERVER['HTTP_USER_AGENT_HTTPS'] != 'ON' ) {
+-+  
+-+	  # Name transaction "redirect" in New Relic for improved reporting (optional)
+-+	  if (extension_loaded('newrelic')) {
+-+		newrelic_name_transaction("redirect");
+-+	  }
+-+  
+-+	  header('HTTP/1.0 301 Moved Permanently');
+-+	  header('Location: https://'. $primary_domain . $_SERVER['REQUEST_URI']);
+-+	  exit();
+-+	}
+-+  }  
+-+  
+- /* That's all, stop editing! Happy blogging. */
+- 
+- /** Absolute path to the WordPress directory. */
+-@@ -191,4 +234,4 @@ if ( ! defined( 'ABSPATH' ) ) {
+- 	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+- }
+- /** Sets up WordPress vars and included files. */
+--require_once( ABSPATH . 'wp-settings.php' );
+-\ No newline at end of file
+-+require_once( ABSPATH . 'wp-settings.php' );
+diff --git web/wp-config.php web/wp-config.php
+index a76e6d11d..63b7977b1 100644
+--- web/wp-config.php
++++ web/wp-config.php
+@@ -184,6 +184,49 @@ define( 'WP_CONTENT_URL', WP_HOME . '/wp-content' );
+  */
+ $table_prefix = getenv( 'DB_PREFIX' ) !== false ? getenv( 'DB_PREFIX' ) : 'wp_';
+ 
++
++/**
++  * CUL custom upstream settings
++  * example wp-config-cul-uls.php
++  *   <?php
++  *   define('ULS_SITE_DOMAIN_NAME', 'library.cornell.edu');
++  */
++  if (file_exists(dirname(__FILE__) . '/wp-config-cul-uls.php') && !isset($_ENV['PANTHEON_ENVIRONMENT'])) {
++	require_once(dirname(__FILE__) . '/wp-config-cul-uls.php');
++  }
++  
++/**
++ * Use https all the time
++ * see https://pantheon.io/docs/http-to-https/#redirect-to-https-and-the-primary-domain
++ * add the following line to wp-config-cul-uls.php in the Pantheon site repo
++ * define('ULS_SITE_DOMAIN_NAME', 'your_site_here.library.cornell.edu');
++ */
++if (isset($_ENV['PANTHEON_ENVIRONMENT']) && php_sapi_name() != 'cli') {
++	// Redirect to https://$primary_domain in the Live environment
++	if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live' && defined(ULS_SITE_DOMAIN_NAME)) {
++	  /** Replace www.example.com with your registered domain name */
++	  $primary_domain = ULS_SITE_DOMAIN_NAME;
++	}
++	else {
++	  // Redirect to HTTPS on every Pantheon environment.
++	  $primary_domain = $_SERVER['HTTP_HOST'];
++	}
++  
++	if ($_SERVER['HTTP_HOST'] != $primary_domain
++		|| !isset($_SERVER['HTTP_USER_AGENT_HTTPS'])
++		|| $_SERVER['HTTP_USER_AGENT_HTTPS'] != 'ON' ) {
++  
++	  # Name transaction "redirect" in New Relic for improved reporting (optional)
++	  if (extension_loaded('newrelic')) {
++		newrelic_name_transaction("redirect");
++	  }
++  
++	  header('HTTP/1.0 301 Moved Permanently');
++	  header('Location: https://'. $primary_domain . $_SERVER['REQUEST_URI']);
++	  exit();
++	}
++  }  
++  
+ /* That's all, stop editing! Happy blogging. */
+ 
+ /** Absolute path to the WordPress directory. */
+@@ -191,4 +234,4 @@ if ( ! defined( 'ABSPATH' ) ) {
+ 	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+ }
+ /** Sets up WordPress vars and included files. */
+-require_once( ABSPATH . 'wp-settings.php' );
+\ No newline at end of file
++require_once( ABSPATH . 'wp-settings.php' );
