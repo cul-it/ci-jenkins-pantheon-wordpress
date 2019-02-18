@@ -60,7 +60,7 @@
     },
     "patches": {
       "pantheon-systems/wordpress-composer": {
-        "modify wp-config.php to use https all the time": "https://github.com/cul-it/ci-jenkins-pantheon-wordpress/commit/6bb2b3c9b261c512b853c12be2b6c3cad405d83a.diff"
+        "modify wp-config.php to use https all the time": "./patches/https_always.txt"
       }
     }
   },
