@@ -521,6 +521,6 @@ Then("I use http to go to {string}") do |string|
   url = "http://" + @url[:domain] + string
   patiently do
     visit(url)
-    expect(page).to have_current_path(string + "/");
+    expect(page).to have_current_path(string + "/", url: false);
   end
 end
