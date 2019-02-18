@@ -510,6 +510,7 @@ Then("I should see the Staff login link") do
 end
 
 Then("the protocol should be https") do
+  sleep_for(2)
   wait_for(200) {
     patiently do
       expect(URI.parse(current_url).scheme).to have_content('https')
