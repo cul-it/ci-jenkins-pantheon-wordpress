@@ -57,6 +57,11 @@
       "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"],
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+    },
+    "patches": {
+      "cul-it/ci-jenkins-pantheon-wordpress": {
+        "https all the time": "patches/https_always.diff"
+      }
     }
   },
   "autoload": {
