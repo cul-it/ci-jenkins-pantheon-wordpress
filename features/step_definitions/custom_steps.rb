@@ -510,9 +510,8 @@ Then("I should see the Staff login link") do
 end
 
 Then("the protocol should be https") do
+  pending # does not work on jenkins
   sleep_for(2)
-  what_is(current_url)
-  what_is(URI.parse(current_url).scheme)
   wait_for(200) {
     patiently do
       expect(URI.parse(current_url).scheme).to have_content('https')
