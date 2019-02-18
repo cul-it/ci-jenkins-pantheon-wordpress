@@ -1,7 +1,7 @@
-diff --git web/wp-config.php web/wp-config.php
+diff --git a/web/wp-config.php b/web/wp-config.php
 index a76e6d11d..4a31e8e0e 100644
---- web/wp-config.php
-+++ web/wp-config.php
+--- a/web/wp-config.php
++++ b/web/wp-config.php
 @@ -184,6 +184,49 @@ define( 'WP_CONTENT_URL', WP_HOME . '/wp-content' );
   */
  $table_prefix = getenv( 'DB_PREFIX' ) !== false ? getenv( 'DB_PREFIX' ) : 'wp_';
