@@ -16,6 +16,7 @@
   ],
   "require": {
     "composer/installers": "^1.3.0",
+    "cweagans/composer-patches": "~1.0",
     "pantheon-systems/quicksilver-pushback": "^1.0",
     "pantheon-systems/wordpress-composer": "^4.8.2",
     "roots/wp-password-bcrypt": "^1.0.0",
@@ -56,6 +57,11 @@
       "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"],
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+    },
+    "patches": {
+      "cul-it/ci-jenkins-pantheon-wordpress": {
+        "https all the time": "patches/https_always.diff"
+      }
     }
   },
   "autoload": {
