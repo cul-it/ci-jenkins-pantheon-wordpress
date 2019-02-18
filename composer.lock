@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64c015d549f209d5b7815aac0c277d93",
+    "content-hash": "4b52b4a3cce01b70b2b5223b09d5684d",
     "packages": [
         {
             "name": "composer/installers",
@@ -265,7 +265,8 @@
                 "branch-alias": {
                     "dev-master": "4.x-dev"
                 },
-                "wordpress-install-dir": "web/wp"
+                "wordpress-install-dir": "web/wp",
+                "patches_applied": []
             },
             "license": [
                 "GPL-2.0+"
@@ -2587,6 +2588,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2018-08-09T05:50:03+00:00"
         },
         {
