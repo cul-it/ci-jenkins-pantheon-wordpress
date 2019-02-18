@@ -1,4 +1,4 @@
-diff --git a/web/wp-config.php b/web/wp-config.php
+diff --git web/wp-config.php web/wp-config.php
 index a76e6d11d..63b7977b1 100644
 --- a/web/wp-config.php
 +++ b/web/wp-config.php
@@ -14,7 +14,7 @@ index a76e6d11d..63b7977b1 100644
 +  *   define('ULS_SITE_DOMAIN_NAME', 'library.cornell.edu');
 +  */
 +  if (file_exists(dirname(__FILE__) . '/wp-config-cul-uls.php') && !isset($_ENV['PANTHEON_ENVIRONMENT'])) {
-+	require_once(dirname(__FILE__) . '/wp-config-cul-uls.php');
++ require_once(dirname(__FILE__) . '/wp-config-cul-uls.php');
 +  }
 +  
 +/**
@@ -24,36 +24,36 @@ index a76e6d11d..63b7977b1 100644
 + * define('ULS_SITE_DOMAIN_NAME', 'your_site_here.library.cornell.edu');
 + */
 +if (isset($_ENV['PANTHEON_ENVIRONMENT']) && php_sapi_name() != 'cli') {
-+	// Redirect to https://$primary_domain in the Live environment
-+	if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live' && defined(ULS_SITE_DOMAIN_NAME)) {
-+	  /** Replace www.example.com with your registered domain name */
-+	  $primary_domain = ULS_SITE_DOMAIN_NAME;
-+	}
-+	else {
-+	  // Redirect to HTTPS on every Pantheon environment.
-+	  $primary_domain = $_SERVER['HTTP_HOST'];
-+	}
++ // Redirect to https://$primary_domain in the Live environment
++ if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live' && defined(ULS_SITE_DOMAIN_NAME)) {
++   /** Replace www.example.com with your registered domain name */
++   $primary_domain = ULS_SITE_DOMAIN_NAME;
++ }
++ else {
++   // Redirect to HTTPS on every Pantheon environment.
++   $primary_domain = $_SERVER['HTTP_HOST'];
++ }
 +  
-+	if ($_SERVER['HTTP_HOST'] != $primary_domain
-+		|| !isset($_SERVER['HTTP_USER_AGENT_HTTPS'])
-+		|| $_SERVER['HTTP_USER_AGENT_HTTPS'] != 'ON' ) {
++ if ($_SERVER['HTTP_HOST'] != $primary_domain
++   || !isset($_SERVER['HTTP_USER_AGENT_HTTPS'])
++   || $_SERVER['HTTP_USER_AGENT_HTTPS'] != 'ON' ) {
 +  
-+	  # Name transaction "redirect" in New Relic for improved reporting (optional)
-+	  if (extension_loaded('newrelic')) {
-+		newrelic_name_transaction("redirect");
-+	  }
++   # Name transaction "redirect" in New Relic for improved reporting (optional)
++   if (extension_loaded('newrelic')) {
++   newrelic_name_transaction("redirect");
++   }
 +  
-+	  header('HTTP/1.0 301 Moved Permanently');
-+	  header('Location: https://'. $primary_domain . $_SERVER['REQUEST_URI']);
-+	  exit();
-+	}
++   header('HTTP/1.0 301 Moved Permanently');
++   header('Location: https://'. $primary_domain . $_SERVER['REQUEST_URI']);
++   exit();
++ }
 +  }  
 +  
  /* That's all, stop editing! Happy blogging. */
  
  /** Absolute path to the WordPress directory. */
 @@ -191,4 +234,4 @@ if ( ! defined( 'ABSPATH' ) ) {
- 	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+  define( 'ABSPATH', dirname( __FILE__ ) . '/' );
  }
  /** Sets up WordPress vars and included files. */
 -require_once( ABSPATH . 'wp-settings.php' );
