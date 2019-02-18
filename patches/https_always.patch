@@ -1,0 +1,61 @@
+diff --git web/wp-config.php web/wp-config.php
+index a76e6d11d..d0f5a4a8e 100644
+--- web/wp-config.php
++++ web/wp-config.php
+@@ -184,6 +184,49 @@ define( 'WP_CONTENT_URL', WP_HOME . '/wp-content' );
+  */
+ $table_prefix = getenv( 'DB_PREFIX' ) !== false ? getenv( 'DB_PREFIX' ) : 'wp_';
+ 
++
++/**
++  * CUL custom upstream settings
++  * example wp-config-cul-uls.php
++  *   <?php
++  *   define('ULS_SITE_DOMAIN_NAME', 'library.cornell.edu');
++  */
++  if (file_exists(dirname(__FILE__) . '/wp-config-cul-uls.php') && !isset($_ENV['PANTHEON_ENVIRONMENT'])) {
++ require_once(dirname(__FILE__) . '/wp-config-cul-uls.php');
++  }
++  
++/**
++ * Use https all the time
++ * see https://pantheon.io/docs/http-to-https/#redirect-to-https-and-the-primary-domain
++ * add the following line to wp-config-cul-uls.php in the Pantheon site repo
++ * define('ULS_SITE_DOMAIN_NAME', 'your_site_here.library.cornell.edu');
++ */
++if (isset($_ENV['PANTHEON_ENVIRONMENT']) && php_sapi_name() != 'cli') {
++ // Redirect to https://$primary_domain in the Live environment
++ if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live' && defined(ULS_SITE_DOMAIN_NAME)) {
++   /** Replace www.example.com with your registered domain name */
++   $primary_domain = ULS_SITE_DOMAIN_NAME;
++ }
++ else {
++   // Redirect to HTTPS on every Pantheon environment.
++   $primary_domain = $_SERVER['HTTP_HOST'];
++ }
++  
++ if ($_SERVER['HTTP_HOST'] != $primary_domain
++   || !isset($_SERVER['HTTP_USER_AGENT_HTTPS'])
++   || $_SERVER['HTTP_USER_AGENT_HTTPS'] != 'ON' ) {
++  
++   # Name transaction "redirect" in New Relic for improved reporting (optional)
++   if (extension_loaded('newrelic')) {
++   newrelic_name_transaction("redirect");
++   }
++  
++   header('HTTP/1.0 301 Moved Permanently');
++   header('Location: https://'. $primary_domain . $_SERVER['REQUEST_URI']);
++   exit();
++ }
++  }  
++  
+ /* That's all, stop editing! Happy blogging. */
+ 
+ /** Absolute path to the WordPress directory. */
+@@ -191,4 +234,4 @@ if ( ! defined( 'ABSPATH' ) ) {
+ 	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+ }
+ /** Sets up WordPress vars and included files. */
+-require_once( ABSPATH . 'wp-settings.php' );
+\ No newline at end of file
++require_once( ABSPATH . 'wp-settings.php' );
