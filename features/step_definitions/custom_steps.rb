@@ -510,6 +510,15 @@ Then("I should see the Staff login link") do
 end
 
 Then("the protocol should be https") do
-  scheme = URI.parse(current_url).scheme
-  expect(scheme).to have_content('https')
+  patiently do
+    expect(URI.parse(current_url).scheme).to have_content('https')
+  end
+end
+
+Then("I use http to go to {string}") do |string|
+  url = "http://" + @url[:domain] + string
+  patiently do
+    visit(url)
+    expect(page).to have_current_path(url);
+  end
 end
