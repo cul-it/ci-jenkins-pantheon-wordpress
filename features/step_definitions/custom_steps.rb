@@ -508,3 +508,8 @@ Then("I should see the Staff login link") do
     expect(page.find(:css, 'section#block-block-46 ul.menu.nav li a')).to have_content("Staff login")
   end
 end
+
+Then("the protocol should be https") do
+  scheme = URI.parse(current_url).scheme
+  expect(scheme).to have_content('https')
+end
