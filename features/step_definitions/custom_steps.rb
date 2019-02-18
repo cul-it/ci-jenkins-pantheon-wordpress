@@ -511,6 +511,8 @@ end
 
 Then("the protocol should be https") do
   sleep_for(2)
+  what_is(current_url)
+  what_is(URI.parse(current_url).scheme)
   wait_for(200) {
     patiently do
       expect(URI.parse(current_url).scheme).to have_content('https')
