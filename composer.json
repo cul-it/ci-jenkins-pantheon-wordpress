@@ -59,8 +59,8 @@
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
     },
     "patches": {
-      "cul-it/ci-jenkins-pantheon-wordpress": {
-        "https all the time": "patches/https_always.diff"
+      "pantheon-systems/wordpress-composer": {
+        "https all the time": "./patches/https_always.diff"
       }
     }
   },
