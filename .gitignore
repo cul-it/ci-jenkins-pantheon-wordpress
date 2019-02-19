@@ -12,6 +12,7 @@
 !web/
 web/*
 !web/index.php
+!web/simplesaml
 !web/wp-cli.yml
 !web/wp-config.php
 !web/wp-content/
