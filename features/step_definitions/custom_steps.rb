@@ -508,3 +508,21 @@ Then("I should see the Staff login link") do
     expect(page.find(:css, 'section#block-block-46 ul.menu.nav li a')).to have_content("Staff login")
   end
 end
+
+Then("the protocol should be https") do
+  pending # does not work on jenkins
+  sleep_for(2)
+  wait_for(200) {
+    patiently do
+      expect(URI.parse(current_url).scheme).to have_content('https')
+    end
+  }
+end
+
+Then("I use http to go to {string}") do |string|
+  url = "http://" + @url[:domain] + string
+  patiently do
+    visit(url)
+    expect(page).to have_current_path(string + "/", url: false);
+  end
+end
