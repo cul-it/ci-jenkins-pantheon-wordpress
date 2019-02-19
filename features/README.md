@@ -21,7 +21,7 @@ HEADLESS () - without this it defaults to chrome but there's no chrome driver on
 HEADLESS_BROWSER (0)
 POLTERGEIST_DEBUG (0)
 SUBMIT (0) - 1: click the submit button on forms
-HTTPS (0) - 1: use https:// protocol
+HTTPS (0) - 1: use https:// protocol (to use http, leave the argument out)
 ```
 
 ### Stages
