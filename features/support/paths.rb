@@ -13,6 +13,9 @@ module NavigationHelpers
     when /^the home\s?page$/
       root_path
 
+    when /^\/(.*)$/
+      $1
+
     else
       begin
         page_name =~ /^the (.*) page$/
