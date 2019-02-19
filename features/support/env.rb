@@ -4,7 +4,9 @@ require 'rspec/expectations'
 require 'capybara/poltergeist'
 require 'inifile'
 require 'cucumber_priority'
-require 'spreewald/all_steps'
+require 'spreewald/development_steps'
+require 'spreewald/table_steps'
+require 'spreewald/web_steps'
 require "selenium/webdriver"
 require "phantomjs"
 
