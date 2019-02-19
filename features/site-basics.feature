@@ -24,5 +24,5 @@ Feature: Test for basic site function
   @simplesaml
   Scenario: Be sure simplesaml configuration link works
     Given I go to the home page
-    And I go to "/simplesaml"
+    When I go to simplesaml
     Then the page should show content "SimpleSAMLphp installation page" 
