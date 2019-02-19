@@ -21,6 +21,7 @@
     "pantheon-systems/wp-saml-auth": "^0.5.1",
     "roots/wp-password-bcrypt": "^1.0.0",
     "rvtraveller/qs-composer-installer": "^1.1",
+    "simplesamlphp/simplesamlphp": "^1.16",
     "vlucas/phpdotenv": "^3.1.0",
     "wpackagist-plugin/pantheon-advanced-page-cache": "^0.3.0",
     "wpackagist-plugin/wp-native-php-sessions": "^0.6.9",
