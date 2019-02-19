@@ -510,7 +510,6 @@ Then("I should see the Staff login link") do
 end
 
 Then("the protocol should be https") do
-  #pending # does not work on jenkins
   sleep_for(2)
   wait_for(200) {
     patiently do
