@@ -28,9 +28,17 @@ Feature: Test for basic site function
     Then the page should show content "SimpleSAMLphp installation page" 
 
   @simplesaml
+  @simplesaml-authentication
   Scenario: Test authentication sources in simplesaml installation page
     Given PENDING: I go to the home page
     When I go to /simplesaml
     And I click on the "Authentication" link 
     And I click on the "Test configured authentication sources" link
     Then the page should show content "default-sp"
+
+  @simplesaml
+  @simplesaml-federation
+  Scenario: Test Federation link in simplesaml installation page
+    Given I go to /simplesaml
+    And I click on the "Federation" link
+    Then the page should not show content "Configuration error"
