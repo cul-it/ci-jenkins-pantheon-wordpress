@@ -26,3 +26,11 @@ Feature: Test for basic site function
     Given I go to the home page
     When I go to /simplesaml
     Then the page should show content "SimpleSAMLphp installation page" 
+
+  @simplesaml
+  Scenario: Test authentication sources in simplesaml installation page
+    Given PENDING: I go to the home page
+    When I go to /simplesaml
+    And I click on the "Authentication" link 
+    And I click on the "Test configured authentication sources" link
+    Then the page should show content "default-sp"
