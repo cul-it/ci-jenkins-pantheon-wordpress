@@ -525,3 +525,7 @@ Then("I use http to go to {string}") do |string|
     expect(page).to have_current_path(string + "/", url: false);
   end
 end
+
+Then("the page should not show content {string}") do |string|
+  expect(page).to have_no_content(string)
+end
