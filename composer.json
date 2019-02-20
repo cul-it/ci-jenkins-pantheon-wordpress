@@ -77,7 +77,8 @@
     "post-install-cmd": [
       "@cleanup",
       "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
-      "ln -s ../../../../private/simplesaml-config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php"
+      "ln -s ../../../../private/simplesaml-config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php",
+      "ln -s ../../../../private/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php"
     ],
     "post-update-cmd": [
       "@cleanup",
