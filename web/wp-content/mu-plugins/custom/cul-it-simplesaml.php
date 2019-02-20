@@ -55,7 +55,7 @@ function wpsax_filter_option( $value, $option_name ) {
          *
          * @param string
          */
-        'simplesamlphp_autoload' => realpath(dirname( __FILE__ ) . '../../private/cul-it-simplesamlphp/lib/_autoload.php'),
+        'simplesamlphp_autoload' => realpath(dirname( __FILE__ ) . '../../../../vendor/simplesamlphp/simplesamlphp/lib/_autoload.php'),
         /**
          * Authentication source to pass to SimpleSAMLphp
          *
