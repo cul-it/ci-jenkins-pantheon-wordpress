@@ -3,7 +3,7 @@
   "description": "",
   "type": "project",
   "keywords": [],
-  "minimum-stability": "dev",
+  "minimum-stability": "alpha",
   "repositories": [
     {
       "type": "composer",
@@ -20,7 +20,6 @@
   ],
   "require": {
     "composer/installers": "^1.3.0",
-    "cul-it/dev-simplesaml-wordpress": "*",
     "pantheon-systems/quicksilver-pushback": "^1.0",
     "pantheon-systems/wordpress-composer": "*",
     "pantheon-systems/wp-saml-auth": "^0.5.1",
