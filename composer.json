@@ -12,6 +12,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:cul-it/library-cornell-edu-theme"
     }
   ],
   "require": {
