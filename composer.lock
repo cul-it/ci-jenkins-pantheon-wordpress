@@ -127,6 +127,40 @@
             "time": "2018-08-27T06:10:37+00:00"
         },
         {
+            "name": "cul-it/ares_wordpress",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/ares_wordpress.git",
+                "reference": "6cc4be439e76c8a5394e062f8ba41dbe9694fa61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/ares_wordpress/zipball/6cc4be439e76c8a5394e062f8ba41dbe9694fa61",
+                "reference": "6cc4be439e76c8a5394e062f8ba41dbe9694fa61",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Smith",
+                    "email": "ajs17@cornell.edu"
+                }
+            ],
+            "description": "WordPress Ares interface for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/ares_wordpress/tree/v1.0.1",
+                "issues": "https://github.com/cul-it/ares_wordpress/issues"
+            },
+            "time": "2019-03-07T20:51:36+00:00"
+        },
+        {
             "name": "cul-it/culu",
             "version": "v1.0.1",
             "source": {
@@ -159,6 +193,40 @@
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
             "time": "2019-03-07T15:25:52+00:00"
+        },
+        {
+            "name": "cul-it/wp-libcal-hours",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/wp-libcal-hours.git",
+                "reference": "976a9734456faa4a641a7168dc87331f73b9567e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/976a9734456faa4a641a7168dc87331f73b9567e",
+                "reference": "976a9734456faa4a641a7168dc87331f73b9567e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tahir Poduska",
+                    "email": "tahir.poduska@cornell.edu"
+                }
+            ],
+            "description": "Library Hours and Status from LibCal for WordPress",
+            "support": {
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/dev",
+                "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
+            },
+            "time": "2019-03-07T20:58:31+00:00"
         },
         {
             "name": "gettext/gettext",
@@ -933,7 +1001,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
