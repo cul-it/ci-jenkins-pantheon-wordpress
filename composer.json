@@ -16,6 +16,14 @@
     {
       "type": "vcs",
       "url": "git@github.com:cul-it/library-cornell-edu-theme"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:cul-it/ares_wordpress"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:cul-it/wp-libcal-hours"
     }
   ],
   "require": {
@@ -36,7 +44,9 @@
     "wpackagist-plugin/elementor": "^2.5",
     "wpackagist-plugin/akismet": "^4.1",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.3",
-    "wpackagist-plugin/better-font-awesome": "^1.7"
+    "wpackagist-plugin/better-font-awesome": "^1.7",
+    "cul-it/ares_wordpress": "^1.0",
+    "cul-it/wp-libcal-hours": "^1.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
