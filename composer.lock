@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42da187a8465f411a9c8f39040a80f5a",
+    "content-hash": "e63966d02ba9b68d6898262df0e54be7",
     "packages": [
         {
             "name": "composer/installers",
@@ -1162,6 +1162,126 @@
                 "apr1"
             ],
             "time": "2015-02-11T11:06:42+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "5.7.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/5.7.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.12.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/akismet",
+            "version": "4.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
+                "reference": "tags/4.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/better-font-awesome",
+            "version": "1.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/better-font-awesome/",
+                "reference": "tags/1.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-font-awesome.1.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/better-font-awesome/"
+        },
+        {
+            "name": "wpackagist-plugin/elementor",
+            "version": "2.5.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/2.5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
+            "version": "5.3.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
+                "reference": "tags/5.3.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.3.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/kirki",
+            "version": "3.0.38",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/kirki/",
+                "reference": "tags/3.0.38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/kirki.3.0.38.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/kirki/"
         },
         {
             "name": "wpackagist-plugin/pantheon-advanced-page-cache",
