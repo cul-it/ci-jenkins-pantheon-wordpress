@@ -30,7 +30,13 @@
     "wpackagist-plugin/pantheon-advanced-page-cache": "^0.3.0",
     "wpackagist-plugin/wp-native-php-sessions": "^0.6.9",
     "wpackagist-theme/twentynineteen": "^1.2",
-    "cul-it/culu": "^1.0"
+    "cul-it/culu": "^1.0",
+    "wpackagist-plugin/kirki": "^3.0",
+    "wpackagist-plugin/advanced-custom-fields": "^5.7",
+    "wpackagist-plugin/elementor": "^2.5",
+    "wpackagist-plugin/akismet": "^4.1",
+    "wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.3",
+    "wpackagist-plugin/better-font-awesome": "^1.7"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
