@@ -12,6 +12,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:cul-it/library-cornell-edu-theme"
     }
   ],
   "require": {
@@ -25,7 +29,8 @@
     "vlucas/phpdotenv": "^3.1.0",
     "wpackagist-plugin/pantheon-advanced-page-cache": "^0.3.0",
     "wpackagist-plugin/wp-native-php-sessions": "^0.6.9",
-    "wpackagist-theme/twentynineteen": "^1.2"
+    "wpackagist-theme/twentynineteen": "^1.2",
+    "cul-it/culu": "^1.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
