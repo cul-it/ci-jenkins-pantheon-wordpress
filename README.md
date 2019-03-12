@@ -109,4 +109,6 @@ https://jenkins.library.cornell.edu/view/wordpress/job/ci-jenkins-pantheon-wordp
 
 The multidev sites in Pantheon are named ci-1, ci-2, ci-3, etc.
 
-
+Creating a new site with this upstream:
+* Create site in the organization 'Cornell University: Library Systems', not 'Cornell University: Cornell Information Technologies'
+* Use the upstream called CI-Jenkins-Wordpress-Upstream-Private
