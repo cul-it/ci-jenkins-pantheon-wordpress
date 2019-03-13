@@ -24,10 +24,15 @@
     {
       "type": "vcs",
       "url": "git@github.com:cul-it/wp-libcal-hours"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:cul-it/advanced-custom-fields-pro"
     }
   ],
   "require": {
     "composer/installers": "^1.3.0",
+    "cul-it/advanced-custom-fields-pro": "^5.7",
     "cul-it/ares_wordpress": "^1.0",
     "cul-it/culu": "^1.0",
     "cul-it/wp-libcal-hours": "^1.0",
