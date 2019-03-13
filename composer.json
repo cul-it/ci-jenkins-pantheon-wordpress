@@ -43,7 +43,6 @@
     "rvtraveller/qs-composer-installer": "^1.1",
     "simplesamlphp/simplesamlphp": "^1.16",
     "vlucas/phpdotenv": "^3.1.0",
-    "wpackagist-plugin/advanced-custom-fields": "^5.7",
     "wpackagist-plugin/akismet": "^4.1",
     "wpackagist-plugin/better-font-awesome": "^1.7",
     "wpackagist-plugin/elementor": "^2.5",
