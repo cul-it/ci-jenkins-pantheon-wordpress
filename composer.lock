@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b215a58fde2cea54aaee9853d5847046",
+    "content-hash": "6cef0dd2a0a661d4fe84b16df6880ff7",
     "packages": [
         {
             "name": "composer/installers",
@@ -220,6 +220,31 @@
             "time": "2019-03-07T15:25:52+00:00"
         },
         {
+            "name": "cul-it/elementor-pro",
+            "version": "v2.4.7",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/elementor-pro.git",
+                "reference": "381b17f9d48dccec4560323d2ac94b10621d654e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/381b17f9d48dccec4560323d2ac94b10621d654e",
+                "reference": "381b17f9d48dccec4560323d2ac94b10621d654e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/elementor-pro/tree/v2.4.7",
+                "issues": "https://github.com/cul-it/elementor-pro/issues"
+            },
+            "time": "2019-03-13T17:24:35+00:00"
+        },
+        {
             "name": "cul-it/wp-libcal-hours",
             "version": "v1.0.0",
             "source": {
@@ -252,6 +277,31 @@
                 "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
             },
             "time": "2019-03-07T20:58:31+00:00"
+        },
+        {
+            "name": "cul-it/wp-ultimate-csv-importer-pro",
+            "version": "v5.5.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/wp-ultimate-csv-importer-pro.git",
+                "reference": "5ab0de2b11802a3644c27d9bb6ce3ac2415a34cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/5ab0de2b11802a3644c27d9bb6ce3ac2415a34cb",
+                "reference": "5ab0de2b11802a3644c27d9bb6ce3ac2415a34cb",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v5.5.0",
+                "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
+            },
+            "time": "2019-03-13T17:50:13+00:00"
         },
         {
             "name": "gettext/gettext",
@@ -1415,46 +1465,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-ultimate-csv-importer",
-            "version": "5.6.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-ultimate-csv-importer/",
-                "reference": "tags/5.6.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-ultimate-csv-importer.5.6.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-ultimate-csv-importer/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-ultimate-exporter",
-            "version": "1.4.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-ultimate-exporter/",
-                "reference": "tags/1.4.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-ultimate-exporter.1.4.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-ultimate-exporter/"
         },
         {
             "name": "wpackagist-theme/twentynineteen",
