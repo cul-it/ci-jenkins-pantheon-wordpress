@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65ccbedc34a37aa2e70bc7065604576a",
+    "content-hash": "b215a58fde2cea54aaee9853d5847046",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,31 @@
                 "zikula"
             ],
             "time": "2018-08-27T06:10:37+00:00"
+        },
+        {
+            "name": "cul-it/advanced-custom-fields-pro",
+            "version": "v5.7.13",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/advanced-custom-fields-pro.git",
+                "reference": "4453b0979333a629cc7fe546f21ddd04a02baeec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/4453b0979333a629cc7fe546f21ddd04a02baeec",
+                "reference": "4453b0979333a629cc7fe546f21ddd04a02baeec",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v5.7.13",
+                "issues": "https://github.com/cul-it/advanced-custom-fields-pro/issues"
+            },
+            "time": "2019-03-13T17:01:22+00:00"
         },
         {
             "name": "cul-it/ares_wordpress",
@@ -1230,26 +1255,6 @@
                 "apr1"
             ],
             "time": "2015-02-11T11:06:42+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.7.12",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.7.12"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.12.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
             "name": "wpackagist-plugin/akismet",
