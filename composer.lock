@@ -221,16 +221,16 @@
         },
         {
             "name": "cul-it/elementor-pro",
-            "version": "v2.4.7",
+            "version": "v2.4.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/elementor-pro.git",
-                "reference": "381b17f9d48dccec4560323d2ac94b10621d654e"
+                "reference": "7f615b19ea4dacc37552a030407ebdf367d4f09f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/381b17f9d48dccec4560323d2ac94b10621d654e",
-                "reference": "381b17f9d48dccec4560323d2ac94b10621d654e",
+                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/7f615b19ea4dacc37552a030407ebdf367d4f09f",
+                "reference": "7f615b19ea4dacc37552a030407ebdf367d4f09f",
                 "shasum": ""
             },
             "require": {
@@ -239,10 +239,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/elementor-pro/tree/v2.4.7",
+                "source": "https://github.com/cul-it/elementor-pro/tree/v2.4.8",
                 "issues": "https://github.com/cul-it/elementor-pro/issues"
             },
-            "time": "2019-03-13T17:24:35+00:00"
+            "time": "2019-03-14T14:22:27+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
@@ -280,16 +280,16 @@
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
-            "version": "v5.6.0",
+            "version": "v5.6.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-ultimate-csv-importer-pro.git",
-                "reference": "1432200bde0858ffc5170dc4cdea9f2451f6bd2c"
+                "reference": "9730ecddde41262568ca3df504a983b18d533be6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/1432200bde0858ffc5170dc4cdea9f2451f6bd2c",
-                "reference": "1432200bde0858ffc5170dc4cdea9f2451f6bd2c",
+                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/9730ecddde41262568ca3df504a983b18d533be6",
+                "reference": "9730ecddde41262568ca3df504a983b18d533be6",
                 "shasum": ""
             },
             "require": {
@@ -298,10 +298,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v5.6.0",
+                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v5.6.1",
                 "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
             },
-            "time": "2019-03-13T18:32:29+00:00"
+            "time": "2019-03-15T13:31:30+00:00"
         },
         {
             "name": "gettext/gettext",
@@ -1348,15 +1348,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.5.5",
+            "version": "2.5.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.5.5"
+                "reference": "tags/2.5.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.8.zip",
                 "reference": null,
                 "shasum": null
             },
