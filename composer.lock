@@ -1348,15 +1348,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.5.5",
+            "version": "2.5.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.5.5"
+                "reference": "tags/2.5.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.8.zip",
                 "reference": null,
                 "shasum": null
             },
