@@ -221,16 +221,16 @@
         },
         {
             "name": "cul-it/elementor-pro",
-            "version": "v2.4.7",
+            "version": "v2.4.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/elementor-pro.git",
-                "reference": "381b17f9d48dccec4560323d2ac94b10621d654e"
+                "reference": "7f615b19ea4dacc37552a030407ebdf367d4f09f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/381b17f9d48dccec4560323d2ac94b10621d654e",
-                "reference": "381b17f9d48dccec4560323d2ac94b10621d654e",
+                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/7f615b19ea4dacc37552a030407ebdf367d4f09f",
+                "reference": "7f615b19ea4dacc37552a030407ebdf367d4f09f",
                 "shasum": ""
             },
             "require": {
@@ -239,10 +239,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/elementor-pro/tree/v2.4.7",
+                "source": "https://github.com/cul-it/elementor-pro/tree/v2.4.8",
                 "issues": "https://github.com/cul-it/elementor-pro/issues"
             },
-            "time": "2019-03-13T17:24:35+00:00"
+            "time": "2019-03-14T14:22:27+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
