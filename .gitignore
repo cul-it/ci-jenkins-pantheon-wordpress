@@ -30,6 +30,8 @@ web/wp-content/themes/*
 !web/wp-content/themes/custom/
 !web/wp-content/themes/.gitkeep
 !web/wp-content/config/
+web/wp-content/config/wp_options.json
+web/wp-content/config/menu_navigation.json
 web/wp
 !web/private/
 web/private/*
