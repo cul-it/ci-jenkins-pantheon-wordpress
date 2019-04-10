@@ -117,6 +117,7 @@ Creating a new site with this upstream:
 * download the code to your local machine
 * go into the local copy directory
 * edit the .gitignore to delete evereything above 'the line'
+** # :::::::::::::::::::::: cut ::::::::::::::::::::::
 * run composer install
 * git add -A
 * git commit
