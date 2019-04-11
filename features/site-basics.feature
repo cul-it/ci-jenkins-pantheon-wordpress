@@ -18,7 +18,7 @@ Feature: Test for basic site function
   @https_only
   Scenario: redirect to https on another page
     Given I go to the home page
-    Then I use http to go to "/sample-page"
+    Then I use http to go to "/about"
     And the protocol should be https
 
   @simplesaml
