@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69e16a21f5c578830f7d273cc73fe87e",
+    "content-hash": "d3342cd87814b703163a9d9e3b3d29ff",
     "packages": [
         {
             "name": "composer/installers",
@@ -280,16 +280,16 @@
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
-            "version": "v5.5.2",
+            "version": "v5.5.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-ultimate-csv-importer-pro.git",
-                "reference": "a5d82a19dbb5bc3ac6abf1d6b111d8b4b5d30b6c"
+                "reference": "d8adeb55dbc9875429c66d8e91bf909de33898d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/a5d82a19dbb5bc3ac6abf1d6b111d8b4b5d30b6c",
-                "reference": "a5d82a19dbb5bc3ac6abf1d6b111d8b4b5d30b6c",
+                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/d8adeb55dbc9875429c66d8e91bf909de33898d2",
+                "reference": "d8adeb55dbc9875429c66d8e91bf909de33898d2",
                 "shasum": ""
             },
             "require": {
@@ -298,10 +298,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v5.5.2",
+                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v5.5.3",
                 "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
             },
-            "time": "2019-04-15T15:33:05+00:00"
+            "time": "2019-04-15T17:08:21+00:00"
         },
         {
             "name": "gettext/gettext",
