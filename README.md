@@ -131,6 +131,7 @@ to just above
 * go to <dev site url>/wp/wp-admin (Visit Development Site)
 * install wordpress
 * log in to wordpress
-* activate WP-CFM plugin
-* go to Settings > WP-CFM
-* next to 'All Bundles' press 'Pull'
+* activate all your plugins
+* select your theme
+
+
