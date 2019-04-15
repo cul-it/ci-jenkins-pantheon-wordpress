@@ -7,12 +7,12 @@ Feature: Test for basic site function
   @site_up
   Scenario: The web site is up and representing
     Given I go to the home page
-    Then the page should show content "Cornell University"
+    Then the page should show content "About"
 
   @https_only
   Scenario: http requests are redirected to https
     Given I go to the home page
-    Then the page should show content "Cornell University"
+    Then the page should show content "About"
     And the protocol should be https
 
   @https_only
