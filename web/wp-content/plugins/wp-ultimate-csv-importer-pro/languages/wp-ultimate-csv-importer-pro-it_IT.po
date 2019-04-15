@@ -1,0 +1,1383 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-ultimate-csv-importer-pro\n"
+"POT-Creation-Date: 2017-01-12 12:42+0530\n"
+"PO-Revision-Date: 2017-01-12 17:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html;esc_html__;"
+"esc_html_e;esc_attr;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: en_EN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:171
+msgid "no of Orphaned Post/Page meta has been removed."
+msgstr "nessuna di orfano Articolo / Pagina meta è stata rimossa."
+
+#: index.php:172
+msgid "no of Unassigned tags has been removed."
+msgstr "nessuna delle modifiche non assegnati è stato rimosso."
+
+#: index.php:173
+msgid "no of Post/Page revisions has been removed."
+msgstr "nessuna di Post / Pagina revisioni è stato rimosso."
+
+#: index.php:174
+msgid "no of Auto drafted Post/Page has been removed."
+msgstr "nessuna di Auto redatto post / pagina è stata rimossa."
+
+#: index.php:175
+msgid "no of Post/Page in trash has been removed."
+msgstr "nessuna di post / pagina nella spazzatura è stata rimossa."
+
+#: index.php:176
+msgid "no of Spam comments has been removed."
+msgstr "nessuna di commenti spam è stato rimosso."
+
+#: index.php:177
+msgid "no of Comments in trash has been removed."
+msgstr "nessuna di commenti nel cestino è stato rimosso."
+
+#: index.php:178
+msgid "no of Unapproved comments has been removed."
+msgstr "nessuna di commenti non approvati è stato rimosso."
+
+#: index.php:179
+msgid "no of Pingback comments has been removed."
+msgstr "nessuna di commenti Pingback è stato rimosso."
+
+#: index.php:180
+msgid "no of Trackback comments has been removed."
+msgstr "nessuna di commenti Trackback è stato rimosso."
+
+#: includes/class-uci-admin-ajax.php:300
+msgid "File has been used for this event: "
+msgstr "Il file è stato utilizzato per questo evento:"
+
+#: includes/class-uci-admin-ajax.php:301
+msgid "Type of the imported file: "
+msgstr "Tipo di file importato:"
+
+#: includes/class-uci-admin-ajax.php:302
+msgid "Revision of the which is used: "
+msgstr "Revisione del quale viene utilizzato:"
+
+#: includes/class-uci-admin-ajax.php:303
+msgid "Mode of event: "
+msgstr "Modalità di evento:"
+
+#: includes/class-uci-admin-ajax.php:304
+msgid "Total no of records: "
+msgstr "no totale di record:"
+
+#: includes/class-uci-admin-ajax.php:305
+msgid "Rows handled on each iterations (Based on your server configuration): "
+msgstr ""
+"Righe trattati su ogni iterazioni (in base alla configurazione del server):"
+
+#: includes/class-uci-admin-ajax.php:306
+msgid "File used to import data into: "
+msgstr "File utilizzato per importare i dati in:"
+
+#: includes/class-uci-install.php:58 includes/class-uci-install.php:571
+msgid ""
+"Ultimate CSV Importer PRO data update complete. Thank you for updating to "
+"the latest version!"
+msgstr ""
+"Ultimo CSV Importatore aggiornamento dei dati PRO completa. Grazie per "
+"l'aggiornamento alla versione più recente!"
+
+#: includes/class-uci-install.php:141
+#: managers/class-uci-schedulemanager.php:296
+msgid "Check scheduled events on every second"
+msgstr "Controllare eventi in programma ogni secondo"
+
+#: includes/class-uci-install.php:145
+#: managers/class-uci-schedulemanager.php:300
+msgid "Schedule images on every second"
+msgstr "immagini di programma inserita ogni secondo"
+
+#: includes/class-uci-install.php:149
+#: managers/class-uci-schedulemanager.php:304
+msgid "Schedule emails on every second"
+msgstr "Schedule emails on every second"
+
+#: includes/class-uci-install.php:153
+msgid "Replace all inline images from post content"
+msgstr "Sostituire tutte le immagini in linea dal contenuto del post"
+
+#: includes/class-uci-install.php:544
+msgid "Visit Plugin Settings"
+msgstr "Visita impostazioni del plugin"
+
+#: includes/class-uci-install.php:544 admin/class-uci-admin.php:41
+#: admin/class-uci-admin.php:92
+msgid "Settings"
+msgstr "impostazioni"
+
+#: includes/class-uci-install.php:545
+msgid "View WP Ultimate CSV Importer Pro Documentation"
+msgstr "Vedi Video per WP ultimo CSV Importer Pro"
+
+#: includes/class-uci-install.php:545
+msgid "Docs"
+msgstr "Documenti"
+
+#: includes/class-uci-install.php:546
+msgid "View Videos for WP Ultimate CSV Importer Pro"
+msgstr "Vedi Video per WP ultimo CSV Importer Pro"
+
+#: includes/class-uci-install.php:546
+msgid "Videos"
+msgstr "Video"
+
+#: includes/class-uci-install.php:547
+msgid "Contact Support"
+msgstr "Contatta il supporto"
+
+#: includes/class-uci-install.php:547 admin/class-uci-admin.php:42
+#: admin/class-uci-admin.php:53 admin/class-uci-admin.php:93
+msgid "Support"
+msgstr "Supporto"
+
+#: includes/class-uci-install.php:557
+msgid "Notice:"
+msgstr "Avviso:"
+
+#: includes/class-uci-install.php:557
+msgid ""
+"To populate Featured images, Please make sure that CRON is enabled in your "
+"server. "
+msgstr ""
+"Per popolare Le immagini del momento, Assicurarsi che cron è abilitato sul "
+"server."
+
+#: includes/class-uci-install.php:573 admin/views/form-support-view.php:17
+msgid ""
+"If you love WP Ultimate CSV Importer show us you care with a 5-star review on"
+msgstr ""
+"Se amate WP ultimo CSV Importatore ci mostrano si cura con una recensione a "
+"5 stelle su"
+
+#: includes/class-uci-install.php:573 admin/views/form-support-view.php:17
+msgid "wordpress.org!"
+msgstr "wordpress.org!"
+
+#: includes/class-uci-helper.php:1623 includes/class-uci-helper.php:1626
+#: includes/class-uci-helper.php:1631
+msgid "Edit this item"
+msgstr "Modifica questa voce"
+
+#: includes/class-uci-helper.php:1631
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr "View &#8220;%s&#8221;"
+
+#: admin/class-uci-admin.php:37 admin/class-uci-admin.php:49
+#: admin/class-uci-admin.php:88
+msgid "Dashboard"
+msgstr "scrivania"
+
+#: admin/class-uci-admin.php:38 admin/class-uci-admin.php:50
+msgid "Import/Update"
+msgstr "Import / Aggiornamento"
+
+#: admin/class-uci-admin.php:39 admin/class-uci-admin.php:51
+msgid "Managers"
+msgstr "I gestori"
+
+#: admin/class-uci-admin.php:40 admin/class-uci-admin.php:52
+#: admin/class-uci-admin.php:91 admin/views/form-export-data.php:288
+msgid "Export"
+msgstr "Esportare"
+
+#: admin/class-uci-admin.php:89
+msgid "Import / Update"
+msgstr "Import / Aggiornamento"
+
+#: admin/class-uci-admin.php:90
+msgid "Manager"
+msgstr "Manager"
+
+#: admin/views/form-file-manager.php:15
+msgid "Click Here"
+msgstr "Clicca qui"
+
+#: admin/views/form-file-manager.php:17
+msgid "Events Summary"
+msgstr "eventi Sommario"
+
+#: admin/views/form-file-manager.php:22
+#: admin/views/form-schedule-manager.php:18
+msgid "Event Info"
+msgstr "evento"
+
+#: admin/views/form-file-manager.php:23
+#: admin/views/form-schedule-manager.php:19
+msgid "Event Date"
+msgstr "Data dell'evento"
+
+#: admin/views/form-file-manager.php:24
+#: admin/views/form-template-manager.php:22
+#: admin/views/form-schedule-manager.php:21
+msgid "Actions"
+msgstr "azioni"
+
+#: admin/views/form-file-manager.php:39
+msgid "No events found"
+msgstr "Nessun evento trovato"
+
+#: admin/views/form-file-manager.php:60
+#: admin/views/form-schedule-manager.php:32
+#: admin/views/form-shortcode-manager.php:33
+msgid "File Name"
+msgstr "Nome del file"
+
+#: admin/views/form-file-manager.php:60
+#: admin/views/form-schedule-manager.php:68
+msgid "Date"
+msgstr "Data"
+
+#: admin/views/form-file-manager.php:60
+msgid "Purpose"
+msgstr "Scopo"
+
+#: admin/views/form-file-manager.php:60
+#: admin/views/form-shortcode-manager.php:52
+msgid "Revision"
+msgstr "Revisione"
+
+#: admin/views/form-file-manager.php:61
+#: admin/views/form-add-custom-field.php:57
+#: admin/views/form-add-custom-field.php:74
+#: admin/views/form-export-data.php:51 admin/views/form-export-data.php:77
+msgid "--Select--"
+msgstr "--Selezionare--"
+
+#: admin/views/form-file-manager.php:69 admin/views/form-log-manager.php:26
+msgid "Inserted"
+msgstr "inserito"
+
+#: admin/views/form-file-manager.php:69 admin/views/form-log-manager.php:27
+msgid "Updated"
+msgstr "aggiornato"
+
+#: admin/views/form-file-manager.php:69 admin/views/form-log-manager.php:28
+msgid "Skipped"
+msgstr "saltato"
+
+#: admin/views/form-dashboard-view.php:14 admin/views/form-manager-view.php:14
+#: admin/views/form-support-view.php:13
+#: admin/views/form-file-import-method.php:37
+#: admin/views/form-import-configuration.php:40
+#: admin/views/form-media-handling.php:45
+#: admin/views/form-ignite-import.php:36 admin/views/form-export-data.php:30
+#: admin/views/form-mapping-configuration.php:60
+#: admin/views/form-settings-view.php:146
+#: admin/views/form-settings-view.php:170
+#: admin/views/form-settings-view.php:504
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: admin/views/form-dashboard-view.php:15 admin/views/form-manager-view.php:15
+#: admin/views/form-support-view.php:14
+#: admin/views/form-file-import-method.php:38
+#: admin/views/form-import-configuration.php:41
+#: admin/views/form-media-handling.php:46
+#: admin/views/form-ignite-import.php:37 admin/views/form-export-data.php:31
+#: admin/views/form-mapping-configuration.php:61
+#: admin/views/form-settings-view.php:147
+msgid "Sample CSV"
+msgstr "CSV di esempio"
+
+#: admin/views/form-dashboard-view.php:19
+msgid "Importers Activity"
+msgstr "importatori"
+
+#: admin/views/form-dashboard-view.php:27
+msgid "Import Statistics"
+msgstr "Importa Statistiche"
+
+#: admin/views/form-template-manager.php:15
+msgid "Template Info"
+msgstr "template Informazioni"
+
+#: admin/views/form-template-manager.php:19
+msgid "Template name"
+msgstr "Nome modello"
+
+#: admin/views/form-template-manager.php:20
+#: admin/views/form-suggested-templates.php:60
+#: admin/views/form-shortcode-manager.php:46
+#: admin/views/form-log-manager.php:25
+msgid "Module"
+msgstr "Modulo"
+
+#: admin/views/form-template-manager.php:21
+#: admin/views/form-suggested-templates.php:61
+msgid "Created Time"
+msgstr "Tempo creato"
+
+#: admin/views/form-template-manager.php:45
+msgid "No templates found"
+msgstr "Nessun modello trovato"
+
+#: admin/views/form-manager-view.php:26
+msgid "File Manager"
+msgstr "File manager"
+
+#: admin/views/form-manager-view.php:29
+msgid "Smart Schedule"
+msgstr "intelligente Schedule"
+
+#: admin/views/form-manager-view.php:32
+#: admin/views/form-suggested-templates.php:58
+msgid "Templates"
+msgstr "Modelli"
+
+#: admin/views/form-manager-view.php:34
+msgid "Log Manager"
+msgstr "Log manager"
+
+#: admin/views/form-schedule-manager.php:14
+msgid "Schedule Info"
+msgstr "Info Programma"
+
+#: admin/views/form-schedule-manager.php:20
+msgid "Event Status"
+msgstr "Stato evento"
+
+#: admin/views/form-schedule-manager.php:33
+msgid "Template Name"
+msgstr "Nome modello"
+
+#: admin/views/form-schedule-manager.php:36
+msgid "Scheduled Date"
+msgstr "Data programmata"
+
+#: admin/views/form-schedule-manager.php:37
+msgid "Scheduled Time"
+msgstr "Orario pianificato"
+
+#: admin/views/form-schedule-manager.php:54
+msgid "You haven’t scheduled any event"
+msgstr "Non hai programmato ogni caso"
+
+#: admin/views/form-schedule-manager.php:72
+msgid "Time"
+msgstr "Tempo"
+
+#: admin/views/form-schedule-manager.php:84
+msgid "Frequency"
+msgstr "Frequenza"
+
+#: admin/views/form-schedule-manager.php:86
+#: managers/class-uci-schedulemanager.php:113
+msgid "OneTime"
+msgstr "Una volta"
+
+#: admin/views/form-schedule-manager.php:87
+#: managers/class-uci-schedulemanager.php:114
+msgid "Daily"
+msgstr "Quotidiano"
+
+#: admin/views/form-schedule-manager.php:88
+#: managers/class-uci-schedulemanager.php:115
+msgid "Weekly"
+msgstr "settimanalmente"
+
+#: admin/views/form-schedule-manager.php:89
+#: managers/class-uci-schedulemanager.php:116
+msgid "Monthly"
+msgstr "Mensile"
+
+#: admin/views/form-schedule-manager.php:90
+#: managers/class-uci-schedulemanager.php:117
+msgid "Hourly"
+msgstr "ogni ora"
+
+#: admin/views/form-schedule-manager.php:91
+#: managers/class-uci-schedulemanager.php:118
+msgid "Every 30 mins"
+msgstr "Ogni 30 minuti"
+
+#: admin/views/form-schedule-manager.php:92
+#: managers/class-uci-schedulemanager.php:119
+msgid "Every 15 mins"
+msgstr "Ogni 15 minuti"
+
+#: admin/views/form-schedule-manager.php:93
+#: managers/class-uci-schedulemanager.php:120
+msgid "Every 10 mins"
+msgstr "Ogni 10 minuti"
+
+#: admin/views/form-schedule-manager.php:94
+#: managers/class-uci-schedulemanager.php:121
+msgid "Every 5 mins"
+msgstr "Ogni 5 minuti"
+
+#: admin/views/form-schedule-manager.php:99
+msgid "Yes, I am sure"
+msgstr "Sì, sono sicuro"
+
+#: admin/views/form-add-custom-field.php:35
+msgid "Basic Information for Field Registration"
+msgstr "Informazioni di base per la registrazione Campo"
+
+#: admin/views/form-add-custom-field.php:36
+msgid "Label"
+msgstr "Etichetta"
+
+#: admin/views/form-add-custom-field.php:41
+msgid "Name"
+msgstr "Nome"
+
+#: admin/views/form-add-custom-field.php:44
+msgid "Description"
+msgstr "Descrizione"
+
+#: admin/views/form-add-custom-field.php:47
+msgid "Field Type"
+msgstr "Tipo di campo"
+
+#: admin/views/form-add-custom-field.php:71
+msgid "User Role"
+msgstr "Ruolo utente"
+
+#: admin/views/form-add-custom-field.php:75
+msgid "Administrator"
+msgstr "Amministratore"
+
+#: admin/views/form-add-custom-field.php:76
+msgid "Editor"
+msgstr "editore"
+
+#: admin/views/form-add-custom-field.php:77
+msgid "Author"
+msgstr "Autore"
+
+#: admin/views/form-add-custom-field.php:78
+msgid "Subscriber"
+msgstr "abbonato"
+
+#: admin/views/form-add-custom-field.php:79
+msgid "Contributor"
+msgstr "Collaboratore"
+
+#: admin/views/form-add-custom-field.php:151
+msgid "Register"
+msgstr "registro"
+
+#: admin/views/form-static-formula-views.php:16
+msgid ""
+"HINT: Specify the CSV header to be added in between the curley braces({ })."
+msgstr ""
+"SUGGERIMENTO: specificare l'intestazione CSV da aggiungere tra le parentesi "
+"graffe Curley ({})."
+
+#: admin/views/form-static-formula-views.php:16
+msgid "Example: {post_title}"
+msgstr "Esempio: {} post_title"
+
+#: admin/views/form-static-formula-views.php:17
+#: admin/views/form-static-formula-views.php:26
+#: admin/views/form-file-import-method.php:29
+msgid "Close"
+msgstr "Vicino"
+
+#: admin/views/form-static-formula-views.php:25
+msgid ""
+"HINT: Specify operator(+,-,*,/) and CSV header as operand in MATH() within "
+"{}.Example: MATH ({product_quantity}/{discount_price})"
+msgstr ""
+"SUGGERIMENTO: specificare operatore (+, -, *, /) e l'intestazione CSV come "
+"operando in Math () {} entro .Esempio: MATEMATICA ({product_quantity} / {} "
+"discount_price)"
+
+#: admin/views/form-support-view.php:20
+msgid "Enquiry form"
+msgstr "Modulo di richiesta"
+
+#: admin/views/form-support-view.php:23 admin/views/form-support-view.php:49
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/views/form-support-view.php:27
+msgid "Enquiry type"
+msgstr "tipo Richiesta"
+
+#: admin/views/form-support-view.php:29
+msgid "Bug Reporting"
+msgstr "bug report"
+
+#: admin/views/form-support-view.php:30
+msgid "Feature Enhancement"
+msgstr "Miglioramento caratteristica"
+
+#: admin/views/form-support-view.php:33
+msgid "Message"
+msgstr "Messaggio"
+
+#: admin/views/form-support-view.php:41
+msgid "Send"
+msgstr "Inviare"
+
+#: admin/views/form-support-view.php:47
+msgid "News Letter Subscription"
+msgstr "Sottoscrizione alla Newsletter"
+
+#: admin/views/form-support-view.php:58
+msgid "Subscribe"
+msgstr "sottoscrivi"
+
+#: admin/views/form-support-view.php:64
+msgid "Note"
+msgstr "Nota"
+
+#: admin/views/form-support-view.php:65
+msgid "Subscribe to Smackcoders Mailing list (a few messages a year)"
+msgstr "Iscriviti alla Mailing list Smackcoders (un paio di messaggi all'anno)"
+
+#: admin/views/form-support-view.php:66
+msgid ""
+"Please draft a mail to support@smackcoders.com. If you doesn't get any "
+"acknowledgement within an hour!"
+msgstr ""
+"Si prega di redigere una mail a support@smackcoders.com. Se non c'è niente "
+"di riconoscimento nel giro di un'ora!"
+
+#: admin/views/form-file-import-method.php:22
+msgid "Choose CSV/XML to import"
+msgstr "Scegli CSV / XML per l'importazione"
+
+#: admin/views/form-file-import-method.php:56
+msgid "Upload from Desktop"
+msgstr "Carica da desktop"
+
+#: admin/views/form-file-import-method.php:60
+msgid "Upload from FTP/SFTP"
+msgstr "Carica da FTP / SFTP"
+
+#: admin/views/form-file-import-method.php:64
+msgid "Upload from URL"
+msgstr "Carica da URL"
+
+#: admin/views/form-file-import-method.php:68
+msgid "Choose File in the Server"
+msgstr "Scegliere File nel server"
+
+#: admin/views/form-file-import-method.php:91
+msgid "New Items"
+msgstr "Nuovi oggetti"
+
+#: admin/views/form-file-import-method.php:94
+msgid "Existing Items"
+msgstr "elementi esistenti"
+
+#: admin/views/form-file-import-method.php:99
+msgid "Import each record as"
+msgstr "Importare ogni record come"
+
+#: admin/views/form-file-import-method.php:120
+#: admin/views/form-file-import-method.php:167
+#: admin/views/form-file-import-method.php:181
+#: admin/views/form-file-import-method.php:301
+#: admin/views/form-media-handling.php:164
+#: admin/views/form-mapping-configuration.php:248
+msgid "Continue"
+msgstr "proseguire"
+
+#: admin/views/form-file-import-method.php:128
+msgid "Click here to upload from desktop"
+msgstr "Clicca qui per caricare dal desktop"
+
+#: admin/views/form-file-import-method.php:137
+msgid "Hostname"
+msgstr "Nome host"
+
+#: admin/views/form-file-import-method.php:139
+msgid "smackcoders.com or 54.213.74.129"
+msgstr "smackcoders.com o 54.213.74.129"
+
+#: admin/views/form-file-import-method.php:142
+msgid "Host Username"
+msgstr "Host Nome utente"
+
+#: admin/views/form-file-import-method.php:144
+msgid "ftp username"
+msgstr "FTP nome utente"
+
+#: admin/views/form-file-import-method.php:149
+msgid "Host Port"
+msgstr "porta host"
+
+#: admin/views/form-file-import-method.php:151
+msgid "Default Port : 21"
+msgstr "Porta predefinita: 21"
+
+#: admin/views/form-file-import-method.php:154
+msgid "Host Password"
+msgstr "Host password"
+
+#: admin/views/form-file-import-method.php:156
+msgid "ftp password"
+msgstr "password FTP"
+
+#: admin/views/form-file-import-method.php:161
+msgid "Host Path"
+msgstr "Percorso Host"
+
+#: admin/views/form-file-import-method.php:163
+msgid "/home/guest/sample.csv"
+msgstr "/home/guest/sample.csv"
+
+#: admin/views/form-file-import-method.php:176
+msgid "File path"
+msgstr "Percorso del file"
+
+#: admin/views/form-suggested-templates.php:33
+msgid "Search"
+msgstr "Ricerca"
+
+#: admin/views/form-suggested-templates.php:34
+msgid "From Date"
+msgstr "da Data"
+
+#: admin/views/form-suggested-templates.php:35
+msgid "To Date"
+msgstr "Ad oggi"
+
+#: admin/views/form-suggested-templates.php:35
+msgid "Go"
+msgstr "Andare"
+
+#: admin/views/form-suggested-templates.php:44
+msgid "Saved Templates"
+msgstr "Modelli salvati"
+
+#: admin/views/form-suggested-templates.php:59
+msgid "Matched Columns Count"
+msgstr "Count Colonne Matched"
+
+#: admin/views/form-suggested-templates.php:63
+msgid "Action"
+msgstr "Azione"
+
+#: admin/views/form-suggested-templates.php:75
+msgid "Use Template"
+msgstr "Usa modello"
+
+#: admin/views/form-suggested-templates.php:83
+msgid "No Templates Found"
+msgstr "Nessun modello trovato"
+
+#: admin/views/form-suggested-templates.php:92
+#: admin/views/form-import-configuration.php:90
+#: admin/views/form-media-handling.php:161
+#: admin/views/form-export-data.php:287
+msgid "Back"
+msgstr "Indietro"
+
+#: admin/views/form-suggested-templates.php:94
+msgid "Create new Mapping"
+msgstr "Crea nuovo mapping"
+
+#: admin/views/form-import-configuration.php:44
+msgid "Import configuration Section"
+msgstr "Importa sezione di configurazione"
+
+#: admin/views/form-import-configuration.php:51
+msgid "Do you want to handle the duplicate on existing records ?"
+msgstr "Vuoi gestire il duplicato su record esistenti?"
+
+#: admin/views/form-import-configuration.php:57
+msgid "Mention the fields which you want to handle duplicates"
+msgstr "Parlare dei campi di cui si desidera gestire i duplicati"
+
+#: admin/views/form-import-configuration.php:74
+msgid "Do you want to Schedule this Import"
+msgstr "Vuoi pianificare questo Import"
+
+#: admin/views/form-import-configuration.php:94
+msgid "Schedule right now"
+msgstr "Pianificare in questo momento"
+
+#: admin/views/form-import-configuration.php:95
+msgid "Schedule Later"
+msgstr "Programma tardi"
+
+#: admin/views/form-media-handling.php:51
+msgid "Media Handling"
+msgstr "gestione dei supporti"
+
+#: admin/views/form-media-handling.php:57
+msgid "Image Handling"
+msgstr "gestione delle immagini"
+
+#: admin/views/form-media-handling.php:61
+msgid "Download external images to your media"
+msgstr "Scarica immagini esterne per i file multimediali"
+
+#: admin/views/form-media-handling.php:72
+msgid "Use media images if already available"
+msgstr "Utilizzare le immagini dei media, se già disponibile"
+
+#: admin/views/form-media-handling.php:73
+msgid "Do you want to overwrite the existing images"
+msgstr "Si desidera sovrascrivere le immagini esistenti"
+
+#: admin/views/form-media-handling.php:78
+msgid "NextGEN Gallery support on featured image"
+msgstr "Supporto NextGEN Galleria Foto di presentazione su"
+
+#: admin/views/form-media-handling.php:90
+msgid "Image Sizes"
+msgstr "le dimensioni delle immagini"
+
+#: admin/views/form-media-handling.php:92
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: admin/views/form-media-handling.php:93
+msgid "Medium"
+msgstr "medio"
+
+#: admin/views/form-media-handling.php:94
+msgid "Medium Large"
+msgstr "medio Grande"
+
+#: admin/views/form-media-handling.php:95
+msgid "Large"
+msgstr "Grande"
+
+#: admin/views/form-media-handling.php:96
+msgid "Custom"
+msgstr "costume"
+
+#: admin/views/form-media-handling.php:110
+msgid "Add custom sizes"
+msgstr "Aggiungere formati personalizzati"
+
+#: admin/views/form-media-handling.php:121
+msgid "Media SEO & Advanced Options"
+msgstr "Media SEO & avanzate"
+
+#: admin/views/form-media-handling.php:125
+msgid "Set image Title:"
+msgstr "Set immagine Titolo:"
+
+#: admin/views/form-media-handling.php:132
+msgid "Set image Caption:"
+msgstr "Set Didascalia immagine:"
+
+#: admin/views/form-media-handling.php:139
+msgid "Set image Alt Text:"
+msgstr "Impostare immagine Alt Text:"
+
+#: admin/views/form-media-handling.php:145
+msgid "Set image Description:"
+msgstr "Set immagine Descrizione:"
+
+#: admin/views/form-media-handling.php:151
+msgid "Change image file name to:"
+msgstr "Cambia immagine il nome del file per:"
+
+#: admin/views/form-shortcode-manager.php:35
+msgid "post_csv.csv"
+msgstr "post_csv.csv"
+
+#: admin/views/form-shortcode-manager.php:36
+msgid "Shortcode Mode"
+msgstr "Modalità Shortcode"
+
+#: admin/views/form-shortcode-manager.php:38
+msgid "Inline"
+msgstr "in linea"
+
+#: admin/views/form-shortcode-manager.php:39
+msgid "Replaced"
+msgstr "sostituito"
+
+#: admin/views/form-shortcode-manager.php:43
+msgid "Event Key"
+msgstr "chiave evento"
+
+#: admin/views/form-shortcode-manager.php:45
+msgid "ddr4553g8992"
+msgstr "ddr4553g8992"
+
+#: admin/views/form-shortcode-manager.php:48
+#: admin/views/form-export-data.php:40
+msgid "Post"
+msgstr "Inviare"
+
+#: admin/views/form-shortcode-manager.php:54
+msgid "1"
+msgstr "1"
+
+#: admin/views/form-shortcode-manager.php:55
+msgid "No.of.shortcodes"
+msgstr "No.of.shortcodes"
+
+#: admin/views/form-shortcode-manager.php:62
+msgid "Populate|Update"
+msgstr "Popolare | Aggiornamento"
+
+#: admin/views/form-log-manager.php:14
+msgid "Log Info"
+msgstr "Info Log"
+
+#: admin/views/form-log-manager.php:24
+msgid "FileName"
+msgstr "Nome del file:"
+
+#: admin/views/form-log-manager.php:29 admin/views/form-log-manager.php:54
+msgid "Download"
+msgstr "Scaricare"
+
+#: admin/views/form-log-manager.php:38
+msgid "Revision:"
+msgstr "Revisione:"
+
+#: admin/views/form-log-manager.php:63
+msgid "You haven’t imported any files"
+msgstr "Non hai importato alcun file"
+
+#: admin/views/form-ignite-import.php:43
+msgid "Resume"
+msgstr "Curriculum vitae"
+
+#: admin/views/form-ignite-import.php:44
+msgid "Pause"
+msgstr "Pausa"
+
+#: admin/views/form-ignite-import.php:45
+msgid "New Import"
+msgstr "nuova importazione"
+
+#: admin/views/form-ignite-import.php:50
+msgid "File Name:"
+msgstr "Nome del file:"
+
+#: admin/views/form-ignite-import.php:51
+msgid "File Size:"
+msgstr "Dimensione del file:"
+
+#: admin/views/form-ignite-import.php:54
+msgid "Process:"
+msgstr "Processo:"
+
+#: admin/views/form-ignite-import.php:55
+msgid "Total no of records:"
+msgstr "no totale di record:"
+
+#: admin/views/form-ignite-import.php:58
+msgid "Time Elapsed:"
+msgstr "Tempo trascorso:"
+
+#: admin/views/form-ignite-import.php:62
+msgid "Remaining Record:"
+msgstr "Record rimanente:"
+
+#: admin/views/form-ignite-import.php:64
+msgid "Current Processing Record:"
+msgstr "Current Record Processing:"
+
+#: admin/views/form-ignite-import.php:75
+msgid "Log section"
+msgstr "sezione Log"
+
+#: admin/views/form-ignite-import.php:82
+msgid "CLICK HERE TO DOWNLOAD LOG"
+msgstr "CLICCA QUI PER SCARICARE LOG"
+
+#: admin/views/form-ignite-import.php:94
+msgid "continue"
+msgstr "proseguire"
+
+#: admin/views/form-export-data.php:38
+msgid "Select your module to export the data"
+msgstr "Seleziona il tuo modulo per esportare i dati"
+
+#: admin/views/form-export-data.php:41
+msgid "Eshop"
+msgstr "eshop"
+
+#: admin/views/form-export-data.php:44
+msgid "Page"
+msgstr "Pagina"
+
+#: admin/views/form-export-data.php:45
+msgid "Wp-Commerce"
+msgstr "Wp-Commerce"
+
+#: admin/views/form-export-data.php:49
+msgid "Custom Post"
+msgstr "Messaggio personalizzato"
+
+#: admin/views/form-export-data.php:63
+msgid "Woo-Commerce"
+msgstr "Woo-Commerce"
+
+#: admin/views/form-export-data.php:66
+msgid "Category"
+msgstr "Categoria"
+
+#: admin/views/form-export-data.php:67
+msgid "Marketpress"
+msgstr "Marketpress"
+
+#: admin/views/form-export-data.php:70
+msgid "Tags"
+msgstr "tag"
+
+#: admin/views/form-export-data.php:71
+msgid "Customer Reviews"
+msgstr "recensioni dei clienti"
+
+#: admin/views/form-export-data.php:75
+msgid "Taxonomies"
+msgstr "Tassonomie"
+
+#: admin/views/form-export-data.php:88
+msgid "Comments"
+msgstr "Commenti"
+
+#: admin/views/form-export-data.php:91
+msgid "Users"
+msgstr "utenti"
+
+#: admin/views/form-export-data.php:95
+msgid "Proceed"
+msgstr "Procedere"
+
+#: admin/views/form-export-data.php:115
+msgid "To export data based on the filters"
+msgstr "Per esportare i dati in base ai filtri"
+
+#: admin/views/form-export-data.php:117
+msgid "Export File Name:"
+msgstr "Nome file di esportazione:"
+
+#: admin/views/form-export-data.php:122
+msgid "Export data with auto delimiters"
+msgstr "dati di esportazione con delimitatori auto"
+
+#: admin/views/form-export-data.php:126
+msgid "Delimiters"
+msgstr "Delimitatori"
+
+#: admin/views/form-export-data.php:128
+msgid "Select"
+msgstr "Selezionare"
+
+#: admin/views/form-export-data.php:129
+msgid ","
+msgstr ","
+
+#: admin/views/form-export-data.php:130
+msgid ":"
+msgstr ":"
+
+#: admin/views/form-export-data.php:131
+msgid ";"
+msgstr ";"
+
+#: admin/views/form-export-data.php:132
+msgid "{Tab}"
+msgstr "{Tab}"
+
+#: admin/views/form-export-data.php:133
+msgid "{Space}"
+msgstr "{Spazio}"
+
+#: admin/views/form-export-data.php:135
+msgid "Other Delimiters"
+msgstr "altri delimitatori"
+
+#: admin/views/form-export-data.php:150
+msgid "Export data for the specific period"
+msgstr "i dati di esportazione per il periodo specifico"
+
+#: admin/views/form-export-data.php:152
+msgid "Start From"
+msgstr "Inizia da"
+
+#: admin/views/form-export-data.php:153
+msgid "End To"
+msgstr "Fine Per"
+
+#: admin/views/form-export-data.php:161
+msgid "Export data with the specific status"
+msgstr "dati di esportazione con lo status specifico"
+
+#: admin/views/form-export-data.php:164
+msgid "Status"
+msgstr "Stato"
+
+#: admin/views/form-export-data.php:166 admin/views/form-export-data.php:186
+msgid "All"
+msgstr "Tutti"
+
+#: admin/views/form-export-data.php:167
+msgid "Publish"
+msgstr "Pubblicare"
+
+#: admin/views/form-export-data.php:168
+msgid "Sticky"
+msgstr "Appiccicoso"
+
+#: admin/views/form-export-data.php:169
+msgid "Private"
+msgstr "Privato"
+
+#: admin/views/form-export-data.php:170
+msgid "Protected"
+msgstr "Protetta"
+
+#: admin/views/form-export-data.php:171
+msgid "Draft"
+msgstr "Bozza"
+
+#: admin/views/form-export-data.php:172
+msgid "Pending"
+msgstr "in attesa di"
+
+#: admin/views/form-export-data.php:180
+msgid "Export data by specific authors"
+msgstr "Esportare i dati di autori specifici"
+
+#: admin/views/form-export-data.php:183
+msgid "Authors"
+msgstr "autori"
+
+#: admin/views/form-export-data.php:196
+msgid "Export data based on specific exclusions"
+msgstr "Esportazione dei dati sulla base di specifiche esclusioni"
+
+#: admin/views/form-export-data.php:259
+msgid "No fields Found!"
+msgstr "Nessun campo trovato!"
+
+#: admin/views/form-mapping-configuration.php:65
+msgid "Mapping Section"
+msgstr "Sezione Mapping"
+
+#: admin/views/form-mapping-configuration.php:81
+msgid "WordPress Fields"
+msgstr "campi WordPress"
+
+#: admin/views/form-mapping-configuration.php:96
+msgid "WP Fields"
+msgstr "WP campi"
+
+#: admin/views/form-mapping-configuration.php:97
+msgid "CSV Header"
+msgstr "CSV Intestazione"
+
+#: admin/views/form-mapping-configuration.php:126
+msgid "--select--"
+msgstr "--selezionare--"
+
+#: admin/views/form-mapping-configuration.php:152
+msgid "Header Manipulation"
+msgstr "Header Manipulation"
+
+#: admin/views/form-mapping-configuration.php:225
+msgid "Do you need to update the current mapping"
+msgstr "Avete bisogno di aggiornare la mappatura corrente"
+
+#: admin/views/form-mapping-configuration.php:228
+msgid "Save the current mapping as new template"
+msgstr "Salvare la mappatura corrente come nuovo modello"
+
+#: admin/views/form-mapping-configuration.php:235
+msgid "Save this mapping as Template"
+msgstr "Salva questa mappatura come modello"
+
+#: admin/views/form-mapping-configuration.php:238
+msgid "Save"
+msgstr "Salvare"
+
+#: admin/views/form-settings-view.php:158
+#: admin/views/form-settings-view.php:177
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: admin/views/form-settings-view.php:162
+msgid "Database optimization"
+msgstr "ottimizzazione del database"
+
+#: admin/views/form-settings-view.php:166
+#: admin/views/form-settings-view.php:324
+msgid "Security and Performance"
+msgstr "Sicurezza e prestazioni"
+
+#: admin/views/form-settings-view.php:181
+msgid "Drop Table"
+msgstr "Drop Table"
+
+#: admin/views/form-settings-view.php:182
+msgid ""
+"If enabled plugin deactivation will remove plugin data, this cannot be "
+"restored."
+msgstr ""
+"Se abilitato disattivazione plugin rimuovere i dati del plugin, questo non "
+"può essere ripristinato."
+
+#: admin/views/form-settings-view.php:197
+msgid "Scheduled log mails"
+msgstr "mail registro pianificate"
+
+#: admin/views/form-settings-view.php:198
+msgid "Enable to get scheduled log mails."
+msgstr "Attiva per ottenere mail log in programma."
+
+#: admin/views/form-settings-view.php:214
+msgid "Send password to user"
+msgstr "Invia password per l'utente"
+
+#: admin/views/form-settings-view.php:215
+msgid "Enable to send password information through email."
+msgstr "Abilitare per inviare informazioni sulla password tramite e-mail."
+
+#: admin/views/form-settings-view.php:230
+msgid "Woocommerce Custom attribute"
+msgstr "attributo Woocommerce personalizzato"
+
+#: admin/views/form-settings-view.php:231
+msgid "Enables to register woocommrce custom attribute."
+msgstr "Consente di registrare attributo personalizzato woocommrce."
+
+#: admin/views/form-settings-view.php:246
+msgid "Database Optimization"
+msgstr "ottimizzazione del database"
+
+#: admin/views/form-settings-view.php:253
+msgid "Delete all orphaned Post/Page Meta"
+msgstr "Elimina tutto orfani Articolo / Pagina Meta"
+
+#: admin/views/form-settings-view.php:257
+msgid "Delete all unassigned tags"
+msgstr "Eliminare tutti i tag assegnati"
+
+#: admin/views/form-settings-view.php:261
+msgid "Delete all Post/Page revisions"
+msgstr "Eliminare tutti i / le revisioni Page Post"
+
+#: admin/views/form-settings-view.php:265
+msgid "Delete all auto drafted Post/Page"
+msgstr "Eliminare tutte le auto redatto Articolo / Pagina"
+
+#: admin/views/form-settings-view.php:269
+msgid "Delete all Post/Page in trash"
+msgstr "Elimina tutto Articolo / Pagina in spazzatura"
+
+#: admin/views/form-settings-view.php:277
+msgid "Delete all Comments in trash"
+msgstr "Eliminare tutti i Commenti di spazzatura"
+
+#: admin/views/form-settings-view.php:280
+msgid "Delete all Unapproved Comments"
+msgstr "Eliminare tutti i commenti non approvati"
+
+#: admin/views/form-settings-view.php:283
+msgid "Delete all Pingback Comments"
+msgstr "Eliminare tutti i Pingback Commenti"
+
+#: admin/views/form-settings-view.php:286
+msgid "Delete all Trackback Comments"
+msgstr "Eliminare tutti i Trackback Commenti"
+
+#: admin/views/form-settings-view.php:289
+msgid "Delete all Spam Comments"
+msgstr "Eliminare tutti i commenti di spam"
+
+#: admin/views/form-settings-view.php:296
+msgid "Run DB Optimizer"
+msgstr "Run DB Optimizer"
+
+#: admin/views/form-settings-view.php:307
+msgid "Database Optimization Log"
+msgstr "Ottimizzazione del database Log"
+
+#: admin/views/form-settings-view.php:310
+msgid "NO LOGS YET NOW."
+msgstr "Nessun log ANCORA ORA."
+
+#: admin/views/form-settings-view.php:331
+msgid "Allow authors/editors to import"
+msgstr "Consentire agli autori / editori di importare"
+
+#: admin/views/form-settings-view.php:332
+msgid "This enables authors/editors to import."
+msgstr "Ciò consente autori / editori da importare."
+
+#: admin/views/form-settings-view.php:353
+msgid "Minimum required php.ini values (Ini configured values)"
+msgstr "Valori minimi richiesti php.ini (Ini valori configurato)"
+
+#: admin/views/form-settings-view.php:358
+msgid "Variables"
+msgstr "variabili"
+
+#: admin/views/form-settings-view.php:361
+msgid "System values"
+msgstr "valori di sistema"
+
+#: admin/views/form-settings-view.php:364
+msgid "Minimum Requirements"
+msgstr "Requisiti minimi"
+
+#: admin/views/form-settings-view.php:368
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: admin/views/form-settings-view.php:373
+msgid "auto_append_file"
+msgstr "auto_append_file"
+
+#: admin/views/form-settings-view.php:378
+msgid "auto_prepend_file"
+msgstr "auto_prepend_file"
+
+#: admin/views/form-settings-view.php:383
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: admin/views/form-settings-view.php:388
+msgid "file_uploads"
+msgstr "file_uploads"
+
+#: admin/views/form-settings-view.php:393
+msgid "allow_url_fopen"
+msgstr "allow_url_fopen"
+
+#: admin/views/form-settings-view.php:398
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: admin/views/form-settings-view.php:403
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: admin/views/form-settings-view.php:408
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: admin/views/form-settings-view.php:413
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: admin/views/form-settings-view.php:420
+msgid "Required to enable/disable Loaders, Extentions and modules:"
+msgstr "Richiesto per abilitare / disabilitare Pale, Extentions e moduli:"
+
+#: admin/views/form-settings-view.php:427
+msgid "PDO"
+msgstr "DOP"
+
+#: admin/views/form-settings-view.php:429
+#: admin/views/form-settings-view.php:438
+msgid "Yes"
+msgstr "sì"
+
+#: admin/views/form-settings-view.php:431
+#: admin/views/form-settings-view.php:440
+msgid "No"
+msgstr "No"
+
+#: admin/views/form-settings-view.php:436
+msgid "Curl"
+msgstr "Arricciare"
+
+#: admin/views/form-settings-view.php:446
+msgid "WP CRON"
+msgstr "WP CRON"
+
+#: admin/views/form-settings-view.php:447
+#: admin/views/form-settings-view.php:488
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: admin/views/form-settings-view.php:454
+msgid "Debug Information:"
+msgstr "Informazioni di debug:"
+
+#: admin/views/form-settings-view.php:457
+msgid "WordPress Version"
+msgstr "WordPress Version"
+
+#: admin/views/form-settings-view.php:462
+msgid "PHP Version"
+msgstr "Versione PHP"
+
+#: admin/views/form-settings-view.php:467
+msgid "MySQL Version"
+msgstr "MySQL Version"
+
+#: admin/views/form-settings-view.php:472
+msgid "Server SoftWare"
+msgstr "software server"
+
+#: admin/views/form-settings-view.php:477
+msgid "Your User Agent"
+msgstr "Il tuo User Agent"
+
+#: admin/views/form-settings-view.php:482
+msgid "WPDB Prefix"
+msgstr "WPDB Prefisso"
+
+#: admin/views/form-settings-view.php:487
+msgid "WP Multisite Mode"
+msgstr "Modalità multisito WP"
+
+#: admin/views/form-settings-view.php:488
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: admin/views/form-settings-view.php:492
+msgid "WP Memory Limit"
+msgstr "Limite di memoria WP"
+
+#: admin/views/form-settings-view.php:511
+msgid "Smackcoders Guidelines"
+msgstr "Linee guida Smackcoders"
+
+#: admin/views/form-settings-view.php:512
+msgid "Development News"
+msgstr "Notizie sviluppo"
+
+#: admin/views/form-settings-view.php:513
+msgid "Whats New?"
+msgstr "Cosa c'è di nuovo?"
+
+#: admin/views/form-settings-view.php:514
+msgid " Documentation"
+msgstr "Documentazione"
+
+#: admin/views/form-settings-view.php:515
+msgid "Youtube Channel"
+msgstr "Canale Youtube"
+
+#: admin/views/form-settings-view.php:516
+msgid " Other WordPress Plugins"
+msgstr "Altro WordPress Plugin"
+
+#: managers/class-uci-schedulemanager.php:108
+msgid "Schedule Date"
+msgstr "Programma Data"
+
+#: managers/class-uci-schedulemanager.php:111
+msgid "Schedule Frequency"
+msgstr "Programma di frequenza"
+
+#: managers/class-uci-schedulemanager.php:127
+msgid "Schedule Time"
+msgstr "Orario"
