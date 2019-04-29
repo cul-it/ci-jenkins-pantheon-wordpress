@@ -60,6 +60,7 @@
     "wpackagist-plugin/kirki": "^3.0",
     "wpackagist-plugin/pantheon-advanced-page-cache": "^0.3.0",
     "wpackagist-plugin/wp-cfm": "^1.5",
+    "wpackagist-plugin/wp-mail-smtp": "^1.4",
     "wpackagist-plugin/wp-native-php-sessions": "^0.6.9",
     "wpackagist-theme/twentynineteen": "^1.2"
   },
