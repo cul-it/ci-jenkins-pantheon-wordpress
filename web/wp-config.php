@@ -102,7 +102,7 @@ endif;
 if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 
 	// Cornell Library SMTP setup
-	// set SMPT_PW,SMTP_USER on each site (dev,test,live) using terminus secrets
+	// set SMPT_PW, SMTP_USER on each site (dev,test,live) using terminus secrets
 	$secrets = $_ENV['HOME'] . '/files/private/secrets.json',
 	if (file_exists($secrets)) {
 		if (($file = file_get_contents($secrets)) !== false) {
@@ -121,9 +121,11 @@ if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 				define('WPMS_SMTP_USER', $smtp['SMTP_USER']); // SMTP authentication username, only used if WPMS_SMTP_AUTH is true
 				define('WPMS_SMTP_PASS', $smtp['SMTP_PW']); // SMTP authentication password, only used if WPMS_SMTP_AUTH is true	define( 'WPMS_SMTP_PASS', $_ENV['SMPT_PW'] );
 			}
-			unset($secrets, $file, $smtp);
+			unset($file, $smtp);
 		}
 	}
+	unset($secrets);
+
 
 	// ** MySQL settings - included in the Pantheon Environment ** //
 	/** The name of the database for WordPress */
