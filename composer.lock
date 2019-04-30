@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "918978ffa16f82a010782d4fd103e07c",
+    "content-hash": "df4797a253c6f799d415343b6eb25120",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,16 +187,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "23540a0dd758268f8583bd327809064616689dec"
+                "reference": "08b82a63f6b5fe6a9f60cd86269b236e986b0d12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/23540a0dd758268f8583bd327809064616689dec",
-                "reference": "23540a0dd758268f8583bd327809064616689dec",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/08b82a63f6b5fe6a9f60cd86269b236e986b0d12",
+                "reference": "08b82a63f6b5fe6a9f60cd86269b236e986b0d12",
                 "shasum": ""
             },
             "require": {
@@ -214,10 +214,44 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.3",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.4",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-04-15T14:25:49+00:00"
+            "time": "2019-04-30T16:01:41+00:00"
+        },
+        {
+            "name": "cul-it/culu-child",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/library-cornell-edu-subtheme.git",
+                "reference": "90224f94ee5e9a6242731d0dcbea9f2e51f1f746"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-subtheme/zipball/90224f94ee5e9a6242731d0dcbea9f2e51f1f746",
+                "reference": "90224f94ee5e9a6242731d0dcbea9f2e51f1f746",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Manolo Bevia",
+                    "email": "manolo.bevia@cornell.edu"
+                }
+            ],
+            "description": "WordPress child theme for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/library-cornell-edu-subtheme/tree/v1.0.1",
+                "issues": "https://github.com/cul-it/library-cornell-edu-subtheme/issues"
+            },
+            "time": "2019-04-30T16:53:59+00:00"
         },
         {
             "name": "cul-it/elementor-pro",
@@ -3629,12 +3663,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "1b329f4f2d9a0a3981fd79dbfe37754bedd383e2"
+                "reference": "1dfa887a7e87ba9b7c635299462554b9ad241d5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1b329f4f2d9a0a3981fd79dbfe37754bedd383e2",
-                "reference": "1b329f4f2d9a0a3981fd79dbfe37754bedd383e2",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1dfa887a7e87ba9b7c635299462554b9ad241d5b",
+                "reference": "1dfa887a7e87ba9b7c635299462554b9ad241d5b",
                 "shasum": ""
             },
             "conflict": {
@@ -3655,7 +3689,7 @@
                 "composer/composer": "<=1.0.0-alpha11",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/core": ">=2,<3.5.39",
-                "contao/core-bundle": ">=4,<4.4.37|>=4.5,<4.7.3",
+                "contao/core-bundle": ">=4,<4.4.39|>=4.5,<4.7.5",
                 "contao/listing-bundle": ">=4,<4.4.8",
                 "contao/newsletter-bundle": ">=4,<4.1",
                 "david-garcia/phpwhois": "<=4.3.1",
@@ -3829,7 +3863,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-04-24T06:22:37+00:00"
+            "time": "2019-04-30T09:56:45+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
