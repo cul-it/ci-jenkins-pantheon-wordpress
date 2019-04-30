@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "918978ffa16f82a010782d4fd103e07c",
+    "content-hash": "df4797a253c6f799d415343b6eb25120",
     "packages": [
         {
             "name": "composer/installers",
@@ -218,6 +218,40 @@
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
             "time": "2019-04-30T16:01:41+00:00"
+        },
+        {
+            "name": "cul-it/culu-child",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/library-cornell-edu-subtheme.git",
+                "reference": "90224f94ee5e9a6242731d0dcbea9f2e51f1f746"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-subtheme/zipball/90224f94ee5e9a6242731d0dcbea9f2e51f1f746",
+                "reference": "90224f94ee5e9a6242731d0dcbea9f2e51f1f746",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Manolo Bevia",
+                    "email": "manolo.bevia@cornell.edu"
+                }
+            ],
+            "description": "WordPress child theme for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/library-cornell-edu-subtheme/tree/v1.0.1",
+                "issues": "https://github.com/cul-it/library-cornell-edu-subtheme/issues"
+            },
+            "time": "2019-04-30T16:53:59+00:00"
         },
         {
             "name": "cul-it/elementor-pro",
