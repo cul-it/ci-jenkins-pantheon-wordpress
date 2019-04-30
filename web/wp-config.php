@@ -102,18 +102,30 @@ endif;
 if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 
 	// Cornell Library SMTP setup
-	// set SMPT_PW,SMTP_USER on each site (dev,test,live) using terminus secrets
-	// define('WPMS_ON', true);
-	// define('WPMS_MAIL_FROM', 'libsys-mailer@cornell.edu');
-	// define('WPMS_MAIL_FROM_NAME', 'Cornell University Library Web Site');
-	// define('WPMS_MAILER', 'smtp'); // Possible values 'smtp', 'mail', or 'sendmail'
-	// define('WPMS_SET_RETURN_PATH', 'false'); // Sets $phpmailer->Sender if true
-	// define('WPMS_SMTP_HOST', 'email-smtp.us-east-1.amazonaws.com'); // The SMTP mail host
-	// define('WPMS_SMTP_PORT', 587); // The SMTP server port number
-	// define('WPMS_SSL', 'tls'); // Possible values '', 'ssl', 'tls' - note TLS is not STARTTLS
-	// define('WPMS_SMTP_AUTH', true); // True turns on SMTP authentication, false turns it off
-	// define('WPMS_SMTP_USER', $_ENV['SMTP_USER']); // SMTP authentication username, only used if WPMS_SMTP_AUTH is true
-	// define('WPMS_SMTP_PASS', $_ENV['SMTP_PW']); // SMTP authentication password, only used if WPMS_SMTP_AUTH is true	define( 'WPMS_SMTP_PASS', $_ENV['SMPT_PW'] );
+	// set SMPT_PW, SMTP_USER on each site (dev,test,live) using terminus secrets
+	$secrets = $_ENV['HOME'] . '/files/private/secrets.json';
+	if (file_exists($secrets)) {
+		if (($file = file_get_contents($secrets)) !== false) {
+			$smtp = json_decode($file,true);
+			if (isset($smtp['SMTP_USER']) && isset($smtp['SMTP_PW'])) {
+				// set SMPT_PW,SMTP_USER on each site (dev,test,live) using terminus secrets
+				define('WPMS_ON', true);
+				define('WPMS_MAIL_FROM', 'libsys-mailer@cornell.edu');
+				define('WPMS_MAIL_FROM_NAME', 'Cornell University Library Web Site');
+				define('WPMS_MAILER', 'smtp'); // Possible values 'smtp', 'mail', or 'sendmail'
+				define('WPMS_SET_RETURN_PATH', 'false'); // Sets $phpmailer->Sender if true
+				define('WPMS_SMTP_HOST', 'email-smtp.us-east-1.amazonaws.com'); // The SMTP mail host
+				define('WPMS_SMTP_PORT', 587); // The SMTP server port number
+				define('WPMS_SSL', 'tls'); // Possible values '', 'ssl', 'tls' - note TLS is not STARTTLS
+				define('WPMS_SMTP_AUTH', true); // True turns on SMTP authentication, false turns it off
+				define('WPMS_SMTP_USER', $smtp['SMTP_USER']); // SMTP authentication username, only used if WPMS_SMTP_AUTH is true
+				define('WPMS_SMTP_PASS', $smtp['SMTP_PW']); // SMTP authentication password, only used if WPMS_SMTP_AUTH is true	define( 'WPMS_SMTP_PASS', $_ENV['SMPT_PW'] );
+			}
+			unset($file, $smtp);
+		}
+	}
+	unset($secrets);
+
 
 	// ** MySQL settings - included in the Pantheon Environment ** //
 	/** The name of the database for WordPress */
