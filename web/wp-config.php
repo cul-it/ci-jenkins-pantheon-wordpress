@@ -107,7 +107,7 @@ if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 	if (file_exists($secrets)) {
 		if (($file = file_get_contents($secrets)) !== false) {
 			$smtp = json_decode($file,true);
-			if (isset(isset($smtp['SMTP_PW'])) {
+			if (isset($smtp['SMTP_PW'])) {
 				// set SMPT_PW,SMTP_USER on each site (dev,test,live) using terminus secrets
 				define('WPMS_ON', true);
 				define('WPMS_SMTP_PASS', $smtp['SMTP_PW']); // SMTP authentication password, only used if WPMS_SMTP_AUTH is true	define( 'WPMS_SMTP_PASS', $_ENV['SMPT_PW'] );
