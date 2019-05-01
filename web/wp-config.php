@@ -102,7 +102,7 @@ endif;
 if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 
 	// Cornell Library SMTP setup
-	// set SMPT_PW, SMTP_USER on each site (dev,test,live) using terminus secrets
+	// set SMPT_PW on each site (dev,test,live) using terminus secrets
 	$secrets = $_ENV['HOME'] . '/files/private/secrets.json';
 	if (file_exists($secrets)) {
 		if (($file = file_get_contents($secrets)) !== false) {
