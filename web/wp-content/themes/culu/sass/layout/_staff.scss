@@ -1,0 +1,71 @@
+/*---
+
+  STAFF PROFILE
+
+---*/
+
+.staff-profile {
+
+  width: 282px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  @media only screen and (min-width: 640px) {
+
+    margin: 0;
+    margin-bottom: 20px;;
+
+  }
+
+  .staff-photo {
+
+
+  }
+
+  h2 {
+
+    padding-left: 20px;
+    font-size: 24px;
+    margin-bottom: 0;
+
+  }
+
+  h3 {
+
+    padding-left: 20px;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+  }
+
+  p {
+
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+
+  }
+
+  .staff-phone {
+    margin-bottom: 15px;
+  }
+
+  .btn-graphic {
+
+
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-right: 20px;
+
+    &:hover {
+
+      background-color: #000;
+    }
+
+  }
+
+}
