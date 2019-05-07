@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b342594b9aa130096119ff73f37ba868",
+    "content-hash": "023485b5486e4600b5b1e07450c67859",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,16 +187,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "08b82a63f6b5fe6a9f60cd86269b236e986b0d12"
+                "reference": "f0542ab196f9fcf69dfa7bc6d27617231628293d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/08b82a63f6b5fe6a9f60cd86269b236e986b0d12",
-                "reference": "08b82a63f6b5fe6a9f60cd86269b236e986b0d12",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/f0542ab196f9fcf69dfa7bc6d27617231628293d",
+                "reference": "f0542ab196f9fcf69dfa7bc6d27617231628293d",
                 "shasum": ""
             },
             "require": {
@@ -214,10 +214,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.4",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.5",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-04-30T16:01:41+00:00"
+            "time": "2019-05-07T19:13:27+00:00"
         },
         {
             "name": "cul-it/culu-child",
@@ -1359,6 +1359,24 @@
             "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
+            "name": "wpackagist-plugin/all-in-one-wp-migration",
+            "version": "6.93",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
+                "reference": "tags/6.93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.6.93.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-wp-migration/"
+        },
+        {
             "name": "wpackagist-plugin/better-font-awesome",
             "version": "1.7.1",
             "source": {
@@ -1378,15 +1396,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.5.14",
+            "version": "2.5.15",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.5.14"
+                "reference": "tags/2.5.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.14.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.15.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1411,6 +1429,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/json-content-importer",
+            "version": "1.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/json-content-importer/",
+                "reference": "tags/1.3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.3.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/json-content-importer/"
         },
         {
             "name": "wpackagist-plugin/kirki",
@@ -1447,24 +1483,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/pantheon-advanced-page-cache/"
-        },
-        {
-            "name": "wpackagist-plugin/wordpress-importer",
-            "version": "0.6.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.6.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.4.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
             "name": "wpackagist-plugin/wp-cfm",
@@ -3681,12 +3699,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "21ad2a8155dd437a0926a4d1fedb991bebd4810b"
+                "reference": "4b0bb8d85c965ef52363adfd3c1ef9341d8f0bb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/21ad2a8155dd437a0926a4d1fedb991bebd4810b",
-                "reference": "21ad2a8155dd437a0926a4d1fedb991bebd4810b",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4b0bb8d85c965ef52363adfd3c1ef9341d8f0bb8",
+                "reference": "4b0bb8d85c965ef52363adfd3c1ef9341d8f0bb8",
                 "shasum": ""
             },
             "conflict": {
@@ -3822,13 +3840,13 @@
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "tecnickcom/tcpdf": "<6.2.22",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
+                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
                 "twig/twig": "<1.38|>=2,<2.7",
-                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.23|>=9,<9.5.4",
-                "typo3/cms-core": ">=8,<8.7.23|>=9,<9.5.4",
+                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.25|>=9,<9.5.6",
+                "typo3/cms-core": ">=8,<8.7.25|>=9,<9.5.6",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "ua-parser/uap-php": "<3.8",
@@ -3881,7 +3899,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-05-06T17:09:30+00:00"
+            "time": "2019-05-07T15:23:19+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
