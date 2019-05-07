@@ -59,6 +59,7 @@
     "simplesamlphp/simplesamlphp": "^1.16",
     "vlucas/phpdotenv": "^3.1.0",
     "wpackagist-plugin/akismet": "^4.1",
+    "wpackagist-plugin/all-in-one-wp-migration":"^6.93",
     "wpackagist-plugin/better-font-awesome": "^1.7",
     "wpackagist-plugin/elementor": "^2.5",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.3",
