@@ -44,7 +44,7 @@
   ],
   "require": {
     "composer/installers": "^1.3.0",
-    "cul-it/advanced-custom-fields-pro": "^5.7",
+    "cul-it/advanced-custom-fields-pro": "^5.8",
     "cul-it/ares_wordpress": "^1.0",
     "cul-it/culu": "^1.0",
     "cul-it/elementor-pro": "^2.4",
