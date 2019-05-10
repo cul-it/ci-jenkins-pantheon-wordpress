@@ -1,6 +1,6 @@
 # Example WordPress Composer
 
-## skip down to the bottom for Jenkins Workflow
+## skip down to the bottom for [Jenkins Workflow](#workflow)
 
 [![CircleCI](https://circleci.com/gh/pantheon-systems/example-wordpress-composer.svg?style=svg)](https://circleci.com/gh/pantheon-systems/example-wordpress-composer)
 
@@ -86,7 +86,7 @@ You should now be able to edit your site locally. The steps above do not need to
 
 Composer, Terminus and wp-cli commands should be run in Lando rather than on the host machine. This is done by prefixing the desired command with `lando`. For example, after a change to `composer.json` run `lando composer update` rather than `composer update`.
 
-## Jenkins Workflow
+## <a name="workflow">Jenkins Workflow</a>
 
 We're not using behat for testing - I couldn't get that to work. Check out the /features
 directory for cucumber tests.
