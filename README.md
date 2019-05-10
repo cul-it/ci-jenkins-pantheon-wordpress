@@ -131,17 +131,23 @@ to just above
 * git add -A
 * git commit -m 'inital setup'
 * git push
+* set up the email secrets using terminus secrets (see [Email configuration](#email))
 * go back to the site dashboard on Pantheon
+* put the site in SMTP development mode (so plugins can create directories/files when they are activated)
 * go to <dev site url>/wp/wp-admin (Visit Development Site)
 * install wordpress
 * log in to wordpress
 * activate all your plugins
 * select your theme
 
-## Email configuration
+## <a name="email">Email configuration</a>
 
 * Install terminus secrets: https://github.com/pantheon-systems/terminus-secrets-plugin
 * Set a secret for each site (dev,test,live) with the key 'SMTP_PW' and the correct value (ask for it)
+
+```
+terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
+```
 * Activate the plugin 'WP Mail SMTP'
 * In the settings for WP Mail SMTP:
     * From Email: libsys-mailer@cornell.edu
