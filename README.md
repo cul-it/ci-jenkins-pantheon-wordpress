@@ -139,6 +139,7 @@ to just above
 * log in to wordpress
 * activate all your plugins
 * select your theme
+* back in Pantheon, commit any changes made during installation using the SMTP Development Mode commit function.
 
 ## <a name="email">Email configuration</a>
 
