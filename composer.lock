@@ -187,16 +187,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "667b96af75368ac37eb6c1e978a1f90f807db232"
+                "reference": "0beb8bda5ddd804d2ae47a5e9e0a2c9cac9a78c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/667b96af75368ac37eb6c1e978a1f90f807db232",
-                "reference": "667b96af75368ac37eb6c1e978a1f90f807db232",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/0beb8bda5ddd804d2ae47a5e9e0a2c9cac9a78c2",
+                "reference": "0beb8bda5ddd804d2ae47a5e9e0a2c9cac9a78c2",
                 "shasum": ""
             },
             "require": {
@@ -214,10 +214,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.6",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.7",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-05-29T19:41:04+00:00"
+            "time": "2019-05-30T17:58:31+00:00"
         },
         {
             "name": "cul-it/elementor-pro",
