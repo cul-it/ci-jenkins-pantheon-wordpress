@@ -55,7 +55,7 @@
     "pantheon-systems/wp-saml-auth": "^0.6",
     "roots/wp-password-bcrypt": "^1.0.0",
     "rvtraveller/qs-composer-installer": "^1.1",
-    "simplesamlphp/simplesamlphp": "^1.16",
+    "simplesamlphp/simplesamlphp": "^1.17",
     "vlucas/phpdotenv": "^3.1.0",
     "wpackagist-plugin/akismet": "^4.1",
     "wpackagist-plugin/all-in-one-wp-migration":"^6.96",
@@ -88,7 +88,7 @@
     "optimize-autoloader": true,
     "sort-packages": true,
     "platform": {
-      "php": "7.0"
+      "php": "7.3"
     }
   },
   "extra": {
