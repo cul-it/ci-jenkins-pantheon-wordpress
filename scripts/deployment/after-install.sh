@@ -2,6 +2,7 @@
 # after-install.sh - clean up after wordpress has been installed
 
 GITROOT=`git rev-parse --show-toplevel`
+
 echo "Removing vulnerable files un-needed after Wordpress install"
 echo "..."
 INSTALL="$GITROOT/web/wp/wp-admin/install.php"
@@ -9,3 +10,4 @@ INSTALL="$GITROOT/web/wp/wp-admin/install.php"
 echo "..."
 UPGRADE="$GITROOT/web/wp/wp-admin/upgrade.php"
 [ -e $UPGRADE ] && rm -i $UPGRADE
+
