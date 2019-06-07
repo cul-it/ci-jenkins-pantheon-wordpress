@@ -35,5 +35,5 @@ patch -p1 < $PATCH
 git commit .gitignore -m 'patched .gitignore to include artifacts for Pantheon'
 
 echo "Creating the artifacts with composer"
-composer install
+php /usr/local/bin/composer.phar install
 git add -A && git commit -m 'ran composer install'
