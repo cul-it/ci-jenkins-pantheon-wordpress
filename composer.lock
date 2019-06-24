@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8305fe008bb58a74b0b3f559a3d5814c",
+    "content-hash": "0060845c994476de6bf60d2411de07ac",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,16 +187,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "0beb8bda5ddd804d2ae47a5e9e0a2c9cac9a78c2"
+                "reference": "0b1f3490d14a140452eac57cff89d14f080c4cf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/0beb8bda5ddd804d2ae47a5e9e0a2c9cac9a78c2",
-                "reference": "0beb8bda5ddd804d2ae47a5e9e0a2c9cac9a78c2",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/0b1f3490d14a140452eac57cff89d14f080c4cf5",
+                "reference": "0b1f3490d14a140452eac57cff89d14f080c4cf5",
                 "shasum": ""
             },
             "require": {
@@ -214,10 +214,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.7",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.8",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-05-30T17:58:31+00:00"
+            "time": "2019-06-24T20:29:20+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
