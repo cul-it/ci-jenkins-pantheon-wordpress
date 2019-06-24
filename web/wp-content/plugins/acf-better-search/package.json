@@ -1,0 +1,28 @@
+{
+  "name": "acf-better-search",
+  "description": "ACF: Better Search",
+  "license": "GPL-2.0+",
+  "author": {
+    "name": "Mateusz Gbiorczyk",
+    "email": "mateusz@gbiorczyk.pl",
+    "url": "https://gbiorczyk.pl/"
+  },
+  "main": "webpack.mix.js",
+  "scripts": {
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "npm run development",
+    "watch": "npm run development -- --watch",
+    "prod": "npm run production"
+  },
+  "browserslist": [
+    "chrome 60",
+    "firefox 55",
+    "safari 10",
+    "edge 15",
+    "ie 11"
+  ],
+  "dependencies": {
+    "mati-mix": "^2.0.1"
+  }
+}
