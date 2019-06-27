@@ -1,0 +1,27 @@
+From 672203bf4f086f591e4ffb36655a02935e2fb9dd Mon Sep 17 00:00:00 2001
+From: James Reidy <jreidy@cornell.edu>
+Date: Thu, 27 Jun 2019 15:05:51 -0400
+Subject: [PATCH] add php upload_max_size, post_max_size, memory_limit
+
+---
+ web/wp-config.php | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/web/wp-config.php b/web/wp-config.php
+index 61fb2e8c..13ce5edc 100644
+--- a/web/wp-config.php
++++ b/web/wp-config.php
+@@ -116,6 +116,10 @@ if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
+ 	}
+ 	unset($secrets);
+ 
++	// Cornell Library php limits setup
++	@ini_set( 'upload_max_size' , '100M');
++	@ini_set( 'post_max_size', '20M');
++	@ini_set( 'memory_limit', '256M');
+ 
+ 	// ** MySQL settings - included in the Pantheon Environment ** //
+ 	/** The name of the database for WordPress */
+-- 
+2.20.1
+
