@@ -1,0 +1,11 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: $font__secondary;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+h1.entry-title {
+	//padding-bottom: 20px;
+	font-size: 1.7em;
+}
