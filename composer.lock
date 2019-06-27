@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f6e35867e33306f5fe0ba143289f15b",
+    "content-hash": "1e2ea044fc931caf84a2e7242b331fca",
     "packages": [
         {
             "name": "composer/installers",
@@ -221,16 +221,16 @@
         },
         {
             "name": "cul-it/wp-libcal-hours",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-libcal-hours.git",
-                "reference": "976a9734456faa4a641a7168dc87331f73b9567e"
+                "reference": "cc3a0a4fbc8c09e0477e239de23e47225047ab0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/976a9734456faa4a641a7168dc87331f73b9567e",
-                "reference": "976a9734456faa4a641a7168dc87331f73b9567e",
+                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/cc3a0a4fbc8c09e0477e239de23e47225047ab0f",
+                "reference": "cc3a0a4fbc8c09e0477e239de23e47225047ab0f",
                 "shasum": ""
             },
             "require": {
@@ -248,10 +248,10 @@
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
             "support": {
-                "source": "https://github.com/cul-it/wp-libcal-hours/tree/dev",
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.1",
                 "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
             },
-            "time": "2019-03-07T20:58:31+00:00"
+            "time": "2019-06-27T18:41:14+00:00"
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
@@ -6164,12 +6164,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git",
+                "url": "https://github.com/WordPress/WordPress-Coding-Standards.git",
                 "reference": "bd9c33152115e6741e3510ff7189605b35167908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress-Coding-Standards/WordPress-Coding-Standards/zipball/bd9c33152115e6741e3510ff7189605b35167908",
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/bd9c33152115e6741e3510ff7189605b35167908",
                 "reference": "bd9c33152115e6741e3510ff7189605b35167908",
                 "shasum": ""
             },
