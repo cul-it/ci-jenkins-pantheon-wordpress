@@ -116,6 +116,10 @@ if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 	}
 	unset($secrets);
 
+	// Cornell Library php limits setup
+	@ini_set( 'upload_max_size' , '100M');
+	@ini_set( 'post_max_size', '20M');
+	@ini_set( 'memory_limit', '256M');
 
 	// ** MySQL settings - included in the Pantheon Environment ** //
 	/** The name of the database for WordPress */
