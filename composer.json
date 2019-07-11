@@ -109,7 +109,10 @@
       "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"],
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
-    }
+    },
+    "patches": {
+    },
+    "enable-patching": true
   },
   "autoload": {
     "classmap": [
