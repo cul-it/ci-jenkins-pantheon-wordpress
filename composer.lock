@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "441459fab4782c390b1d2756764cd41c",
+    "content-hash": "285a9021ca21b728ad4c84c503a324c4",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,16 +187,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.9",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "e11c825c9c2715c117fc3cc093a0863ac30e09f8"
+                "reference": "5a5e51d6270797713799fe27cfa83d3b613d221c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/e11c825c9c2715c117fc3cc093a0863ac30e09f8",
-                "reference": "e11c825c9c2715c117fc3cc093a0863ac30e09f8",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/5a5e51d6270797713799fe27cfa83d3b613d221c",
+                "reference": "5a5e51d6270797713799fe27cfa83d3b613d221c",
                 "shasum": ""
             },
             "require": {
@@ -214,23 +214,23 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.9",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.10",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-06-27T16:58:48+00:00"
+            "time": "2019-07-11T16:13:34+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-libcal-hours.git",
-                "reference": "984103600e06aee621c55e91ecf91d9a1d4ac679"
+                "reference": "f568f571e6674eef0f708919543362916c870ac5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/984103600e06aee621c55e91ecf91d9a1d4ac679",
-                "reference": "984103600e06aee621c55e91ecf91d9a1d4ac679",
+                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/f568f571e6674eef0f708919543362916c870ac5",
+                "reference": "f568f571e6674eef0f708919543362916c870ac5",
                 "shasum": ""
             },
             "require": {
@@ -248,10 +248,10 @@
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
             "support": {
-                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.2",
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.3",
                 "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
             },
-            "time": "2019-06-27T19:49:35+00:00"
+            "time": "2019-07-11T15:57:55+00:00"
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
@@ -458,20 +458,24 @@
         },
         {
             "name": "jaimeperez/twig-configurable-i18n",
-            "version": "v2.0",
+            "version": "v2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jaimeperez/twig-configurable-i18n.git",
-                "reference": "4ccf150ba9f28d2e31d0622ecc9b81cdc6a2638b"
+                "reference": "38a22aaa6b31efdc0d76d58f5934dea3ebac8556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jaimeperez/twig-configurable-i18n/zipball/4ccf150ba9f28d2e31d0622ecc9b81cdc6a2638b",
-                "reference": "4ccf150ba9f28d2e31d0622ecc9b81cdc6a2638b",
+                "url": "https://api.github.com/repos/jaimeperez/twig-configurable-i18n/zipball/38a22aaa6b31efdc0d76d58f5934dea3ebac8556",
+                "reference": "38a22aaa6b31efdc0d76d58f5934dea3ebac8556",
                 "shasum": ""
             },
             "require": {
-                "twig/extensions": "^1.3"
+                "twig/extensions": "^1.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.36",
+                "twig/twig": "^1.37 || ^2.7"
             },
             "type": "project",
             "autoload": {
@@ -498,7 +502,8 @@
                 "translation",
                 "twig"
             ],
-            "time": "2018-10-10T09:12:46+00:00"
+            "abandoned": "simplesamlphp/twig-configurable-i18n",
+            "time": "2019-06-07T11:03:28+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -550,16 +555,16 @@
         },
         {
             "name": "onelogin/php-saml",
-            "version": "3.1.1",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onelogin/php-saml.git",
-                "reference": "c9026b26395a65184550055d9a01bdf9dbd30861"
+                "reference": "845a6ce39e839ed9e687f80bffb02ffde16a70d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/c9026b26395a65184550055d9a01bdf9dbd30861",
-                "reference": "c9026b26395a65184550055d9a01bdf9dbd30861",
+                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/845a6ce39e839ed9e687f80bffb02ffde16a70d0",
+                "reference": "845a6ce39e839ed9e687f80bffb02ffde16a70d0",
                 "shasum": ""
             },
             "require": {
@@ -596,7 +601,7 @@
                 "onelogin",
                 "saml"
             ],
-            "time": "2019-03-11T09:41:32+00:00"
+            "time": "2019-06-25T10:28:20+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
@@ -2699,15 +2704,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/1.4.2"
+                "reference": "tags/1.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.5.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3585,33 +3590,37 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.5.2",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115"
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
                 "psr/http-message": "~1.0",
-                "ralouphie/getallheaders": "^2.0.5"
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
+                "ext-zlib": "*",
                 "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "suggest": {
+                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -3648,7 +3657,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-12-04T20:46:45+00:00"
+            "time": "2019-07-01T23:21:34+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -4807,24 +4816,24 @@
         },
         {
             "name": "ralouphie/getallheaders",
-            "version": "2.0.5",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ralouphie/getallheaders.git",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3"
+                "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7.0",
-                "satooshi/php-coveralls": ">=1.0"
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
             },
             "type": "library",
             "autoload": {
@@ -4843,7 +4852,7 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "time": "2016-02-11T07:05:27+00:00"
+            "time": "2019-03-08T08:55:37+00:00"
         },
         {
             "name": "roave/security-advisories",
