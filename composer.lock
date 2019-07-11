@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e2ea044fc931caf84a2e7242b331fca",
+    "content-hash": "441459fab4782c390b1d2756764cd41c",
     "packages": [
         {
             "name": "composer/installers",
@@ -221,16 +221,16 @@
         },
         {
             "name": "cul-it/wp-libcal-hours",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-libcal-hours.git",
-                "reference": "cc3a0a4fbc8c09e0477e239de23e47225047ab0f"
+                "reference": "984103600e06aee621c55e91ecf91d9a1d4ac679"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/cc3a0a4fbc8c09e0477e239de23e47225047ab0f",
-                "reference": "cc3a0a4fbc8c09e0477e239de23e47225047ab0f",
+                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/984103600e06aee621c55e91ecf91d9a1d4ac679",
+                "reference": "984103600e06aee621c55e91ecf91d9a1d4ac679",
                 "shasum": ""
             },
             "require": {
@@ -248,10 +248,10 @@
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
             "support": {
-                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.1",
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.2",
                 "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
             },
-            "time": "2019-06-27T18:41:14+00:00"
+            "time": "2019-06-27T19:49:35+00:00"
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
@@ -271,12 +271,67 @@
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "patches_applied": []
+            },
             "description": "WordPress plugin for Unified Library Website",
             "support": {
                 "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v5.5.3",
                 "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
             },
             "time": "2019-04-15T17:08:21+00:00"
+        },
+        {
+            "name": "cweagans/composer-patches",
+            "version": "1.6.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "1d89dcc730e7f42426c434b88261fcfb3bce651e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/1d89dcc730e7f42426c434b88261fcfb3bce651e",
+                "reference": "1d89dcc730e7f42426c434b88261fcfb3bce651e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "cweagans\\Composer\\Tests\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "support": {
+                "source": "https://github.com/cweagans/composer-patches/tree/1.6.6",
+                "issues": "https://github.com/cweagans/composer-patches/issues"
+            },
+            "time": "2018-10-24T15:51:16+00:00"
         },
         {
             "name": "gettext/gettext",
