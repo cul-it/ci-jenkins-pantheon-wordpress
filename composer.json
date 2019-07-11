@@ -40,6 +40,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:cul-it/wp-ultimate-csv-importer-pro"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:cweagans/composer-patches"
     }
   ],
   "require": {
@@ -49,6 +53,7 @@
     "cul-it/culu": "1.0.9",
     "cul-it/wp-libcal-hours": "1.0.2",
     "cul-it/wp-ultimate-csv-importer-pro": "5.5.3",
+    "cweagans/composer-patches": "~1.0",
     "pantheon-systems/quicksilver-pushback": "1.0.1",
     "pantheon-systems/wordpress-composer": "5.2.2",
     "pantheon-systems/wp-saml-auth": "0.6.0",
