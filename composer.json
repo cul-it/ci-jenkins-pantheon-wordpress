@@ -74,7 +74,7 @@
     "wpackagist-plugin/kirki": "3.0.44",
     "wpackagist-plugin/pantheon-advanced-page-cache": "0.3.0",
     "wpackagist-plugin/wp-cfm": "1.5.1",
-    "wpackagist-plugin/wp-mail-smtp": "1.5.0",
+    "wpackagist-plugin/wp-mail-smtp": "1.5.2",
     "wpackagist-plugin/wp-native-php-sessions": "0.7.0",
     "wpackagist-theme/twentynineteen": "1.4"
   },
