@@ -1,0 +1,4227 @@
+# This is an API for the "WP Ultimate CSV Importer"
+swagger: '2.0'
+info:
+  title: WP Ultimate CSV Importer API Playground
+  description: Authorize your application and play around the API
+  version: "1.0"
+  contact: 
+    name: Smackcoders
+    url: http://www.smackcoders.com/contact-us.html
+    email: support@smackcoders.com
+# the domain of the service
+host: domain.com
+# array of all schemes that your API supports
+schemes:
+  - http
+  - https
+# will be prefixed to all paths
+basePath: /wp-json/wp-ultimate-csv-importer
+produces:
+  - application/json
+paths:
+  /availableFields/Posts:
+    get:
+      description: |
+        This is belongs to get all fields information for Posts. Also, You can get the fields for respective modules by using the below mentioned one.
+          Example:- Your custom post name "Movies" and it's slug "movie" you should use "movie" instead of using "Posts"
+      tags:
+        - Posts
+      responses:
+        200:
+          description: Posts Information
+          schema: 
+            $ref: '#/definitions/Posts'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /availableFields/Pages:
+    get:
+      description: |
+        This is belongs to get all fields information for Pages. Also, You can get the fields for respective modules by using the below mentioned one.
+          Example:- Your custom post name "Movies" and it's slug "movie" you should use "movie" instead of using "Pages"
+      tags:
+        - Pages
+      responses:
+        200:
+          description: Pages Information
+          schema: 
+            $ref: '#/definitions/Pages'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /availableFields/WooCommerce:
+    get:
+      description: |
+        This is belongs to get all fields information for WooCommerce Products.
+      tags:
+        - WooCommerce
+      responses:
+        200:
+          description: WooCommerce Product Information
+          schema: 
+            $ref: '#/definitions/WooCommerce'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /availableFields/WooCommerceVariations:
+    get:
+      description: |
+        This is belongs to get all fields information for WooCommerce Product Variations.
+      tags:
+        - WooCommerce Variations
+      responses:
+        200:
+          description: WooCommerce Product Information
+          schema: 
+            $ref: '#/definitions/WooCommerceVariations'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /availableFields/WooCommerceOrders:
+    get:
+      description: |
+        This is belongs to get all fields information for WooCommerce Orders.
+      tags:
+        - WooCommerceOrders
+      responses:
+        200:
+          description: WooCommerce Orders Information
+          schema: 
+            $ref: '#/definitions/WooCommerceOrders'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /availableFields/WooCommerceCoupons:
+    get:
+      description: |
+        This is belongs to get all fields information for WooCommerce Coupons.
+      tags:
+        - WooCommerceCoupons
+      responses:
+        200:
+          description: WooCommerce Coupons Information
+          schema: 
+            $ref: '#/definitions/WooCommerceCoupons'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/WooCommerceRefunds:
+    get:
+      description: |
+        This is belongs to get all fields information for WooCommerce Refunds.
+      tags:
+        - WooCommerceRefunds
+      responses:
+        200:
+          description: WooCommerce Refunds Information
+          schema: 
+            $ref: '#/definitions/WooCommerceRefunds'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/MarketPress:
+    get:
+      description: |
+        This is belongs to get all fields information for MarketPress Products.
+      tags:
+        - MarketPress
+      responses:
+        200:
+          description: MarketPress Product Information
+          schema: 
+            $ref: '#/definitions/MarketPress'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/MarketPressVariations:
+    get:
+      description: |
+        This is belongs to get all fields information for MarketPress Product Variations.
+      tags:
+        - MarketPressVariations
+      responses:
+        200:
+          description: MarketPress Product Variation Information
+          schema: 
+            $ref: '#/definitions/MarketPressVariations'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/WPeCommerce:
+    get:
+      description: |
+        This is belongs to get all fields information for WPeCommerce Products.
+      tags:
+        - WPeCommerce
+      responses:
+        200:
+          description: WPeCommerce Product Information
+          schema: 
+            $ref: '#/definitions/WPeCommerce'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/WPeCommerceCoupons:
+    get:
+      description: |
+        This is belongs to get all fields information for WPeCommerce Coupons.
+      tags:
+        - WPeCommerceCoupons
+      responses:
+        200:
+          description: WPeCommerce Coupons Information
+          schema: 
+            $ref: '#/definitions/WPeCommerceCoupons'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/event:
+    get:
+      description: |
+        This is belongs to get all fields information for Events by Events Manager.
+      tags:
+        - event
+      responses:
+        200:
+          description: Events Information By Events Manager
+          schema: 
+            $ref: '#/definitions/event'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/event-recurring:
+    get:
+      description: |
+        This is belongs to get all fields information for Recurring Events by Events Manager.
+      tags:
+        - event-recurring
+      responses:
+        200:
+          description: Recurring Events Information By Events Manager
+          schema: 
+            $ref: '#/definitions/RecurringEvent'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/location:
+    get:
+      description: |
+        This is belongs to get all fields information for Location of the Events by Events Manager.
+      tags:
+        - location
+      responses:
+        200:
+          description: Events Location Information By Events Manager
+          schema: 
+            $ref: '#/definitions/location'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/ticket:
+    get:
+      description: |
+        This is belongs to get all fields information for Tickets by Events Manager.
+      tags:
+        - ticket
+      responses:
+        200:
+          description: Tickets Information By Events Manager
+          schema: 
+            $ref: '#/definitions/ticket'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/Users:
+    get:
+      description: |
+        This is belongs to get all fields information for Users.
+      tags:
+        - Users
+      responses:
+        200:
+          description: Users Information
+          schema: 
+            $ref: '#/definitions/Users'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/Comments:
+    get:
+      description: |
+        This is belongs to get all fields information for Comments.
+      tags:
+        - Comments
+      responses:
+        200:
+          description: Comments Information
+          schema: 
+            $ref: '#/definitions/Comments'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/CustomerReviews:
+    get:
+      description: |
+        This is belongs to get all fields information for Customer Reviews by "WP Customer Reviews" plugin.
+      tags:
+        - Customer Reviews
+      responses:
+        200:
+          description: Pages Information
+          schema: 
+            $ref: '#/definitions/CustomerReviews'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/Categories:
+    get:
+      description: |
+        This is belongs to get all fields information for default Post / Product Categories.
+      tags:
+        - Categories
+      responses:
+        200:
+          description: Default Post / Product Category Information
+          schema: 
+            $ref: '#/definitions/Categories'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/Tags:
+    get:
+      description: |
+        This is belongs to get all fields information for default Post / Product Tags.
+      tags:
+        - Tags
+      responses:
+        200:
+          description: Default Post / Product Tags Information
+          schema: 
+            $ref: '#/definitions/Tags'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/Taxonomies:
+    get:
+      description: |
+        This is belongs to get all fields information for default Post / Product Taxonomies.
+      tags:
+        - Taxonomies
+      responses:
+        200:
+          description: Default Post / Product Taxonomies Information
+          schema: 
+            $ref: '#/definitions/Taxonomies'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /availableFields/CustomPosts:
+    post:
+      description: |
+        This is belongs to get all fields information for the Custom Posts.
+      tags:
+        - CustomPosts
+      responses:
+        200:
+          description: Specific Custom Post Information 
+          schema: 
+            $ref: '#/definitions/CustomPosts'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /getTemplateInfo:
+    post:
+      description: |
+        This is belongs to get the mapping template information.
+      tags:
+        - Get Mapping Template
+      responses:
+        200:
+          description: Mapping template based on the template name.
+          schema:
+            $ref: '#/definitions/MappingTemplate'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /saveMapping:
+    post:
+      description: |
+        This is belongs to save the mapping template information.
+      tags:
+        - Save Mapping Template
+      responses:
+        200:
+          description: Save the mapping information to the specific event along with the module type.
+          schema:
+            $ref: '#/definitions/saveMapping'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'            
+  /importData:
+    post:
+      description: |
+        This is belongs to Create / Update the record information.
+      tags:
+        - Save sample record
+      responses:
+        200:
+          description: A sample data to Create / Update
+          schema:
+            $ref: '#/definitions/importData'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /assignFeaturedImage:
+    post:
+      description: |
+        This is belongs to assign a featured image to the specific Post / Product.
+      tags:
+        - Set Featured Image
+      responses:
+        200:
+          description: Assign a featured image to a specific Post / Product.
+          schema:
+            $ref: '#/definitions/assignFeaturedImage'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /assignTerms:
+    post:
+      description: |
+        This is belongs to Create / Update the terms and assign to the specific Post / Product.
+      tags:
+        - Assign Terms
+      responses:
+        200:
+          description: Assign terms to a specific Post / Product.
+          schema:
+            $ref: '#/definitions/assignTerms'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /{module}/create:
+    post:
+      description: |
+        This is belongs to Create the specific record.
+      parameters:
+        - name: module
+          description: Name should be with the module name like Posts, Pages, Users, WooCommerce, MarketPress, event, event-recurring, location, ticket, CustomerReviews, Categories, Tags, Taxonomies. For custom post type, EX:- movie (or) property
+          required: true
+          type: string
+          in: path   
+      tags:
+        - Add Record
+      responses:
+        200:
+          description: Assign terms to a specific Post / Product.
+          schema:
+            $ref: '#/definitions/createRecord'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /{module}/update/{id}:
+    post:
+      description: |
+        This is belongs to Update the specific record.
+      parameters:
+        - name: module
+          description: Name should be with the module name like Posts, Pages, Users, WooCommerce, MarketPress, event, event-recurring, location, ticket, CustomerReviews, Categories, Tags, Taxonomies. For custom post type, EX:- movie (or) property
+          required: true
+          type: string
+          in: path
+        - name: id
+          description: ID should be a valid one. It can be a ID of Post (or) Page (or) Product (or) User (or) Comment (or) Term (or) Review etc.,
+          required: true
+          type: integer
+          in: path
+      tags:
+        - Update Record
+      responses:
+        200:
+          description: Update information on the record based on module & ID. 
+          schema:
+            $ref: '#/definitions/updateRecord'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /registerField/{module}/acf:
+    post:
+      description: |
+        It will helps to register ACF (Free / Pro) custom field for the specific post type. The custom group will be created automatically and your fields will be managed under that specific group.
+      parameters:
+        - name: module
+          description: Name should be with the module name like Posts, Pages, Users, WooCommerce, MarketPress, event, event-recurring, location, ticket. For custom post type, EX:- movie (or) property
+          required: true
+          type: string
+          in: path
+      tags:
+        - Register ACF Custom Field
+      responses:
+        200:
+          description: Update information on the record based on module & ID. 
+          schema:
+            $ref: '#/definitions/registerField'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /registerField/{module}/types:
+    post:
+      description: |
+        It will helps to register Toolset Types custom field for the specific post type. The custom group will be created automatically and your fields will be managed under that specific group.
+      parameters:
+        - name: module
+          description: Name should be with the module name like Posts, Pages, Users, WooCommerce, MarketPress, event, event-recurring, location, ticket. For custom post type, EX:- movie (or) property
+          required: true
+          type: string
+          in: path
+      tags:
+        - Register Toolset Types Custom Field
+      responses:
+        200:
+          description: Update information on the record based on module & ID. 
+          schema:
+            $ref: '#/definitions/registerField'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /registerField/{module}/pods:
+    post:
+      description: |
+        It will helps to register PODS custom field for the specific post type. The custom group will be created automatically and your fields will be managed under that specific group.
+      parameters:
+        - name: module
+          description: Name should be with the module name like Posts, Pages, Users, WooCommerce, MarketPress, event, event-recurring, location, ticket. For custom post type, EX:- movie (or) property
+          required: true
+          type: string
+          in: path
+      tags:
+        - Register PODS Custom Field
+      responses:
+        200:
+          description: Update information on the record based on module & ID. 
+          schema:
+            $ref: '#/definitions/registerField'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /fetch/{module}/{id}:
+    post:
+      description: |
+        It helps to fetch the data based on the module & ID of the specific record. It returns a json object array.
+      parameters:
+        - name: module
+          description: Name should be with the module name like Posts, Pages, Users, WooCommerce, MarketPress, event, event-recurring, location, ticket, CustomerReviews, Categories, Tags, Taxonomies. For custom post type, EX:- movie (or) property
+          required: true
+          type: string
+          in: path
+        - name: id
+          description: ID should be a valid one. It can be a ID of Post (or) Page (or) Product (or) User (or) Comment (or) Term (or) Review etc.,
+          required: true
+          type: integer
+          in: path
+      tags:
+        - Fetch Record
+      responses:
+        200:
+          description: Update information on the record based on module & ID. 
+          schema:
+            $ref: '#/definitions/fetchRecord'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+definitions:
+  Posts:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties: 
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific Post
+              post_title:
+                type: string
+                description: Title for the Post
+              post_content:
+                type: string
+                description: Content (or) Description of Post
+              post_excerpt:
+                type: string
+                description: Short description of Post
+              post_date:
+                type: string
+                description: Publish date & time of Post ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug of Post
+              post_author:
+                type: string
+                description: Author of the Post. Value should be a valid user id (or) user login.
+              post_status:
+                type: string
+                description: Status of the Post
+              featured_image:
+                type: string
+                description: External image URL.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              post_format:
+                type: integer
+                description: |
+                    Format of Post. Value should be in the range of 1 - 7.
+              comment_status:
+                type: string
+                description: Status of comment for the specific Post.
+              ping_status:
+                type: string
+                description: Status of ping for the specific Post.
+          CORECUSTFIELDS:
+            type: object
+            description: Available fields based on the requested module. It differ from one another post types.
+            properties:
+              field1:
+                type: string
+                description: Description of field1
+              field2:
+                type: string
+                description: Description of field2
+          ACF:
+            type: object
+            description: Sample fields (Author Information) for your reference. You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+            properties:
+              author_name:
+                type: string
+                description: Name of the author
+              author_biography:
+                type: string
+                description: Brief description of author
+              author_contact_number:
+                type: integer
+                description: Contact number of author
+              author_email:
+                type: string
+                description: Email of the auhtor
+              author_login_password:
+                type: string
+                description: Password for author
+              self_introduction:
+                type: string
+                description: Self introduction of author
+              profile_image:
+                type: string
+                description: Profile image of author. Value should be a URL.
+              curriculum_vittae:
+                type: string
+                description: Curriculam Vittae of the author. Value should be a URL.
+              owing_vechile:
+                type: string
+                description: Owing vechicle. Value must be any of an option.
+              own_publication:
+                type: string
+                description: Owning publication. Value must be any of an option.
+              gender:
+                type: string
+                description: Gender of the author. Value must be any of an option.
+              experience:
+                type: string
+                description: Experience of the author. Value must be true / false.
+              website:
+                type: string
+                description: Website for the author.
+              location:
+                type: string
+                description: Location of the author. Address to pin the location in Google map.
+              date_of_birth:
+                type: string
+                description: Date of birth for author.
+              text_color:
+                type: string
+                description: Color for the font. 
+              short_description:
+                type: string
+                description: Short description of author
+              co_author:
+                type: string
+                description: Co author of the Post.
+          RF:
+            type: object
+            description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+            properties:
+              secondary_email:
+                type: string
+                description: Secondary email of the author
+              alternate_contact_no:
+                type: integer
+                description: Alternate contact number
+          CCTM:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+            properties:
+              field1:
+                type: string
+                description: Description of field1
+              field2:
+                type: string
+                description: Description of field2
+          TYPES:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+            properties:
+              audio_file:
+                type: string
+                description: Value must be an attachment URL.
+              checkboxes:
+                type: string
+                description: Values can be have a single option / multiple option with comma separation.
+              checkbox:
+                type: integer
+                description: Value must be the specific option which is need to be enbaled.
+              colorpicker:
+                type: string
+                description: Value can be an alpha numeric (or) name of the color. (EX:- #FF081C / Red)
+              date:
+                type: string
+                description: Value must be a valid date / date & time. It depends on the field configuration.
+              email:
+                type: string
+                description: Value should be a valid email id.
+              embedded_media:
+                type: string
+                description: Value can be a link of the specific vedio.
+              file:
+                type: string
+                description: Value must be an attachment URL.
+              image:
+                type: string
+                description: Value must be an attachment URL.
+              number:
+                type: string
+                description: Value should be in numeric.
+              phone:
+                type: string
+                description: Value must be a valid phone number.
+              radio:
+                type: string
+                description: Value must be the specific option which is need to be enbaled.
+              select:
+                type: string
+                description: Value must be the specific option which is need to be choosed.
+              skype:
+                type: string
+                description: Value must be a valid skype user name.
+              multiple_lines:
+                type: string
+                description: Value can be a single word (or) multiple lines.
+              single_line:
+                type: string
+                description: Value should be a sentence.
+              url:
+                type: string
+                description: Value should be a URL.
+              video:
+                type: string
+                description: Value must be an attachment URL.
+              wysiwyg:
+                type: string
+                description: Value can be a single word (or) multiple lines.
+          PODS:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+            properties:
+              plain_text:
+                type: string
+                description: Plain text field.
+              website:
+                type: string
+                description: Website field must be a link.
+              phone:
+                type: integer
+                description: Phone field.
+              email:
+                type: string
+                description: Email field.
+              password:
+                type: string
+                description: Password field.
+              plain_paragraph:
+                type: string
+                description: Plain Paragraph Text field.
+              wysiwyg:
+                type: string
+                description: WYSIWYG visual editor.
+              code_syntax_highlighting:
+                type: string
+                description: Code (Syntax Highlighting).
+              date_time:
+                type: string
+                description: Date / Time field.
+              date:
+                type: string
+                description: Date field.
+              time:
+                type: string
+                description: Time field.
+              plain_number:
+                type: string
+                description: Plain Number field.
+              currency:
+                type: string
+                description: Currency field.
+              file_image_video:
+                type: string
+                description: File/Image/Video field. Value must me an URL.
+              relationship:
+                type: string
+                description: Relationship field to relate the Post type (or) Taxonomies (or) Objects.
+          AIOSEO:
+            type: object
+            description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+            properties:
+              keywords:
+                type: string
+                description: SEO keyword.
+              description:
+                type: string
+                description: SEO description.
+              title:
+                type: string
+                description: SEO title.
+              noindex:
+                type: string
+                description: SEO no-index.
+              nofollow:
+                type: string
+                description: SEO no-follow.
+              custom_link:
+                type: string
+                description: Canonical URL for SEO.
+              titleatr:
+                type: string
+                description: SEO title attribite.
+              menulabel:
+                type: string
+                description: SEO menu label.
+              disable:
+                type: string
+                description: SEO disable index.
+              disable_analytics:
+                type: string
+                description: SEO diable analytics.
+              noodp:
+                type: string
+                description: SEO NOODP.
+              noydir:
+                type: string
+                description: SEO NOYDIR.
+          YOASTSEO:
+            type: object
+            description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+            properties:
+              title:
+                type: string
+                description: SEO title.
+              meta_desc:
+                type: string
+                description: SEO meta description.
+              meta-robots-noindex:
+                type: string
+                description: SEO robot no-index.
+              meta-robots-nofollow:
+                type: string
+                description: SEO robot no-follow.
+              meta-robots-adv:
+                type: string
+                description: SEO robot advanced option.
+              bread-crumbs-title:
+                type: string
+                description: SEO breadcrums title.
+              sitemap-include:
+                type: string
+                description: SEO sitemap inclue.
+              sitemap-prio:
+                type: string
+                description: SEO sitemap priority.
+              canonical:
+                type: string
+                description: Canonical URL for SEO.
+              redirect:
+                type: string
+                description: SEO Redirect URL.
+              opengraph-title:
+                type: string
+                description: Opengraph profile title.
+              opengraph-description:
+                type: string
+                description: Opengraph profile description.
+              opengraph-image:
+                type: string
+                description: Opengraph profile image URL.
+              twitter-title:
+                type: string
+                description: Twitter profile title.
+              twitter-description:
+                type: string
+                description: Twitter profile description.
+              twitter-image:
+                type: string
+                description: Twitter profile image URL.
+              google-plus-title:
+                type: string
+                description: Google plus profile title.
+              google-plus-description:
+                type: string
+                description: Google plus profile description.
+              google-plus-image:
+                type: string
+                description: Google plus profile image URL.
+              focus_keyword:
+                type: string
+                description: SEO focus keyword.
+          TERMS:
+            type: object
+            description: This group only avaliable only for the post types.
+            properties:
+              post_category:
+                type: string
+                description: Categories of Post. Can assign multiple categories with comma (,) or pipe (|) separation.
+              post_tag:
+                type: string
+                description: Tags of Post. Can assign multiple tags with comma separation.
+              custom_taxonomy1:
+                type: string
+                description: Value of the custom taxonomy which is related to the type Posts.
+              custom_taxonomy2:
+                type: string
+                description: Value of the custom taxonomy which is related to the type Posts.
+          WPML:
+            type: object
+            description: This group only avaliable only for the post types. It belongs to the Multi language support.
+            properties:
+              language_code:
+                type: string
+                description: Language code for multiligual support.  
+  Pages:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties: 
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific Page
+              post_title:
+                type: string
+                description: Title for the Page
+              post_content:
+                type: string
+                description: Content (or) Description of Page
+              post_excerpt:
+                type: string
+                description: Short description of Page
+              post_date:
+                type: string
+                description: Publish date & time of Page ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug of Page
+              post_author:
+                type: string
+                description: Author of the Page. Value should be a valid user id (or) user login.
+              post_status:
+                type: string
+                description: Status of the Page
+              featured_image:
+                type: string
+                description: External image URL.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+          CORECUSTFIELDS:
+            type: object
+            description: Available fields based on the requested module. It differ from one another post types.
+            properties:
+              field1:
+                type: string
+                description: Description of field1
+              field2:
+                type: string
+                description: Description of field2
+          ACF:
+            type: object
+            description: Sample fields (Author Information) for your reference. You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+            properties:
+              author_name:
+                type: string
+                description: Name of the author
+              author_biography:
+                type: string
+                description: Brief description of author
+              author_contact_number:
+                type: integer
+                description: Contact number of author
+              author_email:
+                type: string
+                description: Email of the auhtor
+              author_login_password:
+                type: string
+                description: Password for author
+              self_introduction:
+                type: string
+                description: Self introduction of author
+              profile_image:
+                type: string
+                description: Profile image of author. Value should be a URL.
+              curriculum_vittae:
+                type: string
+                description: Curriculam Vittae of the author. Value should be a URL.
+              owing_vechile:
+                type: string
+                description: Owing vechicle. Value must be any of an option.
+              own_publication:
+                type: string
+                description: Owning publication. Value must be any of an option.
+              gender:
+                type: string
+                description: Gender of the author. Value must be any of an option.
+              experience:
+                type: string
+                description: Experience of the author. Value must be true / false.
+              website:
+                type: string
+                description: Website for the author.
+              location:
+                type: string
+                description: Location of the author. Address to pin the location in Google map.
+              date_of_birth:
+                type: string
+                description: Date of birth for author.
+              text_color:
+                type: string
+                description: Color for the font. 
+              short_description:
+                type: string
+                description: Short description of author
+              co_author:
+                type: string
+                description: Co author of the Post.
+          RF:
+            type: object
+            description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+            properties:
+              secondary_email:
+                type: string
+                description: Secondary email of the author
+              alternate_contact_no:
+                type: integer
+                description: Alternate contact number
+          CCTM:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+            properties:
+              field1:
+                type: string
+                description: Description of field1
+              field2:
+                type: string
+                description: Description of field2
+          TYPES:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+            properties:
+              audio_file:
+                type: string
+                description: Value must be an attachment URL.
+              checkboxes:
+                type: string
+                description: Values can be have a single option / multiple option with comma separation.
+              checkbox:
+                type: integer
+                description: Value must be the specific option which is need to be enbaled.
+              colorpicker:
+                type: string
+                description: Value can be an alpha numeric (or) name of the color. (EX:- #FF081C / Red)
+              date:
+                type: string
+                description: Value must be a valid date / date & time. It depends on the field configuration.
+              email:
+                type: string
+                description: Value should be a valid email id.
+              embedded_media:
+                type: string
+                description: Value can be a link of the specific vedio.
+              file:
+                type: string
+                description: Value must be an attachment URL.
+              image:
+                type: string
+                description: Value must be an attachment URL.
+              number:
+                type: string
+                description: Value should be in numeric.
+              phone:
+                type: string
+                description: Value must be a valid phone number.
+              radio:
+                type: string
+                description: Value must be the specific option which is need to be enbaled.
+              select:
+                type: string
+                description: Value must be the specific option which is need to be choosed.
+              skype:
+                type: string
+                description: Value must be a valid skype user name.
+              multiple_lines:
+                type: string
+                description: Value can be a single word (or) multiple lines.
+              single_line:
+                type: string
+                description: Value should be a sentence.
+              url:
+                type: string
+                description: Value should be a URL.
+              video:
+                type: string
+                description: Value must be an attachment URL.
+              wysiwyg:
+                type: string
+                description: Value can be a single word (or) multiple lines.
+          PODS:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+            properties:
+              plain_text:
+                type: string
+                description: Plain text field.
+              website:
+                type: string
+                description: Website field must be a link.
+              phone:
+                type: integer
+                description: Phone field.
+              email:
+                type: string
+                description: Email field.
+              password:
+                type: string
+                description: Password field.
+              plain_paragraph:
+                type: string
+                description: Plain Paragraph Text field.
+              wysiwyg:
+                type: string
+                description: WYSIWYG visual editor.
+              code_syntax_highlighting:
+                type: string
+                description: Code (Syntax Highlighting).
+              date_time:
+                type: string
+                description: Date / Time field.
+              date:
+                type: string
+                description: Date field.
+              time:
+                type: string
+                description: Time field.
+              plain_number:
+                type: string
+                description: Plain Number field.
+              currency:
+                type: string
+                description: Currency field.
+              file_image_video:
+                type: string
+                description: File/Image/Video field. Value must me an URL.
+              relationship:
+                type: string
+                description: Relationship field to relate the Post type (or) Taxonomies (or) Objects.
+          AIOSEO:
+            type: object
+            description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+            properties:
+              keywords:
+                type: string
+                description: SEO keyword.
+              description:
+                type: string
+                description: SEO description.
+              title:
+                type: string
+                description: SEO title.
+              noindex:
+                type: string
+                description: SEO no-index.
+              nofollow:
+                type: string
+                description: SEO no-follow.
+              custom_link:
+                type: string
+                description: Canonical URL for SEO.
+              titleatr:
+                type: string
+                description: SEO title attribite.
+              menulabel:
+                type: string
+                description: SEO menu label.
+              disable:
+                type: string
+                description: SEO disable index.
+              disable_analytics:
+                type: string
+                description: SEO diable analytics.
+              noodp:
+                type: string
+                description: SEO NOODP.
+              noydir:
+                type: string
+                description: SEO NOYDIR.
+          YOASTSEO:
+            type: object
+            description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+            properties:
+              title:
+                type: string
+                description: SEO title.
+              meta_desc:
+                type: string
+                description: SEO meta description.
+              meta-robots-noindex:
+                type: string
+                description: SEO robot no-index.
+              meta-robots-nofollow:
+                type: string
+                description: SEO robot no-follow.
+              meta-robots-adv:
+                type: string
+                description: SEO robot advanced option.
+              bread-crumbs-title:
+                type: string
+                description: SEO breadcrums title.
+              sitemap-include:
+                type: string
+                description: SEO sitemap inclue.
+              sitemap-prio:
+                type: string
+                description: SEO sitemap priority.
+              canonical:
+                type: string
+                description: Canonical URL for SEO.
+              redirect:
+                type: string
+                description: SEO Redirect URL.
+              opengraph-title:
+                type: string
+                description: Opengraph profile title.
+              opengraph-description:
+                type: string
+                description: Opengraph profile description.
+              opengraph-image:
+                type: string
+                description: Opengraph profile image URL.
+              twitter-title:
+                type: string
+                description: Twitter profile title.
+              twitter-description:
+                type: string
+                description: Twitter profile description.
+              twitter-image:
+                type: string
+                description: Twitter profile image URL.
+              google-plus-title:
+                type: string
+                description: Google plus profile title.
+              google-plus-description:
+                type: string
+                description: Google plus profile description.
+              google-plus-image:
+                type: string
+                description: Google plus profile image URL.
+              focus_keyword:
+                type: string
+                description: SEO focus keyword.
+          TERMS:
+            type: object
+            description: This group only avaliable only for the post types.
+            properties:
+              post_category:
+                type: string
+                description: Categories of Post. Can assign multiple categories with comma (,) or pipe (|) separation.
+              post_tag:
+                type: string
+                description: Tags of Post. Can assign multiple tags with comma separation.
+              custom_taxonomy1:
+                type: string
+                description: Value of the custom taxonomy which is related to the type Posts.
+              custom_taxonomy2:
+                type: string
+                description: Value of the custom taxonomy which is related to the type Posts.
+          WPML:
+            type: object
+            description: This group only avaliable only for the post types. It belongs to the Multi language support.
+            properties:
+              language_code:
+                type: string
+                description: Language code for multiligual support.  
+  WooCommerce:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties: 
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific Product
+              post_title:
+                type: string
+                description: Title for the Product
+              post_content:
+                type: string
+                description: Content (or) Description of Product
+              post_excerpt:
+                type: string
+                description: Short description of Product
+              post_date:
+                type: string
+                description: Publish date & time of Product ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug of Product
+              post_status:
+                type: string
+                description: Status of the Product
+              featured_image:
+                type: string
+                description: External image URL.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              PRODUCTSKU:
+                type: string
+                description: SKU of Product. Value can be an alpha numeric.
+          ECOMMETA:
+            type: object
+            description: Available fields based on the requested module. It differ from one another eCommerce plugin.
+            properties:
+              product_shipping_class:
+                type: string
+                description: Product Shipping Class.
+              visibility:
+                type: integer
+                description: Visibility if the product.
+              tax_status:
+                type: string
+                description: Tax class of the Product
+              product_type:
+                type: integer
+                description: Type of Product. Values should be in the range of 1 - 6. 
+              product_attribute_name:
+                type: string
+                description: Name of the attribute for a specific Product.
+              product_attribute_value:
+                type: string
+                description: Value for the specific attribute to a specific Product.
+              product_attribute_visible:
+                type: string
+                description: Visibility of the attribute. Values must be an integer with comma separation for the multiple attributes
+              product_attribute_variation:
+                type: string
+                description: Create a Variation for the specific attributes. Values must be an 0 / 1.
+              product_attribute_position:
+                type: string
+                description: Position of the product attribute
+              featured_product:
+                type: string
+                description: Value must be a boolean ( yes / no )
+              tax_class:
+                type: string
+                description: Specific tax class for the product.
+              file_paths:
+                type: string
+                description: Path of the file. It can be a link.
+              stock_status:
+                type: string
+                description: Stock Status to the product.
+              stock_qty:
+                type: string
+                description: Available stock quantity for a product.
+              total_sales:
+                type: string
+                description: Total no of sales happened for the product.
+              downloadable:
+                type: string
+                description: Downloadable product.
+              virtual:
+                type: string
+                description: Virtual product.
+              regular_price:
+                type: string
+                description: Regular price of the product.
+              sale_price:
+                type: string
+                description: Sale price of the product.
+              purchase_note:
+                type: string
+                description: Purchase note of the product.
+              weight:
+                type: string
+                description: Weight of the product.
+              length:
+                type: string
+                description: Length of the product.
+              width:
+                type: string
+                description: Width of the product.
+              height:
+                type: string
+                description: Height of the product.
+              sku:
+                type: string
+                description: SKU of the product.
+              upsell_ids:
+                type: string
+                description: Upsell id's of the product. Multiple values should be in a comma separation.
+              crosssell_ids:
+                type: string
+                description: Crosssell id's of the product. Multiple values should be in a comma separation.
+              sale_price_dates_from:
+                type: string
+                description: Special sale price from a specific date.
+              sale_price_dates_to:
+                type: string
+                description: Special sale price upto a specific date.
+              price:
+                type: string
+                description: Price of the product
+              sold_individually:
+                type: string
+                description: Sold individually. Values must be a boolean ( yes / no ).
+              manage_stock:
+                type: string
+                description: Stock management. Values must be a boolean ( yes / no ).
+              backorders:
+                type: string
+                description: Backorders. Values must be a boolean ( yes / no ).
+              stock:
+                type: string
+                description: Stock for the product.
+              product_image_gallery:
+                type: string
+                description: Image links. Multiple values should be in a comma separation.
+              product_url:
+                type: string
+                description: External product URL.
+              button_text:
+                type: string
+                description: Button text.
+              downloadable_files:
+                type: string
+                description: Downloadable files.
+              download_limit:
+                type: string
+                description: Download limit to the specific product.
+              download_expiry:
+                type: string
+                description: Expiry time for the downloadable product.
+              download_type:
+                type: string
+                description: Download type of the product.
+              default_attributes:
+                type: string
+                description: Default attributes for the product.
+          ACF:
+            type: object
+            description: Sample fields (Author Information) for your reference. You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+            properties:
+              author_name:
+                type: string
+                description: Name of the author
+              author_biography:
+                type: string
+                description: Brief description of author
+              author_contact_number:
+                type: integer
+                description: Contact number of author
+              author_email:
+                type: string
+                description: Email of the auhtor
+              author_login_password:
+                type: string
+                description: Password for author
+              self_introduction:
+                type: string
+                description: Self introduction of author
+              profile_image:
+                type: string
+                description: Profile image of author. Value should be an URL.
+              curriculum_vittae:
+                type: string
+                description: Curriculam Vittae of the author. Value should be an URL.
+              owing_vechile:
+                type: string
+                description: Owing vechicle. Value must be any of an option.
+              own_publication:
+                type: string
+                description: Owning publication. Value must be any of an option.
+              gender:
+                type: string
+                description: Gender of the author. Value must be any of an option.
+              experience:
+                type: string
+                description: Experience of the author. Value must be true / false.
+              website:
+                type: string
+                description: Website for the author.
+              location:
+                type: string
+                description: Location of the author. Address to pin the location in Google map.
+              date_of_birth:
+                type: string
+                description: Date of birth for author.
+              text_color:
+                type: string
+                description: Color for the font. 
+              short_description:
+                type: string
+                description: Short description of author
+              co_author:
+                type: string
+                description: Co author of the Post.
+          RF:
+            type: object
+            description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+            properties:
+              secondary_email:
+                type: string
+                description: Secondary email of the author
+              alternate_contact_no:
+                type: integer
+                description: Alternate contact number
+          CCTM:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+            properties:
+              field1:
+                type: string
+                description: Description of field1
+              field2:
+                type: string
+                description: Description of field2
+          TYPES:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+            properties:
+              audio_file:
+                type: string
+                description: Value must be an attachment URL.
+              checkboxes:
+                type: string
+                description: Values can be have a single option / multiple option with comma separation.
+              checkbox:
+                type: integer
+                description: Value must be the specific option which is need to be enbaled.
+              colorpicker:
+                type: string
+                description: Value can be an alpha numeric (or) name of the color. (EX:- #FF081C / Red)
+              date:
+                type: string
+                description: Value must be a valid date / date & time. It depends on the field configuration.
+              email:
+                type: string
+                description: Value should be a valid email id.
+              embedded_media:
+                type: string
+                description: Value can be a link of the specific vedio.
+              file:
+                type: string
+                description: Value must be an attachment URL.
+              image:
+                type: string
+                description: Value must be an attachment URL.
+              number:
+                type: string
+                description: Value should be in numeric.
+              phone:
+                type: string
+                description: Value must be a valid phone number.
+              radio:
+                type: string
+                description: Value must be the specific option which is need to be enbaled.
+              select:
+                type: string
+                description: Value must be the specific option which is need to be choosed.
+              skype:
+                type: string
+                description: Value must be a valid skype user name.
+              multiple_lines:
+                type: string
+                description: Value can be a single word (or) multiple lines.
+              single_line:
+                type: string
+                description: Value should be a sentence.
+              url:
+                type: string
+                description: Value should be a URL.
+              video:
+                type: string
+                description: Value must be an attachment URL.
+              wysiwyg:
+                type: string
+                description: Value can be a single word (or) multiple lines.
+          PODS:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+            properties:
+              plain_text:
+                type: string
+                description: Plain text field.
+              website:
+                type: string
+                description: Website field must be a link.
+              phone:
+                type: integer
+                description: Phone field.
+              email:
+                type: string
+                description: Email field.
+              password:
+                type: string
+                description: Password field.
+              plain_paragraph:
+                type: string
+                description: Plain Paragraph Text field.
+              wysiwyg:
+                type: string
+                description: WYSIWYG visual editor.
+              code_syntax_highlighting:
+                type: string
+                description: Code (Syntax Highlighting).
+              date_time:
+                type: string
+                description: Date / Time field.
+              date:
+                type: string
+                description: Date field.
+              time:
+                type: string
+                description: Time field.
+              plain_number:
+                type: string
+                description: Plain Number field.
+              currency:
+                type: string
+                description: Currency field.
+              file_image_video:
+                type: string
+                description: File/Image/Video field. Value must me an URL.
+              relationship:
+                type: string
+                description: Relationship field to relate the Post type (or) Taxonomies (or) Objects.
+          AIOSEO:
+            type: object
+            description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+            properties:
+              keywords:
+                type: string
+                description: SEO keyword.
+              description:
+                type: string
+                description: SEO description.
+              title:
+                type: string
+                description: SEO title.
+              noindex:
+                type: string
+                description: SEO no-index.
+              nofollow:
+                type: string
+                description: SEO no-follow.
+              custom_link:
+                type: string
+                description: Canonical URL for SEO.
+              titleatr:
+                type: string
+                description: SEO title attribite.
+              menulabel:
+                type: string
+                description: SEO menu label.
+              disable:
+                type: string
+                description: SEO disable index.
+              disable_analytics:
+                type: string
+                description: SEO diable analytics.
+              noodp:
+                type: string
+                description: SEO NOODP.
+              noydir:
+                type: string
+                description: SEO NOYDIR.
+          YOASTSEO:
+            type: object
+            description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+            properties:
+              title:
+                type: string
+                description: SEO title.
+              meta_desc:
+                type: string
+                description: SEO meta description.
+              meta-robots-noindex:
+                type: string
+                description: SEO robot no-index.
+              meta-robots-nofollow:
+                type: string
+                description: SEO robot no-follow.
+              meta-robots-adv:
+                type: string
+                description: SEO robot advanced option.
+              bread-crumbs-title:
+                type: string
+                description: SEO breadcrums title.
+              sitemap-include:
+                type: string
+                description: SEO sitemap inclue.
+              sitemap-prio:
+                type: string
+                description: SEO sitemap priority.
+              canonical:
+                type: string
+                description: Canonical URL for SEO.
+              redirect:
+                type: string
+                description: SEO Redirect URL.
+              opengraph-title:
+                type: string
+                description: Opengraph profile title.
+              opengraph-description:
+                type: string
+                description: Opengraph profile description.
+              opengraph-image:
+                type: string
+                description: Opengraph profile image URL.
+              twitter-title:
+                type: string
+                description: Twitter profile title.
+              twitter-description:
+                type: string
+                description: Twitter profile description.
+              twitter-image:
+                type: string
+                description: Twitter profile image URL.
+              google-plus-title:
+                type: string
+                description: Google plus profile title.
+              google-plus-description:
+                type: string
+                description: Google plus profile description.
+              google-plus-image:
+                type: string
+                description: Google plus profile image URL.
+              focus_keyword:
+                type: string
+                description: SEO focus keyword.
+          TERMS:
+            type: object
+            description: This group only avaliable only for the products.
+            properties:
+              post_category:
+                type: string
+                description: Categories of Product. Can assign multiple categories with comma (,) or pipe (|) separation.
+              post_tag:
+                type: string
+                description: Tags of Product. Can assign multiple tags with comma separation.
+              custom_taxonomy1:
+                type: string
+                description: Value of the custom taxonomy which is related to the type Products.
+              custom_taxonomy2:
+                type: string
+                description: Value of the custom taxonomy which is related to the type Products.
+          WPML:
+            type: object
+            description: This group only avaliable only for the post types. It belongs to the Multi language support.
+            properties:
+              language_code:
+                type: string
+                description: Language code for multiligual support.
+  WooCommerceVariations:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties: 
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              PRODUCTID:
+                type: integer
+                description: Id of the specific Product
+              PARENTSKU:
+                type: string
+                description: SKU for the specific Product
+              VARIATIONSKU:
+                type: string
+                description: SKU for the specific Variation
+              VARIATIONID:
+                type: string
+                description: Id of the specific Variation
+          ECOMMETA:
+            type: object
+            description: Available fields based on the requested module. It differ from one another eCommerce plugin.
+            properties:
+              product_attribute_name:
+                type: string
+                description: Name of the attribute for a specific Product.
+              product_attribute_value:
+                type: string
+                description: Value for the specific attribute to a specific Product.
+              product_attribute_visible:
+                type: string
+                description: Visibility of the attribute. Values must be an integer with comma separation for the multiple attributes
+              product_attribute_variation:
+                type: string
+                description: Create a Variation for the specific attributes. Values must be an 0 / 1.
+              product_attribute_position:
+                type: string
+                description: Position of the product attribute
+              featured:
+                type: string
+                description: Value must be a boolean ( yes / no ).
+              downloadable_files:
+                type: string
+                description: Downloadable files.
+              download_limit:
+                type: string
+                description: Download limit to the specific product.
+              download_expiry:
+                type: string
+                description: Expiry time for the downloadable product.
+              price:
+                type: integer
+                description: Price of the product.
+              regular_price:
+                type: string
+                description: Regular price of the product.
+              sale_price:
+                type: string
+                description: Sale price of the product.
+              purchase_note:
+                type: string
+                description: Purchase note of the product.
+              default_attributes:
+                type: string
+                description: Default attributes for the product.
+              custom_attributes:
+                type: string
+                description: Custom attributes for the product.
+              weight:
+                type: string
+                description: Weight of the product.
+              length:
+                type: string
+                description: Length of the product.
+              width:
+                type: string
+                description: Width of the product.
+              height:
+                type: string
+                description: Height of the product.
+              downloadable:
+                type: string
+                description: Downloadable product.
+              virtual:
+                type: string
+                description: Virtual product.
+              stock:
+                type: string
+                description: Stock for the product.                
+              stock_status:
+                type: string
+                description: Stock Status to the product.
+              stock_qty:
+                type: string
+                description: Available stock quantity for a product.
+              sold_individually:
+                type: string
+                description: Sold individually. Values must be a boolean ( yes / no ).
+              manage_stock:
+                type: string
+                description: Stock management. Values must be a boolean ( yes / no ).
+              backorders:
+                type: string
+                description: Backorders. Values must be a boolean (yes/no).
+              sku:
+                type: string
+                description: SKU of the product.
+  WooCommerceOrders:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            description: Core fields for the WooCommerce Orders.
+            properties: 
+              customer_note:
+                type: integer
+                description: Customer note for the specific Order
+              order_status:
+                type: string
+                description: Statue for the specific Order
+              order_date:
+                type: string
+                description: Date for the specific Order
+              ORDERID:
+                type: integer
+                description: Id of the specific Order
+          ECOMMETA:
+            type: object
+            description: Meta fields for the WooCommerce Orders.
+            properties:
+              payment_method_title:
+                type: string
+                description: Title for the payment method.
+              payment_method:
+                type: string
+                description: Method of payment.
+              transaction_id:
+                type: string
+                description: Transcation id for the payment.
+              billing_first_name:
+                type: string
+                description: First name of the billing cusotmer.
+              billing_last_name:
+                type: string
+                description: Last name of the billing customer.
+              billing_company:
+                type: string
+                description: Company name of the billing customer.
+              billing_address_1:
+                type: string
+                description: Address1 of the billing customer.
+              billing_address_2:
+                type: string
+                description: Address2 of the billing customer.
+              billing_city:
+                type: integer
+                description: City of the billing customer.
+              billing_postcode:
+                type: string
+                description: Postcode of the billing customer.
+              billing_state:
+                type: string
+                description: State of the billing customer.
+              billing_country:
+                type: string
+                description: Country of the billing customer.
+              billing_phone:
+                type: string
+                description: Phone number for the billing customer.
+              billing_email:
+                type: string
+                description: Email for the billing customer.
+              shipping_first_name:
+                type: string
+                description: First name for the shipping customer.
+              shipping_last_name:
+                type: string
+                description: Last name of the shipping customer.
+              shipping_company:
+                type: string
+                description: Company name of the shipping customer.
+              shipping_address_1:
+                type: string
+                description: Address1 of the shipping customer.
+              shipping_address_2:
+                type: string
+                description: Address2 of the shipping customer.
+              shipping_city:
+                type: string
+                description: City of the shipping customer.
+              shipping_postcode:
+                type: string
+                description: Postcode of the shipping customer.
+              shipping_state:
+                type: string
+                description: State of the shipping customer.
+              shipping_country:
+                type: string
+                description: Country of the shipping customer.
+              customer_user:
+                type: string
+                description: Customer who placed the order. Value must be the user id.
+              order_currency:
+                type: string
+                description: Currency which is used while placing order.
+              order_shipping_tax:
+                type: string
+                description: Shipping tax of the order.
+              order_tax:
+                type: string
+                description: Tax for the order.
+              order_total:
+                type: integer
+                description: Total amount of the order.
+              cart_discount_tax:
+                type: string
+                description: Discount tax of the cart.
+              cart_discount:
+                type: integer
+                description: Cost of discount to the cart.
+              order_shipping:
+                type: string
+                description: Shipping cost for the order.
+              item_name:
+                type: integer
+                description: Item name which is present in the order.
+              item_type:
+                type: string
+                description: Item type which is present in the order.
+              item_variation_id:
+                type: integer
+                description: Variation of the item id which is present in the order.
+              item_product_id:
+                type: integer
+                description: Product id which is present in the order.
+              item_line_subtotal:
+                type: integer
+                description: Item line subtotal for the order.
+              item_line_subtotal_tax:
+                type: integer
+                description: Item line subtotal tax for the order.
+              item_line_total:
+                type: integer
+                description: Item line total for the order.
+              item_line_tax:
+                type: string
+                description: Item line tax cost for the order.
+              item_line_tax_data:
+                type: string
+                description: Item line tax data for the order.
+              item_tax_class:
+                type: string
+                description: Item tax class for the order.
+              item_qty:
+                type: integer
+                description: Item Quantity.
+              fee_name:
+                type: string
+                description: Fee name.
+              fee_type:
+                type: string
+                description: Fee type.
+              fee_tax_class:
+                type: string
+                description: Fee tax class.
+              fee_line_total:
+                type: integer
+                description: Fee line total.
+              fee_line_tax:
+                type: string
+                description: Fee line tax.
+              fee_line_tax_data:
+                type: string
+                description: Fee line tax data.
+              fee_line_subtotal:
+                type: integer
+                description: Fee line subtotal.
+              fee_line_subtotal_tax:
+                type: string
+                description: Fee line subtotal tax.
+              shipment_name:
+                type: string
+                description: Shipment name of the order.
+              shipment_method_id:
+                type: string
+                description: Shipment method id.
+              shipment_cost:
+                type: integer
+                description: Shipment cost of the order.
+              shipment_taxes:
+                type: string
+                description: Shipment taxes.
+  WooCommerceCoupons:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties: 
+          CORE:
+            type: object
+            description: Core fields for the WooCommerce Coupons.
+            properties: 
+              coupon_code:
+                type: integer
+                description: Id of the specific Product
+              description:
+                type: string
+                description: Description of the specific coupon.
+              coupon_date:
+                type: string
+                description: Coupon date.
+              coupon_status:
+                type: string
+                description: Coupon status.
+              COUPONID:
+                type: integer
+                description: Id of the specific Coupon.
+          ECOMMETA:
+            type: object
+            description: Meta fields for WooCommerce Coupons.
+            properties:
+              discount_type:
+                type: string
+                description: Discount type of the coupon.
+              coupon_amount:
+                type: integer
+                description: Coupon discount amount.
+              individual_use:
+                type: string
+                description: Coupon for individual use.
+              product_ids:
+                type: string
+                description: Coupon for the specific products. Values must be a product id. Multiple values with comma separation.
+              exclude_product_ids:
+                type: string
+                description: Exclude product id.
+              usage_limit:
+                type: integer
+                description: Usage limit of the coupon.
+              usage_limit_per_user:
+                type: integer
+                description: Usage limit of the coupon for per user.
+              limit_usage_to_x_items:
+                type: integer
+                description: Limit usage to the specific items.
+              expiry_date:
+                type: string
+                description: Expiry time for the coupon.
+              free_shipping:
+                type: integer
+                description: Free shipping.
+              exclude_sale_items:
+                type: string
+                description: Exclude sale items.
+              product_categories:
+                type: string
+                description: Product categories.
+              exclude_product_categories:
+                type: string
+                description: Exclude product categories.
+              minimum_amount:
+                type: integer
+                description: Minimum amount of the coupon.
+              maximum_amount:
+                type: integer
+                description: Maximum amount of the coupon.
+              customer_email:
+                type: string
+                description: Coupon based on the customer email.
+  WooCommerceRefunds:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            description: Core fields for the WooCommerce Coupons.
+            properties:
+              REFUNDID:
+                type: integer
+                description: Id of the specific refunded order.
+          ECOMMETA:
+            type: object
+            description: Meta fields for WooCommerce Coupons.
+            properties:
+              discount_type:
+                type: string
+                description: Discount type of the coupon.
+              coupon_amount:
+                type: string
+                description: Coupon discount amount.
+              individual_use:
+                type: string
+                description: Coupon for individual use.
+              product_ids:
+                type: string
+                description: Coupon for the specific products. Values must be a product id. Multiple values with comma separation.
+              exclude_product_ids:
+                type: string
+                description: Exclude product id.
+              usage_limit:
+                type: string
+                description: Usage limit of the coupon.
+              usage_limit_per_user:
+                type: string
+                description: Usage limit of the coupon for per user.
+              limit_usage_to_x_items:
+                type: string
+                description: Limit usage to the specific items.
+              expiry_date:
+                type: string
+                description: Expiry time for the coupon.
+              free_shipping:
+                type: integer
+                description: Free shipping.
+              exclude_sale_items:
+                type: string
+                description: Exclude sale items.
+              product_categories:
+                type: string
+                description: Product categories.
+              exclude_product_categories:
+                type: string
+                description: Exclude product categories.
+              minimum_amount:
+                type: string
+                description: Minimum amount of the coupon.
+              maximum_amount:
+                type: string
+                description: Maximum amount of the coupon.
+              customer_email:
+                type: string
+                description: Coupon based on the customer email.
+  MarketPress:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific Product
+              post_title:
+                type: string
+                description: Title for the Product
+              post_content:
+                type: string
+                description: Content (or) Description of Product
+              post_excerpt:
+                type: string
+                description: Short description of Product
+              post_date:
+                type: string
+                description: Publish date & time of Product ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug of Product
+              post_status:
+                type: string
+                description: Status of the Product
+              featured_image:
+                type: string
+                description: External image URL.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              PRODUCTSKU:
+                type: string
+                description: SKU of Product. Value can be an alpha numeric.
+          ECOMMETA:
+            type: object
+            description: Available fields based on the requested module. It differ from one another eCommerce plugin.
+            properties:
+              product_type:
+                type: integer
+                description: Type of Product. Values should be in the range of 1 - 6. 
+              sku:
+                type: string
+                description: SKU of the product.
+              sale_price:
+                type: integer
+                description: Sale price of the product.
+              regular_price:
+                type: integer
+                description: Regular price of the product.
+              per_order_limit:
+                type: integer
+                description: Per order limit.
+              has_sale:
+                type: string
+                description: Has sale.
+              sale_price_start_date:
+                type: string
+                description: Special sale price from a specific date.
+              sale_price_end_date:
+                type: string
+                description: Special sale price upto a specific date.
+              file_url:
+                type: string
+                description: External file URL.
+              external_url:
+                type: string
+                description: External product URL.
+              special_tax_rate:
+                type: string
+                description: Special tax rate.
+              charge_tax:
+                type: string
+                description: Tax charge.
+              charge_shipping:
+                type: string
+                description: Shipping charge.
+              weight_pounds:
+                type: integer
+                description: Weight in pounds.
+              weight_ounces:
+                type: integer
+                description: Weight in ounces.
+              weight_extra_shipping_cost:
+                type: integer
+                description: Extra shipping cost on weight.
+              inventory_tracking:
+                type: string
+                description: Inventry tracking.
+              quantity:
+                type: integer
+                description: Available quantity.
+              inv_out_of_stock_purchase:
+                type: string
+                description: Enable purchase when out of stock.
+              related_products:
+                type: string
+                description: Related products.
+              product_images:
+                type: string
+                description: Product gallery images.
+          ACF:
+            type: object
+            description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+          RF:
+            type: object
+            description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+          CCTM:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+          TYPES:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+          PODS:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+          AIOSEO:
+            type: object
+            description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+          YOASTSEO:
+            type: object
+            description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+          TERMS:
+            type: object
+            description: Terms & Taxonomies for MarketPress products
+            properties:
+              product_category:
+                type: string
+                description: Categories of Post. Can assign multiple categories with comma (,) or pipe (|) separation.
+              product_tag:
+                type: string
+                description: Tags of Post. Can assign multiple tags with comma separation.
+              product_attr_1:
+                type: string
+                description: Value of the custom taxonomy which is related to the type Posts.
+              product_attr_2:
+                type: string
+                description: Value of the custom taxonomy which is related to the type Posts.
+          WPML:
+            type: object
+            description: This group only avaliable only for the post types. It belongs to the Multi language support.
+            properties:
+              language_code:
+                type: string
+                description: Language code for multiligual support.
+  MarketPressVariations:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        description: Fields belongs to the MarketPress variations
+        properties:
+          CORE:
+            type: object
+            properties:
+              PRODUCTID:
+                type: integer
+                description: Product id for the specific Variation.
+              VARIATIONID:
+                type: integer
+                description: Variation id for the specific variation.
+          ECOMMETA:
+            type: object
+            properties:
+              sku:
+                type: string
+                description: SKU for the specific Variation.
+              mp_variation_image:
+                type: string
+                description: Image for the specific Variation.
+              sale_price:
+                type: integer
+                description: Sale price of the Variation.
+              regular_price:
+                type: integer
+                description: Regular price of the Variation.
+              per_order_limit:
+                type: integer
+                description: Limit per order
+              has_sale:
+                type: string
+                description: Salable product. Value must be a (yes / no).
+              sale_price_start_date:
+                type: string
+                description: Start date of the sale price
+              sale_price_end_date:
+                type: string
+                description: End date of the sale price
+              file_url:
+                type: string
+                description: External file URL of the specific variation.
+              special_tax_rate:
+                type: integer
+                description: Special tax rate.
+              charge_tax:
+                type: integer
+                description: Tax charge.
+              charge_shipping:
+                type: integer
+                description: Shipping charge.
+              weight_pounds:
+                type: integer
+                description: Weight in pounds.
+              weight_ounces:
+                type: integer
+                description: Weight in ounces.
+              weight_extra_shipping_cost:
+                type: integer
+                description: Extra shipping cost on Weight.
+              inventory_tracking:
+                type: integer
+                description: Inventry tracking.
+              quantity:
+                type: integer
+                description: Variation quantity.
+              inv_out_of_stock_purchase:
+                type: integer
+                description: Count on inventory out of stock purchase.
+              mp_variation_name:
+                type: string
+                description: Name of the variation.
+              mp_variation_value:
+                type: string
+                description: Value of the variation.
+              has_variation_content:
+                type: integer
+                description: Has variation content.
+              variation_content_type:
+                type: string
+                description: Content type of the variation.
+              variation_content_desc:
+                type: string
+                description: Content description of the variation.
+  WPeCommerce:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific Product
+              post_title:
+                type: string
+                description: Title for the Product
+              post_content:
+                type: string
+                description: Content (or) Description of Product
+              post_excerpt:
+                type: string
+                description: Short description of Product
+              post_date:
+                type: string
+                description: Publish date & time of Product ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug of Product
+              post_status:
+                type: string
+                description: Status of the Product
+              featured_image:
+                type: string
+                description: External image URL.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              PRODUCTSKU:
+                type: string
+                description: SKU of Product. Value can be an alpha numeric.
+          ECOMMETA:
+            type: object
+            description: Available fields based on the requested module. It differ from one another eCommerce plugin.
+            properties:
+              product_type:
+                type: integer
+                description: Type of Product. Values should be in the range of 1 - 6. 
+              sku:
+                type: string
+                description: SKU of the product.
+              sale_price:
+                type: integer
+                description: Sale price of the product.
+              regular_price:
+                type: integer
+                description: Regular price of the product.
+              per_order_limit:
+                type: integer
+                description: Per order limit.
+              has_sale:
+                type: string
+                description: Has sale.
+              sale_price_start_date:
+                type: string
+                description: Special sale price from a specific date.
+              sale_price_end_date:
+                type: string
+                description: Special sale price upto a specific date.
+              file_url:
+                type: string
+                description: External file URL.
+              external_url:
+                type: string
+                description: External product URL.
+              special_tax_rate:
+                type: string
+                description: Special tax rate.
+              charge_tax:
+                type: string
+                description: Tax charge.
+              charge_shipping:
+                type: string
+                description: Shipping charge.
+              weight_pounds:
+                type: integer
+                description: Weight in pounds.
+              weight_ounces:
+                type: integer
+                description: Weight in ounces.
+              weight_extra_shipping_cost:
+                type: integer
+                description: Extra shipping cost on weight.
+              inventory_tracking:
+                type: string
+                description: Inventry tracking.
+              quantity:
+                type: integer
+                description: Available quantity.
+              inv_out_of_stock_purchase:
+                type: string
+                description: Enable purchase when out of stock.
+              related_products:
+                type: string
+                description: Related products.
+              product_images:
+                type: string
+                description: Product gallery images.
+          ACF:
+            type: object
+            description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+          RF:
+            type: object
+            description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+          CCTM:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+          TYPES:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+          PODS:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+          AIOSEO:
+            type: object
+            description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+          YOASTSEO:
+            type: object
+            description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+          TERMS:
+            type: object
+            description: Terms & Taxonomies for WPeCommerce products
+            properties:
+              product_category:
+                type: string
+                description: Categories of Product. Can assign multiple categories with comma (,) or pipe (|) separation.
+              product_tag:
+                type: string
+                description: Tags of Product. Can assign multiple tags with comma separation.
+              wpsc-variation:
+                type: string
+                description: Variation which is related to the WPeCommerce products.
+          WPML:
+            type: object
+            description: This group only avaliable only for the post types. It belongs to the Multi language support.
+            properties:
+              language_code:
+                type: string
+                description: Language code for multiligual support.
+  WPeCommerceCoupons:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        description: Fields belongs to the WPeCommerce Coupons.
+        properties:
+          CORE:
+            type: object
+            properties:
+              coupon_code:
+                type: string
+                description: Coupon code.
+              description:
+                type: string
+                description: Description of the coupon code.
+              coupon_status:
+                type: string
+                description: Status of the coupon.
+              discount:
+                type: string
+                description: Discount for the coupon.
+              discount_type:
+                type: string
+                description: Discount type for the coupon.
+              start:
+                type: string
+                description: Coupon avaliable from date.
+              expiry:
+                type: string
+                description: Coupon expiry date.
+              use_once:
+                type: string
+                description: Coupon limit.
+              apply_on_all_products:
+                type: string
+                description: Coupon for all products.
+              conditions:
+                type: string
+                description: Coupon conditions.
+  event:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific Product
+              post_title:
+                type: string
+                description: Title for the Product
+              post_content:
+                type: string
+                description: Content (or) Description of Product
+              post_excerpt:
+                type: string
+                description: Short description of Product
+              post_date:
+                type: string
+                description: Publish date & time of Product ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug of Product
+              post_status:
+                type: string
+                description: Status of the Product
+              featured_image:
+                type: string
+                description: External image URL.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              event_start_date:
+                type: string
+                description: Start date of the Event.
+              event_end_date:
+                type: string
+                description: End date of the Event.
+              event_start_time:
+                type: string
+                description: Start time of the Event.
+              event_end_time:
+                type: string
+                description: End time of the Event.
+              event_all_day:
+                type: string
+                description: Event all day.
+              event_rsvp_date:
+                type: string
+                description: Event RSVP date.
+              event_rsvp_time:
+                type: string
+                description: Event RSVP time.
+              event_rsvp_spaces:
+                type: string
+                description: Event RSVP spaces.
+              event_spaces:
+                type: string
+                description: Event spaces.
+              recurrence_interval:
+                type: string
+                description: Recurrence interval of the Event.
+              recurrence_freq:
+                type: string
+                description: Recurrence frequency of the Event.
+              recurrence_byday:
+                type: string
+                description: Recurrence by day of the Event.
+              recurrence_byweekno:
+                type: string
+                description: Recurrence by week number for the Event.
+              recurrence_days:
+                type: string
+                description: Recurrence days of the Event.
+              recurrence_rsvp_days:
+                type: string
+                description: Recurrence RSVP days of the Event.
+              location_name:
+                type: string
+                description: Location name of the Event.
+              location_address:
+                type: string
+                description: Location address of the Event.
+              location_town:
+                type: string
+                description: Location town of the Event.
+              location_state:
+                type: string
+                description: Location state of the Event.
+              location_postcode:
+                type: string
+                description: Location postcode of the Event.
+              location_region:
+                type: string
+                description: Location region of the Event.
+              location_country:
+                type: string
+                description: Location country of the Event.
+              ticket_name:
+                type: string
+                description: Ticket name of the Event.
+              ticket_description:
+                type: string
+                description: Ticker description of the Event.
+              ticket_price:
+                type: string
+                description: Ticket price of the Event.
+              ticket_start_date:
+                type: string
+                description: Ticket start date of the Event.
+              ticket_end_date:
+                type: string
+                description: Ticket end date of the Event.
+              ticket_start_time:
+                type: string
+                description: Ticket start time of the Event.
+              ticket_end_time:
+                type: string
+                description: Ticket end time of the Event.
+              ticket_min:
+                type: string
+                description: Minimum count of the tickets.
+              ticket_max:
+                type: string
+                description: Maximum count of the tickets.
+              ticket_spaces:
+                type: string
+                description: Available spaces for the Event.
+              ticket_members:
+                type: string
+                description: Ticket members for the Event.
+              ticket_members_roles:
+                type: string
+                description: Ticker members role.
+              ticket_guests:
+                type: string
+                description: Ticket guests.
+              ticket_required:
+                type: string
+                description: Require option of the Ticket.
+          ACF:
+            type: object
+            description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+          RF:
+            type: object
+            description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+          CCTM:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+          TYPES:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+          PODS:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+          AIOSEO:
+            type: object
+            description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+          YOASTSEO:
+            type: object
+            description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+          TERMS:
+            type: object
+            description: Terms for the Events.
+            properties:
+              event-tags:
+                type: string
+                description: Multiple values should be with comma separation.
+              event-categories:
+                type: string
+                description: Multiple values should be with comma separation.
+  RecurringEvent:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific Product
+              post_title:
+                type: string
+                description: Title for the Product
+              post_content:
+                type: string
+                description: Content (or) Description of Product
+              post_excerpt:
+                type: string
+                description: Short description of Product
+              post_date:
+                type: string
+                description: Publish date & time of Product ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug of Product
+              post_status:
+                type: string
+                description: Status of the Product
+              featured_image:
+                type: string
+                description: External image URL.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              event_start_date:
+                type: string
+                description: Start date of the Event.
+              event_end_date:
+                type: string
+                description: End date of the Event.
+              event_start_time:
+                type: string
+                description: Start time of the Event.
+              event_end_time:
+                type: string
+                description: End time of the Event.
+              event_all_day:
+                type: string
+                description: Event all day.
+              event_rsvp_date:
+                type: string
+                description: Event RSVP date.
+              event_rsvp_time:
+                type: string
+                description: Event RSVP time.
+              event_rsvp_spaces:
+                type: string
+                description: Event RSVP spaces.
+              event_spaces:
+                type: string
+                description: Event spaces.
+              recurrence_interval:
+                type: string
+                description: Recurrence interval of the Event.
+              recurrence_freq:
+                type: string
+                description: Recurrence frequency of the Event.
+              recurrence_byday:
+                type: string
+                description: Recurrence by day of the Event.
+              recurrence_byweekno:
+                type: string
+                description: Recurrence by week number for the Event.
+              recurrence_days:
+                type: string
+                description: Recurrence days of the Event.
+              recurrence_rsvp_days:
+                type: string
+                description: Recurrence RSVP days of the Event.
+              location_name:
+                type: string
+                description: Location name of the Event.
+              location_address:
+                type: string
+                description: Location address of the Event.
+              location_town:
+                type: string
+                description: Location town of the Event.
+              location_state:
+                type: string
+                description: Location state of the Event.
+              location_postcode:
+                type: string
+                description: Location postcode of the Event.
+              location_region:
+                type: string
+                description: Location region of the Event.
+              location_country:
+                type: string
+                description: Location country of the Event.
+              ticket_name:
+                type: string
+                description: Ticket name of the Event.
+              ticket_description:
+                type: string
+                description: Ticker description of the Event.
+              ticket_price:
+                type: string
+                description: Ticket price of the Event.
+              ticket_start_date:
+                type: string
+                description: Ticket start date of the Event.
+              ticket_end_date:
+                type: string
+                description: Ticket end date of the Event.
+              ticket_start_time:
+                type: string
+                description: Ticket start time of the Event.
+              ticket_end_time:
+                type: string
+                description: Ticket end time of the Event.
+              ticket_min:
+                type: string
+                description: Minimum count of the tickets.
+              ticket_max:
+                type: string
+                description: Maximum count of the tickets.
+              ticket_spaces:
+                type: string
+                description: Available spaces for the Event.
+              ticket_members:
+                type: string
+                description: Ticket members for the Event.
+              ticket_members_roles:
+                type: string
+                description: Ticker members role.
+              ticket_guests:
+                type: string
+                description: Ticket guests.
+              ticket_required:
+                type: string
+                description: Require option of the Ticket.
+          ACF:
+            type: object
+            description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+          RF:
+            type: object
+            description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+          CCTM:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+          TYPES:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+          PODS:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+          AIOSEO:
+            type: object
+            description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+          YOASTSEO:
+            type: object
+            description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+          TERMS:
+            type: object
+            description: Terms for the Events.
+            properties:
+              event-tags:
+                type: string
+                description: Multiple values should be with comma separation.
+              event-categories:
+                type: string
+                description: Multiple values should be with comma separation.
+  location:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific Product
+              post_title:
+                type: string
+                description: Title for the Product
+              post_content:
+                type: string
+                description: Content (or) Description of Product
+              post_excerpt:
+                type: string
+                description: Short description of Product
+              post_date:
+                type: string
+                description: Publish date & time of Product ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug of Product
+              post_status:
+                type: string
+                description: Status of the Product
+              featured_image:
+                type: string
+                description: External image URL.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              event_start_date:
+                type: string
+                description: Start date of the Event.
+              event_end_date:
+                type: string
+                description: End date of the Event.
+              event_start_time:
+                type: string
+                description: Start time of the Event.
+              event_end_time:
+                type: string
+                description: End time of the Event.
+              event_all_day:
+                type: string
+                description: Event all day.
+              event_rsvp_date:
+                type: string
+                description: Event RSVP date.
+              event_rsvp_time:
+                type: string
+                description: Event RSVP time.
+              event_rsvp_spaces:
+                type: string
+                description: Event RSVP spaces.
+              event_spaces:
+                type: string
+                description: Event spaces.
+              recurrence_interval:
+                type: string
+                description: Recurrence interval of the Event.
+              recurrence_freq:
+                type: string
+                description: Recurrence frequency of the Event.
+              recurrence_byday:
+                type: string
+                description: Recurrence by day of the Event.
+              recurrence_byweekno:
+                type: string
+                description: Recurrence by week number for the Event.
+              recurrence_days:
+                type: string
+                description: Recurrence days of the Event.
+              recurrence_rsvp_days:
+                type: string
+                description: Recurrence RSVP days of the Event.
+              location_name:
+                type: string
+                description: Location name of the Event.
+              location_address:
+                type: string
+                description: Location address of the Event.
+              location_town:
+                type: string
+                description: Location town of the Event.
+              location_state:
+                type: string
+                description: Location state of the Event.
+              location_postcode:
+                type: string
+                description: Location postcode of the Event.
+              location_region:
+                type: string
+                description: Location region of the Event.
+              location_country:
+                type: string
+                description: Location country of the Event.
+              ticket_name:
+                type: string
+                description: Ticket name of the Event.
+              ticket_description:
+                type: string
+                description: Ticker description of the Event.
+              ticket_price:
+                type: string
+                description: Ticket price of the Event.
+              ticket_start_date:
+                type: string
+                description: Ticket start date of the Event.
+              ticket_end_date:
+                type: string
+                description: Ticket end date of the Event.
+              ticket_start_time:
+                type: string
+                description: Ticket start time of the Event.
+              ticket_end_time:
+                type: string
+                description: Ticket end time of the Event.
+              ticket_min:
+                type: string
+                description: Minimum count of the tickets.
+              ticket_max:
+                type: string
+                description: Maximum count of the tickets.
+              ticket_spaces:
+                type: string
+                description: Available spaces for the Event.
+              ticket_members:
+                type: string
+                description: Ticket members for the Event.
+              ticket_members_roles:
+                type: string
+                description: Ticker members role.
+              ticket_guests:
+                type: string
+                description: Ticket guests.
+              ticket_required:
+                type: string
+                description: Require option of the Ticket.
+  ticket:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific Product
+              post_title:
+                type: string
+                description: Title for the Product
+              post_content:
+                type: string
+                description: Content (or) Description of Product
+              post_excerpt:
+                type: string
+                description: Short description of Product
+              post_date:
+                type: string
+                description: Publish date & time of Product ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug of Product
+              post_status:
+                type: string
+                description: Status of the Product
+              featured_image:
+                type: string
+                description: External image URL.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              ticket_name:
+                type: string
+                description: Ticket name of the Event.
+              ticket_description:
+                type: string
+                description: Ticker description of the Event.
+              ticket_price:
+                type: string
+                description: Ticket price of the Event.
+              ticket_start_date:
+                type: string
+                description: Ticket start date of the Event.
+              ticket_end_date:
+                type: string
+                description: Ticket end date of the Event.
+              ticket_start_time:
+                type: string
+                description: Ticket start time of the Event.
+              ticket_end_time:
+                type: string
+                description: Ticket end time of the Event.
+              ticket_min:
+                type: string
+                description: Minimum count of the tickets.
+              ticket_max:
+                type: string
+                description: Maximum count of the tickets.
+              ticket_spaces:
+                type: string
+                description: Available spaces for the Event.
+              ticket_members:
+                type: string
+                description: Ticket members for the Event.
+              ticket_members_roles:
+                type: string
+                description: Ticker members role.
+              ticket_guests:
+                type: string
+                description: Ticket guests.
+              ticket_required:
+                type: string
+                description: Require option of the Ticket.
+  Users:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        description: Core fields along with Billing & Shipping information (BSI). Also, Custom fields which is supported by third party plugins.
+        properties:
+          CORE:
+            type: object
+            description: Core fields of user module. Mandatory fields are user_login & user_email.
+            properties:
+              user_login:
+                type: string
+                description: User login name.
+              user_pass:
+                type: string
+                description: User password.
+              first_name:
+                type: string
+                description: First name of the user.
+              last_name:
+                type: string
+                description: Last name of the user.
+              nickname:
+                type: string
+                description: Nick name of the user.
+              user_email: 
+                type: string
+                description: Email of the user.
+              user_url:
+                type: string
+                description: User profile link (or) Website.
+              user_nicename:
+                type: string
+                description: User nicename.
+              user_registered:
+                type: string
+                description: User registered date.
+              user_activation_key:
+                type: string
+                description: User activation key.
+              user_status:
+                type: integer
+                description: User status.
+              display_name:
+                type: string
+                description: Display name of the user.
+              role:
+                type: string
+                description: Role of the user.
+              biographical_info:
+                type: string
+                description: Bio graphical information.
+          BSI:
+            type: object
+            description: Billing & Shipping information
+          ACF:
+            type: object
+            description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+          RF:
+            type: object
+            description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+          CCTM:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+          TYPES:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+          PODS:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+  Comments:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            properties:
+              comment_post_ID:
+                type: integer
+                description: Id of the post.
+              comment_author:
+                type: string
+                description: Author for the comment.
+              comment_author_email:
+                type: string
+                description: Email of the comment author.
+              comment_author_url:
+                type: string
+                description: Author profile URL.
+              comment_content:
+                type: string
+                description: Comment content.
+              comment_author_IP:
+                type: string
+                description: Comment author IP.
+              comment_date:
+                type: string
+                description: Comment posted date.
+              comment_approved:
+                type: string
+                description: Comment approved status.
+  CustomerReviews:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            properties:
+              date_time:
+                type: string
+                description: Review posted time.
+              reviewer_name:
+                type: string
+                description: Reviewer name.
+              reviewer_email:
+                type: string
+                description: Reviewer email.
+              reviewer_ip:
+                type: string
+                description: Reviewer IP.
+              review_format:
+                type: string
+                description: Format of the review.
+              review_title:
+                type: string
+                description: Review title.
+              review_text:
+                type: string
+                description: Review text.
+              review_response:
+                type: string
+                description: Review response.
+              status:
+                type: string
+                description: Status of the review.
+              review_rating:
+                type: string
+                description: Rating of the review.
+              reviewer_url:
+                type: string
+                description: Reviewer profile URL.
+              page_id:
+                type: integer
+                description: Id of the page.
+              custom_field1:
+                type: string
+                description: Custom field 1.
+              custom_field2:
+                type: string
+                description: Custom field 2.
+              custom_field3: 
+                type: string
+                description: Custom field 3.
+              review_id:
+                type: integer
+                description: Review id.
+  Categories:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            properties:
+              name:
+                type: string
+                description: Category name.
+              slug:
+                type: string
+                description: Category slug.
+              description:
+                type: string
+                description: Category description.
+              wpseo_title:
+                type: string
+                description: SEO title.
+              wpseo_desc:
+                type: string
+                description: SEO description.
+              wpseo_canonical:
+                type: string
+                description: SEO canonical URL.
+              wpseo_noindex:
+                type: string
+                description: SEO no-index.
+              wpseo_sitemap_include:
+                type: string
+                description: SEO sitemap include.
+              TERMID:
+                type: string
+                description: Id of the specific term.
+  Tags:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            properties:
+              name:
+                type: string
+                description: Category name.
+              slug:
+                type: string
+                description: Category slug.
+              description:
+                type: string
+                description: Category description.
+              wpseo_title:
+                type: string
+                description: SEO title.
+              wpseo_desc:
+                type: string
+                description: SEO description.
+              wpseo_canonical:
+                type: string
+                description: SEO canonical URL.
+              wpseo_noindex:
+                type: string
+                description: SEO no-index.
+              wpseo_sitemap_include:
+                type: string
+                description: SEO sitemap include.
+              TERMID:
+                type: string
+                description: Id of the specific term.
+  Taxonomies:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          CORE:
+            type: object
+            properties:
+              name:
+                type: string
+                description: Category name.
+              slug:
+                type: string
+                description: Category slug.
+              description:
+                type: string
+                description: Category description.
+              wpseo_title:
+                type: string
+                description: SEO title.
+              wpseo_desc:
+                type: string
+                description: SEO description.
+              wpseo_canonical:
+                type: string
+                description: SEO canonical URL.
+              wpseo_noindex:
+                type: string
+                description: SEO no-index.
+              wpseo_sitemap_include:
+                type: string
+                description: SEO sitemap include.
+              TERMID:
+                type: string
+                description: Id of the specific term.
+  CustomPosts:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          import_type: 
+            type: string
+            description: Name of the custom post. Ex:- movie (or) property etc.,
+          CORE:
+            type: object
+            description: Fields will be differ based on the requested module
+            properties: 
+              ID:
+                type: integer
+                description: Id of the specific custom post type.
+              post_title:
+                type: string
+                description: Title for the custom post type.
+              post_content:
+                type: string
+                description: Content (or) Description of custom post type.
+              post_excerpt:
+                type: string
+                description: Short description of custom post type.
+              post_date:
+                type: string
+                description: Publish date & time of custom post type ( Should be in a standard date format )
+              post_name:
+                type: string
+                description: Slug for the specific custom post type.
+              post_status:
+                type: string
+                description: Status for the specific custom post type.
+              featured_image:
+                type: string
+                description: External image URL for the specific custom post type.
+              nextgen-gallery:
+                type: string
+                description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+          CORECUSTFIELDS:
+            type: object
+            description: Available fields based on the requested module. It differ from one another custom post type.
+          ACF:
+            type: object
+            description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+          RF:
+            type: object
+            description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+          CCTM:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+          TYPES:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+          PODS:
+            type: object
+            description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+          AIOSEO:
+            type: object
+            description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+          YOASTSEO:
+            type: object
+            description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+          TERMS:
+            type: object
+            description: Terms & Taxonomies for WPeCommerce products
+            properties:
+              custom_taxonomy1:
+                type: string
+                description: Value of the custom taxonomy which is related to the custom post type.
+              custom_taxonomy2:
+                type: string
+                description: Value of the custom taxonomy which is related to the custom post type.
+          WPML:
+            type: object
+            description: This group only avaliable only for the post types. It belongs to the Multi language support.
+            properties:
+              language_code:
+                type: string
+                description: Language code for multiligual support.
+  MappingTemplate:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          eventKey:
+            type: string
+            description: Event key belongs to the specific event
+          mapping:
+            description: Group based mapping array with WP fields & CSV Headers. Values should be a json object array.
+            properties:
+              CORE:
+                type: object
+                description: Fields from the mapping template based on the requested module.
+                properties:
+                  ID:
+                    type: integer
+                    description: Id of the specific custom post type.
+                  post_title:
+                    type: string
+                    description: Title for the custom post type.
+                  post_content:
+                    type: string
+                    description: Content (or) Description of custom post type.
+                  post_excerpt:
+                    type: string
+                    description: Short description of custom post type.
+                  post_date:
+                    type: string
+                    description: Publish date & time of custom post type ( Should be in a standard date format )
+                  post_name:
+                    type: string
+                    description: Slug for the specific custom post type.
+                  post_status:
+                    type: string
+                    description: Status for the specific custom post type.
+                  featured_image:
+                    type: string
+                    description: External image URL for the specific custom post type.
+                  nextgen-gallery:
+                    type: string
+                    description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              CORECUSTFIELDS:
+                type: object
+                description: Available fields based on the requested module. It differ from one another custom post type.
+              ACF:
+                type: object
+                description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+              RF:
+                type: object
+                description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+              CCTM:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+              TYPES:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+              PODS:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+              AIOSEO:
+                type: object
+                description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+              YOASTSEO:
+                type: object
+                description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+              TERMS:
+                type: object
+                description: Terms & Taxonomies for WPeCommerce products
+                properties:
+                  custom_taxonomy1:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+                  custom_taxonomy2:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+              WPML:
+                type: object
+                description: This group only avaliable only for the post types. It belongs to the Multi language support.
+                properties:
+                  language_code:
+                    type: string
+                    description: Language code for multiligual support.
+  saveMapping:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          is_template:
+            type: integer
+            description: Value should be in 0 (or) 1
+          template_name:
+            type: string
+            description: Name of the template.
+          module:
+            type: string
+            description: Name of the module.
+          mapping:
+            description: Group based mapping array with WP fields & CSV Headers. Values should be a json object array.
+            properties:
+              CORE:
+                description: Fields from the mapping template based on the requested module.
+                properties:
+                  ID:
+                    type: integer
+                    description: Id of the specific custom post type.
+                  post_title:
+                    type: string
+                    description: Title for the custom post type.
+                  post_content:
+                    type: string
+                    description: Content (or) Description of custom post type.
+                  post_excerpt:
+                    type: string
+                    description: Short description of custom post type.
+                  post_date:
+                    type: string
+                    description: Publish date & time of custom post type ( Should be in a standard date format )
+                  post_name:
+                    type: string
+                    description: Slug for the specific custom post type.
+                  post_status:
+                    type: string
+                    description: Status for the specific custom post type.
+                  featured_image:
+                    type: string
+                    description: External image URL for the specific custom post type.
+                  nextgen-gallery:
+                    type: string
+                    description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              CORECUSTFIELDS:
+                description: Available fields based on the requested module. It differ from one another custom post type.
+              ACF:
+                description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+              RF:
+                description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+              CCTM:
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+              TYPES:
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+              PODS:
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+              AIOSEO:
+                description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+              YOASTSEO:
+                description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+              TERMS:
+                description: Terms & Taxonomies for WPeCommerce products
+                properties:
+                  custom_taxonomy1:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+                  custom_taxonomy2:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+              WPML:
+                description: This group only avaliable only for the post types. It belongs to the Multi language support.
+                properties:
+                  language_code:
+                    type: string
+                    description: Language code for multiligual support.
+  importData:
+    type: object
+    description: A sample data to Create / Update
+    properties:
+      import_type:
+        type: string
+        description: Import module. Value should be like ( Posts, Pages, movie, WooCommerce, etc., )
+      import_method:
+        type: string
+        description: Import method.
+      import_mode:
+        type: string
+        description: Import mode.
+      data:
+        type: object
+        description: Data array with group based mapping. Values should be a json object array.
+        properties:
+              CORE:
+                type: object
+                description: Fields from the mapping template based on the requested module.
+                properties:
+                  ID:
+                    type: integer
+                    description: Id of the specific custom post type.
+                  post_title:
+                    type: string
+                    description: Title for the custom post type.
+                  post_content:
+                    type: string
+                    description: Content (or) Description of custom post type.
+                  post_excerpt:
+                    type: string
+                    description: Short description of custom post type.
+                  post_date:
+                    type: string
+                    description: Publish date & time of custom post type ( Should be in a standard date format )
+                  post_name:
+                    type: string
+                    description: Slug for the specific custom post type.
+                  post_status:
+                    type: string
+                    description: Status for the specific custom post type.
+                  featured_image:
+                    type: string
+                    description: External image URL for the specific custom post type.
+                  nextgen-gallery:
+                    type: string
+                    description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              CORECUSTFIELDS:
+                type: object
+                description: Available fields based on the requested module. It differ from one another custom post type.
+              ACF:
+                type: object
+                description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+              RF:
+                type: object
+                description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+              CCTM:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+              TYPES:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+              PODS:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+              AIOSEO:
+                type: object
+                description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+              YOASTSEO:
+                type: object
+                description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+              TERMS:
+                type: object
+                description: Terms & Taxonomies for WPeCommerce products
+                properties:
+                  custom_taxonomy1:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+                  custom_taxonomy2:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+              WPML:
+                type: object
+                description: This group only avaliable only for the post types. It belongs to the Multi language support.
+                properties:
+                  language_code:
+                    type: string
+                    description: Language code for multiligual support.
+      row_id:
+        type: integer
+        description: Row number for the data in CSV.
+      mapping:
+        type: object
+        description: Group based mapping array. Values should be a json object array.
+        properties:
+              CORE:
+                type: object
+                description: Fields from the mapping template based on the requested module.
+                properties:
+                  ID:
+                    type: integer
+                    description: Id of the specific custom post type.
+                  post_title:
+                    type: string
+                    description: Title for the custom post type.
+                  post_content:
+                    type: string
+                    description: Content (or) Description of custom post type.
+                  post_excerpt:
+                    type: string
+                    description: Short description of custom post type.
+                  post_date:
+                    type: string
+                    description: Publish date & time of custom post type ( Should be in a standard date format )
+                  post_name:
+                    type: string
+                    description: Slug for the specific custom post type.
+                  post_status:
+                    type: string
+                    description: Status for the specific custom post type.
+                  featured_image:
+                    type: string
+                    description: External image URL for the specific custom post type.
+                  nextgen-gallery:
+                    type: string
+                    description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              CORECUSTFIELDS:
+                type: object
+                description: Available fields based on the requested module. It differ from one another custom post type.
+              ACF:
+                type: object
+                description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+              RF:
+                type: object
+                description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+              CCTM:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+              TYPES:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+              PODS:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+              AIOSEO:
+                type: object
+                description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+              YOASTSEO:
+                type: object
+                description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+              TERMS:
+                type: object
+                description: Terms & Taxonomies for WPeCommerce products
+                properties:
+                  custom_taxonomy1:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+                  custom_taxonomy2:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+              WPML:
+                type: object
+                description: This group only avaliable only for the post types. It belongs to the Multi language support.
+                properties:
+                  language_code:
+                    type: string
+                    description: Language code for multiligual support.
+      media_handling:
+        type: object
+        description: Configuration for media handling.
+      import_config:
+        type: object
+        description: Configuration for import data.
+      is_template:
+        type: integer
+        description: Value should be in ( 0 / 1 ). | 
+          0 - Don't need to save the current mapping as a template.
+          1 - Save the current mapping as a new template.
+      template_name:
+        type: string
+        description: Name of the template for current mapping.
+  assignFeaturedImage:
+    type: object
+    properties:
+      success:
+        type: boolean
+      result:
+        type: object
+        properties:
+          image_url:
+            type: string
+            description: External image URL.
+          id:
+            type: integer
+            description: Id of the specific Post / Page / Product
+          rename_image:
+            type: string
+            description: Name of the image to be used to rename the image.
+          media_settings:
+            description: Configuration for the media
+  assignTerms:
+    type: object
+    properties:
+      success:
+        type: boolean
+        properties:
+          terms:
+            type: string
+            description: Terms can be a single value (or) multiple values. Multiple values can be a comma (or) pipe separation. Also you can assign terms with any number of Parent -> Child heirarchical. Ex:- Cars -> BMW -> Safety instruments -> Airbag.
+          taxonomy_name:
+            type: string
+            description: Taxonomy name.
+          id:
+            type: integer
+            description: Id for the specific Post / Page / Product.
+  createRecord:
+    type: object
+    properties:
+      is_template:
+        type: integer
+        description: Value should be in 0 (or) 1
+      template_name:
+        type: string
+        description: Name of the template.
+      data:
+        type: object
+        description: Data array with group based mapping. Values should be a json object array.
+        properties:
+              CORE:
+                type: object
+                description: Fields from the mapping template based on the requested module.
+                properties:
+                  ID:
+                    type: integer
+                    description: Id of the specific custom post type.
+                  post_title:
+                    type: string
+                    description: Title for the custom post type.
+                  post_content:
+                    type: string
+                    description: Content (or) Description of custom post type.
+                  post_excerpt:
+                    type: string
+                    description: Short description of custom post type.
+                  post_date:
+                    type: string
+                    description: Publish date & time of custom post type ( Should be in a standard date format )
+                  post_name:
+                    type: string
+                    description: Slug for the specific custom post type.
+                  post_status:
+                    type: string
+                    description: Status for the specific custom post type.
+                  featured_image:
+                    type: string
+                    description: External image URL for the specific custom post type.
+                  nextgen-gallery:
+                    type: string
+                    description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              CORECUSTFIELDS:
+                type: object
+                description: Available fields based on the requested module. It differ from one another custom post type.
+              ACF:
+                type: object
+                description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+              RF:
+                type: object
+                description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+              CCTM:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+              TYPES:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+              PODS:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+              AIOSEO:
+                type: object
+                description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+              YOASTSEO:
+                type: object
+                description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+              TERMS:
+                type: object
+                description: Terms & Taxonomies for WPeCommerce products
+                properties:
+                  custom_taxonomy1:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+                  custom_taxonomy2:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+              WPML:
+                type: object
+                description: This group only avaliable only for the post types. It belongs to the Multi language support.
+                properties:
+                  language_code:
+                    type: string
+                    description: Language code for multiligual support.        
+  updateRecord:
+    type: object
+    properties:
+      is_template:
+        type: integer
+        description: Value should be in 0 (or) 1
+      template_name:
+        type: string
+        description: Name of the template.
+      data:
+        type: object
+        description: Data array with group based mapping. Values should be a json object array.
+        properties:
+              CORE:
+                type: object
+                description: Fields from the mapping template based on the requested module.
+                properties:
+                  ID:
+                    type: integer
+                    description: Id of the specific custom post type.
+                  post_title:
+                    type: string
+                    description: Title for the custom post type.
+                  post_content:
+                    type: string
+                    description: Content (or) Description of custom post type.
+                  post_excerpt:
+                    type: string
+                    description: Short description of custom post type.
+                  post_date:
+                    type: string
+                    description: Publish date & time of custom post type ( Should be in a standard date format )
+                  post_name:
+                    type: string
+                    description: Slug for the specific custom post type.
+                  post_status:
+                    type: string
+                    description: Status for the specific custom post type.
+                  featured_image:
+                    type: string
+                    description: External image URL for the specific custom post type.
+                  nextgen-gallery:
+                    type: string
+                    description: Value should be a valid gallery id (or) a valid Gallery name. Also, It should be mapped.
+              CORECUSTFIELDS:
+                type: object
+                description: Available fields based on the requested module. It differ from one another custom post type.
+              ACF:
+                type: object
+                description: You should mention your field name and their value. Also, This group only avaliable when the plugin ACF Free (or) ACF Pro plugin is in active state.
+              RF:
+                type: object
+                description: Fields will be differ based on the requested module and it may empty when there is no repeater fields for the requested module. Also, This group only avaliable when the plugin ACF Repeaters (or) ACF Pro plugin is in active state.
+              CCTM:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin CCTM plugin is in active state.
+              TYPES:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin Toolset Types plugin is in active state.
+              PODS:
+                type: object
+                description: Fields will be available based on the requested module. Also, This group only avaliable when the plugin PODS plugin is in active state.
+              AIOSEO:
+                type: object
+                description: This group only avaliable when the plugin All in one SEO is in active state. Also which is only for the post types.
+              YOASTSEO:
+                type: object
+                description: This group only avaliable when the plugin WordPress Yoast SEO is in active state. Also which is only for the post types.
+              TERMS:
+                type: object
+                description: Terms & Taxonomies for WPeCommerce products
+                properties:
+                  custom_taxonomy1:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+                  custom_taxonomy2:
+                    type: string
+                    description: Value of the custom taxonomy which is related to the custom post type.
+              WPML:
+                type: object
+                description: This group only avaliable only for the post types. It belongs to the Multi language support.
+                properties:
+                  language_code:
+                    type: string
+                    description: Language code for multiligual support.        
+  fetchRecord:
+    type: object
+    description: It helps to fetch the data based on the module & ID of the specific record. It returns a json object array.
+  registerField:
+    type: object
+    properties:
+      field_info:
+        type: object
+        description: This keeps the field informations
+        properties:
+          label:
+            type: string
+            description: Label of the field
+          name:
+            type: string
+            description: Name of the field
+          desc:
+            type: string
+            description: Description of the field
+          field_type:
+            type: string
+            description: Type of the field
+          required:
+            type: boolean
+            description: Required mode ( true / false ) of the field
+          choice:
+            type: string
+            description: Choices of the field. If it is an optional field.
+          role:
+            type: string
+            description: Role of the field
+          related_to:
+            type: string
+            description: Relational value of the field
+          bi_directional:
+            type: string
+            description: Bidirectional value of the field
+  Error:
+    type: object
+    properties:
+      success:
+        type: boolean
+      error:
+        type: object
+        properties:
+          message:
+            type: string
