@@ -1,0 +1,77 @@
+.acfbsButton {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  padding: 9px 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.63;
+  text-align: center;
+  text-decoration: none;
+  background-color: $c-white;
+  text-decoration: none !important;
+  opacity: 1 !important;
+  box-sizing: border-box;
+  box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid transparent;
+  transition: color $tr !important;
+  z-index: 10;
+  cursor: pointer;
+
+  @at-root p > & {
+    margin: 6px 0;
+  }
+
+  &:before {
+    float: left;
+    margin-right: 10px;
+    font-family: dashicons;
+    font-size: 20px;
+    line-height: 1.1;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: width $tr;
+    z-index: -1;
+  }
+
+  &:hover {
+
+    &:after {
+      width: 100%;
+    }
+  }
+
+  &--blue,
+  &--green {
+
+    &:hover {
+      color: $c-white !important;
+    }
+  }
+
+  &--blue {
+    color: $c-blue-01 !important;
+    border-color: $c-blue-01;
+
+    &:after {
+      background-color: $c-blue-01;
+    }
+  }
+
+  &--green {
+    color: $c-green-01 !important;
+    border-color: $c-green-01;
+
+    &:after {
+      background-color: $c-green-01;
+    }
+  }
+}
