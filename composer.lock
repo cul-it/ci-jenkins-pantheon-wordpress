@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "289670bca531e69be1b14845d6922464",
+    "content-hash": "fe97cfd258aa14b7dc4b76126278b272",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,16 +187,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.11",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "6eda31638b65f905bb4775a6233647cfe7cdf33b"
+                "reference": "7e4c204663efd14e8b25fe36885652c93559daf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/6eda31638b65f905bb4775a6233647cfe7cdf33b",
-                "reference": "6eda31638b65f905bb4775a6233647cfe7cdf33b",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/7e4c204663efd14e8b25fe36885652c93559daf3",
+                "reference": "7e4c204663efd14e8b25fe36885652c93559daf3",
                 "shasum": ""
             },
             "require": {
@@ -214,10 +214,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.11",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.12",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-07-23T13:02:11+00:00"
+            "time": "2019-07-24T13:38:19+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
@@ -2470,7 +2470,7 @@
         },
         {
             "name": "wpackagist-plugin/acf-better-search",
-            "version": "3.3.1",
+            "version": "3.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/acf-better-search/",
@@ -2478,7 +2478,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-better-search.zip?timestamp=1561584494"
+                "url": "https://downloads.wordpress.org/plugin/acf-better-search.zip?timestamp=1563876647"
             },
             "require": {
                 "composer/installers": "~1.0"
