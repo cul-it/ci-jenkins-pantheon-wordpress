@@ -61,7 +61,7 @@
     "rvtraveller/qs-composer-installer": "1.1",
     "simplesamlphp/simplesamlphp": "1.17.4",
     "vlucas/phpdotenv": "3.3.3",
-    "wpackagist-plugin/acf-better-search":"3.3.1",
+    "wpackagist-plugin/acf-better-search":"3.3.2",
     "wpackagist-plugin/akismet": "4.1.2",
     "wpackagist-plugin/all-in-one-wp-migration":"7.1",
     "wpackagist-plugin/better-font-awesome": "1.7.1",
