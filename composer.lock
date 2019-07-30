@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27d468aca4390412d6724a49c54dd78e",
+    "content-hash": "b5ab1f2265578008b7f5b5944289c1c0",
     "packages": [
         {
             "name": "composer/installers",
@@ -2556,15 +2556,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-wp-migration",
-            "version": "7.1",
+            "version": "7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
-                "reference": "tags/7.1"
+                "reference": "tags/7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
