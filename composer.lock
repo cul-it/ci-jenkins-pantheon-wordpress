@@ -187,16 +187,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.13",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "d6250f905a9cb5242166aa2292665f52533ffffb"
+                "reference": "7e4c204663efd14e8b25fe36885652c93559daf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/d6250f905a9cb5242166aa2292665f52533ffffb",
-                "reference": "d6250f905a9cb5242166aa2292665f52533ffffb",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/7e4c204663efd14e8b25fe36885652c93559daf3",
+                "reference": "7e4c204663efd14e8b25fe36885652c93559daf3",
                 "shasum": ""
             },
             "require": {
