@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5ab1f2265578008b7f5b5944289c1c0",
+    "content-hash": "fd0c870877d79b0cd6c4346580c44151",
     "packages": [
         {
             "name": "composer/installers",
@@ -243,6 +243,31 @@
                 "issues": "https://github.com/cul-it/draw-attention-pro/issues"
             },
             "time": "2019-07-30T16:36:28+00:00"
+        },
+        {
+            "name": "cul-it/facetwp",
+            "version": "v3.3.11.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/facetwp.git",
+                "reference": "d58641807badaf94cb1d086d837e7d457f3120ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/d58641807badaf94cb1d086d837e7d457f3120ba",
+                "reference": "d58641807badaf94cb1d086d837e7d457f3120ba",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/facetwp/tree/master",
+                "issues": "https://github.com/cul-it/facetwp/issues"
+            },
+            "time": "2019-07-30T18:00:20+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
