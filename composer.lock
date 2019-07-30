@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27d468aca4390412d6724a49c54dd78e",
+    "content-hash": "fd0c870877d79b0cd6c4346580c44151",
     "packages": [
         {
             "name": "composer/installers",
@@ -243,6 +243,31 @@
                 "issues": "https://github.com/cul-it/draw-attention-pro/issues"
             },
             "time": "2019-07-30T16:36:28+00:00"
+        },
+        {
+            "name": "cul-it/facetwp",
+            "version": "v3.3.11.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/facetwp.git",
+                "reference": "d58641807badaf94cb1d086d837e7d457f3120ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/d58641807badaf94cb1d086d837e7d457f3120ba",
+                "reference": "d58641807badaf94cb1d086d837e7d457f3120ba",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/facetwp/tree/master",
+                "issues": "https://github.com/cul-it/facetwp/issues"
+            },
+            "time": "2019-07-30T18:00:20+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
@@ -2556,15 +2581,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-wp-migration",
-            "version": "7.1",
+            "version": "7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
-                "reference": "tags/7.1"
+                "reference": "tags/7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
