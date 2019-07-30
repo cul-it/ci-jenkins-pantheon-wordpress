@@ -31,6 +31,14 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:cul-it/wprssaggregator"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:cul-it/draw-attention-pro"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:cul-it/advanced-custom-fields-pro"
     },
     {
@@ -51,9 +59,9 @@
     "cul-it/advanced-custom-fields-pro": "5.8.1",
     "cul-it/ares_wordpress": "1.0.1",
     "cul-it/culu": "1.0.13",
-    "cul-it/draw-attention-pro": "1.9.12",
+    "cul-it/draw-attention-pro": "1.9.12.1",
     "cul-it/wp-libcal-hours": "1.0.4",
-    "cul-it/wp-rss-aggregator": "4.15",
+    "cul-it/wp-rss-aggregator": "4.15.0.2",
     "cul-it/wp-ultimate-csv-importer-pro": "5.5.3",
     "cweagans/composer-patches": "~1.0",
     "pantheon-systems/quicksilver-pushback": "1.0.1",
