@@ -104,7 +104,7 @@ Notes about the Pull Requests:
 * If you don't use GitFlow, make a local branch based on the master branch, do your work there, and push that to GitHub and make that branch a pull request
 * Once the pull request passes all it's tests, you have to manually merge it into master (not like the automatic merge in blacklight). After you've merged it, it will take a few minutes before the Jenkins job kicks off, and a few minutes after that before the new code is available in the Pantheon dev branch.
 
-The Jenkins job is 
+The Jenkins job is
 https://jenkins.library.cornell.edu/view/wordpress/job/ci-jenkins-pantheon-wordpress/
 
 The multidev sites in Pantheon are named ci-1, ci-2, ci-3, etc.
@@ -168,3 +168,42 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
 * Go to the Email Test tab
 * Add your email address to the Send To field and click Send Email
 * You should get an email
+
+## <a name="new_upstream">Build a new upstream</a>
+
+* Update the WordPress version in composer.json (if there is a new version)
+* Update the regular plugin versions in composer.json
+    * These are listed in the "require" section of composer.json, excluding the ones with a 'cul-it/' prefix in the path.
+    * The Pantheon site wp-ci-library-cornell-edu can be used as a reference. It has all the upstream plugins enabled (except Akismet Anti-Spam which requires additional configuration).
+    * Do not update the plugin verson unless the Compatablilty with the new WordPress version is 100%.
+* Update the CULU theme.
+    * Use Git to pull a new local copy of the Pantheon site culu-library-cornell-edu
+    * The GitHub repo for the theme is https://github.com/cul-it/library-cornell-edu-theme - this corresponds to the theme in site culu-library-cornell-edu. Pull the latest local copy of this.
+    * Migrate the changes from culu-library-cornell-edu/wp-content/themes/culu into library-cornell-edu-theme, being sure not to disturb .git and composer.json in library-cornell-edu-theme
+    * Commit the changes to library-cornell-edu-theme
+    * Tag the change with the next version number (e.g. v1.0.14) in library-cornell-edu-theme in GitHub
+    * Update the version number in composer.json (e.g. "cul-it/culu": "1.0.14",)
+* Update the cul-it plugin repos
+    * These are listed in the "require" section of composer.json, with a 'cul-it/' prefix in the path.
+    * These are the 'Pro' or 'Paid' versions of WordPress plugins we've purchased.
+    * Each one has a GitHub repo containing the pro version of the plugin.
+    * The repos must be listed in the "repositories" section of composer.json
+    * Each repo must contain a composer.json file
+        * Example:
+          ```
+          {
+              "name": "cul-it/advanced-custom-fields-pro",
+              "description": "WordPress plugin for Unified Library Website",
+              "type": "wordpress-plugin",
+              "minimum-stability": "dev",
+              "prefer-stable": true,
+              "require": {
+                  "composer/installers": "^1.0"
+              }
+          }
+          ```
+    * Download and merge the latest version of the plugin from the vendor's web site
+    * Tag it with the proper version number in the GitHub repo (If you need another version of the same source version, you can add a .1 after the plugin's version.)
+    * Match the version number in the "require" section of composer.json
+* After all the updates to composer.json in ci-jenkins-pantheon-wordpress, run composer update in the local version to update composer.lock
+*
