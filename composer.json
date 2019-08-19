@@ -19,10 +19,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:cul-it/library-cornell-edu-subtheme"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:cul-it/ares_wordpress"
     },
     {
