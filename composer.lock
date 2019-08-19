@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0f22ba6bba08d0009f85883f0f03dec",
+    "content-hash": "f13bf63ea291f6df55746b0cd27e246e",
     "packages": [
         {
             "name": "composer/installers",
@@ -188,17 +188,42 @@
             "time": "2019-03-07T20:51:36+00:00"
         },
         {
-            "name": "cul-it/culu",
-            "version": "v1.0.13",
+            "name": "cul-it/coming-soon",
+            "version": "v5.0.26",
             "source": {
                 "type": "git",
-                "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "d6250f905a9cb5242166aa2292665f52533ffffb"
+                "url": "git@github.com:cul-it/wppp-maintenancemode.git",
+                "reference": "637d2134e9f5955ff0731f592ebf17b110003f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/d6250f905a9cb5242166aa2292665f52533ffffb",
-                "reference": "d6250f905a9cb5242166aa2292665f52533ffffb",
+                "url": "https://api.github.com/repos/cul-it/wppp-maintenancemode/zipball/637d2134e9f5955ff0731f592ebf17b110003f17",
+                "reference": "637d2134e9f5955ff0731f592ebf17b110003f17",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wppp-maintenancemode/tree/v5.0.26",
+                "issues": "https://github.com/cul-it/wppp-maintenancemode/issues"
+            },
+            "time": "2019-08-19T15:39:21+00:00"
+        },
+        {
+            "name": "cul-it/culu",
+            "version": "v1.0.14",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
+                "reference": "8be7d8d57027053ac65714485d76755817735845"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/8be7d8d57027053ac65714485d76755817735845",
+                "reference": "8be7d8d57027053ac65714485d76755817735845",
                 "shasum": ""
             },
             "require": {
@@ -216,10 +241,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.13",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.14",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-07-30T15:39:55+00:00"
+            "time": "2019-08-19T14:09:59+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -248,16 +273,16 @@
         },
         {
             "name": "cul-it/facetwp",
-            "version": "v3.3.11.1",
+            "version": "v3.4.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/facetwp.git",
-                "reference": "d58641807badaf94cb1d086d837e7d457f3120ba"
+                "reference": "d8f775a95c1b910a486634367bbd8e4ad7507da3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/d58641807badaf94cb1d086d837e7d457f3120ba",
-                "reference": "d58641807badaf94cb1d086d837e7d457f3120ba",
+                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/d8f775a95c1b910a486634367bbd8e4ad7507da3",
+                "reference": "d8f775a95c1b910a486634367bbd8e4ad7507da3",
                 "shasum": ""
             },
             "require": {
@@ -266,10 +291,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/facetwp/tree/master",
+                "source": "https://github.com/cul-it/facetwp/tree/v3.4.0.1",
                 "issues": "https://github.com/cul-it/facetwp/issues"
             },
-            "time": "2019-07-30T18:00:20+00:00"
+            "time": "2019-08-19T18:09:09+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
@@ -2817,15 +2842,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-native-php-sessions",
-            "version": "0.8.0",
+            "version": "0.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
-                "reference": "tags/0.8.0"
+                "reference": "tags/0.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.8.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
