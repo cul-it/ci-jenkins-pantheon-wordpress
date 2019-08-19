@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4b2962521c6e6af40b4058fe6c2b394",
+    "content-hash": "d0f22ba6bba08d0009f85883f0f03dec",
     "packages": [
         {
             "name": "composer/installers",
@@ -2583,15 +2583,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-wp-migration",
-            "version": "7.3",
+            "version": "7.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
-                "reference": "tags/7.3"
+                "reference": "tags/7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2817,15 +2817,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-native-php-sessions",
-            "version": "0.7.0",
+            "version": "0.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
-                "reference": "tags/0.7.0"
+                "reference": "tags/0.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.8.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
