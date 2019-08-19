@@ -168,3 +168,9 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
 * Go to the Email Test tab
 * Add your email address to the Send To field and click Send Email
 * You should get an email
+
+## <a name="new_upstream">Build a new upstream</a>
+
+* Update the WordPress version and the regular plugin versions in composer.json
+    * The Pantheon site wp-ci-library-cornell-edu can be used as a reference. It has all the upstream plugins enabled (except Akismet Anti-Spam which requires additional configuration).
+    * Do not update the plugin verson unless the Compatablilty with the new WordPress version is 100%.
