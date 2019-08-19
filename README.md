@@ -104,7 +104,7 @@ Notes about the Pull Requests:
 * If you don't use GitFlow, make a local branch based on the master branch, do your work there, and push that to GitHub and make that branch a pull request
 * Once the pull request passes all it's tests, you have to manually merge it into master (not like the automatic merge in blacklight). After you've merged it, it will take a few minutes before the Jenkins job kicks off, and a few minutes after that before the new code is available in the Pantheon dev branch.
 
-The Jenkins job is 
+The Jenkins job is
 https://jenkins.library.cornell.edu/view/wordpress/job/ci-jenkins-pantheon-wordpress/
 
 The multidev sites in Pantheon are named ci-1, ci-2, ci-3, etc.
