@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f13bf63ea291f6df55746b0cd27e246e",
+    "content-hash": "3dce56216b071a1edae10eaa6b257067",
     "packages": [
         {
             "name": "composer/installers",
@@ -298,16 +298,16 @@
         },
         {
             "name": "cul-it/wp-libcal-hours",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-libcal-hours.git",
-                "reference": "ac93e06f7c1c7a1972f6e1ece925f776610ac325"
+                "reference": "9975dced366ec70a9978ac9ef935c91198f4f6a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/ac93e06f7c1c7a1972f6e1ece925f776610ac325",
-                "reference": "ac93e06f7c1c7a1972f6e1ece925f776610ac325",
+                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/9975dced366ec70a9978ac9ef935c91198f4f6a6",
+                "reference": "9975dced366ec70a9978ac9ef935c91198f4f6a6",
                 "shasum": ""
             },
             "require": {
@@ -325,10 +325,10 @@
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
             "support": {
-                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.4",
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.5",
                 "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
             },
-            "time": "2019-07-22T19:29:35+00:00"
+            "time": "2019-08-19T20:18:05+00:00"
         },
         {
             "name": "cul-it/wp-rss-aggregator",
