@@ -23,6 +23,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:cul-it/wppp-maintenancemode"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:cul-it/wp-libcal-hours"
     },
     {
@@ -61,7 +65,7 @@
     "cul-it/coming-soon": "5.0.26",
     "cul-it/culu": "1.0.14",
     "cul-it/draw-attention-pro": "1.9.12.1",
-    "cul-it/facetwp": "3.3.11.1",
+    "cul-it/facetwp": "3.4.0.1",
     "cul-it/wp-libcal-hours": "1.0.4",
     "cul-it/wp-rss-aggregator": "4.15.0.2",
     "cul-it/wp-ultimate-csv-importer-pro": "5.5.3",

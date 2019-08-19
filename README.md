@@ -206,4 +206,15 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
     * Tag it with the proper version number in the GitHub repo (If you need another version of the same source version, you can add a .1 after the plugin's version.)
     * Match the version number in the "require" section of composer.json
 * After all the updates to composer.json in ci-jenkins-pantheon-wordpress, run composer update in the local version to update composer.lock
-*
+* Make a release tagged with the next version number for ci-jenkins-pantheon-wordpress (e.g. "release/v1.2.11")
+* Push the release to GitHub and submit a Pull Request
+* Jenkins should run and complete the tests: https://jenkins.library.cornell.edu/job/ci-jenkins-pantheon-wordpress/
+* If all goes well, finish the release, merge it into master, and push master to GitHub.
+* Jenkins should run and complete the tests a second time, this time creating a new version of the upstream in Pantheon
+* Test the new upstream
+    * Go to the Pantheon site wp-ci-library-cornell-edu and check for upstream updates
+    * Apply the updates
+    * Clone wp-ci-library-cornell-edu to the local machine
+    * Run composer install
+    * Commit to master and push to Pantheon
+    * Go to site administration in Pantheon and activate any new plugins (except Akismet Anti-Spam)
