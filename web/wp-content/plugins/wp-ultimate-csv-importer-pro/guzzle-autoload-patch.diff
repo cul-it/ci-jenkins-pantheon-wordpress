@@ -1,0 +1,28 @@
+From c19113621caceced298ad99dbfb8e4e779daf0f6 Mon Sep 17 00:00:00 2001
+From: James Reidy <jreidy@cornell.edu>
+Date: Mon, 15 Apr 2019 13:03:41 -0400
+Subject: [PATCH] guzzle autoload problem fix
+
+https://github.com/humanmade/S3-Uploads/issues/257
+---
+ libs/aws/aws-autoloader.php | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/libs/aws/aws-autoloader.php b/libs/aws/aws-autoloader.php
+index b6d5ce7..9132e14 100755
+--- a/libs/aws/aws-autoloader.php
++++ b/libs/aws/aws-autoloader.php
+@@ -764,7 +764,7 @@ spl_autoload_register(function ($class) use ($mapping) {
+ }, true);
+ 
+ require __DIR__ . '/Aws/functions.php';
+-require __DIR__ . '/GuzzleHttp/functions.php';
+-require __DIR__ . '/GuzzleHttp/Psr7/functions.php';
+-require __DIR__ . '/GuzzleHttp/Promise/functions.php';
++require __DIR__ . '/GuzzleHttp/functions_include.php';
++require __DIR__ . '/GuzzleHttp/Psr7/functions_include.php';
++require __DIR__ . '/GuzzleHttp/Promise/functions_include.php';
+ require __DIR__ . '/JmesPath/JmesPath.php';
+-- 
+2.20.1
+
