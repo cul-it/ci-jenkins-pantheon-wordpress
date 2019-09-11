@@ -130,6 +130,9 @@
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
     },
     "patches": {
+      "guzzlehttp/guzzle": {
+        "Include guarded functions avoid redeclare errors": "https://github.com/takkaria/guzzle/commit/6c6d4459113cb19169b868c429432999a5450e1f.patch"
+      }
     },
     "enable-patching": true
   },
