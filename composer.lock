@@ -4,8 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36a42c82a40e05d79a341d37b897a0d4",
+    "content-hash": "f427029d50b4771faab6aa9c10ce34f6",
     "packages": [
+        {
+            "name": "a5hleyrich/wp-background-processing",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/A5hleyRich/wp-background-processing.git",
+                "reference": "1f070aab5058dbaf45d5435a343033ddd8a641b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/A5hleyRich/wp-background-processing/zipball/1f070aab5058dbaf45d5435a343033ddd8a641b1",
+                "reference": "1f070aab5058dbaf45d5435a343033ddd8a641b1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classes/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Ashley Rich",
+                    "email": "hello@ashleyrich.com"
+                }
+            ],
+            "description": "WP Background Processing can be used to fire off non-blocking asynchronous requests or as a background processing tool, allowing you to queue tasks.",
+            "time": "2018-02-12T09:24:05+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.7.0",
@@ -357,31 +393,29 @@
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
-            "version": "v5.5.3",
+            "version": "v6.0.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-ultimate-csv-importer-pro.git",
-                "reference": "d8adeb55dbc9875429c66d8e91bf909de33898d2"
+                "reference": "b4ba287015a3b8096f9c606609a9c16d0b377bc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/d8adeb55dbc9875429c66d8e91bf909de33898d2",
-                "reference": "d8adeb55dbc9875429c66d8e91bf909de33898d2",
+                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/b4ba287015a3b8096f9c606609a9c16d0b377bc4",
+                "reference": "b4ba287015a3b8096f9c606609a9c16d0b377bc4",
                 "shasum": ""
             },
             "require": {
+                "a5hleyrich/wp-background-processing": "^1.0",
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "extra": {
-                "patches_applied": []
-            },
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v5.5.3",
+                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v6.0.1.5",
                 "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
             },
-            "time": "2019-04-15T17:08:21+00:00"
+            "time": "2019-09-11T19:37:09+00:00"
         },
         {
             "name": "cweagans/composer-patches",
@@ -2885,15 +2919,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-wp-migration",
-            "version": "7.5",
+            "version": "7.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
-                "reference": "tags/7.5"
+                "reference": "tags/7.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3047,15 +3081,15 @@
         },
         {
             "name": "wpackagist-plugin/kirki",
-            "version": "3.0.44",
+            "version": "3.0.45",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kirki/",
-                "reference": "tags/3.0.44"
+                "reference": "tags/3.0.45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kirki.3.0.44.zip"
+                "url": "https://downloads.wordpress.org/plugin/kirki.3.0.45.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3083,15 +3117,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-cfm",
-            "version": "1.5.1",
+            "version": "1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-cfm/",
-                "reference": "tags/1.5.1"
+                "reference": "tags/1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-cfm.1.5.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-cfm.1.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3101,15 +3135,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "1.6.0",
+            "version": "1.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/1.6.0"
+                "reference": "tags/1.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.6.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
