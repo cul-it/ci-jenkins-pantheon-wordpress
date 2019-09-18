@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: git@github.com:makandra/spreewald.git
-  revision: 33196d9c6617b62e3ec9f63285770766d693c9a1
+  revision: 443b0c7a513ac083faa29d00f74bea2fb7d16e54
   specs:
-    spreewald (2.2.3)
+    spreewald (2.3.0)
       cucumber
       cucumber_priority (>= 0.3.0)
       rspec (>= 2.13.0)
@@ -17,20 +17,20 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
-    appium_lib (10.4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    appium_lib (10.4.1)
       appium_lib_core (~> 3.2)
       nokogiri (~> 1.8, >= 1.8.1)
       tomlrb (~> 1.1)
-    appium_lib_core (3.2.1)
+    appium_lib_core (3.2.2)
       faye-websocket (~> 0.10.0)
       selenium-webdriver (~> 3.14, >= 3.14.1)
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     backports (3.15.0)
     builder (3.2.3)
-    capybara (3.27.0)
+    capybara (3.29.0)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
@@ -41,7 +41,7 @@ GEM
     capybara-selenium (0.0.6)
       capybara
       selenium-webdriver
-    childprocess (1.0.1)
+    childprocess (2.0.0)
       rake (< 13.0)
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
@@ -76,14 +76,14 @@ GEM
     mini_portile2 (2.4.0)
     multi_json (1.13.1)
     multi_test (0.1.2)
-    nokogiri (1.10.3)
+    nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     phantomjs (2.1.1.0)
     poltergeist (1.18.1)
       capybara (>= 2.1, < 4)
       cliver (~> 0.3.1)
       websocket-driver (>= 0.2.0)
-    public_suffix (3.1.1)
+    public_suffix (4.0.1)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -102,15 +102,15 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.2)
-    rubyzip (1.2.3)
+    rubyzip (1.2.4)
     selenium-cucumber (3.1.5)
       appium_lib (>= 8.0.2)
       chunky_png (>= 1.3.5)
       cucumber (>= 2.3.0)
       rspec (>= 3.4.0)
       selenium-webdriver (>= 2.53.0)
-    selenium-webdriver (3.142.3)
-      childprocess (>= 0.5, < 2.0)
+    selenium-webdriver (3.142.4)
+      childprocess (>= 0.5, < 3.0)
       rubyzip (~> 1.2, >= 1.2.2)
     tomlrb (1.2.8)
     webdrivers (3.9.4)
@@ -133,6 +133,7 @@ DEPENDENCIES
   cucumber
   cucumber_priority!
   inifile
+  nokogiri (>= 1.10.4)
   phantomjs
   poltergeist
   rspec-expectations
