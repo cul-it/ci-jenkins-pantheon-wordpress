@@ -1,0 +1,26 @@
+.swiper-container {
+
+  width: 100%;
+
+}
+
+.swiper-slide {
+
+  /* Push nav */
+  margin-bottom: 50px;
+
+}
+
+.swiper-slide {
+
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 7px;
+}
+
+.swiper-slide .highlight-link {
+
+  padding: 10px;
+  display: block;
+  margin: 5px;
+
+}
