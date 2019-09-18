@@ -133,6 +133,7 @@ DEPENDENCIES
   cucumber
   cucumber_priority!
   inifile
+  nokogiri (>= 1.10.4)
   phantomjs
   poltergeist
   rspec-expectations
