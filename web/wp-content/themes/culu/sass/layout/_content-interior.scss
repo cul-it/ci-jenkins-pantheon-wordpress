@@ -1,0 +1,83 @@
+.page-interior {
+
+  display: grid;
+  margin: 0 auto;
+  width: calc(100vw - 40px);
+  grid-template-columns: 100%;
+  padding: 10px;
+  padding-top: 30px;
+
+
+  @media only screen and (min-width: 600px) {
+
+    width: 90% !important;
+    padding-top: 30px;
+  }
+
+  @media only screen and (min-width: 1440px) {
+
+  width: 1360px !important;
+
+  }
+
+  @media only screen and (min-width: 1600px) {
+
+    width: 1529px !important;
+
+  }
+
+  header {
+    //margin-left: 0;
+  }
+
+  article header {
+    .entry-title {
+      margin: 0;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  article {
+    padding: 0;
+    margin: 0;
+  }
+  article .entry-content {
+    margin-top: 0;
+
+    p:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+// Take cares of displaying all the staff profiles.
+.page-template-staff-profiles .page-interior {
+
+    display: block;
+    margin: 0 auto;
+    width: calc(100vw - 40px);
+    padding: 10px;
+    padding-top: 30px;
+    text-align: center;
+
+    @media only screen and (min-width: 720px) {
+
+      text-align: left;
+
+    }
+
+    h2 {
+      text-align: left;
+    }
+
+  .staff-profile  {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+
+
+  }
+
+}
