@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c658f1ee200cfc0d3ec313174343130",
+    "content-hash": "d387965bde5d1cd7ecb39926db3cab31",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -417,16 +417,16 @@
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
-            "version": "v6.0.1.6",
+            "version": "v6.0.1.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-ultimate-csv-importer-pro.git",
-                "reference": "949ececebb7565e859ce4b96c4fedaaaff6e70b5"
+                "reference": "b9827ceb3050f76e0182c2c3b7f0e3994e6ad56d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/949ececebb7565e859ce4b96c4fedaaaff6e70b5",
-                "reference": "949ececebb7565e859ce4b96c4fedaaaff6e70b5",
+                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/b9827ceb3050f76e0182c2c3b7f0e3994e6ad56d",
+                "reference": "b9827ceb3050f76e0182c2c3b7f0e3994e6ad56d",
                 "shasum": ""
             },
             "require": {
@@ -436,10 +436,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v6.0.1.6",
+                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v6.0.1.7",
                 "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
             },
-            "time": "2019-09-26T20:30:16+00:00"
+            "time": "2019-09-27T06:28:13+00:00"
         },
         {
             "name": "cweagans/composer-patches",
