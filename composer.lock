@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0af65162f7bad263e520c2bbd49e757e",
+    "content-hash": "830c6a3ea5ceaf911b969badea5ecb91",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -417,16 +417,16 @@
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
-            "version": "v6.0.1.8",
+            "version": "v6.0.1.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-ultimate-csv-importer-pro.git",
-                "reference": "bc61adf95554e79f33b0fa6e74cb1aac03ff53f9"
+                "reference": "59fc98b68c68fb7c311bd9e1893908db3daf61c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/bc61adf95554e79f33b0fa6e74cb1aac03ff53f9",
-                "reference": "bc61adf95554e79f33b0fa6e74cb1aac03ff53f9",
+                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/59fc98b68c68fb7c311bd9e1893908db3daf61c9",
+                "reference": "59fc98b68c68fb7c311bd9e1893908db3daf61c9",
                 "shasum": ""
             },
             "require": {
@@ -436,10 +436,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v6.0.1.8",
+                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v6.0.1.10",
                 "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
             },
-            "time": "2019-09-30T14:02:25+00:00"
+            "time": "2019-09-30T17:17:29+00:00"
         },
         {
             "name": "cweagans/composer-patches",
