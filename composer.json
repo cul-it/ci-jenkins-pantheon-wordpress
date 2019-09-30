@@ -135,6 +135,7 @@
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"],
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
     },
+    "composer-exit-on-patch-failure": true,
     "patches": {
     },
     "enable-patching": true
