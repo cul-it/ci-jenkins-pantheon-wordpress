@@ -1,0 +1,35 @@
+.swiper-container {
+
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+.swiper-slide {
+
+  /* Push nav */
+  margin-bottom: 50px;
+
+}
+
+.swiper-slide {
+
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 0;
+
+}
+
+.swiper-slide .highlight-link {
+
+  padding: 10px;
+  display: block;
+  margin: 5px;
+
+}
+
+
+.swiper-slide figure {
+
+	margin: 0;
+
+}
