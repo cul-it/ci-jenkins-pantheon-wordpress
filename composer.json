@@ -23,10 +23,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:cul-it/wppp-maintenancemode"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:cul-it/wp-libcal-hours"
     },
     {
