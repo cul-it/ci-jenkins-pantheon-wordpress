@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "830c6a3ea5ceaf911b969badea5ecb91",
+    "content-hash": "99080d6385097036ebe5243c48b9432e",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -224,42 +224,17 @@
             "time": "2019-03-07T20:51:36+00:00"
         },
         {
-            "name": "cul-it/coming-soon",
-            "version": "v5.0.26",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:cul-it/wppp-maintenancemode.git",
-                "reference": "637d2134e9f5955ff0731f592ebf17b110003f17"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wppp-maintenancemode/zipball/637d2134e9f5955ff0731f592ebf17b110003f17",
-                "reference": "637d2134e9f5955ff0731f592ebf17b110003f17",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-plugin",
-            "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/wppp-maintenancemode/tree/v5.0.26",
-                "issues": "https://github.com/cul-it/wppp-maintenancemode/issues"
-            },
-            "time": "2019-08-19T15:39:21+00:00"
-        },
-        {
             "name": "cul-it/culu",
-            "version": "v1.0.19",
+            "version": "v1.0.20",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "aa5b3aa97d9cca79bfe2a91334e2844830c0331c"
+                "reference": "de31dffc44f079fd229e3762ecd3986da5a45ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/aa5b3aa97d9cca79bfe2a91334e2844830c0331c",
-                "reference": "aa5b3aa97d9cca79bfe2a91334e2844830c0331c",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/de31dffc44f079fd229e3762ecd3986da5a45ca0",
+                "reference": "de31dffc44f079fd229e3762ecd3986da5a45ca0",
                 "shasum": ""
             },
             "require": {
@@ -277,10 +252,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.19",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.20",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-09-27T06:54:33+00:00"
+            "time": "2019-10-02T16:36:21+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -2961,15 +2936,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-wp-migration",
-            "version": "7.7",
+            "version": "7.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
-                "reference": "tags/7.7"
+                "reference": "tags/7.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3030,6 +3005,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/code-snippets/"
+        },
+        {
+            "name": "wpackagist-plugin/coming-soon",
+            "version": "5.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/coming-soon/",
+                "reference": "tags/5.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.5.1.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/coming-soon/"
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
@@ -3156,6 +3149,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/pantheon-advanced-page-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-social-icons",
+            "version": "3.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-social-icons/",
+                "reference": "tags/3.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-social-icons.3.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-social-icons/"
         },
         {
             "name": "wpackagist-plugin/wp-cfm",
