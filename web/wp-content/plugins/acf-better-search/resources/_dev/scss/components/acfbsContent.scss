@@ -1,0 +1,80 @@
+.acfbsContent {
+  font-family: $f-main;
+  padding: 20px 30px;
+
+  p {
+    max-width: 800px;
+    font-size: 14px;
+    line-height: 1.64;
+  }
+
+  a {
+    color: $c-blue-01;
+    text-decoration: underline;
+    box-shadow: none;
+    outline: none;
+    transition: opacity $tr;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  p,
+  h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0 0 0;
+    padding: 4px 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+
+    & + p {
+      margin-top: 0;
+      font-size: 12px;
+      line-height: 1.67;
+    }
+  }
+
+  &--notice {
+
+    h1, h2, h3, h4, h5, h6 {
+
+      & + p {
+        font-size: 14px;
+        line-height: 1.64;
+      }
+    }
+  }
+
+  &--lastCenter {
+
+    & > p:last-child {
+      text-align: center;
+    }
+  }
+
+  &__buttons {
+    margin-top: -10px;
+    padding: 10px 0;
+    overflow: hidden;
+  }
+
+  &__button {
+    float: left;
+    margin: 20px 20px 0 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
