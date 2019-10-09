@@ -1,0 +1,126 @@
+form.courselist-form select {
+  max-width: 80%;
+}
+
+/* tables */
+table.tablesorter {
+  background-color: #cdcdcd;
+  border: none;
+}
+
+table.tablesorter p {
+  font-size: 16px;
+}
+
+table.tablesorter caption {
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 7px;
+}
+
+table.tablesorter thead tr {
+  border: none;
+}
+
+table.tablesorter thead tr th,
+table.tablesorter tfoot tr th {
+  background-color: #f5f5f5;
+  text-align: left;
+}
+
+table.tablesorter thead tr .header {
+  background-image: url(bg.gif);
+  background-repeat: no-repeat;
+  background-position: center right;
+  cursor: pointer;
+  padding: 15px;
+  border-bottom: 2px solid #ddd;
+}
+
+table.tablesorter tbody td {
+  color: #3d3d3d;
+  background-color: #fff;
+  vertical-align: top;
+}
+
+table.tablesorter tbody tr.odd td {
+  border-bottom: 1px solid #ddd !important;
+  padding: 10px;
+}
+
+table.tablesorter tbody tr.even td {
+	border-bottom: 1px solid #ddd !important;
+	padding: 10px;
+  }
+
+table.tablesorter tbody tr td {
+  padding: 10px;
+}
+
+table.tablesorter thead tr .headerSortUp {
+  background-image: url(asc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown {
+  background-image: url(desc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown,
+table.tablesorter thead tr .headerSortUp {
+  background-color: #8dbdd8;
+}
+
+.form-item.edit-courselist-wrapper {
+  margin-bottom: 20px;
+}
+
+/* Spinner loader */
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+}
+
+.lds-ring span.spinner-icon {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+  border: 6px solid #017abc;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #017abc transparent transparent transparent;
+  margin-top: 5px;
+}
+
+.lds-ring span.spinner-text {
+  padding-left: 50px;
+  display: inline-block;
+  margin-top: 5px;
+  color: #017abc;
+}
+
+.lds-ring span.spinner-icon:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring span.spinner-icon:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring span.spinner-icon:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
