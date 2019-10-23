@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - Advanced Custom Fields - version 5.8.1 installed but 5.8.5 is available; compatibility with WordPress 5.2.3 is 'Unknown'
 
+## [v1.2.24] - 2019-10-23
+### Added
+- add siteimprove plugin - see [description](https://wordpress.org/plugins/siteimprove/)
+
+### changed
+- wp-native-php-sessions - 0.8.1 -> 0.9.0 - see [changelog](https://github.com/pantheon-systems/wp-native-php-sessions/pull/135)
+- CULU theme v1.0.23 updates - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+
 ## [v1.2.23] - 2019-10-09
 ### Added
 - CHANGELOG.md - change log

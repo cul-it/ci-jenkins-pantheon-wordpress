@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "737a223b4bd1e3dcaa5eb3dbf3c7d279",
+    "content-hash": "a721c8a11a6d250addaff181ae6df15f",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -225,16 +225,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.22",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "6c25d3bd2f142594e18e742c15645d8560971661"
+                "reference": "f1326afef40685545b74eafdfe307f9c13ec3d92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/6c25d3bd2f142594e18e742c15645d8560971661",
-                "reference": "6c25d3bd2f142594e18e742c15645d8560971661",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/f1326afef40685545b74eafdfe307f9c13ec3d92",
+                "reference": "f1326afef40685545b74eafdfe307f9c13ec3d92",
                 "shasum": ""
             },
             "require": {
@@ -252,10 +252,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.22",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.23",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-10-09T15:41:11+00:00"
+            "time": "2019-10-23T11:59:57+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -2669,16 +2669,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.12.0",
+            "version": "v2.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "c7a85fd08348ca04b4d8f234f49583d9910906aa"
+                "reference": "ddd4134af9bfc6dba4eff7c8447444ecc45b9ee5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c7a85fd08348ca04b4d8f234f49583d9910906aa",
-                "reference": "c7a85fd08348ca04b4d8f234f49583d9910906aa",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddd4134af9bfc6dba4eff7c8447444ecc45b9ee5",
+                "reference": "ddd4134af9bfc6dba4eff7c8447444ecc45b9ee5",
                 "shasum": ""
             },
             "require": {
@@ -2732,7 +2732,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-10-05T16:42:38+00:00"
+            "time": "2019-10-17T07:34:53+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -3169,6 +3169,24 @@
             "homepage": "https://wordpress.org/plugins/simple-social-icons/"
         },
         {
+            "name": "wpackagist-plugin/siteimprove",
+            "version": "1.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/siteimprove/",
+                "reference": "tags/1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/siteimprove.1.1.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/siteimprove/"
+        },
+        {
             "name": "wpackagist-plugin/wp-cfm",
             "version": "1.6",
             "source": {
@@ -3206,15 +3224,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-native-php-sessions",
-            "version": "0.8.1",
+            "version": "0.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
-                "reference": "tags/0.8.1"
+                "reference": "tags/0.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.9.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
