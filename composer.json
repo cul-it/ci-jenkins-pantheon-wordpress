@@ -94,6 +94,7 @@
     "wpackagist-plugin/kirki": "3.0.45",
     "wpackagist-plugin/pantheon-advanced-page-cache": "0.3.0",
     "wpackagist-plugin/simple-social-icons": "3.0.1",
+    "wpackagist-plugin/siteimprove": "1.1.0",
     "wpackagist-plugin/wp-cfm": "1.6",
     "wpackagist-plugin/wp-mail-smtp": "1.6.2",
     "wpackagist-plugin/wp-native-php-sessions": "0.8.1",
