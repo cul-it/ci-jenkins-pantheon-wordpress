@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Advanced Custom Fields - version 5.8.1 installed but 5.8.5 is available; compatibility with WordPress 5.2.3 is 'Unknown'
+- FacetWP - version 3.4.0 is installed but  3.4.3 is available; compatibility with WordPress 5.2.3 is 'Unknown'
+
+## [v1.2.25] - 2019-10-24
+### Added
+- wp-rss-categories plugin - 1.3.3.2 - [description](https://github.com/cul-it/wp-rss-categories/blob/master/CHANGELOG.md)
+- wp-rss-keyword-filtering plugin - 1.6.3.1 - [description](https://github.com/cul-it/wp-rss-keyword-filtering/blob/master/CHANGELOG.md)
+- wp-rss-templates - 0.1.1 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md)
+
+### Changed
+- wp-rss-aggregator - 4.15.0.2 -> 4.15.2.1 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- wp-mail-smtp - 1.6.2 -> 1.7.0 - see [wp-mail-smtp page](https://wordpress.org/plugins/wp-mail-smtp/)
+- CULU theme v1.0.24 updates - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
 
 ## [v1.2.24] - 2019-10-23
 ### Added
@@ -20,7 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CHANGELOG.md - change log
 
 ### Changed
-- wp-rss-aggregator 4.15.2 update - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- wp-rss-aggregator 4.15.0.2 update - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - acf-better-search 3.4.2, 3.4.3 updates - see [AFC Search Changelog](https://wordpress.org/plugins/acf-better-search/#developers)
 - libcal_hours v1.0.7 update - see [Libcal CHANGELOG](https://github.com/cul-it/wp-libcal-hours/blob/master/CHANGELOG.md)
 - ares_wordpress v1.0.2 update - see [Ares CHANGELOG](https://github.com/cul-it/ares_wordpress/blob/master/CHANGELOG.md)
