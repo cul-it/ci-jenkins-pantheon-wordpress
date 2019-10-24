@@ -1,0 +1,8 @@
+{% if options.show_information %}
+    {% set block_class = options.info_item_block ? 'block' : '' %}
+    <div class="wpra-grid-item__item wpra-grid-item__information {{ block_class }}">
+        {% for meta in options.information_fields_order|sort|keys %}
+            {% include([attribute(information_parts, meta), self.dir ~ '_missing.twig']) ignore missing with {'name': meta} %}
+        {% endfor %}
+    </div>
+{% endif %}
