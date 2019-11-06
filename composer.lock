@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02fdc13847daecbd982cbbfe392405fe",
+    "content-hash": "b18bac399d7bbd49bd6da54ccf2606af",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -166,16 +166,16 @@
         },
         {
             "name": "cul-it/advanced-custom-fields-pro",
-            "version": "v5.8.1",
+            "version": "v5.8.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/advanced-custom-fields-pro.git",
-                "reference": "948f352a3bc9cdaadde3093485b6c33de7d55b0b"
+                "reference": "a18e640e90ee5d40249c50ff3ddffacec0403a8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/948f352a3bc9cdaadde3093485b6c33de7d55b0b",
-                "reference": "948f352a3bc9cdaadde3093485b6c33de7d55b0b",
+                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/a18e640e90ee5d40249c50ff3ddffacec0403a8d",
+                "reference": "a18e640e90ee5d40249c50ff3ddffacec0403a8d",
                 "shasum": ""
             },
             "require": {
@@ -184,10 +184,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v5.8.1",
+                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v5.8.6",
                 "issues": "https://github.com/cul-it/advanced-custom-fields-pro/issues"
             },
-            "time": "2019-06-27T16:40:58+00:00"
+            "time": "2019-11-06T20:55:40+00:00"
         },
         {
             "name": "cul-it/ares_wordpress",
@@ -1062,16 +1062,16 @@
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
-            "version": "v0.7.1",
+            "version": "v0.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wp-saml-auth.git",
-                "reference": "229f720c55cd7da9505dae174038b8b35b3817e2"
+                "reference": "73d220adaa7474008bbb37cc66419264c7f48bea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wp-saml-auth/zipball/229f720c55cd7da9505dae174038b8b35b3817e2",
-                "reference": "229f720c55cd7da9505dae174038b8b35b3817e2",
+                "url": "https://api.github.com/repos/pantheon-systems/wp-saml-auth/zipball/73d220adaa7474008bbb37cc66419264c7f48bea",
+                "reference": "73d220adaa7474008bbb37cc66419264c7f48bea",
                 "shasum": ""
             },
             "require": {
@@ -1080,6 +1080,7 @@
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
                 "pantheon-systems/pantheon-wordpress-upstream-tests": "dev-master",
+                "phpcompatibility/php-compatibility": "^9.3",
                 "phpunit/phpunit": "^7",
                 "wp-coding-standards/wpcs": "^2.1"
             },
@@ -1104,7 +1105,7 @@
                 }
             ],
             "description": "SAML authentication for WordPress, using SimpleSAMLphp.",
-            "time": "2019-09-26T11:45:18+00:00"
+            "time": "2019-10-30T12:42:32+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3045,6 +3046,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/better-font-awesome/"
+        },
+        {
+            "name": "wpackagist-plugin/capability-manager-enhanced",
+            "version": "1.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
+                "reference": "tags/1.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.1.8.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/capability-manager-enhanced/"
         },
         {
             "name": "wpackagist-plugin/classic-editor",
