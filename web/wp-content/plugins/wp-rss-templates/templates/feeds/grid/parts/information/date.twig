@@ -1,0 +1,14 @@
+{# Prepare date HTML class and formatted strinng #}
+{% set date_str = item.timestamp|date(options.date_format) %}
+{% set date_class = "feed-date" %}
+{# If time-ago format is used, use alternate format and HTML class #}
+{% if options.date_use_time_ago %}
+    {% set date_str = item.timestamp|time_diff %}
+    {% set date_class = "time-ago" %}
+{% endif %}
+
+{% if options.date_enabled %}
+    <div class="{{ date_class }}">
+        {{ options.date_prefix }} {{ date_str }}
+    </div>
+{% endif %}
