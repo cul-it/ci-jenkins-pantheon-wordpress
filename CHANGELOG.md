@@ -5,8 +5,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Advanced Custom Fields - version 5.8.1 installed but 5.8.5 is available; compatibility with WordPress 5.2.3 is 'Unknown'
-- FacetWP - version 3.4.0 is installed but  3.4.3 is available; compatibility with WordPress 5.2.3 is 'Unknown'
+- Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available ith WordPrss 5.2.4 compatability "Unknown"
+
+## [v1.2.26] - 2019-11-06
+## Added
+- capability-manager-enhanced - 1.8.1
+
+## Changed
+- WordPress update - v5.2.4
+- advanced-access-manager update - 5.11
+- akismet update - 4.1.3
+- all-in-one-wp-migration update - 7.9
+- custom-post-type-ui update - 1.7.0
+- pantheon-advanced-page-cache update - 0.3.1
+- wp-rss-aggregator update - 4.16
+- simplesamlphp security update - 1.17.7
+- wp-saml-auth update - 0.7.2
+- advanced-custom-fields-pro update - 5.8.6
 
 ## [v1.2.25] - 2019-10-24
 ### Added
