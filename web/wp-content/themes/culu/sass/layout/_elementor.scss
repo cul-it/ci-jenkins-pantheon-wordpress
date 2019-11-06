@@ -1,0 +1,17 @@
+// Overrides elementor css
+
+.elementor-widget-container {
+  ul {
+    margin-left: 30px;
+    padding-left: 10px;
+
+    ul {
+      margin-left: 30px;
+      padding-left: 10px;
+    }
+  }
+}
+
+.elementor-accordion {
+  margin-bottom: 20px !important;
+}
