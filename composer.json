@@ -113,7 +113,7 @@
     "wpackagist-plugin/wp-cfm": "1.6",
     "wpackagist-plugin/wp-mail-smtp": "1.7.0",
     "wpackagist-plugin/wp-native-php-sessions": "0.9.0",
-    "wpackagist-plugin/wp-rss-aggregator": "4.15.2",
+    "wpackagist-plugin/wp-rss-aggregator": "4.16",
     "wpackagist-theme/twentynineteen": "1.4"
   },
   "require-dev": {
