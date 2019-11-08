@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b18bac399d7bbd49bd6da54ccf2606af",
+    "content-hash": "c7cf26e8cf400216d029d7328e7e78d5",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -225,16 +225,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.24",
+            "version": "v1.0.25",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "5f1182592a74dc73edd5641020d36a6d0e9a0f95"
+                "reference": "67c7d14f7f1e1c244873dc9af13bae4b17320d86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/5f1182592a74dc73edd5641020d36a6d0e9a0f95",
-                "reference": "5f1182592a74dc73edd5641020d36a6d0e9a0f95",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/67c7d14f7f1e1c244873dc9af13bae4b17320d86",
+                "reference": "67c7d14f7f1e1c244873dc9af13bae4b17320d86",
                 "shasum": ""
             },
             "require": {
@@ -252,10 +252,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.24",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.25",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-10-24T17:40:04+00:00"
+            "time": "2019-11-08T11:45:52+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -1062,16 +1062,16 @@
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
-            "version": "v0.7.2",
+            "version": "v0.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wp-saml-auth.git",
-                "reference": "73d220adaa7474008bbb37cc66419264c7f48bea"
+                "reference": "85e810ba09edd7ca349b7059cbb13b09149bf354"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wp-saml-auth/zipball/73d220adaa7474008bbb37cc66419264c7f48bea",
-                "reference": "73d220adaa7474008bbb37cc66419264c7f48bea",
+                "url": "https://api.github.com/repos/pantheon-systems/wp-saml-auth/zipball/85e810ba09edd7ca349b7059cbb13b09149bf354",
+                "reference": "85e810ba09edd7ca349b7059cbb13b09149bf354",
                 "shasum": ""
             },
             "require": {
@@ -1105,32 +1105,32 @@
                 }
             ],
             "description": "SAML authentication for WordPress, using SimpleSAMLphp.",
-            "time": "2019-10-30T12:42:32+00:00"
+            "time": "2019-11-07T18:33:40+00:00"
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "894e8f93890b79f29911cce497fe811fe9d931ba"
+                "reference": "2ba2586380f8d2b44ad1b9feb61c371020b27793"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/894e8f93890b79f29911cce497fe811fe9d931ba",
-                "reference": "894e8f93890b79f29911cce497fe811fe9d931ba",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/2ba2586380f8d2b44ad1b9feb61c371020b27793",
+                "reference": "2ba2586380f8d2b44ad1b9feb61c371020b27793",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.7.*"
+                "phpunit/phpunit": "^4.7|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -1155,7 +1155,7 @@
                 "php",
                 "type"
             ],
-            "time": "2019-11-06T12:42:47+00:00"
+            "time": "2019-11-06T22:27:00+00:00"
         },
         {
             "name": "psr/container",
@@ -3121,15 +3121,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.7.0"
+                "reference": "tags/1.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -5193,12 +5193,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "f8c8349a4b12a26edfa8b21d07d3dbeb6dcedcfa"
+                "reference": "15eb463aecc9e315b89b744ee0feb0bb1b4c6787"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f8c8349a4b12a26edfa8b21d07d3dbeb6dcedcfa",
-                "reference": "f8c8349a4b12a26edfa8b21d07d3dbeb6dcedcfa",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/15eb463aecc9e315b89b744ee0feb0bb1b4c6787",
+                "reference": "15eb463aecc9e315b89b744ee0feb0bb1b4c6787",
                 "shasum": ""
             },
             "conflict": {
@@ -5287,7 +5287,7 @@
                 "propel/propel": ">=2-alpha.1,<=2-alpha.7",
                 "propel/propel1": ">=1,<=1.7.1",
                 "pusher/pusher-php-server": "<2.2.1",
-                "robrichards/xmlseclibs": ">=1,<3.0.2",
+                "robrichards/xmlseclibs": ">=1,<3.0.4",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
@@ -5401,7 +5401,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-10-29T22:11:03+00:00"
+            "time": "2019-11-07T10:12:47+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
