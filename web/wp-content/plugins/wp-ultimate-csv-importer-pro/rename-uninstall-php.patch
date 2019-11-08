@@ -1,0 +1,25 @@
+commit 677aa31b839bc0c657834301b4e59352decfe035
+Author: James Reidy <jreidy@cornell.edu>
+Date:   Mon Sep 30 13:13:04 2019 -0400
+
+    Change require_once and rename Uninstall.php to uninstall.php
+    
+    Allows activation on pantheon
+
+diff --git a/Uninstall.php b/uninstall.php
+similarity index 100%
+rename from Uninstall.php
+rename to uninstall.php
+diff --git a/wp-ultimate-csv-importer-pro.php b/wp-ultimate-csv-importer-pro.php
+index 683e7f1..a5abc32 100755
+--- a/wp-ultimate-csv-importer-pro.php
++++ b/wp-ultimate-csv-importer-pro.php
+@@ -30,7 +30,7 @@ define('WCSVPLUGINDIR', plugin_dir_path(__FILE__));
+ require_once 'Plugin.php';
+ require_once 'ErrorHandling.php';
+ require_once 'SmackCSVInstall.php';
+-require_once 'Uninstall.php';
++require_once 'uninstall.php';
+ require_once 'Tables.php';
+ require_once 'languages/LangIT.php';
+ require_once 'languages/LangEN.php';
