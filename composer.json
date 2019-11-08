@@ -88,7 +88,7 @@
     "guzzlehttp/guzzle": "6.3.3",
     "pantheon-systems/quicksilver-pushback": "1.0.1",
     "pantheon-systems/wordpress-composer": "5.2.4",
-    "pantheon-systems/wp-saml-auth": "0.7.2",
+    "pantheon-systems/wp-saml-auth": "0.7.3",
     "roots/wp-password-bcrypt": "1.0.0",
     "rvtraveller/qs-composer-installer": "1.1",
     "simplesamlphp/simplesamlphp": "1.17.7",
