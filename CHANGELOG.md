@@ -5,7 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available ith WordPrss 5.2.4 compatability "Unknown"
+- Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available ith WordPress 5.2.4 compatability "Unknown"
+- FacetWP - version 3.4.0 installed but 3.4.4 is available ith WordPress 5.2.4 compatability "Unknown"
+
+## [v1.2.27] - 2019-11-08
+## Changed
+- CULU theme v1.0.25 updates - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- custom-post-type-ui update - 1.7.1 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
+- wp-saml-auth - 0.7.3 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
 
 ## [v1.2.26] - 2019-11-06
 ## Added
