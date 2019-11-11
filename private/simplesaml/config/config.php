@@ -40,7 +40,7 @@ $config = array(
      * external url, no matter where you come from (direct access or via the
      * reverse proxy).
      */
-   'baseurlpath' => 'https://'. $host .':443/simplesaml/', // SAML should always connect via 443
+   'baseurlpath' => 'https://'. $host .'/simplesaml/', // SAML should always connect via 443
    //'certdir' => 'cert/',
    //'loggingdir' => $_ENV['HOME'] . '/files/private/log/',
    //'datadir' => 'data/',
