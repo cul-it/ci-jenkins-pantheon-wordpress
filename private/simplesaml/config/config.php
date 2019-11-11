@@ -79,7 +79,7 @@ $config = array(
      * When specified as a relative path, this is relative to the SimpleSAMLphp
      * root directory.
      */
-    'certdir' => $_ENV['HOME'] . '/files/private/' . 'cert/',
+    'certdir' => $_ENV['HOME'] . '/files/private/simplesamlphp-cert/',
     'loggingdir' => $_ENV['HOME'] . '/files/private/log/',
     'datadir' => 'data/',
     'tempdir' => $_ENV['HOME'] . '/tmp/simplesaml',
@@ -714,7 +714,7 @@ $config = array(
      * Languages available, RTL languages, and what language is the default.
      */
     'language.available' => array(
-        'en', 'no', 'nn', 'se', 'da', 'de', 'sv', 'fi', 'es', 'ca', 'fr', 'it', 'nl', 'lb', 
+        'en', 'no', 'nn', 'se', 'da', 'de', 'sv', 'fi', 'es', 'ca', 'fr', 'it', 'nl', 'lb',
         'cs', 'sl', 'lt', 'hr', 'hu', 'pl', 'pt', 'pt-br', 'tr', 'ja', 'zh', 'zh-tw', 'ru',
         'et', 'he', 'id', 'sr', 'lv', 'ro', 'eu', 'el', 'af'
     ),
@@ -1088,7 +1088,7 @@ $config = array(
      * syntaxes.
      */
      'store.sql.dsn' => 'mysql:host='. $db['host'] .';port='. $db['port'] .';dbname='. $db['database'],
-  
+
     /*
      * The username and password to use when connecting to the database.
      */
