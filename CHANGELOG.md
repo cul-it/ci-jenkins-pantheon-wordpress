@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available ith WordPress 5.2.4 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.4 is available ith WordPress 5.2.4 compatability "Unknown"
 
+## [v1.2.28] - 1019-11-11
+## Changed
+- change entityID (remove port number) in configuration for simplesamlphp v1.17.7 so production logins continue working.
+
 ## [v1.2.27] - 2019-11-08
 ## Changed
 - CULU theme v1.0.25 updates - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
