@@ -1,0 +1,58 @@
+/*---
+
+  CATEGORIES
+
+---*/
+
+/*---
+
+  CATEGORIES
+
+---*/
+
+hr:last-of-type {
+  height: 0;
+}
+
+.category {
+  .page-interior {
+    display: block;
+    margin: 0 auto;
+    width: calc(100vw - 40px);
+    //grid-template-columns: 100%;
+    padding: 10px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+
+    @media only screen and (min-width: 600px) {
+      width: 90% !important;
+      padding-top: 30px;
+    }
+
+    @media only screen and (min-width: 1440px) {
+      width: 1360px !important;
+    }
+
+    @media only screen and (min-width: 1600px) {
+      width: 1529px !important;
+    }
+
+    article {
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 20px;
+
+      /*&.category-physics-journals,
+      &.category-chemistry-journals,
+      &.category-astronomy-journals,
+      &.category-physics-databases,
+      &.category-chemistry-databases,
+      &.category-astronomy-databases {
+        display: block;
+        vertical-align: top;
+        border: 1px solid blue;
+      }
+      */
+    }
+  }
+}
