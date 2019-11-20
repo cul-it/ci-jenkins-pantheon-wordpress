@@ -94,7 +94,7 @@
     "simplesamlphp/simplesamlphp": "1.18.0",
     "vlucas/phpdotenv": "3.3.3",
     "wpackagist-plugin/acf-better-search": "3.4.3",
-    "wpackagist-plugin/advanced-access-manager":"5.11",
+    "wpackagist-plugin/advanced-access-manager":"6.0.0",
     "wpackagist-plugin/akismet": "4.1.3",
     "wpackagist-plugin/all-in-one-wp-migration": "7.9",
     "wpackagist-plugin/better-font-awesome": "1.7.1",
