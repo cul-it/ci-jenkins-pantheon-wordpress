@@ -1,0 +1,239 @@
+/*---
+
+  SEARCH HOMEPAGE
+
+---*/
+.hero__content {
+  .home-search {
+    display: grid;
+    margin: 0 auto;
+    //width: calc(100vw - 40px);
+    width: 96%;
+    grid-template-columns: 62% auto;
+    padding-left: 0;
+    color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-left: 0;
+
+    label[for="search"] {
+      font-size: 18px;
+      padding: 0;
+      padding-bottom: 20px;
+
+      @media only screen and (min-width: 480px) {
+        font-size: 20px;
+        margin-top: 30px;
+        padding-top: 20px;
+      }
+    }
+
+    input[type="text"] {
+      display: block;
+      width: 100%;
+      height: 30px;
+      padding: 20px;
+      margin-bottom: 5px;
+      margin-top: 3px;
+    }
+
+    button.btn-submit {
+      margin-left: 10px;
+      width: 100px;
+      height: 42px;
+      margin-top: 30px;
+      font-size: 16px;
+      border: none;
+      background-color: #fff;
+
+      @media only screen and (min-width: 480px) {
+        margin-top: 30px;
+      }
+
+      &:hover {
+        background-color: #015d84;
+        color: #fff;
+      }
+    }
+
+    .search-filter {
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    input[type="radio"] {
+      vertical-align: middle;
+    }
+
+    .search-field label[for="home-search"] {
+      font-size: 18px;
+    }
+
+    label[for="home-catalog"] {
+      //padding-right: 10px;
+    }
+
+    @media only screen and (min-width: 600px) {
+      //grid-template-columns: 60% auto auto;
+      //width: 90%;
+    }
+
+    @media only screen and (min-width: 1440px) {
+      //width: 1360px;
+      //padding-top: 20px;
+      //padding-bottom: 10px;
+      //grid-template-columns: 500px auto auto;
+    }
+
+    @media only screen and (min-width: 1600px) {
+      //width: 1529px;
+    }
+
+    .site-search {
+      margin-left: 0 !important;
+      @media only screen and (min-width: 500px) {
+        margin-left: 10px !important;
+      }
+    }
+
+    .search-library-resources {
+      display: block;
+
+      @media only screen and (min-width: 500px) {
+        display: inline-block;
+      }
+    }
+    .search-library-unit {
+      display: block;
+
+      @media only screen and (min-width: 500px) {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+/*---
+
+  SEARCH ALL PAGES
+
+---*/
+
+button.icon-search {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+.user-tool-search {
+  position: relative;
+  display: none;
+  margin: 10px auto;
+  width: calc(100vw - 40px);
+  grid-template-columns: 62% auto;
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+
+  label[for="search"] {
+    font-size: 16px;
+    padding: 20px;
+    padding-left: 0;
+  }
+
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-right: 0;
+  }
+
+  button.btn-submit {
+    margin-left: 20px;
+    width: 100px;
+    height: 41px;
+    margin-top: 38px;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    margin-left: 10px;
+
+    &:hover {
+      background-color: #015d84;
+      color: #fff;
+    }
+  }
+
+  button.btn-close-search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    width: 60px;
+    height: 43px;
+    //margin-top: -20px;
+    //margin-right: -20px;
+
+    @media only screen and (min-width: 600px) {
+    }
+  }
+
+  .search-filter {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  input[type="radio"] {
+    vertical-align: middle;
+  }
+
+  .search-field label[for="search"] {
+    font-size: 18px;
+  }
+
+  @media only screen and (min-width: 600px) {
+    grid-template-columns: 60% auto auto;
+    width: 90%;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    width: 1360px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    grid-template-columns: 500px auto auto;
+    padding-bottom: 20px;
+  }
+
+  @media only screen and (min-width: 1600px) {
+    width: 1529px;
+  }
+
+  .site-search {
+    margin-left: 0 !important;
+    @media only screen and (min-width: 500px) {
+      margin-left: 10px !important;
+    }
+  }
+
+  .search-library-resources {
+    display: block;
+
+    @media only screen and (min-width: 500px) {
+      display: inline-block;
+    }
+  }
+  .search-library-unit {
+    display: block;
+
+    @media only screen and (min-width: 500px) {
+      display: inline-block;
+    }
+  }
+}
