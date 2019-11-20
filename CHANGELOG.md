@@ -5,10 +5,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available ith WordPress 5.2.4 compatability "Unknown"
-- FacetWP - version 3.4.0 installed but 3.4.4 is available ith WordPress 5.2.4 compatability "Unknown"
+- Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available ith WordPress 5.3 compatability "Unknown"
 
-## [v1.2.28] - 1019-11-11
+## [v1.2.29] - 2019-11-20
+## Changed
+- WordPress 5.3 update - see [Release Notes](https://wordpress.org/support/wordpress-version/version-5-3/)
+- security update to SimpleSAMLphp - 1.18.0 - see [Release Notes](https://simplesamlphp.org/security/201911-02)
+- Advanced Access Manager update - 6.0.0 - rewrite - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- Advanced Custom Fields - Update to 5.8.7 - see [Release Notes](https://www.advancedcustomfields.com/blog/acf-5-8-7-release/)
+- All-in-One WP Migration - Update to 7.10 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
+- WP Mail SMTP - update to 1.7.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- wp-libcal-hours - update - 1.0.8 - [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+
+## [v1.2.28] - 2019-11-11
 ## Changed
 - change entityID (remove port number) in configuration for simplesamlphp v1.17.7 so production logins continue working.
 
