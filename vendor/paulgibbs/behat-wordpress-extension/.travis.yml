@@ -1,0 +1,70 @@
+sudo: false
+language: php
+
+php:
+  - 7.0.22
+  - 7.1
+
+cache:
+  apt: true
+  directories:
+    - vendor
+    - $HOME/.composer/cache
+
+env:
+  - WP_VERSION=latest BEHAT_PARAMS='{"extensions":{"PaulGibbs\\WordpressBehatExtension":{"default_driver":"wpphp"}}}'
+  - WP_VERSION=latest BEHAT_PARAMS='{"extensions":{"PaulGibbs\\WordpressBehatExtension":{"default_driver":"wpcli","wpcli":{"binary":"%paths.base%/../../vendor/bin/wp"}}}}'
+#  - WP_VERSION=nightly BEHAT_PARAMS='{"extensions":{"PaulGibbs\\WordpressBehatExtension":{"default_driver":"wpphp"}}}'
+#  - WP_VERSION=nightly BEHAT_PARAMS='{"extensions":{"PaulGibbs\\WordpressBehatExtension":{"default_driver":"wpcli","wpcli":{"binary":"%paths.base%/../../vendor/bin/wp"}}}}'
+
+matrix:
+  allow_failures:
+    - env: WP_VERSION=nightly BEHAT_PARAMS='{"extensions":{"PaulGibbs\\WordpressBehatExtension":{"default_driver":"wpphp"}}}'
+    - env: WP_VERSION=nightly BEHAT_PARAMS='{"extensions":{"PaulGibbs\\WordpressBehatExtension":{"default_driver":"wpcli","wpcli":{"binary":"%paths.base%/../../vendor/bin/wp"}}}}'
+
+addons:
+  apt:
+    packages:
+      - nginx
+  chrome: stable
+  hosts:
+    - wordpress.dev
+
+notifications:
+  email: false
+  slack:
+    secure: UKnkI42ZBwYosQbg12QjWP1Glmkbfp9S1vAkeFS4AO6nY3Lfd3GdSHX0CjGuKtLhzWXtiH4Euza3ZGNgOiQy69OZUHTo10fhk8vFdwdoiw0phiMUVWhcB9LLKgh4B768yTPtgoucyFfvgvFrCCKy065wMTvWWouekDp8gHZgOULi9KO1nPOvqqpCYMVBowheoPLkJ2iDZtbzgvCRyDISWirn322cheROZz/AfOpnYhU6jBGrjvb5QDvX0G5VVp9lDK2X0lMq4/yMIhT2w9RL3or7h0K066y1WJYZfmoxskyJjRHBmhegmqX6q57n4b5Bg83Ec80pNQ3mwknuncOVBjiAJIW09wgf5SP14U4hfOTD3soE+0ehjIsBIvtJnxNm2uddMrD9OoeAwZVtRY1XLEMhO4ISp5NjaJXSBreVnF43ytqoKJBwWUUIg5Bp1Sck4D9edMPeqW4yWqwkhDq/L6+PRZ7VoUy2e8mZsKSOL7Wb8RmtKfZhpCrEos5XFhaRA97ke9XaV6PJuN+2UCVPVOXGPrpJXosC0SWVl7Pj5Urd7EhwpPqVRWK3YJIk6VhLFuXNgbGj3KZNG6v+ETZknlxPB5T55i9ZCQ2Beoza0+epvpiPIuAbUzdRBAHz9j4LODfHmefeZaQ7kkjdgT7d+SV4v58lSZwYdH5mb1q4j7g=
+
+before_install:
+  # Execute all of the commands which need to be executed before installing dependencies.
+
+  # Set up Behat.
+  - composer self-update
+  - composer validate
+  - phpenv config-rm xdebug.ini
+  - export WH_DIR=$(pwd)
+  - export WH_NGINX_DIR=/tmp
+  - export WH_WORDPRESS_DIR="$WH_DIR/www/"
+
+install:
+  # Install all of the dependencies you need here.
+  - composer install --no-interaction --prefer-dist --no-progress
+  - bin/travis/wordpress.sh wordpress root '' localhost $WP_VERSION
+  - bin/travis/nginx.sh
+
+before_script:
+  # Execute all of the commands which need to be executed before running actual tests.
+  - bin/travis/selenium.sh
+
+script:
+  # Execute all of the commands which should make the build pass or fail.
+  - find ./src -name "*.php" -print0 | xargs -0 -n1 -P8 php -l
+  - vendor/bin/phpcs --standard=phpcs-ruleset.xml -p -s -v -n src --extensions=php
+  - vendor/bin/behat --format progress --config ./bin/travis/behat.yml
+
+after_script:
+  # Tidy up after test run.
+  # See https://github.com/travis-ci/travis-ci/issues/6861
+  - kill -9 $(ps aux | grep 'selenium' | awk '{print $2}')
+  - kill -9 $(ps aux | grep 'java' | awk '{print $2}')
+  - kill -9 $(ps aux | grep 'Xvfb' | awk '{print $2}')
