@@ -8,16 +8,27 @@ if (!ini_get('session.save_handler')) {
     ini_set('session.save_handler', 'file');
 }
 
-$host = $_SERVER['HTTP_HOST'];
-$db = array(
-  'host'      => $_ENV['DB_HOST'],
-  'database'  => $_ENV['DB_NAME'],
-  'username'  => $_ENV['DB_USER'],
-  'password'  => $_ENV['DB_PASSWORD'],
-  'port'      => $_ENV['DB_PORT'],
-);
-
-$config = array(
+if (false) {
+    /**
+     * for Drupal sites.
+     */
+    $ps = json_decode($_SERVER['PRESSFLOW_SETTINGS'], true);
+    $host = $_SERVER['HTTP_HOST'];
+    $db = $ps['databases']['default']['default'];
+    $host = $_SERVER['HTTP_HOST'];
+} else {
+    /**
+     * for WordPress sites.
+     */
+    $host = $_SERVER['HTTP_HOST'];
+    $db = [
+    'host' => $_ENV['DB_HOST'],
+    'database' => $_ENV['DB_NAME'],
+    'username' => $_ENV['DB_USER'],
+    'password' => $_ENV['DB_PASSWORD'],
+    'port' => $_ENV['DB_PORT'],
+    ];
+}
 
     /*******************************
      | BASIC CONFIGURATION OPTIONS |
