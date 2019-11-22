@@ -4,33 +4,8 @@
  *
  */
 
-if (!ini_get('session.save_handler')) {
-    ini_set('session.save_handler', 'file');
-}
-
-if (false) {
-    /**
-     * for Drupal sites.
-     */
-    $ps = json_decode($_SERVER['PRESSFLOW_SETTINGS'], true);
-    $host = $_SERVER['HTTP_HOST'];
-    $db = $ps['databases']['default']['default'];
-    $host = $_SERVER['HTTP_HOST'];
-} else {
-    /**
-     * for WordPress sites.
-     */
-    $host = $_SERVER['HTTP_HOST'];
-    $db = [
-    'host' => $_ENV['DB_HOST'],
-    'database' => $_ENV['DB_NAME'],
-    'username' => $_ENV['DB_USER'],
-    'password' => $_ENV['DB_PASSWORD'],
-    'port' => $_ENV['DB_PORT'],
-    ];
-}
-
 $config = [
+
     /*******************************
      | BASIC CONFIGURATION OPTIONS |
      *******************************/
@@ -52,11 +27,7 @@ $config = [
      * external url, no matter where you come from (direct access or via the
      * reverse proxy).
      */
-   'baseurlpath' => 'https://'.$host.'/simplesaml/', // SAML should always connect via 443
-   //'certdir' => 'cert/',
-   //'loggingdir' => $_ENV['HOME'] . '/files/private/log/',
-   //'datadir' => 'data/',
-   //'tempdir' => $_ENV['HOME'] . '/tmp/simplesaml',
+    'baseurlpath' => 'simplesaml/',
 
     /*
      * The 'application' configuration array groups a set configuration options
@@ -91,10 +62,10 @@ $config = [
      * When specified as a relative path, this is relative to the SimpleSAMLphp
      * root directory.
      */
-    'certdir' => $_ENV['HOME'].'/files/private/simplesamlphp-cert/',
-    'loggingdir' => $_ENV['HOME'].'/files/private/log/',
+    'certdir' => 'cert/',
+    'loggingdir' => 'log/',
     'datadir' => 'data/',
-    'tempdir' => $_ENV['HOME'].'/tmp/simplesaml',
+    'tempdir' => '/tmp/simplesaml',
 
     /*
      * Some information about the technical persons running this installation.
@@ -102,7 +73,7 @@ $config = [
      * also as the technical contact in generated metadata.
      */
     'technicalcontact_name' => 'Administrator',
-    'technicalcontact_email' => 'CUL-LIBSYS-L@list.cornell.edu',
+    'technicalcontact_email' => 'na@example.org',
 
     /*
      * (Optional) The method by which email is delivered.  Defaults to mail which utilizes the
@@ -159,7 +130,7 @@ $config = [
      * A possible way to generate a random salt is by running the following command from a unix shell:
      * LC_CTYPE=C tr -c -d '0123456789abcdefghijklmnopqrstuvwxyz' </dev/urandom | dd bs=32 count=1 2>/dev/null;echo
      */
-    'secretsalt' => '/POKiOqTcJZQJvwGzaKk/m4pdzHomelN6WO5jMUk/PBqVGClR3/zVQ',
+    'secretsalt' => 'defaultsecretsalt',
 
     /*
      * This password must be kept secret, and modified from the default value 123.
@@ -167,7 +138,7 @@ $config = [
      * metadata listing and diagnostics pages.
      * You can also put a hash here; run "bin/pwgen.php" to generate one.
      */
-    'auth.adminpassword' => '{SSHA256}3oQaIN2Nc9KBnsI222pQlQW603uewLbOzKlZ3A4L0h238jqRABEbMQ==',
+    'auth.adminpassword' => '123',
 
     /*
      * Set this options to true if you want to require administrator password to access the web interface
@@ -204,7 +175,7 @@ $config = [
      * Example:
      *   'trusted.url.domains' => ['sp.example.com', 'app.example.com'],
      */
-    'trusted.url.domains' => [$host],
+    'trusted.url.domains' => [],
 
     /*
      * Enable regular expression matching of trusted.url.domains.
@@ -415,7 +386,9 @@ $config = [
      * Example:
      *   'proxy.auth' = 'myuser:password'
      */
-    'proxy.auth' => false,
+    //'proxy.auth' => 'myuser:password',
+
+
 
     /**************************
      | DATABASE CONFIGURATION |
@@ -491,13 +464,6 @@ $config = [
     'enable.saml20-idp' => false,
     'enable.shib13-idp' => false,
     'enable.adfs-idp' => false,
-    'enable.wsfed-sp' => false,
-    'enable.authmemcookie' => false,
-
-    /*
-     * Default IdP for WS-Fed.
-     */
-    'default-wsfed-idp' => 'urn:federation:pingfederate:localhost',
 
     /*
      * Whether SimpleSAMLphp should sign the response or the assertion in SAML 1.1 authentication
@@ -527,10 +493,6 @@ $config = [
      * ],
      *
      */
-    'module.enable' => [
-        'statistics' => false, // requires configuration and storage
-        'admin' => false, // mitigate https://simplesamlphp.org/security/201911-02
-    ],
 
 
 
@@ -804,17 +766,7 @@ $config = [
     'language.cookie.secure' => false,
     'language.cookie.httponly' => false,
     'language.cookie.lifetime' => (60 * 60 * 24 * 900),
-
-    /*
-     * Which i18n backend to use.
-     *
-     * "SimpleSAMLphp" is the home made system, valid for 1.x.
-     * For 2.x, only "gettext/gettext" will be possible.
-     *
-     * Home-made templates will always use "SimpleSAMLphp".
-     * To use twig (where avaliable), select "gettext/gettext".
-     */
-    'language.i18n.backend' => 'SimpleSAMLphp',
+    'language.cookie.samesite' => null,
 
     /**
      * Custom getLanguage function called from SimpleSAML\Locale\Language::getLanguage().
@@ -977,7 +929,7 @@ $config = [
      */
     'authproc.idp' => [
         /* Enable the authproc filter below to add URN prefixes to all attributes
-        10 => [
+        10 => array[
             'class' => 'core:AttributeMap', 'addurnprefix'
         ],
         */
@@ -1032,10 +984,6 @@ $config = [
      * Both Shibboleth and SAML 2.0
      */
     'authproc.sp' => [
-        10 => [
-            'class' => 'core:AttributeMap', 'oid2name',
-        ],
-
         /*
         10 => [
             'class' => 'core:AttributeMap', 'removeurnprefix'
@@ -1195,7 +1143,7 @@ $config = [
      *
      * The default datastore is 'phpsession'.
      */
-    'store.type' => 'sql',
+    'store.type'                    => 'phpsession',
 
     /*
      * The DSN the sql datastore should connect to.
@@ -1203,13 +1151,13 @@ $config = [
      * See http://www.php.net/manual/en/pdo.drivers.php for the various
      * syntaxes.
      */
-     'store.sql.dsn' => 'mysql:host='.$db['host'].';port='.$db['port'].';dbname='.$db['database'],
+    'store.sql.dsn'                 => 'sqlite:/path/to/sqlitedatabase.sq3',
 
     /*
      * The username and password to use when connecting to the database.
      */
-    'store.sql.username' => $db['username'],
-    'store.sql.password' => $db['password'],
+    'store.sql.username' => null,
+    'store.sql.password' => null,
 
     /*
      * The prefix we should use on our tables.
