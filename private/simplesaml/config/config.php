@@ -768,23 +768,25 @@ $config = [
          * not available, we look for translations in "nb" (Norwegian Bokmål),
          * and so on, in that order.
          */
-        'priorities' => array(
-            'no' => array('nb', 'nn', 'en', 'se'),
-            'nb' => array('no', 'nn', 'en', 'se'),
-            'nn' => array('no', 'nb', 'en', 'se'),
-            'se' => array('nb', 'no', 'nn', 'en'),
-        ),
-    ),
+        'priorities' => [
+            'no' => ['nb', 'nn', 'en', 'se'],
+            'nb' => ['no', 'nn', 'en', 'se'],
+            'nn' => ['no', 'nb', 'en', 'se'],
+            'se' => ['nb', 'no', 'nn', 'en'],
+            'nr' => ['zu', 'en'],
+            'nd' => ['zu', 'en'],
+        ],
+    ],
 
     /*
      * Languages available, RTL languages, and what language is the default.
      */
-    'language.available' => array(
+    'language.available' => [
         'en', 'no', 'nn', 'se', 'da', 'de', 'sv', 'fi', 'es', 'ca', 'fr', 'it', 'nl', 'lb',
         'cs', 'sl', 'lt', 'hr', 'hu', 'pl', 'pt', 'pt-br', 'tr', 'ja', 'zh', 'zh-tw', 'ru',
-        'et', 'he', 'id', 'sr', 'lv', 'ro', 'eu', 'el', 'af'
-    ),
-    'language.rtl' => array('ar', 'dv', 'fa', 'ur', 'he'),
+        'et', 'he', 'id', 'sr', 'lv', 'ro', 'eu', 'el', 'af', 'zu', 'xh',
+    ],
+    'language.rtl' => ['ar', 'dv', 'fa', 'ur', 'he'],
     'language.default' => 'en',
 
     /*
