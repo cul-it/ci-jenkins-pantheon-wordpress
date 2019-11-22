@@ -902,12 +902,38 @@ $config = [
      * is running in a production environment. This will affect the way resources
      * are used, offering an optimized version when running in production, and an
      * easy-to-debug one when not. Set it to false when you are testing or
-     * developing the software.
+     * developing the software, in which case a banner will be displayed to remind
+     * users that they're dealing with a non-production instance.
      *
      * Defaults to true.
      */
     'production' => true,
 
+    /*
+     * SimpleSAMLphp modules can host static resources which are served through PHP.
+     * The serving of the resources can be configured through these settings.
+     */
+    'assets' => [
+        /*
+         * These settings adjust the caching headers that are sent
+         * when serving static resources.
+         */
+        'caching' => [
+            /*
+             * Amount of seconds before the resource should be fetched again
+             */
+            'max_age' => 86400,
+            /*
+             * Calculate a checksum of every file and send it to the browser
+             * This allows the browser to avoid downloading assets again in situations
+             * where the Last-Modified header cannot be trusted,
+             * for example in cluster setups
+             *
+             * Defaults false
+             */
+            'etag' => false,
+        ],
+    ],
 
 
     /*********************
