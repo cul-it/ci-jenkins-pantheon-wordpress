@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - simplesamlphp configuration changes to avoid warning messages for statistics and mitigate security issue - see [issue](https://github.com/cul-it/simplesamlphp-code/issues/2)
 - advanced-access-manager - update 6.0.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - wp-saml-auth - update 0.8.0 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
+- ares_wordpress - update 1.0.4 - see [Changelog](https://github.com/cul-it/ares_wordpress/blob/master/CHANGELOG.md)
 
 ## [v1.2.29] - 2019-11-20
 ## Changed
