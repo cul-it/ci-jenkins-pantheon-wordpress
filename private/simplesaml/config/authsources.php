@@ -7,12 +7,12 @@
 
 if (defined('PANTHEON_ENVIRONMENT') && !empty($_ENV['PANTHEON_ENVIRONMENT'])) {
     if ($_ENV['PANTHEON_ENVIRONMENT'] == 'live') {
-        require 'authsources.php.prod';
+        require 'authsources.prod.php';
     }
     else {
-        require 'authsources.php.test';
+        require 'authsources.test.php';
     }
 }
 else {
-    require 'authsourches.php.default';
+    require 'authsources.default.php';
 }
