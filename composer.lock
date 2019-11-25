@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1a02fa4519b8738e10c1883caa0e8c7",
+    "content-hash": "96e8561d3869e1c6ebae7188e4340656",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -225,16 +225,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.26",
+            "version": "v1.0.27",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "a78bea8b2dfbed9f63c29007720c54642caa7b58"
+                "reference": "dc4a39b3730343ca7b17a89be98d61b18c37d1f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/a78bea8b2dfbed9f63c29007720c54642caa7b58",
-                "reference": "a78bea8b2dfbed9f63c29007720c54642caa7b58",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/dc4a39b3730343ca7b17a89be98d61b18c37d1f4",
+                "reference": "dc4a39b3730343ca7b17a89be98d61b18c37d1f4",
                 "shasum": ""
             },
             "require": {
@@ -252,10 +252,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.26",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.27",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-11-22T18:09:40+00:00"
+            "time": "2019-11-25T20:17:30+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -903,16 +903,16 @@
         },
         {
             "name": "onelogin/php-saml",
-            "version": "3.4.0",
+            "version": "3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onelogin/php-saml.git",
-                "reference": "8ac96798a6e85627d7fae5a08b1a56487eea82dc"
+                "reference": "5fbf3486704ac9835b68184023ab54862c95f213"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/8ac96798a6e85627d7fae5a08b1a56487eea82dc",
-                "reference": "8ac96798a6e85627d7fae5a08b1a56487eea82dc",
+                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/5fbf3486704ac9835b68184023ab54862c95f213",
+                "reference": "5fbf3486704ac9835b68184023ab54862c95f213",
                 "shasum": ""
             },
             "require": {
@@ -949,7 +949,7 @@
                 "onelogin",
                 "saml"
             ],
-            "time": "2019-11-19T16:06:25+00:00"
+            "time": "2019-11-25T17:30:07+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
@@ -2637,16 +2637,16 @@
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-metarefresh",
-            "version": "v0.9.1",
+            "version": "v0.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp-module-metarefresh.git",
-                "reference": "567ef07a0908745810180ee4cd237a996e0d76ba"
+                "reference": "df31188e47c45c91c592a465c6e2ad8ef57b05f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-metarefresh/zipball/567ef07a0908745810180ee4cd237a996e0d76ba",
-                "reference": "567ef07a0908745810180ee4cd237a996e0d76ba",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-metarefresh/zipball/df31188e47c45c91c592a465c6e2ad8ef57b05f3",
+                "reference": "df31188e47c45c91c592a465c6e2ad8ef57b05f3",
                 "shasum": ""
             },
             "require": {
@@ -2678,7 +2678,7 @@
                 "metarefresh",
                 "simplesamlphp"
             ],
-            "time": "2019-10-04T21:12:31+00:00"
+            "time": "2019-11-25T13:30:32+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-negotiate",
@@ -4514,31 +4514,29 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4"
+                "reference": "573381c0a64f155a0d9a23f4b0c797194805b925"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/88e6d84706d09a236046d686bbea96f07b3a34f4",
-                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/573381c0a64f155a0d9a23f4b0c797194805b925",
+                "reference": "573381c0a64f155a0d9a23f4b0c797194805b925",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.3 || ^7.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
+            "conflict": {
+                "vimeo/psalm": "<3.6.0"
+            },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.36 || ^7.5.13"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Webmozart\\Assert\\": "src/"
@@ -4560,7 +4558,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2019-08-24T08:43:50+00:00"
+            "time": "2019-11-24T13:36:37+00:00"
         },
         {
             "name": "whitehat101/apr1-md5",
@@ -4626,15 +4624,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.0.1",
+            "version": "6.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.0.1"
+                "reference": "tags/6.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.0.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
