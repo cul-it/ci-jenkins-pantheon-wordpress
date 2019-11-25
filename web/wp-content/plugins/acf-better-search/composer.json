@@ -1,0 +1,19 @@
+{
+  "name": "acf-better-search",
+  "description": "ACF: Better Search",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Mateusz Gbiorczyk",
+      "email": "mateusz@gbiorczyk.pl",
+      "homepage": "https://gbiorczyk.pl/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AcfBetterSearch\\": "app"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
