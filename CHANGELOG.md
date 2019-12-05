@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - All-in-One WP Migration - Update to 7.11 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
 - wp-saml-auth - update 0.8.1 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
 - simplesamlphp - update 1.18.2 - see [Change Log](https://simplesamlphp.org/docs/1.18/simplesamlphp-changelog#section_1)
+- CULU Theme updates - 1.0.28 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- wp-libcal-hours - update - 1.0.9 - [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+- json-content-importer - update 1.3.6 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
+- ares_wordpress - update 1.0.5 - see [Changelog](https://github.com/cul-it/ares_wordpress/blob/master/CHANGELOG.md)
 
 
 ## [v1.2.32] - 2019-11-25
