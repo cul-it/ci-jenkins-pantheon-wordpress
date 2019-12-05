@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7896d217582bca62b5d511fcd68dfb14",
+    "content-hash": "2ac4d88077e49c1c246840dd1de51f8a",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -191,16 +191,16 @@
         },
         {
             "name": "cul-it/ares_wordpress",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/ares_wordpress.git",
-                "reference": "21d13559f37743d53714b0b357972050adf5c87e"
+                "reference": "9ed59cc71500b14334fbae8d731380284ce88a7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/ares_wordpress/zipball/21d13559f37743d53714b0b357972050adf5c87e",
-                "reference": "21d13559f37743d53714b0b357972050adf5c87e",
+                "url": "https://api.github.com/repos/cul-it/ares_wordpress/zipball/9ed59cc71500b14334fbae8d731380284ce88a7a",
+                "reference": "9ed59cc71500b14334fbae8d731380284ce88a7a",
                 "shasum": ""
             },
             "require": {
@@ -218,23 +218,23 @@
             ],
             "description": "WordPress Ares interface for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/ares_wordpress/tree/v1.0.4",
+                "source": "https://github.com/cul-it/ares_wordpress/tree/v1.0.5",
                 "issues": "https://github.com/cul-it/ares_wordpress/issues"
             },
-            "time": "2019-11-22T19:03:08+00:00"
+            "time": "2019-12-05T19:20:26+00:00"
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.27",
+            "version": "v1.0.28",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "dc4a39b3730343ca7b17a89be98d61b18c37d1f4"
+                "reference": "5c66e5a4510a10146ca33b8bef207804bea327f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/dc4a39b3730343ca7b17a89be98d61b18c37d1f4",
-                "reference": "dc4a39b3730343ca7b17a89be98d61b18c37d1f4",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/5c66e5a4510a10146ca33b8bef207804bea327f3",
+                "reference": "5c66e5a4510a10146ca33b8bef207804bea327f3",
                 "shasum": ""
             },
             "require": {
@@ -252,10 +252,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.27",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.28",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-11-25T20:17:30+00:00"
+            "time": "2019-12-05T19:02:40+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -333,16 +333,16 @@
         },
         {
             "name": "cul-it/wp-libcal-hours",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-libcal-hours.git",
-                "reference": "9d78e4b9a6922fc4ba6bbe4e7152d8ade3b9e0c1"
+                "reference": "bd62e868eea49c8c8c2294f2fe6d2ca98fc53868"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/9d78e4b9a6922fc4ba6bbe4e7152d8ade3b9e0c1",
-                "reference": "9d78e4b9a6922fc4ba6bbe4e7152d8ade3b9e0c1",
+                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/bd62e868eea49c8c8c2294f2fe6d2ca98fc53868",
+                "reference": "bd62e868eea49c8c8c2294f2fe6d2ca98fc53868",
                 "shasum": ""
             },
             "require": {
@@ -360,10 +360,10 @@
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
             "support": {
-                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.8",
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.9",
                 "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
             },
-            "time": "2019-11-20T21:01:11+00:00"
+            "time": "2019-12-05T18:43:56+00:00"
         },
         {
             "name": "cul-it/wp-rss-aggregator",
@@ -4849,15 +4849,15 @@
         },
         {
             "name": "wpackagist-plugin/json-content-importer",
-            "version": "1.3.5",
+            "version": "1.3.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/json-content-importer/",
-                "reference": "tags/1.3.5"
+                "reference": "tags/1.3.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.3.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.3.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
