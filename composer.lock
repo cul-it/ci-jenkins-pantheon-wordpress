@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ac4d88077e49c1c246840dd1de51f8a",
+    "content-hash": "5e95d9b2fbcc5ea8bc1dec7382cc82fd",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -225,16 +225,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.28",
+            "version": "v1.0.29",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "5c66e5a4510a10146ca33b8bef207804bea327f3"
+                "reference": "40db2eab43dda47a24fbdccb206ece47428a52a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/5c66e5a4510a10146ca33b8bef207804bea327f3",
-                "reference": "5c66e5a4510a10146ca33b8bef207804bea327f3",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/40db2eab43dda47a24fbdccb206ece47428a52a3",
+                "reference": "40db2eab43dda47a24fbdccb206ece47428a52a3",
                 "shasum": ""
             },
             "require": {
@@ -252,10 +252,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.28",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.29",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-12-05T19:02:40+00:00"
+            "time": "2019-12-06T15:09:41+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -4795,15 +4795,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "5.3.9",
+            "version": "5.3.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/5.3.9"
+                "reference": "tags/5.3.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.3.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.3.10.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
