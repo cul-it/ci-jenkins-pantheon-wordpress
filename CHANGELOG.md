@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.5 available with WordPress 5.3 compatability "Unknown"
 
+## [v1.2.35] - 2019-12-06
+### Changed
+- wp-libcal-hours update - 1.0.10 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+
 ## [v1.2.34] - 2019-12-06
 ### Changed
 - CULU Theme updates - 1.0.29 - catch some updates that didn't make it into Pantheon last time around - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
