@@ -8,8 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.5 available with WordPress 5.3 compatability "Unknown"
 
-## [v1.2.33] - 2019-12-03
-## Changed
+## [v1.2.34] - 2019-12-06
+### Changed
+- CULU Theme updates - 1.0.29 - catch some updates that didn't make it into Pantheon last time around - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- google-analytics-dashboard-for-wp - 5.3.10 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+
+## [v1.2.33] - 2019-12-05
+### Changed
 - advanced-access-manager - update 6.0.5 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - All-in-One WP Migration - Update to 7.11 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
 - wp-saml-auth - update 0.8.1 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
