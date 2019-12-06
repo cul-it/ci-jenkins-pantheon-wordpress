@@ -8,8 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.5 available with WordPress 5.3 compatability "Unknown"
 
-## [v1.2.33] - 2019-12-03
-## Changed
+## [v1.2.34] - 2019-12-06
+### Changed
+- CULU Theme updates - 1.0.29 - catch some updates that didn't make it into Pantheon last time around - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- google-analytics-dashboard-for-wp - 5.3.10 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+
+## [v1.2.33] - 2019-12-05
+### Changed
 - advanced-access-manager - update 6.0.5 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - All-in-One WP Migration - Update to 7.11 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
 - wp-saml-auth - update 0.8.1 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
@@ -21,25 +26,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [v1.2.32] - 2019-11-25
-## Changed
+### Changed
 - advanced-access-manager - update 6.0.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - CULU Theme updates - 1.0.27 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
 
 
 ## [v1.2.31] - 2019-11-22
-## Changed
+### Changed
 - advanced-access-manager - update 6.0.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - wp-saml-auth - update 0.8.0 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
 - ares_wordpress - update 1.0.4 - see [Changelog](https://github.com/cul-it/ares_wordpress/blob/master/CHANGELOG.md)
 
 
 ## [v1.2.30] - 2019-11-22
-## Changed
+### Changed
 - CULU Theme updates - 1.0.26 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
 - simplesamlphp configuration changes to avoid warning messages for statistics and mitigate security issue - see [issue](https://github.com/cul-it/simplesamlphp-code/issues/2)
 
 ## [v1.2.29] - 2019-11-20
-## Changed
+### Changed
 - WordPress 5.3 update - see [Release Notes](https://wordpress.org/support/wordpress-version/version-5-3/)
 - security update to SimpleSAMLphp - 1.18.0 - see [Release Notes](https://simplesamlphp.org/security/201911-02)
 - Advanced Access Manager update - 6.0.0 - rewrite - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
@@ -49,20 +54,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-libcal-hours - update - 1.0.8 - [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
 
 ## [v1.2.28] - 2019-11-11
-## Changed
+### Changed
 - change entityID (remove port number) in configuration for simplesamlphp v1.17.7 so production logins continue working.
 
 ## [v1.2.27] - 2019-11-08
-## Changed
+### Changed
 - CULU theme v1.0.25 updates - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
 - custom-post-type-ui update - 1.7.1 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
 - wp-saml-auth - 0.7.3 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
 
 ## [v1.2.26] - 2019-11-06
-## Added
+### Added
 - capability-manager-enhanced - 1.8.1
 
-## Changed
+### Changed
 - WordPress update - v5.2.4
 - advanced-access-manager update - 5.11
 - akismet update - 4.1.3
