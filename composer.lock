@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f08c68130b9bcf8a0f9c8487f000c25f",
+    "content-hash": "c0eff08a04be19147954c723aca82ad7",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -191,16 +191,16 @@
         },
         {
             "name": "cul-it/ares_wordpress",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/ares_wordpress.git",
-                "reference": "9ed59cc71500b14334fbae8d731380284ce88a7a"
+                "reference": "6b7a5748d5d0d7da8d7d2ffaf996f6c33740a2b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/ares_wordpress/zipball/9ed59cc71500b14334fbae8d731380284ce88a7a",
-                "reference": "9ed59cc71500b14334fbae8d731380284ce88a7a",
+                "url": "https://api.github.com/repos/cul-it/ares_wordpress/zipball/6b7a5748d5d0d7da8d7d2ffaf996f6c33740a2b9",
+                "reference": "6b7a5748d5d0d7da8d7d2ffaf996f6c33740a2b9",
                 "shasum": ""
             },
             "require": {
@@ -218,10 +218,10 @@
             ],
             "description": "WordPress Ares interface for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/ares_wordpress/tree/v1.0.5",
+                "source": "https://github.com/cul-it/ares_wordpress/tree/v1.0.6",
                 "issues": "https://github.com/cul-it/ares_wordpress/issues"
             },
-            "time": "2019-12-05T19:20:26+00:00"
+            "time": "2019-12-11T18:51:43+00:00"
         },
         {
             "name": "cul-it/culu",
@@ -281,6 +281,31 @@
                 "issues": "https://github.com/cul-it/draw-attention-pro/issues"
             },
             "time": "2019-07-30T16:36:28+00:00"
+        },
+        {
+            "name": "cul-it/elementor-pro",
+            "version": "v2.7.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/elementor-pro.git",
+                "reference": "f13946e92c06f9caafcbb3235965ada06f38b8a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/f13946e92c06f9caafcbb3235965ada06f38b8a2",
+                "reference": "f13946e92c06f9caafcbb3235965ada06f38b8a2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/elementor-pro/tree/v2.7.3",
+                "issues": "https://github.com/cul-it/elementor-pro/issues"
+            },
+            "time": "2019-12-11T18:36:34+00:00"
         },
         {
             "name": "cul-it/facetwp",
@@ -1134,16 +1159,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.1.3",
+            "version": "v6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "a25ae38e03de4ee4031725498a600012364787c7"
+                "reference": "c5e61d0729507049cec9673aa1a679f9adefd683"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a25ae38e03de4ee4031725498a600012364787c7",
-                "reference": "a25ae38e03de4ee4031725498a600012364787c7",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c5e61d0729507049cec9673aa1a679f9adefd683",
+                "reference": "c5e61d0729507049cec9673aa1a679f9adefd683",
                 "shasum": ""
             },
             "require": {
@@ -1192,20 +1217,20 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2019-11-21T09:37:46+00:00"
+            "time": "2019-12-10T11:17:38+00:00"
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "f4e7a6a1382183412246f0d361078c29fb85089e"
+                "reference": "a8593bf5176bf3d3f2966942c530be19b44ec87c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/f4e7a6a1382183412246f0d361078c29fb85089e",
-                "reference": "f4e7a6a1382183412246f0d361078c29fb85089e",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/a8593bf5176bf3d3f2966942c530be19b44ec87c",
+                "reference": "a8593bf5176bf3d3f2966942c530be19b44ec87c",
                 "shasum": ""
             },
             "require": {
@@ -1246,7 +1271,7 @@
                 "php",
                 "type"
             ],
-            "time": "2019-11-30T20:20:49+00:00"
+            "time": "2019-12-11T13:45:14+00:00"
         },
         {
             "name": "psr/container",
@@ -4669,15 +4694,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-wp-migration",
-            "version": "7.11",
+            "version": "7.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
-                "reference": "tags/7.11"
+                "reference": "tags/7.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.11.zip"
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.12.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4792,6 +4817,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
+        },
+        {
+            "name": "wpackagist-plugin/elementor",
+            "version": "2.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/2.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.8.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
@@ -4993,15 +5036,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-rss-aggregator",
-            "version": "4.16",
+            "version": "4.17",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-rss-aggregator/",
-                "reference": "tags/4.16"
+                "reference": "tags/4.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.16.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.17.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
