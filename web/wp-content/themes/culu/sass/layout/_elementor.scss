@@ -1,0 +1,29 @@
+// Overrides elementor css
+
+.elementor-widget-container {
+  ul,
+  ol {
+    margin-left: 30px;
+    padding-left: 10px;
+
+    ul,
+    ol {
+      margin-left: 30px;
+      padding-left: 10px;
+    }
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .elementor-divider {
+    padding: 5px 0 5px 0 !important;
+    .elementor-divider-separator {
+      border-top-color: #e2eaef !important;
+    }
+  }
+}
+
+.elementor-accordion {
+  margin-bottom: 20px !important;
+}
