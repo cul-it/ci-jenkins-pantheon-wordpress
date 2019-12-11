@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.2.36] - 2019-12-11
 ### Changed
+- All-in-One WP Migration - Update to 7.12 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
 ## [v1.2.35] - 2019-12-06
 ### Changed
 - wp-libcal-hours update - 1.0.10 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
