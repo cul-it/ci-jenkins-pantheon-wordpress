@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - All-in-One WP Migration - Update to 7.12 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
 - wp-rss-aggregator - Update to 4.17 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- Elementor Pro - 2.7.3 - see [changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 
 ## [v1.2.35] - 2019-12-06
 ### Changed
