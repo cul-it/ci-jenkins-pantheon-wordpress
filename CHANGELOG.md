@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.5 available with WordPress 5.3 compatability "Unknown"
 
+## [v1.2.36] - 2019-12-11
+### Changed
+- All-in-One WP Migration - Update to 7.12 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
+- wp-rss-aggregator - Update to 4.17 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- ares_wordpress - update 1.0.6 - see [Changelog](https://github.com/cul-it/ares_wordpress/blob/master/CHANGELOG.md)
+
+### Added
+- Elementor - 2.8.1 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- Elementor Pro - 2.7.3 - see [changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+
 ## [v1.2.35] - 2019-12-06
 ### Changed
 - wp-libcal-hours update - 1.0.10 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
