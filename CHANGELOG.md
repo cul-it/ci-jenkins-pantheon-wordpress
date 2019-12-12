@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.5 available with WordPress 5.3 compatability "Unknown"
 
+## [v1.2.37] - 2019-12-12
+### Changed
+- wp-libcal-hours update - 1.0.10 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+- CULU Theme updates - 1.0.31 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- Beware: When I activate Elementor Pro on sites that have not already had it activated, I ran into fatal errors going to any page. Manolo does not have this experience with sites where it is already installed, so I'm leaving Elementor Pro in the upstream. For safety, test activating Elementor Pro on a multidev site first. -jgr25
+- advanced-access-manager - update 6.1.0 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- WP Mail SMTP - update to 1.8.0 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- wp-rss-aggregator - Update to 4.17.1 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+
 ## [v1.2.36] - 2019-12-11
 ### Changed
 - All-in-One WP Migration - Update to 7.12 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
