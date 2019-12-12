@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0eff08a04be19147954c723aca82ad7",
+    "content-hash": "2aebf7650095f8e9a6fc3b3b1a317b8b",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -225,16 +225,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.0.29",
+            "version": "v1.0.31",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "40db2eab43dda47a24fbdccb206ece47428a52a3"
+                "reference": "30b54d1e422e421a4f6787fb4a412a455bc123a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/40db2eab43dda47a24fbdccb206ece47428a52a3",
-                "reference": "40db2eab43dda47a24fbdccb206ece47428a52a3",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/30b54d1e422e421a4f6787fb4a412a455bc123a7",
+                "reference": "30b54d1e422e421a4f6787fb4a412a455bc123a7",
                 "shasum": ""
             },
             "require": {
@@ -252,10 +252,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.29",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.0.31",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2019-12-06T15:09:41+00:00"
+            "time": "2019-12-12T21:08:10+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -358,16 +358,16 @@
         },
         {
             "name": "cul-it/wp-libcal-hours",
-            "version": "v1.0.10",
+            "version": "v1.0.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-libcal-hours.git",
-                "reference": "716d10c0f30d21cb9ca969d10860c83bc061a2c0"
+                "reference": "619400bd60615b02790eae63a544288ca20d6ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/716d10c0f30d21cb9ca969d10860c83bc061a2c0",
-                "reference": "716d10c0f30d21cb9ca969d10860c83bc061a2c0",
+                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/619400bd60615b02790eae63a544288ca20d6ca0",
+                "reference": "619400bd60615b02790eae63a544288ca20d6ca0",
                 "shasum": ""
             },
             "require": {
@@ -385,10 +385,10 @@
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
             "support": {
-                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.10",
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.11",
                 "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
             },
-            "time": "2019-12-06T19:06:35+00:00"
+            "time": "2019-12-12T20:40:41+00:00"
         },
         {
             "name": "cul-it/wp-rss-aggregator",
@@ -4658,15 +4658,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.0.5",
+            "version": "6.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.0.5"
+                "reference": "tags/6.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.0.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.1.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -5000,15 +5000,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "1.7.1",
+            "version": "1.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/1.7.1"
+                "reference": "tags/1.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.8.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -5036,15 +5036,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-rss-aggregator",
-            "version": "4.17",
+            "version": "4.17.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-rss-aggregator/",
-                "reference": "tags/4.17"
+                "reference": "tags/4.17.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.17.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.17.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
