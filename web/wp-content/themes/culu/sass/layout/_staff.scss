@@ -1,0 +1,133 @@
+/*---
+
+  STAFF PROFILE
+
+---*/
+
+.staff-profile {
+
+  width: 282px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+  //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #E0E0E0;
+
+  @media only screen and (min-width: 640px) {
+
+    margin: 0;
+    margin-bottom: 20px;
+
+  }
+
+  .staff-photo {
+
+  }
+
+  h3 {
+
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    span {
+      font-size: 14px;
+    }
+
+  }
+
+  h4 {
+
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+
+  p {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+
+  .staff-email {
+
+    span {
+
+      padding-right: 7px;
+
+    }
+
+  }
+  .staff-phone {
+
+    span {
+
+      padding-right: 7px;
+
+    }
+
+  }
+
+  .staff-social {
+
+    .staff-orcid-id {
+
+      padding-right: 5px;
+
+      img {
+
+        vertical-align: middle;
+
+      }
+
+    }
+
+    .staff-linkedin {
+
+    }
+
+    .faculty-bio {
+
+    }
+
+  }
+
+  .staff-expertise{
+
+    margin-top: 9px;
+
+  }
+
+  .staff-liaison {
+
+    margin-top: 9px;
+    margin-bottom: 15px;
+
+  }
+
+  .btn-graphic {
+
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 0;
+    padding: 10px 20px;
+    width: 100%;
+
+    &:hover {
+
+      background-color: #000;
+      color: #fff;
+    }
+
+  }
+
+}
