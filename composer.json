@@ -73,7 +73,7 @@
       "type": "vcs",
       "url": "git@github.com:cweagans/composer-patches"
     }
-],
+  ],
   "require": {
     "composer/installers": "^1.3.0",
     "cul-it/advanced-custom-fields-pro": "5.8.7",
@@ -99,7 +99,7 @@
     "simplesamlphp/simplesamlphp": "1.18.2",
     "vlucas/phpdotenv": "3.3.3",
     "wpackagist-plugin/acf-better-search": "3.4.3",
-    "wpackagist-plugin/advanced-access-manager":"6.1.0",
+    "wpackagist-plugin/advanced-access-manager": "6.2.1",
     "wpackagist-plugin/akismet": "4.1.3",
     "wpackagist-plugin/all-in-one-wp-migration": "7.12",
     "wpackagist-plugin/better-font-awesome": "1.7.1",
