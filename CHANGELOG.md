@@ -6,7 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3 compatability "Unknown"
-- FacetWP - version 3.4.0 installed but 3.4.5 available with WordPress 5.3 compatability "Unknown"
+- FacetWP - version 3.4.0 installed but 3.4.6 available with WordPress 5.3 compatability "Unknown"
+
+## [v1.2.38] - 2020-01-08
+### Changed
+- WordPress 5.3 -> 5.3.2 - see [Release Notes 5.3.1](https://wordpress.org/support/wordpress-version/version-5-3-1/) and
+ [Release Notes 5.3.2](https://wordpress.org/support/wordpress-version/version-5-3-2/)
+- Advanced Access Manager 6.2.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- All-in One WP Migration 7.12 -> 7.14 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
+- Elementor 2.8.1 -> 2.8.3 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- WP Mail SMTP 1.8.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- WP RSS Aggregator 4.17.2 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+### Added
+- Custom Icons for Elementor - 0.3.1
 
 ## [v1.2.37] - 2019-12-12
 ### Changed
