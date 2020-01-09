@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.6 available with WordPress 5.3 compatability "Unknown"
 
+## [v1.2.39] - 2020-01-09
+### Changed
+- Elementor Pro - 2.7.3 -> 2.8.3 - see [many changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- Advanced Access Manager 6.2.2 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- custom-post-type-ui update - 1.7.2 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
+
 ## [v1.2.38] - 2020-01-08
 ### Changed
 - WordPress 5.3 -> 5.3.2 - see [Release Notes 5.3.1](https://wordpress.org/support/wordpress-version/version-5-3-1/) and
