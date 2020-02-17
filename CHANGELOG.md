@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.3.0] - 2020-02-17
 ### Added
 Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
+## Changed
+- Advanced Access Manager 6.2.2 -> 6.3.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 ## [v1.2.39] - 2020-01-09
 ### Changed
 - Elementor Pro - 2.7.3 -> 2.8.3 - see [many changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
