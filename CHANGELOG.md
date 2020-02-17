@@ -5,8 +5,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3 compatability "Unknown"
-- FacetWP - version 3.4.0 installed but 3.4.6 available with WordPress 5.3 compatability "Unknown"
+- Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3.2 compatability "Unknown"
+- FacetWP - version 3.4.0 installed but 3.4.7 available with WordPress 5.3.2 compatability "Unknown"
+
+
+## [v1.3.0] - 2020-02-17
+### Added
+Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
+## Changed
+- Advanced Access Manager 6.2.2 -> 6.3.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- All-in One WP Migration 7.12 -> 7.17 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
+- capability-manager-enhanced - 1.8.1 -> 1.9 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- Code Snippets - 2.13.3 -> 2.14.0 - see [Changelog](https://wordpress.org/plugins/code-snippets/#developers)
+- custom-post-type-ui update - 1.7.2 -> 1.7.3 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
+- Elementor Pro - 2.8.3 -> 2.8.4 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- Elementor 2.8.3 -> 2.9.2 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- google-analytics-dashboard-for-wp - 5.3.10 -> 6.0.1 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- WP RSS Aggregator 4.17.2 -> 4.17.3 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- wp-saml-auth - 0.8.1 -> 0.8.3 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
+- simplesamlphp - 1.18.2 -> 1.18.4 - see [Change Log](https://simplesamlphp.org/docs/1.18/simplesamlphp-changelog#section_1)
+- CULU Theme updates - 1.0.31 -> v1.0.32 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+
 
 ## [v1.2.39] - 2020-01-09
 ### Changed
