@@ -23,6 +23,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - google-analytics-dashboard-for-wp - 5.3.10 -> 6.0.1 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - WP RSS Aggregator 4.17.2 -> 4.17.3 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - wp-saml-auth - 0.8.1 -> 0.8.3 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
+- simplesamlphp - 1.18.2 -> 1.18.4 - see [Change Log](https://simplesamlphp.org/docs/1.18/simplesamlphp-changelog#section_1)
 
 
 ## [v1.2.39] - 2020-01-09
