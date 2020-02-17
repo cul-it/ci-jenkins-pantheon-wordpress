@@ -20,6 +20,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - Elementor Pro - 2.8.3 -> 2.8.4 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 - Elementor 2.8.3 -> 2.9.2 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 - google-analytics-dashboard-for-wp - 5.3.10 -> 6.0.1 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- WP RSS Aggregator 4.17.2 -> 4.17.3 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 ## [v1.2.39] - 2020-01-09
 ### Changed
 - Elementor Pro - 2.7.3 -> 2.8.3 - see [many changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
