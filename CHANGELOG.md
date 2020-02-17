@@ -17,6 +17,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - capability-manager-enhanced - 1.8.1 -> 1.9 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - Code Snippets - 2.13.3 -> 2.14.0 - see [Changelog](https://wordpress.org/plugins/code-snippets/#developers)
 - custom-post-type-ui update - 1.7.2 -> 1.7.3 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
+- Elementor Pro - 2.8.3 -> 2.8.4 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 ## [v1.2.39] - 2020-01-09
 ### Changed
 - Elementor Pro - 2.7.3 -> 2.8.3 - see [many changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
