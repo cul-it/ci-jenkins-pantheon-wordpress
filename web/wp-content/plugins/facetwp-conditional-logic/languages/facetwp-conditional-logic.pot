@@ -1,0 +1,191 @@
+# Copyright (C) 2019 FacetWP, LLC
+# This file is distributed under the same license as the FacetWP - Conditional Logic plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FacetWP - Conditional Logic 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/facetwp-"
+"conditional-logic\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-14 14:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: facetwp-conditional-logic\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: facetwp-conditional-logic.php:47
+msgid "Saving"
+msgstr ""
+
+#: facetwp-conditional-logic.php:48
+msgid "Importing"
+msgstr ""
+
+#: facetwp-conditional-logic.php:49
+msgid "Changes saved"
+msgstr ""
+
+#: facetwp-conditional-logic.php:50 page-settings.php:112
+msgid "OR"
+msgstr ""
+
+#: facetwp-conditional-logic.php:51 page-settings.php:85
+msgid "IF"
+msgstr ""
+
+#: facetwp-conditional-logic.php:52 page-settings.php:124
+msgid "AND"
+msgstr ""
+
+#: facetwp-conditional-logic.php:53
+msgid "THEN"
+msgstr ""
+
+#: facetwp-conditional-logic.php:54
+msgid "Delete this ruleset?"
+msgstr ""
+
+#: facetwp-conditional-logic.php:84
+msgid "All done!"
+msgstr ""
+
+#: facetwp-conditional-logic.php:97
+msgid "Rules saved"
+msgstr ""
+
+#: facetwp-conditional-logic.php:100
+msgid "Error: invalid JSON"
+msgstr ""
+
+#: page-settings.php:5
+msgid "Rulesets"
+msgstr ""
+
+#: page-settings.php:6
+msgid "Settings"
+msgstr ""
+
+#: page-settings.php:15
+msgid "Add Ruleset"
+msgstr ""
+
+#: page-settings.php:16
+msgid "Save Changes"
+msgstr ""
+
+#: page-settings.php:25
+msgid "To export, copy the code below."
+msgstr ""
+
+#: page-settings.php:27
+msgid "To import, paste code into the field below."
+msgstr ""
+
+#: page-settings.php:30
+msgid "Importing will replace any existing rulesets."
+msgstr ""
+
+#: page-settings.php:45
+msgid "Change me"
+msgstr ""
+
+#: page-settings.php:52
+msgid "Conditions"
+msgstr ""
+
+#: page-settings.php:54
+msgid "Add Condition"
+msgstr ""
+
+#: page-settings.php:57
+msgid "Actions"
+msgstr ""
+
+#: page-settings.php:62
+msgid "ELSE"
+msgstr ""
+
+#: page-settings.php:65
+msgid "Do the opposite"
+msgstr ""
+
+#: page-settings.php:66
+msgid "Do nothing"
+msgstr ""
+
+#: page-settings.php:71
+msgid "Add Action"
+msgstr ""
+
+#: page-settings.php:89
+msgid "No facets in use"
+msgstr ""
+
+#: page-settings.php:90
+msgid "Some facets in use"
+msgstr ""
+
+#: page-settings.php:91
+msgid "Page URI"
+msgstr ""
+
+#: page-settings.php:92
+msgid "Result count"
+msgstr ""
+
+#: page-settings.php:96 page-settings.php:135
+msgid "Facet"
+msgstr ""
+
+#: page-settings.php:101 page-settings.php:131
+msgid "Template"
+msgstr ""
+
+#: page-settings.php:106
+msgid "is"
+msgstr ""
+
+#: page-settings.php:107
+msgid "is not"
+msgstr ""
+
+#: page-settings.php:109
+msgid "enter values"
+msgstr ""
+
+#: page-settings.php:127
+msgid "Show"
+msgstr ""
+
+#: page-settings.php:128
+msgid "Hide"
+msgstr ""
+
+#: page-settings.php:132
+msgid "All Facets"
+msgstr ""
+
+#: page-settings.php:139
+msgid "Selector"
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "FacetWP - Conditional Logic"
+msgstr ""
+
+#. Description of the plugin
+msgid "Toggle facets based on certain conditions"
+msgstr ""
+
+#. Author of the plugin
+msgid "FacetWP, LLC"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://facetwp.com/"
+msgstr ""
