@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3.2 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.7 available with WordPress 5.3.2 compatability "Unknown"
 
+## [v1.3.0] - 2020-02-17
+### Added
+Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
 ## [v1.2.39] - 2020-01-09
 ### Changed
 - Elementor Pro - 2.7.3 -> 2.8.3 - see [many changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
