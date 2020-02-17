@@ -24,6 +24,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - WP RSS Aggregator 4.17.2 -> 4.17.3 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - wp-saml-auth - 0.8.1 -> 0.8.3 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
 - simplesamlphp - 1.18.2 -> 1.18.4 - see [Change Log](https://simplesamlphp.org/docs/1.18/simplesamlphp-changelog#section_1)
+- CULU Theme updates - 1.0.31 -> v1.0.32 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
 
 
 ## [v1.2.39] - 2020-01-09
