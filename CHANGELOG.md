@@ -8,11 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3.2 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.7 available with WordPress 5.3.2 compatability "Unknown"
 
+## [v1.3.1] -- 2020-02-20
+### Changed
+- CULU Theme updates - 1.0.32 -> v1.1.0 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+### Removed
+- All-in One WP Migration
+
 
 ## [v1.3.0] - 2020-02-17
 ### Added
 Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
-## Changed
+### Changed
 - Advanced Access Manager 6.2.2 -> 6.3.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - All-in One WP Migration 7.12 -> 7.17 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
 - capability-manager-enhanced - 1.8.1 -> 1.9 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
