@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3.2 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.4.7 available with WordPress 5.3.2 compatability "Unknown"
 
+## [v1.3.2]
+### Changed
+- just the CHANGELOG.md - this is a test for the new Jenkins on AWS
+
 ## [v1.3.1] -- 2020-02-20
 ### Changed
 - CULU Theme updates - 1.0.32 -> v1.1.0 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
