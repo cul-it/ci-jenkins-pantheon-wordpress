@@ -12,7 +12,7 @@ group :development do
     gem "chromedriver-helper"
     gem "cucumber"
     gem "inifile"
-    gem "nokogiri", ">= 1.10.4"
+    gem "nokogiri", ">= 1.10.8"
     gem "phantomjs", :require => 'phantomjs/poltergeist'
     gem "poltergeist"
     gem "rubyzip"
