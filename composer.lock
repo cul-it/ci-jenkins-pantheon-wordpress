@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19eafa0e2e1261608187134c487a10be",
+    "content-hash": "f9b91b6f26a849ba59e8db6893c40e7c",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -227,16 +227,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "d818ff16a02f36f0509bd3d36029d566061d7f58"
+                "reference": "8d69a57c44976bffb0459986f4eac81ecebed2fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/d818ff16a02f36f0509bd3d36029d566061d7f58",
-                "reference": "d818ff16a02f36f0509bd3d36029d566061d7f58",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/8d69a57c44976bffb0459986f4eac81ecebed2fb",
+                "reference": "8d69a57c44976bffb0459986f4eac81ecebed2fb",
                 "shasum": ""
             },
             "require": {
@@ -254,10 +254,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.1.0",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.1.1",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2020-02-20T18:29:20+00:00"
+            "time": "2020-02-25T17:01:18+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
