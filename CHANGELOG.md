@@ -5,13 +5,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Advanced Custom Fields - version 5.8.7 installed but 5.8.8 available - compatability with Wordpress 5.3.2 "Unknown"
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3.2 compatability "Unknown"
-- FacetWP - version 3.4.0 installed but 3.4.7 available with WordPress 5.3.2 compatability "Unknown"
+- FacetWP - version 3.4.0 installed but 3.5.0.1 available with WordPress 5.3.2 compatability "Unknown"
+
+## [v1.3.3]
+### Changed
+- CULU Theme update v1.1.2 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- Elementor Pro - 2.8.5 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- Elementor 2.9.2 -> 2.9.6 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- wp-saml-auth - 0.8.3 -> 1.0.0 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
+- Advanced Access Manager 6.3.3 -> 6.4.0 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- google-analytics-dashboard-for-wp - 6.0.1 -> 6.0.2 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- kirki customizer framework- 3.0.45 -> 3.1.0 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
+- pantheon-advanced-page-cache update - 0.3.1 -> 1.0.0 - see [Changelog](https://wordpress.org/plugins/pantheon-advanced-page-cache/#developers)
+- wp-native-php-sessions - 0.9.0 -> 1.0.0 - see [changelog](https://github.com/pantheon-systems/wp-native-php-sessions/pull/135)
 
 ## [v1.3.2]
 ### Changed
 - CULU Theme updates - 1.1.0 -> v1.1.1 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
-- update nokogiri for Security advisory GHSA-7553-jr98-vx47 
+- update nokogiri for Security advisory GHSA-7553-jr98-vx47
 
 ## [v1.3.1] -- 2020-02-20
 ### Changed
