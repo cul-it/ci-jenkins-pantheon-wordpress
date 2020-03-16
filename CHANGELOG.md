@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3.2 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.5.0.1 available with WordPress 5.3.2 compatability "Unknown"
 
+## [v1.3.4]
+### Added
+- wp-custom-loop-widget v1.0.0 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+- easy-notification-bar v1.0 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
 - Advanced Access Manager 6.4.0 -> 6.4.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - WP RSS Aggregator 4.17.3 -> 4.17.4 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 ## [v1.3.3]
