@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - FacetWP - version 3.4.0 installed but 3.5.0.1 available with WordPress 5.3.2 compatability "Unknown"
 
 - Advanced Access Manager 6.4.0 -> 6.4.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- WP RSS Aggregator 4.17.3 -> 4.17.4 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 ## [v1.3.3]
 ### Changed
 - CULU Theme update v1.1.2 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
