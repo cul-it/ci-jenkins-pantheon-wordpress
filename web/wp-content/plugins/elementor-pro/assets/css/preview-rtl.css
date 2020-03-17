@@ -1,0 +1,54 @@
+/*! elementor-pro - v2.8.5 - 08-03-2020 */
+/*! elementor-pro - v2.8.4 - 01-03-2020 */
+.elementor-document-handle {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #fcb92c;
+  padding: 5px 10px;
+  font-size: 11px;
+  color: #fff;
+  border-radius: 0 0 3px 3px;
+  cursor: pointer; }
+  .elementor-document-handle:before, .elementor-document-handle:after {
+    content: '';
+    position: absolute;
+    border: solid transparent; }
+  .elementor-document-handle:before {
+    left: calc(100% - 1px);
+    border-left-color: #fcb92c;
+    border-width: 0 15px 26px 0; }
+  .elementor-document-handle:after {
+    right: calc(100% - 1px);
+    border-right-color: #fcb92c;
+    border-width: 0 0 26px 15px; }
+  .elementor-document-handle .eicon-edit {
+    margin-left: 5px; }
+
+.elementor-editor-active .elementor {
+  position: relative; }
+  .elementor-editor-active .elementor:not(.elementor-edit-mode):hover {
+    -webkit-box-shadow: 0 0 0 1px #fcb92c;
+            box-shadow: 0 0 0 1px #fcb92c; }
+    .elementor-editor-active .elementor:not(.elementor-edit-mode):hover .elementor-document-handle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+  .elementor-editor-active .elementor.loading {
+    opacity: 0.5; }
+  .elementor-editor-active .elementor[data-elementor-type="single"] > .elementor-document-handle {
+    -webkit-transform: translateX(-50%) translateY(-100%);
+        -ms-transform: translateX(-50%) translateY(-100%);
+            transform: translateX(-50%) translateY(-100%);
+    border-radius: 3px 3px 0 0; }
+    .elementor-editor-active .elementor[data-elementor-type="single"] > .elementor-document-handle:before, .elementor-editor-active .elementor[data-elementor-type="single"] > .elementor-document-handle:after {
+      border-width: 26px 15px 0 0; }
+/*# sourceMappingURL=preview-rtl.css.map */
