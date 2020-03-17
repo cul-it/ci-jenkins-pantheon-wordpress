@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-templates - 0.1.1 -> 0.2 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
 
 - CULU Theme update v1.1.3 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- wp-libcal-hours update - 1.0.11 -> 1.0.12 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
 
 ## [v1.3.4]
 ### Added
