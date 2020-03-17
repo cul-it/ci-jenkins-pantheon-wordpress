@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-keyword-filtering plugin - 1.6.3.1 -> 1.7 - [description](https://github.com/cul-it/wp-rss-keyword-filtering/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
 - wp-rss-templates - 0.1.1 -> 0.2 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
 
+## [v1.3.7]
+### Changed
+- rebuild composer.lock
+
 ## [v1.3.6]
 ### Changed
 - CULU Theme update v1.1.4 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
