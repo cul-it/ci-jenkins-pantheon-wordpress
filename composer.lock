@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a281c84fb2110f4b53f7d8e9925859ca",
+    "content-hash": "7af78c0fd17f5612168a05e0f789c25c",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -227,16 +227,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.1.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "2a587bd048145b920de6ab726eb3b9db59874993"
+                "reference": "47cb5f342ee42f7c68a92f5cb751499268160ea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/2a587bd048145b920de6ab726eb3b9db59874993",
-                "reference": "2a587bd048145b920de6ab726eb3b9db59874993",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/47cb5f342ee42f7c68a92f5cb751499268160ea7",
+                "reference": "47cb5f342ee42f7c68a92f5cb751499268160ea7",
                 "shasum": ""
             },
             "require": {
@@ -254,10 +254,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.1.2",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.1.3",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2020-03-13T15:26:41+00:00"
+            "time": "2020-03-17T15:25:30+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -385,16 +385,16 @@
         },
         {
             "name": "cul-it/wp-libcal-hours",
-            "version": "v1.0.11",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-libcal-hours.git",
-                "reference": "619400bd60615b02790eae63a544288ca20d6ca0"
+                "reference": "b68dfeeb37ea28fa8f382c51b3734d84620366be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/619400bd60615b02790eae63a544288ca20d6ca0",
-                "reference": "619400bd60615b02790eae63a544288ca20d6ca0",
+                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/b68dfeeb37ea28fa8f382c51b3734d84620366be",
+                "reference": "b68dfeeb37ea28fa8f382c51b3734d84620366be",
                 "shasum": ""
             },
             "require": {
@@ -412,10 +412,10 @@
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
             "support": {
-                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.11",
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v1.0.12",
                 "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
             },
-            "time": "2019-12-12T20:40:41+00:00"
+            "time": "2020-03-17T17:39:13+00:00"
         },
         {
             "name": "cul-it/wp-rss-aggregator",
@@ -4738,7 +4738,7 @@
         },
         {
             "name": "wpackagist-plugin/capability-manager-enhanced",
-            "version": "1.9",
+            "version": "1.9.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
@@ -4746,7 +4746,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.zip?timestamp=1578722351"
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.zip?timestamp=1584459938"
             },
             "require": {
                 "composer/installers": "~1.0"

@@ -11,13 +11,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-keyword-filtering plugin - 1.6.3.1 -> 1.7 - [description](https://github.com/cul-it/wp-rss-keyword-filtering/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
 - wp-rss-templates - 0.1.1 -> 0.2 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
 
+## [v1.3.5]
+### Changed
+- CULU Theme update v1.1.3 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- capability-manager-enhanced - 1.9 -> 1.9.2 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- wp-libcal-hours update - 1.0.11 -> 1.0.12 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
 
 ## [v1.3.4]
 ### Added
 - wp-custom-loop-widget v1.0.1 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 - easy-notification-bar v1.0 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
 ### Changed
-- CULU Theme update v1.1.3 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
 - Advanced Access Manager 6.4.0 -> 6.4.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - WP RSS Aggregator 4.17.3 -> 4.17.4 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - acf-better-search 3.4.3 -> 3.5.0 updates - see [AFC Search Changelog](https://wordpress.org/plugins/acf-better-search/#developers)
