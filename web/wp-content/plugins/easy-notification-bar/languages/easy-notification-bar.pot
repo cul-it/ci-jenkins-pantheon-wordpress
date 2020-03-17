@@ -1,0 +1,107 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Notification Bar Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-18 16:07-0700\n"
+"PO-Revision-Date: 2016-08-09 12:06-0800\n"
+"Last-Translator: AJ Clarke <wpexplorer@gmail.com>\n"
+"Language-Team: WPExplorer.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;"
+"_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;_nx_noop:4c,1,2;"
+"_nx;_esc_attr__;esc_attr_x;esc_attr_e;esc_html__;esc_html_e;esc_html_x;__;_e;"
+"esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: easy-notification-bar.php:122
+msgid "Settings"
+msgstr ""
+
+#: easy-notification-bar.php:304
+msgid "Easy Notification Bar"
+msgstr ""
+
+#: easy-notification-bar.php:316
+msgid "Enable Notification Bar"
+msgstr ""
+
+#: easy-notification-bar.php:320
+msgid ""
+"Note: If you do not see the bar on your site you need to update your theme "
+"to include the WordPress core \"wp_body_open\" action hook required since "
+"WordPress 5.2.0"
+msgstr ""
+
+#: easy-notification-bar.php:331
+msgid "Message"
+msgstr ""
+
+#: easy-notification-bar.php:345
+msgid "Background"
+msgstr ""
+
+#: easy-notification-bar.php:359
+msgid "Text Color"
+msgstr ""
+
+#: easy-notification-bar.php:373
+msgid "Text Align"
+msgstr ""
+
+#: easy-notification-bar.php:378
+msgid "Center"
+msgstr ""
+
+#: easy-notification-bar.php:379
+msgid "Left"
+msgstr ""
+
+#: easy-notification-bar.php:380
+msgid "Right"
+msgstr ""
+
+#: easy-notification-bar.php:392
+msgid "Apply System Font Family?"
+msgstr ""
+
+#: easy-notification-bar.php:396
+msgid ""
+"Use the common system UI font stack font family for your notification bar. "
+"If disabled it will inherit the font family from your theme."
+msgstr ""
+
+#: easy-notification-bar.php:407
+msgid "Font Size"
+msgstr ""
+
+#: easy-notification-bar.php:411
+msgid "If a unit is not specified \"px\" will be used."
+msgstr ""
+
+#: easy-notification-bar.php:422
+msgid "Button Text"
+msgstr ""
+
+#: easy-notification-bar.php:436
+msgid "Button Link"
+msgstr ""
+
+#: easy-notification-bar.php:440
+msgid "Leave Empty to disable."
+msgstr ""
+
+#: easy-notification-bar.php:451
+msgid "Add nofollow tag to button?"
+msgstr ""
+
+#: easy-notification-bar.php:465
+msgid "Open button link in new tab?"
+msgstr ""

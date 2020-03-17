@@ -1,0 +1,72 @@
+/*---
+  Stylesheet for Staff Profiles (staff_profiles)
+---*/
+
+.staff-profile {
+  width: 282px;
+  /* margin: 0 auto; */
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  border: 1px solid #E0E0E0;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+@media only screen and (min-width: 640px) {
+  .staff-profile
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+.staff-profile h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.staff-profile h3 span {
+  font-size: 14px;
+}
+.staff-profile h4 {
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.staff-profile p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.staff-profile .staff-email span, .staff-profile .staff-phone span {
+  padding-right: 7px;
+}
+.staff-profile .staff-social .staff-orcid-id {
+  padding-right: 5px;
+}
+.staff-profile .staff-social .staff-orcid-id img
+  vertical-align: middle;
+}
+.staff-profile .staff-expertise{
+  margin-top: 9px;
+}
+.staff-profile .staff-liaison {
+  margin-top: 9px;
+  margin-bottom: 15px;
+}
+.staff-profile .btn-graphic {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 0;
+  padding: 10px 20px;
+  width: 100%;
+}
+.staff-profile .btn-graphic:hover {
+  background-color: #000;
+  color: #fff;
+}
