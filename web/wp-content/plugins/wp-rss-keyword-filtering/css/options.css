@@ -1,0 +1,46 @@
+.wprss-kf-help {
+    color: #5a5a5a;
+    margin-bottom: 20px;
+}
+.wprss-kf-help-example {
+    font-style: italic;
+    margin-top: 0;
+    padding: 3px 5px;
+    background: rgba(100, 100, 100, .1);
+    border-radius: 2px;
+}
+
+/*
+ * Meta box styles
+ */
+
+#keyword_filtering_meta_box h3 {
+    margin: 10px 5px 5px;
+    font-size: 1.2em;
+}
+.wprss_kf_metabox_section {
+    position: relative;
+    display: block;
+    padding: 5px;
+}
+.wprss_kf_metabox_section > div {
+    display: block;
+    margin-bottom: 10px;
+}
+.wprss_kf_metabox_section > div > label:first-child {
+    display: block;
+    margin-bottom: 3px;
+}
+.wprss_kf_metabox_section > div > label > input[type="text"] {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+.wprss_kf_metabox_section > div.wprss_kf_metabox_filter_checkboxes > label {
+    margin-left: 10px;
+}
+.wprss_kf_metabox_separator {
+    color: white;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
