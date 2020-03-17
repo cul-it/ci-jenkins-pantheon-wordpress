@@ -1,0 +1,66 @@
+/*---
+
+  TAGS
+
+---*/
+
+a[rel="tag"] {
+  padding: 8px 5px;
+  border-radius: 3px;
+  background-color: #000;
+  font-size: 12px;
+  color: #fff;
+}
+
+.category-tag a {
+
+  padding: 8px 5px;
+  border-radius: 3px;
+  background-color: #015C84;
+  font-size: 14px;
+  color: #fff;
+}
+
+.pagination {
+
+  margin-top: -20px;
+
+}
+
+.tag {
+  .page-interior {
+    display: block;
+    margin: 0 auto;
+    width: calc(100vw - 40px);
+    //grid-template-columns: 100%;
+    padding: 10px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+
+    @media only screen and (min-width: 600px) {
+      width: 90% !important;
+      padding-top: 30px;
+    }
+
+    @media only screen and (min-width: 1440px) {
+      width: 1360px !important;
+    }
+
+    @media only screen and (min-width: 1600px) {
+      width: 1529px !important;
+    }
+    h2 {
+      margin-bottom: 0;
+    }
+    h3 {
+      margin-bottom: 10px;
+    }
+    article {
+      display: inline-block;
+      vertical-align: top;
+      //margin-bottom: 20px;
+
+    }
+  }
+}
+
