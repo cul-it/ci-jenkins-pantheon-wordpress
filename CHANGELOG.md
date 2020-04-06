@@ -5,11 +5,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3.2 compatability "Unknown"
-- FacetWP - version 3.4.0 installed but 3.5.0.1 available with WordPress 5.3.2 compatability "Unknown"
-- wp-rss-keyword-filtering plugin - 1.6.3.1 -> 1.7 - [description](https://github.com/cul-it/wp-rss-keyword-filtering/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
-- wp-rss-templates - 0.1.1 -> 0.2 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
-
 - kirki customizer framework - update 3.1.1 available but Compatibility with WordPress 5.4: Unknown
 
 ## [v1.3.8]
