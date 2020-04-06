@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - capability-manager-enhanced aka PublishPress Capabilities - 1.9.4 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - WP Mail SMTP 1.9.0 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 - CULU Theme update v1.1.5 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- wp-custom-loop-widget v1.1.0 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+
 
 ## [v1.3.7]
 ### Changed
