@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.3.8]
 ### Changed
 - wordpress-composer 5.4 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
+- acf-better-search 3.5.3 updates - see [AFC Search Changelog](https://wordpress.org/plugins/acf-better-search/#developers)
+- Advanced Access Manager 6.4.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 ## [v1.3.7]
 ### Changed
 - rebuild composer.lock
