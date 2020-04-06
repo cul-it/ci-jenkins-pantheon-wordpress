@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - custom-post-type-ui update - 1.7.4 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
 - easy-notification-bar v1.1.1 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
 - Elementor Pro - 2.9.7 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- json-content-importer - update 1.3.7 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
 
 ## [v1.3.7]
 ### Changed
