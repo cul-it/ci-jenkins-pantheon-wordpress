@@ -5,11 +5,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Advanced Custom Fields - version 5.8.7 installed but 5.8.8 available - compatability with Wordpress 5.3.2 "Unknown"
-- Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3.2 compatability "Unknown"
-- FacetWP - version 3.4.0 installed but 3.5.0.1 available with WordPress 5.3.2 compatability "Unknown"
-- wp-rss-keyword-filtering plugin - 1.6.3.1 -> 1.7 - [description](https://github.com/cul-it/wp-rss-keyword-filtering/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
-- wp-rss-templates - 0.1.1 -> 0.2 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
+- kirki customizer framework - update 3.1.1 available but Compatibility with WordPress 5.4: Unknown
+
+## [v1.3.8]
+### Changed
+- wordpress-composer 5.4 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
+- acf-better-search 3.5.3 updates - see [AFC Search Changelog](https://wordpress.org/plugins/acf-better-search/#developers)
+- Advanced Access Manager 6.4.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- Advanced Custom Fields - version 5.8.9 - see [Release Notes](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)
+- Akismet Anti-Spam - 4.1.4 - see [Changelog](https://wordpress.org/plugins/akismet/#developers)
+- custom-post-type-ui update - 1.7.4 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
+- easy-notification-bar v1.1.1 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
+- Elementor 2.9.7 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- json-content-importer - update 1.3.7 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
+- capability-manager-enhanced aka PublishPress Capabilities - 1.9.4 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- WP Mail SMTP 1.9.0 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- CULU Theme update v1.1.5 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- wp-custom-loop-widget v1.1.0 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+- wp-libcal-hours update - v2.0.0 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+
 
 ## [v1.3.7]
 ### Changed
