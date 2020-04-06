@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Akismet Anti-Spam - 4.1.4 - see [Changelog](https://wordpress.org/plugins/akismet/#developers)
 - custom-post-type-ui update - 1.7.4 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
 - easy-notification-bar v1.1.1 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
+- Elementor Pro - 2.9.7 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 
 ## [v1.3.7]
 ### Changed
