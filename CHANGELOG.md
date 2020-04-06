@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP Mail SMTP 1.9.0 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 - CULU Theme update v1.1.5 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
 - wp-custom-loop-widget v1.1.0 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+- wp-libcal-hours update - v2.0.0 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
 
 
 ## [v1.3.7]
