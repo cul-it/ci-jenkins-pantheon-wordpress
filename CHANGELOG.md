@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-keyword-filtering plugin - 1.6.3.1 -> 1.7 - [description](https://github.com/cul-it/wp-rss-keyword-filtering/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
 - wp-rss-templates - 0.1.1 -> 0.2 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
 
+- kirki customizer framework - update 3.1.1 available but Compatibility with WordPress 5.4: Unknown
+
 ## [v1.3.8]
 ### Changed
 - wordpress-composer 5.4 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
