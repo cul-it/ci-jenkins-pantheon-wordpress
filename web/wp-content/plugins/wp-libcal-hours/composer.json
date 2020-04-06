@@ -1,0 +1,15 @@
+{
+    "name": "cul-it/wp-libcal-hours",
+    "description": "Library Hours and Status from LibCal for WordPress",
+    "type": "wordpress-plugin",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "composer/installers": "^1.0"
+    },
+    "license": "GPL-2.0",
+    "authors": [{
+        "name": "Kevin Kidwell",
+        "email": "kek245@cornell.edu"
+    }]
+}

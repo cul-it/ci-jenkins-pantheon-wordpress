@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP RSS Aggregator - Categories\n"
+"POT-Creation-Date: 2015-04-15 18:47+0800\n"
+"PO-Revision-Date: 2015-04-15 18:47+0800\n"
+"Last-Translator: Eric Suiker <esuiker@hotmail.com>\n"
+"Language-Team: WP RSS Aggregator <info@wprssaggregator.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/admin-display.php:18
+#, php-format
+msgid "Show All %s"
+msgstr "Toon Alle %s"
+
+#: ../includes/admin-settings.php:14
+msgid "Categories License"
+msgstr "Categorieën Licentie"
+
+#: ../includes/admin-settings.php:21
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: ../includes/admin-settings.php:29 ../includes/admin-settings.php:92
+msgid "Activate License"
+msgstr "Licentie Activeren"
+
+#: ../includes/admin-settings.php:71
+msgid "Enter your license key"
+msgstr "Voer uw licentiesleutel in"
+
+#: ../includes/admin-settings.php:86
+msgid "active"
+msgstr "actief"
+
+#: ../includes/admin-settings.php:88
+msgid "Deactivate License"
+msgstr "Deactiveer Licentie"
+
+#: ../includes/custom-taxonomy.php:43
+msgid "Feed Categories"
+msgstr "Feed Categorieën"
+
+#: ../includes/custom-taxonomy.php:44
+msgid "Category"
+msgstr "Categorie"
+
+#: ../includes/custom-taxonomy.php:45
+msgid "Search Categories"
+msgstr "Categorieën Zoeken"
+
+#: ../includes/custom-taxonomy.php:46
+msgid "All Categories"
+msgstr "﻿Alle Categorieën"
+
+#: ../includes/custom-taxonomy.php:47
+msgid "Parent Category"
+msgstr "Hoofdcategorie"
+
+#: ../includes/custom-taxonomy.php:48
+msgid "Parent Category:"
+msgstr "Hoofdcategorie:"
+
+#: ../includes/custom-taxonomy.php:49
+msgid "Edit Category"
+msgstr "Categorie Bewerken"
+
+#: ../includes/custom-taxonomy.php:50
+msgid "Update Category"
+msgstr "Categorie Bijwerken"
+
+#: ../includes/custom-taxonomy.php:51
+msgid "Add New Category"
+msgstr "Nieuwe Categorie Toevoegen"
+
+#: ../includes/custom-taxonomy.php:52
+msgid "New Category Name"
+msgstr "Nieuwe Categorie Naam"
+
+#: ../includes/custom-taxonomy.php:53 ../includes/custom-taxonomy.php:131
+msgid "Categories"
+msgstr "Categorieën"
+
+#: ../wp-rss-categories.php:91
+msgid "This plugin requires WordPress version 3.3 or higher."
+msgstr "Deze plugin vereist WordPress versie 3.3 of hoger."
+
+#: ../wp-rss-categories.php:162
+#, php-format
+msgid ""
+"Please <a href=\"%s\">install &amp; activate WP RSS Aggregator</a> for the "
+"Categories addon to work."
+msgstr ""
+"Gelieve <a href=\"%s\"> WP RSS Aggregator te installeren &amp; activeren</a> "
+"om de Categorieën addon te laten werken."
+
+#: ../wp-rss-categories.php:175
+msgid ""
+"Please update WP RSS Aggregator to the latest version for the Categories "
+"addon to work properly."
+msgstr ""
+"Gelieve WP RSS Aggregator bij te werken naar de nieuwste versie om de "
+"Categorieën addon goed te laten werken."
+
+#~ msgid ""
+#~ "<a href=\"%s\">Save 30%% on your license renewal</a> for the WP RSS "
+#~ "Aggregator <b>Categories</b> add-on and continue receiving updates and "
+#~ "support."
+#~ msgstr ""
+#~ "<a href=\"%s\">Bespaar 30 %% over de verlenging van uw licentie</a> voor "
+#~ "de WP RSS Aggregator <b>Categorieën</b> add-on en blijf updates en "
+#~ "ondersteuning ontvangen."
+
+#~ msgid "Dismiss this notification"
+#~ msgstr "Verberg dit bericht"
+
+#~ msgid ""
+#~ "Remember to <a href=\"%s\">enter your plugin license code</a> for the WP "
+#~ "RSS Aggregator <b>Categories</b> add-on, to benefit from updates and "
+#~ "support."
+#~ msgstr ""
+#~ "Vergeet niet om <a href=\"%s\">uw plugin licentiecode in te voeren</a> "
+#~ "voor de WP RSS Aggregator <b>Categorieën</b> add-on, om te profiteren van "
+#~ "updates en ondersteuning."
