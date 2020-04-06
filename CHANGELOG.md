@@ -5,7 +5,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Advanced Custom Fields - version 5.8.7 installed but 5.8.8 available - compatability with Wordpress 5.3.2 "Unknown"
 - Draw Attention Pro - version 1.9.12 installed but 1.10.0 is available with WordPress 5.3.2 compatability "Unknown"
 - FacetWP - version 3.4.0 installed but 3.5.0.1 available with WordPress 5.3.2 compatability "Unknown"
 - wp-rss-keyword-filtering plugin - 1.6.3.1 -> 1.7 - [description](https://github.com/cul-it/wp-rss-keyword-filtering/blob/master/CHANGELOG.md) - we don't have the proper account to download the paid plugin
@@ -16,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wordpress-composer 5.4 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
 - acf-better-search 3.5.3 updates - see [AFC Search Changelog](https://wordpress.org/plugins/acf-better-search/#developers)
 - Advanced Access Manager 6.4.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- Advanced Custom Fields - version 5.8.9 - see [Release Notes](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)
+
+
 ## [v1.3.7]
 ### Changed
 - rebuild composer.lock
