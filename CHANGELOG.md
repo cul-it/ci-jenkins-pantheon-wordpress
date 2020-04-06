@@ -17,7 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Advanced Access Manager 6.4.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - Advanced Custom Fields - version 5.8.9 - see [Release Notes](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)
 - Akismet Anti-Spam - 4.1.4 - see [Changelog](https://wordpress.org/plugins/akismet/#developers)
-
+- custom-post-type-ui update - 1.7.4 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
+- easy-notification-bar v1.1.1 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
 
 ## [v1.3.7]
 ### Changed
