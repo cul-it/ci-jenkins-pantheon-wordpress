@@ -1,0 +1,204 @@
+.acfbsPage {
+  margin: 0;
+  padding: 0 20px 0 0;
+  font-family: $f-main;
+  color: $c-gray-07;
+  overflow: hidden;
+
+  @media screen and (max-width: 782px) {
+    padding-right: 10px;
+  }
+
+  /* ---
+    Reset
+  --- */
+
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  *[hidden] {
+    display: none !important;
+  }
+
+  /* ---
+    Headline
+  --- */
+
+  &__headline {
+    padding: 32px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  /* ---
+    Alert
+  --- */
+
+  &__alert {
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 1.64;
+    color: $c-white;
+    background-color: $c-green-01;
+  }
+
+  /* ---
+    Grid
+  --- */
+
+  &__columns {
+    margin: 0 -30px;
+    overflow: hidden;
+  }
+
+  &__column {
+    float: left;
+    padding: 0 30px;
+
+    &--large {
+      width: 66.666%;
+
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+      }
+    }
+
+    &--small {
+      width: 33.333%;
+
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+        margin-top: 40px;
+      }
+    }
+  }
+
+  /* ---
+    Widget
+  --- */
+
+  &__widget {
+    background-color: $c-white;
+
+    & + & {
+      margin-top: 60px;
+
+      @media screen and (max-width: 1024px) {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  &__widgetTitle {
+    padding: 14px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $c-white;
+    background-color: $c-blue-01;
+
+    &--second {
+      background-color: $c-gray-05;
+    }
+  }
+
+  &__widgetTable {
+    width: 100%;
+    margin: 5px 0;
+    border-spacing: 0;
+
+    td {
+      padding: 5px 0;
+      vertical-align: top;
+
+      &:first-child {
+        width: 22px;
+        padding-right: 30px;
+      }
+    }
+  }
+
+  &__widgetRow {
+    padding-bottom: 10px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    .acfbsButton {
+      margin: 10px 0;
+    }
+  }
+
+  /* ---
+    Checkbox / radio
+  --- */
+
+  &__checkbox {
+    display: none !important;
+
+    &[type="checkbox"] + label {
+
+      &:after {
+        content: '\f147';
+      }
+    }
+
+    & + label {
+      position: relative;
+      display: inline-block;
+
+      &:before,
+      &:after {
+        content: '';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 22px;
+        height: 22px;
+      }
+
+      &:before {
+        border: 1px solid $c-gray-06;
+      }
+
+      &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: dashicons;
+        font-size: 20px;
+        line-height: 1;
+        color: $c-green-01;
+        transform: scale(0);
+        transition: transform $tr;
+      }
+    }
+
+    &[disabled] + label {
+      opacity: .25;
+      pointer-events: none;
+    }
+
+    &:checked + label {
+
+      &:after {
+        transform: scale(1);
+      }
+    }
+  }
+
+  &__checkboxLabel {
+    display: inline-block;
+    max-width: 600px;
+    font-size: 14px;
+    line-height: 1.64;
+  }
+}
