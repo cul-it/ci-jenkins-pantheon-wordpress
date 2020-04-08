@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "962ca5dce9557ed8028960c102927678",
+    "content-hash": "774f7f56c2e505c4d9d57b6c2861ebc1",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -44,28 +44,31 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3"
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
-                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
+                "url": "https://api.github.com/repos/composer/installers/zipball/b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0 || ^2.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "^4.8.36"
+                "composer/composer": "1.6.* || 2.0.*@dev",
+                "composer/semver": "1.0.* || 2.0.*@dev",
+                "phpunit/phpunit": "^4.8.36",
+                "sebastian/comparator": "^1.2.4",
+                "symfony/process": "^2.3"
             },
             "type": "composer-plugin",
             "extra": {
@@ -164,7 +167,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2020-02-07T10:39:20+00:00"
+            "time": "2020-04-07T06:57:05+00:00"
         },
         {
             "name": "cul-it/advanced-custom-fields-pro",
@@ -227,16 +230,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.1.5",
+            "version": "v1.1.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "1027164196dda93a377864deeb468f3c3115a513"
+                "reference": "e93bffb88fc633e69f8d869311c5931e4e04e163"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/1027164196dda93a377864deeb468f3c3115a513",
-                "reference": "1027164196dda93a377864deeb468f3c3115a513",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/e93bffb88fc633e69f8d869311c5931e4e04e163",
+                "reference": "e93bffb88fc633e69f8d869311c5931e4e04e163",
                 "shasum": ""
             },
             "require": {
@@ -254,10 +257,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/v1.1.5",
+                "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/master",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2020-04-06T16:21:49+00:00"
+            "time": "2020-04-08T15:22:41+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -360,16 +363,16 @@
         },
         {
             "name": "cul-it/wp-custom-loop-widget",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-custom-loop-widget.git",
-                "reference": "a166c9ed3e21cf272797de6400a3796400e74b86"
+                "reference": "465b024388cf53de8e7ccf7eef59ccd81ef76231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/a166c9ed3e21cf272797de6400a3796400e74b86",
-                "reference": "a166c9ed3e21cf272797de6400a3796400e74b86",
+                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/465b024388cf53de8e7ccf7eef59ccd81ef76231",
+                "reference": "465b024388cf53de8e7ccf7eef59ccd81ef76231",
                 "shasum": ""
             },
             "require": {
@@ -378,23 +381,23 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v1.1.0",
+                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v1.1.1",
                 "issues": "https://github.com/cul-it/wp-custom-loop-widget/issues"
             },
-            "time": "2020-04-06T12:50:04+00:00"
+            "time": "2020-04-08T14:50:42+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-libcal-hours.git",
-                "reference": "d5450d043f85b87215100fecfaacc2fd24fd98e2"
+                "reference": "a3035407ee554c57dc1bde46e3df6779053d7d51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/d5450d043f85b87215100fecfaacc2fd24fd98e2",
-                "reference": "d5450d043f85b87215100fecfaacc2fd24fd98e2",
+                "url": "https://api.github.com/repos/cul-it/wp-libcal-hours/zipball/a3035407ee554c57dc1bde46e3df6779053d7d51",
+                "reference": "a3035407ee554c57dc1bde46e3df6779053d7d51",
                 "shasum": ""
             },
             "require": {
@@ -412,10 +415,10 @@
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
             "support": {
-                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v2.0.0",
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v2.0.1",
                 "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
             },
-            "time": "2020-04-06T12:58:16+00:00"
+            "time": "2020-04-08T17:31:32+00:00"
         },
         {
             "name": "cul-it/wp-rss-aggregator",
@@ -4739,15 +4742,15 @@
         },
         {
             "name": "wpackagist-plugin/capability-manager-enhanced",
-            "version": "1.9.4",
+            "version": "1.9.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
-                "reference": "tags/1.9.4"
+                "reference": "tags/1.9.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.1.9.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.1.9.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4847,7 +4850,7 @@
         },
         {
             "name": "wpackagist-plugin/easy-notification-bar",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/easy-notification-bar/",
@@ -4855,7 +4858,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/easy-notification-bar.zip?timestamp=1585527004"
+                "url": "https://downloads.wordpress.org/plugin/easy-notification-bar.zip?timestamp=1586293633"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4991,15 +4994,15 @@
         },
         {
             "name": "wpackagist-plugin/relevanssi",
-            "version": "4.6.0",
+            "version": "4.7.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/relevanssi/",
-                "reference": "tags/4.6.0"
+                "reference": "tags/4.7.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.7.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
