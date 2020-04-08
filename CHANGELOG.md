@@ -18,7 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Relevanssi - 4.7.2.1 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
 - wp-custom-loop-widget v1.1.1 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 - wp-libcal-hours update - v2.0.1 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
--
+- CULU Theme update v1.1.6 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+
 ## [v1.3.8]
 ### Changed
 - wordpress-composer 5.4 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
