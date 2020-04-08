@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - easy-notification-bar v1.1.2 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
 - capability-manager-enhanced aka PublishPress Capabilities - 1.9.5 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- Relevanssi - 4.7.2.1 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
 
 ## [v1.3.8]
 ### Changed
