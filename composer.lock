@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "774f7f56c2e505c4d9d57b6c2861ebc1",
+    "content-hash": "0b7dc2d0e5b1d773d7555797b0464c5c",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -230,16 +230,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.1.6",
+            "version": "v1.1.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/library-cornell-edu-theme.git",
-                "reference": "e93bffb88fc633e69f8d869311c5931e4e04e163"
+                "reference": "e706f199b62b1ddafaf12ef8c540e803c50838c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/e93bffb88fc633e69f8d869311c5931e4e04e163",
-                "reference": "e93bffb88fc633e69f8d869311c5931e4e04e163",
+                "url": "https://api.github.com/repos/cul-it/library-cornell-edu-theme/zipball/e706f199b62b1ddafaf12ef8c540e803c50838c7",
+                "reference": "e706f199b62b1ddafaf12ef8c540e803c50838c7",
                 "shasum": ""
             },
             "require": {
@@ -260,7 +260,7 @@
                 "source": "https://github.com/cul-it/library-cornell-edu-theme/tree/master",
                 "issues": "https://github.com/cul-it/library-cornell-edu-theme/issues"
             },
-            "time": "2020-04-08T15:22:41+00:00"
+            "time": "2020-04-09T14:52:22+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -363,16 +363,16 @@
         },
         {
             "name": "cul-it/wp-custom-loop-widget",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-custom-loop-widget.git",
-                "reference": "465b024388cf53de8e7ccf7eef59ccd81ef76231"
+                "reference": "af10e73dc2e6a8e6ecd8b9bc2d40256f243b65fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/465b024388cf53de8e7ccf7eef59ccd81ef76231",
-                "reference": "465b024388cf53de8e7ccf7eef59ccd81ef76231",
+                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/af10e73dc2e6a8e6ecd8b9bc2d40256f243b65fa",
+                "reference": "af10e73dc2e6a8e6ecd8b9bc2d40256f243b65fa",
                 "shasum": ""
             },
             "require": {
@@ -381,10 +381,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v1.1.1",
+                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v1.1.2",
                 "issues": "https://github.com/cul-it/wp-custom-loop-widget/issues"
             },
-            "time": "2020-04-08T14:50:42+00:00"
+            "time": "2020-04-09T15:00:19+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
@@ -5120,15 +5120,15 @@
         },
         {
             "name": "wpackagist-theme/twentynineteen",
-            "version": "1.4",
+            "version": "1.5",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentynineteen/",
-                "reference": "1.4"
+                "reference": "1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentynineteen.1.4.zip"
+                "url": "https://downloads.wordpress.org/theme/twentynineteen.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
