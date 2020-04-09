@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4: Unknown
 
+## [v1.3.10] - 2020-04-09
+### Changed
+- twentynineteen v1.5 - see [Changelog](https://themes.trac.wordpress.org/log/twentynineteen)
+
+
 ## [v1.3.9] - 2020-04-08
 ### Changed
 - easy-notification-bar v1.1.2 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
