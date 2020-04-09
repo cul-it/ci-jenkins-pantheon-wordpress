@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP RSS Aggregator - Categories\n"
+"POT-Creation-Date: 2015-04-15 18:47+0800\n"
+"PO-Revision-Date: 2015-04-15 18:47+0800\n"
+"Last-Translator: \n"
+"Language-Team: WP RSS Aggregator <info@wprssaggregator.com>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/admin-display.php:18
+#, php-format
+msgid "Show All %s"
+msgstr "Zobrazit všechny %s"
+
+#: ../includes/admin-settings.php:14
+msgid "Categories License"
+msgstr "Categories licence"
+
+#: ../includes/admin-settings.php:21
+msgid "License Key"
+msgstr "Licenční klíč"
+
+#: ../includes/admin-settings.php:29 ../includes/admin-settings.php:92
+msgid "Activate License"
+msgstr "Aktivovat licenci"
+
+#: ../includes/admin-settings.php:71
+msgid "Enter your license key"
+msgstr "Vložte váš licenční klíč"
+
+#: ../includes/admin-settings.php:86
+msgid "active"
+msgstr "aktivováno"
+
+#: ../includes/admin-settings.php:88
+msgid "Deactivate License"
+msgstr "Deaktivovat licenci"
+
+#: ../includes/custom-taxonomy.php:43
+msgid "Feed Categories"
+msgstr "Kategorie zdroje"
+
+#: ../includes/custom-taxonomy.php:44
+msgid "Category"
+msgstr "Kategorie"
+
+#: ../includes/custom-taxonomy.php:45
+msgid "Search Categories"
+msgstr "Vyhledat kategorie"
+
+#: ../includes/custom-taxonomy.php:46
+msgid "All Categories"
+msgstr "Všechny kategorie"
+
+#: ../includes/custom-taxonomy.php:47
+msgid "Parent Category"
+msgstr "Hlavní kategorie"
+
+#: ../includes/custom-taxonomy.php:48
+msgid "Parent Category:"
+msgstr "Hlavní kategorie:"
+
+#: ../includes/custom-taxonomy.php:49
+msgid "Edit Category"
+msgstr "Upravit kategorii"
+
+#: ../includes/custom-taxonomy.php:50
+msgid "Update Category"
+msgstr "Aktualizovat kategorii"
+
+#: ../includes/custom-taxonomy.php:51
+msgid "Add New Category"
+msgstr "Přidat novou kategorii"
+
+#: ../includes/custom-taxonomy.php:52
+msgid "New Category Name"
+msgstr "Název nové kategorie"
+
+#: ../includes/custom-taxonomy.php:53 ../includes/custom-taxonomy.php:131
+msgid "Categories"
+msgstr "Categories"
+
+#: ../wp-rss-categories.php:91
+msgid "This plugin requires WordPress version 3.3 or higher."
+msgstr "Tento doplněk vyžaduje WordPress ve verzi 3.3, nebo vyšší."
+
+#: ../wp-rss-categories.php:162
+#, php-format
+msgid ""
+"Please <a href=\"%s\">install &amp; activate WP RSS Aggregator</a> for the "
+"Categories addon to work."
+msgstr ""
+"Je nutné <a href=\"%s\">nainstalovat a aktivovat WP RSS Aggregator</a> "
+"doplněk, aby vám doplněk Categories fungoval."
+
+#: ../wp-rss-categories.php:175
+msgid ""
+"Please update WP RSS Aggregator to the latest version for the Categories "
+"addon to work properly."
+msgstr ""
+"Aktualizujte si WP RSS Aggregator na nejnovější verzi, jinak vám nemusí "
+"Categories doplněk správně fungovat."
+
+#~ msgid ""
+#~ "<a href=\"%s\">Save 30%% on your license renewal</a> for the WP RSS "
+#~ "Aggregator <b>Categories</b> add-on and continue receiving updates and "
+#~ "support."
+#~ msgstr ""
+#~ "<a href=\"%s\">Ušetřete 30%% na obnovení vaší licence</a> pro WP RSS "
+#~ "Aggregator <b>Categories</b> doplněk. Nepřijdete tak o aktualizace a "
+#~ "podporu."
+
+#~ msgid "Dismiss this notification"
+#~ msgstr "Zavřít upozornění"
+
+#~ msgid ""
+#~ "Remember to <a href=\"%s\">enter your plugin license code</a> for the WP "
+#~ "RSS Aggregator <b>Categories</b> add-on, to benefit from updates and "
+#~ "support."
+#~ msgstr ""
+#~ "Nezapomeňte <a href=\"%s\">vložit váš licenční kód</a> pro WP RSS "
+#~ "Aggregator <b>Categories</b> doplněk, aby jste získaly aktualizace a "
+#~ "podporu."
