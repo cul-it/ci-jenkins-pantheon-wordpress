@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.3.10] - 2020-04-09
 ### Changed
 - twentynineteen v1.5 - see [Changelog](https://themes.trac.wordpress.org/log/twentynineteen)
+- wp-custom-loop-widget v1.1.2 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 
 
 ## [v1.3.9] - 2020-04-08
