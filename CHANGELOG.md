@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4: Unknown
 
+## [v1.3.10] - 2020-04-09
+### Changed
+- twentynineteen v1.5 - see [Changelog](https://themes.trac.wordpress.org/log/twentynineteen)
+- wp-custom-loop-widget v1.1.2 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+- CULU Theme update v1.1.7 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+
+
 ## [v1.3.9] - 2020-04-08
 ### Changed
 - easy-notification-bar v1.1.2 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
