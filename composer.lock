@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b7dc2d0e5b1d773d7555797b0464c5c",
+    "content-hash": "ec185862abbd2b13e2a3140e94c2bc04",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -196,16 +196,16 @@
         },
         {
             "name": "cul-it/ares_wordpress",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/ares_wordpress.git",
-                "reference": "6b7a5748d5d0d7da8d7d2ffaf996f6c33740a2b9"
+                "reference": "734b57d70b9005345a938db30a7f3b5b338669c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/ares_wordpress/zipball/6b7a5748d5d0d7da8d7d2ffaf996f6c33740a2b9",
-                "reference": "6b7a5748d5d0d7da8d7d2ffaf996f6c33740a2b9",
+                "url": "https://api.github.com/repos/cul-it/ares_wordpress/zipball/734b57d70b9005345a938db30a7f3b5b338669c9",
+                "reference": "734b57d70b9005345a938db30a7f3b5b338669c9",
                 "shasum": ""
             },
             "require": {
@@ -223,10 +223,10 @@
             ],
             "description": "WordPress Ares interface for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/ares_wordpress/tree/v1.0.6",
+                "source": "https://github.com/cul-it/ares_wordpress/tree/master",
                 "issues": "https://github.com/cul-it/ares_wordpress/issues"
             },
-            "time": "2019-12-11T18:51:43+00:00"
+            "time": "2020-04-08T16:56:36+00:00"
         },
         {
             "name": "cul-it/culu",
@@ -4940,15 +4940,15 @@
         },
         {
             "name": "wpackagist-plugin/json-content-importer",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/json-content-importer/",
-                "reference": "tags/1.3.7"
+                "reference": "tags/1.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.3.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.3.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -5012,15 +5012,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-social-icons",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-social-icons/",
-                "reference": "tags/3.0.1"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-social-icons.3.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-social-icons.zip?timestamp=1586804557"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -6972,12 +6972,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "0f73cf4b4b9227eb8845723bc2a8869bc4dd6e8f"
+                "reference": "09afa996c68c18f49e6487b06adcb2ef27da61fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0f73cf4b4b9227eb8845723bc2a8869bc4dd6e8f",
-                "reference": "0f73cf4b4b9227eb8845723bc2a8869bc4dd6e8f",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/09afa996c68c18f49e6487b06adcb2ef27da61fa",
+                "reference": "09afa996c68c18f49e6487b06adcb2ef27da61fa",
                 "shasum": ""
             },
             "conflict": {
@@ -7098,7 +7098,7 @@
                 "serluck/phpwhois": "<=4.2.6",
                 "shopware/shopware": "<5.3.7",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
-                "silverstripe/assets": ">=1,<1.3.5|>=1.4,<1.4.4",
+                "silverstripe/assets": ">=1,<1.4.7|>=1.5,<1.5.2",
                 "silverstripe/cms": "<4.3.6|>=4.4,<4.4.4",
                 "silverstripe/comments": ">=1.3,<1.9.99|>=2,<2.9.99|>=3,<3.1.1",
                 "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
@@ -7228,7 +7228,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2020-03-31T14:30:16+00:00"
+            "time": "2020-04-15T04:56:51+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
