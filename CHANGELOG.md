@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - json-content-importer - update 1.3.8 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
 - simple-social-icons plugin - update 3.0.2 - see [Simple Social Icons](https://wordpress.org/plugins/simple-social-icons)
+- ares_wordpress - update 1.0.7 - see [Changelog](https://github.com/cul-it/ares_wordpress/blob/master/CHANGELOG.md)
 
 
 ## [v1.3.10] - 2020-04-09
