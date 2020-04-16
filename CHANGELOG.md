@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.3.12] - 2020-05-16
 ### Changed
+- CULU Theme update v1.1.8 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
 
 
 ## [v1.3.11] - 2020-05-15
