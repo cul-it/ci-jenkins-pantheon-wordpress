@@ -1,0 +1,18 @@
+{% if options.show_image %}
+    {% set thumbnail = item.ft_image_url %}
+    {% set has_thumbnail = (thumbnail != '' and thumbnail != null) %}
+    {% set can_show_default = (options.empty_thumbnail_behavior == 'true') %}
+
+    {% if has_thumbnail and (not item.is_using_def_image or can_show_default) %}
+        {% if options.thumbnail_is_link %}
+            {% set item_url = wpra_item_url(item, options) %}
+            <a {{ wpra_link_attrs(item_url, options)|raw }}>
+        {% endif %}
+
+            <img src="{{ thumbnail }}" width="{{ options.thumbnail_width }}" height="{{ options.thumbnail_height }}"/>
+
+        {% if options.thumbnail_is_link %}
+            </a>
+        {% endif %}
+    {% endif %}
+{% endif %}
