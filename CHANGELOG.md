@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4: Unknown
 
+## [v1.3.12] - 2020-05-16
+### Changed
+- CULU Theme update v1.1.8 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- wp-custom-loop-widget v1.1.3 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+
+
 ## [v1.3.11] - 2020-05-15
 ### Changed
 - json-content-importer - update 1.3.8 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
