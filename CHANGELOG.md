@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4: Unknown
 
+## [v1.3.12] - 2020-05-16
+### Changed
+
+
 ## [v1.3.11] - 2020-05-15
 ### Changed
 - json-content-importer - update 1.3.8 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
