@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4: Unknown
 
 ## [v1.3.13] - 2020-05-01
+### Changed
 - simplesamlphp - 1.18.6 - see [Change Log](https://simplesamlphp.org/archive)
 - wordpress-composer 5.4.1 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
 - Akismet Anti-Spam - 4.1.5 - see [Changelog](https://wordpress.org/plugins/akismet/#developers)
@@ -20,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-native-php-sessions - 1.1.0 - see [changelog](https://github.com/pantheon-systems/wp-native-php-sessions/pull/135)
 - capability-manager-enhanced aka PublishPress Capabilities - 1.9.6 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - WP Mail SMTP 2.0.0 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- WP RSS Aggregator 4.17.5 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 
 ## [v1.3.12] - 2020-05-16
 ### Changed
