@@ -11,6 +11,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4: Unknown
 
+## [v1.3.13] - 2020-05-01
+### Added
+- FileBird - 2.8 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
+- Advanced Custom Fields: Image Aspect Ratio Crop Field - 3.2.0 - see [Changelog](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+### Changed
+- simplesamlphp - 1.18.6 - see [Change Log](https://simplesamlphp.org/archive)
+- wordpress-composer 5.4.1 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
+- Akismet Anti-Spam - 4.1.5 - see [Changelog](https://wordpress.org/plugins/akismet/#developers)
+- Elementor 2.9.8 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- Elementor Pro - 2.9.3 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- wp-native-php-sessions - 1.1.0 - see [changelog](https://github.com/pantheon-systems/wp-native-php-sessions/pull/135)
+- capability-manager-enhanced aka PublishPress Capabilities - 1.9.6 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- WP Mail SMTP 2.0.0 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- WP RSS Aggregator 4.17.5 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- CULU Theme update v1.1.9 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+
 ## [v1.3.12] - 2020-05-16
 ### Changed
 - CULU Theme update v1.1.8 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
