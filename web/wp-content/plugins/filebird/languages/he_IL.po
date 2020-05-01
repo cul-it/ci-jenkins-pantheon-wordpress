@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FileBird\n"
+"POT-Creation-Date: 2019-06-11 10:14+0700\n"
+"PO-Revision-Date: 2019-06-11 10:14+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: filebird.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-filebird-admin.php:87
+msgid "Go Pro"
+msgstr "גו פרו"
+
+#: admin/class-filebird-admin.php:239
+msgid "No media files found."
+msgstr "לא נמצאו קבצי מדיה."
+
+#: admin/class-filebird-admin.php:240
+msgid "item"
+msgstr "פריט"
+
+#: admin/class-filebird-admin.php:241
+msgid "items"
+msgstr "פריטים"
+
+#: admin/class-filebird-admin.php:288
+msgid "Folders"
+msgstr "תיקיות"
+
+#: admin/class-filebird-admin.php:293
+msgid "New Folder"
+msgstr "תיקייה חדשה"
+
+#: admin/class-filebird-admin.php:297 admin/class-filebird-admin.php:299
+#: translation/filebird-js-translation.php:22
+msgid "Rename"
+msgstr "שינוי שם"
+
+#: admin/class-filebird-admin.php:300
+#: translation/filebird-js-translation.php:24
+msgid "Delete"
+msgstr "מחק"
+
+#: admin/class-filebird-admin.php:315
+msgid "All files"
+msgstr "כל הקבצים"
+
+#: admin/class-filebird-admin.php:325 admin/class-filebird-admin.php:722
+#: includes/class-filebird-topbar.php:221 includes/class-filebird.php:219
+msgid "Uncategorized"
+msgstr "ללא קטגוריה"
+
+#: admin/class-filebird-admin.php:443 admin/class-filebird-admin.php:444
+msgid "Folder"
+msgstr "תיקייה"
+
+#: admin/class-filebird-admin.php:445 admin/class-filebird-admin.php:447
+msgid "Add New Folder"
+msgstr "הוסף תיקיה חדשה"
+
+#: admin/class-filebird-admin.php:446
+msgid "Edit Folder"
+msgstr "ערוך תיקיה"
+
+#: admin/class-filebird-admin.php:448
+msgid "Search Folder"
+msgstr "תיקיית חיפוש"
+
+#: admin/class-filebird-admin.php:449
+msgid "Folder not found"
+msgstr "התיקיה לא נמצאה"
+
+#: admin/class-filebird-admin.php:450
+msgid "Folder not found in trash"
+msgstr "התיקיה לא נמצאה באשפה"
+
+#: admin/class-filebird-admin.php:719
+msgid "Select a folder and upload files (Optional)"
+msgstr "בחירת תיקיה והעלאת קבצים (אופציונלי)"
+
+#: includes/class-filebird-feedback.php:24
+msgid "I do not need this plugin anymore."
+msgstr "אני לא צריך את זה תוסף יותר."
+
+#: includes/class-filebird-feedback.php:27
+msgid "I have another plugin that do the job better"
+msgstr "יש לי תוסף נוסף שעושה את העבודה טוב יותר"
+
+#: includes/class-filebird-feedback.php:28
+msgid "Please tell us which one"
+msgstr "בבקשה תגיד לנו מי מהם"
+
+#: includes/class-filebird-feedback.php:31
+msgid "I don't know how to use it"
+msgstr ". אני לא יודע איך להשתמש בזה"
+
+#: includes/class-filebird-feedback.php:34
+msgid "This is temporary. I'll use it again soon."
+msgstr ". זה זמני אני אשתמש בו שוב בקרוב."
+
+#: includes/class-filebird-feedback.php:37
+msgid "I have purchased FileBird Pro"
+msgstr "רכשתי FileBird Pro"
+
+#: includes/class-filebird-feedback.php:40
+msgid "Other"
+msgstr "אחר"
+
+#: includes/class-filebird-feedback.php:41
+msgid "Please share a reason..."
+msgstr "בבקשה לחלוק..."
+
+#: includes/class-filebird-feedback.php:64
+msgid "Submit and Deactivate"
+msgstr "לשלוח ולבטל"
+
+#: includes/class-filebird-feedback.php:65
+msgid "Skip and Deactivate"
+msgstr "דלג ובטל"
+
+#: includes/class-filebird-topbar.php:221 includes/class-filebird.php:219
+msgid "All categories"
+msgstr "כל הקטגוריות"
+
+#: includes/class-filebird.php:293
+msgid "Create your first folder for media library now."
+msgstr "צור את התיקיה הראשונה שלך עבור ספריית מדיה כעת."
+
+#: includes/class-filebird.php:295
+msgid "Get Started"
+msgstr "התחל"
+
+#: translation/filebird-js-translation.php:13
+msgid "Move 1 file"
+msgstr "העבר קובץ אחד"
+
+#: translation/filebird-js-translation.php:14
+msgid "Oops"
+msgstr "אופסס"
+
+#: translation/filebird-js-translation.php:15
+msgid "Error"
+msgstr "שגיאה"
+
+#: translation/filebird-js-translation.php:16
+msgid "Folder Limit Reached"
+msgstr "הגעת למגבלת התיקיות"
+
+#: translation/filebird-js-translation.php:17
+msgid "This folder already exists. Please type another name."
+msgstr "תיקיה זו כבר קיימת. אנא הקלידו שם נוסף."
+
+#: translation/filebird-js-translation.php:18
+msgid "Sorry! An error occurred while processing your request."
+msgstr "צטער! אירעה שגיאה בעת עיבוד בקשתך."
+
+#: translation/filebird-js-translation.php:19
+msgid "This folder cannot be deleted."
+msgstr "אין אפשרות למחוק תיקיה זו."
+
+#: translation/filebird-js-translation.php:20
+msgid "Add sub folder"
+msgstr "הוסף תיקיית משנה"
+
+#: translation/filebird-js-translation.php:21
+msgid "New folder"
+msgstr "תיקיה חדשה"
+
+#: translation/filebird-js-translation.php:23
+msgid "Remove"
+msgstr "הסר"
+
+#: translation/filebird-js-translation.php:25
+msgid "Refresh"
+msgstr "רענן"
+
+#: translation/filebird-js-translation.php:26
+msgid "Something isn't correct here."
+msgstr ". משהו לא נכון כאן"
+
+#: translation/filebird-js-translation.php:27
+msgid "This page will be reloaded now."
+msgstr "דף זה נטען מחדש כעת."
+
+#: translation/filebird-js-translation.php:28
+msgid "This folder contains subfolders, please delete them first!"
+msgstr "תיקיה זו מכילה תיקיות ממשנה, בבקשה למחוק אותם קודם!"
+
+#: translation/filebird-js-translation.php:29
+msgid "Are you sure?"
+msgstr "האם אתה בטוח?"
+
+#: translation/filebird-js-translation.php:30
+msgid ""
+"You will not be able to recover this folder! But files in this folder are "
+"all safe, they are moved to Uncategorized folder."
+msgstr ""
+"לא תוכל לשחזר תיקיה זו! אך קבצים בתיקיה זו הם כולם בטוחים, הם מועברים לתיקיה "
+"ללא קטגוריה."
+
+#: translation/filebird-js-translation.php:31
+msgid "Yes, delete it!"
+msgstr "! כן, תמחק את זה"
+
+#: translation/filebird-js-translation.php:32
+msgid "Deleted"
+msgstr "נמחק"
+
+#: translation/filebird-js-translation.php:33
+msgid "Move"
+msgstr "העבר"
+
+#: translation/filebird-js-translation.php:34
+msgid "files"
+msgstr "קבצים"
+
+#: translation/filebird-js-translation.php:35
+msgid ""
+"The FileBird Lite version allows you to manage up to 10 folders.<br>To have "
+"unlimited folders, please upgrade to PRO version.</br>\r\n"
+"\t\t    \t<p class=\"upgrade-description\">✅ Unlimited Folders</br>\r\n"
+"\t\t    \t✅ Compatible with WP Bakery Page Builder</br>\r\n"
+"\t\t    \t✅ Compatible with Divi Page Builder</br>\r\n"
+"\t\t    \t✅ Get Fast Updates</br>\r\n"
+"\t\t    \t✅ Live Chat Support 24/7</br>\r\n"
+"\t\t    \t✅ 30-day Refund Guarantee</p>"
+msgstr ""
+
+#: translation/filebird-js-translation.php:42
+msgid "Your folder has been deleted."
+msgstr "התיקיה נמחקה."
+
+#: translation/filebird-js-translation.php:43
+msgid "Upgrade to FileBird Pro now"
+msgstr "שדרג ל-FileBird Pro עכשיו"
+
+#: translation/filebird-js-translation.php:44
+msgid "No, thanks."
+msgstr "לא, תודה."
+
+#: translation/filebird-js-translation.php:45
+msgid "Cancel"
+msgstr "ביטול"
+
+#. Plugin Name of the plugin/theme
+msgid "FileBird"
+msgstr "FileBird"
+
+#. Plugin URI of the plugin/theme
+msgid "https://media-folder.ninjateam.org"
+msgstr "https://media-folder.ninjateam.org"
+
+#. Description of the plugin/theme
+msgid ""
+"Organize thousands of WordPress media files into folders/ categories at ease."
+msgstr "ארגון אלפי קבצי מדיה WordPress לתוך תיקיות/קטגוריות בקלות."
+
+#. Author of the plugin/theme
+msgid "Ninja Team"
+msgstr "צוות נינג'ה"
+
+#. Author URI of the plugin/theme
+msgid "https://ninjateam.org"
+msgstr "https://ninjateam.org"
+
+#~ msgid ""
+#~ "The FileBird Lite version allows you to manage up to 10 folders.<br>To "
+#~ "have unlimited folders, please upgrade to PRO version.</br>\n"
+#~ "\t\t    \t<p class=\"upgrade-description\">✅ Unlimited Folders</br>\n"
+#~ "\t\t    \t✅ Compatible with WP Bakery Page Builder</br>\n"
+#~ "\t\t    \t✅ Compatible with Divi Page Builder</br>\n"
+#~ "\t\t    \t✅ Get Fast Updates</br>\n"
+#~ "\t\t    \t✅ Live Chat Support 24/7</br>\n"
+#~ "\t\t    \t✅ 30-day Refund Guarantee</p>"
+#~ msgstr ""
+#~ "הגרסה FileBird Lite מאפשרת לך לנהל עד 10 תיקיות. <br> To יש תיקיות בלתי "
+#~ "מוגבל, נא לשדרג לגרסה PRO. </br>\n"
+#~ "\t\t    \t< p class = \"שדרוג-תיאור\" > ✅ תיקיות בלתי מוגבלות </br>\n"
+#~ "\t\t    \t✅ תואם ל-WP מאפיית הדף בונה </br>\n"
+#~ "\t\t    \t✅ תואם לבונה הדפים של Divi </br>\n"
+#~ "\t\t    \t✅ קבל עדכונים מהירים </br>\n"
+#~ "\t\t    \t✅ תמיכה בצ חי 24/7 </br>\n"
+#~ "\t\t    \t✅ אחריות להחזר של 30 יום </p>"

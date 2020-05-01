@@ -1,0 +1,21 @@
+.easy-notification-bar-button {
+    margin-left: 0 !important;
+ }
+ .easy-notification-bar-button a, 
+ .easy-notification-bar-button a:visited, 
+ .easy-notification-bar-button a:focus {
+     color: #0068ac !important;
+     font-weight: 700;
+     text-decoration: none;
+     background: none !important;
+     text-align: center !important;
+     padding-left: 0 !important;
+     padding-right: 0 !important;
+     line-height: 16px;
+ }
+ 
+ .easy-notification-bar-button a:hover {
+     color: #000 !important;
+     text-decoration: underline !important;
+ }
+ 

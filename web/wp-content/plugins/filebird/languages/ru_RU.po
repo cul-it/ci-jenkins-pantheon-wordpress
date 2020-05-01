@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FileBird\n"
+"POT-Creation-Date: 2019-03-04 11:37+0700\n"
+"PO-Revision-Date: 2019-03-04 13:49+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: filebird.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-filebird-admin.php:208
+msgid "No media files found."
+msgstr "Нет медиа файлов."
+
+#: admin/class-filebird-admin.php:209
+msgid "item"
+msgstr "элемент"
+
+#: admin/class-filebird-admin.php:210
+msgid "items"
+msgstr "элементы"
+
+#: admin/class-filebird-admin.php:255
+msgid "Folders"
+msgstr "Папки"
+
+#: admin/class-filebird-admin.php:260
+msgid "New Folder"
+msgstr "Новая папка"
+
+#: admin/class-filebird-admin.php:264 admin/class-filebird-admin.php:266
+#: translation/filebird-js-translation.php:19
+msgid "Rename"
+msgstr "Переименовать"
+
+#: admin/class-filebird-admin.php:267
+#: translation/filebird-js-translation.php:21
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin/class-filebird-admin.php:282
+msgid "All files"
+msgstr "Все файлы"
+
+#: admin/class-filebird-admin.php:292 admin/class-filebird-admin.php:648
+#: includes/class-filebird-elementor.php:51
+#: includes/class-filebird-topbar.php:211 includes/filebird-cores.php:45
+msgid "Uncategorized"
+msgstr "Без категории"
+
+#: admin/class-filebird-admin.php:392 admin/class-filebird-admin.php:393
+msgid "Folder"
+msgstr "Папка"
+
+#: admin/class-filebird-admin.php:394 admin/class-filebird-admin.php:396
+msgid "Add New Folder"
+msgstr "Добавить новую папку"
+
+#: admin/class-filebird-admin.php:395
+msgid "Edit Folder"
+msgstr "Редактировать папку"
+
+#: admin/class-filebird-admin.php:397
+msgid "Search Folder"
+msgstr "Поиск Папки"
+
+#: admin/class-filebird-admin.php:398
+msgid "Folder not found"
+msgstr "Папка не найдена"
+
+#: admin/class-filebird-admin.php:399
+msgid "Folder not found in trash"
+msgstr "Папка не найдена в корзине"
+
+#: admin/class-filebird-admin.php:645
+msgid "Select a folder and upload files (Optional)"
+msgstr "Выберите папку и загрузите файлы (неОбязательно)"
+
+#: includes/class-filebird-elementor.php:51
+#: includes/class-filebird-topbar.php:211 includes/filebird-cores.php:45
+msgid "All categories"
+msgstr "Все категории"
+
+#: includes/filebird-cores.php:87
+msgid "Go Pro"
+msgstr "Go Pro"
+
+#: translation/filebird-js-translation.php:10
+msgid "Move 1 file"
+msgstr "Переместить 1 файл"
+
+#: translation/filebird-js-translation.php:11
+msgid "Oops"
+msgstr "Упс"
+
+#: translation/filebird-js-translation.php:12
+msgid "Error"
+msgstr "Ошибка"
+
+#: translation/filebird-js-translation.php:13
+msgid "Folder Limit Reached"
+msgstr "Достигнуто преДельное количество папок"
+
+#: translation/filebird-js-translation.php:14
+msgid "This folder already exists. Please type another name."
+msgstr "Эта папка уже существует. Пожалуйста, введите другое имя."
+
+#: translation/filebird-js-translation.php:15
+msgid "Sorry! An error occurred while processing your request."
+msgstr "Извините! Произошла ошибка при обработке запроса."
+
+#: translation/filebird-js-translation.php:16
+msgid "This folder cannot be deleted."
+msgstr "Эта папка не может быть удалена."
+
+#: translation/filebird-js-translation.php:17
+msgid "Add sub folder"
+msgstr "Добавить вложенную папку"
+
+#: translation/filebird-js-translation.php:18
+msgid "New folder"
+msgstr "Новая папка"
+
+#: translation/filebird-js-translation.php:20
+msgid "Remove"
+msgstr "Удалить"
+
+#: translation/filebird-js-translation.php:22
+msgid "Refresh"
+msgstr "Обновить"
+
+#: translation/filebird-js-translation.php:23
+msgid "Something isn't correct here."
+msgstr "Здесь что-то не правильно."
+
+#: translation/filebird-js-translation.php:24
+msgid "This page will be reloaded now."
+msgstr "Эта страница будет перезагружена сейчас."
+
+#: translation/filebird-js-translation.php:25
+msgid "This folder contains subfolders, please delete them first!"
+msgstr "Эта папка содержит подпапки, пожалуйста, удалите их в первую очередь!"
+
+#: translation/filebird-js-translation.php:26
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: translation/filebird-js-translation.php:27
+msgid ""
+"You will not be able to recover this folder! But files in this folder are "
+"all safe, they are moved to Uncategorized folder."
+msgstr ""
+"Вы не сможете восстановить эту папку! Но файлы в этой папке все безопасные, "
+"они перемещаются в папку без рубрики."
+
+#: translation/filebird-js-translation.php:28
+msgid "Yes, delete it!"
+msgstr "Да, удалить!"
+
+#: translation/filebird-js-translation.php:29
+msgid "Deleted"
+msgstr "Удалено"
+
+#: translation/filebird-js-translation.php:30
+msgid "Move"
+msgstr "Переместить"
+
+#: translation/filebird-js-translation.php:31
+msgid "files"
+msgstr "файлы"
+
+#: translation/filebird-js-translation.php:32
+msgid ""
+"The FileBird Lite version allows you to manage up to 10 folders.<br>To have "
+"unlimited folders, please upgrade to PRO version.</br></br>\r\n"
+"\t\t    \t<p class=\"upgrade-description\">✅ Unlimited Folders</br>\r\n"
+"\t\t    \t✅ Get Fast Updates</br>\r\n"
+"\t\t    \t✅ Live Chat Support 24/7</br>\r\n"
+"\t\t    \t✅ 30-day Refund Guarantee</p>"
+msgstr ""
+"Филебирд FileBird Lite версия позволяет управлять до 10 папок. <br> для "
+"того чтобы иметь неограниченные скоросшиватели, пожалуйста модернизируйте к "
+"версии PRO. </br> </br>\r\n"
+"\t\t    \t<p class=\"upgrade-description\">✅ неОграниченное папки </br>\r\n"
+"\t\t    \t✅ Получить быстрые обновления </br>\r\n"
+"\t\t    \t✅ Онлайн чат поддержка 24/7 </br>\r\n"
+"\t\t    \t✅ Гарантия возврата на 30 дней </p>"
+
+#: translation/filebird-js-translation.php:37
+msgid "Your folder has been deleted."
+msgstr "Папка была удалена."
+
+#: translation/filebird-js-translation.php:38
+msgid "Upgrade to Pro version now"
+msgstr "Обновление до версии Pro сейчас"
+
+#: translation/filebird-js-translation.php:39
+msgid "No, thanks."
+msgstr "Нет, спасибо."
+
+#: translation/filebird-js-translation.php:40
+msgid "Cancel"
+msgstr "Отмена"
+
+#. Plugin Name of the plugin/theme
+msgid "FileBird"
+msgstr "FileBird"
+
+#. Plugin URI of the plugin/theme
+msgid "https://media-folder.ninjateam.org"
+msgstr "https://media-folder.ninjateam.org"
+
+#. Description of the plugin/theme
+msgid "Media Library Categories/Folders File Manager for WordPress."
+msgstr "Медиа библиотека категории/папки файловый менеджер для WordPress."
+
+#. Author of the plugin/theme
+msgid "Ninja Team"
+msgstr "Ninja Team"
+
+#. Author URI of the plugin/theme
+msgid "https://ninjateam.org"
+msgstr "https://ninjateam.org"
