@@ -1,0 +1,337 @@
+/*
+* Upload sidebar styles
+*/
+/** WordPress styles **/
+body.wp-admin.upload-php .filebird_sidebar{
+    margin-top: 10px;
+}
+body.wp-admin.upload-php #wpbody-content{
+    padding-left: 10px;
+    float: right;
+}
+body.wp-admin.upload-php .attachments{height: 0;}
+body.wp-admin.upload-php .view-switch a:before{
+	line-height: 28px
+}
+body.wp-admin.upload-php{ position: relative; }
+body.wp-admin.upload-php #screen-meta-links{
+    margin-bottom: -20px;
+}
+
+
+
+/** Media styles **/
+.filebird_sidebar{
+    float: left;
+    position: relative;  
+    /* width: 250px; */
+    /* flex: 0 0 auto;
+	position: relative;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+    max-width: 1400px;
+    -webkit-transition: max-width 600ms;
+    transition: max-width 600ms;
+    transition: margin-top 300ms; */
+}
+.filebird_sidebar *,.filebird_sidebar:before,.filebird_sidebar :before,.filebird_sidebar :after,.filebird_sidebar:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.filebird_sidebar_container {
+    float: left;
+    position: relative;
+}
+.filebird_sidebar_toolbar{
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	font-size: 13px;
+	color: #555;
+	background: #fff;
+	
+}
+.filebird_sidebar .nt_main_title{
+	font-size: 23px;
+	font-weight: 400;
+	margin: 0;
+	padding: 9px 120px 4px 0;
+	line-height: 29px;
+}
+.filebird_sidebar .filebird_add_new_container{
+    position: absolute;
+    right: 0;
+    top: 12px;
+    padding: 0;
+    margin: 0;
+    width: 130px;
+    text-align: right;
+    font-size: 0;
+}
+.filebird_sidebar .filebird_add_new_container .nt_main_add_new{
+	position: relative;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: #f7f7f7;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 13px;
+    cursor: pointer;
+    outline: 0;
+    width: 88%;
+    margin: 0;
+    color: #0073aa;
+    display: flex;
+    align-items: center;
+    height: 27px;
+    padding: 4px 8px;
+    float: right;
+}
+.filebird_toolbar .nt_main_button_icon svg{
+	position: absolute;
+	top: 1px;
+	left: 4px;
+}
+.filebird_sidebar .filebird_add_new_container .nt_main_add_new svg{
+	position: absolute;
+	z-index: 0;
+}
+.filebird_sidebar .filebird_add_new_container .nt_main_add_new:hover{
+    border-color: #008EC2;
+    background: #00a0d2;
+    color: #fff;
+}
+.filebird_toolbar{
+    font-size: 0;
+    padding: 4px 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    color: #555;
+    margin-top: 12px;
+    height: 55px;
+    padding-top: 10px;
+    min-width: 225px;
+}
+.filebird_toolbar .nt_main_button_icon{
+    position: relative;
+    -moz-border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 3px;
+    margin-right: 6px;
+    height: 27px;
+}
+
+.filebird_toolbar .js__nt_rename svg{
+	top: 1px;
+}
+
+.filebird_toolbar .nt_main_button_icon span{
+  font-weight: normal !important;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 28px;
+}
+/** jsTree **/
+#njt-filebird-defaultTree{
+    margin: 10px 0 10px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 1px 0 0 #f7f7f7;
+   
+}
+.filebird_tree .jstree-icon:before{
+	line-height: 24px;
+}
+.filebird_tree .jstree-open > .jstree-anchor .jstree-icon.icon-folder-close:before{
+	content: '\e801'
+}
+.filebird_tree.jstree-default .jstree-anchor{
+    
+    position: relative;
+    padding-right: 0;
+  
+    display: flex;
+    align-items: center;
+}
+/* .jstree-anchor span{margin-left: 10px;} */
+.filebird_tree [data-number]{
+	position: relative;
+}
+.filebird_tree [data-number]:before{
+content: attr(data-number);
+    position: absolute;
+    right: 5px;
+    min-width: 18px;
+    height: 18px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 17px;
+    top: 6px;
+    padding: 0 4px;
+    z-index: 1;
+    pointer-events: none;
+    border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 204, 204, 204 );
+  border-radius: 2px;
+  background-color: #FFF;
+  height: 19px;
+}
+
+/* njt-filebird-fixed */
+.njt-filebird-fixed{
+    position: fixed;
+}
+
+.njt-filebird-fixed-border {
+    /* z-index: 1;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+    transform: scale(1);
+    transition: 0.15s all ease; */
+}
+/* njt-filebird-fixed */
+
+/** Drag **/
+#njt-filebird-attachment{
+	position: fixed;
+	z-index: 9999999999;
+	padding: 5px 10px;
+	background: #0073aa;
+	color: #ffffff;
+	transform: translate(20px,20px);
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 24px;
+	box-shadow: 0 1px 0 #ccc;
+  display: none;
+}
+.njt-filebird-loader{
+	width: 0;
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+    height: 5px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAXklEQVQYV2NkKFn1nwEEROXBFAp4/ZCBASLLwAhWSEARRGHnSageJLNAJoEATIYRm0Ik66B2gp2FaiIORahW41GEUEhAEcLXaA7HFgqMDMXQcIRowxmeCIV4FIHMAADu4TAvFHh4twAAAABJRU5ErkJggg==') repeat;
+}
+.njt-filebird-loader.loading{
+	width: 90%;
+}
+.njt-filebird-loader.finish{
+	width: 100%;
+}
+#tree-bottom{height: 100px; position: relative;}
+#tree-bottom .jstree-default{
+	width: 200px;
+    height: 4px;
+    background: #0073aa;
+    margin-left: 15px;
+}
+#tree-bottom .jstree-default.hide{display: none;}
+#tree-bottom .jstree-icon{background-position: -66px -68px;top: -7px; left: 4px;}
+#tree-bottom .pl-icon{
+	top: -3px;
+    left: 9px;
+    font-size: 16px;
+}
+#tree-bottom i{position: absolute;}
+
+.jstree-default .jstree-hovered.jstree-clicked {
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#jstree-marker {
+	width: 150px;
+	height: 2px !important;
+	border: 1px solid #0073aa;
+	background-color: #0073aa;
+}
+
+.jstree-dnd-parent > a.jstree-hovered{
+	position: absolute;
+	border: 1px solid #0073aa;
+	border-radius: 2px;
+	
+}
+#njt-filebird-folderTree{
+	margin-left: 0px;
+}
+.jstree-default .jstree-node, .jstree-default .jstree-icon{
+	background-image: none;
+}
+.jstree-default .jstree-icon:empty{display:none;}
+.jstree-default > .jstree-container-ul > .jstree-node{margin-top: 5px; padding-left: 6px;}
+body.wp-admin.upload-php .wpmediacategory-filter{display: none !important;}
+.media-frame.mode-grid .attachments-browser{height: auto;}
+
+body.wp-admin.upload-php .njt-splitter {
+	position: relative;
+	float: left;
+    flex: 0 0 auto;
+    width: 18px;
+    height: 100vh;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAhCAQAAABOpSL+AAAAIklEQVR4AWMwbb/PdR+JZDD9f1/oPhI5sgVGBSruc9xHIgGdSQqqQJGkRgAAAABJRU5ErkJggg==') 10px 65px no-repeat;
+    min-height: 200px;
+    cursor: col-resize;
+    transition: margin-top 300ms;
+}
+ 
+body.wp-admin.upload-php .njt-splitter:before{
+	content: '';
+    width: 2px;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: -2px;
+    margin-left: 15px;
+    background: #e5e5e5;
+    z-index: -1;
+    border-right: 1px solid #f7f7f7;
+}
+body.wp-admin.upload-php .njt-expand{
+    height: 38px;
+    position: absolute;
+    display: none;
+    left: -14px;
+    margin-top: 75px;
+}
+body.wp-admin.upload-php .njt-expand:before{
+	content: "\f148";
+    display: block;
+    width: 20px;
+  
+    cursor: pointer;
+    position: relative;
+    top: 7px;
+    text-align: center;
+    font: 400 20px/1 dashicons!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+#njt-filebird-folderTree{max-height: calc(100vh - 250px);}
+#update-folders{padding-left: 10px;}
+#njt-filebird-folderTree .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    background-color: #c1c1c1;
+}
+#njt-filebird-folderTree .mCSB_scrollTools .mCSB_draggerRail{
+    background-color:rgba(208,208,208,.4);
+}
+#njt-filebird-folderTree .mCSB_scrollTools .mCSB_draggerContainer{
+    right: -12px;
+}
+#njt-filebird-folderTree .mCSB_inside>.mCSB_container{
+    margin-right: 6px;
+}
