@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.3.13] - 2020-05-01
 - simplesamlphp - 1.18.6 - see [Change Log](https://simplesamlphp.org/archive)
 - wordpress-composer 5.4.1 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
-
+- Akismet Anti-Spam - 4.1.5 - see [Changelog](https://wordpress.org/plugins/akismet/#developers)
 
 ## [v1.3.12] - 2020-05-16
 ### Changed
