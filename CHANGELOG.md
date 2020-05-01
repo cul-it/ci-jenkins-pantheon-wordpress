@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Elementor 2.9.8 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 - Elementor Pro - 2.9.3 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 - wp-native-php-sessions - 1.1.0 - see [changelog](https://github.com/pantheon-systems/wp-native-php-sessions/pull/135)
+- capability-manager-enhanced aka PublishPress Capabilities - 1.9.6 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+
 
 ## [v1.3.12] - 2020-05-16
 ### Changed
