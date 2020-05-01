@@ -10,7 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Kirki Customizer Framework - new version - Compatibility with WordPress 5.4: Unknown
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4: Unknown
+
+## [v1.3.13] - 2020-05-01
 - simplesamlphp - 1.18.6 - see [Change Log](https://simplesamlphp.org/archive)
+- wordpress-composer 5.4.1 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
+
 
 ## [v1.3.12] - 2020-05-16
 ### Changed
