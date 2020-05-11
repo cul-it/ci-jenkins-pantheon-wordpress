@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - kirki customizer framework- 3.1.2 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
 - WP Mail SMTP 2.0.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 - CULU Theme update v1.2.0 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- wp-custom-loop-widget v1.1.4 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 
 
 ## [v1.3.13.1] - 2020-05-01
