@@ -1,0 +1,31 @@
+window.onload = function(){
+	var sPositions = localStorage.positions || "{}",
+		positions = JSON.parse(sPositions);
+	$.each(positions, function (id, pos) {
+		$("#" + id).css(pos)
+	});	
+	$(".left-btn").css("cursor", "move");
+	$(".left-btn").mousedown(function() {
+		$("#elementor-preview").css("pointer-events", "none");
+		 $(document).ready(function() {
+			$("#granular-top-bar").draggable( {
+				snap: "#elementor-preview, #elementor-preview-iframe",
+				opacity: 0.7,
+				addClasses: true,
+				containment: "#elementor-preview",
+				snapMode: "inner",
+				snapTolerance: 25,
+				edgeResistance: 2.4,
+				stop: function (event, ui) {
+					positions[this.id] = ui.position
+					localStorage.positions = JSON.stringify(positions)
+				}
+			});
+		});
+	});
+	$(document).mouseup(function(){
+		if($("#elementor-preview").css("pointer-events")== "none") {
+			$("#elementor-preview").css("pointer-events", "auto");
+		}
+	});
+}

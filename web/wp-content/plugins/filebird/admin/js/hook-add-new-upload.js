@@ -1,0 +1,1 @@
+var filebird_media={addMedia:function(){jQuery("body").hasClass("media-new-php")&&setTimeout(function(){uploader&&uploader.bind("BeforeUpload",function(e,i){e.settings.multipart_params.ntWMCFolder=jQuery(".njt-filebird-editcategory-filter").val();jQuery("#media-item-"+i.id).find(".filename")})}.bind(this),500)}};jQuery(document).ready(function(){filebird_media.addMedia()});
