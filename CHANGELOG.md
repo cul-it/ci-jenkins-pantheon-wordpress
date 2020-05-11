@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4: Unknown
 
-## [v1.3.13] - 2020-05-01
+## [v1.3.13.1] - 2020-05-01
 ### Added
 - FileBird - 2.8 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
 - Advanced Custom Fields: Image Aspect Ratio Crop Field - 3.2.0 - see [Changelog](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
