@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Advanced Access Manager 6.5.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - kirki customizer framework- 3.1.2 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
+- WP Mail SMTP 2.0.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 
 
 ## [v1.3.13.1] - 2020-05-01
