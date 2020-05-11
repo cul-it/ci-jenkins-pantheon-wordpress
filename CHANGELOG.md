@@ -5,13 +5,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.4: Unknown
-- FacetWP - new version - Compatibility with WordPress 5.4: Unknown
-- Kirki Customizer Framework - new version - Compatibility with WordPress 5.4: Unknown
-- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4: Unknown
-- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4: Unknown
+- Draw Attention Pro - new version - Compatibility with WordPress 5.4.1: Unknown
+- FacetWP - new version - Compatibility with WordPress 5.4.1: Unknown
+- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.1: Unknown
+- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.1: Unknown
 
-## [v1.3.13] - 2020-05-01
+## [v1.3.14] - 2020-05-11
+### Changed
+- Advanced Access Manager 6.5.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- kirki customizer framework- 3.1.2 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
+- WP Mail SMTP 2.0.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- CULU Theme update v1.2.0 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- wp-custom-loop-widget v1.1.4 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+
+
+## [v1.3.13.1] - 2020-05-01
 ### Added
 - FileBird - 2.8 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
 - Advanced Custom Fields: Image Aspect Ratio Crop Field - 3.2.0 - see [Changelog](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
