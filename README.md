@@ -177,12 +177,8 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
     * The Pantheon site wp-ci-library-cornell-edu can be used as a reference. It has all the upstream plugins enabled (except Akismet Anti-Spam which requires additional configuration).
     * Do not update the plugin verson unless the Compatablilty with the new WordPress version is 100%.
 * Update the CULU theme.
-    * Use Git to pull a new local copy of the Pantheon site culu-library-cornell-edu
-    * The GitHub repo for the theme is https://github.com/cul-it/library-cornell-edu-theme - this corresponds to the theme in site culu-library-cornell-edu. Pull the latest local copy of this.
-    * Migrate the changes from culu-library-cornell-edu/wp-content/themes/culu into library-cornell-edu-theme, being sure not to disturb .git and composer.json in library-cornell-edu-theme
-    * Commit the changes to library-cornell-edu-theme
-    * Tag the change with the next version number (e.g. v1.0.14) in library-cornell-edu-theme in GitHub
-    * Update the version number in composer.json (e.g. "cul-it/culu": "1.0.14",)
+    * Tag the new release with the next version number (e.g. `v1.3.0`) in [cul-it/wp-cul-theme-culu](https://github.com/cul-it/wp-cul-theme-culu)
+    * Update the version number in this repo's [composer.json](https://github.com/cul-it/ci-jenkins-pantheon-wordpress/blob/master/composer.json) to match (e.g. "cul-it/culu": "1.3.0",)
 * Update the cul-it plugin repos
     * These are listed in the "require" section of composer.json, with a 'cul-it/' prefix in the path.
     * These are the 'Pro' or 'Paid' versions of WordPress plugins we've purchased.
