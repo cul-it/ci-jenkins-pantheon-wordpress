@@ -5,10 +5,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.4.1: Unknown
-- FacetWP - new version - Compatibility with WordPress 5.4.1: Unknown
-- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.1: Unknown
-- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.1: Unknown
 
 ## [v1.4.0-beta] - 2020-06-10
 ### Changed
@@ -19,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Advanced Access Manager 6.5.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - kirki customizer framework- 3.1.2 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
 - WP Mail SMTP 2.0.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
-- CULU Theme update v1.2.0 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.2.0](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.0)
 - wp-custom-loop-widget v1.1.4 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 
 
@@ -27,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - FileBird - 2.8 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
 - Advanced Custom Fields: Image Aspect Ratio Crop Field - 3.2.0 - see [Changelog](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+
 ### Changed
 - simplesamlphp - 1.18.6 - see [Change Log](https://simplesamlphp.org/archive)
 - wordpress-composer 5.4.1 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
@@ -37,11 +34,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - capability-manager-enhanced aka PublishPress Capabilities - 1.9.6 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - WP Mail SMTP 2.0.0 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 - WP RSS Aggregator 4.17.5 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
-- CULU Theme update v1.1.9 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.9](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.9)
 
 ## [v1.3.12] - 2020-05-16
 ### Changed
-- CULU Theme update v1.1.8 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.8](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.8)
 - wp-custom-loop-widget v1.1.3 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 
 
@@ -56,7 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - twentynineteen v1.5 - see [Changelog](https://themes.trac.wordpress.org/log/twentynineteen)
 - wp-custom-loop-widget v1.1.2 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
-- CULU Theme update v1.1.7 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.7](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.7)
 
 
 ## [v1.3.9] - 2020-04-08
@@ -66,7 +63,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Relevanssi - 4.7.2.1 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
 - wp-custom-loop-widget v1.1.1 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 - wp-libcal-hours update - v2.0.1 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
-- CULU Theme update v1.1.6 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.6](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.6)
 
 ## [v1.3.8]
 ### Changed
@@ -81,7 +78,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - json-content-importer - update 1.3.7 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
 - capability-manager-enhanced aka PublishPress Capabilities - 1.9.4 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - WP Mail SMTP 1.9.0 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
-- CULU Theme update v1.1.5 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.5](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.5)
 - wp-custom-loop-widget v1.1.0 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 - wp-libcal-hours update - v2.0.0 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
 
@@ -92,12 +89,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.3.6]
 ### Changed
-- CULU Theme update v1.1.4 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.4](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.4)
 
 
 ## [v1.3.5]
 ### Changed
-- CULU Theme update v1.1.3 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.3](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.3)
 - capability-manager-enhanced - 1.9 -> 1.9.2 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - wp-libcal-hours update - 1.0.11 -> 1.0.12 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
 
@@ -105,6 +102,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - wp-custom-loop-widget v1.0.1 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 - easy-notification-bar v1.0 - see [Changelog](https://wordpress.org/plugins/easy-notification-bar/#developers)
+
 ### Changed
 - Advanced Access Manager 6.4.0 -> 6.4.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - WP RSS Aggregator 4.17.3 -> 4.17.4 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
@@ -113,7 +111,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.3.3]
 ### Changed
-- CULU Theme update v1.1.2 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.2](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.2)
 - Elementor Pro - 2.8.5 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 - Elementor 2.9.2 -> 2.9.6 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 - wp-saml-auth - 0.8.3 -> 1.0.0 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
@@ -125,12 +123,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.3.2]
 ### Changed
-- CULU Theme updates - 1.1.0 -> v1.1.1 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.1](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.1)
 - update nokogiri for Security advisory GHSA-7553-jr98-vx47
 
 ## [v1.3.1] -- 2020-02-20
 ### Changed
-- CULU Theme updates - 1.0.32 -> v1.1.0 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.1.0](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.1.0)
+
 ### Removed
 - All-in One WP Migration
 
@@ -138,6 +137,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.3.0] - 2020-02-17
 ### Added
 Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
+
 ### Changed
 - Advanced Access Manager 6.2.2 -> 6.3.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - All-in One WP Migration 7.12 -> 7.17 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
@@ -150,7 +150,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - WP RSS Aggregator 4.17.2 -> 4.17.3 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - wp-saml-auth - 0.8.1 -> 0.8.3 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
 - simplesamlphp - 1.18.2 -> 1.18.4 - see [Change Log](https://simplesamlphp.org/docs/1.18/simplesamlphp-changelog#section_1)
-- CULU Theme updates - 1.0.31 -> v1.0.32 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.32](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.32)
 
 
 ## [v1.2.39] - 2020-01-09
@@ -174,7 +174,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 ## [v1.2.37] - 2019-12-12
 ### Changed
 - wp-libcal-hours update - 1.0.10 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
-- CULU Theme updates - 1.0.31 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.31](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.31)
 - Beware: When I activate Elementor Pro on sites that have not already had it activated, I ran into fatal errors going to any page. Manolo does not have this experience with sites where it is already installed, so I'm leaving Elementor Pro in the upstream. For safety, test activating Elementor Pro on a multidev site first. -jgr25
 - advanced-access-manager - update 6.1.0 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - WP Mail SMTP - update to 1.8.0 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
@@ -196,7 +196,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 
 ## [v1.2.34] - 2019-12-06
 ### Changed
-- CULU Theme updates - 1.0.29 - catch some updates that didn't make it into Pantheon last time around - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.29](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.29)
 - google-analytics-dashboard-for-wp - 5.3.10 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 
 ## [v1.2.33] - 2019-12-05
@@ -205,7 +205,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - All-in-One WP Migration - Update to 7.11 - see [Release Changelog](https://wordpress.org/plugins/all-in-one-wp-migration/#developers)
 - wp-saml-auth - update 0.8.1 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
 - simplesamlphp - update 1.18.2 - see [Change Log](https://simplesamlphp.org/docs/1.18/simplesamlphp-changelog#section_1)
-- CULU Theme updates - 1.0.28 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.28](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.28)
 - wp-libcal-hours - update - 1.0.9 - [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
 - json-content-importer - update 1.3.6 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
 - ares_wordpress - update 1.0.5 - see [Changelog](https://github.com/cul-it/ares_wordpress/blob/master/CHANGELOG.md)
@@ -214,7 +214,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 ## [v1.2.32] - 2019-11-25
 ### Changed
 - advanced-access-manager - update 6.0.3 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
-- CULU Theme updates - 1.0.27 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.27](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.27)
 
 
 ## [v1.2.31] - 2019-11-22
@@ -226,7 +226,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 
 ## [v1.2.30] - 2019-11-22
 ### Changed
-- CULU Theme updates - 1.0.26 - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.26](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.26)
 - simplesamlphp configuration changes to avoid warning messages for statistics and mitigate security issue - see [issue](https://github.com/cul-it/simplesamlphp-code/issues/2)
 
 ## [v1.2.29] - 2019-11-20
@@ -245,7 +245,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 
 ## [v1.2.27] - 2019-11-08
 ### Changed
-- CULU theme v1.0.25 updates - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.25](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.25)
 - custom-post-type-ui update - 1.7.1 - see [CHANGES](https://github.com/WebDevStudios/custom-post-type-ui/)
 - wp-saml-auth - 0.7.3 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
 
@@ -274,7 +274,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 ### Changed
 - wp-rss-aggregator - 4.15.0.2 -> 4.15.2.1 - see [RSS Aggregator Changelog](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - wp-mail-smtp - 1.6.2 -> 1.7.0 - see [wp-mail-smtp page](https://wordpress.org/plugins/wp-mail-smtp/)
-- CULU theme v1.0.24 updates - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.24](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.24)
 
 ## [v1.2.24] - 2019-10-23
 ### Added
@@ -282,7 +282,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 
 ### changed
 - wp-native-php-sessions - 0.8.1 -> 0.9.0 - see [changelog](https://github.com/pantheon-systems/wp-native-php-sessions/pull/135)
-- CULU theme v1.0.23 updates - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.23](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.23)
 
 ## [v1.2.23] - 2019-10-09
 ### Added
@@ -293,7 +293,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - acf-better-search 3.4.2, 3.4.3 updates - see [AFC Search Changelog](https://wordpress.org/plugins/acf-better-search/#developers)
 - libcal_hours v1.0.7 update - see [Libcal CHANGELOG](https://github.com/cul-it/wp-libcal-hours/blob/master/CHANGELOG.md)
 - ares_wordpress v1.0.2 update - see [Ares CHANGELOG](https://github.com/cul-it/ares_wordpress/blob/master/CHANGELOG.md)
-- CULU theme v1.0.21, v1.0.22 updates - see [CULU CHANGELOG](https://github.com/cul-it/library-cornell-edu-theme/blob/master/CHANGELOG.md)
+- [CULU theme v1.0.22](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.0.22)
 
 ## [v1.2.22] - 2019-10-02
 ### Added
