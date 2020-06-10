@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.1: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.1: Unknown
 
+## [v1.4.0-beta] - 2020-06-10
+### Changed
+- Test new dev workflow for [CULU theme v1.3.0-beta](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.0-beta), centered on GitHub repo
+
 ## [v1.3.14] - 2020-05-11
 ### Changed
 - Advanced Access Manager 6.5.1 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
