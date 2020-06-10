@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FileBird\n"
+"POT-Creation-Date: 2019-03-04 10:37+0700\n"
+"PO-Revision-Date: 2019-03-04 12:02+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: filebird.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-filebird-admin.php:208
+msgid "No media files found."
+msgstr "Nessun documento multimediale individuato."
+
+#: admin/class-filebird-admin.php:209
+msgid "item"
+msgstr "articolo"
+
+#: admin/class-filebird-admin.php:210
+msgid "items"
+msgstr "oggetti"
+
+#: admin/class-filebird-admin.php:255
+msgid "Folders"
+msgstr "Cartelle"
+
+#: admin/class-filebird-admin.php:260
+msgid "New Folder"
+msgstr "Nuova cartella"
+
+#: admin/class-filebird-admin.php:264 admin/class-filebird-admin.php:266
+#: translation/filebird-js-translation.php:19
+msgid "Rename"
+msgstr "Rinominare"
+
+#: admin/class-filebird-admin.php:267
+#: translation/filebird-js-translation.php:21
+msgid "Delete"
+msgstr "Elimina"
+
+#: admin/class-filebird-admin.php:282
+msgid "All files"
+msgstr "Tutti i file"
+
+#: admin/class-filebird-admin.php:292 admin/class-filebird-admin.php:648
+#: includes/class-filebird-elementor.php:51
+#: includes/class-filebird-topbar.php:211 includes/filebird-cores.php:45
+msgid "Uncategorized"
+msgstr "Senza categoria"
+
+#: admin/class-filebird-admin.php:392 admin/class-filebird-admin.php:393
+msgid "Folder"
+msgstr "Cartella"
+
+#: admin/class-filebird-admin.php:394 admin/class-filebird-admin.php:396
+msgid "Add New Folder"
+msgstr "Aggiungi nuova cartella"
+
+#: admin/class-filebird-admin.php:395
+msgid "Edit Folder"
+msgstr "Modifica cartella"
+
+#: admin/class-filebird-admin.php:397
+msgid "Search Folder"
+msgstr "Cartella di ricerca"
+
+#: admin/class-filebird-admin.php:398
+msgid "Folder not found"
+msgstr "Cartella non trovata"
+
+#: admin/class-filebird-admin.php:399
+msgid "Folder not found in trash"
+msgstr "Cartella non trovata nel cestino"
+
+#: admin/class-filebird-admin.php:645
+msgid "Select a folder and upload files (Optional)"
+msgstr "Selezionare una cartella e caricare i file (facoltativo)"
+
+#: includes/class-filebird-elementor.php:51
+#: includes/class-filebird-topbar.php:211 includes/filebird-cores.php:45
+msgid "All categories"
+msgstr "Tutte le categorie"
+
+#: includes/filebird-cores.php:87
+msgid "Go Pro"
+msgstr "Passa a Pro"
+
+#: translation/filebird-js-translation.php:10
+msgid "Move 1 file"
+msgstr "Sposta 1 file"
+
+#: translation/filebird-js-translation.php:11
+msgid "Oops"
+msgstr "Oops"
+
+#: translation/filebird-js-translation.php:12
+msgid "Error"
+msgstr "Errore"
+
+#: translation/filebird-js-translation.php:13
+msgid "Folder Limit Reached"
+msgstr "Limite cartella raggiunta"
+
+#: translation/filebird-js-translation.php:14
+msgid "This folder already exists. Please type another name."
+msgstr "Questa cartella esiste già. Si prega di digitare un altro nome."
+
+#: translation/filebird-js-translation.php:15
+msgid "Sorry! An error occurred while processing your request."
+msgstr ""
+"Siamo spiacenti! Si è verificato un errore durante l'elaborazione della "
+"richiesta."
+
+#: translation/filebird-js-translation.php:16
+msgid "This folder cannot be deleted."
+msgstr "Questa cartella non può essere eliminata."
+
+#: translation/filebird-js-translation.php:17
+msgid "Add sub folder"
+msgstr "Aggiungi cartella secondaria"
+
+#: translation/filebird-js-translation.php:18
+msgid "New folder"
+msgstr "Nuova cartella"
+
+#: translation/filebird-js-translation.php:20
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: translation/filebird-js-translation.php:22
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#: translation/filebird-js-translation.php:23
+msgid "Something isn't correct here."
+msgstr "Qualcosa non è corretto qui."
+
+#: translation/filebird-js-translation.php:24
+msgid "This page will be reloaded now."
+msgstr "Questa pagina verrà ricaricata ora."
+
+#: translation/filebird-js-translation.php:25
+msgid "This folder contains subfolders, please delete them first!"
+msgstr "Questa cartella contiene sottocartelle, si prega di eliminarli prima!"
+
+#: translation/filebird-js-translation.php:26
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#: translation/filebird-js-translation.php:27
+msgid ""
+"You will not be able to recover this folder! But files in this folder are "
+"all safe, they are moved to Uncategorized folder."
+msgstr ""
+"Non sarà in grado di recuperare questa cartella! Ma i file in questa "
+"cartella sono tutti sicuri, vengono spostati nella cartella non "
+"categorizzato."
+
+#: translation/filebird-js-translation.php:28
+msgid "Yes, delete it!"
+msgstr "Sì, eliminalo!"
+
+#: translation/filebird-js-translation.php:29
+msgid "Deleted"
+msgstr "Cancellata"
+
+#: translation/filebird-js-translation.php:30
+msgid "Move"
+msgstr "Sposta"
+
+#: translation/filebird-js-translation.php:31
+msgid "files"
+msgstr "files"
+
+#: translation/filebird-js-translation.php:32
+msgid ""
+"The FileBird Lite version allows you to manage up to 10 folders.<br>To have "
+"unlimited folders, please upgrade to PRO version.</br></br>\r\n"
+"\t\t    \t<p class=\"upgrade-description\">✅ Unlimited Folders</br>\r\n"
+"\t\t    \t✅ Get Fast Updates</br>\r\n"
+"\t\t    \t✅ Live Chat Support 24/7</br>\r\n"
+"\t\t    \t✅ 30-day Refund Guarantee</p>"
+msgstr ""
+"La versione di FileBird Lite consente di gestire fino a 10 cartelle. <br> "
+"Per avere cartelle illimitate, si prega di eseguire l'aggiornamento alla "
+"versione PRO. </br> </br>\r\n"
+"\t\t    \t<p class=\"upgrade-description\">✅ Cartelle illimitate </br>\r\n"
+"\t\t    \t✅ Ottenere aggiornamenti rapidi </br>\r\n"
+"\t\t    \t✅ Supporto chat dal vivo 24/7 </br>\r\n"
+"\t\t    \t✅ Garanzia di rimborso di 30 giorni </p>"
+
+#: translation/filebird-js-translation.php:37
+msgid "Your folder has been deleted."
+msgstr "La cartella è stata eliminata."
+
+#: translation/filebird-js-translation.php:38
+msgid "Upgrade to Pro version now"
+msgstr "Aggiornamento alla versione Pro ora"
+
+#: translation/filebird-js-translation.php:39
+msgid "No, thanks."
+msgstr "No grazie."
+
+#: translation/filebird-js-translation.php:40
+msgid "Cancel"
+msgstr "Annulla"
+
+#. Plugin Name of the plugin/theme
+msgid "FileBird"
+msgstr "FileBird"
+
+#. Plugin URI of the plugin/theme
+msgid "https://media-folder.ninjateam.org"
+msgstr "https://media-folder.ninjateam.org"
+
+#. Description of the plugin/theme
+msgid "Media Library Categories/Folders File Manager for WordPress."
+msgstr "Libreria multimediale categorie/cartelle file Manager per WordPress."
+
+#. Author of the plugin/theme
+msgid "Ninja Team"
+msgstr "Ninja Team"
+
+#. Author URI of the plugin/theme
+msgid "https://ninjateam.org"
+msgstr "https://ninjateam.org"
