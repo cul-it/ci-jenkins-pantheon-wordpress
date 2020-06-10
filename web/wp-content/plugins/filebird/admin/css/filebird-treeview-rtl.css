@@ -1,0 +1,44 @@
+.filebird-treeview .media-frame-menu{
+  display: block !important;
+  width: 270px !important;
+}
+
+.filebird-treeview .media-frame-content, 
+.filebird-treeview .media-frame-router, 
+.filebird-treeview .media-frame-title, 
+.filebird-treeview .media-frame-toolbar {
+  right: 270px !important;
+}
+
+.filebird-treeview #filebird_sidebar{
+  padding: 10px;
+}
+
+.filebird-treeview .filebird_sidebar, .filebird-treeview .filebird_sidebar_container{
+  width: 100%;
+}
+
+.filebird-treeview .jstree-anchor{
+  color: inherit !important;
+}
+
+.filebird-treeview.hide-router .wpmediacategory-filter.attachment-filters{
+  display: none !important;
+}
+
+.filebird-treeview .fb-treeview-loading .spinner{
+  visibility: visible !important;
+  float: none !important;
+}
+
+.filebird-treeview.not-show .filebird_sidebar{
+  display: none;
+}
+
+body.elementor-editor-active .njt-filebird-editcategory-filter{
+  width: 150px !important;
+}
+
+body.elementor-editor-active .wpmediacategory-filter.attachment-filters{
+  width: 320px !important;
+}
