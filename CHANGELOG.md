@@ -307,3 +307,39 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - CULU theme v1.0.19 update
 - coming-soon v5.1.0 update - now from [wpackagist](https://wpackagist.org/search?q=coming-soon&type=any&search=) instead of [wppp-maintenancemode](https://github.com/cul-it/wppp-maintenancemode)
 - all-in-one-wp-migration v7.8 update
+
+[Unreleased]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0-beta...HEAD
+[v1.4.0-beta]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0-beta
+[v1.3.14]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.14
+[v1.3.13.1]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.13.1
+[v1.3.12]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.12
+[v1.3.11]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.11
+[v1.3.10]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.10
+[v1.3.9]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.9
+[v1.3.8]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.8
+[v1.3.7]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.7
+[v1.3.6]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.6
+[v1.3.5]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.5
+[v1.3.4]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.4
+[v1.3.3]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.3
+[v1.3.2]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.2
+[v1.3.1]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.1
+[v1.3.0]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.0
+[v1.2.39]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.39
+[v1.2.38]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.38
+[v1.2.37]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.37
+[v1.2.36]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.36
+[v1.2.35]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.35
+[v1.2.34]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.34
+[v1.2.33]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.33
+[v1.2.32]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.32
+[v1.2.31]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.31
+[v1.2.30]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.30
+[v1.2.29]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.29
+[v1.2.28]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.28
+[v1.2.27]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.27
+[v1.2.26]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.26
+[v1.2.25]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.25
+[v1.2.24]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.24
+[v1.2.23]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.23
+[v1.2.22]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.22
