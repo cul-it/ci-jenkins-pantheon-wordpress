@@ -10,6 +10,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.1: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.1: Unknown
 
+## [v1.4.0] - 2020-06-11
+### Changed
+- [x] Advanced Access Manager 6.5.4 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [x] Advanced Custom Fields: Image Aspect Ratio Crop Field - 3.3.1 - see [Changelog](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+- [x] Advanced Custom Fields Pro - version 5.8.12 - see [Release Notes](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)
+- [x] Akismet Anti-Spam - 4.1.6 - see [Changelog](https://wordpress.org/plugins/akismet/#developers)
+- [x] Elementor 2.9.11 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- [x] Elementor Pro - 2.10.0 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [x] kirki customizer framework- 3.1.3 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
+- [x] wp-native-php-sessions - 1.2.0 - see [changelog](https://github.com/pantheon-systems/wp-native-php-sessions/pull/135)
+- [x] capability-manager-enhanced aka PublishPress Capabilities - 1.9.10 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- [x] WP Mail SMTP 2.1.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- [x] wp-rss-templates Aggregator Templates Pro - 0.2 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md)
+- [x] wp-saml-auth - 1.0.2 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
+- security update for [websocket-extensions](https://github.com/advisories/GHSA-g6wq-qcwm-j5g2)
+- security update for [phpmailer/phpmailer](https://github.com/advisories/GHSA-f7hx-fqxw-rvvj)
+
+
+
 ## [v1.4.0-beta] - 2020-06-10
 ### Changed
 - Test new dev workflow for [CULU theme v1.3.0-beta](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.0-beta), centered on GitHub repo
@@ -307,3 +326,40 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - CULU theme v1.0.19 update
 - coming-soon v5.1.0 update - now from [wpackagist](https://wpackagist.org/search?q=coming-soon&type=any&search=) instead of [wppp-maintenancemode](https://github.com/cul-it/wppp-maintenancemode)
 - all-in-one-wp-migration v7.8 update
+
+[Unreleased]: https://github.com/cul-it/wp-cul-theme-culu/releases/latest...HEAD
+[v1.4.0]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0
+[v1.4.0-beta]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0-beta
+[v1.3.14]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.14
+[v1.3.13.1]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.13.1
+[v1.3.12]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.12
+[v1.3.11]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.11
+[v1.3.10]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.10
+[v1.3.9]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.9
+[v1.3.8]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.8
+[v1.3.7]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.7
+[v1.3.6]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.6
+[v1.3.5]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.5
+[v1.3.4]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.4
+[v1.3.3]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.3
+[v1.3.2]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.2
+[v1.3.1]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.1
+[v1.3.0]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.0
+[v1.2.39]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.39
+[v1.2.38]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.38
+[v1.2.37]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.37
+[v1.2.36]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.36
+[v1.2.35]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.35
+[v1.2.34]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.34
+[v1.2.33]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.33
+[v1.2.32]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.32
+[v1.2.31]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.31
+[v1.2.30]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.30
+[v1.2.29]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.29
+[v1.2.28]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.28
+[v1.2.27]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.27
+[v1.2.26]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.26
+[v1.2.25]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.25
+[v1.2.24]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.24
+[v1.2.23]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.23
+[v1.2.22]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.2.22
