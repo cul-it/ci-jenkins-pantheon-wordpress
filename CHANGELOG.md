@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Advanced Access Manager 6.5.4 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [x] Advanced Custom Fields Pro - version 5.8.12 - see [Release Notes](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)
 - [x] Elementor Pro - 2.10.0 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [x] wp-rss-templates Aggregator Templates Pro - 0.2 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md)
 
 
 ## [v1.4.0-beta] - 2020-06-10
