@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [x] Akismet Anti-Spam - 4.1.6 - see [Changelog](https://wordpress.org/plugins/akismet/#developers)
 - [x] Elementor 2.9.11 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 - [x] Elementor Pro - 2.10.0 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [CULU theme v1.3.0](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.0)
 - [x] kirki customizer framework- 3.1.3 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
 - [x] wp-native-php-sessions - 1.2.0 - see [changelog](https://github.com/pantheon-systems/wp-native-php-sessions/pull/135)
 - [x] capability-manager-enhanced aka PublishPress Capabilities - 1.9.10 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
