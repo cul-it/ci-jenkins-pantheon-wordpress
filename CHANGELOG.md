@@ -12,10 +12,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.4.0] - 2020-06-11
 ### Changed
-- Advanced Access Manager 6.5.4 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [x] Advanced Access Manager 6.5.4 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [x] Advanced Custom Fields: Image Aspect Ratio Crop Field - 3.3.1 - see [Changelog](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - [x] Advanced Custom Fields Pro - version 5.8.12 - see [Release Notes](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)
+- [x] Akismet Anti-Spam - 4.1.6 - see [Changelog](https://wordpress.org/plugins/akismet/#developers)
+- [x] Elementor 2.9.11 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 - [x] Elementor Pro - 2.10.0 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [x] kirki customizer framework- 3.1.3 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
+- [x] wp-native-php-sessions - 1.2.0 - see [changelog](https://github.com/pantheon-systems/wp-native-php-sessions/pull/135)
+- [x] capability-manager-enhanced aka PublishPress Capabilities - 1.9.10 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- [x] WP Mail SMTP 2.1.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 - [x] wp-rss-templates Aggregator Templates Pro - 0.2 - [description](https://github.com/cul-it/wp-rss-templates/blob/master/CHANGELOG.md)
+- [x] wp-saml-auth - 1.0.2 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
+
 
 
 ## [v1.4.0-beta] - 2020-06-10
