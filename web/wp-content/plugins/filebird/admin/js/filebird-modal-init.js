@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var e=window.wp;!jQuery("body.wp-admin.upload-php").length&&e&&e.media&&(e.media.view.Modal.prototype.on("close",function(){jQuery("#filebird_sidebar").appendTo("body"),jQuery("#filebird_sidebar").hide()}),e.media.view.Modal.prototype.on("open",function(){jQuery(".fb-treeview-loading").show(),FileBird_Popup.init()}))});
