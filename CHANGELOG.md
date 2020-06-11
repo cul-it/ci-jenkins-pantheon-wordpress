@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [x] wp-saml-auth - 1.0.2 - see [CHANGES](https://wordpress.org/plugins/wp-saml-auth/#developers)
 - security update for [websocket-extensions](https://github.com/advisories/GHSA-g6wq-qcwm-j5g2)
 - security update for [phpmailer/phpmailer](https://github.com/advisories/GHSA-f7hx-fqxw-rvvj)
+- update reference to Jenkins URL in README.md
 
 
 

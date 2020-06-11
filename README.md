@@ -105,7 +105,7 @@ Notes about the Pull Requests:
 * Once the pull request passes all it's tests, you have to manually merge it into master (not like the automatic merge in blacklight). After you've merged it, it will take a few minutes before the Jenkins job kicks off, and a few minutes after that before the new code is available in the Pantheon dev branch.
 
 The Jenkins job is
-https://jenkins.library.cornell.edu/view/wordpress/job/ci-jenkins-pantheon-wordpress/
+https://awsjenkins.library.cornell.edu/job/ci-jenkins-pantheon-wordpress/
 
 The multidev sites in Pantheon are named ci-1, ci-2, ci-3, etc.
 
@@ -204,7 +204,7 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
 * After all the updates to composer.json in ci-jenkins-pantheon-wordpress, run composer update in the local version to update composer.lock
 * Make a release tagged with the next version number for ci-jenkins-pantheon-wordpress (e.g. "release/v1.2.11")
 * Push the release to GitHub and submit a Pull Request
-* Jenkins should run and complete the tests: https://jenkins.library.cornell.edu/job/ci-jenkins-pantheon-wordpress/
+* Jenkins should run and complete the tests: https://awsjenkins.library.cornell.edu/job/ci-jenkins-pantheon-wordpress/
 * If all goes well, finish the release, merge it into master, and push master to GitHub.
 * Jenkins should run and complete the tests a second time, this time creating a new version of the upstream in Pantheon
 * Test the new upstream
