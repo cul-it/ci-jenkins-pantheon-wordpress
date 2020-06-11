@@ -1,0 +1,5 @@
+{% if options.author_enabled and item.author|length > 0 %}
+    <div class="feed-author">
+        {{ options.author_prefix }} {{ item.author }}
+    </div>
+{% endif %}

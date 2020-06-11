@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FileBird\n"
+"POT-Creation-Date: 2019-03-04 10:56+0700\n"
+"PO-Revision-Date: 2019-03-04 13:42+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: filebird.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-filebird-admin.php:208
+msgid "No media files found."
+msgstr "Geen mediabestanden gevonden."
+
+#: admin/class-filebird-admin.php:209
+msgid "item"
+msgstr "item"
+
+#: admin/class-filebird-admin.php:210
+msgid "items"
+msgstr "items"
+
+#: admin/class-filebird-admin.php:255
+msgid "Folders"
+msgstr "Mappen"
+
+#: admin/class-filebird-admin.php:260
+msgid "New Folder"
+msgstr "Nieuwe map"
+
+#: admin/class-filebird-admin.php:264 admin/class-filebird-admin.php:266
+#: translation/filebird-js-translation.php:19
+msgid "Rename"
+msgstr "Hernoem"
+
+#: admin/class-filebird-admin.php:267
+#: translation/filebird-js-translation.php:21
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin/class-filebird-admin.php:282
+msgid "All files"
+msgstr "Alle bestanden"
+
+#: admin/class-filebird-admin.php:292 admin/class-filebird-admin.php:648
+#: includes/class-filebird-elementor.php:51
+#: includes/class-filebird-topbar.php:211 includes/filebird-cores.php:45
+msgid "Uncategorized"
+msgstr "Geen categorie"
+
+#: admin/class-filebird-admin.php:392 admin/class-filebird-admin.php:393
+msgid "Folder"
+msgstr "Map"
+
+#: admin/class-filebird-admin.php:394 admin/class-filebird-admin.php:396
+msgid "Add New Folder"
+msgstr "Nieuwe map toevoegen"
+
+#: admin/class-filebird-admin.php:395
+msgid "Edit Folder"
+msgstr "Map bewerken"
+
+#: admin/class-filebird-admin.php:397
+msgid "Search Folder"
+msgstr "Zoekmap"
+
+#: admin/class-filebird-admin.php:398
+msgid "Folder not found"
+msgstr "Map niet gevonden"
+
+#: admin/class-filebird-admin.php:399
+msgid "Folder not found in trash"
+msgstr "Map niet gevonden in de Prullenbak"
+
+#: admin/class-filebird-admin.php:645
+msgid "Select a folder and upload files (Optional)"
+msgstr "Selecteer een map en upload bestanden (optioneel)"
+
+#: includes/class-filebird-elementor.php:51
+#: includes/class-filebird-topbar.php:211 includes/filebird-cores.php:45
+msgid "All categories"
+msgstr "Alle categorieën"
+
+#: includes/filebird-cores.php:87
+msgid "Go Pro"
+msgstr "Go Pro"
+
+#: translation/filebird-js-translation.php:10
+msgid "Move 1 file"
+msgstr "1 bestand verplaatsen"
+
+#: translation/filebird-js-translation.php:11
+msgid "Oops"
+msgstr "Oeps"
+
+#: translation/filebird-js-translation.php:12
+msgid "Error"
+msgstr "Fout"
+
+#: translation/filebird-js-translation.php:13
+msgid "Folder Limit Reached"
+msgstr "Map limiet bereikt"
+
+#: translation/filebird-js-translation.php:14
+msgid "This folder already exists. Please type another name."
+msgstr "Deze map bestaat al. Geef een andere naam op."
+
+#: translation/filebird-js-translation.php:15
+msgid "Sorry! An error occurred while processing your request."
+msgstr "Sorry! Er is een fout opgetreden bij het verwerken van uw aanvraag."
+
+#: translation/filebird-js-translation.php:16
+msgid "This folder cannot be deleted."
+msgstr "Deze map kan niet worden verwijderd."
+
+#: translation/filebird-js-translation.php:17
+msgid "Add sub folder"
+msgstr "Submap toevoegen"
+
+#: translation/filebird-js-translation.php:18
+msgid "New folder"
+msgstr "Nieuwe map"
+
+#: translation/filebird-js-translation.php:20
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: translation/filebird-js-translation.php:22
+msgid "Refresh"
+msgstr "Ververs"
+
+#: translation/filebird-js-translation.php:23
+msgid "Something isn't correct here."
+msgstr "Iets is niet juist hier."
+
+#: translation/filebird-js-translation.php:24
+msgid "This page will be reloaded now."
+msgstr "Deze pagina wordt nu opnieuw geladen."
+
+#: translation/filebird-js-translation.php:25
+msgid "This folder contains subfolders, please delete them first!"
+msgstr "Deze map bevat submappen, verwijdert u ze eerst!"
+
+#: translation/filebird-js-translation.php:26
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: translation/filebird-js-translation.php:27
+msgid ""
+"You will not be able to recover this folder! But files in this folder are "
+"all safe, they are moved to Uncategorized folder."
+msgstr ""
+"U zult niet in staat zijn om deze map te herstellen! Maar bestanden in deze "
+"map zijn allemaal veilig, ze zijn verhuisd naar Uncategorized map."
+
+#: translation/filebird-js-translation.php:28
+msgid "Yes, delete it!"
+msgstr "Ja, verwijder het!"
+
+#: translation/filebird-js-translation.php:29
+msgid "Deleted"
+msgstr "Verwijderd"
+
+#: translation/filebird-js-translation.php:30
+msgid "Move"
+msgstr "Verplaats"
+
+#: translation/filebird-js-translation.php:31
+msgid "files"
+msgstr "bestanden"
+
+#: translation/filebird-js-translation.php:32
+msgid ""
+"The FileBird Lite version allows you to manage up to 10 folders.<br>To have "
+"unlimited folders, please upgrade to PRO version.</br></br>\r\n"
+"\t\t    \t<p class=\"upgrade-description\">✅ Unlimited Folders</br>\r\n"
+"\t\t    \t✅ Get Fast Updates</br>\r\n"
+"\t\t    \t✅ Live Chat Support 24/7</br>\r\n"
+"\t\t    \t✅ 30-day Refund Guarantee</p>"
+msgstr ""
+"Met de FileBird Lite-versie u maximaal 10 mappen beheren. <br> Te hebben "
+"onbeperkte mappen, u upgraden naar PRO versie. </br> </br>\r\n"
+"\t\t    \t<p class=\"upgrade-description\">✅ Onbeperkte mappen </br>\r\n"
+"\t\t    \t✅ Krijgt snelle updates </br>\r\n"
+"\t\t    \t✅ Live Chat ondersteuning 24/7 </br>\r\n"
+"\t\t    \t✅ 30-dagen restitutie garantie </p>"
+
+#: translation/filebird-js-translation.php:37
+msgid "Your folder has been deleted."
+msgstr "De map is verwijderd."
+
+#: translation/filebird-js-translation.php:38
+msgid "Upgrade to Pro version now"
+msgstr "Upgrade naar Pro-versie nu"
+
+#: translation/filebird-js-translation.php:39
+msgid "No, thanks."
+msgstr "Nee dank je."
+
+#: translation/filebird-js-translation.php:40
+msgid "Cancel"
+msgstr "Annuleren"
+
+#. Plugin Name of the plugin/theme
+msgid "FileBird"
+msgstr "FileBird"
+
+#. Plugin URI of the plugin/theme
+msgid "https://media-folder.ninjateam.org"
+msgstr "https://media-folder.ninjateam.org"
+
+#. Description of the plugin/theme
+msgid "Media Library Categories/Folders File Manager for WordPress."
+msgstr "Media Library categorieën/mappen File Manager voor WordPress."
+
+#. Author of the plugin/theme
+msgid "Ninja Team"
+msgstr "Ninja Team"
+
+#. Author URI of the plugin/theme
+msgid "https://ninjateam.org"
+msgstr "https://ninjateam.org"
