@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.1: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.1: Unknown
 
+## [v1.4.0] - 2020-06-11
+### Changed
 ## [v1.4.0-beta] - 2020-06-10
 ### Changed
 - Test new dev workflow for [CULU theme v1.3.0-beta](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.0-beta), centered on GitHub repo
@@ -308,7 +310,8 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - coming-soon v5.1.0 update - now from [wpackagist](https://wpackagist.org/search?q=coming-soon&type=any&search=) instead of [wppp-maintenancemode](https://github.com/cul-it/wppp-maintenancemode)
 - all-in-one-wp-migration v7.8 update
 
-[Unreleased]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0-beta...HEAD
+[Unreleased]: https://github.com/cul-it/wp-cul-theme-culu/releases/latest...HEAD
+[v1.4.0]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0
 [v1.4.0-beta]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0-beta
 [v1.3.14]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.14
 [v1.3.13.1]: https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.3.13.1
