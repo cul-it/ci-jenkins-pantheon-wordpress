@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.0] - 2020-06-11
 ### Changed
 - Advanced Access Manager 6.5.4 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [x] Advanced Custom Fields Pro - version 5.8.12 - see [Release Notes](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)
 
 
 ## [v1.4.0-beta] - 2020-06-10
