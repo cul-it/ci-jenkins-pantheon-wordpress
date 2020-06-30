@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - update rack in Gemfile for CVE-2020-8184
 - wordpress-composer 5.4.2 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
+- Elementor 2.9.13 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 
 ## [v1.4.1] - 2020-06-11
 ### Changed
