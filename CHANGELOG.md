@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Elementor 2.9.13 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 - Elementor Pro - 2.10.3 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 - google-analytics-dashboard-for-wp - 6.1.0 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- capability-manager-enhanced aka PublishPress Capabilities - 1.9.12 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 
 ## [v1.4.1] - 2020-06-11
 ### Changed
