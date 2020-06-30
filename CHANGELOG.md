@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.2] - 2020-06-30
 ### Changed
 - update rack in Gemfile for CVE-2020-8184
+- wordpress-composer 5.4.2 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
+
 ## [v1.4.1] - 2020-06-11
 ### Changed
 - fix links to version number tags in this changelog file
