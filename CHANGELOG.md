@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.1: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.1: Unknown
 
+## [v1.4.2] - 2020-06-30
 ## [v1.4.1] - 2020-06-11
 ### Changed
 - fix links to version number tags in this changelog file
@@ -332,6 +333,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.2
 [v1.4.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.1
 [v1.4.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.0
 [v1.4.0-beta]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.0-beta
