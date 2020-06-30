@@ -5,10 +5,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.4.1: Unknown
-- FacetWP - new version - Compatibility with WordPress 5.4.1: Unknown
-- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.1: Unknown
-- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.1: Unknown
+- Draw Attention Pro - new version - Compatibility with WordPress 5.4.2: Unknown
+- FacetWP - new version - Compatibility with WordPress 5.4.2: Unknown
+- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.2: Unknown
+- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
+- Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
+
+## [v1.4.2] - 2020-06-30
+### Changed
+- update rack in Gemfile for CVE-2020-8184
+- wordpress-composer 5.4.2 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
+- Elementor 2.9.13 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- Elementor Pro - 2.10.3 - see [changes in changelog.txt](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- google-analytics-dashboard-for-wp - 6.1.0 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- capability-manager-enhanced aka PublishPress Capabilities - 1.9.12 - see [Changelog](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- wp-libcal-hours update - v2.0.2 - see [Changelog](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
 
 ## [v1.4.1] - 2020-06-11
 ### Changed
@@ -332,6 +343,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.2
 [v1.4.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.1
 [v1.4.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.0
 [v1.4.0-beta]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.0-beta
