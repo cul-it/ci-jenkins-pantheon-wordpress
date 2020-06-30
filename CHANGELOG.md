@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - FacetWP - new version - Compatibility with WordPress 5.4.2: Unknown
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.2: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
+- Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
 
 ## [v1.4.2] - 2020-06-30
 ### Changed
