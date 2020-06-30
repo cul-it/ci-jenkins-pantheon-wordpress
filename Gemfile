@@ -20,4 +20,5 @@ group :development do
     gem "selenium-webdriver"
     gem "spreewald", :git => 'git@github.com:makandra/spreewald.git'
     gem "webdrivers", "~> 3.0"
+    gem "rack", ">= 2.1.4"
 end
