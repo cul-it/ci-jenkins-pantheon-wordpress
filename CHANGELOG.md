@@ -16,7 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - update faye-websocket for [GHSA-2v5c-755p-p4gv](https://github.com/cul-it/ci-jenkins-pantheon-wordpress/network/alert/Gemfile.lock/faye-websocket/open)
 - Advanced Access Manager 6.6.0 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - Advanced Custom Fields: Image Aspect Ratio Crop Field - 3.4.0 - see [Changelog](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
-- coming-soon v5.1.3 update - [Changelog](https://wordpress.org/plugins/coming-soon/#developers)
+- Coming Soon Page & Maintenance Mode v5.1.3 update - [Changelog](https://wordpress.org/plugins/coming-soon/#developers)
+- Elementor 2.9.14 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 
 ## [v1.4.2] - 2020-06-30
 ### Changed
