@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Elementor 2.9.14 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 - FileBird - 4.0.4 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
 - json-content-importer - update 1.3.9 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
+- kirki customizer framework- 3.1.4 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
 
 ## [v1.4.2] - 2020-06-30
 ### Changed
