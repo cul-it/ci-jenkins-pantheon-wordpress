@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.2: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
 - Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
+- Elementor Pro - can not access site to download new version
 
 ## [v1.4.3] - 2020-08-03
 ### Changed
@@ -18,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Advanced Custom Fields: Image Aspect Ratio Crop Field - 3.4.0 - see [Changelog](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - Coming Soon Page & Maintenance Mode v5.1.3 update - [Changelog](https://wordpress.org/plugins/coming-soon/#developers)
 - Elementor 2.9.14 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- FileBird - 4.0.4 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
 
 ## [v1.4.2] - 2020-06-30
 ### Changed
