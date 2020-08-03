@@ -14,7 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.3] - 2020-08-03
 ### Changed
 - update faye-websocket for [GHSA-2v5c-755p-p4gv](https://github.com/cul-it/ci-jenkins-pantheon-wordpress/network/alert/Gemfile.lock/faye-websocket/open)
--
+- Advanced Access Manager 6.6.0 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+
 
 ## [v1.4.2] - 2020-06-30
 ### Changed
