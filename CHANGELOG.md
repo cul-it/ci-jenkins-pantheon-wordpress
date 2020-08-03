@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - FileBird - 4.0.4 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
 - json-content-importer - update 1.3.9 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
 - kirki customizer framework- 3.1.4 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
+- WP Mail SMTP 2.2.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 
 ## [v1.4.2] - 2020-06-30
 ### Changed
