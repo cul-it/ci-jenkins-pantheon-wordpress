@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Coming Soon Page & Maintenance Mode v5.1.3 update - [Changelog](https://wordpress.org/plugins/coming-soon/#developers)
 - Elementor 2.9.14 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
 - FileBird - 4.0.4 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
+- google-analytics-dashboard-for-wp - 6.2.2 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - json-content-importer - update 1.3.9 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
 - kirki customizer framework- 3.1.4 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
 - WP Mail SMTP 2.2.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
