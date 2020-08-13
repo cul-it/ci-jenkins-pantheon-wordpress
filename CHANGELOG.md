@@ -10,6 +10,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.2: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
 - Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
+- wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
+- wp-rss-aggregator plugin - 4.17.7 - licence expired - [Issue](https://github.com/cul-it/uls/issues/865)
+- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5
+
+## [v1.4.3] - 2020-08-03
+### Added
+- Add symfony/yaml dependency - Used downstream by CULU theme to support central config.
+### Changed
+- update faye-websocket for [GHSA-2v5c-755p-p4gv](https://github.com/cul-it/ci-jenkins-pantheon-wordpress/network/alert/Gemfile.lock/faye-websocket/open)
+- wordpress-composer 5.5 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
+- Advanced Access Manager 6.6.0 - see [Release Notes](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- Advanced Custom Fields: Image Aspect Ratio Crop Field - 3.4.0 - see [Changelog](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+- Advanced Custom Fields Pro - version 5.8.13 - see [Release Notes](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)
+- classic editor - version 1.6 - see [Changelog](https://wordpress.org/plugins/classic-editor/#developers)
+- Coming Soon Page & Maintenance Mode v5.1.3 update - [Changelog](https://wordpress.org/plugins/coming-soon/#developers)
+- Elementor 2.9.14 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
+- FileBird - 4.0.4 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
+- google-analytics-dashboard-for-wp - 6.2.2 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- json-content-importer - update 1.3.9 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
+- kirki customizer framework- 3.1.5 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
+- Relevanssi - 4.8.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
+- WP Mail SMTP 2.2.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- [CULU theme v1.4.0](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0)
 
 ## [v1.4.2] - 2020-06-30
 ### Changed
@@ -343,6 +366,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.3
 [v1.4.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.2
 [v1.4.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.1
 [v1.4.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.0
