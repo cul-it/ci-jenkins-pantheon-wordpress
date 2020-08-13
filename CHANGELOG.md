@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - google-analytics-dashboard-for-wp - 6.2.2 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - json-content-importer - update 1.3.9 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
 - kirki customizer framework- 3.1.5 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
+- Relevanssi - 4.8.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
 - WP Mail SMTP 2.2.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 
 ## [v1.4.2] - 2020-06-30
