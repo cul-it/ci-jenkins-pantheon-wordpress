@@ -21,4 +21,5 @@ group :development do
     gem "spreewald", :git => 'git@github.com:makandra/spreewald.git'
     gem "webdrivers", "~> 3.0"
     gem "rack", ">= 2.1.4"
+    gem "faye-websocket", ">= 0.11.0"
 end
