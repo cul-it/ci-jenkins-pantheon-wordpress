@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - build composer.lock to resolve dependencies
 - FileBird - 4.0.5 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
-- symfony/yaml version conflict resolution
+- symfony/yaml version conflict resolution - simplesamlphp requires symfony/yaml ^3.4 || ^4.0, but culu v1.4.0 requires ^5.1
 - simplesamlphp - 1.18.7 - see [Change Log](https://simplesamlphp.org/archive)
 
 ## [v1.4.3] - 2020-08-03
