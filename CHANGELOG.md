@@ -16,7 +16,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.4.4] - 2020-08-13
 ### Changed
-- build composer.lock
+- build composer.lock to resolve dependencies
+- FileBird - 4.0.5 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
+- symfony/yaml version conflict resolution
 
 ## [v1.4.3] - 2020-08-03
 ### Added
