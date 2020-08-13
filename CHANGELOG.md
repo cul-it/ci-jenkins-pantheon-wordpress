@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - kirki customizer framework- 3.1.5 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
 - Relevanssi - 4.8.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
 - WP Mail SMTP 2.2.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- [CULU theme v1.4.0](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0)
 
 ## [v1.4.2] - 2020-06-30
 ### Changed
