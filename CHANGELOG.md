@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
 - Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
+- wp-rss-aggregator plugin - 4.17.7 - licence expired - [Issue](https://github.com/cul-it/uls/issues/865)
 
 ## [v1.4.3] - 2020-08-03
 ### Changed
