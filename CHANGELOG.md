@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5
 
 ## [v1.4.3] - 2020-08-03
+### Added
+- Add symfony/yaml dependency - Used downstream by CULU theme to support central config.
 ### Changed
 - update faye-websocket for [GHSA-2v5c-755p-p4gv](https://github.com/cul-it/ci-jenkins-pantheon-wordpress/network/alert/Gemfile.lock/faye-websocket/open)
 - wordpress-composer 5.5 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
