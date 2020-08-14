@@ -14,7 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-aggregator plugin - 4.17.7 - licence expired - [Issue](https://github.com/cul-it/uls/issues/865)
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5
 
-## [v1.4.4] - 2020-08-03
+## [v1.4.5] - 2020-08-14
+### Added
+- Redirection - 4.8 - [changelog](https://wordpress.org/plugins/redirection/#developers)
+-
+
+## [v1.4.4] - 2020-08-14
 ### Changed
 - created this version since the v1.4.3 tag is already used
 
