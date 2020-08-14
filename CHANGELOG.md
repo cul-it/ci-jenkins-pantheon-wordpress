@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Redirection - 4.8 - [changelog](https://wordpress.org/plugins/redirection/#developers)
 - Anywhere Elementor - 1.2.2 - [changelog](https://wordpress.org/plugins/anywhere-elementor/#description)
+## Changed
+- wp-custom-loop-widget v1.2.1 - see [Changelog](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 
 ## [v1.4.4] - 2020-08-14
 ### Changed
