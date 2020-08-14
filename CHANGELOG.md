@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.5] - 2020-08-14
 ### Added
 - Redirection - 4.8 - [changelog](https://wordpress.org/plugins/redirection/#developers)
--
+- Anywhere Elementor - 1.2.2 - [changelog](https://wordpress.org/plugins/anywhere-elementor/#description)
 
 ## [v1.4.4] - 2020-08-14
 ### Changed
