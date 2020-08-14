@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 - wp-rss-aggregator plugin - 4.17.7 - licence expired - [Issue](https://github.com/cul-it/uls/issues/865)
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5
+- [CULU theme v1.4.2](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.2)
 
 ## [v1.4.5] - 2020-08-14
 ### Added
