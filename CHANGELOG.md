@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-aggregator plugin - 4.17.7 - licence expired - [Issue](https://github.com/cul-it/uls/issues/865)
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5
 
+## [v1.4.4] - 2020-08-03
+### Changed
+- created this version since the v1.4.3 tag is already used
+
 ## [v1.4.3] - 2020-08-03
 ### Added
 - Add symfony/yaml dependency - Used downstream by CULU theme to support central config.
@@ -26,13 +30,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - classic editor - version 1.6 - see [Changelog](https://wordpress.org/plugins/classic-editor/#developers)
 - Coming Soon Page & Maintenance Mode v5.1.3 update - [Changelog](https://wordpress.org/plugins/coming-soon/#developers)
 - Elementor 2.9.14 - see [Changelog](https://wordpress.org/plugins/elementor/#developers)
-- FileBird - 4.0.4 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
+- FileBird - 4.0.5 - see [Change Log](https://wordpress.org/plugins/filebird/#developers)
 - google-analytics-dashboard-for-wp - 6.2.2 - see [Changelog](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - json-content-importer - update 1.3.9 - see [changelog](https://wordpress.org/plugins/json-content-importer/#developers)
 - kirki customizer framework- 3.1.5 - see [Changelog](https://wordpress.org/plugins/kirki/#developers)
 - Relevanssi - 4.8.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#developers)
 - WP Mail SMTP 2.2.1 - [Changelog](https://wordpress.org/plugins/wp-mail-smtp/#developers)
-- [CULU theme v1.4.0](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.0)
+- [CULU theme v1.4.1](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.1)
 
 ## [v1.4.2] - 2020-06-30
 ### Changed
@@ -366,6 +370,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.4
 [v1.4.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.3
 [v1.4.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.2
 [v1.4.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.1
