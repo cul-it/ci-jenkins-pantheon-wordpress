@@ -1,0 +1,6 @@
+{% if options.source_enabled %}
+    <div class="feed-source">
+        {{ options.source_prefix }}
+        {{ item.source_name | wpralink(item.source_url, (not options.item_is_link) and options.source_is_link, options) }}
+    </div>
+{% endif %}
