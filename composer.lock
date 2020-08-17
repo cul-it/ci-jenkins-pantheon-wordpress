@@ -191,11 +191,11 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "time": "2020-08-17T15:06:01+00:00"
             "support": {
-                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v5.8.14",
+                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v5.9.0",
                 "issues": "https://github.com/cul-it/advanced-custom-fields-pro/issues"
             },
+            "time": "2020-08-17T15:06:01+00:00"
         },
         {
             "name": "cul-it/ares_wordpress",
@@ -260,6 +260,10 @@
                 }
             ],
             "description": "WordPress theme for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.4.2",
+                "issues": "https://github.com/cul-it/wp-cul-theme-culu/issues"
+            },
             "time": "2020-08-14T21:18:45+00:00"
         },
         {
@@ -281,6 +285,10 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/draw-attention-pro/tree/v1.9.12.1",
+                "issues": "https://github.com/cul-it/draw-attention-pro/issues"
+            },
             "time": "2019-07-30T16:36:28+00:00"
         },
         {
@@ -302,6 +310,10 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/elementor-pro/tree/v2.10.3",
+                "issues": "https://github.com/cul-it/elementor-pro/issues"
+            },
             "time": "2020-06-30T13:54:49+00:00"
         },
         {
@@ -323,6 +335,10 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/facetwp/tree/v3.4.0.1",
+                "issues": "https://github.com/cul-it/facetwp/issues"
+            },
             "time": "2019-08-19T18:09:09+00:00"
         },
         {
@@ -330,7 +346,7 @@
             "version": "v1.3.0.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:cul-it/facetwp-conditional-logic.git",
+                "url": "https://github.com/cul-it/facetwp-conditional-logic.git",
                 "reference": "a46ca59e97cd2f28ee80fa4bfa09cf9ea4651f57"
             },
             "dist": {
@@ -344,6 +360,9 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/facetwp-conditional-logic/tree/v1.3.0.1"
+            },
             "time": "2019-09-26T19:06:42+00:00"
         },
         {
@@ -410,12 +429,12 @@
             "version": "v4.15.2.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:cul-it/wprssaggregator.git",
+                "url": "git@github.com:cul-it/wp-rss-aggregator.git",
                 "reference": "eab095f7a189ba6a197f2a483dc9823ed60d3abe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wprssaggregator/zipball/eab095f7a189ba6a197f2a483dc9823ed60d3abe",
+                "url": "https://api.github.com/repos/cul-it/wp-rss-aggregator/zipball/eab095f7a189ba6a197f2a483dc9823ed60d3abe",
                 "reference": "eab095f7a189ba6a197f2a483dc9823ed60d3abe",
                 "shasum": ""
             },
@@ -424,6 +443,10 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wp-rss-aggregator/tree/v4.15.2.1",
+                "issues": "https://github.com/cul-it/wp-rss-aggregator/issues"
+            },
             "time": "2019-10-24T15:04:30+00:00"
         },
         {
@@ -445,6 +468,10 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wp-rss-categories/tree/v1.3.3.2",
+                "issues": "https://github.com/cul-it/wp-rss-categories/issues"
+            },
             "time": "2019-10-24T16:29:36+00:00"
         },
         {
@@ -466,6 +493,10 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wp-rss-keyword-filtering/tree/v1.6.3.1",
+                "issues": "https://github.com/cul-it/wp-rss-keyword-filtering/issues"
+            },
             "time": "2019-10-24T16:42:34+00:00"
         },
         {
@@ -487,6 +518,10 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wp-rss-templates/tree/v0.2",
+                "issues": "https://github.com/cul-it/wp-rss-templates/issues"
+            },
             "time": "2020-06-11T15:46:06+00:00"
         },
         {
@@ -509,6 +544,10 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v6.0.1.10",
+                "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
+            },
             "time": "2019-09-30T17:17:29+00:00"
         },
         {
@@ -516,7 +555,7 @@
             "version": "1.6.7",
             "source": {
                 "type": "git",
-                "url": "git@github.com:cweagans/composer-patches.git",
+                "url": "https://github.com/cweagans/composer-patches.git",
                 "reference": "2e6f72a2ad8d59cd7e2b729f218bf42adb14f590"
             },
             "dist": {
@@ -557,6 +596,10 @@
                 }
             ],
             "description": "Provides a way to patch Composer packages.",
+            "support": {
+                "source": "https://github.com/cweagans/composer-patches/tree/1.6.7",
+                "issues": "https://github.com/cweagans/composer-patches/issues"
+            },
             "time": "2019-08-29T20:11:49+00:00"
         },
         {
@@ -997,7 +1040,7 @@
             "version": "5.5",
             "source": {
                 "type": "git",
-                "url": "git@github.com:pantheon-systems/wordpress-composer.git",
+                "url": "https://github.com/pantheon-systems/wordpress-composer.git",
                 "reference": "918fd0cc38e9265b5d8279fddc002725ef8f86a2"
             },
             "dist": {
@@ -1020,7 +1063,11 @@
                 "GPL-2.0+"
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
-            "time": "2020-08-12T00:06:28+00:00"
+            "support": {
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.5",
+                "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
+            },
+            "time": "2020-08-12T00:14:55+00:00"
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
@@ -1884,22 +1931,23 @@
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-authcrypt",
-            "version": "v0.9.1",
+            "version": "v0.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp-module-authcrypt.git",
-                "reference": "cc2950cf710933063192e883ba2804321b8af6db"
+                "reference": "2ad0f234b92ab0abe94e97fa3e1e04f9c743eb9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-authcrypt/zipball/cc2950cf710933063192e883ba2804321b8af6db",
-                "reference": "cc2950cf710933063192e883ba2804321b8af6db",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-authcrypt/zipball/2ad0f234b92ab0abe94e97fa3e1e04f9c743eb9d",
+                "reference": "2ad0f234b92ab0abe94e97fa3e1e04f9c743eb9d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
                 "simplesamlphp/composer-module-installer": "~1.1",
-                "webmozart/assert": "~1.4"
+                "webmozart/assert": "~1.4 <1.7",
+                "whitehat101/apr1-md5": "~1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~5.7",
@@ -1913,7 +1961,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0-or-later"
+                "LGPL-2.1-or-later"
             ],
             "authors": [
                 {
@@ -1926,7 +1974,7 @@
                 "authcrypt",
                 "simplesamlphp"
             ],
-            "time": "2019-12-03T08:56:36+00:00"
+            "time": "2020-08-12T21:30:50+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-authfacebook",
@@ -2418,22 +2466,22 @@
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-discopower",
-            "version": "v0.9.1",
+            "version": "v0.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp-module-discopower.git",
-                "reference": "006c0617610f1bae11cf4d17e8ce4c509239a60e"
+                "reference": "c892926e8186d0a2c638f7032dfc30540c1f92fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-discopower/zipball/006c0617610f1bae11cf4d17e8ce4c509239a60e",
-                "reference": "006c0617610f1bae11cf4d17e8ce4c509239a60e",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-discopower/zipball/c892926e8186d0a2c638f7032dfc30540c1f92fb",
+                "reference": "c892926e8186d0a2c638f7032dfc30540c1f92fb",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
                 "simplesamlphp/composer-module-installer": "~1.1",
-                "webmozart/assert": "~1.4"
+                "webmozart/assert": "~1.4 <1.6"
             },
             "require-dev": {
                 "phpunit/phpunit": "~5.7",
@@ -2461,7 +2509,7 @@
                 "discovery",
                 "simplesamlphp"
             ],
-            "time": "2019-11-27T20:34:37+00:00"
+            "time": "2019-12-13T07:51:43+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-exampleattributeserver",
@@ -4815,30 +4863,31 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.9.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
+                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
-                "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/88e6d84706d09a236046d686bbea96f07b3a34f4",
+                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0 || ^8.0",
+                "php": "^5.3.3 || ^7.0",
                 "symfony/polyfill-ctype": "^1.8"
-            },
-            "conflict": {
-                "phpstan/phpstan": "<0.12.20",
-                "vimeo/psalm": "<3.9.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.36 || ^7.5.13"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Webmozart\\Assert\\": "src/"
@@ -4860,7 +4909,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2020-07-08T17:02:28+00:00"
+            "time": "2019-08-24T08:43:50+00:00"
         },
         {
             "name": "whitehat101/apr1-md5",
@@ -6688,27 +6737,28 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "5.2.1",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "d870572532cd70bc3fab58f2e23ad423c8404c44"
+                "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/d870572532cd70bc3fab58f2e23ad423c8404c44",
-                "reference": "d870572532cd70bc3fab58f2e23ad423c8404c44",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
+                "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
                 "shasum": ""
             },
             "require": {
-                "ext-filter": "*",
-                "php": "^7.2 || ^8.0",
-                "phpdocumentor/reflection-common": "^2.2",
-                "phpdocumentor/type-resolver": "^1.3",
-                "webmozart/assert": "^1.9.1"
+                "ext-filter": "^7.1",
+                "php": "^7.2",
+                "phpdocumentor/reflection-common": "^2.0",
+                "phpdocumentor/type-resolver": "^1.0",
+                "webmozart/assert": "^1"
             },
             "require-dev": {
-                "mockery/mockery": "~1.3.2"
+                "doctrine/instantiator": "^1",
+                "mockery/mockery": "^1"
             },
             "type": "library",
             "extra": {
@@ -6736,7 +6786,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2020-08-15T11:14:08+00:00"
+            "time": "2020-02-22T12:28:44+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
