@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 - wp-rss-aggregator plugin - 4.17.7 - licence expired - [Issue](https://github.com/cul-it/uls/issues/865)
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5
+
+## [v1.4.6] - 2020-08-17
+### Changed
 - [CULU theme v1.4.2](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.2)
 
 ## [v1.4.5] - 2020-08-14
@@ -381,6 +384,8 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.6
+[v1.4.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.5
 [v1.4.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.4
 [v1.4.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.3
 [v1.4.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.2
