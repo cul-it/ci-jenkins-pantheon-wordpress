@@ -105,7 +105,7 @@
     "symfony/yaml": "^4.0",
     "vlucas/phpdotenv": "3.3.3",
     "wpackagist-plugin/acf-better-search": "3.5.3",
-    "wpackagist-plugin/acf-image-aspect-ratio-crop": "3.4.0",
+    "wpackagist-plugin/acf-image-aspect-ratio-crop": "4.0.2",
     "wpackagist-plugin/advanced-access-manager": "6.6.2",
     "wpackagist-plugin/akismet": "4.1.6",
     "wpackagist-plugin/anywhere-elementor":"1.2.2",
