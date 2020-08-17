@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Access Manager v6.6.2](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Advanced Custom Fields: Image Aspect Ratio Crop Field v4.0.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - [Advanced Custom Fields Pro v5.9.0](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+- [Custom Post Type UI v1.8.0](https://github.com/WebDevStudios/custom-post-type-ui/)
 
 ## [v1.4.5] - 2020-08-14
 ### Added
