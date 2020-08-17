@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.6] - 2020-08-17
 ### Changed
 - [CULU theme v1.4.2](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.2)
+- [Advanced Access Manager v6.6.2](https://wordpress.org/plugins/advanced-access-manager/#developers)
 
 ## [v1.4.5] - 2020-08-14
 ### Added
