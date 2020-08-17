@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "169908fa3014d460caeeb172da318f2d",
+    "content-hash": "ddff924f1a458cacc331108f349eb8f8",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -191,10 +191,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v5.8.14",
-                "issues": "https://github.com/cul-it/advanced-custom-fields-pro/issues"
-            },
             "time": "2020-08-14T13:31:36+00:00"
         },
         {
@@ -225,24 +221,20 @@
                 }
             ],
             "description": "WordPress Ares interface for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/ares_wordpress/tree/v1.0.7",
-                "issues": "https://github.com/cul-it/ares_wordpress/issues"
-            },
             "time": "2020-04-08T16:56:36+00:00"
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-cul-theme-culu.git",
-                "reference": "bed6fcec2f6c4792a8458ed0a01f6d463bdfe5c0"
+                "reference": "6984e6ef95990e89f8abb77a886528fd230f4de2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/bed6fcec2f6c4792a8458ed0a01f6d463bdfe5c0",
-                "reference": "bed6fcec2f6c4792a8458ed0a01f6d463bdfe5c0",
+                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/6984e6ef95990e89f8abb77a886528fd230f4de2",
+                "reference": "6984e6ef95990e89f8abb77a886528fd230f4de2",
                 "shasum": ""
             },
             "require": {
@@ -260,11 +252,7 @@
                 }
             ],
             "description": "WordPress theme for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.4.1",
-                "issues": "https://github.com/cul-it/wp-cul-theme-culu/issues"
-            },
-            "time": "2020-08-13T18:41:43+00:00"
+            "time": "2020-08-14T21:18:45+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -285,10 +273,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/draw-attention-pro/tree/v1.9.12.1",
-                "issues": "https://github.com/cul-it/draw-attention-pro/issues"
-            },
             "time": "2019-07-30T16:36:28+00:00"
         },
         {
@@ -310,10 +294,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/elementor-pro/tree/v2.10.3",
-                "issues": "https://github.com/cul-it/elementor-pro/issues"
-            },
             "time": "2020-06-30T13:54:49+00:00"
         },
         {
@@ -335,10 +315,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/facetwp/tree/v3.4.0.1",
-                "issues": "https://github.com/cul-it/facetwp/issues"
-            },
             "time": "2019-08-19T18:09:09+00:00"
         },
         {
@@ -346,7 +322,7 @@
             "version": "v1.3.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cul-it/facetwp-conditional-logic.git",
+                "url": "git@github.com:cul-it/facetwp-conditional-logic.git",
                 "reference": "a46ca59e97cd2f28ee80fa4bfa09cf9ea4651f57"
             },
             "dist": {
@@ -360,9 +336,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/facetwp-conditional-logic/tree/v1.3.0.1"
-            },
             "time": "2019-09-26T19:06:42+00:00"
         },
         {
@@ -384,10 +357,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v1.2.1",
-                "issues": "https://github.com/cul-it/wp-custom-loop-widget/issues"
-            },
             "time": "2020-08-12T14:41:20+00:00"
         },
         {
@@ -418,10 +387,6 @@
                 }
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
-            "support": {
-                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v2.0.3",
-                "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
-            },
             "time": "2020-08-12T15:10:40+00:00"
         },
         {
@@ -429,12 +394,12 @@
             "version": "v4.15.2.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:cul-it/wp-rss-aggregator.git",
+                "url": "git@github.com:cul-it/wprssaggregator.git",
                 "reference": "eab095f7a189ba6a197f2a483dc9823ed60d3abe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-rss-aggregator/zipball/eab095f7a189ba6a197f2a483dc9823ed60d3abe",
+                "url": "https://api.github.com/repos/cul-it/wprssaggregator/zipball/eab095f7a189ba6a197f2a483dc9823ed60d3abe",
                 "reference": "eab095f7a189ba6a197f2a483dc9823ed60d3abe",
                 "shasum": ""
             },
@@ -443,10 +408,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/wp-rss-aggregator/tree/v4.15.2.1",
-                "issues": "https://github.com/cul-it/wp-rss-aggregator/issues"
-            },
             "time": "2019-10-24T15:04:30+00:00"
         },
         {
@@ -468,10 +429,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/wp-rss-categories/tree/v1.3.3.2",
-                "issues": "https://github.com/cul-it/wp-rss-categories/issues"
-            },
             "time": "2019-10-24T16:29:36+00:00"
         },
         {
@@ -493,10 +450,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/wp-rss-keyword-filtering/tree/v1.6.3.1",
-                "issues": "https://github.com/cul-it/wp-rss-keyword-filtering/issues"
-            },
             "time": "2019-10-24T16:42:34+00:00"
         },
         {
@@ -518,10 +471,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/wp-rss-templates/tree/v0.2",
-                "issues": "https://github.com/cul-it/wp-rss-templates/issues"
-            },
             "time": "2020-06-11T15:46:06+00:00"
         },
         {
@@ -544,10 +493,6 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
-            "support": {
-                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v6.0.1.10",
-                "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
-            },
             "time": "2019-09-30T17:17:29+00:00"
         },
         {
@@ -555,7 +500,7 @@
             "version": "1.6.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cweagans/composer-patches.git",
+                "url": "git@github.com:cweagans/composer-patches.git",
                 "reference": "2e6f72a2ad8d59cd7e2b729f218bf42adb14f590"
             },
             "dist": {
@@ -596,10 +541,6 @@
                 }
             ],
             "description": "Provides a way to patch Composer packages.",
-            "support": {
-                "source": "https://github.com/cweagans/composer-patches/tree/1.6.7",
-                "issues": "https://github.com/cweagans/composer-patches/issues"
-            },
             "time": "2019-08-29T20:11:49+00:00"
         },
         {
@@ -1040,7 +981,7 @@
             "version": "5.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pantheon-systems/wordpress-composer.git",
+                "url": "git@github.com:pantheon-systems/wordpress-composer.git",
                 "reference": "918fd0cc38e9265b5d8279fddc002725ef8f86a2"
             },
             "dist": {
@@ -1063,11 +1004,7 @@
                 "GPL-2.0+"
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
-            "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.5",
-                "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
-            },
-            "time": "2020-08-12T00:14:55+00:00"
+            "time": "2020-08-12T00:06:28+00:00"
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
@@ -6735,16 +6672,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "5.2.0",
+            "version": "5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "3170448f5769fe19f456173d833734e0ff1b84df"
+                "reference": "d870572532cd70bc3fab58f2e23ad423c8404c44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/3170448f5769fe19f456173d833734e0ff1b84df",
-                "reference": "3170448f5769fe19f456173d833734e0ff1b84df",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/d870572532cd70bc3fab58f2e23ad423c8404c44",
+                "reference": "d870572532cd70bc3fab58f2e23ad423c8404c44",
                 "shasum": ""
             },
             "require": {
@@ -6783,7 +6720,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2020-07-20T20:05:34+00:00"
+            "time": "2020-08-15T11:14:08+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -7293,12 +7230,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a9e4cf90fc47b0ffbb90ee79f24be1b7c5ce82dc"
+                "reference": "fa90d820db8d594157f65ef88d23b23e97575eaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a9e4cf90fc47b0ffbb90ee79f24be1b7c5ce82dc",
-                "reference": "a9e4cf90fc47b0ffbb90ee79f24be1b7c5ce82dc",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/fa90d820db8d594157f65ef88d23b23e97575eaa",
+                "reference": "fa90d820db8d594157f65ef88d23b23e97575eaa",
                 "shasum": ""
             },
             "conflict": {
@@ -7373,7 +7310,7 @@
                 "gregwar/rst": "<1.0.3",
                 "guzzlehttp/guzzle": ">=4-rc.2,<4.2.4|>=5,<5.3.1|>=6,<6.2.1",
                 "illuminate/auth": ">=4,<4.0.99|>=4.1,<=4.1.31|>=4.2,<=4.2.22|>=5,<=5.0.35|>=5.1,<=5.1.46|>=5.2,<=5.2.45|>=5.3,<=5.3.31|>=5.4,<=5.4.36|>=5.5,<5.5.10",
-                "illuminate/cookie": ">=4,<=4.0.11|>=4.1,<=4.1.31|>=4.2,<=4.2.22|>=5,<=5.0.35|>=5.1,<=5.1.46|>=5.2,<=5.2.45|>=5.3,<=5.3.31|>=5.4,<=5.4.36|>=5.5,<=5.5.44|>=5.6,<5.6.30|>=6,<6.18.31|>=7,<7.22.4",
+                "illuminate/cookie": ">=4,<=4.0.11|>=4.1,<=4.1.99999|>=4.2,<=4.2.99999|>=5,<=5.0.99999|>=5.1,<=5.1.99999|>=5.2,<=5.2.99999|>=5.3,<=5.3.99999|>=5.4,<=5.4.99999|>=5.5,<=5.5.49|>=5.6,<=5.6.99999|>=5.7,<=5.7.99999|>=5.8,<=5.8.99999|>=6,<6.18.31|>=7,<7.22.4",
                 "illuminate/database": ">=4,<4.0.99|>=4.1,<4.1.29|>=5.5,<=5.5.44|>=6,<6.18.34|>=7,<7.23.2",
                 "illuminate/encryption": ">=4,<=4.0.11|>=4.1,<=4.1.31|>=4.2,<=4.2.22|>=5,<=5.0.35|>=5.1,<=5.1.46|>=5.2,<=5.2.45|>=5.3,<=5.3.31|>=5.4,<=5.4.36|>=5.5,<5.5.40|>=5.6,<5.6.15",
                 "illuminate/view": ">=7,<7.1.2",
@@ -7385,7 +7322,7 @@
                 "kitodo/presentation": "<3.1.2",
                 "kreait/firebase-php": ">=3.2,<3.8.1",
                 "la-haute-societe/tcpdf": "<6.2.22",
-                "laravel/framework": ">=4,<4.0.99|>=4.1,<=4.1.31|>=4.2,<=4.2.22|>=5,<=5.0.35|>=5.1,<=5.1.46|>=5.2,<=5.2.45|>=5.3,<=5.3.31|>=5.4,<=5.4.36|>=5.5,<=5.5.49|>=5.6,<5.6.30|>=6,<6.18.34|>=7,<7.23.2",
+                "laravel/framework": ">=4,<4.0.99|>=4.1,<=4.1.99999|>=4.2,<=4.2.99999|>=5,<=5.0.99999|>=5.1,<=5.1.99999|>=5.2,<=5.2.99999|>=5.3,<=5.3.99999|>=5.4,<=5.4.99999|>=5.5,<=5.5.49|>=5.6,<=5.6.99999|>=5.7,<=5.7.99999|>=5.8,<=5.8.99999|>=6,<6.18.34|>=7,<7.23.2",
                 "laravel/socialite": ">=1,<1.0.99|>=2,<2.0.10",
                 "league/commonmark": "<0.18.3",
                 "librenms/librenms": "<1.53",
@@ -7570,7 +7507,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2020-08-08T10:05:44+00:00"
+            "time": "2020-08-16T05:16:28+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
