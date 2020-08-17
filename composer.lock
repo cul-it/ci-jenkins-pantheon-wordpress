@@ -192,6 +192,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "time": "2020-08-17T15:06:01+00:00"
+            "support": {
+                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v5.8.14",
+                "issues": "https://github.com/cul-it/advanced-custom-fields-pro/issues"
+            },
         },
         {
             "name": "cul-it/ares_wordpress",
@@ -221,6 +225,10 @@
                 }
             ],
             "description": "WordPress Ares interface for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/ares_wordpress/tree/v1.0.7",
+                "issues": "https://github.com/cul-it/ares_wordpress/issues"
+            },
             "time": "2020-04-08T16:56:36+00:00"
         },
         {
@@ -357,6 +365,10 @@
             },
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v1.2.1",
+                "issues": "https://github.com/cul-it/wp-custom-loop-widget/issues"
+            },
             "time": "2020-08-12T14:41:20+00:00"
         },
         {
@@ -387,6 +399,10 @@
                 }
             ],
             "description": "Library Hours and Status from LibCal for WordPress",
+            "support": {
+                "source": "https://github.com/cul-it/wp-libcal-hours/tree/v2.0.3",
+                "issues": "https://github.com/cul-it/wp-libcal-hours/issues"
+            },
             "time": "2020-08-12T15:10:40+00:00"
         },
         {
