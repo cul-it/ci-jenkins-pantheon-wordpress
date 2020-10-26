@@ -106,6 +106,7 @@
     "vlucas/phpdotenv": "3.3.3",
     "wpackagist-plugin/acf-better-search": "3.5.3",
     "wpackagist-plugin/acf-image-aspect-ratio-crop": "4.1.2",
+    "wpackagist-plugin/acf-to-rest-api": "3.3.2",
     "wpackagist-plugin/advanced-access-manager": "6.7.0",
     "wpackagist-plugin/akismet": "4.1.7",
     "wpackagist-plugin/anywhere-elementor":"1.2.2",
