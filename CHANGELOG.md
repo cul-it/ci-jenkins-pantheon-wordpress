@@ -24,6 +24,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Better Font Awesome v1.7.4](https://wordpress.org/plugins/better-font-awesome/#developers)
 - [Coming Soon Page & Maintenance Mode v6.0.8.3](https://wordpress.org/plugins/coming-soon/#developers)
 - [Custom Post Type UI v1.8.1](https://github.com/WebDevStudios/custom-post-type-ui/)
+- [Elementor v3.0.12](https://wordpress.org/plugins/elementor/#developers)
+- [Elementor Pro v3.0.5](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+
 
 ## [v1.4.6] - 2020-08-17
 ### Changed
