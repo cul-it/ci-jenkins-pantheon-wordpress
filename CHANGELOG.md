@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Native PHP Sessions for WordPress v1.2.1](https://github.com/pantheon-systems/wp-native-php-sessions#changelog)
 - [PublishPress Capabilities v1.10.1](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - [Redirection v4.9.1](https://wordpress.org/plugins/redirection/#developers)
+- [Relevanssi v4.8.3](https://wordpress.org/plugins/relevanssi/#developers)
 
 ## [v1.4.6] - 2020-08-17
 ### Changed
