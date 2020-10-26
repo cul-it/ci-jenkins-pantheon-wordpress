@@ -11,8 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
 - Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
-- wp-rss-aggregator plugin - 4.17.7 - licence expired - [Issue](https://github.com/cul-it/uls/issues/865)
-- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5
+- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.1
 
 ## [v1.4.7] - 2020-10-26
 ### Changed
@@ -33,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Redirection v4.9.1](https://wordpress.org/plugins/redirection/#developers)
 - [Relevanssi v4.8.3](https://wordpress.org/plugins/relevanssi/#developers)
 - [WP Mail SMTP v2.5.0](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- [WP RSS Aggregator v4.17.8](https://wordpress.org/plugins/wp-rss-aggregator/#developers)]
 
 ## [v1.4.6] - 2020-08-17
 ### Changed
