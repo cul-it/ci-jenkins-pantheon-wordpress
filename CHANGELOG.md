@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [PublishPress Capabilities v1.10.1](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - [Redirection v4.9.1](https://wordpress.org/plugins/redirection/#developers)
 - [Relevanssi v4.8.3](https://wordpress.org/plugins/relevanssi/#developers)
+- [WP Mail SMTP v2.5.0](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 
 ## [v1.4.6] - 2020-08-17
 ### Changed
