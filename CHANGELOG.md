@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.1
+- WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.1
 
 ## [v1.4.7] - 2020-10-26
 ### Changed
