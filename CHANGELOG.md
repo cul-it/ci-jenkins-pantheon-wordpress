@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.4.2: Unknown
+- Draw Attention Pro - new version - Compatibility with WordPress 5.5.1: Unknown
 - FacetWP - new version - Compatibility with WordPress 5.4.2: Unknown
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.2: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Akismet Anti-Spam v4.1.7](https://wordpress.org/plugins/akismet/#developers)
 - [Better Font Awesome v1.7.4](https://wordpress.org/plugins/better-font-awesome/#developers)
 - [Coming Soon Page & Maintenance Mode v6.0.8.3](https://wordpress.org/plugins/coming-soon/#developers)
+- [Custom Post Type UI v1.8.1](https://github.com/WebDevStudios/custom-post-type-ui/)
 
 ## [v1.4.6] - 2020-08-17
 ### Changed
