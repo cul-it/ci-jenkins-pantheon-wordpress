@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [FileBird Lite v4.0.7](https://wordpress.org/plugins/filebird/#developers)
 - [JSON Content Importer v1.3.10](https://wordpress.org/plugins/json-content-importer/#developers)
 - [Native PHP Sessions for WordPress v1.2.1](https://github.com/pantheon-systems/wp-native-php-sessions#changelog)
+- [PublishPress Capabilities v1.10.1](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 
 ## [v1.4.6] - 2020-08-17
 ### Changed
