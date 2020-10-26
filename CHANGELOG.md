@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Access Manager v6.7.0](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Advanced Custom Fields: Image Aspect Ratio Crop Field v4.1.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - [ ] [Advanced Custom Fields Pro v5.9.1](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+- [Akismet Anti-Spam - 4.1.7](https://wordpress.org/plugins/akismet/#developers)
 
 ## [v1.4.6] - 2020-08-17
 ### Changed
