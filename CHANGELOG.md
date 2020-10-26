@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.4.7] - 2020-10-26
 ### Changed
+- wordpress-composer 5.5.1 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
 
 
 ## [v1.4.6] - 2020-08-17
