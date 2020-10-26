@@ -34,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Relevanssi v4.8.3](https://wordpress.org/plugins/relevanssi/#developers)
 - [WP Mail SMTP v2.5.0](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 - [WP RSS Aggregator v4.17.8](https://wordpress.org/plugins/wp-rss-aggregator/#developers)]
+- [ACF to REST API v3.3.2](https://wordpress.org/plugins/acf-to-rest-api/#developers)
 
 ## [v1.4.6] - 2020-08-17
 ### Changed
