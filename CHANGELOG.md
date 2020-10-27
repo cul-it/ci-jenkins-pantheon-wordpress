@@ -33,7 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Redirection v4.9.1](https://wordpress.org/plugins/redirection/#developers)
 - [Relevanssi v4.8.3](https://wordpress.org/plugins/relevanssi/#developers)
 - [WP Mail SMTP v2.5.0](https://wordpress.org/plugins/wp-mail-smtp/#developers)
-- [WP RSS Aggregator v4.17.8](https://wordpress.org/plugins/wp-rss-aggregator/#developers)]
+- [WP RSS Aggregator v4.17.8](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- [wp-custom-loop-widget v1.2.2](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 - [ACF to REST API v3.3.2](https://wordpress.org/plugins/acf-to-rest-api/#developers)
 - [Application Passwords v0.1.2](https://github.com/WordPress/application-passwords/releases)
 
