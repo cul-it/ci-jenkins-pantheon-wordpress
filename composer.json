@@ -76,9 +76,14 @@
     {
       "type": "vcs",
       "url": "git@github.com:cweagans/composer-patches"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/10up/distributor"
     }
   ],
   "require": {
+    "10up/distributor": "1.6.0",
     "composer/installers": "^1.3.0",
     "cul-it/advanced-custom-fields-pro": "5.9.1",
     "cul-it/ares_wordpress": "1.0.7",

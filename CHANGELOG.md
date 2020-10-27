@@ -35,6 +35,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [WP Mail SMTP v2.5.0](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 - [WP RSS Aggregator v4.17.8](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - [wp-custom-loop-widget v1.2.2](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+
+
+### Added
+- [Distributor v1.6.0](https://github.com/10up/distributor/blob/develop/CHANGELOG.md)
 - [ACF to REST API v3.3.2](https://wordpress.org/plugins/acf-to-rest-api/#developers)
 - [Application Passwords v0.1.2](https://github.com/WordPress/application-passwords/releases)
 
