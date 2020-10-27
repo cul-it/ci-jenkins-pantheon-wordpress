@@ -1,0 +1,48 @@
+[role= "alert"] {
+
+    padding: 20px;
+
+    .alert__header {
+        color: $color__alert-header;
+        font-size: 24px;
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    p {
+        color: $color__alert-text;
+        margin: 0;
+    }
+
+    i {
+        color: $color__alert-icon;
+        padding-right: 10px;
+        font-size: 30px;
+        vertical-align: middle;
+    }
+
+    hr {
+        border: 1px solid ;
+        margin-top: 20px;
+        border: 0;
+        height: 0;
+        border-bottom: 1px solid $color__alert-separator;
+    }
+
+    &.alert__success {
+        background-color: $color__alert-success;
+    }
+
+    &.alert__info {
+        background-color: $color__alert-info;
+    }
+
+    &.alert__warning {
+        background-color: $color__alert-warning;
+    }
+
+    &.alert__error {
+        background-color: $color__alert-error;
+    }
+    
+}

@@ -1,0 +1,2212 @@
+[
+  [
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEF649A4BFA89F4FBAAC3DEC5FA",
+      "title": "Firefox 73 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Assistive Technologies",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEFA6BD46A8A612A46B4ECB8465",
+      "title": "ABBYY FineReader 12 Corporate",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "ABBYY FineReader Corporate"
+    },
+    {
+      "id": "5A55ADEFD9EA4C55B26EC436A798614E",
+      "title": "Adobe Acrobat DC Pro",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Adobe Acrobat Pro"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA3",
+      "title": "Adobe Creative Cloud 2017",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF12E54D2C949F701C48754DE2",
+      "title": "Adobe Flash Builder 4.5 Standard",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab"
+    },
+    {
+      "id": "5A55ADEFCA2F41609B4636AE30CB81A9",
+      "title": "Adobe Technical Communication Suite 2019 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Adobe Technical Communication Suite"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF24254DBBA711F4EF6471AD1A",
+      "title": "ArcGIS 10 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "ArcGIS Win"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab"
+    },
+    {
+      "id": "5A55ADEF7A7542A8B55C6A66B0EC3405",
+      "title": "Google Chrome 79 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Google Chrome Win"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEF48FC4481B7973ADB2C3C3663",
+      "title": "Maxon CINEMA 4D Lite R16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEFF7CE46E081BBCD5F0C6D3C82",
+      "title": "Microsoft Office 2016 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab"
+    },
+    {
+      "id": "BE32D172E7DBF441937214932B60260B",
+      "title": "QGIS-BIN",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF2C452C4883D0B86B7190AB40",
+      "title": "Tableau Public 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEFB40D490EB06B4E913B7FAAE1",
+      "title": "Trimble SketchUp 2017 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "Trimble SketchUp"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor CoLab",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFABC4CF4EA6F5EB17C65F6155",
+      "title": "Firefox 68 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEF74CAD8439297CABFC7C152F6",
+      "title": "Firefox 69 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity"
+    },
+    {
+      "id": "5A55ADEF7A7542A8B55C6A66B0EC3405",
+      "title": "Google Chrome 79 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Google Chrome Win"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Productivity",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.1st Floor Scanning Stations",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.5th floor Productivity",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFABC4CF4EA6F5EB17C65F6155",
+      "title": "Firefox 68 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Basement",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized"
+    },
+    {
+      "id": "5A55ADEF7A7542A8B55C6A66B0EC3405",
+      "title": "Google Chrome 79 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Google Chrome Win"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Media Center Specialized",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Olin.Stacks",
+      "familyname": "VideoLAN VLC Player"
+    }
+  ],
+  [
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFABC4CF4EA6F5EB17C65F6155",
+      "title": "Firefox 68 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEF649A4BFA89F4FBAAC3DEC5FA",
+      "title": "Firefox 73 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity"
+    },
+    {
+      "id": "5A55ADEF7A7542A8B55C6A66B0EC3405",
+      "title": "Google Chrome 79 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Google Chrome Win"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Austen Room Productivity",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF1F2945748ED384585E35F29F",
+      "title": "7-Zip version 16",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA3",
+      "title": "Adobe Creative Cloud 2017",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF12E54D2C949F701C48754DE2",
+      "title": "Adobe Flash Builder 4.5 Standard",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity"
+    },
+    {
+      "id": "5A55ADEFCA2F41609B4636AE30CB81A9",
+      "title": "Adobe Technical Communication Suite 2019 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Adobe Technical Communication Suite"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEFD444BC459CE8740C87EE2577",
+      "title": "Blue Jeans 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Blue Jeans"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity"
+    },
+    {
+      "id": "5A55ADEF7A7542A8B55C6A66B0EC3405",
+      "title": "Google Chrome 79 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Google Chrome Win"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEF48FC4481B7973ADB2C3C3663",
+      "title": "Maxon CINEMA 4D Lite R16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEFF7CE46E081BBCD5F0C6D3C82",
+      "title": "Microsoft Office 2016 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEFB40D490EB06B4E913B7FAAE1",
+      "title": "Trimble SketchUp 2017 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "Trimble SketchUp"
+    },
+    {
+      "id": "5A55ADEFD9454D30BDD16E8E34862CE0",
+      "title": "VideoLAN VLC Player 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Dean Room Productivity.Scanning Station",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF24254DBBA711F4EF6471AD1A",
+      "title": "ArcGIS 10 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "ArcGIS Win"
+    },
+    {
+      "id": "5A55ADEF0A1CD64893560D8661CAA91E",
+      "title": "ArcGIS Pro 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "ArcGIS Pro"
+    },
+    {
+      "id": "5A55ADEF6CEB4E78BF08BFA11706A3B5",
+      "title": "AutoCAD 2020 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "AutoCAD Win"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEF4BDE4F7EBA5AF94720446297",
+      "title": "Firefox 71 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom"
+    },
+    {
+      "id": "5A55ADEF7A7542A8B55C6A66B0EC3405",
+      "title": "Google Chrome 79 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Google Chrome Win"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Electronic Classroom",
+      "familyname": "VideoLAN VLC Player"
+    },
+    {
+      "id": "5A55ADEF8ECB41A398616A659BD463A8",
+      "title": "7-Zip version 19",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "7-Zip"
+    },
+    {
+      "id": "5A55ADEF9F704036B8810CF5DEAEA704",
+      "title": "Adobe Acrobat Reader DC Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA2",
+      "title": "Adobe Creative Cloud 2016",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEFFF1F490D9E37E07940268DA4",
+      "title": "Adobe Creative Cloud 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Adobe Creative Cloud"
+    },
+    {
+      "id": "5A55ADEF15E24823BB36CD547B06CB78",
+      "title": "Alertus Desktop 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Alertus Desktop"
+    },
+    {
+      "id": "5A55ADEF24254DBBA711F4EF6471AD1A",
+      "title": "ArcGIS 10 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "ArcGIS Win"
+    },
+    {
+      "id": "5A55ADEF0A1CD64893560D8661CAA91E",
+      "title": "ArcGIS Pro 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "ArcGIS Pro"
+    },
+    {
+      "id": "5A55ADEF6CEB4E78BF08BFA11706A3B5",
+      "title": "AutoCAD 2020 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "AutoCAD Win"
+    },
+    {
+      "id": "5A55ADEF01314C26A81EADA8AC592737",
+      "title": "Deep Freeze 8",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Deep Freeze"
+    },
+    {
+      "id": "5A55ADEFDC4AC4499251C9E9F1FB8D27",
+      "title": "FileZilla 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Filezilla"
+    },
+    {
+      "id": "5A55ADEF4BDE4F7EBA5AF94720446297",
+      "title": "Firefox 71 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFECB547AAB7BFBCD700082D75",
+      "title": "Firefox 72 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Firefox Win"
+    },
+    {
+      "id": "5A55ADEFFCAC4046ACC033932F33C7EF",
+      "title": "Freedom Scientific JAWS 2018",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Freedom Scientific JAWS"
+    },
+    {
+      "id": "44169280F92D4647B88B3B51D21DE9AE",
+      "title": "Geosoft Oasis Montaj",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab"
+    },
+    {
+      "id": "5A55ADEF7A7542A8B55C6A66B0EC3405",
+      "title": "Google Chrome 79 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Google Chrome Win"
+    },
+    {
+      "id": "5A55ADEF358FF941968BF52CE053FA49",
+      "title": "Google Earth 7 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Google Earth"
+    },
+    {
+      "id": "5A55ADEF2734425E9D9BAF2789DA5D9C",
+      "title": "Internet Explorer 11 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Internet Explorer"
+    },
+    {
+      "id": "5A55ADEFAA9D426D8F4E79A5E5F718D8",
+      "title": "Maxon CINEMA 4D Lite R19 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Maxon CINEMA 4D Lite"
+    },
+    {
+      "id": "5A55ADEF251E265B32E2830A5E0FD99B",
+      "title": "Microsoft Office 2019 Professional Plus Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Microsoft Office Professional Plus"
+    },
+    {
+      "id": "5A55ADEF0AA80F46A6F0E4A9FA74E19B",
+      "title": "MiKTeX Console 2 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab"
+    },
+    {
+      "id": "5A55ADEFD6EC43DE92F788CC5EC08DED",
+      "title": "Node.js 4 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFDF2748C58C8BA91C4B398D2C",
+      "title": "Node.js 6 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Node.js"
+    },
+    {
+      "id": "5A55ADEFBB65403A88FE1932BC17C118",
+      "title": "Notepad++",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab"
+    },
+    {
+      "id": "5A55ADEF13FA94EA374F2BC316A9B3BA",
+      "title": "PaperCut MF Client 17 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "PaperCut MF Client"
+    },
+    {
+      "id": "5A55ADEF513C0243989B1B8962DC8929",
+      "title": "QGIS Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab"
+    },
+    {
+      "id": "5A55ADEF22604D4FA2A88FC3C081C48D",
+      "title": "Qt Designer 5 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab"
+    },
+    {
+      "id": "5A55ADEF5FFE4AD39354C946ABB4C403",
+      "title": "R Statistical Computing 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "R Statistical Computing"
+    },
+    {
+      "id": "5A55ADEFD360C147B0D589DA477AAD30",
+      "title": "RStudio Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab"
+    },
+    {
+      "id": "5A55ADEF07594A7781EDCAF4B2130DA7",
+      "title": "Stata/IC 15 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF24DB48AE98ED75FBC724C96C",
+      "title": "Stata/IC 16 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Stata/IC"
+    },
+    {
+      "id": "5A55ADEF98D84BDA8E47C00A0EF67F0E",
+      "title": "Tableau Public 2019",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "Tableau Public"
+    },
+    {
+      "id": "5A55ADEF86E942DF88F2435E64D2BBFC",
+      "title": "VideoLAN VLC Player 3 Win",
+      "division": "DelegatedObjects.LIBRARY.UnitObjects.Public.DS Computers.Uris.Tower Room Lab",
+      "familyname": "VideoLAN VLC Player"
+    }
+  ]
+]
