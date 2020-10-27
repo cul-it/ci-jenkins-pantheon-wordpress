@@ -5,14 +5,42 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.4.2: Unknown
-- FacetWP - new version - Compatibility with WordPress 5.4.2: Unknown
+- Draw Attention Pro - new version - Compatibility with WordPress 5.5.1: Unknown
+- FacetWP - new version - Compatibility with WordPress 5.5.1: Unknown
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.2: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
 - Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
-- wp-rss-aggregator plugin - 4.17.7 - licence expired - [Issue](https://github.com/cul-it/uls/issues/865)
-- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5
+- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.1
+- WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.1
+
+## [v1.4.7] - 2020-10-26
+### Changed
+- wordpress-composer 5.5.1 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
+- [Advanced Access Manager v6.7.0](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [Advanced Custom Fields: Image Aspect Ratio Crop Field v4.1.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+- [Advanced Custom Fields Pro v5.9.1](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+- [Akismet Anti-Spam v4.1.7](https://wordpress.org/plugins/akismet/#developers)
+- [Better Font Awesome v1.7.4](https://wordpress.org/plugins/better-font-awesome/#developers)
+- [Coming Soon Page & Maintenance Mode v6.0.8.3](https://wordpress.org/plugins/coming-soon/#developers)
+- [Custom Post Type UI v1.8.1](https://github.com/WebDevStudios/custom-post-type-ui/)
+- [Elementor v3.0.12](https://wordpress.org/plugins/elementor/#developers)
+- [Elementor Pro v3.0.5](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [FileBird Lite v4.0.7](https://wordpress.org/plugins/filebird/#developers)
+- [JSON Content Importer v1.3.10](https://wordpress.org/plugins/json-content-importer/#developers)
+- [Native PHP Sessions for WordPress v1.2.1](https://github.com/pantheon-systems/wp-native-php-sessions#changelog)
+- [PublishPress Capabilities v1.10.1](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- [Redirection v4.9.1](https://wordpress.org/plugins/redirection/#developers)
+- [Relevanssi v4.8.3](https://wordpress.org/plugins/relevanssi/#developers)
+- [WP Mail SMTP v2.5.0](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- [WP RSS Aggregator v4.17.8](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- [wp-custom-loop-widget v1.2.2](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+
+
+### Added
+- [Distributor v1.6.0](https://github.com/10up/distributor/blob/develop/CHANGELOG.md)
+- [ACF to REST API v3.3.2](https://wordpress.org/plugins/acf-to-rest-api/#developers)
+- [Application Passwords v0.1.2](https://github.com/WordPress/application-passwords/releases)
 
 ## [v1.4.6] - 2020-08-17
 ### Changed
@@ -388,6 +416,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.7
 [v1.4.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.6
 [v1.4.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.5
 [v1.4.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.4
