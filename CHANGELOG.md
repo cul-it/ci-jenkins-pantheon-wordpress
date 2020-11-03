@@ -5,14 +5,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.5.1: Unknown
-- FacetWP - new version - Compatibility with WordPress 5.5.1: Unknown
-- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.2: Unknown
-- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
-- Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
+- Draw Attention Pro - new version - Compatibility with WordPress 5.5.3: Unknown
+- FacetWP - new version - Compatibility with WordPress 5.5.3: Unknown
+- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.5.3: Unknown
+- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.5.3: Unknown
+- Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.5.3: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
-- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.1
-- WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.1
+- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.3
+- WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.3
+- Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.5.3
+- [Google Analytics Dashboard v6.3.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - not available yet
+
+
+## [v1.4.8] - 2020-11-03
+### Changed
+- [WordPress v5.5.3 security update](https://make.wordpress.org/core/)
+- [ACF Better Search v3.6.0](https://wordpress.org/plugins/acf-better-search/#developers)
+- [Advanced Access Manager v6.7.1](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [Coming Soon Page & Maintenance Mode v6.0.8.4](https://wordpress.org/plugins/coming-soon/#developers)
+- [FileBird Lite v4.1](https://wordpress.org/plugins/filebird/#developers)
+- [Redirection v4.9.2](https://wordpress.org/plugins/redirection/#developers)
+- [WP Mail SMTP v2.5.1](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 
 ## [v1.4.7] - 2020-10-26
 ### Changed
@@ -416,6 +429,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.8
 [v1.4.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.7
 [v1.4.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.6
 [v1.4.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.5
