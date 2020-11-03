@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.3
 - WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.3
 - Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.5.3
+- [Google Analytics Dashboard v6.3.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - not available yet
+
 
 ## [v1.4.8] - 2020-11-03
 ### Changed
@@ -22,7 +24,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Access Manager v6.7.1](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Coming Soon Page & Maintenance Mode v6.0.8.4](https://wordpress.org/plugins/coming-soon/#developers)
 - [FileBird Lite v4.1](https://wordpress.org/plugins/filebird/#developers)
-- [Google Analytics Dashboard v6.3.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - [Redirection v4.9.2](https://wordpress.org/plugins/redirection/#developers)
 - [WP Mail SMTP v2.5.1](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 
