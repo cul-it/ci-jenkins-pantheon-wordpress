@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.8] - 2020-11-03
 ### Changed
 - [WordPress v5.5.3 security update](https://make.wordpress.org/core/)
+- [ACF Better Search v3.6.0](https://wordpress.org/plugins/acf-better-search/#developers)
+
 ## [v1.4.7] - 2020-10-26
 ### Changed
 - wordpress-composer 5.5.1 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
