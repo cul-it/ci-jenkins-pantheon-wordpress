@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.1
 - WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.1
 
+## [v1.4.8] - 2020-11-03
+### Changed
+- [WordPress v5.5.3 security update](https://make.wordpress.org/core/)
 ## [v1.4.7] - 2020-10-26
 ### Changed
 - wordpress-composer 5.5.1 update WordPress core - see [Field Guide](https://make.wordpress.org/core/)
@@ -416,6 +419,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.8
 [v1.4.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.7
 [v1.4.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.6
 [v1.4.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.5
