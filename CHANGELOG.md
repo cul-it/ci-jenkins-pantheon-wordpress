@@ -22,6 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Access Manager v6.7.1](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Coming Soon Page & Maintenance Mode v6.0.8.4](https://wordpress.org/plugins/coming-soon/#developers)
 - [FileBird Lite v4.1](https://wordpress.org/plugins/filebird/#developers)
+- [Google Analytics Dashboard v6.3.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+
 
 ## [v1.4.7] - 2020-10-26
 ### Changed
