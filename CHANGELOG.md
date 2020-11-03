@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [FileBird Lite v4.1](https://wordpress.org/plugins/filebird/#developers)
 - [Google Analytics Dashboard v6.3.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - [Redirection v4.9.2](https://wordpress.org/plugins/redirection/#developers)
-
+- [WP Mail SMTP v2.5.1](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 
 ## [v1.4.7] - 2020-10-26
 ### Changed
