@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a671f2fa111b459cf9898907392d2dc",
+    "content-hash": "66d66f14d23c3af8b78eabc45cd52767",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1138,16 +1138,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "5.5.1",
+            "version": "5.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "aefd095c9050da01a3f1e416dfa00db3084eb88e"
+                "reference": "1485f19ea023be154df9cc48574040c4a12bc531"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/aefd095c9050da01a3f1e416dfa00db3084eb88e",
-                "reference": "aefd095c9050da01a3f1e416dfa00db3084eb88e",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/1485f19ea023be154df9cc48574040c4a12bc531",
+                "reference": "1485f19ea023be154df9cc48574040c4a12bc531",
                 "shasum": ""
             },
             "require": {
@@ -1165,10 +1165,10 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.5.1",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.5.3",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2020-09-01T22:10:36+00:00"
+            "time": "2020-11-02T16:10:39+00:00"
         },
         {
             "name": "pantheon-systems/wp-saml-auth",

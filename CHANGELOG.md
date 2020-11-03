@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - [WordPress v5.5.3 security update](https://make.wordpress.org/core/)
 - [ACF Better Search v3.6.0](https://wordpress.org/plugins/acf-better-search/#developers)
+- [Advanced Access Manager v6.7.1](https://wordpress.org/plugins/advanced-access-manager/#developers)
 
 ## [v1.4.7] - 2020-10-26
 ### Changed
