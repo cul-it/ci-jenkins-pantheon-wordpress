@@ -5,14 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.5.1: Unknown
-- FacetWP - new version - Compatibility with WordPress 5.5.1: Unknown
-- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.4.2: Unknown
-- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.4.2: Unknown
-- Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.4.2: Unknown
+- Draw Attention Pro - new version - Compatibility with WordPress 5.5.3: Unknown
+- FacetWP - new version - Compatibility with WordPress 5.5.3: Unknown
+- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.5.3: Unknown
+- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.5.3: Unknown
+- Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.5.3: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
-- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.1
-- WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.1
+- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.3
+- WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.3
 - Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.5.3
 
 ## [v1.4.8] - 2020-11-03
