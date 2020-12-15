@@ -102,7 +102,7 @@
     "cweagans/composer-patches": "~1.0",
     "guzzlehttp/guzzle": "6.3.3",
     "pantheon-systems/quicksilver-pushback": "1.0.1",
-    "pantheon-systems/wordpress-composer": "5.5.3",
+    "pantheon-systems/wordpress-composer": "5.6",
     "pantheon-systems/wp-saml-auth": "1.0.2",
     "roots/wp-password-bcrypt": "1.0.0",
     "rvtraveller/qs-composer-installer": "1.1",
