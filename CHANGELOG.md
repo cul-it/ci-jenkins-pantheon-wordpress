@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.9] - 2020-12-15
 ### Changed
 - [WordPress v5.6 update](https://make.wordpress.org/core/)
+- [Advanced Access Manager v6.7.2](https://wordpress.org/plugins/advanced-access-manager/#developers)
 
 
 ## [v1.4.8] - 2020-11-03
