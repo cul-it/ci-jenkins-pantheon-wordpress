@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.3
 - Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.6
 - [Google Analytics Dashboard v6.3.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - not available yet
+- Elementor - new version - Compatibility with WordPress 5.6: Unknown
 
 ## [v1.4.9] - 2020-12-15
 ### Changed
@@ -23,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.0.4](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - [Coming Soon Page & Maintenance Mode v6.0.9.0](https://wordpress.org/plugins/coming-soon/#developers)
 - [Easy Notification Bar v1.2](https://wordpress.org/plugins/easy-notification-bar/#developers)
+- [FileBird Lite v4.3](https://wordpress.org/plugins/filebird/#developers)
 
 
 ## [v1.4.8] - 2020-11-03
