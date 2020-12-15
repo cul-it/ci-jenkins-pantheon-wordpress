@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.5.3: Unknown
+- Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
 - FacetWP - new version - Compatibility with WordPress 5.5.3: Unknown
 - WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.5.3: Unknown
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.5.3: Unknown
@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Access Manager v6.7.2](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.0.4](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - [Coming Soon Page & Maintenance Mode v6.0.9.0](https://wordpress.org/plugins/coming-soon/#developers)
+- [Easy Notification Bar v1.2](https://wordpress.org/plugins/easy-notification-bar/#developers)
 
 
 ## [v1.4.8] - 2020-11-03
