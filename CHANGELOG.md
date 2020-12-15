@@ -5,17 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
-- FacetWP - new version - Compatibility with WordPress 5.5.3: Unknown
-- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.5.3: Unknown
-- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.5.3: Unknown
-- Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.5.3: Unknown
-- wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
-- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.3
-- WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.3
 - Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.6
-- [Google Analytics Dashboard v6.3.3](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - Compatibility with WordPress 5.6: Unknown
+- Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
 - Elementor - new version - Compatibility with WordPress 5.6: Unknown
+- FacetWP - v3.6.10 - Compatibility with WordPress 5.6: Unknown
+- Google Analytics Dashboard v6.3.3](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - Compatibility with WordPress 5.6: Unknown
+- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.6
+- WP RSS Aggregator - Keyword Filtering - 1.7.1 - plugin unknown Compatibility with WordPress 5.6
+- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
+- WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)  - Compatibility with WordPress 5.6: Unknown
+- wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 
 ## [v1.4.9] - 2020-12-15
 ### Changed
