@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.5.3
 - [Google Analytics Dashboard v6.3.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - not available yet
 
+## [v1.4.9] - 2020-12-15
+### Changed
+- [WordPress v5.6 update](https://make.wordpress.org/core/)
+
 
 ## [v1.4.8] - 2020-11-03
 ### Changed
@@ -429,6 +433,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.9
 [v1.4.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.8
 [v1.4.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.7
 [v1.4.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.6
