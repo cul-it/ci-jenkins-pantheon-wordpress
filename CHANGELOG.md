@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [FileBird Lite v4.3](https://wordpress.org/plugins/filebird/#developers)
 - [Kirki Customizer Framework v3.1.6](https://wordpress.org/plugins/kirki/#developers)
 - [Relevanssi v4.10.1](https://wordpress.org/plugins/relevanssi/#developers)
+- [WP SAML Auth - 1.1.0](https://wordpress.org/plugins/wp-saml-auth/#developers)
 
 
 ## [v1.4.8] - 2020-11-03
