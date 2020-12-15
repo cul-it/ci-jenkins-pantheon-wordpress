@@ -20,7 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - [WordPress v5.6 update](https://make.wordpress.org/core/)
 - [Advanced Access Manager v6.7.2](https://wordpress.org/plugins/advanced-access-manager/#developers)
-- [Advanced Custom Fields Pro v5.9.3](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
 
 
 ## [v1.4.8] - 2020-11-03
