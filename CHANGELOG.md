@@ -25,7 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Coming Soon Page & Maintenance Mode v6.0.9.0](https://wordpress.org/plugins/coming-soon/#developers)
 - [Easy Notification Bar v1.2](https://wordpress.org/plugins/easy-notification-bar/#developers)
 - [FileBird Lite v4.3](https://wordpress.org/plugins/filebird/#developers)
-- [Kirki Customizer Framework v3.1.6](https://wordpress.org/plugins/kirki/#developers)]
+- [Kirki Customizer Framework v3.1.6](https://wordpress.org/plugins/kirki/#developers)
+- [Relevanssi v4.10.1](https://wordpress.org/plugins/relevanssi/#developers)
 
 
 ## [v1.4.8] - 2020-11-03
