@@ -23,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.0.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - [Coming Soon Page & Maintenance Mode v6.0.9.0](https://wordpress.org/plugins/coming-soon/#developers)
 - [Easy Notification Bar v1.2](https://wordpress.org/plugins/easy-notification-bar/#developers)
-- [FileBird Lite v4.3](https://wordpress.org/plugins/filebird/#developers)
+- [FileBird Lite v4.2](https://wordpress.org/plugins/filebird/#developers)
 - [Kirki Customizer Framework v3.1.6](https://wordpress.org/plugins/kirki/#developers)
 - [Relevanssi v4.10.1](https://wordpress.org/plugins/relevanssi/#developers)
 - [WP SAML Auth - 1.1.0](https://wordpress.org/plugins/wp-saml-auth/#developers)
