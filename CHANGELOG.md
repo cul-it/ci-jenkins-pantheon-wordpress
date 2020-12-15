@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [WordPress v5.6 update](https://make.wordpress.org/core/)
 - [Advanced Access Manager v6.7.2](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.0.4](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+- [Coming Soon Page & Maintenance Mode v6.0.9.0](https://wordpress.org/plugins/coming-soon/#developers)
 
 
 ## [v1.4.8] - 2020-11-03
