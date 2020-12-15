@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.3
 - WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.3
-- Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.5.3
+- Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.6
 - [Google Analytics Dashboard v6.3.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - not available yet
 
 ## [v1.4.9] - 2020-12-15
