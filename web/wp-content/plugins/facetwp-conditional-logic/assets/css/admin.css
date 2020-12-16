@@ -1,0 +1,237 @@
+/* Action buttons */
+
+body.settings_page_fwpcl-admin {
+    background: #fff;
+}
+
+.facetwp-region .ruleset-label {
+    display: inline-block;
+    min-width: 40px;
+    padding: 0 6px;
+    outline: none;
+    cursor: text;
+}
+
+.facetwp-region .ruleset-label:focus,
+.facetwp-region .ruleset-label:hover {
+    background-color: #ffff00;
+}
+
+.facetwp-region .condition-object,
+.facetwp-region .action-object {
+    width: 180px;
+}
+
+.facetwp-region .condition-compare,
+.facetwp-region .action-toggle {
+    width: 60px;
+}
+
+.facetwp-region input.condition-value {
+    width: 140px;
+}
+
+.facetwp-region input.export-code {
+    width: 100%;
+    background-color: #eee;
+}
+
+.facetwp-region textarea.import-code {
+    white-space: normal;
+}
+
+.facetwp-region-settings .fwpcl-import-response {
+    display: inline-block;
+    padding: 6px 0 0 6px;
+}
+
+.fwpcl-response {
+    display: none;
+    margin-left: 10px;
+    padding: 4px 0 0 0;
+}
+
+.sortable-placeholder {
+    border: 1px dashed #333;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Ruleset tables */
+
+.facetwp-content-wrap {
+    margin-top: 20px;
+}
+
+.facetwp-region-rulesets table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ruleset {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.ruleset.collapsed table.logic-row {
+    display: none;
+}
+
+table.logic-row td.conditions-col,
+table.logic-row td.actions-col {
+    padding: 10px;
+}
+
+.ruleset.collapsed .header-bar {
+    border-bottom: none;
+}
+
+.ruleset td {
+    vertical-align: top;
+    background-color: #f1f1f1;
+    padding: 0;
+}
+
+table.header-bar {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+table.header-bar td {
+    background-color: #fff;
+}
+
+table.header-bar td.toggle,
+table.header-bar td.edit,
+table.header-bar td.delete {
+    width: 32px;
+}
+
+table.header-bar td.toggle {
+    border-right: 1px solid #ddd;
+    cursor: move;
+}
+
+table.header-bar td.edit {
+    border-right: 1px solid #ddd;
+}
+
+table.header-bar td.delete {
+    color: #a00;
+    border-left: 1px solid #ddd;
+}
+
+.ruleset .td-label {
+    padding: 6px 12px;
+    background-color: #906FBC;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    color: #fff;
+}
+
+.ruleset .condition-wrap,
+.ruleset .action-wrap,
+.ruleset .action-else-table {
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.button.condition-and,
+.button.action-and {
+    margin-top: 10px;
+}
+
+.header-bar .title {
+    line-height: 20px;
+    padding: 6px;
+}
+
+.header-bar .title:after {
+    float: right;
+    font-family: dashicons;
+    font-size: 20px;
+    content: "\f142";
+}
+
+.ruleset.collapsed .header-bar .title:after {
+    content: "\f140";
+}
+
+.dashicons {
+    line-height: 22px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+table.condition,
+table.action,
+table.action-else-table {
+    border-top: 1px solid #ddd;
+}
+
+table.condition:last-child,
+table.action:last-child,
+table.action-else-table:last-child {
+    border-bottom: none;
+}
+
+table.condition td,
+table.ruleset-event td,
+table.action td,
+table.action-else-table td {
+    background-color: #fff;
+}
+
+table.condition.type-or td.spacer {
+    width: 32px;
+}
+
+table.condition.type-or td.type {
+    width: 32px;
+}
+
+table.condition td.drop,
+table.action td.drop,
+table.action-else-table td.drop {
+    width: 32px;
+    vertical-align: middle;
+    color: #a00;
+}
+
+table.condition td.type,
+table.ruleset-event td.type,
+table.action td.type,
+table.action-else-table td.type {
+    width: 64px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+table.ruleset-event td.type {
+    width: 32px;
+    border-left: none;
+}
+
+table.condition td.logic,
+table.ruleset-event td.logic,
+table.action td.logic,
+table.action-else-table td.logic {
+    padding: 6px 12px;
+}
+
+table.action .action-selector {
+    height: 60px;
+}
+
+table.condition td.btn {
+    width: 48px;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    vertical-align: middle;
+}
