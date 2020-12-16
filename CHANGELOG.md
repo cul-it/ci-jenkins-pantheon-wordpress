@@ -5,16 +5,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Draw Attention Pro - new version - Compatibility with WordPress 5.5.3: Unknown
-- FacetWP - new version - Compatibility with WordPress 5.5.3: Unknown
-- WP RSS Aggregator - Keyword Filtering - new version - Compatibility with WordPress 5.5.3: Unknown
-- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.5.3: Unknown
-- Coming Soon Page & Maintenance Mode - new version - Compatibility with WordPress 5.5.3: Unknown
+- Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.6
+- Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
+- Elementor - new version - Compatibility with WordPress 5.6: Unknown
+- FacetWP - v3.6.10 - Compatibility with WordPress 5.6: Unknown
+- Google Analytics Dashboard v6.3.3](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - Compatibility with WordPress 5.6: Unknown
+- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.6
+- WP RSS Aggregator - Keyword Filtering - 1.7.1 - plugin unknown Compatibility with WordPress 5.6
+- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
+- WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)  - Compatibility with WordPress 5.6: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
-- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.5.3
-- WP RSS Aggregator - Keyword Filtering - 1.7 - plugin unknown Compatibility with WordPress 5.5.3
-- Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.5.3
-- [Google Analytics Dashboard v6.3.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - not available yet
+
+## [v1.4.9] - 2020-12-15
+### Changed
+- [WordPress v5.6 update](https://make.wordpress.org/core/)
+- [Advanced Access Manager v6.7.2](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.0.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+- [Coming Soon Page & Maintenance Mode v6.0.9.0](https://wordpress.org/plugins/coming-soon/#developers)
+- [Easy Notification Bar v1.2](https://wordpress.org/plugins/easy-notification-bar/#developers)
+- [FileBird Lite v4.2](https://wordpress.org/plugins/filebird/#developers)
+- [Kirki Customizer Framework v3.1.6](https://wordpress.org/plugins/kirki/#developers)
+- [Relevanssi v4.10.1](https://wordpress.org/plugins/relevanssi/#developers)
+- [WP SAML Auth - 1.1.0](https://wordpress.org/plugins/wp-saml-auth/#developers)
 
 
 ## [v1.4.8] - 2020-11-03
@@ -429,6 +441,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.9
 [v1.4.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.8
 [v1.4.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.7
 [v1.4.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.6
