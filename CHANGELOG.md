@@ -26,7 +26,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Elementor v3.0.15](https://wordpress.org/plugins/elementor/#developers)
 - [Elementor Pro v3.0.9](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 - [FileBird Lite v4.3.1](https://wordpress.org/plugins/filebird/#developers)
-- [JSON Content Importer v1.3.11](https://wordpress.org/plugins/json-content-importer/
+- [JSON Content Importer v1.3.11](https://wordpress.org/plugins/json-content-importer/)
+- [Relevanssi v4.10.2](https://wordpress.org/plugins/relevanssi/#developers)
+
 
 ## [v1.4.9] - 2020-12-15
 ### Changed
