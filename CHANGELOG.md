@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [ACF Better Search v3.7.0](https://wordpress.org/plugins/acf-better-search/#developers)
 - [Advanced Access Manager v6.7.3](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.0.5](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+- [Custom Post Type UI v1.8.2](https://github.com/WebDevStudios/custom-post-type-ui/)
 
 
 ## [v1.4.9] - 2020-12-15
