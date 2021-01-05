@@ -22,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Access Manager v6.7.3](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.0.5](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - [Custom Post Type UI v1.8.2](https://github.com/WebDevStudios/custom-post-type-ui/)
-
+- [Easy Notification Bar v1.3.1](https://wordpress.org/plugins/easy-notification-bar/#developers)
 
 ## [v1.4.9] - 2020-12-15
 ### Changed
