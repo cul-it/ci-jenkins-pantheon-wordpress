@@ -23,6 +23,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.0.5](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - [Custom Post Type UI v1.8.2](https://github.com/WebDevStudios/custom-post-type-ui/)
 - [Easy Notification Bar v1.3.1](https://wordpress.org/plugins/easy-notification-bar/#developers)
+- [Elementor v3.0.15](https://wordpress.org/plugins/elementor/#developers)
+- [Elementor Pro v3.0.9](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+
 
 ## [v1.4.9] - 2020-12-15
 ### Changed
