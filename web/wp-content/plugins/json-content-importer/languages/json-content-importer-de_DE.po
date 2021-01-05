@@ -1,0 +1,967 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JSON Content Importer\n"
+"POT-Creation-Date: 2020-12-22 20:52+0100\n"
+"PO-Revision-Date: 2020-12-24 23:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: json-content-importer.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: block/index.php:32 block/index.php:47 class-fileload-cache.php:23
+#: class-fileload-cache.php:38
+msgid "caching not working, plugin aborted"
+msgstr "Caching funktioniert nicht, 'Plugin wurde abgebrochen"
+
+#: block/index.php:33 block/index.php:48 class-fileload-cache.php:24
+#: class-fileload-cache.php:39
+msgid "plugin / wordpress / webserver can't create"
+msgstr "plugin / wordpress / webserver können nicht erzeugen"
+
+#: block/index.php:34 block/index.php:49 class-fileload-cache.php:25
+#: class-fileload-cache.php:40
+msgid ""
+"therefore: set directory-permissions to 0777 (or other depending on the way "
+"you create directories with your webserver)"
+msgstr ""
+"daher: Bitte die Verzeichnis-Rechte auf 0777 setzen (oder anders, je nachdem "
+"wie Verzeichnisse auf Deinem Webserver angelegt werden)"
+
+#: block/index.php:57 class-fileload-cache.php:48
+msgid "please check cacheFolder"
+msgstr "Bitte prüfe das Cache-Verzeichnis"
+
+#: block/index.php:57 class-fileload-cache.php:48
+msgid "is not writable. Please change permissions."
+msgstr "nicht beschreibbar. Bitte Rechte dafür setzen."
+
+#: block/index.php:95
+msgid "Empty template: Add some text!"
+msgstr "Leeres Template: Füge etwas Text dazu!"
+
+#: block/index.php:96
+msgid "For the example copypaste this to the right Template box"
+msgstr "Bitte kopiere das als Beispiel in den rechten Template-Kasten"
+
+#: block/index.php:103
+msgid "Welcome!"
+msgstr "Willkommen!"
+
+#: block/index.php:103
+msgid "Click on this block"
+msgstr "Bitte auf diesen Block klicken"
+
+#: block/index.php:103
+msgid ""
+"and you see on the right side  the Gutenberg-Block settings of the \"JSON "
+"Content Importer Gutenberg Block\". Yet there is an example to show how it "
+"works. The Example-URL is"
+msgstr ""
+"und auf der rechten Seite siehst Du die Einstellungen des Gutenberg-Block "
+"\"JSON Content Importer Gutenberg Block\".  Aktuell wird ein Beispiel "
+"angezeigt, das zeigt wie es funktioniert. Die Beispiel-URL ist"
+
+#: block/index.php:104
+msgid ""
+"Some settings show you how the JSON-parser and display works.\n"
+"\t\tThe example-template is (try to change it on the right)"
+msgstr ""
+"In Abhängigkeit der Einstellungen  funktioniert die Anzeige der JSON-Daten. "
+"Das Beispiel-Template ist (versuche es rechts etwas zu verändern)"
+
+#: block/index.php:105
+msgid ""
+"The result of combining JSON and this template gives us the output. Use this "
+"example to experiment"
+msgstr ""
+"Die Kombination von JSON und diesem Template ergibt das was angezeigt wird. "
+"Du kannst mit diesem Beispiel experimentieren"
+
+#: block/index.php:105
+msgid ""
+"Type \"level1\" in the right basenode-field, please. This will change the "
+"output as now the JSON and the template fit together (without not...)"
+msgstr ""
+"Bitte \"Level!\" im rechten \"basenode\"-Feld eingeben, Dadurch wird die "
+"Ausgabe verändern, da dann JSON und das Template zusammenpassen (sonst eben "
+"nicht...)"
+
+#: block/index.php:106
+msgid ""
+"You may also open the lower right \"<b>JCI Advanced</b>\"-section. Insert at "
+"\"One of these words must be displayed:\" the word \"bb\". And at \"JSON-"
+"depth of the above displayed Words:\" the number 3. Do you see the "
+"difference at once?"
+msgstr ""
+"Du kannst gerne unten rechts auf  \"<b>JCI Erweitert</b>\" klicken. Dort "
+"kannst Du bei \"Eines dieser worte muss in der Ausgabe sein:\" einfach \"bb"
+"\" eingeben. Und die \"JSON-Tiefe des darüberliegenden Wortes:\" die Zahl 3. "
+"Siehst Du den sofortigen Unterschied?"
+
+#: block/index.php:142
+msgid "Plugin-Settings (see Plugin options)"
+msgstr "Plugin-Einstellungen (siehe Plugin Optionen)"
+
+#: block/index.php:153
+msgid "active"
+msgstr "aktiv"
+
+#: block/index.php:154
+msgid "Cachetime"
+msgstr "Aufbewahrungszeit im Cache"
+
+#: block/index.php:155
+msgid "Cachefolder"
+msgstr "Verzeichnis für Cachedateien"
+
+#: block/index.php:157
+msgid "disabled"
+msgstr "Nicht aktiv"
+
+#: block/index.php:163
+msgid "oauth Bearer Accesskey"
+msgstr "oauth Bearer Accesskey"
+
+#: block/index.php:165
+msgid "http-Header default Useragent"
+msgstr "http-Header mit Standard-Useragent"
+
+#: block/index.php:187
+msgid "EMPTY api-answer: No JSON received - is the API down?"
+msgstr ""
+"Die Antwort der API ist leer: Kein JSON erhalten - ist die API-Schnittstelle "
+"wirklich verfügbar?"
+
+#: block/index.php:187
+msgid "Check the API-URL in the Block-Settings, please."
+msgstr "Bitte API-URL prüfen in den Block-Einstellungen."
+
+#: block/index.php:188
+msgid "as example. You might switch on the debugmode on the right side."
+msgstr ""
+"als Beispiel. Gerne kannst Du in den Debugmodus auf der rechten Seite "
+"anschalten."
+
+#: block/index.php:210
+msgid ""
+"If you use Wordpress without Gutenberg, you can use this Shortcode (copy "
+"with Strg+A, paste to TEXT-editor!)"
+msgstr ""
+"Wenn Du WordPress ohne Gutenberg nutzt, kannst Du diesen Shortcode verwenden "
+"(mit Strg+A kopieren und in den TEXT-Editor einfügen)"
+
+#: block/index.php:216 class-json-content-importer.php:168
+msgid "api-answer"
+msgstr "API-Antwort"
+
+#: block/index.php:216 class-json-content-importer.php:168
+msgid ""
+"Inspect JSON: Copypaste (click in box, Strg-A marks all, then insert into "
+"clipboard) the JSON from the following box to"
+msgstr ""
+"Prüfe JSON: Kopiere den Inhalt des folgenden Kastens in die Zwischenablage  "
+"(klicke in den Kasten, Strg-A markiert den Text im Kasten, bitte dann in "
+"Zwischenablage kopieren) und dann in"
+
+#: block/index.php:222
+msgid "template"
+msgstr "Template"
+
+#: block/index.php:235 class-json-parser.php:207
+msgid "result"
+msgstr "Ergebnis"
+
+#: block/index.php:240
+msgid "result of parsing is empty: no data to be displayed."
+msgstr ""
+"Das Ergebnis des Parsens (Kombination von JSON und Template) ist leer: Es "
+"wird nichts dargestellt."
+
+#: block/index.php:240
+msgid "Check JSON and template, please."
+msgstr "Bitte prüfe JSON und Template."
+
+#: block/index.php:244
+msgid "the real result"
+msgstr "Das abschließende Ergebnis"
+
+#: block/jcifree-block.js:15
+msgid "JSON Content Importer FREE"
+msgstr "Kostenloser JSON Content Importer (\"JCI\")"
+
+#: block/jcifree-block.js:16
+msgid "Block with API-data"
+msgstr "Gutenberg-Block um JSON-Daten einer API darzustellen"
+
+#: block/jcifree-block.js:83
+msgid "Define API-URL and template to insert in block"
+msgstr "Definiere eine API-URL und ein Template"
+
+#: block/jcifree-block.js:89
+msgid "API-URL:"
+msgstr "API-URL:"
+
+#: block/jcifree-block.js:90
+msgid "if empty try: e1 for \"example 1\""
+msgstr "falls leer trag \"e1\" für \"example 1\" ein"
+
+#: block/jcifree-block.js:91
+msgid "if empty try: e1"
+msgstr "falls leer, versuche e1"
+
+#: block/jcifree-block.js:112
+msgid "Debugmode on / off:"
+msgstr "Debugmodus an / aus"
+
+#: block/jcifree-block.js:120
+msgid "Exampletext on / off:"
+msgstr "Beispieltext an / aus"
+
+#: block/jcifree-block.js:129
+msgid "Basenode (JSON-node to start):"
+msgstr "Basenode (JSON-Node bei dem begonnen werden soll):"
+
+#: block/jcifree-block.js:130
+msgid "if empty and initial example URL: level1"
+msgstr "Falls leer und die Beispiel-URL: trag \"level1\" ein"
+
+#: block/jcifree-block.js:131
+msgid "if empty and above example URL: level1"
+msgstr "Falls leer und die Beispiel-URL von oben: level1"
+
+#: block/jcifree-block.js:139
+msgid "Template to use for JSON:"
+msgstr "Template für die JSON-Daten:"
+
+#: block/jcifree-block.js:140
+msgid ""
+"if emtpy: Version: {version}, {downloaded} Downloads, {num_ratings} Ratings: "
+"{rating}, {subloop:tags:-1}tag: {tags.json}{/subloop:tags}"
+msgstr ""
+"Falls leer: Version: {version}, {downloaded} Downloads, {num_ratings} "
+"Ratings: {rating}, {subloop:tags:-1}tag: {tags.json}{/subloop:tags}"
+
+#: block/jcifree-block.js:141
+msgid "Use {subloop}, {subloop-array}, {field} etc. just like in the shortcode"
+msgstr "Nutze  {subloop}, {subloop-array}, {field} etc. so wie im Shortcode"
+
+#: block/jcifree-block.js:150
+msgid "JCI Advanced"
+msgstr "JCI für Fortgeschrittene"
+
+#: block/jcifree-block.js:156
+msgid "Number of seconds waiting for the API:"
+msgstr "Anzahl der Sekunden, die das Plugin maximal auf die API warten soll:"
+
+#: block/jcifree-block.js:157
+msgid "default: 5 seconds"
+msgstr "Standard 5 Sekunden"
+
+#: block/jcifree-block.js:166
+msgid "Number of json-top-level-items to display:"
+msgstr "Anzahl der JSON-Elemente, die ausgegeben werden sollen:"
+
+#: block/jcifree-block.js:167
+msgid "default: all"
+msgstr "Standard: alle"
+
+#: block/jcifree-block.js:175
+msgid "One of these words must be displayed:"
+msgstr "Eines dieser Worte muss in dem auszugebenden Element sein:"
+
+#: block/jcifree-block.js:176 block/jcifree-block.js:185
+#: block/jcifree-block.js:194 block/jcifree-block.js:203
+msgid "default: empty"
+msgstr "Standard: leer"
+
+#: block/jcifree-block.js:184
+msgid "JSON-depth of the above displayed Words:"
+msgstr ""
+"JSON-Node-Tiefe der oben definierten Worte, die dargestellt werden sollen:"
+
+#: block/jcifree-block.js:193
+msgid "NONE of these words must be displayed:"
+msgstr "KEINES dieser Worte darf in dem auszugebenden Element sein:"
+
+#: block/jcifree-block.js:202
+msgid "JSON-depth of the above NOT displayed Words:"
+msgstr ""
+"JSON-Node-Tiefe der oben definierten Worte, die NICHT dargestellt werden "
+"sollen:"
+
+#: class-fileload-cache.php:151
+msgid "DEBUG"
+msgstr "DEBUG"
+
+#: class-fileload-cache.php:173
+msgid "error: get of json-data failed - plugin aborted: check url of json-feed"
+msgstr ""
+"Fehler: Das Abrufen der JSON-Daten klappte nicht - Plugin wurde beendet: "
+"Bitte URL des JSON-Feeds prüfen"
+
+#: class-fileload-cache.php:174
+msgid "no data received: check url of json-feed"
+msgstr "Keine Daten erhalten: Bitte pürfe den JSON-Feed"
+
+#: class-fileload-cache.php:216 class-fileload-cache.php:217
+msgid "feed is not valid JSON - not cached"
+msgstr "das JSON im feed ist kein gültiges JSON - nicht gecached"
+
+#: class-fileload-cache.php:227
+msgid "can't be stored - plugin aborted"
+msgstr "kann nicht gespeichert werden - Plugin beendet"
+
+#: class-fileload-cache.php:228
+msgid "JSON-data can't be stored to"
+msgstr "JSON-Daten konnten nicht gespeichert werden unter"
+
+#: class-fileload-cache.php:232
+msgid "saving JSON-data to cache successful"
+msgstr "JSON wurde erfolgreich im Cache gespeichert"
+
+#: class-fileload-cache.php:236 class-fileload-cache.php:237
+msgid "is either empty or unwriteable - plugin aborted"
+msgstr "ist leer oder nicht beschreibbar - Plugin wurde beendet"
+
+#: class-fileload-cache.php:272
+msgid "Bearer"
+msgstr "Bearer"
+
+#: class-fileload-cache.php:281
+msgid "JCI WordPress-Plugin - free Version"
+msgstr "Kostenloses JCI Wordpress-Plugin"
+
+#: class-fileload-cache.php:284
+msgid "arguments"
+msgstr "Argumente"
+
+#: class-fileload-cache.php:291
+msgid "Something went wrong fetching URL with JSON-data"
+msgstr "Fehler beim Laden der URL mit JSON-Daten"
+
+#: class-fileload-cache.php:292
+msgid "error getting URL:"
+msgstr "Fehler beim Laden der URL:"
+
+#: class-fileload-cache.php:297
+msgid "success getting URL"
+msgstr "URL wurde erfolgreich geladen"
+
+#: class-fileload-cache.php:306
+msgid "use fallback2cache"
+msgstr "nutzen fallback2cache"
+
+#: class-fileload-cache.php:323
+msgid "fallback2cache ok: cached JSON found"
+msgstr "fallback2cache ok: zwischengespeichertes JSON gefunden"
+
+#: class-fileload-cache.php:326
+msgid "fallback2cache failed: no cached JSON found"
+msgstr "fallback2cache NICHT ok: Kein zwischengespeichertes JSON gefunden"
+
+#: class-json-content-importer.php:54
+msgid "DEBUG:"
+msgstr "DEBUG:"
+
+#: class-json-content-importer.php:133
+msgid "Cache is active"
+msgstr "Cache (=Zwischenspeichern) ist aktiv"
+
+#: class-json-content-importer.php:135
+msgid "Cache is NOT active"
+msgstr "Cache (=Zwischenspeichern) ist nicht aktiv"
+
+#: class-json-content-importer.php:149
+msgid ""
+"No URL defined: Check the shortcode - one typical error: is there a blank "
+"after url= ?"
+msgstr ""
+"Keine URL definiert: Bitte pürfe den Shortcode - ein typischer Fehler: Ist "
+"ein Leerzeichen nach url= ?"
+
+#: class-json-content-importer.php:163
+msgid ""
+"EMPTY api-answer: No JSON received - is the API down? Check the URL you use "
+"in the shortcode!"
+msgstr ""
+"Die API-Antwort ist leer: Kein JSON erhalten - ist die API-Schnittstelle "
+"verfügbar? Bitte prüfe die URL im Shortcode!"
+
+#: class-json-content-importer.php:190
+msgid "result:"
+msgstr "Ergebnis:"
+
+#: class-json-parser.php:77
+msgid "double-array at root? not implemented yet"
+msgstr ""
+"\"doppelter-Array\" als JSON-Root-Node? Das kann das Plugin aktuell leider "
+"nicht verarbeiten"
+
+#: class-json-parser.php:82
+msgid "neither object nor array? not implemented yet"
+msgstr "weder objekt noch Array? Das kann das Plugin leider nicht verarbeiten"
+
+#: class-json-parser.php:87
+msgid "basic entry with"
+msgstr "Grundsätzliche Eingaben mit"
+
+#: class-json-parser.php:91
+msgid "We have a Problem with JSON here"
+msgstr "Wir haben hier leider ein Problem mit den JSON-Daten"
+
+#: class-json-parser.php:91
+msgid ""
+"Either we got no JSON from the API. Or the basenode-parameter is not ok."
+msgstr ""
+"Entweder haben wir kein JSON von der API erhalten. Oder der \"basenode-"
+"Parameter\" ist nicht ok."
+
+#: class-json-parser.php:91
+msgid "Switch on the Debugmode of the Plugin!"
+msgstr "Bitte den Debugmodus des Plugins einschalten!"
+
+#: class-json-parser.php:115
+msgid "ENTER function checkType"
+msgstr "Start der Funktion checkType"
+
+#: class-json-parser.php:117
+msgid "start loop"
+msgstr "beginne die Schleife"
+
+#: class-json-parser.php:122
+msgid "object found"
+msgstr "objekt gefunden"
+
+#: class-json-parser.php:124
+msgid "json in loop"
+msgstr "json in der Schleife"
+
+#: class-json-parser.php:156
+msgid "no match"
+msgstr "keine Übereinstimmung"
+
+#: class-json-parser.php:161
+msgid "found"
+msgstr "gefunden"
+
+#: class-json-parser.php:165
+msgid "loop array one by one"
+msgstr "Durchlauf die Schleife eins nach dem Anderen"
+
+#: class-json-parser.php:171
+msgid "no"
+msgstr "nein"
+
+#: class-json-parser.php:207
+msgid "LEAVE function checkType"
+msgstr "Verlasse Funktion, prüfe Typ"
+
+#: class-json-parser.php:207
+msgid "depth"
+msgstr "Tiefe"
+
+#: class-json-parser.php:207
+msgid "noofItems"
+msgstr "Anzahl der Elemente"
+
+#: class-json-parser.php:207
+msgid "returnHTMLinsideProc"
+msgstr "zurück gegebenes HTML"
+
+#: class-json-parser.php:521
+msgid "Switch to gutenberg-Blocks!"
+msgstr "Wechsel zu Gutenberg-Blocks!"
+
+#: class-json-parser.php:521
+msgid ""
+"There the JSON Content Importer Block gives an easier way to use the JSON-"
+"APIs."
+msgstr ""
+"Mit dem JSON Content Importer Gutenberg-Block kann man JSON-APIs besser "
+"nutzen."
+
+#: class-json-parser.php:521
+msgid "Or"
+msgstr "Oder"
+
+#: class-json-parser.php:521
+msgid "Switch on the Debugmode"
+msgstr "Schalte den Debugmodus ein"
+
+#: class-json-parser.php:521
+msgid "by adding \"debugmode=10\" in the Shortcode."
+msgstr "durch ergänzen von \"debugmode=10\" im Shortcode."
+
+#: class-json-parser.php:521
+msgid "If all is without success: Open ticket at"
+msgstr "Falls gar nichts erfolgreich ist: Lege ein Ticket hier an"
+
+#: class-json-parser.php:521
+msgid "please"
+msgstr "bitte"
+
+#: json-content-importer.php:17
+msgid "Hello, this is a plugin: You must not call me directly."
+msgstr "Guten Tag, dieses Plugin darf nicht auf diese Weise ausgeführt werden."
+
+#: json-content-importer.php:43
+msgid "Gutenberg not available"
+msgstr "Gutenberg ist nicht verfügbar"
+
+#: json-content-importer.php:52
+msgid "Gutenberg-Mode of Plugin switched off in Options"
+msgstr "Gutenberg-Modus des Plugins in den Optionen ausgeschaltet"
+
+#: json-content-importer.php:59
+msgid "Gutenberg-Plugin-Mode"
+msgstr "Gutenberg-Plugin-Modus"
+
+#: json-content-importer.php:69
+msgid "No Gutenberg: Classic Editor Plugin active"
+msgstr "Gutenberg nicht aktiv, das \"Classic Editor Plugin\" aktive"
+
+#: json-content-importer.php:72
+msgid "Gutenberg-WP5-Mode"
+msgstr "Gutenberg-WP5-Modus"
+
+#: json-content-importer.php:135
+msgid "Upgrade to PRO-Version"
+msgstr "Zur besseren PRO-Version wechseln"
+
+#: json-content-importer.php:136
+msgid "Support the development"
+msgstr "Unterstützer die Software-Entwicklung"
+
+#: json-content-importer.php:136 options.php:93
+msgid "Donate"
+msgstr "Spenden"
+
+#. Plugin Name of the plugin/theme
+#: options.php:6
+msgid "JSON Content Importer"
+msgstr "JSON Content Importer"
+
+#: options.php:29
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: options.php:41
+msgid ""
+"Cacher: Saving API-JSON-data locally saves time by avoding http-Requests"
+msgstr ""
+"Cacher: Das lokale Speichern von API-JSON-Daten spart Zeit weil damit http-"
+"Anfragen an die API vermieden werden"
+
+#: options.php:42
+msgid "Enable Cache"
+msgstr "Cacher einschalten"
+
+#: options.php:43
+msgid "reload json from web - if cachefile is older than"
+msgstr "JSON von der API laden - wenn die gecachte Datei älter ist als"
+
+#: options.php:45
+msgid "Minutes"
+msgstr "Minuten"
+
+#: options.php:46
+msgid "Days"
+msgstr "Tage"
+
+#: options.php:47
+msgid "Months"
+msgstr "Monate"
+
+#: options.php:48
+msgid "Years"
+msgstr "Jahre"
+
+#: options.php:52
+msgid "Handle unavailable  APIs"
+msgstr "Was tun, wenn die API nicht verfügbar ist und kein JSON liefert"
+
+#: options.php:62
+msgid ""
+"If the request to an API to get JSON fails, the plugin can try to use a "
+"maybe cached JSON (fill the cache at least once with a successful API-"
+"request)"
+msgstr ""
+"Wenn es nicht gelingt, JSON von der API zu bekommen, kann man ggf. "
+"vorhandenes JSON aus dem Cacher nutzen (welches durch mindestens einen "
+"erfolgreichen API-Aufruf dort gespeichert wurde)"
+
+#: options.php:64
+msgid "do not try to use cached JSON"
+msgstr "bitte gecachtes JSON nicht verwenden"
+
+#: options.php:66
+msgid "If the API-http-answercode is not 200: try to use cached JSON"
+msgstr ""
+"Falls der API-http-Antwortstatus nicht 200 ist: Versuche gechachtes JSON zu "
+"verwenden"
+
+#: options.php:68
+msgid "If the API sends invalid JSON: try to use cached JSON"
+msgstr ""
+"Falls die API ungültiges  JSON schickt: Versuche gechachtes JSON zu verwenden"
+
+#: options.php:70
+msgid ""
+"Recommended (not switched on due to backwards-compatibility):<br>If the API-"
+"http-answercode is not 200 OR sends invalid JSON: try to use cached JSON"
+msgstr ""
+"Empfohlen (noch nicht eingeschaltet, damit frühere Installationen "
+"funktionieren):<br>Wenn der API-http-Antwortstatus nicht 200 ist oder "
+"ungültiges JSON empfangen wird: Versuche gecachtes JSON zu verwenden"
+
+#: options.php:75
+msgid ""
+"API-Request: If needed, send Authentication-Info or an Browser-Useragent"
+msgstr ""
+"API-Anfrage: Falls nötig wird Information zur Berechtigung "
+"(\"Authentifizierung\") und eine Browser-Kennung (\"Useragent\") mitgeschickt"
+
+#: options.php:76
+msgid ""
+"oAuth Bearer accesskey: passed in header as \"Authorization: Bearer accesskey"
+"\"<br>(add \"nobearer \" - mind the space! - if you want to pass "
+"\"Authorization:accesskey\")"
+msgstr ""
+"oAuth Bearer Zugangsschlüssel: Dieser wird im http-header als "
+"\"Authorization: Bearer accesskey\" gesendet (Achtung: Leerzeichen "
+"beachten!)<br>Füge \"nobearer\" dazu, wenn \"Authorization:accesskey\" "
+"geschickt werden soll"
+
+#: options.php:80
+msgid "Send default Useragent (some APIs need that)"
+msgstr "Sende Standard-Browserkennung / Useragent (manche APIs benötigen dies)"
+
+#: options.php:85
+msgid "Gutenberg?"
+msgstr "Gutenberg-Modus?"
+
+#: options.php:86
+msgid "Easy JSON Content Importer - Gutenberg-Block"
+msgstr "Ganz einfach - JSON Content Importer und sein Gutenberg-Block"
+
+#: options.php:88
+msgid "Switch off Gutenberg features (maybe a site builder needs that)"
+msgstr ""
+"Gutenberg-Einstellungen ausschalten (evtl. benötigt ein Sitebuilder dies)"
+
+#: options.php:94
+msgid ""
+"Do you like that plugin? Is it helpful? I'm looking forward for a Donation - "
+"easy via PayPal!"
+msgstr ""
+"Gefällt Dir dieses Plugin? Ist es hilfreich? Dann freue ich mich über eine "
+"Spende - einfach per PayPal!"
+
+#: options.php:99
+msgid "Build in Example"
+msgstr "Im Plugin eingebautes Beispiel"
+
+#: options.php:102
+msgid "Example with this URL:"
+msgstr "Beispiel mit dieser URL:"
+
+#: options.php:118
+msgid "Available Syntax for Wordpress-Pages and -Blogentries"
+msgstr ""
+"Mögliche Syntax-Schreibweise für Wordpress-Seiten (Pages / Posts / CPT...)"
+
+#: options.php:120
+msgid "How to - First Shortcode with JSON Content Importer"
+msgstr "So geht es - Dein erster Shortcode mit dem JSON Content Importer"
+
+#: options.php:120
+msgid "How to: Wikipedia API, JSON Content Importer and WordPress"
+msgstr "So geht es - Wikipedia API. JSON Content Importer und Wordpress"
+
+#: options.php:125
+msgid "number: who many seconds for loading url till timeout?"
+msgstr "Zahl: Wieviele Sekunden soll f+r das Laden der URL gewartet werden?"
+
+#: options.php:126
+msgid "number: if 10 show backstage- and debug-info"
+msgstr ""
+"Zahl: Falls 10 werden Detail-Informationen angezeigt, die bei Problemen "
+"weiterhelfen können"
+
+#: options.php:127
+msgid ""
+"number: how many items of level 1 should be displayed? display all: leave "
+"empty"
+msgstr ""
+"Zahl: Wieviele Elemente im Level 1 sollen dargestellt werden? Falls alle "
+"dargestellt werden sollen bitte leer lassen"
+
+#: options.php:128
+msgid ""
+"starting point of datasets, tha base-node in the JSON-Feed where the data is?"
+msgstr ""
+"Startpunkt der Datensätze, ab diesem basenode werden die Daten im JSON-Feed "
+"verwendet?"
+
+#: options.php:129
+msgid ""
+"default empty, if not empty keywords spearated by','. At least one of these "
+"keywords must be in the created text (here: text=code without html-tags)"
+msgstr ""
+"Standardeinstellung: leer, falls nicht leer bitte Keywords getrennt durch "
+"','. Falls eines dieser Keywords im anzuzeigenden Text ist, wird dieses "
+"Textelement nicht angezeigt (hier: Text=Code ohne html-Tags)"
+
+#: options.php:130
+msgid ""
+"default: 1, number:where in the JSON-tree oneofthesewordsmustbein must be?"
+msgstr ""
+"Standardeinstellung: 1, Zahl: Wo im JSON-tree ist oneofthesewordsmustbein "
+"verortet?"
+
+#: options.php:131
+msgid ""
+"default empty, if not empty keywords spearated by ','. If one of these "
+"keywords is in the created text, this textblock is igonred (here: text=code "
+"without html-tags)"
+msgstr ""
+"Standardeinstellung: leer, falls nicht leer bitte Keywords getrennt durch "
+"','. Falls eines dieser Keywords im anzuzeigenden Text ist, wird dieses "
+"Textelement nicht angezeigt (hier: Text=Code ohne html-Tags)"
+
+#: options.php:132
+msgid ""
+"default: 1, number:where in the JSON-tree oneofthesewordsmustnotbein must be?"
+msgstr ""
+"Standardeinstellung: 1, Nummer: Wo im JSON-tree soll "
+"oneofthesewordsmustnotbein sein?"
+
+#: options.php:134
+msgid "Any HTML-Code plus \"basenode\"-datafields wrapped in \"{}\""
+msgstr ""
+"Irgendein HTML-Code, zusätzlich \"basenode\"-Datenfelder, umrahmt von \"{}\""
+
+#: options.php:135
+msgid ""
+"{subloop:\"basenode_subloop\":\"number of subloop-datasets to be displayed\"}"
+msgstr ""
+"{subloop:\"basenode_subloop\":\"Anzahl der anzuzeigenden subloop-Elemente\"}"
+
+#: options.php:136
+msgid "Any HTML-Code plus \"basenode_subloop\"-datafields wrapped in \"{}\""
+msgstr ""
+"Jeder HTML-Code, zusätzlich \"basenode_subloop\"-datenfelder die von \"{}\" "
+"umrahmt werden"
+
+#: options.php:137
+msgid ""
+"{subloop-array:\"basenode_subloop_array\":\"number of subloop-array-datasets "
+"to be displayed\"}"
+msgstr ""
+"{subloop-array:\"basenode_subloop_array\":\"Anzahl der anzuzeigenden subloop-"
+"array-Elemente\"}"
+
+#: options.php:138
+msgid ""
+"Any HTML-Code plus \"basenode_subloop_array\"-datafields wrapped in \"{}\""
+msgstr ""
+"Jeder HTML-Code, zusätzlich \"basenode_subloop_array\"-datenfelder die von "
+"\"{}\" umrahmt werden"
+
+#: options.php:145
+msgid "If the subloop is not an object but an array, use {subloop-array} e.g."
+msgstr ""
+"Falls der subloop kein Objekt ist, sondern ein Array, bitte {subloop-Array} "
+"verwenden."
+
+#: options.php:148
+msgid ""
+"shows the first, second and third entry of that array, modified by "
+"ifNotEmptyAddLeft and ifNotEmptyAddRight."
+msgstr ""
+"Zeige das 1te, 2te und 3te Element aus diesem Array an, verändert durch "
+"ifNotEmptyAddLeft und ifNotEmptyAddRight."
+
+#: options.php:151
+msgid "There are some special add-ons for datafields"
+msgstr "Für die Datenfelder gibt es einige spezielle Extras"
+
+#: options.php:153
+msgid ""
+"Default-display of a datafield is NOT HTML: \"&lt;\" etc. are converted to "
+"\"&amp,lt;\". Add \"html\" to display the HTML-Code as Code."
+msgstr ""
+"Als Standard werden Datenfelder nicht im HTML-Format angezeigt: \"&lt;\" "
+"etc. werden zu \"&amp,lt;\" konvertiert. Füge \"html\" hinzu, um HTML-Code "
+"als Code zu verwenden."
+
+#: options.php:154
+msgid ""
+" Same as \"{street:html}\" plus Text-Linefeeds are converted to &lt;br&gt; "
+"HTML-Linebreaks"
+msgstr ""
+" Genauso wie \"{street:html}\", zusätzlich werden Zeilenumbrüche in &lt;"
+"br&gt;  HTML-Zeilenumbrüche verwandelt"
+
+#: options.php:155
+msgid ""
+"If datafield \"street\" is not empty, add \",\" right of datafield-value. "
+"allowed chars are"
+msgstr ""
+"Wenn das Feld \"street\" nicht leer ist, kannst Du \",\" rechts davon "
+"hinzufügen. Erlaubte Zeichen sind"
+
+#: options.php:156
+msgid "you can combine \"html\" and \"ifNotEmptyAdd...\" like this"
+msgstr "du kannst \"html\" und  \"ifNotEmptyAdd…\" so kombinieren"
+
+#: options.php:157
+msgid "some as"
+msgstr "genauso wie"
+
+#: options.php:158
+msgid ""
+"If datafield \"street\" is not empty, add \",\" left of datafield-value. "
+"allowed chars are"
+msgstr ""
+"Wenn das Feld \"street\" nicht leer ist, kannst Du \",\" links davon "
+"hinzufügen. Erlaubte Zeichen sind"
+
+#: options.php:159
+msgid ""
+"Insert the php-urlencoded value of the datafield \"locationname\". Needed "
+"when building URLs. \"html\" does not work here."
+msgstr ""
+"Füge den PHP-urlencodierten Wert des Datenfeldes \"locationname\" ein. Das "
+"wird benötigt, um URLs zusammen zu bauen, \"html\" funktioniert hier nicht."
+
+#: options.php:166
+msgid "How do I find the proper template for my JSON?"
+msgstr "Wie stelle ich ein passendes Template zusammen?"
+
+#: options.php:167
+msgid "If you're lost: open ticket here"
+msgstr "Wenn Du Hilfe suchst: Lege hier ein Supportticket an"
+
+#: options.php:209 options.php:223
+msgid "Learn more about JSON Content Importer PRO"
+msgstr "Erfahre mehr über die PRO Version des JSON Content Importer"
+
+#: options.php:210
+msgid "Upgrade to PRO Version!"
+msgstr "Jetzt zur besseren PRO Version umsteigen!"
+
+#: options.php:211
+msgid "When the free version comes to it's limits: Check out the PRO-Version!"
+msgstr ""
+"Falls die kostenlose Version an ihre Grenzen kommt: Probier die PRO-Version "
+"aus!"
+
+#: options.php:212
+msgid ""
+"Try it without risk: Full refund, if the PRO plugin can't solve your "
+"challenge"
+msgstr ""
+"Die PRO-Version kann ohne Risiko ausprobiert werden: Volle "
+"Kostenrückzahlung, falls das Plugin Deine Herausforderung nicht löst"
+
+#: options.php:213
+msgid "PRO version only"
+msgstr "Nur in der PRO Version verfügbar"
+
+#: options.php:215
+msgid ""
+"template-manager: no hassle with linebreaks, and: one-place to store, use on "
+"many pages"
+msgstr ""
+"Template-Manager: Keine Probleme mit Zeilenumbrüche und: Ein Ort an dem "
+"alles gespeichert ist, was auf vielen Seiten verwendet werden kann"
+
+#: options.php:216
+msgid "format date and time"
+msgstr "Formatiere Datum und Zeit"
+
+#: options.php:217
+msgid ""
+"application building: pass GET/POST-parameter from Wordpress to JSON-feed"
+msgstr ""
+"Anwendunge bauen: GET/POST Parameter können von WordPress zum JSON-Feed "
+"weitergegeben werden"
+
+#: options.php:218
+msgid "shortcode inside template"
+msgstr "Wordpress-Shortcodes innerhalb des Templates"
+
+#: options.php:219
+msgid "twig template-engine: add logic (if...) to your template"
+msgstr "twig template-software: Füge Denem Template Logik (if…) hinzu"
+
+#: options.php:220
+msgid "create custom post pages out of JSON and custom post types"
+msgstr "Erzeuge Custom Post Pages aus JSON und Custom Post Types"
+
+#: options.php:221
+msgid "and much more..."
+msgstr "und vieles mehr...."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://json-content-importer.com/"
+msgstr "https://json-content-importer.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Plugin to import, cache and display a JSON-Feed. Display is done with "
+"wordpress-shortcode or gutenberg-block."
+msgstr ""
+"Plugin mit dem man JSON-Daten importieren, zwischenspeichern (cahcen) und "
+"anzeigen kann. Das gelingt mit einem Gutenberg-Block oder einem Wordpress-"
+"Shortcode."
+
+#. Author of the plugin/theme
+msgid "Bernhard Kux"
+msgstr "Bernhard Kux"
+
+#~ msgid "Some Examples to illustrate the syntax"
+#~ msgstr "Beispiele zeigen die Syntax"
+
+#~ msgid "widget: display JSON-livedata in the sidebar"
+#~ msgstr "Widget: JSDON-Livedaten in der Sidebar (Seitenleiste) anzeigen"
+
+#~ msgid "Don't forget: Feel free to donate! Easy via PayPal!"
+#~ msgstr ""
+#~ "Nicht vergessen: Du bist herzlich eingeladen, für dieses tolle Plugin "
+#~ "über PayPal zu spenden!"
+
+#~ msgid "Plugin Website json-content-importer.com: Documentation and examples"
+#~ msgstr "Website json-content-importer.com: Dokumentation und Beispiele"
+
+#~ msgid "Example 1"
+#~ msgstr "Beispiel 1"
+
+#~ msgid "search duckduckgo"
+#~ msgstr "duckduckgo durchsuchen"
+
+#~ msgid "list of events at this location"
+#~ msgstr "Liste der Veranstaltungen an diesem Ort"
+
+#~ msgid "Example 2"
+#~ msgstr "Beispiel 2"
+
+#~ msgid "debug-mode"
+#~ msgstr "Debug-Modus"
+
+#~ msgid "default empty, if not empty keywords spearated by"
+#~ msgstr "Standardeinstellung: Leer, falls nicht die Keywords trennen durch"
