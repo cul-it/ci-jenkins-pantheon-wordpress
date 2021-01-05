@@ -16,6 +16,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)  - Compatibility with WordPress 5.6: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 
+## [v1.4.10] - 2021-01-05
+### Changed
+- [ACF Better Search v3.7.0](https://wordpress.org/plugins/acf-better-search/#developers)
+- [Advanced Access Manager v6.7.3](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.0.5](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+- [Custom Post Type UI v1.8.2](https://github.com/WebDevStudios/custom-post-type-ui/)
+- [Easy Notification Bar v1.3.1](https://wordpress.org/plugins/easy-notification-bar/#developers)
+- [Elementor v3.0.15](https://wordpress.org/plugins/elementor/#developers)
+- [Elementor Pro v3.0.9](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [FileBird Lite v4.3.1](https://wordpress.org/plugins/filebird/#developers)
+- [JSON Content Importer v1.3.11](https://wordpress.org/plugins/json-content-importer/)
+- [Relevanssi v4.10.2](https://wordpress.org/plugins/relevanssi/#developers)
+
+
 ## [v1.4.9] - 2020-12-15
 ### Changed
 - [WordPress v5.6 update](https://make.wordpress.org/core/)
@@ -441,6 +455,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.10]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.10
 [v1.4.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.9
 [v1.4.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.8
 [v1.4.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.7
