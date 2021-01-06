@@ -5,7 +5,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Advanced Custom Fields Pro - plugin unknown Compatibility with WordPress 5.6
 - Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
 - Elementor - new version - Compatibility with WordPress 5.6: Unknown
 - FacetWP - v3.6.10 - Compatibility with WordPress 5.6: Unknown
@@ -18,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.4.11] - 2021-01-06
 ### Changed
+- [Advanced Custom Fields Pro v5.9.3](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+
 ## [v1.4.10] - 2021-01-05
 ### Changed
 - [ACF Better Search v3.7.0](https://wordpress.org/plugins/acf-better-search/#developers)
