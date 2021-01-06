@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)  - Compatibility with WordPress 5.6: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 
+## [v1.4.11] - 2021-01-06
+### Changed
 ## [v1.4.10] - 2021-01-05
 ### Changed
 - [ACF Better Search v3.7.0](https://wordpress.org/plugins/acf-better-search/#developers)
@@ -455,6 +457,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.11]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.11
 [v1.4.10]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.10
 [v1.4.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.9
 [v1.4.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.8
