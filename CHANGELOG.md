@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
 - [Elementor v3.0.16](https://wordpress.org/plugins/elementor/#developers)
 - [Google Analytics Dashboard v6.4.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- [WordPress Ultimate CSV Importer Pro v6.3.3](https://github.com/cul-it/wp-ultimate-csv-importer-pro/blob/master/changelogs_for_csv_importer.json)
 
 ## [v1.4.11] - 2021-01-06
 ### Changed
