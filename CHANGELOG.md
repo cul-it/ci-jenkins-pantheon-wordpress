@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
 - Elementor - new version - Compatibility with WordPress 5.6: Unknown
 - FacetWP - v3.6.10 - Compatibility with WordPress 5.6: Unknown
-- Google Analytics Dashboard v6.3.3](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - Compatibility with WordPress 5.6: Unknown
+
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Keyword Filtering - 1.7.1 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
 - [Elementor v3.0.16](https://wordpress.org/plugins/elementor/#developers)
+- [Google Analytics Dashboard v6.4.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 
 ## [v1.4.11] - 2021-01-06
 ### Changed
