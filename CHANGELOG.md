@@ -8,12 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
 - Elementor - new version - Compatibility with WordPress 5.6: Unknown
 - FacetWP - v3.6.10 - Compatibility with WordPress 5.6: Unknown
-- Google Analytics Dashboard v6.3.3](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers) - Compatibility with WordPress 5.6: Unknown
+
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Keyword Filtering - 1.7.1 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
 - WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)  - Compatibility with WordPress 5.6: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
+
+## [v1.4.12] - 2021-01-08
+### Changed
+- [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
+- [Elementor v3.0.16](https://wordpress.org/plugins/elementor/#developers)
+- [Google Analytics Dashboard v6.4.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- [WordPress Ultimate CSV Importer Pro v6.3.3](https://github.com/cul-it/wp-ultimate-csv-importer-pro/blob/master/changelogs_for_csv_importer.json)
 
 ## [v1.4.11] - 2021-01-06
 ### Changed
@@ -458,6 +465,8 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.12]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.12
+[v1.4.11]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.11
 [v1.4.10]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.10
 [v1.4.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.9
 [v1.4.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.8
