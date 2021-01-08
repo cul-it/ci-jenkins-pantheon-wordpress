@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.4.12] - 2021-01-08
 ### Changed
+- [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
 
 ## [v1.4.11] - 2021-01-06
 ### Changed
