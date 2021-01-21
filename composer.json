@@ -138,7 +138,7 @@
     "wpackagist-plugin/wp-cfm": "1.6",
     "wpackagist-plugin/wp-mail-smtp": "2.5.1",
     "wpackagist-plugin/wp-native-php-sessions": "1.2.1",
-    "wpackagist-plugin/wp-rss-aggregator": "4.17.8",
+    "wpackagist-plugin/wp-rss-aggregator": "4.17.10",
     "wpackagist-theme/twentynineteen": "1.5"
   },
   "require-dev": {
