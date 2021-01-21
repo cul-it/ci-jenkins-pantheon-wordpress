@@ -109,7 +109,7 @@
     "simplesamlphp/simplesamlphp": "1.18.6",
     "symfony/yaml": "^4.0",
     "vlucas/phpdotenv": "3.3.3",
-    "wpackagist-plugin/acf-better-search": "3.7.0",
+    "wpackagist-plugin/acf-better-search": "3.8.0",
     "wpackagist-plugin/acf-image-aspect-ratio-crop": "5.0.5",
     "wpackagist-plugin/acf-to-rest-api": "3.3.2",
     "wpackagist-plugin/advanced-access-manager": "6.7.3",

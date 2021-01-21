@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.13] - 2021-01-21
 ### Removed
 - Classic Editor v1.6
+### Changed
+- [ACF Better Search v3.8.0](https://wordpress.org/plugins/acf-better-search/#developers)
 ## [v1.4.12] - 2021-01-08
 ### Changed
 - [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
