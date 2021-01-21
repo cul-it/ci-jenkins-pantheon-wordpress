@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 
 ## [v1.4.13] - 2021-01-21
+### Removed
+- Classic Editor v1.6
 ## [v1.4.12] - 2021-01-08
 ### Changed
 - [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
