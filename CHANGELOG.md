@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Classic Editor v1.6
 ### Changed
 - [ACF Better Search v3.8.0](https://wordpress.org/plugins/acf-better-search/#developers)
+- [Advanced Custom Fields Pro v5.9.4](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
 ## [v1.4.12] - 2021-01-08
 ### Changed
 - [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
