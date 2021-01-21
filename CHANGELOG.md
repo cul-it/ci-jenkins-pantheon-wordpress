@@ -12,8 +12,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Keyword Filtering - 1.7.1 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
-- WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)  - Compatibility with WordPress 5.6: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
+
+## [v1.4.13] - 2021-01-21
+### Removed
+- Classic Editor v1.6
+### Changed
+- [ACF Better Search v3.8.0](https://wordpress.org/plugins/acf-better-search/#developers)
+- [Advanced Custom Fields Pro v5.9.4](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+- [Coming Soon Page & Maintenance Mode v6.0.10.1](https://wordpress.org/plugins/coming-soon/#developers)
+- [Google Analytics Dashboard v6.5.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- [Redirection v5.0](https://wordpress.org/plugins/redirection/#developers)
+- [WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- [WP Custom Loop Widget v1.2.3](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+- [WP Libcal Hours v2.1.0](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+- [CULU Theme v1.5.1](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.2)
 
 ## [v1.4.12] - 2021-01-08
 ### Changed
@@ -465,6 +478,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.13]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.13
 [v1.4.12]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.12
 [v1.4.11]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.11
 [v1.4.10]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.10
