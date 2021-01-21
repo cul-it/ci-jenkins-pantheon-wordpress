@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Custom Fields Pro v5.9.4](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
 - [Coming Soon Page & Maintenance Mode v6.0.10.1](https://wordpress.org/plugins/coming-soon/#developers)
 - [Google Analytics Dashboard v6.5.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- [Redirection v5.0](https://wordpress.org/plugins/redirection/#developers)
 ## [v1.4.12] - 2021-01-08
 ### Changed
 - [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
