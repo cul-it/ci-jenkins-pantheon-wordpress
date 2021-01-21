@@ -12,7 +12,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Keyword Filtering - 1.7.1 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
-- WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)  - Compatibility with WordPress 5.6: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 
 ## [v1.4.13] - 2021-01-21
@@ -24,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Coming Soon Page & Maintenance Mode v6.0.10.1](https://wordpress.org/plugins/coming-soon/#developers)
 - [Google Analytics Dashboard v6.5.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - [Redirection v5.0](https://wordpress.org/plugins/redirection/#developers)
+- [WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 ## [v1.4.12] - 2021-01-08
 ### Changed
 - [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
