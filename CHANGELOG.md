@@ -26,6 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [WP RSS Aggregator v4.17.10](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - [WP Custom Loop Widget v1.2.3](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
 - [WP Libcal Hours v2.1.0](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+- [CULU Theme v1.5.1](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.2)
+
 ## [v1.4.12] - 2021-01-08
 ### Changed
 - [Akismet Anti-Spam v4.1.8](https://wordpress.org/plugins/akismet/#developers)
