@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 
+## [v1.4.14] -2021-01-22
+### Changed
+- [CULU Theme v1.5.2](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.2)
+
 ## [v1.4.13] - 2021-01-21
 ### Removed
 - Classic Editor v1.6
@@ -478,6 +482,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.4.14]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.14
 [v1.4.13]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.13
 [v1.4.12]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.12
 [v1.4.11]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.11
