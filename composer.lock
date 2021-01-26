@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f11007c84875c59d3b676d22a6df36d",
+    "content-hash": "d5b3a18f934e359c1e468d8f294e3a50",
     "packages": [
         {
             "name": "10up/distributor",
@@ -367,16 +367,16 @@
         },
         {
             "name": "cul-it/elementor-pro",
-            "version": "v3.0.9",
+            "version": "v3.0.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/elementor-pro.git",
-                "reference": "5a2cfe66ba290733d5713c4c973e346632832498"
+                "reference": "00a21b335972eb8c6b13be5bb9a2c07927fb84a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/5a2cfe66ba290733d5713c4c973e346632832498",
-                "reference": "5a2cfe66ba290733d5713c4c973e346632832498",
+                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/00a21b335972eb8c6b13be5bb9a2c07927fb84a4",
+                "reference": "00a21b335972eb8c6b13be5bb9a2c07927fb84a4",
                 "shasum": ""
             },
             "require": {
@@ -385,10 +385,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/elementor-pro/tree/v3.0.9",
+                "source": "https://github.com/cul-it/elementor-pro/tree/v3.0.10",
                 "issues": "https://github.com/cul-it/elementor-pro/issues"
             },
-            "time": "2021-01-05T20:58:30+00:00"
+            "time": "2021-01-26T18:11:47+00:00"
         },
         {
             "name": "cul-it/facetwp",
@@ -2742,16 +2742,16 @@
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-memcachemonitor",
-            "version": "v0.9.1",
+            "version": "v0.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp-module-memcachemonitor.git",
-                "reference": "0e08e87707cd7b1fb91bbcf65cc454d8849571b0"
+                "reference": "900b5c6b59913d9013b8dae090841a127ae55ae5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-memcachemonitor/zipball/0e08e87707cd7b1fb91bbcf65cc454d8849571b0",
-                "reference": "0e08e87707cd7b1fb91bbcf65cc454d8849571b0",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-memcachemonitor/zipball/900b5c6b59913d9013b8dae090841a127ae55ae5",
+                "reference": "900b5c6b59913d9013b8dae090841a127ae55ae5",
                 "shasum": ""
             },
             "require": {
@@ -2768,7 +2768,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0-or-later"
+                "LGPL-2.1-or-later"
             ],
             "authors": [
                 {
@@ -2785,7 +2785,7 @@
                 "memcachemonitor",
                 "simplesamlphp"
             ],
-            "time": "2019-12-03T09:19:35+00:00"
+            "time": "2021-01-25T15:44:44+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-memcookie",
@@ -2882,16 +2882,16 @@
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-negotiate",
-            "version": "v0.9.9",
+            "version": "v0.9.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp-module-negotiate.git",
-                "reference": "68c9a1a2b81c68978ba6cfe19f0a7527300768ba"
+                "reference": "db05ff40399c66e3f14697a8162da6b2fbdab47d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-negotiate/zipball/68c9a1a2b81c68978ba6cfe19f0a7527300768ba",
-                "reference": "68c9a1a2b81c68978ba6cfe19f0a7527300768ba",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-negotiate/zipball/db05ff40399c66e3f14697a8162da6b2fbdab47d",
+                "reference": "db05ff40399c66e3f14697a8162da6b2fbdab47d",
                 "shasum": ""
             },
             "require": {
@@ -2931,7 +2931,7 @@
                 "negotiate",
                 "simplesamlphp"
             ],
-            "time": "2020-08-03T13:02:36+00:00"
+            "time": "2021-01-22T13:36:09+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-oauth",
@@ -3254,16 +3254,16 @@
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-statistics",
-            "version": "v0.9.5",
+            "version": "v0.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp-module-statistics.git",
-                "reference": "d7f68a129baa2dfb6104b91deddfc36b79ae2b54"
+                "reference": "03fb6bdbbf5ce0a0cb257208db79aacac227ac10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-statistics/zipball/d7f68a129baa2dfb6104b91deddfc36b79ae2b54",
-                "reference": "d7f68a129baa2dfb6104b91deddfc36b79ae2b54",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-statistics/zipball/03fb6bdbbf5ce0a0cb257208db79aacac227ac10",
+                "reference": "03fb6bdbbf5ce0a0cb257208db79aacac227ac10",
                 "shasum": ""
             },
             "require": {
@@ -3297,7 +3297,7 @@
                 "simplesamlphp",
                 "statistics"
             ],
-            "time": "2021-01-05T15:07:29+00:00"
+            "time": "2021-01-25T15:15:26+00:00"
         },
         {
             "name": "simplesamlphp/twig-configurable-i18n",
@@ -5542,15 +5542,15 @@
         },
         {
             "name": "wpackagist-plugin/coming-soon",
-            "version": "6.0.10.1",
+            "version": "6.0.11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coming-soon/",
-                "reference": "tags/6.0.10.1"
+                "reference": "tags/6.0.11.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.0.10.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.0.11.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -5614,15 +5614,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.0.16",
+            "version": "3.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.0.16"
+                "reference": "tags/3.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.0.16.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.1.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -5758,15 +5758,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.0",
+            "version": "5.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.0"
+                "reference": "tags/5.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.0.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -6089,23 +6089,23 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.6.2",
+            "version": "v4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "51ac4500c4dc30cbaaabcd2f25694299df666a31"
+                "reference": "987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/51ac4500c4dc30cbaaabcd2f25694299df666a31",
-                "reference": "51ac4500c4dc30cbaaabcd2f25694299df666a31",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd",
+                "reference": "987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.1"
+                "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.5|~5",
+                "phpunit/phpunit": "~5.7|~6|~7",
                 "symfony/phpunit-bridge": "~2.7|~3|~4",
                 "symfony/yaml": "~2.3|~3|~4"
             },
@@ -6134,7 +6134,7 @@
                     "homepage": "http://everzet.com"
                 }
             ],
-            "description": "Gherkin DSL parser for PHP 5.3",
+            "description": "Gherkin DSL parser for PHP",
             "homepage": "http://behat.org/",
             "keywords": [
                 "BDD",
@@ -6144,7 +6144,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2020-03-17T14:03:26+00:00"
+            "time": "2021-01-26T16:24:32+00:00"
         },
         {
             "name": "behat/mink",
