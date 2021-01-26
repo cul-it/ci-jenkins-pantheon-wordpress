@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.4.15] - 2021-01-26
 ### Changed
+- [Coming Soon Page & Maintenance Mode v6.0.11.1](https://wordpress.org/plugins/coming-soon/#developers)
 ## [v1.4.14] -2021-01-22
 ### Changed
 - [CULU Theme v1.5.2](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.2)
