@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Coming Soon Page & Maintenance Mode v6.0.11.1](https://wordpress.org/plugins/coming-soon/#developers)
 - [Elementor v3.1.0](https://wordpress.org/plugins/elementor/#developers)
 - [Elementor Pro v3.0.10](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [Redirection v5.0.1](https://wordpress.org/plugins/redirection/#developers)
 ## [v1.4.14] -2021-01-22
 ### Changed
 - [CULU Theme v1.5.2](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.4.2)
