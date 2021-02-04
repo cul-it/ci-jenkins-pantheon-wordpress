@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Elementor v3.1.1](https://wordpress.org/plugins/elementor/#developers)
 - [Google Analytics Dashboard v6.5.1](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - [Relevanssi v4.11.0](https://wordpress.org/plugins/relevanssi/#developers)
+- [WP Mail SMTP v2.6.0](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 ## [v1.4.15] - 2021-01-26
 ### Changed
 - [Coming Soon Page & Maintenance Mode v6.0.11.1](https://wordpress.org/plugins/coming-soon/#developers)
