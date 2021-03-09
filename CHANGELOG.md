@@ -7,9 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - [Advanced Custom Fields Pro v5.9.5](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)] - unknown compatiblility
 - Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
-- Elementor - new version - Compatibility with WordPress 5.6: Unknown
 - FacetWP - v3.6.10 - Compatibility with WordPress 5.6: Unknown
-
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Keyword Filtering - 1.7.1 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
@@ -18,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.6.0] - 2021-03-09
 ### Changed
 - [WordPress v5.6.2](https://make.wordpress.org/core/)
+- [Elementor v3.1.3](https://wordpress.org/plugins/elementor/#developers)
+- [Elementor Pro v3.1.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 ## [v1.5.0] - 2021-02-04
 ### Changed
 - [WordPress v5.6.1](https://make.wordpress.org/core/)
