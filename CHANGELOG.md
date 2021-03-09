@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Elementor v3.1.3](https://wordpress.org/plugins/elementor/#developers)
 - [Elementor Pro v3.1.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 - [FileBird Lite v4.5](https://wordpress.org/plugins/filebird/#developers)
+- [Google Analytics Dashboard v6.6.2](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 ## [v1.5.0] - 2021-02-04
 ### Changed
 - [WordPress v5.6.1](https://make.wordpress.org/core/)
