@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - [WordPress v5.6.2](https://make.wordpress.org/core/)
 - [Advanced Access Manager v6.7.4](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [Akismet Anti-Spam v4.1.9](https://wordpress.org/plugins/akismet/#developers)
 - [Elementor v3.1.3](https://wordpress.org/plugins/elementor/#developers)
 - [Elementor Pro v3.1.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 ## [v1.5.0] - 2021-02-04
