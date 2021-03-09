@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [PublishPress Capabilities v2.0](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - [Relevanssi v4.12.3](https://wordpress.org/plugins/relevanssi/#developers)
 - [Siteimprove v1.2.1](https://wordpress.org/plugins/siteimprove/)
+- [WP-CFM v1.7.2](https://wordpress.org/plugins/wp-cfm/#developers)
 ## [v1.5.0] - 2021-02-04
 ### Changed
 - [WordPress v5.6.1](https://make.wordpress.org/core/)
