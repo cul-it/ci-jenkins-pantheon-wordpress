@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [FileBird Lite v4.5](https://wordpress.org/plugins/filebird/#developers)
 - [Google Analytics Dashboard v6.6.2](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - [JSON Content Importer v1.3.12](https://wordpress.org/plugins/json-content-importer/)
+- [PublishPress Capabilities v2.0](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 ## [v1.5.0] - 2021-02-04
 ### Changed
 - [WordPress v5.6.1](https://make.wordpress.org/core/)
