@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.6.0] - 2021-03-09
 ### Changed
+- [WordPress v5.6.2](https://make.wordpress.org/core/)
 ## [v1.5.0] - 2021-02-04
 ### Changed
 - [WordPress v5.6.1](https://make.wordpress.org/core/)
