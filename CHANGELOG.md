@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Better Font Awesome v2.0.0](https://wordpress.org/plugins/better-font-awesome/#developers)
 - [Elementor v3.1.3](https://wordpress.org/plugins/elementor/#developers)
 - [Elementor Pro v3.1.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [FileBird Lite v4.5](https://wordpress.org/plugins/filebird/#developers)
 ## [v1.5.0] - 2021-02-04
 ### Changed
 - [WordPress v5.6.1](https://make.wordpress.org/core/)
