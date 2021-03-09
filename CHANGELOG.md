@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [WP-CFM v1.7.2](https://wordpress.org/plugins/wp-cfm/#developers)
 - [WP RSS Aggregator v4.18](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - [WP SAML Auth - 1.2.1](https://wordpress.org/plugins/wp-saml-auth/#developers)
+- [Distributor v1.6.2](https://github.com/10up/distributor/blob/develop/CHANGELOG.md)
 ## [v1.5.0] - 2021-02-04
 ### Changed
 - [WordPress v5.6.1](https://make.wordpress.org/core/)
