@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.6.1] - 2021-03-22
 ### Changed
 - [WP Custom Loop Widget v1.2.4](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
+- [Coming Soon Page & Maintenance Mode v6.2.0](https://wordpress.org/plugins/coming-soon/#developers)
+
 ## [v1.6.0] - 2021-03-22
 ### Changed
 - [WordPress v5.6.2](https://make.wordpress.org/core/)
