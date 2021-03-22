@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - [WordPress v5.6.2](https://make.wordpress.org/core/)
 - [Advanced Access Manager v6.7.4](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.1.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
 - [Akismet Anti-Spam v4.1.9](https://wordpress.org/plugins/akismet/#developers)
 - [Better Font Awesome v2.0.0](https://wordpress.org/plugins/better-font-awesome/#developers)
 - [Elementor v3.1.3](https://wordpress.org/plugins/elementor/#developers)
