@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "775d522da1e18eecd251521d0fa24a4a",
+    "content-hash": "144866b79dcc66ce7a128e82ac641b18",
     "packages": [
         {
             "name": "10up/distributor",
-            "version": "1.6.0",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/10up/distributor.git",
-                "reference": "3465389054cc0cc3b2bf53668ef639c2ad579c1b"
+                "reference": "ec7c44ba66cd36ea1258731834c5ae62dcc22843"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/10up/distributor/zipball/3465389054cc0cc3b2bf53668ef639c2ad579c1b",
-                "reference": "3465389054cc0cc3b2bf53668ef639c2ad579c1b",
+                "url": "https://api.github.com/repos/10up/distributor/zipball/ec7c44ba66cd36ea1258731834c5ae62dcc22843",
+                "reference": "ec7c44ba66cd36ea1258731834c5ae62dcc22843",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "georgestephanis/application-passwords": "0.1.1",
+                "georgestephanis/application-passwords": "0.1.2",
                 "php": ">=5.6",
                 "yahnis-elsts/plugin-update-checker": "^4.4"
             },
