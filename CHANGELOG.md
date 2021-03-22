@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Elementor v3.1.4](https://wordpress.org/plugins/elementor/#developers)
 - [Elementor Pro v3.2.0](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 - [FileBird Lite v4.5](https://wordpress.org/plugins/filebird/#developers)
-- [Google Analytics Dashboard v6.6.2](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- [Google Analytics Dashboard v6.7.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - [JSON Content Importer v1.3.12](https://wordpress.org/plugins/json-content-importer/)
 - [PublishPress Capabilities v2.0](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
 - [Relevanssi v4.12.3](https://wordpress.org/plugins/relevanssi/#developers)
