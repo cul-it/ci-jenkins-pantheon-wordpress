@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "144866b79dcc66ce7a128e82ac641b18",
+    "content-hash": "8df16a44c7f54d589e7cdd3db4af298b",
     "packages": [
         {
             "name": "10up/distributor",
@@ -441,16 +441,16 @@
         },
         {
             "name": "cul-it/wp-custom-loop-widget",
-            "version": "v1.2.3",
+            "version": "v1.2.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-custom-loop-widget.git",
-                "reference": "2897a86f2ea73e2e972996a44f03d42e3d0f5054"
+                "reference": "17221ba2b8bb2849546e581c3785af14940b9fd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/2897a86f2ea73e2e972996a44f03d42e3d0f5054",
-                "reference": "2897a86f2ea73e2e972996a44f03d42e3d0f5054",
+                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/17221ba2b8bb2849546e581c3785af14940b9fd3",
+                "reference": "17221ba2b8bb2849546e581c3785af14940b9fd3",
                 "shasum": ""
             },
             "require": {
@@ -459,10 +459,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v1.2.3",
+                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v1.2.4",
                 "issues": "https://github.com/cul-it/wp-custom-loop-widget/issues"
             },
-            "time": "2021-01-20T22:00:53+00:00"
+            "time": "2021-03-22T19:05:18+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
@@ -5554,15 +5554,15 @@
         },
         {
             "name": "wpackagist-plugin/coming-soon",
-            "version": "6.0.11.1",
+            "version": "6.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coming-soon/",
-                "reference": "tags/6.0.11.1"
+                "reference": "tags/6.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.0.11.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.2.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
