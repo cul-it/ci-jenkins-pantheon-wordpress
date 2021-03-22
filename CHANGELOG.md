@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Elementor v3.1.3](https://wordpress.org/plugins/elementor/#developers)
 - [Elementor Pro v3.1.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
 - [Better Font Awesome v2.0.1](https://wordpress.org/plugins/better-font-awesome/#developers)
+- [Code Snippets v2.14.1](https://wordpress.org/plugins/code-snippets/#developers)
 - [FileBird Lite v4.5](https://wordpress.org/plugins/filebird/#developers)
 - [Google Analytics Dashboard v6.6.2](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - [JSON Content Importer v1.3.12](https://wordpress.org/plugins/json-content-importer/)
