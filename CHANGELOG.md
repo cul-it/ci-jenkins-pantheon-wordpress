@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [WP RSS Aggregator v4.18.1](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
 - [WP SAML Auth - 1.2.1](https://wordpress.org/plugins/wp-saml-auth/#developers)
 - [Distributor v1.6.2](https://github.com/10up/distributor/blob/develop/CHANGELOG.md)
+- [WP Libcal Hours v2.1.3](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
 ## [v1.5.0] - 2021-02-04
 ### Changed
 - [WordPress v5.6.1](https://make.wordpress.org/core/)
