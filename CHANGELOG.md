@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Google Analytics Dashboard v6.7.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
 - [JSON Content Importer v1.3.12](https://wordpress.org/plugins/json-content-importer/)
 - [PublishPress Capabilities v2.0](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
-- [Relevanssi v4.12.3](https://wordpress.org/plugins/relevanssi/#developers)
+- [Relevanssi v4.12.5](https://wordpress.org/plugins/relevanssi/#developers)
 - [Siteimprove v1.2.1](https://wordpress.org/plugins/siteimprove/)
 - [WP-CFM v1.7.2](https://wordpress.org/plugins/wp-cfm/#developers)
 - [WP RSS Aggregator v4.18](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
