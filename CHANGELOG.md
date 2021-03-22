@@ -5,14 +5,36 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- [Advanced Custom Fields Pro v5.9.5](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)] - unknown compatiblility
 - Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
-- Elementor - new version - Compatibility with WordPress 5.6: Unknown
 - FacetWP - v3.6.10 - Compatibility with WordPress 5.6: Unknown
-
 - Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Keyword Filtering - 1.7.1 - plugin unknown Compatibility with WordPress 5.6
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
+
+## [v1.6.0] - 2021-03-22
+### Changed
+- [WordPress v5.6.2](https://make.wordpress.org/core/)
+- [Advanced Access Manager v6.7.4](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [Advanced Custom Fields: Image Aspect Ratio Crop Field v5.1.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/#developers)
+- [Akismet Anti-Spam v4.1.9](https://wordpress.org/plugins/akismet/#developers)
+- [Better Font Awesome v2.0.1](https://wordpress.org/plugins/better-font-awesome/#developers)
+- [Code Snippets v2.14.1](https://wordpress.org/plugins/code-snippets/#developers)
+- [Elementor v3.1.4](https://wordpress.org/plugins/elementor/#developers)
+- [Elementor Pro v3.2.0](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [FileBird Lite v4.5](https://wordpress.org/plugins/filebird/#developers)
+- [Google Analytics Dashboard v6.7.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/#developers)
+- [JSON Content Importer v1.3.12](https://wordpress.org/plugins/json-content-importer/)
+- [PublishPress Capabilities v2.0](https://wordpress.org/plugins/capability-manager-enhanced/#developers)
+- [Relevanssi v4.12.5](https://wordpress.org/plugins/relevanssi/#developers)
+- [Siteimprove v1.2.1](https://wordpress.org/plugins/siteimprove/)
+- [WP-CFM v1.7.2](https://wordpress.org/plugins/wp-cfm/#developers)
+- [WP RSS Aggregator v4.18.1](https://wordpress.org/plugins/wp-rss-aggregator/#developers)
+- [WP SAML Auth - 1.2.1](https://wordpress.org/plugins/wp-saml-auth/#developers)
+- [Distributor v1.6.2](https://github.com/10up/distributor/blob/develop/CHANGELOG.md)
+- [WP Libcal Hours v2.1.3](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+- [CULU Theme v1.5.3](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.5.3)
 
 ## [v1.5.0] - 2021-02-04
 ### Changed
@@ -503,6 +525,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.6.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.6.0
 [v1.5.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.5.0
 [v1.4.15]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.15
 [v1.4.14]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.14
