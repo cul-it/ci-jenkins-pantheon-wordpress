@@ -13,6 +13,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
 - wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
 
+## [v1.6.2] - 2021-03-29
+### Changed
+- [Native PHP Sessions for WordPress v1.2.2](https://github.com/pantheon-systems/wp-native-php-sessions#changelog)
+- [WP Mail SMTP v2.7.0](https://wordpress.org/plugins/wp-mail-smtp/#developers)
+- [WP Libcal Hours v2.1.4](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+- [CULU Theme v1.5.4](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.5.4)
+
 ## [v1.6.1] - 2021-03-22
 ### Changed
 - [WP Custom Loop Widget v1.2.4](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
@@ -530,6 +537,8 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.6.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.6.2
+[v1.6.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.6.1
 [v1.6.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.6.0
 [v1.5.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.5.0
 [v1.4.15]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.4.15
