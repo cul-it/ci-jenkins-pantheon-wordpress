@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.6.2] - 2021-03-29
 ### Changed
+- [Native PHP Sessions for WordPress v1.2.2](https://github.com/pantheon-systems/wp-native-php-sessions#changelog)
 ## [v1.6.1] - 2021-03-22
 ### Changed
 - [WP Custom Loop Widget v1.2.4](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
