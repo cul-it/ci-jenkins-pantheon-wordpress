@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Native PHP Sessions for WordPress v1.2.2](https://github.com/pantheon-systems/wp-native-php-sessions#changelog)
 - [WP Mail SMTP v2.7.0](https://wordpress.org/plugins/wp-mail-smtp/#developers)
 - [WP Libcal Hours v2.1.4](https://github.com/cul-it/wp-libcal-hours/blob/dev/CHANGELOG.md)
+- [CULU Theme v1.5.4](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.5.4)
+
 ## [v1.6.1] - 2021-03-22
 ### Changed
 - [WP Custom Loop Widget v1.2.4](https://github.com/cul-it/wp-custom-loop-widget/blob/master/CHANGELOG.md)
