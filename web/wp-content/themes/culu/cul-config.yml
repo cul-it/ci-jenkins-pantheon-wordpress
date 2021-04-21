@@ -1,0 +1,37 @@
+units:
+  africana:
+  annex:
+  asia:
+  engineering:
+  finearts:
+  hotel:
+  ilr:
+  law:
+  makerspace:
+  management:
+  mann:
+    libcal:
+      spaces_equip_lid:
+      - 96
+    sassafras_reports:
+    - dash-31465645-af047297.ksr
+    spaces:
+      sensource_id:
+      - 469b3905
+  mathematics:
+  music:
+  olinuris:
+    libcal:
+      spaces_equip_lid:
+      - 528 # Olin
+      - 94  # Uris
+    sassafras_reports:
+    - dash-dfc05306-19d35a2b.ksr # Olin
+    - dash-7c07ea17-b1f25108.ksr # Uris
+    spaces:
+      sensource_id:
+      - efc18a38 # Olin
+      - 9dc56e26 # Uris
+  psl:
+  rare:
+  vet:
