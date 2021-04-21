@@ -17,6 +17,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - [Coming Soon Page & Maintenance Mode v6.2.1](https://wordpress.org/plugins/coming-soon/#developers)
 - [Elementor Pro v3.2.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [WordPress v5.7.1](https://make.wordpress.org/core/)
+
+
 ## [v1.6.2] - 2021-03-29
 ### Changed
 - [Native PHP Sessions for WordPress v1.2.2](https://github.com/pantheon-systems/wp-native-php-sessions#changelog)
