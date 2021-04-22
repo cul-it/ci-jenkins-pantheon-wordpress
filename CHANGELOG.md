@@ -4,14 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-- [Advanced Custom Fields Pro v5.9.5](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)] - unknown compatiblility
-- Draw Attention Pro - new version - Compatibility with WordPress 5.6: Unknown
-- FacetWP - v3.6.10 - Compatibility with WordPress 5.6: Unknown
-- Siteimprove plugin - 1.2.0 - plugin unknown Compatibility with WordPress 5.6
-- WP RSS Aggregator - Keyword Filtering - 1.7.1 - plugin unknown Compatibility with WordPress 5.6
-- WP RSS Aggregator - Templates - new version - Compatibility with WordPress 5.6: Unknown
-- wp-rss-keyword-filtering plugin - 1.7 - can not download - licence expired
+## [v1.7.1] - 2021-05-22
+### Changed
+- include "pear/archive_tar": "1.4.13" in composer.json to answer security alert [CVE-2020-36193](https://github.com/cul-it/ci-jenkins-pantheon-drupal/security/dependabot/composer.lock/pear%2Farchive_tar/open)
+- remove the Unreleased section - maintenance headache
 
 ## [v1.7.0] - 2021-04-19
 ### Changed
@@ -544,6 +540,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.7.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.1
 [v1.7.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.0
 [v1.6.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.6.2
 [v1.6.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.6.1
