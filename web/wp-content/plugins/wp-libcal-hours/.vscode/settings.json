@@ -1,0 +1,8 @@
+{
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.tabSize": 4
+  }
+}
