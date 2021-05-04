@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "eslint.workingDirectories": ["./vue"],
+  "vetur.validation.template": false,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.tabSize": 4
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.html": "none"
+}
