@@ -1,0 +1,307 @@
+// Events styles homepage
+
+.home .localist-widget,
+.localist-widget {
+
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+  
+  #lwe { // ul
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 30px;
+
+    .lwe { // li
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgb(226, 234, 239);
+      clear: both;
+      display: inline-block;
+
+      &:last-child {
+          border-bottom: none; 
+      }
+
+      .lwn {
+        
+        .lwn0 {
+            font-size: 13px;
+        }
+
+        a {
+            display: block;
+        }
+        margin-bottom: 10px;
+      }
+
+      .lwd {
+          
+        position: relative;
+
+        .lwi0 {
+          display: inline-block;
+          margin-left: -60px;
+          position: absolute;
+        }
+            
+        a {
+            padding-right: 10px;
+        }
+
+        // text
+        float: left;
+        padding-left: 60px;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+    }  
+  }
+    
+  // Events
+  .lw.lw_event_list { //ul
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 30px;
+
+    li {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgb(226, 234, 239);
+
+      &:last-child {
+          border-bottom: none; 
+      }
+      display: grid;
+      width: 100%;
+      grid-template-columns: 100%;
+      gap: 0 10px;
+      grid-template-areas:
+        "event-photo-date" "event-content";
+
+      @media only screen and (min-width: 780px) {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 170px 1fr;
+        gap: 0 10px;
+        grid-template-areas:
+          "event-photo-date event-content";
+      }
+
+      .lw_event_item_image { // Container image and date
+        grid-area: event-photo-date;
+        display: inline-block;
+        line-height: .8em;
+        width: 150px;
+        
+        span { //date
+            display: block;
+            padding-top: 10px;
+            font-size: 14px;
+        }
+      }
+      .lw_event_content { //content
+        grid-area: event-content;
+        margin-bottom: 20px;  
+        padding-top: 10px;
+
+        .lw_event_item_title {
+            
+        }
+        .lw_event_item_description {
+
+        }
+
+        .lw_event_meta{
+          padding-top: 5px;
+
+          .clock {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: url('images/icons/icon-clock.svg');
+            background-size: 20px 20px;
+          }
+
+          .lw_event_item_time{
+            display: inline-block;
+            font-size: 14px;
+            vertical-align: top;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Events, Workshops & Classes, and other event type pages
+.localist-widget.news-page  {
+  display: grid;
+  grid-template-columns: 100%;
+
+  .lw.lw_event_list { //ul
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 30px;
+    width: 100% !important;
+
+    li {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgb(226, 234, 239);
+      display: grid;
+      width: 100%;
+      grid-template-columns: 100%;
+      gap: 0 10px;
+      grid-template-areas:
+        "event-photo-date" "event-content";
+
+      @media only screen and (min-width: 780px) {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 170px 1fr;
+        gap: 0 10px;
+        grid-template-areas:
+          "event-photo-date event-content";
+      }
+
+      &:last-child {
+        border-bottom: none; 
+      }
+
+      .lw_event_item_image { // Container image and date
+        grid-area: event-photo-date;
+        display: inline-block;
+        line-height: .8em;
+        width: 150px;
+        
+        span { //date
+            display: block;
+            padding-top: 10px;
+            font-size: 14px;
+        }
+      }
+
+      .lw_event_content { //content
+        grid-area: event-content;
+        margin-bottom: 20px;  
+        padding-top: 10px;
+
+        .lw_event_item_title {
+            
+        }
+        
+        .lw_event_item_description {
+         
+        }
+
+        .lw_event_meta{
+          padding-top: 5px;
+
+          .clock {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: url('images/icons/icon-clock.svg');
+            background-size: 20px 20px;
+          }
+          .lw_event_item_time{
+            display: inline-block;
+            font-size: 14px;
+            vertical-align: top;
+          }
+        }
+      }
+    }
+  }
+}
+
+// EVENT + CALENDAR
+.localist-widget {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "calendar"
+    "events";  
+  justify-items: center;
+  align-items: center;
+
+  @media only screen and (min-width: 780px) {
+    grid-template-columns: auto 300px;
+    grid-column-gap: 20px;
+    grid-template-areas:
+    "events calendar";  
+    align-items: start;
+  }
+
+  // CALENDAR
+  .localist_minicalendar {
+    grid-area: calendar;
+    width: 300px;
+
+    .localist_minicalendar_pager {
+      display: grid;
+      grid-template-columns: 30px auto 30px;
+      grid-column-gap: 20px;
+      justify-items: center;
+      align-items: center;
+      grid-template-areas:
+        "prevcalendar monthcalendar nextcalendar"; 
+
+      a:after {
+        grid-area: prevcalendar;
+      }
+
+      a:first-child:after {
+        content: "Prev";
+      }
+
+      a.right:before {
+        grid-area: nextcalendar;
+        content: "Next";
+      }
+      
+      .localist_minicalendar_page_heading {
+        grid-area: monthcalendar;
+
+        h1 {
+          text-align: center;
+          font-size: 20px;
+        }
+      }
+    }
+
+    select {
+      font-size: 13px;
+      width: 100%;
+      padding: 10px;
+    }
+
+    .localist_minicalendar_minicalendar caption{
+      display: none;
+    }
+  
+    .localist_minicalendar_nav {
+      text-align: center;
+      padding-bottom: 15px;
+
+      a:first-child:after {
+        content: " | ";
+      }
+
+      font-size: 14px !important;
+    }
+
+    .localist_minicalendar_minicalendar {
+        margin-bottom: 10px !important;
+      
+      td {
+        text-align: center;
+      }
+    }
+  }
+
+  // EVENTS
+  .localist_minicalendar_events {
+  } 
+}
