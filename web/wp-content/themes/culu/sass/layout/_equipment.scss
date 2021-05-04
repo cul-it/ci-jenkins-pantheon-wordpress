@@ -1,0 +1,32 @@
+.equipment {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  
+
+  .equipment-item {
+    display: grid;
+    grid-template-columns: 200px 200px;
+  }
+
+  .equipment-type {
+    grid-template-columns: 1/2;
+    
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .equipment-btn {
+    grid-template-columns: 2/3;
+    align-self: end;
+
+    .btn-graphic {
+     font-size: 18px;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+}
