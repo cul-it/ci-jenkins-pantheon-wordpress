@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.7.1] - 2021-05-04
+### Added
+- [Elementor Widget Manager v1.0.0](https://github.com/cul-it/elementor-widget-manager/releases/tag/v1.0.0)
+
+### Changed
+- [Easy Notification Bar v1.4.1](https://wordpress.org/plugins/easy-notification-bar/)
+- [Elementor v3.2.2](https://wordpress.org/plugins/elementor/)
+- [FileBird Lite v4.7.2](https://wordpress.org/plugins/filebird/)
+- [Native PHP Sessions for WordPress v1.2.3](https://wordpress.org/plugins/wp-native-php-sessions/)
+- [Redirection v5.1.1](https://wordpress.org/plugins/redirection/)
+- [Relevanssi v4.13.0](https://wordpress.org/plugins/relevanssi/)
+- [WP SAML Auth v1.2.2](https://wordpress.org/plugins/wp-saml-auth/)
+
+### Removed
+- [Application Passwords v0.1.2](https://wordpress.org/plugins/application-passwords/). This plugin comes bundled with Distributor plugin.
+
 ## [v1.7.1] - 2021-05-22
 ### Changed
 - include "pear/archive_tar": "1.4.13" in composer.json to answer security alert [CVE-2020-36193](https://github.com/cul-it/ci-jenkins-pantheon-drupal/security/dependabot/composer.lock/pear%2Farchive_tar/open)
@@ -540,6 +556,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.7.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.2
 [v1.7.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.1
 [v1.7.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.0
 [v1.6.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.6.2
