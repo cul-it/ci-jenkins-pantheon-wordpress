@@ -1,0 +1,10 @@
+{
+    "name": "cul-it/advanced-custom-fields-pro",
+    "description": "WordPress plugin for Unified Library Website",
+    "type": "wordpress-plugin",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "composer/installers": "^1.0"
+    }
+}

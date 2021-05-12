@@ -1,0 +1,108 @@
+/*--- 
+  Hours display for:
+  - Single Unit 
+  - Single unit plus Despartment
+  Note: Displaying 2 single units will be defined at the child theme (case olinuis)
+---*/
+
+.available-time {
+  display: inline-block;  
+
+  .primary-hours {
+    vertical-align: middle;
+    font-size: 17px;
+    color: #fff;
+
+    @media only screen and (min-width: 640px) {
+      font-size: 24px;
+    }
+
+    @media only screen and (min-width: 972px) {
+      font-size: 30px;
+    }
+
+    a {
+      color: #fff;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      i {
+        display: inline-block;
+        border-bottom: none;
+      }
+      
+      i:hover {
+        display: inline-block;
+        border-bottom: 1px solid #fff;
+      }
+    }
+
+    a.full-hours {
+      font-weight: bold;
+    }
+  }
+
+  .secondary-hours {
+    line-height: 1.9em;
+    color: #fff;
+
+    @media only screen and (min-width: 640px) {
+      line-height: 2.1em;
+  }
+
+    @media only screen and (min-width: 972px) {
+      line-height: 2.3em;
+    }
+  }
+
+  .library {
+    .icon-time {
+        color: #f8e71c;
+        font-size: 20px;
+        padding-right: 7px;
+        
+        @media only screen and (min-width: 640px) {
+          font-size: 26px;
+          padding-right: 7px;
+        }
+
+        @media only screen and (min-width: 972px) {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  .department {
+    font-size: 14px;
+  
+    @media only screen and (min-width: 640px) {
+      font-size: 18px;
+      padding-left: 3px;
+    }
+  
+    @media only screen and (min-width: 972px) {
+      font-size: 20px;
+      padding-left: 2px;
+    }
+  
+    .icon-time {
+      color: #f8e71c;
+      font-size: 15px;
+      padding-left: 2px;
+      padding-right: 10px;
+  
+      @media only screen and (min-width: 640px) {
+        font-size: 18px;
+        padding-left: 2px;
+      }
+  
+      @media only screen and (min-width: 972px) {
+        font-size: 20px;
+        padding-left: 3px;
+        padding-right: 12px;
+      }
+    }
+}
