@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a52c5af104706fb8f426539f115c94bc",
+    "content-hash": "068d2b034835e63170efa6b223658327",
     "packages": [
         {
             "name": "10up/distributor",
-            "version": "1.6.2",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/10up/distributor.git",
-                "reference": "ec7c44ba66cd36ea1258731834c5ae62dcc22843"
+                "reference": "05870cc8cde62a162594e2f9d34e6d314c0040f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/10up/distributor/zipball/ec7c44ba66cd36ea1258731834c5ae62dcc22843",
-                "reference": "ec7c44ba66cd36ea1258731834c5ae62dcc22843",
+                "url": "https://api.github.com/repos/10up/distributor/zipball/05870cc8cde62a162594e2f9d34e6d314c0040f2",
+                "reference": "05870cc8cde62a162594e2f9d34e6d314c0040f2",
                 "shasum": ""
             },
             "require": {
@@ -40,10 +40,10 @@
             },
             "scripts": {
                 "lint": [
-                    "./vendor/bin/phpcs . --runtime-set testVersion 5.6-"
+                    "phpcs ."
                 ],
                 "lint-fix": [
-                    "phpcbf . --runtime-set testVersion 5.6-"
+                    "phpcbf ."
                 ]
             },
             "license": [
@@ -58,10 +58,10 @@
             "description": "Distributor is a WordPress plugin that makes it easy to distribute and reuse content across your websites — whether in a single multisite or across the web.",
             "homepage": "https://distributorplugin.com/",
             "support": {
-                "source": "https://github.com/10up/distributor/tree/1.6.2",
+                "source": "https://github.com/10up/distributor/tree/1.6.4",
                 "issues": "https://github.com/10up/distributor/issues"
             },
-            "time": "2021-01-14T21:40:22+00:00"
+            "time": "2021-03-24T15:55:03+00:00"
         },
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -295,16 +295,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.5.4",
+            "version": "v1.5.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-cul-theme-culu.git",
-                "reference": "4ca5adf7c273f9e5c98115c8608e5f55f482dc62"
+                "reference": "68d8b39cd5b28de0a46882c8a84a9f1548331a6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/4ca5adf7c273f9e5c98115c8608e5f55f482dc62",
-                "reference": "4ca5adf7c273f9e5c98115c8608e5f55f482dc62",
+                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/68d8b39cd5b28de0a46882c8a84a9f1548331a6d",
+                "reference": "68d8b39cd5b28de0a46882c8a84a9f1548331a6d",
                 "shasum": ""
             },
             "require": {
@@ -323,10 +323,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.5.4",
+                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.5.5",
                 "issues": "https://github.com/cul-it/wp-cul-theme-culu/issues"
             },
-            "time": "2021-03-30T13:37:35+00:00"
+            "time": "2021-05-12T18:27:12+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -355,16 +355,16 @@
         },
         {
             "name": "cul-it/elementor-pro",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/elementor-pro.git",
-                "reference": "c948497c4869ef2f6af837c96adc9a8160f1d9c9"
+                "reference": "fad05c9fac5e93cc467aee15c6d082a2f7650421"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/c948497c4869ef2f6af837c96adc9a8160f1d9c9",
-                "reference": "c948497c4869ef2f6af837c96adc9a8160f1d9c9",
+                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/fad05c9fac5e93cc467aee15c6d082a2f7650421",
+                "reference": "fad05c9fac5e93cc467aee15c6d082a2f7650421",
                 "shasum": ""
             },
             "require": {
@@ -373,10 +373,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/elementor-pro/tree/v3.2.1",
+                "source": "https://github.com/cul-it/elementor-pro/tree/v3.2.2",
                 "issues": "https://github.com/cul-it/elementor-pro/issues"
             },
-            "time": "2021-04-19T19:31:02+00:00"
+            "time": "2021-05-12T19:15:36+00:00"
         },
         {
             "name": "cul-it/facetwp",
@@ -706,6 +706,7 @@
                 "application Ppasswords",
                 "wordpress"
             ],
+            "abandoned": true,
             "time": "2020-08-19T19:55:48+00:00"
         },
         {
@@ -3542,16 +3543,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v4.4.22",
+            "version": "v4.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "f6d8318c14e4be81525ae47b30e618f0bed4c7b3"
+                "reference": "be9e601f17fc684ddfd6c675fdfcd04bb51fa928"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/f6d8318c14e4be81525ae47b30e618f0bed4c7b3",
-                "reference": "f6d8318c14e4be81525ae47b30e618f0bed4c7b3",
+                "url": "https://api.github.com/repos/symfony/config/zipball/be9e601f17fc684ddfd6c675fdfcd04bb51fa928",
+                "reference": "be9e601f17fc684ddfd6c675fdfcd04bb51fa928",
                 "shasum": ""
             },
             "require": {
@@ -3597,7 +3598,7 @@
             ],
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
-            "time": "2021-04-07T15:47:03+00:00"
+            "time": "2021-05-07T13:37:51+00:00"
         },
         {
             "name": "symfony/debug",
@@ -3653,16 +3654,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v4.4.22",
+            "version": "v4.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "778b140b3e8f6890f43dc2c978e58e69f188909a"
+                "reference": "c1d4b65852f22e19131dea626e236a8e07d64479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/778b140b3e8f6890f43dc2c978e58e69f188909a",
-                "reference": "778b140b3e8f6890f43dc2c978e58e69f188909a",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/c1d4b65852f22e19131dea626e236a8e07d64479",
+                "reference": "c1d4b65852f22e19131dea626e236a8e07d64479",
                 "shasum": ""
             },
             "require": {
@@ -3683,7 +3684,7 @@
             "require-dev": {
                 "symfony/config": "^4.3",
                 "symfony/expression-language": "^3.4|^4.0|^5.0",
-                "symfony/yaml": "^3.4|^4.0|^5.0"
+                "symfony/yaml": "^4.4|^5.0"
             },
             "suggest": {
                 "symfony/config": "",
@@ -3717,7 +3718,7 @@
             ],
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
-            "time": "2021-04-07T15:47:03+00:00"
+            "time": "2021-05-11T15:55:42+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3771,16 +3772,16 @@
         },
         {
             "name": "symfony/error-handler",
-            "version": "v4.4.22",
+            "version": "v4.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
-                "reference": "76603a8df8e001436df80758eb03a8baa5324175"
+                "reference": "21d75bfbdfdd3581a7f97080deb98926987f14a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/error-handler/zipball/76603a8df8e001436df80758eb03a8baa5324175",
-                "reference": "76603a8df8e001436df80758eb03a8baa5324175",
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/21d75bfbdfdd3581a7f97080deb98926987f14a7",
+                "reference": "21d75bfbdfdd3581a7f97080deb98926987f14a7",
                 "shasum": ""
             },
             "require": {
@@ -3819,7 +3820,7 @@
             ],
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
-            "time": "2021-04-02T07:50:12+00:00"
+            "time": "2021-05-02T20:47:26+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -4057,16 +4058,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v4.4.22",
+            "version": "v4.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "1a6f87ef99d05b1bf5c865b4ef7992263e1cb081"
+                "reference": "2ffb43bd6c589a274ee1e93a5fd6b7ef1577b9c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1a6f87ef99d05b1bf5c865b4ef7992263e1cb081",
-                "reference": "1a6f87ef99d05b1bf5c865b4ef7992263e1cb081",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/2ffb43bd6c589a274ee1e93a5fd6b7ef1577b9c5",
+                "reference": "2ffb43bd6c589a274ee1e93a5fd6b7ef1577b9c5",
                 "shasum": ""
             },
             "require": {
@@ -4104,20 +4105,20 @@
             ],
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
-            "time": "2021-04-30T12:05:50+00:00"
+            "time": "2021-05-05T07:40:41+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v4.4.22",
+            "version": "v4.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "cd2e325fc34a4a5bbec91eecf69dda8ee8c5ea4f"
+                "reference": "95bb42312503a212f4467529bac8735f01226ff9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/cd2e325fc34a4a5bbec91eecf69dda8ee8c5ea4f",
-                "reference": "cd2e325fc34a4a5bbec91eecf69dda8ee8c5ea4f",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/95bb42312503a212f4467529bac8735f01226ff9",
+                "reference": "95bb42312503a212f4467529bac8735f01226ff9",
                 "shasum": ""
             },
             "require": {
@@ -4191,20 +4192,20 @@
             ],
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
-            "time": "2021-05-01T14:38:48+00:00"
+            "time": "2021-05-12T13:13:32+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v5.3.0-BETA2",
+            "version": "v5.3.0-BETA3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "6b300fc7cabc779d5e2448faa1ea0397bf69a64a"
+                "reference": "45c850ddfd10504399c1048a3b26be89335938a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/6b300fc7cabc779d5e2448faa1ea0397bf69a64a",
-                "reference": "6b300fc7cabc779d5e2448faa1ea0397bf69a64a",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/45c850ddfd10504399c1048a3b26be89335938a9",
+                "reference": "45c850ddfd10504399c1048a3b26be89335938a9",
                 "shasum": ""
             },
             "require": {
@@ -4257,7 +4258,7 @@
                 "mime",
                 "mime-type"
             ],
-            "time": "2021-04-29T20:52:27+00:00"
+            "time": "2021-05-07T13:12:11+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -4843,16 +4844,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.3.0-BETA2",
+            "version": "v5.3.0-BETA3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "ff77601582f1ffe003ca43f3860e096d0937a96a"
+                "reference": "29988c9bcac7bb66a03f00a2adaae131778db61c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/ff77601582f1ffe003ca43f3860e096d0937a96a",
-                "reference": "ff77601582f1ffe003ca43f3860e096d0937a96a",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/29988c9bcac7bb66a03f00a2adaae131778db61c",
+                "reference": "29988c9bcac7bb66a03f00a2adaae131778db61c",
                 "shasum": ""
             },
             "require": {
@@ -4910,7 +4911,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2021-04-19T14:14:47+00:00"
+            "time": "2021-05-07T14:34:05+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -5024,16 +5025,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.14.4",
+            "version": "v2.14.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "0b4ba691fb99ec7952d25deb36c0a83061b93bbf"
+                "reference": "c9dd15b3a80725bc4919730fae462bddcc960820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/0b4ba691fb99ec7952d25deb36c0a83061b93bbf",
-                "reference": "0b4ba691fb99ec7952d25deb36c0a83061b93bbf",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c9dd15b3a80725bc4919730fae462bddcc960820",
+                "reference": "c9dd15b3a80725bc4919730fae462bddcc960820",
                 "shasum": ""
             },
             "require": {
@@ -5085,7 +5086,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2021-03-10T10:05:55+00:00"
+            "time": "2021-05-12T08:02:35+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -5361,15 +5362,15 @@
         },
         {
             "name": "wpackagist-plugin/capability-manager-enhanced",
-            "version": "2.0",
+            "version": "2.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
-                "reference": "tags/2.0"
+                "reference": "tags/2.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.0.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -5469,15 +5470,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.2.2",
+            "version": "3.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.2.2"
+                "reference": "tags/3.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.2.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -5631,15 +5632,15 @@
         },
         {
             "name": "wpackagist-plugin/relevanssi",
-            "version": "4.13.0",
+            "version": "4.13.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/relevanssi/",
-                "reference": "tags/4.13.0"
+                "reference": "tags/4.13.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.13.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.13.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -7616,12 +7617,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "db47aac368cb81bc9d3b09556e63b716be61cf43"
+                "reference": "630d41ce85b7af3598a7d2c07952739da298ecc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/db47aac368cb81bc9d3b09556e63b716be61cf43",
-                "reference": "db47aac368cb81bc9d3b09556e63b716be61cf43",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/630d41ce85b7af3598a7d2c07952739da298ecc6",
+                "reference": "630d41ce85b7af3598a7d2c07952739da298ecc6",
                 "shasum": ""
             },
             "conflict": {
@@ -7639,7 +7640,7 @@
                 "barrelstrength/sprout-forms": "<3.9",
                 "baserproject/basercms": ">=4,<=4.3.6|>=4.4,<4.4.1",
                 "bk2k/bootstrap-package": ">=7.1,<7.1.2|>=8,<8.0.8|>=9,<9.0.4|>=9.1,<9.1.3|>=10,<10.0.10|>=11,<11.0.3",
-                "bolt/bolt": "<3.7.1",
+                "bolt/bolt": "<3.7.2",
                 "bolt/core": "<4.1.13",
                 "brightlocal/phpwhois": "<=4.2.5",
                 "buddypress/buddypress": "<5.1.2",
@@ -7669,8 +7670,9 @@
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1|>=2.8.3,<2.8.4",
                 "dolibarr/dolibarr": "<11.0.4",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/core": ">=7,<7.74|>=8,<8.8.11|>=8.9,<8.9.9|>=9,<9.0.8",
-                "drupal/drupal": ">=7,<7.74|>=8,<8.8.11|>=8.9,<8.9.9|>=9,<9.0.8",
+                "drupal/core": ">=7,<7.80|>=8,<8.9.14|>=9,<9.0.12|>=9.1,<9.1.7",
+                "drupal/drupal": ">=7,<7.80|>=8,<8.9.14|>=9,<9.0.12|>=9.1,<9.1.7",
+                "dweeves/magmi": "<=0.7.24",
                 "endroid/qr-code-bundle": "<3.4.2",
                 "enshrined/svg-sanitize": "<0.13.1",
                 "erusev/parsedown": "<1.7.2",
@@ -7695,7 +7697,9 @@
                 "flarum/tags": "<=0.1-beta.13",
                 "fluidtypo3/vhs": "<5.1.1",
                 "fooman/tcpdf": "<6.2.22",
+                "forkcms/forkcms": "<5.8.3",
                 "fossar/tcpdf-parser": "<6.2.22",
+                "francoisjacquet/rosariosis": "<6.5.1",
                 "friendsofsymfony/oauth2-php": "<1.3",
                 "friendsofsymfony/rest-bundle": ">=1.2,<1.2.2",
                 "friendsofsymfony/user-bundle": ">=1.2,<1.3.5",
@@ -7726,7 +7730,8 @@
                 "laravel/framework": "<6.20.26|>=7,<8.40",
                 "laravel/socialite": ">=1,<1.0.99|>=2,<2.0.10",
                 "league/commonmark": "<0.18.3",
-                "librenms/librenms": "<1.53",
+                "lexik/jwt-authentication-bundle": ">=2,<2.10.7|>=2.11,<2.11.3",
+                "librenms/librenms": "<21.1",
                 "livewire/livewire": ">2.2.4,<2.2.6",
                 "magento/community-edition": ">=2,<2.2.10|>=2.3,<2.3.3",
                 "magento/magento1ce": "<1.9.4.3",
@@ -7747,11 +7752,12 @@
                 "nystudio107/craft-seomatic": "<3.3",
                 "nzo/url-encryptor-bundle": ">=4,<4.3.2|>=5,<5.0.1",
                 "october/backend": "<1.1.2",
-                "october/cms": "= 1.0.469|>=1.0.319,<1.0.469",
+                "october/cms": "= 1.1.1|= 1.0.471|= 1.0.469|>=1.0.319,<1.0.469",
                 "october/october": ">=1.0.319,<1.0.466",
                 "october/rain": "<1.0.472|>=1.1,<1.1.2",
                 "onelogin/php-saml": "<2.10.4",
                 "oneup/uploader-bundle": "<1.9.3|>=2,<2.1.5",
+                "opencart/opencart": "<=3.0.3.2",
                 "openid/php-openid": "<2.3",
                 "openmage/magento-lts": "<=19.4.12|>=20,<=20.0.8",
                 "orchid/platform": ">=9,<9.4.4",
@@ -7845,20 +7851,21 @@
                 "symfony/http-foundation": ">=2,<2.8.52|>=3,<3.4.35|>=4,<4.2.12|>=4.3,<4.3.8|>=4.4,<4.4.7|>=5,<5.0.7",
                 "symfony/http-kernel": ">=2,<2.8.52|>=3,<3.4.35|>=4,<4.2.12|>=4.3,<4.4.13|>=5,<5.1.5",
                 "symfony/intl": ">=2.7,<2.7.38|>=2.8,<2.8.31|>=3,<3.2.14|>=3.3,<3.3.13",
+                "symfony/maker-bundle": ">=1.27,<1.31.1",
                 "symfony/mime": ">=4.3,<4.3.8",
                 "symfony/phpunit-bridge": ">=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7",
                 "symfony/polyfill": ">=1,<1.10",
                 "symfony/polyfill-php55": ">=1,<1.10",
                 "symfony/proxy-manager-bridge": ">=2.7,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7",
                 "symfony/routing": ">=2,<2.0.19",
-                "symfony/security": ">=2,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7|>=4.4,<4.4.7|>=5,<5.0.7",
+                "symfony/security": ">=2,<2.7.51|>=2.8,<3.4.48|>=4,<4.4.23|>=5,<5.2.8",
                 "symfony/security-bundle": ">=2,<2.7.48|>=2.8,<2.8.41|>=3,<3.3.17|>=3.4,<3.4.11|>=4,<4.0.11",
-                "symfony/security-core": ">=2.4,<2.6.13|>=2.7,<2.7.9|>=2.7.30,<2.7.32|>=2.8,<2.8.37|>=3,<3.3.17|>=3.4,<3.4.7|>=4,<4.0.7",
+                "symfony/security-core": ">=2.4,<2.6.13|>=2.7,<2.7.9|>=2.7.30,<2.7.32|>=2.8,<3.4.48|>=4,<4.4.23|>=5,<5.2.8",
                 "symfony/security-csrf": ">=2.4,<2.7.48|>=2.8,<2.8.41|>=3,<3.3.17|>=3.4,<3.4.11|>=4,<4.0.11",
-                "symfony/security-guard": ">=2.8,<2.8.41|>=3,<3.3.17|>=3.4,<3.4.11|>=4,<4.0.11",
-                "symfony/security-http": ">=2.3,<2.3.41|>=2.4,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.2.12|>=4.3,<4.3.8|>=4.4,<4.4.7|>=5,<5.0.7",
+                "symfony/security-guard": ">=2.8,<3.4.48|>=4,<4.4.23|>=5,<5.2.8",
+                "symfony/security-http": ">=2.3,<2.3.41|>=2.4,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.2.12|>=4.3,<4.3.8|>=4.4,<4.4.7|>=5,<5.0.7|>=5.1,<5.2.8",
                 "symfony/serializer": ">=2,<2.0.11",
-                "symfony/symfony": ">=2,<2.8.52|>=3,<3.4.35|>=4,<4.2.12|>=4.3,<4.4.13|>=5,<5.1.5",
+                "symfony/symfony": ">=2,<3.4.48|>=4,<4.4.23|>=5,<5.2.8",
                 "symfony/translation": ">=2,<2.0.17",
                 "symfony/validator": ">=2,<2.0.24|>=2.1,<2.1.12|>=2.2,<2.2.5|>=2.3,<2.3.3",
                 "symfony/var-exporter": ">=4.2,<4.2.12|>=4.3,<4.3.8",
@@ -7923,7 +7930,8 @@
                 "zetacomponents/mail": "<1.8.2",
                 "zf-commons/zfc-user": "<1.2.2",
                 "zfcampus/zf-apigility-doctrine": ">=1,<1.0.3",
-                "zfr/zfr-oauth2-server-module": "<0.1.2"
+                "zfr/zfr-oauth2-server-module": "<0.1.2",
+                "zoujingli/thinkadmin": "<6.0.22"
             },
             "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",
@@ -7943,7 +7951,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2021-05-02T09:01:19+00:00"
+            "time": "2021-05-12T16:13:16+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -8678,16 +8686,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.4.22",
+            "version": "v4.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "36bbd079b69b94bcc9c9c9e1e37ca3b1e7971625"
+                "reference": "1ab187ac21d41d7d34a4f529091a1f5d0bb2924f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/36bbd079b69b94bcc9c9c9e1e37ca3b1e7971625",
-                "reference": "36bbd079b69b94bcc9c9c9e1e37ca3b1e7971625",
+                "url": "https://api.github.com/repos/symfony/console/zipball/1ab187ac21d41d7d34a4f529091a1f5d0bb2924f",
+                "reference": "1ab187ac21d41d7d34a4f529091a1f5d0bb2924f",
                 "shasum": ""
             },
             "require": {
@@ -8746,7 +8754,7 @@
             ],
             "description": "Eases the creation of beautiful and testable command line interfaces",
             "homepage": "https://symfony.com",
-            "time": "2021-04-16T17:32:19+00:00"
+            "time": "2021-05-10T12:53:15+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -8854,16 +8862,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v4.4.21",
+            "version": "v4.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "eb8f5428cc3b40d6dffe303b195b084f1c5fbd14"
+                "reference": "ff6e63c7b5de874464642969968f61f8dc649ac3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/eb8f5428cc3b40d6dffe303b195b084f1c5fbd14",
-                "reference": "eb8f5428cc3b40d6dffe303b195b084f1c5fbd14",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/ff6e63c7b5de874464642969968f61f8dc649ac3",
+                "reference": "ff6e63c7b5de874464642969968f61f8dc649ac3",
                 "shasum": ""
             },
             "require": {
@@ -8921,7 +8929,7 @@
             ],
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
-            "time": "2021-03-23T16:25:01+00:00"
+            "time": "2021-04-28T06:59:52+00:00"
         },
         {
             "name": "symfony/translation-contracts",
