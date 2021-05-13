@@ -4,7 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+
     "content-hash": "20ce65b2085211225f29f5000cd6202c",
+
     "packages": [
         {
             "name": "10up/distributor",
@@ -355,16 +357,16 @@
         },
         {
             "name": "cul-it/elementor-pro",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/elementor-pro.git",
-                "reference": "c948497c4869ef2f6af837c96adc9a8160f1d9c9"
+                "reference": "fad05c9fac5e93cc467aee15c6d082a2f7650421"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/c948497c4869ef2f6af837c96adc9a8160f1d9c9",
-                "reference": "c948497c4869ef2f6af837c96adc9a8160f1d9c9",
+                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/fad05c9fac5e93cc467aee15c6d082a2f7650421",
+                "reference": "fad05c9fac5e93cc467aee15c6d082a2f7650421",
                 "shasum": ""
             },
             "require": {
@@ -373,10 +375,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/elementor-pro/tree/v3.2.1",
+                "source": "https://github.com/cul-it/elementor-pro/tree/v3.2.2",
                 "issues": "https://github.com/cul-it/elementor-pro/issues"
             },
-            "time": "2021-04-19T19:31:02+00:00"
+            "time": "2021-05-12T19:15:36+00:00"
         },
         {
             "name": "cul-it/facetwp",
