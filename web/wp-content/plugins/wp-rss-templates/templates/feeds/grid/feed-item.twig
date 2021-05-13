@@ -1,0 +1,38 @@
+{% set item_tag = 'div' %}
+{% set item_style = '' %}
+{% set item_class_names = 'wpra-grid-item ' %}
+{% set item_class_names = (options.fill_image)? item_class_names ~ 'wpra-grid-item--fill-image ' : item_class_names %}
+
+{% if options.image_is_background %}
+    {% set item_class_names = item_class_names ~ 'wpra-grid-item--image-background ' %}
+    {% set item_style = 'background-image: url(' ~ item.ft_image_url ~ '); height: ' ~ options.thumbnail_height ~ 'px;' %}
+{% endif %}
+
+{% if not options.show_borders %}
+    {% set item_class_names = item_class_names ~ 'wpra-grid-item--no-borders ' %}
+{% endif %}
+
+{% if options.latest_to_bottom %}
+    {% set item_class_names = item_class_names ~ 'wpra-grid-item--pull-last-item ' %}
+{% endif %}
+
+{% set item_url = wpra_item_url(item, options) %}
+{% if options.item_is_link %}
+    {% set item_class_names = item_class_names ~ 'wpra-grid-item--link ' %}
+    {% set item_tag = 'a' %}
+    {% set item_link_params = wpra_link_attrs(item_url, options, item_class_names) %}
+{% endif %}
+
+<{{ item_tag }}
+    style="{{ item_style }}"
+    {{ options.item_is_link ? wpra_link_attrs(item_url, options, item_class_names)|raw : ('class="' ~ item_class_names ~ '"')|raw }}
+>
+    {{ options.before_item|raw }}
+        {# Grid item's content #}
+        <div class="wpra-grid-item__content">
+            {% for name in options.card_fields_order|sort|keys %}
+                {% include([attribute(parts, name), self.dir ~ '_missing.twig']) ignore missing %}
+            {% endfor %}
+        </div>
+    {{ options.after_item|raw }}
+</{{ item_tag }}>

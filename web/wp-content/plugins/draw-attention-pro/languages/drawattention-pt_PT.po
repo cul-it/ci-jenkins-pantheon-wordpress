@@ -1,0 +1,328 @@
+#
+# Translators:
+# JoaoPaulo <jpaportugal@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Draw Attention: Pro\n"
+"POT-Creation-Date: 2015-06-12 14:48-0500\n"
+"PO-Revision-Date: 2015-06-18 21:51-0500\n"
+"Last-Translator: Nathan Tyler <accounts@tylerdigital.com>\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/draw-attention-pro/language/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: public/includes/lib/CMB2\n"
+"X-Poedit-SearchPathExcluded-2: public/includes/lib/drag-drop-featured-image/assets/views\n"
+
+#: admin/class-drawattention-admin.php:172 admin/class-drawattention-admin.php:173
+msgid "DrawAttention"
+msgstr "DrawAttention"
+
+#: admin/class-drawattention-admin.php:202
+msgid "Settings"
+msgstr "Definições"
+
+#: public/class-drawattention.php:372 public/includes/pro/pro.php:101
+msgid "You need to define some clickable areas for your image."
+msgstr "Você precisa definir algumas áreas clicáveis para a sua imagem."
+
+#: public/class-drawattention.php:374 public/includes/cpt.php:37 public/includes/pro/pro.php:103
+msgid "Edit Image"
+msgstr "Editar Imagem"
+
+#: public/class-drawattention.php:461 public/includes/pro/pro.php:199
+msgid "Copy Shortcode"
+msgstr "Copiar Shortcode"
+
+#: public/includes/cpt.php:31
+msgid "Draw Attention"
+msgstr "Draw Attention "
+
+#: public/includes/cpt.php:32 public/includes/cpt.php:130 public/includes/lib/drag-drop-featured-image/index.php:138
+msgid "Image"
+msgstr "Imagem"
+
+#: public/includes/cpt.php:33
+msgid "All Images"
+msgstr "Todas as Imagens"
+
+#: public/includes/cpt.php:34
+msgid "Add New"
+msgstr "Adicionar Novo"
+
+#: public/includes/cpt.php:35
+msgid "Add New Image"
+msgstr "Adicionar nova imagem"
+
+#: public/includes/cpt.php:36
+msgid "Edit"
+msgstr "Editar"
+
+#: public/includes/cpt.php:38
+msgid "New Image"
+msgstr "Nova imagem"
+
+#: public/includes/cpt.php:39
+msgid "View Image"
+msgstr "Ver imagem"
+
+#: public/includes/cpt.php:40
+msgid "Search Images"
+msgstr "Procurar imagens"
+
+#: public/includes/cpt.php:41
+msgid "Nothing found in the Database."
+msgstr "Nada encontrado na base de dados."
+
+#: public/includes/cpt.php:42
+msgid "Nothing found in Trash"
+msgstr "Nada encontrado no lixo"
+
+#: public/includes/cpt.php:45
+msgid "Stores "
+msgstr "Lojas "
+
+#: public/includes/custom_fields.php:54 public/includes/custom_fields.php:215
+msgid "Hotspot Areas"
+msgstr "Áreas hotspot"
+
+#: public/includes/custom_fields.php:65
+msgid "Highlight Styling"
+msgstr "Destacar Estilo"
+
+#: public/includes/custom_fields.php:72
+msgid "Highlight Color"
+msgstr "Destacar Cor"
+
+#: public/includes/custom_fields.php:79
+msgid "Highlight Opacity"
+msgstr "Destacar Opacidade"
+
+#: public/includes/custom_fields.php:87
+msgid "Border Color"
+msgstr "Cor da Borda"
+
+#: public/includes/custom_fields.php:94
+msgid "Border Opacity"
+msgstr "Opacidade da Borda"
+
+#: public/includes/custom_fields.php:101
+msgid "Border Width"
+msgstr "Largura da Borda"
+
+#: public/includes/custom_fields.php:121
+msgid "More Info Box Styling"
+msgstr "Estilo da Caixa Mais Info"
+
+#: public/includes/custom_fields.php:128
+msgid "Title Color"
+msgstr "Cor do Título"
+
+#: public/includes/custom_fields.php:129
+msgid "Set the color of titles in More Info box"
+msgstr "Definir cores de títulos na caixa Mais Info"
+
+#: public/includes/custom_fields.php:136
+msgid "Text Color"
+msgstr "Cor do Texto"
+
+#: public/includes/custom_fields.php:137
+msgid "Set the color of body text in More Info box"
+msgstr "Definir a cor no campo de texto na caixa Mais Info"
+
+#: public/includes/custom_fields.php:144
+msgid "Background Color"
+msgstr "Cor de Fundo"
+
+#: public/includes/custom_fields.php:145
+msgid "Set the background color of the More Info box"
+msgstr "Definir cor de fundo de caixa Mais Info"
+
+#: public/includes/custom_fields.php:152
+msgid "Default More Info"
+msgstr "Mais Info Padrão"
+
+#: public/includes/custom_fields.php:153
+msgid "Set the text to show up in the more info box (when no area is selected)"
+msgstr "Definir o texto para exibir na caixa Mais Info (quando nenhuma área é selecionada)"
+
+#: public/includes/custom_fields.php:171 public/includes/custom_fields.php:239
+msgid "Title"
+msgstr "Título"
+
+#: public/includes/custom_fields.php:182 public/includes/custom_fields.php:244
+msgid "Description"
+msgstr "Descrição"
+
+#: public/includes/custom_fields.php:193 public/includes/custom_fields.php:231
+msgid "Coordinates"
+msgstr "Coordenadas"
+
+#: public/includes/custom_fields.php:221
+msgid "Draw the clickable areas of your image"
+msgstr "Desenhe áreas clicáveis de sua imagem"
+
+#: public/includes/custom_fields.php:223
+msgid "Clickable Area #{#}"
+msgstr "Área Clicável #{#} "
+
+#: public/includes/custom_fields.php:224
+msgid "Add Another Area"
+msgstr "Adicione Outra Área"
+
+#: public/includes/custom_fields.php:225
+msgid "Remove Area"
+msgstr "Remover Área"
+
+#: public/includes/custom_fields.php:264
+msgid "Detail Image"
+msgstr "Detalhe de Imagem"
+
+#: public/includes/custom_fields.php:265
+msgid "Upload an image or enter a URL to show in the more info box"
+msgstr "Faça o upload de uma imagem ou digite uma URL para mostrar na info box"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:173 public/includes/lib/drag-drop-featured-image/index.php:174
+msgid "Set featured image"
+msgstr "Defina imagem de destaque"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:243
+msgid "Remove image"
+msgstr "Remover imagem"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:255
+msgid "Drop image here"
+msgstr "Coloque imagem aqui"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:256
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "ou"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:257
+msgid "Upload Image"
+msgstr "Carregue Imagem"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:263 public/includes/lib/drag-drop-featured-image/index.php:267
+msgid "Media Library"
+msgstr "Biblioteca de Mídia"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:294
+msgid "Allowed Files"
+msgstr "Ficheiros Permitidos"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:344
+msgid "You may only upload one image at a time!"
+msgstr "Pode carregar apenas uma imagem de cada vez."
+
+#: public/includes/lib/drag-drop-featured-image/index.php:359
+msgid "The file you selected exceeds the maximum filesize limit."
+msgstr "O ficheiro que selecionou excede o limite de tamanho de ficheiro."
+
+#: public/includes/lib/drag-drop-featured-image/index.php:512
+msgid "Drag & Drop Feaured image: Unknown post och attachment ID, please try again!"
+msgstr "Imagem de destaque Arraste & Coloque: ID de anexo de post desconhecido, por favor tente de novo!"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:537
+msgid "Drag & Drop Feaured image: An error occured, please reload page!"
+msgstr "Imagem de destaque Drag & Drop: Ocorreu um erro, por favor recarregue página!"
+
+#: public/includes/pro/pro.php:20
+msgid "Layout"
+msgstr "Layout"
+
+#: public/includes/pro/pro.php:32
+msgid "Left"
+msgstr "Esquerda"
+
+#: public/includes/pro/pro.php:33
+msgid "Right"
+msgstr "Direita"
+
+#: public/includes/pro/pro.php:34
+msgid "Bottom"
+msgstr "Baixo"
+
+#: public/includes/pro/pro.php:35
+msgid "Top"
+msgstr "Cima"
+
+#: public/includes/pro/pro.php:36
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: public/includes/pro/pro.php:37
+msgid "Tooltip"
+msgstr "Dica de contexto"
+
+#: public/includes/pro/pro.php:43
+msgid "Show more info on"
+msgstr "Mostrar mais informação em "
+
+#: public/includes/pro/pro.php:48
+msgid "Click"
+msgstr "Clique"
+
+#: public/includes/pro/pro.php:49
+msgid "Hover"
+msgstr "Hover"
+
+#: public/includes/pro/updater.php:24
+msgid "License & Support"
+msgstr "Licença & Apoio"
+
+#: public/includes/pro/updater.php:33
+msgid "Enter License Key"
+msgstr "Escreva Chave de Licença"
+
+#: public/includes/pro/updater.php:41
+msgid "Draw Attention Pro - License & Updates"
+msgstr "Draw Attention Pro - Licença & Atualizações"
+
+#: public/includes/pro/updater.php:48
+msgid "Please enter your license key to receive support & updates"
+msgstr "Por favor digite a sua chave de licença para receber apoio & atualizações"
+
+#: public/includes/pro/updater.php:48
+msgid "Click here to purchase or renew a license"
+msgstr "Clique aqui para comprar ou renovar uma licença"
+
+#: public/includes/pro/updater.php:50
+msgid "Valid license"
+msgstr "Licença válida"
+
+#: public/includes/pro/updater.php:52
+msgid "Invalid license. Please verify the license key, you may need to <a href=\"https://wpdrawattention.com\" target=\"_blank\">renew your license</a> or <a href=\"mailto:support@tylerdigital.com\">contact support</a></p>"
+msgstr "Licença inválida. Por favor verique a sua chave de licença, poderá ter de <a href=\"https://wpdrawattention.com\" target=\"_blank\">renovar a sua licença</a> ou <a href=\"mailto:support@tylerdigital.com\">contactar o apoio</a></p>"
+
+#: public/includes/pro/updater.php:56
+msgid "License Key"
+msgstr "Chave de licença"
+
+#: public/includes/pro/updater.php:65
+msgid "Update"
+msgstr "Atualizar"
+
+#: public/includes/themes.php:13
+msgid "Apply Color Scheme"
+msgstr "Aplicar Esquema de Cor"
+
+#: public/includes/themes.php:17
+msgid "Quickly apply a theme (you can adjust each color afterwards)."
+msgstr "Aplicar rapidamente um tema (pode ajustar cor depois)"
+
+#: public/includes/themes.php:19
+msgid "Select a theme..."
+msgstr "Selecionar um tema..."
+
+#: public/views/single-da_image.php:15
+msgid "Edit Interactive Image"
+msgstr "Editar imagem interativa"
