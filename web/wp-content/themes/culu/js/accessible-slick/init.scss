@@ -1,0 +1,146 @@
+
+.elementor-widget-container .hero-slider ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.elementor-widget-container .hero-slider .slick-slide {
+  header {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    h1 {
+      padding-top: 50px; 
+      font-size: 18px;
+      font-family: "Raleway", sans-serif;;
+      margin-bottom: 4px;
+    }
+
+    time {
+      font-size: 14px;
+      margin: 0;
+      margin-bottom: 4px;
+    }
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 4px;
+  }
+
+  footer {
+    width: 100%;
+    border: none;
+    padding-top: 10px;
+    font-size: 14px;
+    clear: both;
+    display: block;
+
+    .full-story {
+      float: left;
+      display: inline-block;
+    }
+
+    .all-news {
+      float: right;
+      display: inline-block;
+    }
+  }
+
+}
+
+.hero-slider {
+  margin: 0 !important;
+  padding: 2px;
+  position: relative;
+  
+  /** Autoplay toggle button in the top left corner */
+  .slick-autoplay-toggle-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: auto;
+    background: none;
+    border: 0;
+    z-index: 10;
+    font-size: 32px;
+    opacity: 1;
+    cursor: pointer;
+    color: black;
+    
+    &:hover {
+      background-color: rgba(0,0,0,.05);
+    }
+
+    &:focus {
+      background-color: rgba(0,0,0,.7);
+      color: white;
+    }
+  }
+  
+  /** Custom previous and next arrows in the top right corner */
+
+  .custom-prev-button,
+  .custom-next-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 1;
+    display: block;
+    float: left;
+    background: #017abc;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    
+    &:hover {
+      background-color: rgba(0,0,0,.8);
+    }
+
+    &:focus {
+      background-color: rgba(0,0,0,.9);
+      color: white;
+    }
+  }
+
+  .custom-prev-button {
+    right: 70px;
+  }
+
+  /** Default slide navigation dots */
+  .slick-dots {
+   height: 40px;
+  }
+ 
+  .slick-dots li button .slick-dot-icon {
+    color: #017abc;
+  }
+
+  .slick-dots li.slick-active button:focus .slick-dot-icon {
+    color: #000;
+  }
+  .slick-dots li button .slick-dot-icon,
+  .slick-next:focus .slick-next-icon,
+  .slick-next:focus .slick-prev-icon,
+  .slick-prev:focus .slick-next-icon,
+  .slick-prev:focus .slick-prev-icon,
+  .slick-dots li button:focus .slick-dot-icon:before,
+  .slick-dots li.slick-active button:focus .slick-dot-icon,
+  .slick-autoplay-toggle-button:focus {
+    color: #017abc;
+  }
+
+  /** Slide content */
+  .slick-slide {
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+}

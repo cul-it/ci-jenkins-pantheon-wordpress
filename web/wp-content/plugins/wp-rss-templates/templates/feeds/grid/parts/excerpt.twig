@@ -1,0 +1,14 @@
+{# Get the exceprt and optionally truncating it #}
+{% set item_excerpt = html_decode(item.excerpt) %}
+{% if options.excerpt_max_words > 0 %}
+    {% set item_excerpt = item_excerpt|wpra_word_limit(options.excerpt_max_words) %}
+{% endif %}
+
+{% if options.show_excerpt and item_excerpt|length > 0 %}
+    <div class="wpra-grid-item__item wpra-grid-item__excerpt">
+        {{ item_excerpt }}{{ options.excerpt_ending }}
+        {% if options.excerpt_more_enabled and (not options.item_is_link) %}
+            {{ options.excerpt_read_more | wpralink(item.url, true, options) }}
+        {% endif %}
+    </div>
+{% endif %}
