@@ -1,0 +1,555 @@
+{
+    "translation-revision-date": "2020-11-26T13:30:11-07:00",
+    "generator": "WP-CLI/2.2.0",
+    "source": "jcifree-block.js",
+    "domain": "json-content-importer",
+    "locale_data": {
+        "json-content-importer": {
+            "": {
+                "domain": "json-content-importer",
+                "lang": "de-DE",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "caching not working, plugin aborted": [
+                "Caching funktioniert nicht, 'Plugin wurde abgebrochen"
+            ],
+            "plugin / wordpress / webserver can't create": [
+                "plugin / wordpress / webserver können nicht erzeugen"
+            ],
+            "therefore: set directory-permissions to 0777 (or other depending on the way you create directories with your webserver)": [
+                "daher: Bitte die Verzeichnis-Rechte auf 0777 setzen (oder anders, je nachdem wie Verzeichnisse auf Deinem Webserver angelegt werden)"
+            ],
+            "please check cacheFolder": [
+                "Bitte prüfe das Cache-Verzeichnis"
+            ],
+            "is not writable. Please change permissions.": [
+                "nicht beschreibbar. Bitte Rechte dafür setzen."
+            ],
+            "Empty template: Add some text!": [
+                "Leeres Template: Füge etwas Text dazu!"
+            ],
+            "For the example copypaste this to the right Template box": [
+                "Bitte kopiere das als Beispiel in den rechten Template-Kasten"
+            ],
+            "Welcome!": [
+                "Willkommen!"
+            ],
+            "Click on this block": [
+                "Bitte auf diesen Block klicken"
+            ],
+            "and you see on the right side  the Gutenberg-Block settings of the \"JSON Content Importer Gutenberg Block\". Yet there is an example to show how it works. The Example-URL is": [
+                "und auf der rechten Seite siehst Du die Einstellungen des Gutenberg-Block \"JSON Content Importer Gutenberg Block\".  Aktuell wird ein Beispiel angezeigt, das zeigt wie es funktioniert. Die Beispiel-URL ist"
+            ],
+            "Some settings show you how the JSON-parser and display works.\n\t\tThe example-template is (try to change it on the right)": [
+                "In Abhängigkeit der Einstellungen  funktioniert die Anzeige der JSON-Daten. Das Beispiel-Template ist (versuche es rechts etwas zu verändern)"
+            ],
+            "The result of combining JSON and this template gives us the output. Use this example to experiment": [
+                "Die Kombination von JSON und diesem Template ergibt das was angezeigt wird. Du kannst mit diesem Beispiel experimentieren"
+            ],
+            "Type \"level1\" in the right basenode-field, please. This will change the output as now the JSON and the template fit together (without not...)": [
+                "Bitte \"Level!\" im rechten \"basenode\"-Feld eingeben, Dadurch wird die Ausgabe verändern, da dann JSON und das Template zusammenpassen (sonst eben nicht...)"
+            ],
+            "You may also open the lower right \"<b>JCI Advanced</b>\"-section. Insert at \"One of these words must be displayed:\" the word \"bb\". And at \"JSON-depth of the above displayed Words:\" the number 3. Do you see the difference at once?": [
+                "Du kannst gerne unten rechts auf  \"<b>JCI Erweitert</b>\" klicken. Dort kannst Du bei \"Eines dieser Worte muss in der Ausgabe sein:\" einfach \"bb\" eingeben. Und die \"JSON-Tiefe des darüberliegenden Wortes:\" die Zahl 3. Siehst Du den sofortigen Unterschied?"
+            ],
+            "Plugin-Settings (see Plugin options)": [
+                "Plugin-Einstellungen (siehe Plugin Optionen)"
+            ],
+            "active": [
+                "aktiv"
+            ],
+            "Cachetime": [
+                "Aufbewahrungszeit im Cache"
+            ],
+            "Cachefolder": [
+                "Verzeichnis für Cachedateien"
+            ],
+            "disabled": [
+                "Nicht aktiv"
+            ],
+            "oauth Bearer Accesskey": [
+                "oauth Bearer Accesskey"
+            ],
+            "http-Header default Useragent": [
+                "http-Header mit Standard-Useragent"
+            ],
+            "EMPTY api-answer: No JSON received - is the API down?": [
+                "Die Antwort der API ist leer: Kein JSON erhalten - ist die API-Schnittstelle wirklich verfügbar?"
+            ],
+            "Check the API-URL in the Block-Settings, please.": [
+                "Bitte API-URL prüfen in den Block-Einstellungen."
+            ],
+            "as example. You might switch on the debugmode on the right side.": [
+                "als Beispiel. Gerne kannst Du in den Debugmodus auf der rechten Seite anschalten."
+            ],
+            "If you use Wordpress without Gutenberg, you can use this Shortcode (copy with Strg+A, paste to TEXT-editor!)": [
+                "Wenn Du WordPress ohne Gutenberg nutzt, kannst Du diesen Shortcode verwenden (mit Strg+A kopieren und in den TEXT-Editor einfügen)"
+            ],
+            "api-answer": [
+                "API-Antwort"
+            ],
+            "Inspect JSON: Copypaste (click in box, Strg-A marks all, then insert into clipboard) the JSON from the following box to": [
+                "Prüfe JSON: Kopiere den Inhalt des folgenden Kastens in die Zwischenablage  (klicke in den Kasten, Strg-A markiert den Text im Kasten, bitte dann in Zwischenablage kopieren) und dann in"
+            ],
+            "template": [
+                "Template"
+            ],
+            "result": [
+                "Ergebnis"
+            ],
+            "result of parsing is empty: no data to be displayed.": [
+                "Das Ergebnis des Parsens (Kombination von JSON und Template) ist leer: Es wird nichts dargestellt."
+            ],
+            "Check JSON and template, please.": [
+                "Bitte prüfe JSON und Template."
+            ],
+            "the real result": [
+                "Das abschließende Ergebnis"
+            ],
+            "JSON Content Importer FREE": [
+                "Kostenloser JSON Content Importer \"JCI\""
+            ],
+            "Block with API-data": [
+                "Gutenberg-Block um JSON-Daten einer API darzustellen"
+            ],
+            "Define API-URL and template to insert in block": [
+                "Definiere eine API-URL und ein Template"
+            ],
+            "API-URL:": [
+                "API-URL:"
+            ],
+            "if empty try: e1 for \"example 1\"": [
+                "falls leer trag \"e1\" für \"example 1\" ein"
+            ],
+            "if empty try: e1": [
+                "falls leer, versuche e1"
+            ],
+            "Debugmode on / off:": [
+                "Debugmodus an / aus"
+            ],
+            "Exampletext on / off:": [
+                "Beispieltext an / aus"
+            ],
+            "Basenode (JSON-node to start):": [
+                "Basenode (JSON-node bei dem begonnen werden soll):"
+            ],
+            "if empty and initial example URL: level1": [
+                "Falls leer und die Start-Beispiel-URL: level1"
+            ],
+            "if empty and above example URL: level1": [
+                "Falls leer und die Beispiel-URL von oben: level1"
+            ],
+            "Template to use for JSON:": [
+                "Template für die JSON-Daten:"
+            ],
+            "if emtpy: Version: {version}, {downloaded} Downloads, {num_ratings} Ratings: {rating}, {subloop:tags:-1}tag: {tags.json}{/subloop:tags}": [
+                "Falls leer: Version: {version}, {downloaded} Downloads, {num_ratings} Ratings: {rating}, {subloop:tags:-1}tag: {tags.json}{/subloop:tags}"
+            ],
+            "Use {subloop}, {subloop-array}, {field} etc. just like in the shortcode": [
+                "Nutze  {subloop}, {subloop-array}, {field} etc. so wie im Shortcode"
+            ],
+            "JCI Advanced": [
+                "JCI für Fortgeschrittene"
+            ],
+            "Number of seconds waiting for the API:": [
+                "Anzahl der Sekunden, die das Plugin maximal auf die API warten soll:"
+            ],
+            "default: 5 seconds": [
+                "Standard 5 Sekunden"
+            ],
+            "Number of json-top-level-items to display:": [
+                "Anzahl der JSON-Elemente, die ausgegeben werden sollen:"
+            ],
+            "default: all": [
+                "Standard: alle"
+            ],
+            "One of these words must be displayed:": [
+                "Eines dieser Worte muss in dem auszugebenden Element sein:"
+            ],
+            "default: empty": [
+                "Standard: leer"
+            ],
+            "JSON-depth of the above displayed Words:": [
+                "JSON-Node-Tiefe der oben definierten Worte, die dargestellt werden sollen:"
+            ],
+            "NONE of these words must be displayed:": [
+                "KEINES dieser Worte darf in dem auszugebenden Element sein:"
+            ],
+            "JSON-depth of the above NOT displayed Words:": [
+                "JSON-Node-Tiefe der oben definierten Worte, die NICHT dargestellt werden sollen:"
+            ],
+            "DEBUG": [
+                "DEBUG"
+            ],
+            "error: get of json-data failed - plugin aborted: check url of json-feed": [
+                "Fehler: Das Abrufen der JSON-Daten klappte nicht - Plugin wurde beendet: Bitte URL des JSON-Feeds prüfen"
+            ],
+            "no data received: check url of json-feed": [
+                "Keine Daten erhalten: Bitte pürfe den JSON-Feed"
+            ],
+            "feed is not valid JSON - not cached": [
+                "das JSON im feed ist kein gültiges JSON - nicht gecached"
+            ],
+            "can't be stored - plugin aborted": [
+                "kann nicht gespeichert werden - Plugin beendet"
+            ],
+            "JSON-data can't be stored to": [
+                "JSON-Daten konnten nicht gespeichert werden unter"
+            ],
+            "saving JSON-data to cache successful": [
+                "JSON wurde erfolgreich im Cache gespeichert"
+            ],
+            "is either empty or unwriteable - plugin aborted": [
+                "ist leer oder nicht beschreibbar - Plugin wurde beendet"
+            ],
+            "Bearer": [
+                "Bearer"
+            ],
+            "JCI WordPress-Plugin - free Version": [
+                "Kostenloses JCI Wordpress-Plugin"
+            ],
+            "arguments": [
+                "Argumente"
+            ],
+            "Something went wrong fetching URL with JSON-data": [
+                "Fehler beim Laden der URL mit JSON-Daten"
+            ],
+            "error getting URL:": [
+                "Fehler beim Laden der URL:"
+            ],
+            "success getting URL": [
+                "URL wurde erfolgreich geladen"
+            ],
+            "use fallback2cache": [
+                "nutzen fallback2cache"
+            ],
+            "fallback2cache ok: cached JSON found": [
+                "fallback2cache ok: zwischengespeichertes JSON gefunden"
+            ],
+            "fallback2cache failed: no cached JSON found": [
+                "fallback2cache NICHT ok: Kein zwischengespeichertes JSON gefunden"
+            ],
+            "DEBUG:": [
+                "DEBUG:"
+            ],
+            "Cache is active": [
+                "Cache (=Zwischenspeichern) ist aktiv"
+            ],
+            "Cache is NOT active": [
+                "Cache (=Zwischenspeichern) ist nicht aktiv"
+            ],
+            "No URL defined: Check the shortcode - one typical error: is there a blank after url= ?": [
+                "Keine URL definiert: Bitte pürfe den Shortcode - ein typischer Fehler: Ist ein Leerzeichen nach url= ?"
+            ],
+            "EMPTY api-answer: No JSON received - is the API down? Check the URL you use in the shortcode!": [
+                "Die API-Antwort ist leer: Kein JSON erhalten - ist die API-Schnittstelle verfügbar? Bitte prüfe die URL im Shortcode!"
+            ],
+            "result:": [
+                "Ergebnis:"
+            ],
+            "double-array at root? not implemented yet": [
+                "\"doppelter-Array\" als JSON-Root-Node? Das kann das Plugin aktuell leider nicht verarbeiten"
+            ],
+            "neither object nor array? not implemented yet": [
+                "weder objekt noch Array? Das kann das Plugin leider nicht verarbeiten"
+            ],
+            "basic entry with": [
+                "Grundsätzliche Eingaben mit"
+            ],
+            "We have a Problem with JSON here": [
+                "Wir haben hier leider ein Problem mit den JSON-Daten"
+            ],
+            "Either we got no JSON from the API. Or the basenode-parameter is not ok.": [
+                "Entweder haben wir kein JSON von der API erhalten. Oder der \"basenode-Parameter\" ist nicht ok."
+            ],
+            "Switch on the Debugmode of the Plugin!": [
+                "Bitte den Debugmodus des Plugins einschalten!"
+            ],
+            "ENTER function checkType": [
+                "Start der Funktion checkType"
+            ],
+            "start loop": [
+                "beginne die Schleife"
+            ],
+            "object found": [
+                "objekt gefunden"
+            ],
+            "json in loop": [
+                "json in der Schleife"
+            ],
+            "no match": [
+                "keine Übereinstimmung"
+            ],
+            "found": [
+                "gefunden"
+            ],
+            "loop array one by one": [
+                "Durchlauf die Schleife eins nach dem Anderen"
+            ],
+            "no": [
+                "nein"
+            ],
+            "LEAVE function checkType": [
+                "Verlasse Funktion, prüfe Typ"
+            ],
+            "depth": [
+                "Tiefe"
+            ],
+            "noofItems": [
+                "Anzahl der Elemente"
+            ],
+            "returnHTMLinsideProc": [
+                "zurück gegebenes HTML"
+            ],
+            "Switch to gutenberg-Blocks!": [
+                "Wechsel zu Gutenberg-Blocks!"
+            ],
+            "There the JSON Content Importer Block gives an easier way to use the JSON-APIs.": [
+                "Mit dem JSON Content Importer Gutenberg-Block kann man JSON-APIs besser nutzen."
+            ],
+            "Or": [
+                "Oder"
+            ],
+            "Switch on the Debugmode": [
+                "Schalte den Debugmodus ein"
+            ],
+            "by adding \"debugmode=10\" in the Shortcode.": [
+                "durch ergänzen von \"debugmode=10\" im Shortcode."
+            ],
+            "If all is without success: Open ticket at": [
+                "Falls gar nichts erfolgreich ist: Lege ein Ticket hier an"
+            ],
+            "please": [
+                "bitte"
+            ],
+            "Hello, this is a plugin: You must not call me directly.": [
+                "Guten Tag, dieses Plugin darf nicht auf diese Weise ausgeführt werden."
+            ],
+            "Gutenberg not available": [
+                "Gutenberg ist nicht verfügbar"
+            ],
+            "Gutenberg-Mode of Plugin switched off in Options": [
+                "Gutenberg-Modus des Plugins in den Optionen ausgeschaltet"
+            ],
+            "Gutenberg-Plugin-Mode": [
+                "Gutenberg-Plugin-Modus"
+            ],
+            "No Gutenberg: Classic Editor Plugin active": [
+                "Gutenberg nicht aktiv, das \"Classic Editor Plugin\" aktive"
+            ],
+            "Gutenberg-WP5-Mode": [
+                "Gutenberg-WP5-Modus"
+            ],
+            "Upgrade to PRO-Version": [
+                "Zur besseren PRO-Version wechseln"
+            ],
+            "Support the development": [
+                "Unterstützer die Software-Entwicklung"
+            ],
+            "Donate": [
+                "Spenden"
+            ],
+            "JSON Content Importer": [
+                "JSON Content Importer"
+            ],
+            "Settings": [
+                "Einstellungen"
+            ],
+            "Cacher: Saving API-JSON-data locally saves time by avoding http-Requests": [
+                "Cacher: Das lokale Speichern von API-JSON-Daten spart Zeit weil damit http-Anfragen an die API vermieden werden"
+            ],
+            "Enable Cache": [
+                "Cacher einschalten"
+            ],
+            "reload json from web - if cachefile is older than": [
+                "JSON von der API laden - wenn die gecachte Datei älter ist als"
+            ],
+            "Minutes": [
+                "Minuten"
+            ],
+            "Days": [
+                "Tage"
+            ],
+            "Months": [
+                "Monate"
+            ],
+            "Years": [
+                "Jahre"
+            ],
+            "Handle unavailable  APIs": [
+                "Was tun, wenn die API nicht verfügbar ist und kein JSON liefert"
+            ],
+            "If the request to an API to get JSON fails, the plugin can try to use a maybe cached JSON (fill the cache at least once with a successful API-request)": [
+                "Wenn es nicht gelingt, JSON von der API zu bekommen, kann man ggf. vorhandenes JSON aus dem Cacher nutzen (welches durch mindestens einen erfolgreichen API-Aufruf dort gespeichert wurde)"
+            ],
+            "do not try to use cached JSON": [
+                "bitte gecachtes JSON nicht verwenden"
+            ],
+            "If the API-http-answercode is not 200: try to use cached JSON": [
+                "Falls der API-http-Antwortstatus nicht 200 ist: Versuche gechachtes JSON zu verwenden"
+            ],
+            "If the API sends invalid JSON: try to use cached JSON": [
+                "Falls die API ungültiges  JSON schickt: Versuche gechachtes JSON zu verwenden"
+            ],
+            "Recommended (not switched on due to backwards-compatibility):<br>If the API-http-answercode is not 200 OR sends invalid JSON: try to use cached JSON": [
+                "Empfohlen (noch nicht eingeschaltet, damit frühere Installationen funktionieren):<br>Wenn der API-http-Antwortstatus nicht 200 ist oder ungültiges JSON empfangen wird: Versuche gecachtes JSON zu verwenden"
+            ],
+            "API-Request: If needed, send Authentication-Info or an Browser-Useragent": [
+                "API-Anfrage: Falls nötig wird Information zur Berechtigung (\"Authentifizierung\") und eine Browser-Kennung (\"Useragent\") mitgeschickt"
+            ],
+            "oAuth Bearer accesskey: passed in header as \"Authorization: Bearer accesskey\"<br>(add \"nobearer \" - mind the space! - if you want to pass \"Authorization:accesskey\")": [
+                "oAuth Bearer Zugangsschlüssel: Dieser wird im http-header als \"Authorization: Bearer accesskey\" gesendet (Achtung: Leerzeichen beachten!)<br>Füge \"nobearer\" dazu, wenn \"Authorization:accesskey\" geschickt werden soll"
+            ],
+            "Send default Useragent (some APIs need that)": [
+                "Sende Standard-Browserkennung / Useragent (manche APIs benötigen dies)"
+            ],
+            "Gutenberg?": [
+                "Gutenberg-Modus?"
+            ],
+            "Easy JSON Content Importer - Gutenberg-Block": [
+                "Ganz einfach - JSON Content Importer und sein Gutenberg-Block"
+            ],
+            "Switch off Gutenberg features (maybe a site builder needs that)": [
+                "Gutenberg-Einstellungen ausschalten (evtl. benötigt ein Sitebuilder dies)"
+            ],
+            "Do you like that plugin? Is it helpful? I'm looking forward for a Donation - easy via PayPal!": [
+                "Gefällt Dir dieses Plugin? Ist es hilfreich? Dann freue ich mich über eine Spende - einfach per PayPal!"
+            ],
+            "Build in Example": [
+                "Im Plugin eingebautes Beispiel"
+            ],
+            "Example with this URL:": [
+                "Beispiel mit dieser URL:"
+            ],
+            "Available Syntax for Wordpress-Pages and -Blogentries": [
+                "Mögliche Syntax-Schreibweise für Wordpress-Seiten (Pages / Posts / CPT...)"
+            ],
+            "How to - First Shortcode with JSON Content Importer": [
+                "So geht es - Dein erster Shortcode mit dem JSON Content Importer"
+            ],
+            "How to: Wikipedia API, JSON Content Importer and WordPress": [
+                "So geht es - Wikipedia API. JSON Content Importer und Wordpress"
+            ],
+            "number: who many seconds for loading url till timeout?": [
+                "Zahl: Wieviele Sekunden soll f+r das Laden der URL gewartet werden?"
+            ],
+            "number: if 10 show backstage- and debug-info": [
+                "Zahl: Falls 10 werden Detail-Informationen angezeigt, die bei Problemen weiterhelfen können"
+            ],
+            "number: how many items of level 1 should be displayed? display all: leave empty": [
+                "Zahl: Wieviele Elemente im Level 1 sollen dargestellt werden? Falls alle dargestellt werden sollen bitte leer lassen"
+            ],
+            "starting point of datasets, tha base-node in the JSON-Feed where the data is?": [
+                "Startpunkt der Datensätze, ab diesem basenode werden die Daten im JSON-Feed verwendet?"
+            ],
+            "default empty, if not empty keywords spearated by','. At least one of these keywords must be in the created text (here: text=code without html-tags)": [
+                "Standardeinstellung: leer, falls nicht leer bitte Keywords getrennt durch ','. Falls eines dieser Keywords im anzuzeigenden Text ist, wird dieses Textelement nicht angezeigt (hier: Text=Code ohne html-Tags)"
+            ],
+            "default: 1, number:where in the JSON-tree oneofthesewordsmustbein must be?": [
+                "Standardeinstellung: 1, Zahl: Wo im JSON-tree ist oneofthesewordsmustbein verortet?"
+            ],
+            "default empty, if not empty keywords spearated by ','. If one of these keywords is in the created text, this textblock is igonred (here: text=code without html-tags)": [
+                "Standardeinstellung: leer, falls nicht leer bitte Keywords getrennt durch ','. Falls eines dieser Keywords im anzuzeigenden Text ist, wird dieses Textelement nicht angezeigt (hier: Text=Code ohne html-Tags)"
+            ],
+            "default: 1, number:where in the JSON-tree oneofthesewordsmustnotbein must be?": [
+                "Standardeinstellung: 1, Nummer: Wo im JSON-tree soll oneofthesewordsmustnotbein sein?"
+            ],
+            "Any HTML-Code plus \"basenode\"-datafields wrapped in \"{}\"": [
+                "Irgendein HTML-Code, zusätzlich \"basenode\"-Datenfelder, umrahmt von \"{}\""
+            ],
+            "{subloop:\"basenode_subloop\":\"number of subloop-datasets to be displayed\"}": [
+                "{subloop:\"basenode_subloop\":\"Anzahl der anzuzeigenden subloop-Elemente\"}"
+            ],
+            "Any HTML-Code plus \"basenode_subloop\"-datafields wrapped in \"{}\"": [
+                "Jeder HTML-Code, zusätzlich \"basenode_subloop\"-datenfelder die von \"{}\" umrahmt werden"
+            ],
+            "{subloop-array:\"basenode_subloop_array\":\"number of subloop-array-datasets to be displayed\"}": [
+                "{subloop-array:\"basenode_subloop_array\":\"Anzahl der anzuzeigenden subloop-array-Elemente\"}"
+            ],
+            "Any HTML-Code plus \"basenode_subloop_array\"-datafields wrapped in \"{}\"": [
+                "Jeder HTML-Code, zusätzlich \"basenode_subloop_array\"-datenfelder die von \"{}\" umrahmt werden"
+            ],
+            "If the subloop is not an object but an array, use {subloop-array} e.g.": [
+                "Falls der subloop kein Objekt ist, sondern ein Array, bitte {subloop-Array} verwenden."
+            ],
+            "shows the first, second and third entry of that array, modified by ifNotEmptyAddLeft and ifNotEmptyAddRight.": [
+                "Zeige das 1te, 2te und 3te Element aus diesem Array an, verändert durch ifNotEmptyAddLeft und ifNotEmptyAddRight."
+            ],
+            "There are some special add-ons for datafields": [
+                "Für die Datenfelder gibt es einige spezielle Extras"
+            ],
+            "Default-display of a datafield is NOT HTML: \"&lt;\" etc. are converted to \"&amp,lt;\". Add \"html\" to display the HTML-Code as Code.": [
+                "Als Standard werden Datenfelder nicht im HTML-Format angezeigt: \"&lt;\" etc. werden zu \"&amp,lt;\" konvertiert. Füge \"html\" hinzu, um HTML-Code als Code zu verwenden."
+            ],
+            " Same as \"{street:html}\" plus Text-Linefeeds are converted to &lt;br&gt; HTML-Linebreaks": [
+                " Genauso wie \"{street:html}\", zusätzlich werden Zeilenumbrüche in &lt;br&gt;  HTML-Zeilenumbrüche verwandelt"
+            ],
+            "If datafield \"street\" is not empty, add \",\" right of datafield-value. allowed chars are": [
+                "Wenn das Feld \"street\" nicht leer ist, kannst Du \",\" rechts davon hinzufügen. Erlaubte Zeichen sind"
+            ],
+            "you can combine \"html\" and \"ifNotEmptyAdd...\" like this": [
+                "du kannst \"html\" und  \"ifNotEmptyAdd…\" so kombinieren"
+            ],
+            "some as": [
+                "genauso wie"
+            ],
+            "If datafield \"street\" is not empty, add \",\" left of datafield-value. allowed chars are": [
+                "Wenn das Feld \"street\" nicht leer ist, kannst Du \",\" links davon hinzufügen. Erlaubte Zeichen sind"
+            ],
+            "Insert the php-urlencoded value of the datafield \"locationname\". Needed when building URLs. \"html\" does not work here.": [
+                "Füge den PHP-urlencodierten Wert des Datenfeldes \"locationname\" ein. Das wird benötigt, um URLs zusammen zu bauen, \"html\" funktioniert hier nicht."
+            ],
+            "How do I find the proper template for my JSON?": [
+                "Wie stelle ich ein passendes Template zusammen?"
+            ],
+            "If you're lost: open ticket here": [
+                "Wenn Du Hilfe suchst: Lege hier ein Supportticket an"
+            ],
+            "Learn more about JSON Content Importer PRO": [
+                "Erfahre mehr über die PRO Version des JSON Content Importer"
+            ],
+            "Upgrade to PRO Version!": [
+                "Jetzt zur besseren PRO Version umsteigen!"
+            ],
+            "When the free version comes to it's limits: Check out the PRO-Version!": [
+                "Falls die kostenlose Version an ihre Grenzen kommt: Probier die PRO-Version aus!"
+            ],
+            "Try it without risk: Full refund, if the PRO plugin can't solve your challenge": [
+                "Die PRO-Version kann ohne Risiko ausprobiert werden: Volle Kostenrückzahlung, falls das Plugin Deine Herausforderung nicht löst"
+            ],
+            "PRO version only": [
+                "Nur in der PRO Version verfügbar"
+            ],
+            "template-manager: no hassle with linebreaks, and: one-place to store, use on many pages": [
+                "Template-Manager: Keine Probleme mit Zeilenumbrüche und: Ein Ort an dem alles gespeichert ist, was auf vielen Seiten verwendet werden kann"
+            ],
+            "format date and time": [
+                "Formatiere Datum und Zeit"
+            ],
+            "application building: pass GET/POST-parameter from Wordpress to JSON-feed": [
+                "Anwendunge bauen: GET/POST Parameter können von WordPress zum JSON-Feed weitergegeben werden"
+            ],
+            "shortcode inside template": [
+                "Wordpress-Shortcodes innerhalb des Templates"
+            ],
+            "twig template-engine: add logic (if...) to your template": [
+                "twig template-software: Füge Denem Template Logik (if…) hinzu"
+            ],
+            "create custom post pages out of JSON and custom post types": [
+                "Erzeuge Custom Post Pages aus JSON und Custom Post Types"
+            ],
+            "and much more...": [
+                "und vieles mehr...."
+            ],
+            "https://json-content-importer.com/": [
+                "https://json-content-importer.com/"
+            ],
+            "Plugin to import, cache and display a JSON-Feed. Display is done with wordpress-shortcode or gutenberg-block.": [
+                "Plugin mit dem man JSON-Daten importieren, zwischenspeichern (cahcen) und anzeigen kann. Das gelingt mit einem Gutenberg-Block oder einem Wordpress-Shortcode."
+            ],
+            "Bernhard Kux": [
+                "Bernhard Kux"
+            ]
+        }
+    }
+}

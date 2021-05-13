@@ -1,0 +1,12 @@
+<div class="wpra-item-grid rss-aggregator">
+    {% set hasItems = false %}
+    {% for item in items %}
+        {% set hasItems = true %}
+        <div class="wpra-item feed-item {{ options.custom_css_classname }} wpra-item--1of{{ options.columns_number ? options.columns_number : 1 }}">
+            {{ include(self.dir ~ 'feed-item.twig') }}
+        </div>
+    {% endfor %}
+    {% if not hasItems %}
+        <p>{% trans "No feed items found." %}</p>
+    {% endif %}
+</div>
