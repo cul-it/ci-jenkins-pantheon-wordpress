@@ -1,0 +1,576 @@
+/* LibCal Widget Weekly Hours Styles, feel free to modify */
+
+.s-lc-whw thead {
+  background-color: #f5f5f5;
+}
+
+.s-lc-whw-head-date {
+  color: #999;
+}
+
+.s-lc-whw-today-h {
+  background-color: #ddd;
+}
+
+.s-lc-whw-today {
+  background-color: #f5f5f5;
+}
+
+.s-lc-whw-bh {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.s-lc-whw-locname {
+  font-weight: bold;
+}
+
+.s-lc-whw-sublocname {
+  padding-left: 10px !important;
+}
+
+.s-lc-whw-footnote {
+  color: #555;
+  font-size: 80%;
+}
+
+.s-lc-whw-footnote td:hover {
+  background-color: #fff !important;
+}
+
+/* Below styles can be removed if you are already using Bootstap v3 in host page */
+.s-lc-whw-cont {
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-size: 12px;
+}
+
+/* Start Update styles for the default LibCal buttons */
+.s-lc-whw-pr,
+.s-lc-whw-ne {
+  padding: 0.6em 1em 0.4em;
+  font-size: 0.85rem;
+  line-height: 1;
+  border-radius: 3px;
+  color: #017ABC;
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.s-lc-whw-pr:hover,
+.s-lc-whw-ne:hover, .s-lc-whw-pr:focus,
+.s-lc-whw-ne:focus {
+  background-color: #017ABC;
+  color: #fff;
+}
+
+.s-lc-whw-pr:disabled, .s-lc-whw-ne:disabled {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+.s-lc-whw-bh {
+  vertical-align: middle;
+}
+/* End Update styles for the default LibCal buttons */
+
+.s-lc-whw {
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 100%;
+  background-color: transparent;
+  border-bottom: none;
+  border-left: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.s-lc-whw > tbody > tr > td {
+  padding: 5px;
+}
+
+.s-lc-whw > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+  padding: 5px;
+}
+
+.s-lc-whw th {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .s-lc-whw-cont .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    /*-ms-overflow-style: -ms-autohiding-scrollbar;*/
+    border: 1px solid #ddd;
+    /*-webkit-overflow-scrolling: touch;*/
+  }
+
+  .s-lc-whw td {
+    white-space: nowrap;
+  }
+}
+
+/*  LibCal Widget Monthly Hours Styles, feel free to modify
+    Styles for all the locations within libcal
+*/
+.s-lc-mhw-tb {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.s-lc-mhw-tb th,
+.s-lc-mhw-tb td {
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.s-lc-mhw-tb thead {
+  background-color: #f5f5f5;
+}
+
+.s-lc-mhw-header {
+  text-align: center;
+}
+
+.s-lc-mhw-header-date {
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 130%;
+}
+
+.s-lc-mhw-days td {
+  text-align: center;
+  font-weight: bold;
+  min-width: 14.28%;
+  max-width: 14.28%;
+  width: 14.28%;
+}
+
+.s-lc-mhw-day-l {
+  color: #555;
+  text-align: right;
+  padding: 2px;
+  font-size: 11px;
+}
+
+.s-lc-mhw-cells {
+  height: 50px;
+}
+
+.s-lc-mhw-fnc {
+  color: #555;
+}
+
+.s-lc-mhw-loc {
+  font-size: 11px;
+  padding: 2px;
+  border-radius: 4px;
+  margin-bottom: 1px;
+  color: #fff;
+}
+
+.s-lc-mhw-subloc {
+  margin-left: 5px;
+}
+
+.s-lc-mhw-footnote-cal {
+  font-size: 86%;
+}
+
+.loc_3319 {
+  background-color: #000000;
+}
+
+.loc_7862 {
+  background-color: #000000;
+}
+
+.loc_3321 {
+  background-color: #000000;
+}
+
+.loc_3322 {
+  background-color: #000000;
+}
+
+.loc_3323 {
+  background-color: #000000;
+}
+
+.loc_3349 {
+  background-color: #000000;
+}
+
+.loc_3350 {
+  background-color: #000000;
+}
+
+.loc_3351 {
+  background-color: #000000;
+}
+
+.loc_3324 {
+  background-color: #000000;
+}
+
+.loc_3325 {
+  background-color: #000000;
+}
+
+.loc_3423 {
+  background-color: #000;
+}
+
+.loc_3476 {
+  background-color: #9e9b9b;
+}
+
+.loc_3478 {
+  background-color: #000000;
+}
+
+.loc_3477 {
+  background-color: #000000;
+}
+
+.loc_3326 {
+  background-color: #000000;
+}
+
+.loc_3340 {
+  background-color: #000000;
+}
+
+.loc_3362 {
+  background-color: #000000;
+}
+
+.loc_3363 {
+  background-color: #000000;
+}
+
+.loc_3361 {
+  background-color: #000000;
+}
+
+.loc_1707 {
+  background-color: #4ce859;
+}
+
+.loc_2319 {
+  background-color: #000000;
+}
+
+.loc_7733 {
+  background-color: #000000;
+}
+
+.loc_3016 {
+  background-color: #000000;
+}
+
+.loc_3485 {
+  background-color: #000000;
+}
+
+.loc_3017 {
+  background-color: #000000;
+}
+
+.loc_7734 {
+  background-color: #000000;
+}
+
+.loc_7701 {
+  background-color: #000000;
+}
+
+.loc_2204 {
+  background-color: #000000;
+}
+
+.loc_1710 {
+  background-color: #e016be;
+}
+
+.loc_3018 {
+  background-color: #000000;
+}
+
+.loc_1709 {
+  background-color: #1907e3;
+}
+
+.loc_2317 {
+  background-color: #000000;
+}
+
+.loc_1708 {
+  background-color: #1dccbd;
+}
+
+.loc_3302 {
+  background-color: #000000;
+}
+
+.loc_3486 {
+  background-color: #000000;
+}
+
+.loc_8658 {
+  background-color: #000000;
+}
+
+.loc_3327 {
+  background-color: #000000;
+}
+
+.loc_3328 {
+  background-color: #000000;
+}
+
+.loc_2818 {
+  background-color: #99872b;
+}
+
+.loc_3120 {
+  background-color: #000000;
+}
+
+.loc_3121 {
+  background-color: #000000;
+}
+
+.loc_2828 {
+  background-color: #000000;
+}
+
+.loc_3119 {
+  background-color: #000000;
+}
+
+.loc_9367 {
+  background-color: #000000;
+}
+
+.loc_3699 {
+  background-color: #000000;
+}
+
+.loc_3864 {
+  background-color: #000000;
+}
+
+.loc_3329 {
+  background-color: #000000;
+}
+
+.loc_2830 {
+  background-color: #e37c1c;
+}
+
+.loc_3657 {
+  background-color: #000000;
+}
+
+.loc_3331 {
+  background-color: #000000;
+}
+
+.loc_7374 {
+  background-color: #000000;
+}
+
+.loc_7375 {
+  background-color: #000000;
+}
+
+.loc_7376 {
+  background-color: #000000;
+}
+
+.loc_8902 {
+  background-color: #000;
+}
+
+/* / LibCal Hours - monthly widget */
+
+.btn-sm {
+  display: inline-block;
+}
+
+
+.lc_today {
+  /* highlight today */
+  background-color: #4D4D4D;
+}
+
+
+.s-lc-allday,
+.s-lc-closed,
+.s-lc-time {
+  /* hours */
+  margin-left: 0.5em;
+}
+
+.s-lc-closed {
+  /* closed */
+  border-radius: 0;
+  background-color: #4D4D4D;
+
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 7px !important;
+}
+
+.s-lc-mhw-cells {
+  /* make empty cells almost square */
+  height: 4em;
+}
+
+.s-lc-mhw-days td {
+  /* day of week heading */
+  text-align: center;
+  font-weight: bold;
+}
+
+.s-lc-mhw-day-l {
+  /* day of month label */
+  padding: 0.5em 0.5em 0.25em 0;
+  text-align: right;
+  color: gray;
+}
+
+.s-lc-mhw-header {
+  /* table heading for active month */
+  text-align: center;
+}
+
+.s-lc-mhw-header-date {
+  display: inline-block;
+  margin: 0.1em 0;
+}
+
+.s-lc-mhw-loc {
+  /* hours for location */
+  border-radius: 0.5em;
+  line-height: 1em;
+}
+
+.s-lc-mhw-loc-name,
+.s-lc-mhw-name {
+  /* location name */
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+/* Hide all sub locations except the lobby */
+.s-lc-mhw-sub-loc {
+  display: none;
+}
+.s-lc-mhw-sub-loc.loc_1709 {
+  display: block;
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: inherit;
+}
+.s-lc-mhw-tb {
+  /* table setup */
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.s-lc-mhw-tb th,
+.s-lc-mhw-tb td {
+  border: 1px solid gray;
+  padding: 0;
+  vertical-align: top;
+}
+
+.s-lc-mhw-tb thead {
+  background-color:  gray;
+}
+
+.s-lc-whw-head-date {
+  color: #000 !important;
+}
+
+.s-lc-whw-today,
+.s-lc-whw-today-h,
+.s-lc-whw-today-h .s-lc-whw-head-date {
+  background-color: #4D4D4D !important;
+  color: #fff !important;
+}
+.hours-weekly__all-cul {
+  text-align: right;
+  float: right;
+  margin-bottom: 10px;
+}
+.hours-weekly__nav {
+  float: left;
+  margin-bottom: 10px;
+}
+.hours-weekly__nav button {
+  background-color: #fff;
+  padding-bottom: 7px;
+}
+.hours-weekly__nav button:hover {
+  background-color: #017db2;
+  color: #fff;
+  cursor: pointer;
+}
+
+table tr.s-lc-whw-loc {
+  border-bottom: 1px solid #ddd !important;
+  height: 40px;
+  font-family: "Raleway", Sans-serif;
+  font-size: 16px;
+}
+
+table tr.s-lc-whw-subloc {
+  border-bottom: 1px solid #ddd !important;
+  height: 40px;
+  font-family: "Raleway", Sans-serif;
+  font-size: 16px;
+
+}
+
+.s-lc-whw-head-date {
+  font-family: "Raleway", Sans-serif;
+  font-size: 16px;
+}
+.list-hours {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.list-hours h4 {
+  margin: 0;
+}
+.list-hours:last-child {
+  border: 0 !important;
+}

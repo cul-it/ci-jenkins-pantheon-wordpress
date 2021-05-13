@@ -1,0 +1,78 @@
+<li class="feed-item {{ options.custom_css_classname }}">
+    {% if options.thumbnail_placement == 'item-side' or options.thumbnail_placement == 'item-top' %}
+        <div class="feed-item-content {{ options.thumbnail_placement }}">
+
+        {% include(self.dir ~ 'thumbnail.twig') %}
+
+        <div class="feed-item-text-content {{ options.thumbnail_placement }}">
+    {% endif %}
+
+    {# Get the title and optionally truncating it #}
+    {% set item_title = item.title %}
+    {% if options.title_max_length > 0 %}
+        {% set item_title = item_title|truncate(options.title_max_length) %}
+    {% endif %}
+
+    {% set item_url = wpra_item_url(item, options) %}
+    {{ item_title | wpralink(item_url, options.title_is_link, options) }}
+
+    <div class="thumbnail-excerpt wprss-feed-thumbnail">
+        {% if options.thumbnail_placement == 'excerpt-side' %}
+            {% include(self.dir ~ 'thumbnail.twig') %}
+        {% endif %}
+
+        {# Get the exceprt and optionally truncating it #}
+        {% set item_excerpt = html_decode(item.excerpt) %}
+        {% if options.excerpt_max_words > 0 %}
+            {% set item_excerpt = item_excerpt|wpra_word_limit(options.excerpt_max_words) %}
+        {% endif %}
+
+        {% if options.show_excerpt %}
+            <div class="thumbnail-excerpt wprss-feed-excerpt">
+                {% if options.thumbnail_placement == 'excerpt-text' %}
+                    {% include(self.dir ~ 'thumbnail.twig') %}
+                {% endif %}
+
+                {{ item_excerpt }}{{ options.excerpt_ending }}
+                {% if options.excerpt_more_enabled %}
+                    {{ options.excerpt_read_more | wpralink(item_url, true, options) }}
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+
+    {% if options.thumbnail_placement == 'item-side' or options.thumbnail_placement == 'item-top' %}
+        </div> {# Closing div for .feed-item-text-content #}
+        </div> {# Closing div for .feed-item-content #}
+    {% endif %}
+
+    <div class="wprss-feed-meta">
+        {% if options.source_enabled %}
+            <span class="feed-source">
+                {{ options.source_prefix }}
+                {{ item.source_name | wpralink(item.source_url, options.source_is_link, options) }}
+            </span>
+        {% endif %}
+
+        {# Prepare date HTML class and formatted strinng #}
+        {% set date_str = item.timestamp|date(options.date_format) %}
+        {% set date_class = "feed-date" %}
+        {# If time-ago format is used, use alternate format and HTML class #}
+        {% if options.date_use_time_ago %}
+            {% set date_str = item.timestamp|time_diff %}
+            {% set date_class = "time-ago" %}
+        {% endif %}
+
+        {% if options.date_enabled %}
+            <span class="{{ date_class }}">
+                {{ options.date_prefix }} {{ date_str }}
+            </span>
+        {% endif %}
+
+        {% if options.author_enabled and item.author|length > 0 %}
+            <span class="feed-author">
+                {{ options.author_prefix }} {{ item.author }}
+            </span>
+        {% endif %}
+    </div>
+</li>
