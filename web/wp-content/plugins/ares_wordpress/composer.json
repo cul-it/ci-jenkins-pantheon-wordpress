@@ -1,0 +1,15 @@
+{
+    "name": "cul-it/ares_wordpress",
+    "description": "WordPress Ares interface for Unified Library Website",
+    "type": "wordpress-plugin",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "composer/installers": "^1.0"
+    },
+    "license": "GPL-2.0+",
+    "authors": [{
+        "name": "Adam Smith",
+        "email": "ajs17@cornell.edu"
+    }]
+}
