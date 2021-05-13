@@ -1,0 +1,99 @@
+.elementor-widget-container {
+  .alert__widget {
+    padding: 20px;
+    margin-bottom: 20px;
+
+    a {
+      text-decoration: underline !important;
+      &:hover {
+        text-decoration: none !important;
+      }
+    }
+
+    i {
+      padding-right: 7px;
+      font-size: 20px;
+      vertical-align: middle;
+      display: inline !important;
+    }
+
+    .alert__header {
+      font-size: 22px;
+      margin: 0;
+      padding-top: 5px;
+    }
+
+    p {
+      margin: 0;
+      display: inline !important;
+      font-size: 16px;
+    }
+
+    hr {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: 0;
+      height: 0;
+    }
+
+    &.alert__success {
+      background-color: $color__alert-success-bg !important;
+      border-left: 5px solid $color__alert-success-text !important;
+
+      .alert__header,
+      p,
+      a,
+      i {
+        color: $color__alert-success-text !important;
+      }
+      hr {
+        border-bottom: 1px solid $color__alert-success-border !important;
+      }
+    }
+
+    &.alert__info {
+      background-color: $color__alert-info-bg !important;
+      border-left: 5px solid $color__alert-info-text !important;
+
+      .alert__header,
+      p,
+      a,
+      i {
+        color: $color__alert-info-text !important;
+      }
+      hr {
+        border-bottom: 1px solid $color__alert-info-border !important;
+      }
+    }
+
+    &.alert__warning {
+      background-color: $color__alert-warning-bg !important;
+      border-left: 5px solid $color__alert-warning-text !important;
+
+      .alert__header,
+      p,
+      a,
+      i {
+        color: $color__alert-warning-text !important;
+      }
+      hr {
+        border-bottom: 1px solid $color__alert-warning-border !important;
+      }
+    }
+
+    &.alert__error {
+      background-color: $color__alert-error-bg !important;
+      border-left: 5px solid $color__alert-error-text !important;
+
+      .alert__header,
+      p,
+      a,
+      i {
+        color: $color__alert-error-text !important;
+      }
+      hr {
+        border-bottom: 1px solid $color__alert-error-border !important;
+      }
+    }
+  }
+}
