@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.7.4] - 2021-05-13
+### Changed
+- [Elementor Pro v3.2.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+
 ## [v1.7.3] - 2021-05-12
 ### Changed
 - [Elementor v3.2.3](https://wordpress.org/plugins/elementor/)
@@ -565,6 +569,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.7.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.4
 [v1.7.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.3
 [v1.7.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.2
 [v1.7.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.1
