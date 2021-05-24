@@ -4,10 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.7.6] - 2021-05-24
+### Changed
+- (Advanced Access Manager v6.7.6)[https://www.advancedcustomfields.com/]
+- (Anywhere Elementor v1.2.4)[https://wordpress.org/plugins/anywhere-elementor/]
+- (WP Mail SMTP v2.8.0)[https://wordpress.org/plugins/wp-mail-smtp/]
+
 ## [v1.7.5] - 2021-05-13
 ### Changed
 - Update composer.json with the right Elementor pro version. [Elementor Pro v3.2.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt). The current one (v3.2.2) in git repo breaks the WP instance.
-
 
 ## [v1.7.4] - 2021-05-13
 ### Changed
@@ -574,6 +579,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.7.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.6
 [v1.7.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.5
 [v1.7.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.4
 [v1.7.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.3
