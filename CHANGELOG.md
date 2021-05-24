@@ -6,9 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.7.6] - 2021-05-24
 ### Changed
-- (Advanced Access Manager v6.7.6)[https://www.advancedcustomfields.com/]
-- (Anywhere Elementor v1.2.4)[https://wordpress.org/plugins/anywhere-elementor/]
-- (WP Mail SMTP v2.8.0)[https://wordpress.org/plugins/wp-mail-smtp/]
+- [WordPress v5.7.2](https://make.wordpress.org/core/)
 
 ## [v1.7.5] - 2021-05-13
 ### Changed
