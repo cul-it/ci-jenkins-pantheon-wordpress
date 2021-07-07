@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.7.7] - 2021-07-07
+### Changed
+- [ACF: Better Search v3.8.1](https://wordpress.org/plugins/acf-better-search/)
+- [Coming Soon Page, Maintenance Mode & Landing Pages by SeedProd v6.2.5](https://www.seedprod.com/)
+- [Custom Post Type UI v1.9.2](https://wordpress.org/plugins/custom-post-type-ui/)
+- [Elementor v3.2.5](https://wordpress.org/plugins/elementor/)
+- [FileBird Lite v4.7.7](https://wordpress.org/plugins/filebird/)
+- [Kirki Customizer Framework v3.1.8](https://wordpress.org/plugins/kirki/)
+- [PublishPress Capabilities v2.1](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Relevanssi v4.13.2](https://wordpress.org/plugins/relevanssi/)
+- [WP Mail SMTP v2.9.0](https://wordpress.org/plugins/wp-mail-smtp/)
+- [WP SAML Auth v1.2.3](https://wordpress.org/plugins/wp-saml-auth/)
+
 ## [v1.7.6] - 2021-05-24
 ### Changed
 - [WordPress v5.7.2](https://make.wordpress.org/core/)
@@ -577,6 +590,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.7.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.7
 [v1.7.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.6
 [v1.7.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.5
 [v1.7.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.4
