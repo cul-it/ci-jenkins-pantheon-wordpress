@@ -25,13 +25,13 @@ Feature: Test for basic site function
   Scenario: Be sure simplesaml configuration link works
     Given I go to the home page
     When I go to /simplesaml
-    Then the page should show content "SimpleSAMLphp installation page" 
+    Then the page should show content "SimpleSAMLphp installation page"
 
   @simplesaml
   @simplesaml-authentication
   Scenario: Test authentication sources in simplesaml installation page
     When I go to /simplesaml
-    And I click on the "Authentication" link 
+    And I click on the "Authentication" link
     And I click on the "Test configured authentication sources" link
     Then the page should show content "default-sp"
 
@@ -42,11 +42,11 @@ Feature: Test for basic site function
     And I click on the "Federation" link
     Then the page should not show content "Configuration error"
 
-  @simplesaml
-  @simplesaml-two-step
-  Scenario: Test simplesaml installation page hits two-step login
-    When I go to /simplesaml
-    And I click on the "Authentication" link 
-    And I click on the "Test configured authentication sources" link
-    And I click on the "default-sp" link
-    Then I should see the CUWebLogin dialog
+  # @simplesaml
+  # @simplesaml-two-step
+  # Scenario: Test simplesaml installation page hits two-step login
+  #   When I go to /simplesaml
+  #   And I click on the "Authentication" link
+  #   And I click on the "Test configured authentication sources" link
+  #   And I click on the "default-sp" link
+  #   Then I should see the CUWebLogin dialog
