@@ -1,0 +1,27 @@
+{# Grid item's image #}
+
+{% if options.show_image and item.ft_image_url and not options.image_is_background %}
+    {% set wrapper = options.thumbnail_is_link and (not options.item_is_link) ? 'a' : 'div' %}
+
+    {% set classname = 'wpra-grid-item__item wpra-grid-item__image' %}
+
+    {% set item_url = wpra_item_url(item, options) %}
+    {% set params = options.thumbnail_is_link
+        ? wpra_link_attrs(item_url, options, classname)
+        : 'class="' ~ classname ~ '"'
+    %}
+
+    <{{ wrapper }}
+        {{ params|raw }}
+        style="background-image: url({{ item.ft_image_url }}); height: {{ options.thumbnail_height }}px;"
+        {{ fit_image|raw }}
+    >
+    {% if item.is_yt and item.yt_embed_url and options.videos_enabled %}
+        <iframe class="wpra-grid-item__video"
+                src="{{ item.yt_embed_url }}"
+                width="100%" height="{{ options.thumbnail_height }}" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    {% endif %}
+    </{{ wrapper }}>
+{% endif %}

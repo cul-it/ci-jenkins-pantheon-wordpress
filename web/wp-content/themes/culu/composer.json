@@ -1,0 +1,16 @@
+{
+    "name": "cul-it/culu",
+    "description": "WordPress theme for Unified Library Website",
+    "type": "wordpress-theme",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "composer/installers": "^1.0",
+        "symfony/yaml": "^4.0 || ^5.0"
+    },
+    "license": "GPL-2.0+",
+    "authors": [{
+        "name": "Manolo Bevia",
+        "email": "manolo.bevia@cornell.edu"
+    }]
+}
