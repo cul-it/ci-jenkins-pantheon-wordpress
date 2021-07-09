@@ -42,11 +42,11 @@ Feature: Test for basic site function
     And I click on the "Federation" link
     Then the page should not show content "Configuration error"
 
-  @simplesaml
-  @simplesaml-two-step
-  Scenario: Test simplesaml installation page hits two-step login
-    When I go to /simplesaml
-    And I click on the "Authentication" link
-    And I click on the "Test configured authentication sources" link
-    And I click on the "default-sp" link
-    Then I should see the CUWebLogin dialog
+  # @simplesaml
+  # @simplesaml-two-step
+  # Scenario: Test simplesaml installation page hits two-step login
+  #   When I go to /simplesaml
+  #   And I click on the "Authentication" link
+  #   And I click on the "Test configured authentication sources" link
+  #   And I click on the "default-sp" link
+  #   Then I should see the CUWebLogin dialog
