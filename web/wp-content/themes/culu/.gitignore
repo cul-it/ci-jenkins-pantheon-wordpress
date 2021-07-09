@@ -1,0 +1,5 @@
+# Composer dependencies
+vendor/
+
+# Local environment variables & sensitive data (mimic terminus secrets)
+secrets.json

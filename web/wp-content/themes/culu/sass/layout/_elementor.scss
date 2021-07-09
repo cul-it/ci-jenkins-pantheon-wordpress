@@ -1,0 +1,71 @@
+// Overrides elementor css
+
+.elementor-widget-container {
+    ul,
+    ol {
+        margin-left: 30px;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .elementor-divider {
+        padding: 5px 0 5px 0 !important;
+        .elementor-divider-separator {
+            border-top-color: #e2eaef !important;
+        }
+    }
+}
+.elementor-widget-heading h2.elementor-heading-title {
+    line-height: 1.5em;
+}
+.elementor-accordion {
+    margin-bottom: 20px !important;
+    font-size: 1.15em;
+}
+
+.elementor-placeholder {
+    padding: 1.4em;
+    background-color: $color__background-hr;
+    border: 1px dashed;
+}
+
+// Custom Single post pages
+
+.single .elementor-location-single {
+    display: grid;
+    margin: 0 auto;
+    width: calc(100vw - 40px);
+    grid-template-columns: 100%;
+    padding-top: 20px 0 30px 0;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    @media only screen and (min-width: 640px) {
+        border-top: 1px solid #e2eaef;
+        padding-top: 30px;
+    }
+
+    @media only screen and (min-width: 600px) {
+        width: 90% !important;
+        //padding-top: 30px;
+    }
+
+    @media only screen and (min-width: 1440px) {
+        width: 1360px !important;
+    }
+
+    @media only screen and (min-width: 1600px) {
+        width: 1529px !important;
+    }
+}
+
+// Clear Filter link color
+.elementor-element.elementor-button-danger {
+    .elementor-button {
+        color: $color__alert-error !important;
+    }
+}
