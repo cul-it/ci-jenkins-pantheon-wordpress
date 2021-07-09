@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - [Elementor Pro v3.3.1.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt) - rebuild version by rolling back to 3.2.1 then rebuilding from download of 3.3.1
+- uncoment test in site-basics.feature
+
 ## [v1.7.8] - 2021-07-07
 - [Elementor Pro v3.3.3](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt) - add composer.json back into plugin so this composer.json works
 
