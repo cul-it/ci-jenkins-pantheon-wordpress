@@ -600,6 +600,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.7.10]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.10
 [v1.7.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.9
 [v1.7.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.8
 [v1.7.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.7
