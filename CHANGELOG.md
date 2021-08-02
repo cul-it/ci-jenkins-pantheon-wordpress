@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.7.12] - 2021-08-02
+### Changed
+- [CULU Theme v1.6.0](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6)
+- [Ares WP plugin v1.0.8](https://github.com/cul-it/ares_wordpress/releases/tag/v1.0.8)
+- [FileBird Lite v4.8](https://wordpress.org/plugins/filebird/)
+
 ## [v1.7.11] - 2021-07-12
 - [Elementor Pro v3.2.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt) - roll back Elementor Pro to last working version - 3.2.1
 
@@ -603,6 +609,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.7.12]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.12
 [v1.7.11]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.11
 [v1.7.10]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.10
 [v1.7.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.9
