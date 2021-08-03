@@ -111,6 +111,12 @@ if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 				define('WPMS_ON', true);
 				define('WPMS_SMTP_PASS', $smtp['SMTP_PW']); // SMTP authentication password, only used if WPMS_SMTP_AUTH is true	define( 'WPMS_SMTP_PASS', $_ENV['SMPT_PW'] );
 			}
+			if (isset($smtp['SAML_SALT'])) {
+				define('SAML_SALT', $smtp['SAML_SALT']);
+			}
+			if (isset($smtp['SAML_ADMIN_PAW'])) {
+				define('SAML_ADMIN_PAW', $smtp['SAML_ADMIN_PAW']);
+			}
 			unset($file, $smtp);
 		}
 	}
@@ -214,7 +220,7 @@ $table_prefix = getenv( 'DB_PREFIX' ) !== false ? getenv( 'DB_PREFIX' ) : 'wp_';
   if (file_exists(dirname(__FILE__) . '/wp-config-cul-uls.php') && !isset($_ENV['PANTHEON_ENVIRONMENT'])) {
  require_once(dirname(__FILE__) . '/wp-config-cul-uls.php');
   }
-  
+
 /**
  * Use https all the time
  * see https://pantheon.io/docs/http-to-https/#redirect-to-https-and-the-primary-domain
@@ -231,22 +237,22 @@ if (isset($_ENV['PANTHEON_ENVIRONMENT']) && php_sapi_name() != 'cli') {
    // Redirect to HTTPS on every Pantheon environment.
    $primary_domain = $_SERVER['HTTP_HOST'];
  }
-  
+
  if ($_SERVER['HTTP_HOST'] != $primary_domain
    || !isset($_SERVER['HTTP_USER_AGENT_HTTPS'])
    || $_SERVER['HTTP_USER_AGENT_HTTPS'] != 'ON' ) {
-  
+
    # Name transaction "redirect" in New Relic for improved reporting (optional)
    if (extension_loaded('newrelic')) {
    newrelic_name_transaction("redirect");
    }
-  
+
    header('HTTP/1.0 301 Moved Permanently');
    header('Location: https://'. $primary_domain . $_SERVER['REQUEST_URI']);
    exit();
  }
-  }  
-  
+  }
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
