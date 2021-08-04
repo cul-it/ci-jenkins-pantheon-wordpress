@@ -146,6 +146,7 @@ to just above
 
 * Install terminus secrets: https://github.com/pantheon-systems/terminus-secrets-plugin
 * Set a secret for each site (dev,test,live) with the key 'SMTP_PW' and the correct value (ask for it)
+* Set secrets 'SAML_SALT' and 'SAML_ADMIN_PAW' for each site
 
 ```
 terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
