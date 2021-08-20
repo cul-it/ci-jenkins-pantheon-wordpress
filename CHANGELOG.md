@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Coming Soon Page, Maintenance Mode & Landing Pages by SeedProd v6.6.0](https://www.seedprod.com/)
 - [FileBird Lite v4.9](https://wordpress.org/plugins/filebird/)
 - [Google Analytics Dashboard v6.8.0](https://wordpress.org/plugins/)
+- [Kirki Customizer Framework v3.1.9](https://wordpress.org/plugins/kirki/)
 
 ## [v1.8.0] -  2021-08-20
 ### Changed
