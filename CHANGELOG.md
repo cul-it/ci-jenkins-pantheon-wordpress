@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Access Manager v6.7.7](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Advanced Custom Fields Pro v5.9.9](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
 - [Akismet Anti-Spam v4.1.10](https://wordpress.org/plugins/akismet/#developers)
+- [Coming Soon Page, Maintenance Mode & Landing Pages by SeedProd v6.6.0](https://www.seedprod.com/)
 
 ## [v1.8.0] -  2021-08-20
 ### Changed
