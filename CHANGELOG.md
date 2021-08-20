@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.8.1] - 2021-08-20
 ### Changed
 - [Advanced Access Manager v6.7.7](https://wordpress.org/plugins/advanced-access-manager/#developers)
-
+- [Advanced Custom Fields Pro v5.9.9](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+-
 ## [v1.8.0] -  2021-08-20
 ### Changed
 - [WordPress v5.8](https://make.wordpress.org/core/)
