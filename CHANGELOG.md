@@ -17,7 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Relevanssi v4.13.3.1](https://wordpress.org/plugins/relevanssi/)
 - [WP Mail SMTP v3.0.3](https://wordpress.org/plugins/wp-mail-smtp/)
 - [WP SAML Auth v1.2.5](https://wordpress.org/plugins/wp-saml-auth/)
-
+- pear/archive_tar 1.4.13 conflicts with roave/security-advisories - [pear/archive_tar 1.4.14](https://github.com/advisories/GHSA-rpw6-9xfx-jvcx)
+-
 ## [v1.8.0] -  2021-08-20
 ### Changed
 - [WordPress v5.8](https://make.wordpress.org/core/)
