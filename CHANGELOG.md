@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Kirki Customizer Framework v3.1.9](https://wordpress.org/plugins/kirki/)
 - [Redirection v5.1.3](https://wordpress.org/plugins/redirection/)
 - [Relevanssi v4.13.3.1](https://wordpress.org/plugins/relevanssi/)
+- [WP Mail SMTP v3.0.3](https://wordpress.org/plugins/wp-mail-smtp/)
 
 ## [v1.8.0] -  2021-08-20
 ### Changed
