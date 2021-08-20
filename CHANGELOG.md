@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - [Advanced Access Manager v6.7.7](https://wordpress.org/plugins/advanced-access-manager/#developers)
 - [Advanced Custom Fields Pro v5.9.9](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+- [Akismet Anti-Spam v4.1.10](https://wordpress.org/plugins/akismet/#developers)
+- [Coming Soon Page, Maintenance Mode & Landing Pages by SeedProd v6.6.0](https://www.seedprod.com/)
+- [FileBird Lite v4.9](https://wordpress.org/plugins/filebird/)
+- [Google Analytics Dashboard v6.8.0](https://wordpress.org/plugins/)
+- [Kirki Customizer Framework v3.1.9](https://wordpress.org/plugins/kirki/)
+- [Redirection v5.1.3](https://wordpress.org/plugins/redirection/)
+- [Relevanssi v4.13.3.1](https://wordpress.org/plugins/relevanssi/)
+- [WP Mail SMTP v3.0.3](https://wordpress.org/plugins/wp-mail-smtp/)
+- [WP SAML Auth v1.2.5](https://wordpress.org/plugins/wp-saml-auth/)
+- pear/archive_tar 1.4.13 conflicts with roave/security-advisories - [pear/archive_tar 1.4.14](https://github.com/advisories/GHSA-rpw6-9xfx-jvcx)
 -
 ## [v1.8.0] -  2021-08-20
 ### Changed
