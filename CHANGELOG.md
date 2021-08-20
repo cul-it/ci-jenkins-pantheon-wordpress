@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.8.1] - 2021-08-20
+### Changed
+- [Advanced Access Manager v6.7.7](https://wordpress.org/plugins/advanced-access-manager/#developers)
+- [Advanced Custom Fields Pro v5.9.9](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+-
 ## [v1.8.0] -  2021-08-20
 ### Changed
 - [WordPress v5.8](https://make.wordpress.org/core/)
@@ -622,6 +627,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.8.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.1
 [v1.8.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.0
 [v1.7.14]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.14
 [v1.7.13]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.13
