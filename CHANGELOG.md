@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Akismet Anti-Spam v4.1.10](https://wordpress.org/plugins/akismet/#developers)
 - [Coming Soon Page, Maintenance Mode & Landing Pages by SeedProd v6.6.0](https://www.seedprod.com/)
 - [FileBird Lite v4.9](https://wordpress.org/plugins/filebird/)
+- [Google Analytics Dashboard v6.8.0](https://wordpress.org/plugins/)
 
 ## [v1.8.0] -  2021-08-20
 ### Changed
