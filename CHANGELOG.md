@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.8.2] - 2021-08-27
+### Changed
+- [Elementor Pro v3.3.8](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [Akismet Anti-Spam v4.1.11](https://dev-wp-ci-library-cornell-edu.pantheonsite.io/wp/wp-admin/plugin-install.php?tab=plugin-information&plugin=akismet&section=changelog&TB_iframe=true&width=772&height=749#:~:text=WordPress.org%20Plugin%20Page%20%C2%BB)
+- [Easy Notification Bar v1.4.2](https://wordpress.org/plugins/easy-notification-bar/)
+- [FileBird Lite v4.9.1](https://wordpress.org/plugins/filebird/)
+- [PublishPress Capabilities v2.2](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Update Custom loop v1.2.5](https://github.com/cul-it/wp-custom-loop-widget/releases/tag/v1.2.5)
+- [CULU update v1.6.1](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.1)
+
 ## [v1.8.1] - 2021-08-20
 ### Changed
 - [Advanced Access Manager v6.7.7](https://wordpress.org/plugins/advanced-access-manager/#developers)
