@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.8.5] - 2021-09-01
+### Changed
+- [FacetWP Conditional Logic v1.4.1.1](https://github.com/cul-it/facetwp-conditional-logic/releases/tag/v1.4.1)
+
 ## [v1.8.4] - 2021-09-01
 ### Added
 - [CULU update v1.6.2](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.2)
@@ -663,6 +667,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.8.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.5
 [v1.8.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.4
 [v1.8.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.3
 [v1.8.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.2
