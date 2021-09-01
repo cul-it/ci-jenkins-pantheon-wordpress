@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.8.5] - 2021-09-01
+### Changed
+- [FacetWP Conditional Logic v1.4.1.1](https://github.com/cul-it/facetwp-conditional-logic/releases/tag/v1.4.1)
+
+## [v1.8.4] - 2021-09-01
+### Added
+- [CULU update v1.6.2](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.2)
+
+### Changed
+- [Elementor v3.4.3](https://wordpress.org/plugins/elementor/)
+- [Elementor Pro v3.4.1](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [ACF v5.10.2](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)
+- [FacetWP v3.8.11](https://github.com/cul-it/facetwp/releases/tag/v3.8.11)
+- [FacetWP Conditional Logic v1.4.1](https://github.com/cul-it/facetwp-conditional-logic/releases/tag/v1.4.1)
+
 ## [v1.8.3] - 2021-08-27
 ### Changed
 - [Elementor v3.2.5](https://wordpress.org/plugins/elementor/)
@@ -652,7 +667,10 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
-[v1.8.2: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.2
+[v1.8.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.5
+[v1.8.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.4
+[v1.8.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.3
+[v1.8.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.2
 [v1.8.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.1
 [v1.8.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.0
 [v1.7.14]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.7.14
