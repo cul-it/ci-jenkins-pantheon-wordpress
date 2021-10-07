@@ -4,6 +4,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.8.6] - 2021-10-07
+### Changed
+- [WordPress v5.8](https://make.wordpress.org/core/)
+- [ACF: Better Search v4.0.0](https://wordpress.org/plugins/acf-better-search/)
+- [Advanced Access Manager v6.7.8](https://wordpress.org/plugins/advanced-access-manager/)
+- [Advanced Custom Fields: Image Aspect Ratio Crop v5.1.4](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
+- [Akismet Anti-Spam v4.2.1](https://wordpress.org/plugins/akismet/)
+- [Code Snippets v2.14.2](https://wordpress.org/plugins/code-snippets/)
+- [Custom Post Type UI v1.10.0](https://wordpress.org/plugins/custom-post-type-ui/)
+- [Draw Attention Pro v1.13.7](https://github.com/cul-it/draw-attention-pro/releases/tag/v1.13.7)
+- [Easy Notification Bar v1.4.3](https://wordpress.org/plugins/easy-notification-bar/)
+- [Elementor v3.4.4](https://wordpress.org/plugins/elementor/)
+- [FileBird Lite v4.9.3](https://wordpress.org/plugins/filebird/)
+- [Google Analytics Dashboard for WP (GADWP) v7.1.0](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/)
+- [Intuitive Custom Post Order v3.1.3](https://wordpress.org/plugins/intuitive-custom-post-order/)
+- [Native PHP Sessions for WordPress v1.2.4](https://wordpress.org/plugins/wp-native-php-sessions/)
+- [WP Mail SMTP v3.1.0](https://wordpress.org/plugins/wp-mail-smtp/)
+- [WP RSS Aggregator v4.19.1](https://wordpress.org/plugins/wp-rss-aggregator/)
+
+### Added
+- [CULU update v1.6.3](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.3)
+
 ## [v1.8.5] - 2021-09-01
 ### Changed
 - [FacetWP Conditional Logic v1.4.1.1](https://github.com/cul-it/facetwp-conditional-logic/releases/tag/v1.4.1)
@@ -667,6 +689,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.8.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.6
 [v1.8.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.5
 [v1.8.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.4
 [v1.8.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.3
