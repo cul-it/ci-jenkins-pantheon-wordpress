@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.8.6] - 2021-10-07
 ### Changed
-- [WordPress v5.8](https://make.wordpress.org/core/)
+- [WordPress v5.8.1](https://make.wordpress.org/core/)
 - [ACF: Better Search v4.0.0](https://wordpress.org/plugins/acf-better-search/)
 - [Advanced Access Manager v6.7.8](https://wordpress.org/plugins/advanced-access-manager/)
 - [Advanced Custom Fields: Image Aspect Ratio Crop v5.1.4](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
