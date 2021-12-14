@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.8.7] - 2021-12-14
+### Changed
+- [WordPress v5.8.2](https://make.wordpress.org/core/)
+- [Advanced Access Manager v6.8.0](https://wordpress.org/plugins/advanced-access-manager/)
+- [Advanced Custom Fields: Image Aspect Ratio Crop v6.0.0](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
+- [Code Snippets v2.14.3](https://wordpress.org/plugins/code-snippets/)
+- [Custom Post Type UI v1.10.1](https://wordpress.org/plugins/custom-post-type-ui/)
+- [Elementor v3.5.0](https://wordpress.org/plugins/elementor/)
+- [FileBird Lite v4.9.7](https://wordpress.org/plugins/filebird/)
+- [JSON Content Importer v1.3.13](https://wordpress.org/plugins/json-content-importer/)
+- [PublishPress Capabilities v2.2.1](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Relevanssi v4.14.4](https://wordpress.org/plugins/relevanssi/)
+- [WP Mail SMTP v3.2.1](https://wordpress.org/plugins/wp-mail-smtp/)
+- [WP RSS Aggregator v4.19.3](https://wordpress.org/plugins/wp-rss-aggregator/)
+- [WP SAML Auth v1.2.7](https://wordpress.org/plugins/wp-saml-auth/)
+
+### Added
+- [CULU update v1.6.4](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.4)
+
 ## [v1.8.6] - 2021-10-07
 ### Changed
 - [WordPress v5.8.1](https://make.wordpress.org/core/)
@@ -689,6 +708,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.8.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.7
 [v1.8.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.6
 [v1.8.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.5
 [v1.8.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.8.4
