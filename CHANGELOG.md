@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.8.8] - 2022-01-10
+### Changed
+- [WordPress v5.8.3](https://make.wordpress.org/core/)
+- [Easy Notification Bar v1.4.4](https://wordpress.org/plugins/easy-notification-bar/)
+- [Elementor v3.5.3](https://wordpress.org/plugins/elementor/)
+- [FileBird Lite v4.9.8](https://wordpress.org/plugins/filebird/)
+- [Google Analytics Dashboard for WP (GADWP) v7.3.0](https://wordpress.org/plugins/)
+- [PublishPress Capabilities v2.3.2](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Relevanssi v4.14.6](https://wordpress.org/plugins/relevanssi/)
+- [WP RSS Aggregator v4.19.3](https://wordpress.org/plugins/wp-rss-aggregator/)
+- [WP SAML Auth v2.0.0](https://wordpress.org/plugins/wp-saml-auth/)
+
 ## [v1.8.7] - 2021-12-14
 ### Changed
 - [WordPress v5.8.2](https://make.wordpress.org/core/)
