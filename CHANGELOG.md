@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.9.0] - 2022-01-31
+- [WordPress v5.9](https://make.wordpress.org/core/)
+### Changed
+- [ACF: Better Search v4.0.1](https://wordpress.org/plugins/acf-better-search/)
+- [Advanced Custom Fields Pro v5.11.4](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+- [Akismet Anti-Spam v4.2.2](https://wordpress.org/plugins/akismet/)
+- [Coming Soon Page & Maintenance Mode v6.9.0.8](https://wordpress.org/plugins/coming-soon/#developers)
+- [Custom Post Type UI v1.10.2](https://wordpress.org/plugins/custom-post-type-ui/)
+- [Elementor v3.5.4](https://wordpress.org/plugins/elementor/)
+- [Elementor Pro v3.5.2](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [Google Analytics Dashboard for WP (GADWP) v7.3.2](https://wordpress.org/plugins/)
+- [PublishPress Capabilities v2.3.4](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Redirection v5.2.2](https://wordpress.org/plugins/redirection/)
+- [Relevanssi v4.14.7](https://wordpress.org/plugins/relevanssi/)
+- [WP SAML Auth v2.0.1](https://wordpress.org/plugins/wp-saml-auth/)
+
+
 ## [v1.8.8] - 2022-01-10
 ### Changed
 - [WordPress v5.8.3](https://make.wordpress.org/core/)
