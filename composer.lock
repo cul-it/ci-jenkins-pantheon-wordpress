@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9bf5fa533dbfaae7b65a33bc69072b53",
+    "content-hash": "b4225547d19437482f8f115d09e697e7",
     "packages": [
         {
             "name": "10up/distributor",
@@ -310,16 +310,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.6.5",
+            "version": "v1.6.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-cul-theme-culu.git",
-                "reference": "6d96592a978cbe6a038d1c4764d2c6513ae6a28a"
+                "reference": "9f54a20a92c9cc51d985efb59158164d33ef338e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/6d96592a978cbe6a038d1c4764d2c6513ae6a28a",
-                "reference": "6d96592a978cbe6a038d1c4764d2c6513ae6a28a",
+                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/9f54a20a92c9cc51d985efb59158164d33ef338e",
+                "reference": "9f54a20a92c9cc51d985efb59158164d33ef338e",
                 "shasum": ""
             },
             "require": {
@@ -338,10 +338,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.6.5",
+                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.6.6",
                 "issues": "https://github.com/cul-it/wp-cul-theme-culu/issues"
             },
-            "time": "2022-02-01T16:59:41+00:00"
+            "time": "2022-02-04T20:17:20+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -1051,12 +1051,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2258,12 +2258,12 @@
             },
             "type": "project",
             "autoload": {
-                "psr-4": {
-                    "SimpleSAML\\": "lib/SimpleSAML"
-                },
                 "files": [
                     "lib/_autoload_modules.php"
-                ]
+                ],
+                "psr-4": {
+                    "SimpleSAML\\": "lib/SimpleSAML"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5586,16 +5586,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.14.10",
+            "version": "v2.14.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "95fb194cd4dd6ac373a27af2bde2bad5d3f27aba"
+                "reference": "66baa66f29ee30e487e05f1679903e36eb01d727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/95fb194cd4dd6ac373a27af2bde2bad5d3f27aba",
-                "reference": "95fb194cd4dd6ac373a27af2bde2bad5d3f27aba",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/66baa66f29ee30e487e05f1679903e36eb01d727",
+                "reference": "66baa66f29ee30e487e05f1679903e36eb01d727",
                 "shasum": ""
             },
             "require": {
@@ -5658,7 +5658,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-03T21:13:26+00:00"
+            "time": "2022-02-04T06:57:25+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -5830,15 +5830,15 @@
         },
         {
             "name": "wpackagist-plugin/acf-image-aspect-ratio-crop",
-            "version": "6.0.0",
+            "version": "6.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/acf-image-aspect-ratio-crop/",
-                "reference": "tags/6.0.0"
+                "reference": "tags/6.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-image-aspect-ratio-crop.6.0.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/acf-image-aspect-ratio-crop.6.0.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5964,7 +5964,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/code-snippets.zip?timestamp=1639189833"
+                "url": "https://downloads.wordpress.org/plugin/code-snippets.zip?timestamp=1643903335"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6046,15 +6046,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.5.4",
+            "version": "3.5.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.5.4"
+                "reference": "tags/3.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.5.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.5.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7131,11 +7131,11 @@
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "hamcrest"
-                ],
                 "files": [
                     "hamcrest/Hamcrest.php"
+                ],
+                "classmap": [
+                    "hamcrest"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7299,12 +7299,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "DeepCopy\\": "src/DeepCopy/"
-                },
                 "files": [
                     "src/DeepCopy/deep_copy.php"
-                ]
+                ],
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -8219,12 +8219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "fa60732bcafd446e9ff858eefa06cdcbae8d9823"
+                "reference": "8ba45c14eb7b79db601052ba90c2811d9b028d7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/fa60732bcafd446e9ff858eefa06cdcbae8d9823",
-                "reference": "fa60732bcafd446e9ff858eefa06cdcbae8d9823",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/8ba45c14eb7b79db601052ba90c2811d9b028d7a",
+                "reference": "8ba45c14eb7b79db601052ba90c2811d9b028d7a",
                 "shasum": ""
             },
             "conflict": {
@@ -8523,7 +8523,7 @@
                 "symfony/dependency-injection": ">=2,<2.0.17|>=2.7,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7",
                 "symfony/error-handler": ">=4.4,<4.4.4|>=5,<5.0.4",
                 "symfony/form": ">=2.3,<2.3.35|>=2.4,<2.6.12|>=2.7,<2.7.50|>=2.8,<2.8.49|>=3,<3.4.20|>=4,<4.0.15|>=4.1,<4.1.9|>=4.2,<4.2.1",
-                "symfony/framework-bundle": "<5.3.15|>=5.4,<5.4.4|>=6,<6.0.4",
+                "symfony/framework-bundle": ">=2,<2.3.18|>=2.4,<2.4.8|>=2.5,<2.5.2|>=2.7,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7|>=5.3.14,<=5.3.14|>=5.4.3,<=5.4.3|>=6.0.3,<=6.0.3|= 6.0.3|= 5.4.3|= 5.3.14",
                 "symfony/http-foundation": ">=2,<2.8.52|>=3,<3.4.35|>=4,<4.2.12|>=4.3,<4.3.8|>=4.4,<4.4.7|>=5,<5.0.7",
                 "symfony/http-kernel": ">=2,<2.8.52|>=3,<3.4.35|>=4,<4.2.12|>=4.3,<4.4.13|>=5,<5.1.5|>=5.2,<5.3.12",
                 "symfony/intl": ">=2.7,<2.7.38|>=2.8,<2.8.31|>=3,<3.2.14|>=3.3,<3.3.13",
@@ -8550,6 +8550,7 @@
                 "t3/dce": ">=2.2,<2.6.2",
                 "t3g/svg-sanitizer": "<1.0.3",
                 "tecnickcom/tcpdf": "<6.2.22",
+                "terminal42/contao-tablelookupwizard": ">=1,<3.3.5",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
                 "thelia/thelia": ">=2.1-beta.1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
@@ -8653,7 +8654,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-01T15:19:50+00:00"
+            "time": "2022-02-04T09:12:31+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
