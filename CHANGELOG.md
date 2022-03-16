@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.9.3] - 2022-03-16
+### Added
+- [CULU update v1.6.7](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.7)
+
+### Changed
+- [WordPress v5.9.2](https://make.wordpress.org/core/)
+- [ACF to REST API v3.3.3](https://wordpress.org/plugins/acf-to-rest-api/#developers)
+- [Anywhere Elementor - v1.2.5](https://wordpress.org/plugins/anywhere-elementor/#description)
+- [Coming Soon Page & Maintenance Mode v6.10.0](https://wordpress.org/plugins/coming-soon/#developers)
+- [Easy Notification Bar v1.4.5](https://wordpress.org/plugins/easy-notification-bar/)
+- [Elementor v3.5.6](https://wordpress.org/plugins/elementor/)	
+- [Google Analytics Dashboard for WP (GADWP) v7.4.0](https://wordpress.org/plugins/)
+- [Kirki Customizer Framework v4.0.22](https://wordpress.org/plugins/kirki/)
+- [Redirection v5.2.3](https://wordpress.org/plugins/redirection/)
+- [Relevanssi v4.15.0](https://wordpress.org/plugins/relevanssi/)
+- [WP Mail SMTP v3.3.0](https://wordpress.org/plugins/wp-mail-smtp/)
+
 ## [v1.9.2] - 2022-02-04
 ### Added
 - [CULU update v1.6.6](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.6)
@@ -748,6 +765,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.9.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.3
 [v1.9.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.2
 [v1.9.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.1
 [v1.9.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.0
