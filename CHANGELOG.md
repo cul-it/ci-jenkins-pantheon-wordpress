@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.9.4] - 2022-05-02
+### Changed
+- [WordPress v5.9.3](https://make.wordpress.org/core/)
+- [Advanced Custom Fields Pro v5.12.2](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+- [Akismet Anti-Spam v4.2.3](https://wordpress.org/plugins/akismet/)
+- [Anywhere Elementor - v1.2.6](https://wordpress.org/plugins/anywhere-elementor/#description)
+- [Elementor v3.6.5](https://wordpress.org/plugins/elementor/)
+- [Elementor Pro v3.6.5](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [Google Analytics Dashboard for WP (GADWP) v7.5.0](https://wordpress.org/plugins/)
+- [Kirki Customizer Framework v4.0.23](https://wordpress.org/plugins/kirki/)
+- [PublishPress Capabilities v2.4.0](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Relevanssi v4.15.2](https://wordpress.org/plugins/relevanssi/)
+- [Simple Social Icons v3.1.0](https://wordpress.org/plugins/simple-social-icons)
+- [WP Mail SMTP v3.4.0](https://wordpress.org/plugins/wp-mail-smtp/)
+
 ## [v1.9.3] - 2022-03-16
 ### Added
 - [CULU update v1.6.7](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.7)
@@ -765,6 +780,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.9.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.4
 [v1.9.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.3
 [v1.9.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.2
 [v1.9.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.1
