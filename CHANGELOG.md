@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.9.5] - 2022-05-03
+### Changed
+- [Relevanssi v4.15.0](https://wordpress.org/plugins/relevanssi/)
+
 ## [v1.9.4] - 2022-05-02
 ### Changed
 - [WordPress v5.9.3](https://make.wordpress.org/core/)
@@ -780,6 +784,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.9.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.5
 [v1.9.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.4
 [v1.9.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.3
 [v1.9.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.2

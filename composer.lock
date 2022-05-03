@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac72ce09795d7ae380c1646fb022455e",
+    "content-hash": "8f13633b57f54dbe07c9065a66eeed87",
     "packages": [
         {
             "name": "10up/distributor",
@@ -6208,15 +6208,15 @@
         },
         {
             "name": "wpackagist-plugin/relevanssi",
-            "version": "4.15.2",
+            "version": "4.15.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/relevanssi/",
-                "reference": "tags/4.15.2"
+                "reference": "tags/4.15.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.15.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.15.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
