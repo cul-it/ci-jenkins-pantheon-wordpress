@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.0] - 2022-06-07
+### Changed
+- [WordPress v6.0.0](https://make.wordpress.org/core/)
+- [Advanced Access Manager v6.8.2](https://wordpress.org/plugins/advanced-access-manager/)
+- [Akismet Anti-Spam v4.2.4](https://wordpress.org/plugins/akismet/)
+- [Code Snippets v3.1.0](https://wordpress.org/plugins/code-snippets/)
+- [Google Analytics Dashboard for WP (GADWP) v7.5.3](https://wordpress.org/plugins/)
+- [Kirki Customizer Framework v4.0.24](https://wordpress.org/plugins/kirki)
+- [PublishPress Capabilities v2.4.1](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Relevanssi v4.16.0](https://wordpress.org/plugins/relevanssi/)
+
+## [v1.9.7] - 2022-06-07
+
 ## [v1.9.6] - 2022-06-07
 ### Changed
 - Dependabot alert fixes - update gems for nokogiri and rack
@@ -790,6 +803,8 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.0.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.0.0
+[v1.9.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.7
 [v1.9.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.6
 [v1.9.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.5
 [v1.9.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.4
