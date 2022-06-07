@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.9.7] - 2022-06-07
+### Changed
+- rebuild composer.lock
+
 ## [v1.9.6] - 2022-06-07
 ### Changed
 - Dependabot alert fixes - update gems for nokogiri and rack
@@ -790,6 +794,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.9.67]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.7
 [v1.9.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.6
 [v1.9.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.5
 [v1.9.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.4
