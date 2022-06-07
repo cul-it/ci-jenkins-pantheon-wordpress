@@ -158,6 +158,14 @@
         "sort-packages": true,
         "platform": {
             "php": "7.3"
+        },
+        "allow-plugins": {
+            "simplesamlphp/composer-module-installer": true,
+            "composer/installers": true,
+            "ocramius/package-versions": true,
+            "johnpbloch/wordpress-core-installer": true,
+            "cweagans/composer-patches": true,
+            "rvtraveller/qs-composer-installer": true
         }
     },
     "extra": {
