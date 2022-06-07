@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.9.6] - 2022-06-07
+### Changed
+- Dependabot alert fixes - update gems for nokogiri and rack
+- sorted out composer version issues with guzzle, qs-composer-installer
+- composer update
+
 ## [v1.9.5] - 2022-05-03
 ### Changed
 - [Relevanssi v4.15.0](https://wordpress.org/plugins/relevanssi/)
@@ -33,7 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Anywhere Elementor - v1.2.5](https://wordpress.org/plugins/anywhere-elementor/#description)
 - [Coming Soon Page & Maintenance Mode v6.10.0](https://wordpress.org/plugins/coming-soon/#developers)
 - [Easy Notification Bar v1.4.5](https://wordpress.org/plugins/easy-notification-bar/)
-- [Elementor v3.5.6](https://wordpress.org/plugins/elementor/)	
+- [Elementor v3.5.6](https://wordpress.org/plugins/elementor/)
 - [Google Analytics Dashboard for WP (GADWP) v7.4.0](https://wordpress.org/plugins/)
 - [Kirki Customizer Framework v4.0.22](https://wordpress.org/plugins/kirki/)
 - [Redirection v5.2.3](https://wordpress.org/plugins/redirection/)
@@ -43,7 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.9.2] - 2022-02-04
 ### Added
 - [CULU update v1.6.6](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.6)
-- 
+-
 ### Changed
 - [Advanced Custom Fields: Image Aspect Ratio Crop v6.0.1](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
 - [Elementor v3.5.5](https://wordpress.org/plugins/elementor/)
@@ -784,6 +790,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v1.9.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.6
 [v1.9.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.5
 [v1.9.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.4
 [v1.9.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.3
