@@ -4,13 +4,14 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
+ruby '2.6.4'
+
 group :development do
     gem "addressable", ">= 2.8.0"
     gem 'cucumber_priority', :git => 'git@github.com:makandra/cucumber_priority.git'
     gem 'rspec-expectations'
     gem "capybara-selenium"
     gem "capybara"
-    gem "chromedriver-helper"
     gem "cucumber"
     gem "inifile"
     gem "nokogiri", ">= 1.11.4"
