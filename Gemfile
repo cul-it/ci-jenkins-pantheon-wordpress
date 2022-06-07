@@ -12,7 +12,6 @@ group :development do
     gem 'rspec-expectations'
     gem "capybara-selenium"
     gem "capybara"
-    gem "chromedriver-helper"
     gem "cucumber"
     gem "inifile"
     gem "nokogiri", ">= 1.11.4"
