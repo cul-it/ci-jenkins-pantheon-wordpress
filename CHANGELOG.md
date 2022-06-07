@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Relevanssi v4.16.0](https://wordpress.org/plugins/relevanssi/)
 
 ## [v1.9.7] - 2022-06-07
+### Changed
+- rebuild composer.lock
 
 ## [v1.9.6] - 2022-06-07
 ### Changed
