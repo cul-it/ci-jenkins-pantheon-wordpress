@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.1.0] - 2022-08-16
+### Changed
+- [WordPress v6.0.1](https://make.wordpress.org/core/)
+- [Advanced Custom Fields Pro v5.12.3](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+- [Akismet Anti-Spam v5.0](https://wordpress.org/plugins/akismet/)
+- [Code Snippets v3.2.0](https://wordpress.org/plugins/code-snippets/)
+- [Coming Soon Page & Maintenance Mode v6.13.1](https://wordpress.org/plugins/coming-soon/#developers)
+- [Custom Post Type UI v1.12.1](https://wordpress.org/plugins/custom-post-type-ui/)
+- [Elementor v3.7.1](https://wordpress.org/plugins/elementor/)
+- [Elementor Pro v3.7.3](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [FileBird Lite v5.0.5](https://wordpress.org/plugins/filebird/)
+- [Google Analytics Dashboard for WP (GADWP) v7.7.0](https://wordpress.org/plugins/)
+- [PublishPress Capabilities v2.5.0](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Redirection v5.3.2](https://wordpress.org/plugins/redirection/)
+- [Simple Social Icons v3.1.1](https://wordpress.org/plugins/simple-social-icons)
+- [WP Mail SMTP v3.5.1](https://wordpress.org/plugins/wp-mail-smtp/)
+- [WP RSS Aggregator v4.21.1](https://wordpress.org/plugins/wp-rss-aggregator/)
+
 ## [v2.0.0] - 2022-06-07
 ### Changed
 - [WordPress v6.0.0](https://make.wordpress.org/core/)
@@ -805,6 +823,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.1.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.1.0
 [v2.0.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.0.0
 [v1.9.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.7
 [v1.9.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v1.9.6
