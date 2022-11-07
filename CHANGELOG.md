@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.2.2] - 2022-11-07
+### Changed
+- [Code Snippets v3.2.1](https://wordpress.org/plugins/code-snippets/)
+- [FileBird Lite v5.0.8](https://wordpress.org/plugins/filebird/)
+- [FacetWP v4.1.1](https://github.com/cul-it/facetwp/releases/tag/v4.1.1)
+
 ## [v2.2.1] - 2022-11-07
 ### Changed
 - [WordPress v6.1](https://make.wordpress.org/core/)
@@ -842,6 +848,8 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.2.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.0
+[v2.2.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.0
 [v2.2.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.0
 [v2.1.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.1.0
 [v2.0.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.0.0

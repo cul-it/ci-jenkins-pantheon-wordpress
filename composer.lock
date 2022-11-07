@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55f059136ad62268b19f0615377f6764",
+    "content-hash": "0ae837aecb6a0d020876cffa02aad65b",
     "packages": [
         {
             "name": "10up/distributor",
@@ -403,16 +403,16 @@
         },
         {
             "name": "cul-it/facetwp",
-            "version": "v3.8.11",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/facetwp.git",
-                "reference": "cf2da6c96b833752b4530d799cead02e4e084cfd"
+                "reference": "182f9e527f79e5eac37c011591ea41e57d65514b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/cf2da6c96b833752b4530d799cead02e4e084cfd",
-                "reference": "cf2da6c96b833752b4530d799cead02e4e084cfd",
+                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/182f9e527f79e5eac37c011591ea41e57d65514b",
+                "reference": "182f9e527f79e5eac37c011591ea41e57d65514b",
                 "shasum": ""
             },
             "require": {
@@ -421,10 +421,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/facetwp/tree/v3.8.11",
+                "source": "https://github.com/cul-it/facetwp/tree/v4.1.1",
                 "issues": "https://github.com/cul-it/facetwp/issues"
             },
-            "time": "2021-09-01T17:11:34+00:00"
+            "time": "2022-11-07T22:59:13+00:00"
         },
         {
             "name": "cul-it/facetwp-conditional-logic",
@@ -6333,15 +6333,15 @@
         },
         {
             "name": "wpackagist-plugin/code-snippets",
-            "version": "3.1.1",
+            "version": "3.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/code-snippets/",
-                "reference": "tags/3.1.1"
+                "reference": "tags/3.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/code-snippets.3.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/code-snippets.3.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6441,15 +6441,15 @@
         },
         {
             "name": "wpackagist-plugin/filebird",
-            "version": "4.3.1",
+            "version": "5.0.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/filebird/",
-                "reference": "tags/4.3.1"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/filebird.4.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1665387468"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
