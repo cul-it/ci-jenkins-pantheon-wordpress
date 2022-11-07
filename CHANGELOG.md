@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.2.1] - 2022-11-07
+### Changed
+- [WordPress v6.1](https://make.wordpress.org/core/)
+- [Coming Soon Page & Maintenance Mode v6.15.6](https://wordpress.org/plugins/coming-soon/#developers)
+- [Elementor v3.8.0](https://wordpress.org/plugins/elementor/)
+- [Native PHP Sessions for WordPress v1.2.5](https://wordpress.org/plugins/wp-native-php-sessions/)
+- [Pantheon-advanced-page-cache v1.1.1](https://wordpress.org/plugins/pantheon-advanced-page-cache/#developers)
+- [PublishPress Capabilities v2.6.0](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Redirection v5.3.5](https://wordpress.org/plugins/redirection/)
+- [WP RSS Aggregator v4.22](https://wordpress.org/plugins/wp-rss-aggregator/)
+- [Code Snippets v3.1.1](https://wordpress.org/plugins/code-snippets/). Downgrading this plugins since there is no v3.2.0. That's what we had prior to this new release.
+- [FileBird Lite v4.3.1](https://wordpress.org/plugins/filebird/). Downgrading this plugins since there is no v5.0.5. That's what we had prior to this new release.
+### Added
+- [CULU update v1.6.8](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.8)
+
 ## [v2.2.0] - 2022-09-01
 ### Changed
 - [WordPress v6.0.2](https://make.wordpress.org/core/)
