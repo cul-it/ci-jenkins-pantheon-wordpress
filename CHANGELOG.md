@@ -5,6 +5,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [v2.2.4] - 2022-11-07
+### Changed
+- [WordPress v6.0.1](https://make.wordpress.org/core/)
+- [Advanced Custom Fields Pro v5.12.3](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt)]
+- [Akismet Anti-Spam v5.0](https://wordpress.org/plugins/akismet/)
+- [Coming Soon Page & Maintenance Mode v6.13.1](https://wordpress.org/plugins/coming-soon/#developers)
+- [Custom Post Type UI v1.12.1](https://wordpress.org/plugins/custom-post-type-ui/)
+- [Elementor v3.7.1](https://wordpress.org/plugins/elementor/)
+- [Elementor Pro v3.7.3](https://github.com/cul-it/elementor-pro/blob/master/changelog.txt)
+- [Google Analytics Dashboard for WP (GADWP) v7.7.0](https://wordpress.org/plugins/)
+- [PublishPress Capabilities v2.5.0](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Redirection v5.3.2](https://wordpress.org/plugins/redirection/)
+- [Simple Social Icons v3.1.1](https://wordpress.org/plugins/simple-social-icons)
+- [WP Mail SMTP v3.5.1](https://wordpress.org/plugins/wp-mail-smtp/)
+- [WP RSS Aggregator v4.21.1](https://wordpress.org/plugins/wp-rss-aggregator/)
+
+
 ## [v2.2.3] - 2022-11-07
 ### Changed
 - [FacetWP v3.8.11](https://github.com/cul-it/facetwp/releases/tag/v3.8.11)
@@ -35,6 +52,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v2.2.0] - 2022-09-01
 ### Changed
 - [WordPress v6.0.2](https://make.wordpress.org/core/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## [v2.1.0] - 2022-08-16
 ### Changed
@@ -855,9 +887,10 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
-[v2.2.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.0
-[v2.2.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.0
-[v2.2.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.0
+[v2.2.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.4
+[v2.2.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.3
+[v2.2.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.2
+[v2.2.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.1
 [v2.2.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.0
 [v2.1.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.1.0
 [v2.0.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.0.0

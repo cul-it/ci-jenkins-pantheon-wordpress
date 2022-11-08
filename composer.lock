@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d21f6c2b6439ae567989ff11aa35f8fe",
+    "content-hash": "dbaa74dea13111eb1849df9d9b38672a",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1341,16 +1341,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "6.0.2",
+            "version": "6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "d24015fad19234077923e7821c6b955d6707cd84"
+                "reference": "807cb404018da456edaa9de985d59e2c6304b0cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/d24015fad19234077923e7821c6b955d6707cd84",
-                "reference": "d24015fad19234077923e7821c6b955d6707cd84",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/807cb404018da456edaa9de985d59e2c6304b0cd",
+                "reference": "807cb404018da456edaa9de985d59e2c6304b0cd",
                 "shasum": ""
             },
             "require": {
@@ -1368,10 +1368,10 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.0.2",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.0.1",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2022-08-30T19:11:33+00:00"
+            "time": "2022-07-12T21:06:58+00:00"
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
@@ -6315,15 +6315,15 @@
         },
         {
             "name": "wpackagist-plugin/capability-manager-enhanced",
-            "version": "2.6.0",
+            "version": "2.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
-                "reference": "tags/2.6.0"
+                "reference": "tags/2.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.5.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6351,15 +6351,15 @@
         },
         {
             "name": "wpackagist-plugin/coming-soon",
-            "version": "6.15.6",
+            "version": "6.13.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coming-soon/",
-                "reference": "tags/6.15.6"
+                "reference": "tags/6.13.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.15.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.13.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6423,15 +6423,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.8.0",
+            "version": "3.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.8.0"
+                "reference": "tags/3.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6567,15 +6567,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.3.5",
+            "version": "5.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.3.5"
+                "reference": "tags/5.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6693,15 +6693,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-rss-aggregator",
-            "version": "4.22",
+            "version": "4.21.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-rss-aggregator/",
-                "reference": "tags/4.22"
+                "reference": "tags/4.21.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.22.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.21.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
