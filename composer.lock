@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78c4d54046523b910334cfbbfcd4aa40",
+    "content-hash": "4194d7b3b282a842b8972ee2501a8148",
     "packages": [
         {
             "name": "10up/distributor",
@@ -318,16 +318,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.6.9",
+            "version": "v1.6.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-cul-theme-culu.git",
-                "reference": "f29e93f16ccbf224c513567db05ea0a21ca66946"
+                "reference": "0d9309f5b11e88c3f2550b84d813d9b9958b155d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/f29e93f16ccbf224c513567db05ea0a21ca66946",
-                "reference": "f29e93f16ccbf224c513567db05ea0a21ca66946",
+                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/0d9309f5b11e88c3f2550b84d813d9b9958b155d",
+                "reference": "0d9309f5b11e88c3f2550b84d813d9b9958b155d",
                 "shasum": ""
             },
             "require": {
@@ -346,10 +346,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.6.9",
+                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.6.11",
                 "issues": "https://github.com/cul-it/wp-cul-theme-culu/issues"
             },
-            "time": "2023-01-17T21:36:31+00:00"
+            "time": "2023-01-18T14:42:18+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
