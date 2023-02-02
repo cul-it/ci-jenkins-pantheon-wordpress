@@ -206,18 +206,18 @@
             "./scripts/composer/cleanup-composer"
         ],
         "pre-install-cmd": [
-            "if [ -f ../../../../private/simplesaml/config/config.php ];then rm -f ./vendor/simplesamlphp/simplesamlphp/config/config.php; fi",
-            "if [ -f ../../../../private/simplesaml/config/authsources.php ];then rm -f ./vendor/simplesamlphp/simplesamlphp/config/authsources.php; fi",
-            "if [ -f ../../../../private/simplesaml/metadata/saml20-idp-remote.php ];then rm -f ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php; fi",
-            "if [ -f ../../../../private/simplesaml/metadata/shib13-idp-remote.php ];then rm -f ./vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php; fi"
+            "rm -f ./vendor/simplesamlphp/simplesamlphp/config/config.php",
+            "rm -f ./vendor/simplesamlphp/simplesamlphp/config/authsources.php",
+            "rm -f ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php",
+            "rm -f ./vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php"
         ],
         "post-install-cmd": [
             "@cleanup",
             "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
-            "if [ -f ../../../../private/simplesaml/config/config.php ];then ln -s ../../../../private/simplesaml/config/config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php; fi",
-            "if [ -f ../../../../private/simplesaml/config/authsources.php ];then ln -s ../../../../private/simplesaml/config/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php; fi",
-            "if [ -f ../../../../private/simplesaml/metadata/saml20-idp-remote.php ];then ln -s ../../../../private/simplesaml/metadata/saml20-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php; fi",
-            "if [ -f ../../../../private/simplesaml/metadata/shib13-idp-remote.php ];then ln -s ../../../../private/simplesaml/metadata/shib13-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php; fi"
+            "ln -s ../../../../private/simplesaml/config/config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php",
+            "ln -s ../../../../private/simplesaml/config/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php",
+            "ln -s ../../../../private/simplesaml/metadata/saml20-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php",
+            "ln -s ../../../../private/simplesaml/metadata/shib13-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php"
         ],
         "post-update-cmd": [
             "@cleanup",
