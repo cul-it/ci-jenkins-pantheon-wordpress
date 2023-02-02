@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.2.9] - 2023-02-02
+- [CULU update v1.6.13](https://github.com/cul-it/wp-cul-theme-culu/releases/tag/v1.6.13)
+- in composer.json, prevent change to simplesaml symbolic links if the target files in ...private/simplesaml do not exist
+
 ## [v2.2.8] - 2023-01-19
 - dependabot - update rack to 2.2.6.2
 - test Pantheon autopilot
@@ -903,6 +907,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.2.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.9
 [v2.2.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.8
 [v2.2.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.7
 [v2.2.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.6
