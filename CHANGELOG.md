@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v2.2.13] - 2023-02-03
 - move saml link maintenance out of composer.json
+- dependabot security update to symphony/http-kernel
 
 ## [v2.2.12] - 2023-02-03
 - pick up new culu
