@@ -205,19 +205,9 @@
         "cleanup": [
             "./scripts/composer/cleanup-composer"
         ],
-        "pre-install-cmd": [
-            "rm -f ./vendor/simplesamlphp/simplesamlphp/config/config.php",
-            "rm -f ./vendor/simplesamlphp/simplesamlphp/config/authsources.php",
-            "rm -f ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php",
-            "rm -f ./vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php"
-        ],
         "post-install-cmd": [
             "@cleanup",
-            "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
-            "ln -s ../../../../private/simplesaml/config/config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php",
-            "ln -s ../../../../private/simplesaml/config/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php",
-            "ln -s ../../../../private/simplesaml/metadata/saml20-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php",
-            "ln -s ../../../../private/simplesaml/metadata/shib13-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php"
+            "WordPressProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-update-cmd": [
             "@cleanup",
