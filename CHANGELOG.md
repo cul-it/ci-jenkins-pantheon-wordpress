@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.2.13] - 2023-02-03
+- move saml link maintenance out of composer.json
+- dependabot security update to symphony/http-kernel
+
 ## [v2.2.12] - 2023-02-03
 - pick up new culu
 
@@ -916,6 +920,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.2.13]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.13
 [v2.2.12]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.12
 [v2.2.11]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.11
 [v2.2.10]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.10
