@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9556bc2e74ad407cbd1155e7f4fc2cb",
+    "content-hash": "245913947bc15331baa63087f66d90f0",
     "packages": [
         {
             "name": "10up/distributor",
@@ -452,16 +452,16 @@
         },
         {
             "name": "cul-it/wp-custom-loop-widget",
-            "version": "v1.2.5",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-custom-loop-widget.git",
-                "reference": "667066a6f5ec6b4e1236522de1b80b7dda75f45b"
+                "reference": "0a988e48f09fa5f6448218d507348eecf7feb157"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/667066a6f5ec6b4e1236522de1b80b7dda75f45b",
-                "reference": "667066a6f5ec6b4e1236522de1b80b7dda75f45b",
+                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/0a988e48f09fa5f6448218d507348eecf7feb157",
+                "reference": "0a988e48f09fa5f6448218d507348eecf7feb157",
                 "shasum": ""
             },
             "require": {
@@ -470,10 +470,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v1.2.5",
+                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v2.0.1",
                 "issues": "https://github.com/cul-it/wp-custom-loop-widget/issues"
             },
-            "time": "2021-08-24T13:16:49+00:00"
+            "time": "2023-04-17T18:52:21+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
@@ -1341,16 +1341,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "6.0.1",
+            "version": "6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "807cb404018da456edaa9de985d59e2c6304b0cd"
+                "reference": "b5803892e878e06359f61bc313527c08f6b68152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/807cb404018da456edaa9de985d59e2c6304b0cd",
-                "reference": "807cb404018da456edaa9de985d59e2c6304b0cd",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/b5803892e878e06359f61bc313527c08f6b68152",
+                "reference": "b5803892e878e06359f61bc313527c08f6b68152",
                 "shasum": ""
             },
             "require": {
@@ -1368,10 +1368,10 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.0.1",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.2",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2022-07-12T21:06:58+00:00"
+            "time": "2023-03-29T21:11:20+00:00"
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
