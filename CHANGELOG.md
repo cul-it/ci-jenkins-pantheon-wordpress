@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - dependabot update of rack
 - [WordPress v6.2](https://make.wordpress.org/core/)
 - php version 7.3 -> 7.4
+- [Update Custom loop v2.0.1](https://github.com/cul-it/wp-custom-loop-widget/releases/tag/v2.0.1)
+
 ## [v2.2.14] - 2023-02-05
 - new release to test Pantheon multidev creation after problems on platform Friday
 
@@ -927,6 +929,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.2.15]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.15
 [v2.2.14]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.14
 [v2.2.13]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.13
 [v2.2.12]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.12
