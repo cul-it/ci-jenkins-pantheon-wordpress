@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v2.2.15] - 2023-04-17
 - dependabot update of rack
 - [WordPress v6.2](https://make.wordpress.org/core/)
+- php version 7.3 -> 7.4
 ## [v2.2.14] - 2023-02-05
 - new release to test Pantheon multidev creation after problems on platform Friday
 
