@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.2.21] - 2023-04-17
+- [WordPress v6.1.1](https://make.wordpress.org/core/)
+
 ## [v2.2.20] - 2023-04-17
 - [Filebird 5.1.6](https://wordpress.org/plugins/filebird/)
 
@@ -110,21 +113,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v2.2.0] - 2022-09-01
 ### Changed
 - [WordPress v6.0.2](https://make.wordpress.org/core/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## [v2.1.0] - 2022-08-16
 ### Changed
@@ -945,6 +933,9 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.2.21]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.21
+[v2.2.20]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.20
+[v2.2.19]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.19
 [v2.2.18]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.18
 [v2.2.17]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.17
 [v2.2.16]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.16
