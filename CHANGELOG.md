@@ -4,7 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v2.2.22] - 2023-04-07
+## [v2.2.23] - 2023-04-18
+- [WordPress v6.1.1](https://make.wordpress.org/core/)
+
+## [v2.2.22] - 2023-04-18
 - [WP SAML Auth v2.1.3](https://wordpress.org/plugins/wp-saml-auth/)
 - [WordPress v6.2](https://make.wordpress.org/core/)
 - roave/security-advisories (dev-master 6b077f8 => dev-master d6da623)
@@ -938,6 +941,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.2.23]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.23
 [v2.2.22]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.22
 [v2.2.21]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.21
 [v2.2.20]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.20
