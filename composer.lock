@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "458d24741d427aa18cd35e08360d1117",
+    "content-hash": "4f46712ce250060944d32b2c39529d96",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1342,16 +1342,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "6.0.1",
+            "version": "6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "807cb404018da456edaa9de985d59e2c6304b0cd"
+                "reference": "b5803892e878e06359f61bc313527c08f6b68152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/807cb404018da456edaa9de985d59e2c6304b0cd",
-                "reference": "807cb404018da456edaa9de985d59e2c6304b0cd",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/b5803892e878e06359f61bc313527c08f6b68152",
+                "reference": "b5803892e878e06359f61bc313527c08f6b68152",
                 "shasum": ""
             },
             "require": {
@@ -1369,23 +1369,23 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.0.1",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.2",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2022-07-12T21:06:58+00:00"
+            "time": "2023-03-29T21:11:20+00:00"
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
-            "version": "v2.0.1",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wp-saml-auth.git",
-                "reference": "407717d2399c02b06c65d06c57919e631e7b37ce"
+                "reference": "d67ecccded44c5d0762d487336c8c469496677b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wp-saml-auth/zipball/407717d2399c02b06c65d06c57919e631e7b37ce",
-                "reference": "407717d2399c02b06c65d06c57919e631e7b37ce",
+                "url": "https://api.github.com/repos/pantheon-systems/wp-saml-auth/zipball/d67ecccded44c5d0762d487336c8c469496677b0",
+                "reference": "d67ecccded44c5d0762d487336c8c469496677b0",
                 "shasum": ""
             },
             "require": {
@@ -1393,14 +1393,14 @@
                 "php": "^7.3 || ^8.0"
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
                 "pantheon-systems/pantheon-wordpress-upstream-tests": "dev-master",
                 "phpcompatibility/php-compatibility": "^9.3",
-                "phpunit/phpunit": "^7",
+                "phpunit/phpunit": "^9",
                 "symfony/filesystem": "^5",
                 "symfony/service-contracts": "^2",
                 "symfony/translation-contracts": "^2",
-                "wp-coding-standards/wpcs": "^2.1",
+                "wp-coding-standards/wpcs": "dev-develop as 2.3.1",
                 "yoast/phpunit-polyfills": "^1.0"
             },
             "type": "wordpress-plugin",
@@ -1426,9 +1426,9 @@
             "description": "SAML authentication for WordPress, using SimpleSAMLphp.",
             "support": {
                 "issues": "https://github.com/pantheon-systems/wp-saml-auth/issues",
-                "source": "https://github.com/pantheon-systems/wp-saml-auth/tree/v2.0.1"
+                "source": "https://github.com/pantheon-systems/wp-saml-auth/tree/2.1.3"
             },
-            "time": "2022-01-24T13:12:35+00:00"
+            "time": "2023-04-09T03:01:00+00:00"
         },
         {
             "name": "pear/archive_tar",
