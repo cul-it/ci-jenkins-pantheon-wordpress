@@ -1,59 +1,57 @@
 <?php
 $metadata['https://shibidp.cit.cornell.edu/idp/shibboleth'] = array (
   'entityid' => 'https://shibidp.cit.cornell.edu/idp/shibboleth',
-  'contacts' => 
+  'contacts' =>
   array (
   ),
   'metadata-set' => 'saml20-idp-remote',
-  'SingleSignOnService' => 
+  'SingleSignOnService' =>
   array (
-    0 => 
+    0 =>
     array (
       'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
       'Location' => 'https://shibidp.cit.cornell.edu/idp/profile/SAML2/POST/SSO',
     ),
-    1 => 
+    1 =>
     array (
       'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign',
       'Location' => 'https://shibidp.cit.cornell.edu/idp/profile/SAML2/POST-SimpleSign/SSO',
     ),
-    2 => 
+    2 =>
     array (
       'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',
       'Location' => 'https://shibidp.cit.cornell.edu/idp/profile/SAML2/Redirect/SSO',
     ),
-    3 => 
+    3 =>
     array (
       'Binding' => 'urn:mace:shibboleth:1.0:profiles:AuthnRequest',
       'Location' => 'https://shibidp.cit.cornell.edu/idp/profile/Shibboleth/SSO',
     ),
   ),
-  'SingleLogoutService' => 
+  'SingleLogoutService' => array (),
+  'ArtifactResolutionService' =>
   array (
-  ),
-  'ArtifactResolutionService' => 
-  array (
-    0 => 
+    0 =>
     array (
       'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:SOAP',
       'Location' => 'https://shibidp.cit.cornell.edu:8443/idp/profile/SAML2/SOAP/ArtifactResolution',
       'index' => 2,
     ),
-    1 => 
+    1 =>
     array (
       'Binding' => 'urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding',
       'Location' => 'https://shibidp.cit.cornell.edu:8443/idp/profile/SAML1/SOAP/ArtifactResolution',
       'index' => 1,
     ),
   ),
-  'NameIDFormats' => 
+  'NameIDFormats' =>
   array (
     0 => 'urn:oasis:names:tc:SAML:2.0:nameid-format:transient',
     1 => 'urn:mace:shibboleth:1.0:nameIdentifier',
   ),
-  'keys' => 
+  'keys' =>
   array (
-    0 => 
+    0 =>
     array (
       'encryption' => true,
       'signing' => true,
@@ -81,27 +79,27 @@ C8N6DXggDWPtPRdpk96UW45huvXudpZenrcd7A==
                     ',
     ),
   ),
-  'scope' => 
+  'scope' =>
   array (
     0 => 'cornell.edu',
   ),
-  'UIInfo' => 
+  'UIInfo' =>
   array (
-    'DisplayName' => 
+    'DisplayName' =>
     array (
       'en' => 'Cornell University',
     ),
-    'Description' => 
+    'Description' =>
     array (
     ),
-    'InformationURL' => 
+    'InformationURL' =>
     array (
     ),
-    'PrivacyStatementURL' => 
+    'PrivacyStatementURL' =>
     array (
     ),
   ),
-  'name' => 
+  'name' =>
   array (
     'en' => 'Cornell University',
   ),
