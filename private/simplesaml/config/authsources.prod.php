@@ -1,6 +1,17 @@
 <?php
 
 $config = [
+    /*
+     * When multiple authentication sources are defined, you can specify one to use by default
+     * in order to authenticate users. In order to do that, you just need to name it "default"
+     * here. That authentication source will be used by default then when a user reaches the
+     * SimpleSAMLphp installation from the web browser, without passing through the API.
+     *
+     * If you already have named your auth source with a different name, you don't need to change
+     * it in order to use it as a default. Just create an alias by the end of this file:
+     *
+     */
+    //  $config['default'] = &$config['default-sp'];
 
     // This is a authentication source which handles admin authentication.
     'admin' => [
@@ -18,8 +29,9 @@ $config = [
 
         // see https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1
         // these are from self-signed certificate in /cert
-        'privatekey' => 'saml.pem',
-        'certificate' => 'saml.crt',
+        // /cert is the default directory - overridden by $config['certdir']
+        'privatekey' => 'file://saml.pem',
+        'certificate' => 'file://saml.crt',
 
         // this has to be set FALSE until production metadata has been updated
         // to saml20 by identity mangagement
@@ -27,11 +39,14 @@ $config = [
 
         // The entity ID of this SP.
         // Can be NULL/unset, in which case an entity ID is generated based on the metadata URL.
-        'entityID' => null,
+        'entityID' => SP_ENTITY_ID,
 
         // The entity ID of the IdP this SP should contact.
         // Can be NULL/unset, in which case the user will be shown a list of available IdPs.
         'idp' => 'https://shibidp.cit.cornell.edu/idp/shibboleth',
+
+        // NameIDFormat is included in the metadata from the IdP
+        'NameIDFormat' => 'urn:oasis:names:tc:SAML:2.0:nameid-format:transient',
 
         // The URL to the discovery service.
         // Can be NULL/unset, in which case a builtin discovery service will be used.
