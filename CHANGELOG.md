@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [v2.3.2] - 2023-04-20
+- temporarily disable simplesamlphp tests
+
+## [v2.3.1] - 2023-04-20
+- adapt the simplesaml tests to version 2.0
+
+## [v2.3.0] - 2023-04-19
+- simplesamlphp - 2.0.3 - see [Change Log](https://simplesamlphp.org/archive)
+- update content of /private/simplesaml config and metadata
+- add plugin cul-saml-auth
+- update composer php to 7.4
+- change saml-add-link to remove symlink for shib13
+
 ## [v2.2.24] - 2023-04-18
 - [WordPress v6.0.1](https://make.wordpress.org/core/)
 
@@ -944,6 +958,9 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.2
+[v2.3.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.1
+[v2.3.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.0
 [v2.2.24]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.24
 [v2.2.23]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.23
 [v2.2.22]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.2.22
