@@ -21,11 +21,11 @@ Feature: Test for basic site function
     Then I use http to go to "/about"
     And the protocol should be https
 
-  # @simplesaml
-  # Scenario: Be sure simplesaml configuration link works
-  #   Given I go to the home page
-  #   When I go to /simplesaml
-  #   Then the page should show content "SimpleSAMLphp authentication software"
+  @simplesaml
+  Scenario: Be sure simplesaml configuration link works
+    Given I go to the home page
+    When I go to /simplesaml
+    Then the page should show content "SimpleSAMLphp authentication software"
 
   # @simplesaml
   # @simplesaml-authentication

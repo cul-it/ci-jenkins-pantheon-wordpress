@@ -6,3 +6,5 @@ mkdir -p ./vendor/simplesamlphp/simplesamlphp/metadata
 ln -s -f ../../../../private/simplesaml/config/config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php
 ln -s -f ../../../../private/simplesaml/config/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php
 ln -s -f ../../../../private/simplesaml/metadata/saml20-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php
+ls -l ./vendor/simplesamlphp/simplesamlphp/config
+ls -l ./vendor/simplesamlphp/simplesamlphp/metadata
