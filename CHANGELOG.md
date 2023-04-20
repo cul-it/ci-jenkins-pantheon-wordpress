@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v2.3.5] - 2023-04-20
 - try symbolic links in composer.json
+- enable tests
 
 ## [v2.3.4] - 2023-04-20
 - disable simplesamlphp tests
