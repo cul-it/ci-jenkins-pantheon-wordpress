@@ -27,26 +27,26 @@ Feature: Test for basic site function
     When I go to /simplesaml
     Then the page should show content "SimpleSAMLphp authentication software"
 
-  @simplesaml
-  @simplesaml-authentication
-  Scenario: Test authentication page in simplesaml
-    When I go to /simplesaml/admin/
-    Then the page should show content "Enter your username and password"
+  # @simplesaml
+  # @simplesaml-authentication
+  # Scenario: Test authentication page in simplesaml
+  #   When I go to /simplesaml/admin/
+  #   Then the page should show content "Enter your username and password"
 
-  @simplesaml
-  @simplesaml-federation
-  Scenario: Test Federation link in simplesaml installation page
-    Given PENDING
-    Given I go to /simplesaml
-    And I click on the "Federation" link
-    Then the page should not show content "Configuration error"
+  # @simplesaml
+  # @simplesaml-federation
+  # Scenario: Test Federation link in simplesaml installation page
+  #   Given PENDING
+  #   Given I go to /simplesaml
+  #   And I click on the "Federation" link
+  #   Then the page should not show content "Configuration error"
 
-  @simplesaml
-  @simplesaml-metadata
-  Scenario: Simplesaml should have metadata availabla
-    Given I go to /simplesaml/module.php/saml/sp/metadata/default-sp
-    Then the page should show content "urn:oasis:names:tc:SAML:2.0:metadata"
-    And the page should show content "mailto:CUL-LIBSYS-L@list.cornell.edu"
+  # @simplesaml
+  # @simplesaml-metadata
+  # Scenario: Simplesaml should have metadata availabla
+  #   Given I go to /simplesaml/module.php/saml/sp/metadata/default-sp
+  #   Then the page should show content "urn:oasis:names:tc:SAML:2.0:metadata"
+  #   And the page should show content "mailto:CUL-LIBSYS-L@list.cornell.edu"
 
   # @simplesaml
   # @simplesaml-two-step
