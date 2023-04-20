@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [v2.3.3] - 2023-04-20
+- enable simplesamlphp tests
+- fix the simplesaml symlink for version 2
+
 ## [v2.3.2] - 2023-04-20
 - temporarily disable simplesamlphp tests
 
@@ -958,6 +962,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.3
 [v2.3.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.2
 [v2.3.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.1
 [v2.3.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.0
