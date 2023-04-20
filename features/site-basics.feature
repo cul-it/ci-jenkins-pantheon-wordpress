@@ -25,13 +25,14 @@ Feature: Test for basic site function
   Scenario: Be sure simplesaml configuration link works
     Given I go to the home page
     When I go to /simplesaml
-    Then the page should show content "SimpleSAMLphp authentication software"
+    Then the page should not show content "Configuration error"
+    And the page should show content "SimpleSAMLphp authentication software"
 
-  # @simplesaml
-  # @simplesaml-authentication
-  # Scenario: Test authentication page in simplesaml
-  #   When I go to /simplesaml/admin/
-  #   Then the page should show content "Enter your username and password"
+  @simplesaml
+  @simplesaml-authentication
+  Scenario: Test authentication page in simplesaml
+    When I go to /simplesaml/admin/
+    Then the page should show content "Enter your username and password"
 
   # @simplesaml
   # @simplesaml-federation
