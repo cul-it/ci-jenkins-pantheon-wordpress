@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Relevanssi v4.19.0](https://wordpress.org/plugins/relevanssi/)
 - [Siteimprove v1.3.1](https://wordpress.org/plugins/siteimprove/)
 - [WP-CFM v1.7.5](https://wordpress.org/plugins/wp-cfm/#developers)
+- [WP Mail SMTP v3.7.0](https://wordpress.org/plugins/wp-mail-smtp/)
 
 
 ## [v2.3.9] - 2023-04-21
