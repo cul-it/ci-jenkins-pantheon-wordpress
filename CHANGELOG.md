@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [WordPress Ultimate CSV Importer Pro v7.3](https://github.com/cul-it/wp-ultimate-csv-importer-pro/blob/master/changelogs_for_csv_importer.json)
 - [Advanced Custom Fields: Image Aspect Ratio Crop v6.0.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
 - [Advanced Access Manager v6.9.9](https://wordpress.org/plugins/advanced-access-manager/)
--
+- [Akismet Anti-Spam v5.1](https://wordpress.org/plugins/akismet/)
 
 ## [v2.3.9] - 2023-04-21
 - SP_ENTITY_ID needs an absolute URL
