@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [PublishPress Capabilities v2.7.1](https://wordpress.org/plugins/capability-manager-enhanced/)
 - [Code Snippets v3.3.0](https://wordpress.org/plugins/code-snippets/)
 - [Coming Soon Page & Maintenance Mode v6.15.7](https://wordpress.org/plugins/coming-soon/#developers)
+- [Custom Post Type UI v1.13.5](https://wordpress.org/plugins/custom-post-type-ui/)
 
 
 ## [v2.3.9] - 2023-04-21
