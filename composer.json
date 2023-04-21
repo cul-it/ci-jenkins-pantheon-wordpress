@@ -208,7 +208,12 @@
         ],
         "post-install-cmd": [
             "@cleanup",
-            "WordPressProject\\composer\\ScriptHandler::createRequiredFiles"
+            "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
+            "ln -s -f ../../../../private/simplesaml/cert/saml.crt ./vendor/simplesamlphp/simplesamlphp/cert/saml.crt",
+            "ln -s -f ../../../../private/simplesaml/cert/saml.pem ./vendor/simplesamlphp/simplesamlphp/cert/saml.pem",
+            "ln -s -f ../../../../private/simplesaml/config/config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php",
+            "ln -s -f ../../../../private/simplesaml/config/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php",
+            "ln -s -f ../../../../private/simplesaml/metadata/saml20-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php"
         ],
         "post-update-cmd": [
             "@cleanup",
