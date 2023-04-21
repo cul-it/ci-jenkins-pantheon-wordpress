@@ -6,7 +6,7 @@
  */
 
 if (defined('PANTHEON_ENVIRONMENT') && !empty($_ENV['PANTHEON_ENVIRONMENT'])) {
-    define(SP_ENTITY_ID, $_ENV['HOME']./simplesaml/module.php/saml/sp/metadata/default-sp');
+    define(SP_ENTITY_ID, $_ENV['HOME']."/simplesaml/module.php/saml/sp/metadata/default-sp");
     if ($_ENV['PANTHEON_ENVIRONMENT'] == 'live') {
         require 'authsources.prod.php';
     }
