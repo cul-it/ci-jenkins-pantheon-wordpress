@@ -19,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Google Analytics Dashboard for WP (GADWP) v7.14.2](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/)
 - [Intuitive Custom Post Order v3.1.4.1](https://wordpress.org/plugins/intuitive-custom-post-order/)
 - [JSON Content Importer v1.3.17](https://wordpress.org/plugins/json-content-importer/)
+- [Kirki Customizer Framework v4.1.1](https://wordpress.org/plugins/kirki/)
+
 
 ## [v2.3.9] - 2023-04-21
 - SP_ENTITY_ID needs an absolute URL
