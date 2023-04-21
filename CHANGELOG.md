@@ -26,7 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Siteimprove v1.3.1](https://wordpress.org/plugins/siteimprove/)
 - [WP-CFM v1.7.5](https://wordpress.org/plugins/wp-cfm/#developers)
 - [WP Mail SMTP v3.7.0](https://wordpress.org/plugins/wp-mail-smtp/)
-
+- [Native PHP Sessions for WordPress v1.3.5](https://wordpress.org/plugins/wp-native-php-sessions/)
 
 ## [v2.3.9] - 2023-04-21
 - SP_ENTITY_ID needs an absolute URL
