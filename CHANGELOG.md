@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Redirection v5.3.10](https://wordpress.org/plugins/redirection/)
 - [Relevanssi v4.19.0](https://wordpress.org/plugins/relevanssi/)
 - [Siteimprove v1.3.1](https://wordpress.org/plugins/siteimprove/)
+- [WP-CFM v1.7.5](https://wordpress.org/plugins/wp-cfm/#developers)
 
 
 ## [v2.3.9] - 2023-04-21
