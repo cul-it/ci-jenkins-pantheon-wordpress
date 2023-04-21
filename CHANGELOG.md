@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v2.3.10] - 2023-04-21
 - [ACF: Better Search v4.1.0](https://wordpress.org/plugins/acf-better-search/)
-- [WordPress Ultimate CSV Importer Pro v7.3](https://github.com/cul-it/wp-ultimate-csv-importer-pro/blob/master/changelogs_for_csv_importer.json)
+- [WordPress Ultimate CSV Importer Pro v7.3.1](https://github.com/cul-it/wp-ultimate-csv-importer-pro/blob/master/changelogs_for_csv_importer.json) - patched for case sensitive include of uninstall.php
 - [Advanced Custom Fields: Image Aspect Ratio Crop v6.0.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
 - [Advanced Access Manager v6.9.9](https://wordpress.org/plugins/advanced-access-manager/)
 - [Akismet Anti-Spam v5.1](https://wordpress.org/plugins/akismet/)
@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [WP Mail SMTP v3.7.0](https://wordpress.org/plugins/wp-mail-smtp/)
 - [Native PHP Sessions for WordPress v1.3.5](https://wordpress.org/plugins/wp-native-php-sessions/)
 - [WP RSS Aggregator v4.23.1](https://wordpress.org/plugins/wp-rss-aggregator/)
--
+
 ## [v2.3.9] - 2023-04-21
 - SP_ENTITY_ID needs an absolute URL
 
