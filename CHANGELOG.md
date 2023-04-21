@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Pantheon-advanced-page-cache v1.3.0](https://wordpress.org/plugins/pantheon-advanced-page-cache/#developers)
 - [Redirection v5.3.10](https://wordpress.org/plugins/redirection/)
 - [Relevanssi v4.19.0](https://wordpress.org/plugins/relevanssi/)
+- [Siteimprove v1.3.1](https://wordpress.org/plugins/siteimprove/)
 
 
 ## [v2.3.9] - 2023-04-21
