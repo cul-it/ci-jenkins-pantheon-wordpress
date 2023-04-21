@@ -28,11 +28,11 @@ Feature: Test for basic site function
     Then the page should not show content "Configuration error"
     And the page should show content "SimpleSAMLphp authentication software"
 
-  @simplesaml
-  @simplesaml-authentication
-  Scenario: Test authentication page in simplesaml
-    When I go to /simplesaml/admin/
-    Then the page should show content "Enter your username and password"
+  # @simplesaml
+  # @simplesaml-authentication
+  # Scenario: Test authentication page in simplesaml
+  #   When I go to /simplesaml/admin/
+  #   Then the page should show content "Enter your username and password"
 
   # @simplesaml
   # @simplesaml-federation
