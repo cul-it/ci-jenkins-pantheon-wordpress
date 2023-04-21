@@ -4,6 +4,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.10] - 2023-04-21
+- [ACF: Better Search v4.1.0](https://wordpress.org/plugins/acf-better-search/)
+- [WordPress Ultimate CSV Importer Pro v7.3](https://github.com/cul-it/wp-ultimate-csv-importer-pro/blob/master/changelogs_for_csv_importer.json)
+- [Advanced Custom Fields: Image Aspect Ratio Crop v6.0.2](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
+- [Advanced Access Manager v6.9.9](https://wordpress.org/plugins/advanced-access-manager/)
+- [Akismet Anti-Spam v5.1](https://wordpress.org/plugins/akismet/)
+- [Anywhere Elementor - v1.2.7](https://wordpress.org/plugins/anywhere-elementor/#description)
+- [Better Font Awesome v2.0.4](https://wordpress.org/plugins/better-font-awesome/#developers)
+- [PublishPress Capabilities v2.7.1](https://wordpress.org/plugins/capability-manager-enhanced/)
+- [Code Snippets v3.3.0](https://wordpress.org/plugins/code-snippets/)
+- [Coming Soon Page & Maintenance Mode v6.15.7](https://wordpress.org/plugins/coming-soon/#developers)
+- [Custom Post Type UI v1.13.5](https://wordpress.org/plugins/custom-post-type-ui/)
+- [Google Analytics Dashboard for WP (GADWP) v7.14.2](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/)
+- [Intuitive Custom Post Order v3.1.4.1](https://wordpress.org/plugins/intuitive-custom-post-order/)
+- [JSON Content Importer v1.3.17](https://wordpress.org/plugins/json-content-importer/)
+- [Kirki Customizer Framework v4.1.1](https://wordpress.org/plugins/kirki/)
+- [Pantheon-advanced-page-cache v1.3.0](https://wordpress.org/plugins/pantheon-advanced-page-cache/#developers)
+- [Redirection v5.3.10](https://wordpress.org/plugins/redirection/)
+- [Relevanssi v4.19.0](https://wordpress.org/plugins/relevanssi/)
+- [Siteimprove v1.3.1](https://wordpress.org/plugins/siteimprove/)
+- [WP-CFM v1.7.5](https://wordpress.org/plugins/wp-cfm/#developers)
+- [WP Mail SMTP v3.7.0](https://wordpress.org/plugins/wp-mail-smtp/)
+- [Native PHP Sessions for WordPress v1.3.5](https://wordpress.org/plugins/wp-native-php-sessions/)
+- [WP RSS Aggregator v4.23.1](https://wordpress.org/plugins/wp-rss-aggregator/)
+-
 ## [v2.3.9] - 2023-04-21
 - SP_ENTITY_ID needs an absolute URL
 
@@ -983,6 +1008,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.10]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.10
 [v2.3.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.9
 [v2.3.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.8
 [v2.3.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.7
