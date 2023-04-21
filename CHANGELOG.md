@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [v2.3.6] - 2023-04-21
+- try symbolic links in composer.json
+- certs
+- ABSPATH in Jenkins script
+
 ## [v2.3.5] - 2023-04-20
 - try symbolic links in composer.json
 - enable tests
@@ -970,6 +975,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.6
 [v2.3.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.5
 [v2.3.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.4
 [v2.3.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.3
