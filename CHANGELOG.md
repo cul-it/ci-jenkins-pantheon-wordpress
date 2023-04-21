@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.7] - 2023-04-21
+- fix syntax in SP_ENTITY_ID
 
 ## [v2.3.6] - 2023-04-21
 - try symbolic links in composer.json
@@ -975,6 +977,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.7
 [v2.3.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.6
 [v2.3.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.5
 [v2.3.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.4
