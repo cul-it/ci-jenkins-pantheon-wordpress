@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Advanced Access Manager v6.9.9](https://wordpress.org/plugins/advanced-access-manager/)
 - [Akismet Anti-Spam v5.1](https://wordpress.org/plugins/akismet/)
 - [Anywhere Elementor - v1.2.7](https://wordpress.org/plugins/anywhere-elementor/#description)
+- [Better Font Awesome v2.0.4](https://wordpress.org/plugins/better-font-awesome/#developers)
 
 ## [v2.3.9] - 2023-04-21
 - SP_ENTITY_ID needs an absolute URL
