@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Code Snippets v3.3.0](https://wordpress.org/plugins/code-snippets/)
 - [Coming Soon Page & Maintenance Mode v6.15.7](https://wordpress.org/plugins/coming-soon/#developers)
 - [Custom Post Type UI v1.13.5](https://wordpress.org/plugins/custom-post-type-ui/)
-
+- [Google Analytics Dashboard for WP (GADWP) v7.14.2](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/)
 
 ## [v2.3.9] - 2023-04-21
 - SP_ENTITY_ID needs an absolute URL
