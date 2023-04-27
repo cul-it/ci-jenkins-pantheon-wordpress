@@ -212,11 +212,11 @@
         "post-install-cmd": [
             "@cleanup",
             "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
-            "[ -d \"../../../../private/simplesaml/cert\" ] && ln -s -f ../../../../private/simplesaml/cert/saml.crt ./vendor/simplesamlphp/simplesamlphp/cert/saml.crt",
-            "[ -d \"../../../../private/simplesaml/cert\" ] && ln -s -f ../../../../private/simplesaml/cert/saml.pem ./vendor/simplesamlphp/simplesamlphp/cert/saml.pem",
-            "[ -d \"../../../../private/simplesaml/config\" ] && ln -s -f ../../../../private/simplesaml/config/config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php",
-            "[ -d \"../../../../private/simplesaml/config\" ] && ln -s -f ../../../../private/simplesaml/config/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php",
-            "[ -d \"../../../../private/simplesaml/metadata\" ] && ln -s -f ../../../../private/simplesaml/metadata/saml20-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php"
+            "if [ -d \"../../../../private/simplesaml/cert\" ];then ln -s -f ../../../../private/simplesaml/cert/saml.crt ./vendor/simplesamlphp/simplesamlphp/cert/saml.crt fi",
+            "if [ -d \"../../../../private/simplesaml/cert\" ];then ln -s -f ../../../../private/simplesaml/cert/saml.pem ./vendor/simplesamlphp/simplesamlphp/cert/saml.pem fi",
+            "if [ -d \"../../../../private/simplesaml/config\" ];then ln -s -f ../../../../private/simplesaml/config/config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php fi",
+            "if [ -d \"../../../../private/simplesaml/config\" ];then ln -s -f ../../../../private/simplesaml/config/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php fi",
+            "if [ -d \"../../../../private/simplesaml/metadata\" ];then ln -s -f ../../../../private/simplesaml/metadata/saml20-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php fi"
         ],
         "post-update-cmd": [
             "@cleanup",
