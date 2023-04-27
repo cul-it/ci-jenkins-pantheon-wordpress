@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5aae6d100ac15dedee0b3e6cd903ea55",
+    "content-hash": "e6511ad50ed1c04f38337fb80d3a02bc",
     "packages": [
         {
             "name": "10up/distributor",
@@ -947,16 +947,16 @@
         },
         {
             "name": "cul-it/cul-saml-auth",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/cul-saml-auth.git",
-                "reference": "ff89ef17a0af971ad6e90e724c13cf3200017a12"
+                "reference": "77419ac0f8d2f1d9368d538cd5ce2e90e0fdab2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/cul-saml-auth/zipball/ff89ef17a0af971ad6e90e724c13cf3200017a12",
-                "reference": "ff89ef17a0af971ad6e90e724c13cf3200017a12",
+                "url": "https://api.github.com/repos/cul-it/cul-saml-auth/zipball/77419ac0f8d2f1d9368d538cd5ce2e90e0fdab2e",
+                "reference": "77419ac0f8d2f1d9368d538cd5ce2e90e0fdab2e",
                 "shasum": ""
             },
             "require": {
@@ -974,10 +974,10 @@
             ],
             "description": "WordPress plugin for supplying simplesamlphp parameters to wp-saml-auth plugin",
             "support": {
-                "source": "https://github.com/cul-it/cul-saml-auth/tree/v1.0.1",
+                "source": "https://github.com/cul-it/cul-saml-auth/tree/v1.0.2",
                 "issues": "https://github.com/cul-it/cul-saml-auth/issues"
             },
-            "time": "2023-04-19T15:08:53+00:00"
+            "time": "2023-04-27T18:06:26+00:00"
         },
         {
             "name": "cul-it/culu",
