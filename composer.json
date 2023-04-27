@@ -212,8 +212,8 @@
         "post-install-cmd": [
             "@cleanup",
             "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
-            // "[ -d ../../../../private/simplesaml/cert ] && [ -d ./vendor/simplesamlphp/simplesamlphp/cert ] && ln -s -f ../../../../private/simplesaml/cert/saml.crt ./vendor/simplesamlphp/simplesamlphp/cert/saml.crt",
-            // "[ -d ../../../../private/simplesaml/cert ] && [ -d ./vendor/simplesamlphp/simplesamlphp/cert ] && ln -s -f ../../../../private/simplesaml/cert/saml.pem ./vendor/simplesamlphp/simplesamlphp/cert/saml.pem",
+            "[ -d ../../../../private/simplesaml/cert ] && [ -d ./vendor/simplesamlphp/simplesamlphp/cert ] && ln -s -f ../../../../private/simplesaml/cert/saml.crt ./vendor/simplesamlphp/simplesamlphp/cert/saml.crt",
+            "[ -d ../../../../private/simplesaml/cert ] && [ -d ./vendor/simplesamlphp/simplesamlphp/cert ] && ln -s -f ../../../../private/simplesaml/cert/saml.pem ./vendor/simplesamlphp/simplesamlphp/cert/saml.pem",
             "[ -d ../../../../private/simplesaml/config ] && [ -d ./vendor/simplesamlphp/simplesamlphp/config ] && ln -s -f ../../../../private/simplesaml/config/config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php",
             "[ -d ../../../../private/simplesaml/config ] && [ -d ./vendor/simplesamlphp/simplesamlphp/config ] && ln -s -f ../../../../private/simplesaml/config/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php",
             "[ -d ../../../../private/simplesaml/metadata ] && [ -d ./vendor/simplesamlphp/simplesamlphp/metadata ] && ln -s -f ../../../../private/simplesaml/metadata/saml20-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php"
