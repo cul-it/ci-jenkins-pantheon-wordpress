@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.16] - 2023-04-28
+- many changes - got out of sync in changelog
+- update autoload in cul-saml-auth
+- create cert dir if necessary in composer.json
+- remove cul-it-simplesaml.php plugin - obsolete
+- [ACF: Better Search v4.0.1](https://wordpress.org/plugins/acf-better-search/) - roll back
+
 ## [v2.3.10] - 2023-04-21
 - [ACF: Better Search v4.1.0](https://wordpress.org/plugins/acf-better-search/)
 - [WordPress Ultimate CSV Importer Pro v7.3.1](https://github.com/cul-it/wp-ultimate-csv-importer-pro/blob/master/changelogs_for_csv_importer.json) - patched for case sensitive include of uninstall.php
