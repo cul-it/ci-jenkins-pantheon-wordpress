@@ -30,8 +30,8 @@ $config = [
         // see https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1
         // these are from self-signed certificate in /cert
         // /cert is the default directory - overridden by $config['certdir']
-        'privatekey' => 'file://saml.pem',
-        'certificate' => 'file://saml.crt',
+        'privatekey' => 'saml.pem',
+        'certificate' => 'saml.crt',
 
         // this has to be set FALSE until production metadata has been updated
         // to saml20 by identity mangagement
