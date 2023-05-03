@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.17] - 2023-05-03
+- explicitly include php-gettext/gettext
+
 ## [v2.3.16] - 2023-04-28
 - many changes - got out of sync in changelog
 - update autoload in cul-saml-auth
@@ -1015,6 +1018,8 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.17]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.17
+[v2.3.16]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.16
 [v2.3.10]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.10
 [v2.3.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.9
 [v2.3.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.8
