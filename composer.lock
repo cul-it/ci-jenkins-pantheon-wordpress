@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6511ad50ed1c04f38337fb80d3a02bc",
+    "content-hash": "1157419294564daa5880b461a5ee0818",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1436,7 +1436,20 @@
                     "Gettext\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Gettext\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit",
+                    "phpcs"
+                ],
+                "cs-fix": [
+                    "php-cs-fixer fix"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -1451,9 +1464,9 @@
             "description": "PHP gettext manager",
             "homepage": "https://github.com/php-gettext/Gettext",
             "keywords": [
-                "JS",
                 "gettext",
                 "i18n",
+                "js",
                 "mo",
                 "po",
                 "translation"
@@ -1465,16 +1478,16 @@
             },
             "funding": [
                 {
-                    "url": "https://paypal.me/oscarotero",
-                    "type": "custom"
+                    "type": "github",
+                    "url": "https://github.com/oscarotero"
                 },
                 {
-                    "url": "https://github.com/oscarotero",
-                    "type": "github"
+                    "type": "patreon",
+                    "url": "https://www.patreon.com/misteroom"
                 },
                 {
-                    "url": "https://www.patreon.com/misteroom",
-                    "type": "patreon"
+                    "type": "custom",
+                    "url": "https://paypal.me/oscarotero"
                 }
             ],
             "time": "2022-07-27T19:54:55+00:00"
