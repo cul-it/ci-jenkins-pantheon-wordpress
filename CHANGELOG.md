@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.19] - 2023-05-04
+- remove file:// prefix
+
 ## [v2.3.18] - 2023-05-03
 - add scripts to delete certain vendor projects and plugins when site has been overwritten by wordpress install (vs composer install)
 
@@ -1021,6 +1024,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.19]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.19
 [v2.3.18]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.18
 [v2.3.17]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.17
 [v2.3.16]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.16
