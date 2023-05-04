@@ -29,8 +29,8 @@ $config = [
         // see https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1
         // these are from self-signed certificate in /cert
         // /cert is the default directory - overridden by $config['certdir']
-        'privatekey' => 'file://saml.pem',
-        'certificate' => 'file://saml.crt',
+        'privatekey' => 'saml.pem',
+        'certificate' => 'saml.crt',
 
         // The entityID is the entityID of the SP that the IdP is expecting.
         // This value must be exactly what the IdP is expecting. If the
