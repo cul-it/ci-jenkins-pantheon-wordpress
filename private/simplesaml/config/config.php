@@ -123,7 +123,7 @@ $config = [
      * directory. Note that locations with no prefix included will be treated
      * as file locations.
      */
-    'certdir' => $_ENV['HOME'].'/code/private/simplesamlphp/cert/',
+    'certdir' => './simplesamlphp/cert/',
 
     /* To load a certificate or key from the database, it should be specified
      * as 'pdo://<id>' where <id> is the identifier in the database table that
