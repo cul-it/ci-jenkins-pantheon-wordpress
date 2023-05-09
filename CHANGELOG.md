@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - "wpackagist-plugin/filebird": "5.3"
 - "wpackagist-plugin/google-analytics-dashboard-for-wp": "7.15.2"
 - "wpackagist-plugin/wp-mail-smtp": "3.8.0"
+- "wpackagist-theme/twentynineteen": "2.5"
+- "pantheon-systems/wordpress-composer": "6.2"
 
 ## [v2.3.21] - 2023-05-04
 - zero in on path to cert dir
