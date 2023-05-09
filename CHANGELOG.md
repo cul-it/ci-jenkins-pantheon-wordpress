@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.22] - 2023-05-09
+- [Advanced Custom Fields Pro v6.1.6](https://github.com/cul-it/advanced-custom-fields-pro/blob/master/readme.txt) - security update
+- [Draw Attention Pro v3.0.7](https://github.com/cul-it/draw-attention-pro/releases/tag/v1.13.7)
+- "wpackagist-plugin/advanced-access-manager": "6.9.10"
+- "wpackagist-plugin/anywhere-elementor": "1.2.8"
+- "wpackagist-plugin/elementor": "3.13.1"
+- "wpackagist-plugin/filebird": "5.3"
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "7.15.2"
+- "wpackagist-plugin/wp-mail-smtp": "3.8.0"
+
 ## [v2.3.21] - 2023-05-04
 - zero in on path to cert dir
 
@@ -1030,6 +1040,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.22]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.22
 [v2.3.21]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.21
 [v2.3.20]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.20
 [v2.3.19]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.19
