@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - "wpackagist-plugin/wp-mail-smtp": "3.8.0"
 - "wpackagist-theme/twentynineteen": "2.5"
 - "pantheon-systems/wordpress-composer": "6.2"
+- remove mu-plugins/pantheon.php and mu-plugins/pantheon - replaced by mu-plugins/pantheon-mu-plugin
 
 ## [v2.3.21] - 2023-05-04
 - zero in on path to cert dir
