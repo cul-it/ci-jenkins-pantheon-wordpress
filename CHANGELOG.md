@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.25] - 2023-05-10
+- new version Draw Attention Pro
+
 ## [v2.3.24] - 2023-05-10
 - forgot to do the composer update on Draw Attention Pro
 
@@ -1049,6 +1052,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.25]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.25
 [v2.3.24]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.24
 [v2.3.23]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.23
 [v2.3.22]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.22

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9644c988d31a68fb83939373f1f20bbc",
+    "content-hash": "6e8595f57497403ffc2afe4833712d94",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1023,16 +1023,16 @@
         },
         {
             "name": "cul-it/draw-attention-pro",
-            "version": "v3.0.7.1",
+            "version": "v3.0.7.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/draw-attention-pro.git",
-                "reference": "586f3b97301eca279bdcb6b4cb042f60548c0c7c"
+                "reference": "9079d870ce1126acc4388ca895740d3a656c9f46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/draw-attention-pro/zipball/586f3b97301eca279bdcb6b4cb042f60548c0c7c",
-                "reference": "586f3b97301eca279bdcb6b4cb042f60548c0c7c",
+                "url": "https://api.github.com/repos/cul-it/draw-attention-pro/zipball/9079d870ce1126acc4388ca895740d3a656c9f46",
+                "reference": "9079d870ce1126acc4388ca895740d3a656c9f46",
                 "shasum": ""
             },
             "require": {
@@ -1041,10 +1041,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/draw-attention-pro/tree/v3.0.7.1",
+                "source": "https://github.com/cul-it/draw-attention-pro/tree/v3.0.7.2",
                 "issues": "https://github.com/cul-it/draw-attention-pro/issues"
             },
-            "time": "2023-05-10T14:40:40+00:00"
+            "time": "2023-05-10T16:54:54+00:00"
         },
         {
             "name": "cul-it/elementor-pro",
