@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e8595f57497403ffc2afe4833712d94",
+    "content-hash": "31b592f4263e59c038e8392db284d160",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1048,16 +1048,16 @@
         },
         {
             "name": "cul-it/elementor-pro",
-            "version": "v3.7.3",
+            "version": "v3.13.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/elementor-pro.git",
-                "reference": "910cfbd91f6cb59fd2000f4a627f30c9f8090eab"
+                "reference": "126620f32be5a57e46331d6f60cfd20e9ed44baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/910cfbd91f6cb59fd2000f4a627f30c9f8090eab",
-                "reference": "910cfbd91f6cb59fd2000f4a627f30c9f8090eab",
+                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/126620f32be5a57e46331d6f60cfd20e9ed44baa",
+                "reference": "126620f32be5a57e46331d6f60cfd20e9ed44baa",
                 "shasum": ""
             },
             "require": {
@@ -1066,23 +1066,23 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/elementor-pro/tree/v3.7.3",
+                "source": "https://github.com/cul-it/elementor-pro/tree/v3.13.1",
                 "issues": "https://github.com/cul-it/elementor-pro/issues"
             },
-            "time": "2022-08-16T18:31:36+00:00"
+            "time": "2023-05-18T18:57:23+00:00"
         },
         {
             "name": "cul-it/facetwp",
-            "version": "v3.8.11",
+            "version": "v4.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/facetwp.git",
-                "reference": "cf2da6c96b833752b4530d799cead02e4e084cfd"
+                "reference": "6a1fbc9758bfe72d24bdc79221fc5e29f6235a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/cf2da6c96b833752b4530d799cead02e4e084cfd",
-                "reference": "cf2da6c96b833752b4530d799cead02e4e084cfd",
+                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/6a1fbc9758bfe72d24bdc79221fc5e29f6235a11",
+                "reference": "6a1fbc9758bfe72d24bdc79221fc5e29f6235a11",
                 "shasum": ""
             },
             "require": {
@@ -1091,23 +1091,23 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/facetwp/tree/v3.8.11",
+                "source": "https://github.com/cul-it/facetwp/tree/v4.2.0",
                 "issues": "https://github.com/cul-it/facetwp/issues"
             },
-            "time": "2021-09-01T17:11:34+00:00"
+            "time": "2023-05-18T18:26:58+00:00"
         },
         {
             "name": "cul-it/facetwp-conditional-logic",
-            "version": "v1.4.1.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cul-it/facetwp-conditional-logic.git",
-                "reference": "0c001c2205e8c7a450f0bb185283a0349249acf4"
+                "reference": "42436d69e5f26b26dd9a736644e0da93be2fa4bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/facetwp-conditional-logic/zipball/0c001c2205e8c7a450f0bb185283a0349249acf4",
-                "reference": "0c001c2205e8c7a450f0bb185283a0349249acf4",
+                "url": "https://api.github.com/repos/cul-it/facetwp-conditional-logic/zipball/42436d69e5f26b26dd9a736644e0da93be2fa4bb",
+                "reference": "42436d69e5f26b26dd9a736644e0da93be2fa4bb",
                 "shasum": ""
             },
             "require": {
@@ -1116,9 +1116,9 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/facetwp-conditional-logic/tree/v1.4.1.1"
+                "source": "https://github.com/cul-it/facetwp-conditional-logic/tree/v1.4.2"
             },
-            "time": "2021-09-01T19:51:46+00:00"
+            "time": "2023-05-18T19:06:07+00:00"
         },
         {
             "name": "cul-it/wp-custom-loop-widget",
@@ -2162,16 +2162,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "6.2",
+            "version": "6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "b5803892e878e06359f61bc313527c08f6b68152"
+                "reference": "9be0d3b08f33a30f064038949e42105f75e7c7bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/b5803892e878e06359f61bc313527c08f6b68152",
-                "reference": "b5803892e878e06359f61bc313527c08f6b68152",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/9be0d3b08f33a30f064038949e42105f75e7c7bb",
+                "reference": "9be0d3b08f33a30f064038949e42105f75e7c7bb",
                 "shasum": ""
             },
             "require": {
@@ -2189,10 +2189,10 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.2",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.2.1",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2023-03-29T21:11:20+00:00"
+            "time": "2023-05-16T22:11:06+00:00"
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
@@ -3157,16 +3157,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "4211420d25eba80712bff236a98960ef68b866b7"
+                "reference": "594fd6462aad8ecee0b45ca5045acea4776667f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/4211420d25eba80712bff236a98960ef68b866b7",
-                "reference": "4211420d25eba80712bff236a98960ef68b866b7",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/594fd6462aad8ecee0b45ca5045acea4776667f1",
+                "reference": "594fd6462aad8ecee0b45ca5045acea4776667f1",
                 "shasum": ""
             },
             "require": {
@@ -3205,7 +3205,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/jsonlint/issues",
-                "source": "https://github.com/Seldaek/jsonlint/tree/1.9.0"
+                "source": "https://github.com/Seldaek/jsonlint/tree/1.10.0"
             },
             "funding": [
                 {
@@ -3217,7 +3217,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-01T13:37:23+00:00"
+            "time": "2023-05-11T13:16:46+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -6884,15 +6884,15 @@
         },
         {
             "name": "wpackagist-plugin/capability-manager-enhanced",
-            "version": "2.7.1",
+            "version": "2.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
-                "reference": "tags/2.7.1"
+                "reference": "tags/2.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.8.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7010,7 +7010,7 @@
         },
         {
             "name": "wpackagist-plugin/filebird",
-            "version": "5.3",
+            "version": "5.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/filebird/",
@@ -7018,7 +7018,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1683517376"
+                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1684140162"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7154,15 +7154,15 @@
         },
         {
             "name": "wpackagist-plugin/relevanssi",
-            "version": "4.19.0",
+            "version": "4.20.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/relevanssi/",
-                "reference": "tags/4.19.0"
+                "reference": "tags/4.20.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.19.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.20.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -8095,22 +8095,23 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.20.4",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "7d568c87a9df9c5f7e8b5f075fc469aa8cb0a4cd"
+                "reference": "6df62b08faef4f899772bc7c3bbabb93d2b7a21c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/7d568c87a9df9c5f7e8b5f075fc469aa8cb0a4cd",
-                "reference": "7d568c87a9df9c5f7e8b5f075fc469aa8cb0a4cd",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/6df62b08faef4f899772bc7c3bbabb93d2b7a21c",
+                "reference": "6df62b08faef4f899772bc7c3bbabb93d2b7a21c",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
+                "nikic/php-parser": "^4.15",
                 "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^1.5",
@@ -8134,9 +8135,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.20.4"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.21.0"
             },
-            "time": "2023-05-02T09:19:37+00:00"
+            "time": "2023-05-17T13:13:44+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -8567,12 +8568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "f86a07b7eb07f9297e939d8c5f97178b2c189dfe"
+                "reference": "11bdd8961a56a24eb56f2fe533ca38a6d2267f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f86a07b7eb07f9297e939d8c5f97178b2c189dfe",
-                "reference": "f86a07b7eb07f9297e939d8c5f97178b2c189dfe",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/11bdd8961a56a24eb56f2fe533ca38a6d2267f18",
+                "reference": "11bdd8961a56a24eb56f2fe533ca38a6d2267f18",
                 "shasum": ""
             },
             "conflict": {
@@ -8757,6 +8758,7 @@
                 "ibexa/core": ">=4,<4.0.7|>=4.1,<4.1.4|>=4.2,<4.2.3",
                 "ibexa/graphql": ">=2.5,<2.5.31|>=3.3,<3.3.28|>=4.2,<4.2.3",
                 "ibexa/post-install": "<=1.0.4",
+                "ibexa/user": ">=4,<4.4.3",
                 "icecoder/icecoder": "<=8.1",
                 "idno/known": "<=1.3.1",
                 "illuminate/auth": ">=4,<4.0.99|>=4.1,<=4.1.31|>=4.2,<=4.2.22|>=5,<=5.0.35|>=5.1,<=5.1.46|>=5.2,<=5.2.45|>=5.3,<=5.3.31|>=5.4,<=5.4.36|>=5.5,<5.5.10",
@@ -8799,7 +8801,7 @@
                 "laravel/framework": "<6.20.42|>=7,<7.30.6|>=8,<8.75",
                 "laravel/socialite": ">=1,<1.0.99|>=2,<2.0.10",
                 "latte/latte": "<2.10.8",
-                "lavalite/cms": "<=5.8",
+                "lavalite/cms": "<=9",
                 "lcobucci/jwt": ">=3.4,<3.4.6|>=4,<4.0.4|>=4.1,<4.1.5",
                 "league/commonmark": "<0.18.3",
                 "league/flysystem": "<1.1.4|>=2,<2.1.1",
@@ -8897,6 +8899,7 @@
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
                 "phpxmlrpc/phpxmlrpc": "<4.9.2",
+                "pimcore/customer-management-framework-bundle": "<3.3.10",
                 "pimcore/data-hub": "<1.2.4",
                 "pimcore/perspective-editor": "<1.5.1",
                 "pimcore/pimcore": "<10.5.21",
@@ -8924,7 +8927,7 @@
                 "pyrocms/pyrocms": "<=3.9.1",
                 "rainlab/debugbar-plugin": "<3.1",
                 "rankmath/seo-by-rank-math": "<=1.0.95",
-                "react/http": ">=0.7,<1.7",
+                "react/http": ">=0.7,<1.9",
                 "really-simple-plugins/complianz-gdpr": "<6.4.2",
                 "remdex/livehelperchat": "<3.99",
                 "rmccue/requests": ">=1.6,<1.8",
@@ -9037,7 +9040,7 @@
                 "thelia/thelia": ">=2.1-beta.1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "thinkcmf/thinkcmf": "<=5.1.7",
-                "thorsten/phpmyfaq": "<3.1.13",
+                "thorsten/phpmyfaq": "<3.2-beta",
                 "tinymce/tinymce": "<5.10.7|>=6,<6.3.1",
                 "tinymighty/wiki-seo": "<1.2.2",
                 "titon/framework": ">=0,<9.9.99",
@@ -9083,7 +9086,7 @@
                 "wp-graphql/wp-graphql": "<0.3.5",
                 "wpanel/wpanel4-cms": "<=4.3.1",
                 "wpcloud/wp-stateless": "<3.2",
-                "wwbn/avideo": "<12.4",
+                "wwbn/avideo": "<=12.4",
                 "xataface/xataface": "<3",
                 "xpressengine/xpressengine": "<3.0.15",
                 "yeswiki/yeswiki": "<4.1",
@@ -9164,7 +9167,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-06T00:13:11+00:00"
+            "time": "2023-05-17T18:04:24+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
