@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.26] - 2023-05-18
+- "cul-it/elementor-pro": "3.13.1"
+- "cul-it/facetwp": "4.2.0"
+- "cul-it/facetwp-conditional-logic": "1.4.2"
+- "pantheon-systems/wordpress-composer": "6.2.1"
+- "wpackagist-plugin/capability-manager-enhanced": "2.8.1"
+- "wpackagist-plugin/filebird": "5.3.2"
+- "wpackagist-plugin/relevanssi": "4.20.0"
+
 ## [v2.3.25] - 2023-05-10
 - new version Draw Attention Pro
 
