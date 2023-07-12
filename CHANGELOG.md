@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.3.29] - 2023-07-12
+- "cul-it/culu": "1.6.17" for LP-452
+
 ## [v2.3.28] - 2023-07-11
 - "cul-it/culu": "1.6.16" for LP-452
 
@@ -1067,6 +1070,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.3.28]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.28
 [v2.3.27]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.27
 [v2.3.26]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.26
 [v2.3.25]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.25
