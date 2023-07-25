@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.4.0] - 2023-07-24
+- "pantheon-systems/wordpress-composer": "6.2.2",
+- "wpackagist-plugin/acf-better-search": "4.1.1",
+- "wpackagist-plugin/advanced-access-manager": "6.9.13"
+- "10up/distributor": "1.9.1",
+- "cul-it/advanced-custom-fields-pro": "6.1.7",
+- "wpackagist-plugin/akismet": "5.2",
+- "wpackagist-plugin/code-snippets": "3.4.2",
+- "wpackagist-plugin/coming-soon": "6.15.13.1",
+- "wpackagist-plugin/custom-post-type-ui": "1.13.7",
+- "wpackagist-plugin/easy-notification-bar": "1.4.7",
+- "wpackagist-plugin/filebird": "5.4.5",
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "7.18.1",
+- "wpackagist-plugin/kirki": "4.2.0",
+- "wpackagist-plugin/simple-social-icons": "3.1.2",
+- "wpackagist-plugin/siteimprove": "2.0.3",
+- "wpackagist-plugin/wp-mail-smtp": "3.8.2",
+- "wpackagist-plugin/wp-native-php-sessions": "1.3.6",
+- "cul-it/advanced-custom-fields-pro": "6.1.7",
+- "cul-it/elementor-pro": "3.14.1",
+- "cul-it/facetwp": "4.2.2",
+
+
 ## [v2.3.30] - 2023-07-13
 - "cul-it/culu": "1.6.18" for LP-452 https://github.com/cul-it/uls/issues/1196
 
@@ -1073,6 +1096,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.4.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.0
 [v2.3.30]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.30
 [v2.3.29]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.29
 [v2.3.28]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.28
