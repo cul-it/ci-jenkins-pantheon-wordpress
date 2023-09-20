@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.4.0] - 2023-08-25
+- "cul-it/wp-custom-loop-widget": "2.0.2",
+
 ## [v2.4.0] - 2023-07-24
 - "pantheon-systems/wordpress-composer": "6.2.2",
 - "wpackagist-plugin/acf-better-search": "4.1.1",
