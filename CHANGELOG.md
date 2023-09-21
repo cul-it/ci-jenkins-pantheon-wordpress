@@ -4,6 +4,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.4.1] - 2023-09-20
+- "cul-it/advanced-custom-fields-pro": "6.2.1.1",
+- "cul-it/draw-attention-pro": "3.0.10",
+- "cul-it/wp-ultimate-csv-importer-pro": "v7.6",
+- "dealerdirect/phpcodesniffer-composer-installer": true
+- "pantheon-systems/wordpress-composer": "6.3",
+- "rvtraveller/qs-composer-installer": true,
+- "squizlabs/php_codesniffer": "3.7.2",
+- "wp-coding-standards/wpcs": "3.0.1",
+- "wpackagist-plugin/acf-better-search": "4.2.0",
+- "wpackagist-plugin/acf-image-aspect-ratio-crop": "6.0.3",
+- "wpackagist-plugin/advanced-access-manager": "6.9.15",
+- "wpackagist-plugin/akismet": "5.3",
+- "wpackagist-plugin/anywhere-elementor": "1.2.9",
+- "wpackagist-plugin/capability-manager-enhanced": "2.10.0",
+- "wpackagist-plugin/code-snippets": "3.5.0",
+- "wpackagist-plugin/coming-soon": "6.15.15.3",
+- "wpackagist-plugin/custom-post-type-ui": "1.14.0",
+- "wpackagist-plugin/elementor": "3.16.4",
+- "wpackagist-plugin/filebird": "5.5",
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "7.19",
+- "wpackagist-plugin/json-content-importer": "1.5.2",
+- "wpackagist-plugin/pantheon-advanced-page-cache": "1.4.1",
+- "wpackagist-plugin/relevanssi": "4.21.1",
+- "wpackagist-plugin/wp-mail-smtp": "3.9.0",
+- "wpackagist-plugin/wp-rss-aggregator": "4.23.2",
+
 ## [v2.4.0] - 2023-08-25
 - "cul-it/wp-custom-loop-widget": "2.0.2",
 
@@ -1099,6 +1126,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.4.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.1
 [v2.4.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.0
 [v2.3.30]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.30
 [v2.3.29]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.3.29
