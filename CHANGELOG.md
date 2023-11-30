@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.4.2] - 2023-11-29
+- "cul-it/advanced-custom-fields-pro": "6.2.4",
+- "cul-it/draw-attention-pro": "3.0.11",
+- "cul-it/facetwp": "4.2.7",
+- "10up/distributor": "2.0.1",
+- "wpackagist-plugin/advanced-access-manager": "6.9.18",
+- "wpackagist-plugin/capability-manager-enhanced": "2.10.2",
+- "wpackagist-plugin/code-snippets": "3.6.2",
+- "wpackagist-plugin/custom-post-type-ui": "1.15.1",
+- "wpackagist-plugin/easy-notification-bar": "1.4.8",
+- "wpackagist-plugin/filebird": "5.5.8",
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "7.22.0",
+- "wpackagist-plugin/json-content-importer": "1.5.3",
+- "wpackagist-plugin/wp-native-php-sessions": "1.4.3",
+- "wpackagist-plugin/pantheon-advanced-page-cache": "1.4.2",
+- "wpackagist-plugin/simple-social-icons": "3.2.2",
+- "wpackagist-plugin/wp-cfm": "1.7.8",
+- "wpackagist-plugin/wp-mail-smtp": "3.10.0",
+- "wpackagist-plugin/wp-rss-aggregator": "4.23.4",
+- "pantheon-systems/wp-saml-auth": "2.1.4",
+
 ## [v2.4.1] - 2023-09-20
 - "cul-it/advanced-custom-fields-pro": "6.2.1.1",
 - "cul-it/draw-attention-pro": "3.0.10",
