@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "8340c65d74384b0b7d6752a048035ca9",
-=======
-    "content-hash": "5614d8219e93a650dfa6e1fe510e953e",
->>>>>>> master
+    "content-hash": "438811cae5e21ffbcbeaf159ed70819c",
     "packages": [
         {
             "name": "10up/distributor",
@@ -996,16 +992,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.6.18",
+            "version": "v1.6.19",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-cul-theme-culu.git",
-                "reference": "b2f032fda126afef8788445b42e414c8b156e767"
+                "reference": "e5e96aed6dcc06c351a38af3a74d5e1e03080a01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/b2f032fda126afef8788445b42e414c8b156e767",
-                "reference": "b2f032fda126afef8788445b42e414c8b156e767",
+                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/e5e96aed6dcc06c351a38af3a74d5e1e03080a01",
+                "reference": "e5e96aed6dcc06c351a38af3a74d5e1e03080a01",
                 "shasum": ""
             },
             "require": {
@@ -1024,10 +1020,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.6.18",
+                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.6.19",
                 "issues": "https://github.com/cul-it/wp-cul-theme-culu/issues"
             },
-            "time": "2023-07-13T13:33:38+00:00"
+            "time": "2024-02-08T12:53:01+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -6970,11 +6966,7 @@
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://downloads.wordpress.org/plugin/filebird.5.5.zip"
-=======
                 "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1701154422"
->>>>>>> master
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6984,17 +6976,6 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-<<<<<<< HEAD
-            "version": "7.19.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/7.19.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.7.19.0.zip"
-=======
             "version": "7.22.0",
             "source": {
                 "type": "svn",
@@ -7004,7 +6985,6 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.7.22.0.zip"
->>>>>>> master
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -8755,21 +8735,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-<<<<<<< HEAD
-                "reference": "01fd41b19678c11355e77cfb63c2b27f6bfe3b1e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/01fd41b19678c11355e77cfb63c2b27f6bfe3b1e",
-                "reference": "01fd41b19678c11355e77cfb63c2b27f6bfe3b1e",
-=======
                 "reference": "ad2e43ef644f1c92e021f7106b2a9010bdc1423b"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ad2e43ef644f1c92e021f7106b2a9010bdc1423b",
                 "reference": "ad2e43ef644f1c92e021f7106b2a9010bdc1423b",
->>>>>>> master
                 "shasum": ""
             },
             "conflict": {
@@ -9106,11 +9077,7 @@
                 "october/cms": "<1.0.469|==1.0.469|==1.0.471|==1.1.1",
                 "october/october": "<=3.4.4",
                 "october/rain": "<1.0.472|>=1.1,<1.1.2",
-<<<<<<< HEAD
-                "october/system": "<1.0.476|>=1.1,<1.1.12|>=2,<2.2.34|>=3,<3.0.66",
-=======
                 "october/system": "<1.0.476|>=1.1,<1.1.12|>=2,<2.2.34|>=3,<3.5.2",
->>>>>>> master
                 "omeka/omeka-s": "<4.0.3",
                 "onelogin/php-saml": "<2.10.4",
                 "oneup/uploader-bundle": "<1.9.3|>=2,<2.1.5",
@@ -9467,11 +9434,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2023-11-28T19:04:15+00:00"
-=======
             "time": "2023-11-29T22:04:15+00:00"
->>>>>>> master
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
