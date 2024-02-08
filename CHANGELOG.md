@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - "cul-it/elementor-pro": "3.19.2",
 - "cul-it/wp-custom-loop-widget": "2.0.4",
 - "wpackagist-plugin/capability-manager-enhanced": "2.12.2",
-
+- "wpackagist-plugin/wp-cfm": "1.7.9",
 
 ## [v2.4.2] - 2023-11-29
 - "cul-it/advanced-custom-fields-pro": "6.2.4",

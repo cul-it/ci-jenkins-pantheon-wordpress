@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4551d3624fca3c202e2903264445eb90",
+    "content-hash": "e220c4d14328c6f1e2cbcf826c650390",
     "packages": [
         {
             "name": "10up/distributor",
@@ -7156,15 +7156,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-cfm",
-            "version": "1.7.8",
+            "version": "1.7.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-cfm/",
-                "reference": "tags/1.7.8"
+                "reference": "tags/1.7.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-cfm.1.7.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-cfm.1.7.9.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
