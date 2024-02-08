@@ -4,27 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "8340c65d74384b0b7d6752a048035ca9",
+=======
+    "content-hash": "5614d8219e93a650dfa6e1fe510e953e",
+>>>>>>> master
     "packages": [
         {
             "name": "10up/distributor",
-            "version": "1.9.1",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/10up/distributor.git",
-                "reference": "7e1dd94df9d1aa36755d4c10b9535cc790c1b33a"
+                "reference": "49165c33099fefd15ec50b2f7feefa6baf931dad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/10up/distributor/zipball/7e1dd94df9d1aa36755d4c10b9535cc790c1b33a",
-                "reference": "7e1dd94df9d1aa36755d4c10b9535cc790c1b33a",
+                "url": "https://api.github.com/repos/10up/distributor/zipball/49165c33099fefd15ec50b2f7feefa6baf931dad",
+                "reference": "49165c33099fefd15ec50b2f7feefa6baf931dad",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "georgestephanis/application-passwords": "0.1.3",
-                "php": ">=5.6",
-                "yahnis-elsts/plugin-update-checker": "4.13"
+                "php": ">=7.4",
+                "yahnis-elsts/plugin-update-checker": "5.1"
             },
             "require-dev": {
                 "10up/phpcs-composer": "dev-master",
@@ -41,7 +44,7 @@
             },
             "scripts": {
                 "lint": [
-                    "phpcs . --runtime-set testVersion 5.6-"
+                    "@php phpcs . --runtime-set testVersion 7.4-"
                 ],
                 "lint-fix": [
                     "phpcbf ."
@@ -62,10 +65,10 @@
             "description": "Distributor is a WordPress plugin that makes it easy to distribute and reuse content across your websites — whether in a single multisite or across the web.",
             "homepage": "https://distributorplugin.com/",
             "support": {
-                "source": "https://github.com/10up/distributor/tree/1.9.1",
+                "source": "https://github.com/10up/distributor/tree/2.0.1",
                 "issues": "https://github.com/10up/distributor/issues"
             },
-            "time": "2023-03-15T22:37:44+00:00"
+            "time": "2023-09-19T05:46:51+00:00"
         },
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1367,55 +1370,6 @@
                 }
             ],
             "time": "2022-12-20T22:53:13+00:00"
-        },
-        {
-            "name": "georgestephanis/application-passwords",
-            "version": "0.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WordPress/application-passwords.git",
-                "reference": "e23f69f1f4817975e0b30959ed7e7d6c0264603e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/application-passwords/zipball/e23f69f1f4817975e0b30959ed7e7d6c0264603e",
-                "reference": "e23f69f1f4817975e0b30959ed7e7d6c0264603e",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8",
-                "wp-coding-standards/wpcs": "^2.1",
-                "wpsh/local": "^0.2.3",
-                "xwp/wp-dev-lib": "^1.2"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "George Stephanis",
-                    "email": "georgestephanis@automattic.com",
-                    "homepage": "https://github.com/georgestephanis"
-                }
-            ],
-            "description": "Provide Application Passwords for WordPress core",
-            "homepage": "https://github.com/WordPress/application-passwords",
-            "keywords": [
-                "api",
-                "application Ppasswords",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/WordPress/application-passwords/issues",
-                "source": "https://github.com/WordPress/application-passwords/tree/0.1.3"
-            },
-            "abandoned": true,
-            "time": "2021-05-07T06:56:59+00:00"
         },
         {
             "name": "gettext/gettext",
@@ -6810,15 +6764,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.9.15",
+            "version": "6.9.18",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.9.15"
+                "reference": "tags/6.9.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.15.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.18.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6882,15 +6836,15 @@
         },
         {
             "name": "wpackagist-plugin/capability-manager-enhanced",
-            "version": "2.10.0",
+            "version": "2.10.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
-                "reference": "tags/2.10.0"
+                "reference": "tags/2.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.10.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.10.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6900,15 +6854,15 @@
         },
         {
             "name": "wpackagist-plugin/code-snippets",
-            "version": "3.5.0",
+            "version": "3.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/code-snippets/",
-                "reference": "tags/3.5.0"
+                "reference": "tags/3.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/code-snippets.3.5.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/code-snippets.3.6.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6954,15 +6908,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.14.0",
+            "version": "1.15.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.14.0"
+                "reference": "tags/1.15.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.14.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.15.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7008,7 +6962,7 @@
         },
         {
             "name": "wpackagist-plugin/filebird",
-            "version": "5.5",
+            "version": "5.5.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/filebird/",
@@ -7016,7 +6970,11 @@
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://downloads.wordpress.org/plugin/filebird.5.5.zip"
+=======
+                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1701154422"
+>>>>>>> master
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7026,6 +6984,7 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
+<<<<<<< HEAD
             "version": "7.19.0",
             "source": {
                 "type": "svn",
@@ -7035,6 +6994,17 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.7.19.0.zip"
+=======
+            "version": "7.22.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
+                "reference": "tags/7.22.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.7.22.0.zip"
+>>>>>>> master
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7080,15 +7050,15 @@
         },
         {
             "name": "wpackagist-plugin/json-content-importer",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/json-content-importer/",
-                "reference": "tags/1.5.2"
+                "reference": "tags/1.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.5.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.5.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7116,15 +7086,15 @@
         },
         {
             "name": "wpackagist-plugin/pantheon-advanced-page-cache",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pantheon-advanced-page-cache/",
-                "reference": "tags/1.4.1"
+                "reference": "tags/1.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.1.4.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.1.4.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7170,15 +7140,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-social-icons",
-            "version": "3.1.2",
+            "version": "3.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-social-icons/",
-                "reference": "tags/3.1.2"
+                "reference": "tags/3.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-social-icons.3.1.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-social-icons.3.2.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7206,15 +7176,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-cfm",
-            "version": "1.7.5",
+            "version": "1.7.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-cfm/",
-                "reference": "tags/1.7.5"
+                "reference": "tags/1.7.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-cfm.1.7.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-cfm.1.7.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7224,15 +7194,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "3.9.0",
+            "version": "3.10.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/3.9.0"
+                "reference": "tags/3.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.3.9.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.3.10.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7242,15 +7212,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-native-php-sessions",
-            "version": "1.3.6",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
-                "reference": "tags/1.3.6"
+                "reference": "tags/1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.1.3.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.1.4.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7260,15 +7230,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-rss-aggregator",
-            "version": "4.23.2",
+            "version": "4.23.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-rss-aggregator/",
-                "reference": "tags/4.23.2"
+                "reference": "tags/4.23.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.23.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.23.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7296,26 +7266,26 @@
         },
         {
             "name": "yahnis-elsts/plugin-update-checker",
-            "version": "v4.13",
+            "version": "v5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
-                "reference": "6eb27a6911e0e0880d09e5b11f577d3f688f7da7"
+                "reference": "48b03e93c9c2587f9276dce00ce2b6d94c1190d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/6eb27a6911e0e0880d09e5b11f577d3f688f7da7",
-                "reference": "6eb27a6911e0e0880d09e5b11f577d3f688f7da7",
+                "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/48b03e93c9c2587f9276dce00ce2b6d94c1190d2",
+                "reference": "48b03e93c9c2587f9276dce00ce2b6d94c1190d2",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=5.2.0"
+                "php": ">=5.6.20"
             },
             "type": "library",
             "autoload": {
                 "files": [
-                    "load-v4p13.php"
+                    "load-v5p1.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7326,7 +7296,7 @@
                 {
                     "name": "Yahnis Elsts",
                     "email": "whiteshadow@w-shadow.com",
-                    "homepage": "http://w-shadow.com/",
+                    "homepage": "https://w-shadow.com/",
                     "role": "Developer"
                 }
             ],
@@ -7340,9 +7310,9 @@
             ],
             "support": {
                 "issues": "https://github.com/YahnisElsts/plugin-update-checker/issues",
-                "source": "https://github.com/YahnisElsts/plugin-update-checker/tree/v4.13"
+                "source": "https://github.com/YahnisElsts/plugin-update-checker/tree/v5.1"
             },
-            "time": "2022-07-29T12:36:25+00:00"
+            "time": "2023-05-20T11:55:43+00:00"
         }
     ],
     "packages-dev": [
@@ -8785,12 +8755,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
+<<<<<<< HEAD
                 "reference": "01fd41b19678c11355e77cfb63c2b27f6bfe3b1e"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/01fd41b19678c11355e77cfb63c2b27f6bfe3b1e",
                 "reference": "01fd41b19678c11355e77cfb63c2b27f6bfe3b1e",
+=======
+                "reference": "ad2e43ef644f1c92e021f7106b2a9010bdc1423b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ad2e43ef644f1c92e021f7106b2a9010bdc1423b",
+                "reference": "ad2e43ef644f1c92e021f7106b2a9010bdc1423b",
+>>>>>>> master
                 "shasum": ""
             },
             "conflict": {
@@ -9127,7 +9106,11 @@
                 "october/cms": "<1.0.469|==1.0.469|==1.0.471|==1.1.1",
                 "october/october": "<=3.4.4",
                 "october/rain": "<1.0.472|>=1.1,<1.1.2",
+<<<<<<< HEAD
                 "october/system": "<1.0.476|>=1.1,<1.1.12|>=2,<2.2.34|>=3,<3.0.66",
+=======
+                "october/system": "<1.0.476|>=1.1,<1.1.12|>=2,<2.2.34|>=3,<3.5.2",
+>>>>>>> master
                 "omeka/omeka-s": "<4.0.3",
                 "onelogin/php-saml": "<2.10.4",
                 "oneup/uploader-bundle": "<1.9.3|>=2,<2.1.5",
@@ -9484,7 +9467,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-11-28T19:04:15+00:00"
+=======
+            "time": "2023-11-29T22:04:15+00:00"
+>>>>>>> master
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
