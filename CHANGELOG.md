@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.4.4] - 2024-02-08
+- "wpackagist-plugin/advanced-access-manager": "6.9.21",
+- "wpackagist-plugin/akismet": "5.3.1",
+- "wpackagist-plugin/coming-soon": "6.15.23",
+- "wpackagist-plugin/elementor": "3.19.2",
+- "wpackagist-plugin/filebird": "5.6.1",
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "7.24.0",
+- "wpackagist-plugin/intuitive-custom-post-order": "3.1.5",
+- "wpackagist-plugin/json-content-importer": "1.5.4",
+- "wpackagist-plugin/redirection": "5.4.2",
+- "wpackagist-plugin/simple-social-icons": "3.2.4",
+- "wpackagist-plugin/wp-mail-smtp": "3.11.1",
+- "wpackagist-plugin/wp-rss-aggregator": "4.23.6",
+- "wpackagist-theme/twentynineteen": "2.7"
+
 ## [v2.4.3] - 2024-02-08
 - "cul-it/culu": "1.6.19",
 - "pantheon-systems/wordpress-composer": "6.4.3",
@@ -1157,6 +1172,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.4.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.4
 [v2.4.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.3
 [v2.4.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.2
 [v2.4.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.1
