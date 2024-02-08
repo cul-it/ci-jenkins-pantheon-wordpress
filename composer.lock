@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e3c2183d93bcd39a868f97ad7bdbad9",
+    "content-hash": "4551d3624fca3c202e2903264445eb90",
     "packages": [
         {
             "name": "10up/distributor",
@@ -6832,15 +6832,15 @@
         },
         {
             "name": "wpackagist-plugin/capability-manager-enhanced",
-            "version": "2.10.2",
+            "version": "2.12.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
-                "reference": "tags/2.10.2"
+                "reference": "tags/2.12.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.10.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.2.12.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
