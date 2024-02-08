@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0f29bd0fd4c9558252fd8d1c341198b",
+    "content-hash": "2e3c2183d93bcd39a868f97ad7bdbad9",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1126,16 +1126,16 @@
         },
         {
             "name": "cul-it/wp-custom-loop-widget",
-            "version": "v2.0.2",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-custom-loop-widget.git",
-                "reference": "62c0944d6cbe1b6353cd741f8eec47ec6165c053"
+                "reference": "2b6a66719181bae9c99f26308f4b18baac3c441d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/62c0944d6cbe1b6353cd741f8eec47ec6165c053",
-                "reference": "62c0944d6cbe1b6353cd741f8eec47ec6165c053",
+                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/2b6a66719181bae9c99f26308f4b18baac3c441d",
+                "reference": "2b6a66719181bae9c99f26308f4b18baac3c441d",
                 "shasum": ""
             },
             "require": {
@@ -1144,10 +1144,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v2.0.2",
+                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v2.0.4",
                 "issues": "https://github.com/cul-it/wp-custom-loop-widget/issues"
             },
-            "time": "2023-08-25T14:30:10+00:00"
+            "time": "2024-02-07T15:36:23+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",

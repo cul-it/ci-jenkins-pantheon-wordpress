@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - "cul-it/advanced-custom-fields-pro": "6.2.6.1",
 - "cul-it/ares_wordpress": "1.0.9.2",
 - "cul-it/elementor-pro": "3.19.2",
+- "cul-it/wp-custom-loop-widget": "2.0.4",
 
 
 ## [v2.4.2] - 2023-11-29
