@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2c13225a5228ef5fefc6cabb357de79",
+    "content-hash": "59c7e76a0b5879038ff21bfb79cdcf04",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1285,16 +1285,16 @@
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
-            "version": "v7.6",
+            "version": "v7.8.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-ultimate-csv-importer-pro.git",
-                "reference": "3208f72ed0f5908c34e53786168b1a0c1053eb0c"
+                "reference": "17ed9cbedbbe5a6a3b406ff9019fed95cb0dfa1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/3208f72ed0f5908c34e53786168b1a0c1053eb0c",
-                "reference": "3208f72ed0f5908c34e53786168b1a0c1053eb0c",
+                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/17ed9cbedbbe5a6a3b406ff9019fed95cb0dfa1d",
+                "reference": "17ed9cbedbbe5a6a3b406ff9019fed95cb0dfa1d",
                 "shasum": ""
             },
             "require": {
@@ -1304,10 +1304,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v7.6",
+                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v7.8.4",
                 "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
             },
-            "time": "2023-09-20T18:43:13+00:00"
+            "time": "2024-02-08T18:41:42+00:00"
         },
         {
             "name": "cweagans/composer-patches",
@@ -7198,15 +7198,15 @@
         },
         {
             "name": "wpackagist-theme/twentynineteen",
-            "version": "2.5",
+            "version": "2.7",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentynineteen/",
-                "reference": "2.5"
+                "reference": "2.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentynineteen.2.5.zip"
+                "url": "https://downloads.wordpress.org/theme/twentynineteen.2.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
