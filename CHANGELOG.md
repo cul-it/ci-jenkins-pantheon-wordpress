@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v2.4.3] - 2024-02-08
 - "cul-it/culu": "1.6.19",
+- "pantheon-systems/wordpress-composer": "6.4.3",
 
 
 ## [v2.4.2] - 2023-11-29
