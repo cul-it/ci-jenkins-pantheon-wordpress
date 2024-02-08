@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b25cde2d77c0976cc506f7eb305c0b7c",
+    "content-hash": "d45a3883b1435b2ffb8b18cb4bb69c14",
     "packages": [
         {
             "name": "10up/distributor",
@@ -899,16 +899,16 @@
         },
         {
             "name": "cul-it/advanced-custom-fields-pro",
-            "version": "v6.2.4",
+            "version": "v6.2.6.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/advanced-custom-fields-pro.git",
-                "reference": "b086dd3b9be82603be58037e0331d3f9116f36e4"
+                "reference": "2d002f558db6f4ba9a17337778ffbc59e5e773bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/b086dd3b9be82603be58037e0331d3f9116f36e4",
-                "reference": "b086dd3b9be82603be58037e0331d3f9116f36e4",
+                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/2d002f558db6f4ba9a17337778ffbc59e5e773bb",
+                "reference": "2d002f558db6f4ba9a17337778ffbc59e5e773bb",
                 "shasum": ""
             },
             "require": {
@@ -917,10 +917,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v6.2.4",
+                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v6.2.6.1",
                 "issues": "https://github.com/cul-it/advanced-custom-fields-pro/issues"
             },
-            "time": "2023-11-29T20:00:39+00:00"
+            "time": "2024-02-08T14:07:43+00:00"
         },
         {
             "name": "cul-it/ares_wordpress",

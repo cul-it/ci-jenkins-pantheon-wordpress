@@ -93,7 +93,7 @@
     "require": {
         "10up/distributor": "2.0.1",
         "composer/installers": "^1.3.0",
-        "cul-it/advanced-custom-fields-pro": "6.2.4",
+        "cul-it/advanced-custom-fields-pro": "6.2.6.1",
         "cul-it/ares_wordpress": "1.0.8",
         "cul-it/cul-saml-auth": "1.0.2",
         "cul-it/culu": "1.6.19",
