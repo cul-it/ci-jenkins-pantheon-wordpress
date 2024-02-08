@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.4.7] - 2024-02-08
+- "cul-it/wp-ultimate-csv-importer-pro": "v7.8.4.2",
+
 ## [v2.4.6] - 2024-02-08
 - "cul-it/wp-ultimate-csv-importer-pro": "v7.8.4.1",
 
@@ -1178,6 +1181,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.4.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.7
 [v2.4.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.6
 [v2.4.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.5
 [v2.4.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.4
