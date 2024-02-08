@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - "cul-it/culu": "1.6.19",
 - "pantheon-systems/wordpress-composer": "6.4.3",
 - "cul-it/advanced-custom-fields-pro": "6.2.6.1",
+- "cul-it/ares_wordpress": "1.0.9.2",
+- "cul-it/elementor-pro": "3.19.2",
 
 
 ## [v2.4.2] - 2023-11-29
