@@ -1,21 +1,11 @@
 <?php
-/**
- * Customizations for CUL ULS - containerized WordPress
- * This file is included in wp-config.php if it exists
- */
 
 // enable debugging -jgr25
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 @ini_set( 'display_errors', 0 );
-
-// allow wordpress login without SSL
 define('FORCE_SSL_ADMIN', false);
-
-/**
- * end of customizations
- */
 
 /*
  * Don't show deprecations
