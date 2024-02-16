@@ -13,6 +13,11 @@ define( 'WP_DEBUG_DISPLAY', false );
 // allow wordpress login without SSL
 define('FORCE_SSL_ADMIN', false);
 
+// pretend to be part one of the libraries
+// CUL_UNIT is normally defined in wp-cul-theme-culu
+// functions.php cul_config()
+define('CUL_UNIT', 'mathematics');
+
 /**
  * end of customizations
  */
