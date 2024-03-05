@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [v2.5.0] - 2024-03-05
+- "cul-it/culu": "1.7.0",
+- "cul-it/advanced-custom-fields-pro": "6.2.7",
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "7.24.4",
+- "wpackagist-plugin/easy-notification-bar": "1.5",
+- "wpackagist-plugin/advanced-access-manager": "6.9.23",
+- "wpackagist-plugin/filebird": "5.6.2",
+- "wpackagist-plugin/wp-mail-smtp": "4.0.1",
+- "wpackagist-plugin/wp-rss-aggregator": "4.23.7",
+- "wpackagist-plugin/wp-cfm": "1.7.10",
 
 ## [V2.4.9] - 2024-02016
 - "cul-it/wp-libcal-hours": "v2.1.5",
@@ -1187,6 +1197,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.5.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.0
 [v2.4.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.9
 [v2.4.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.8
 [v2.4.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.7
