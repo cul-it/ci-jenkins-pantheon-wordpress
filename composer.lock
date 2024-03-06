@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da2eea1e767cf71614b79b3bda3a6fe3",
+    "content-hash": "8a36321c2327e33d3168cf29dcf6241c",
     "packages": [
         {
             "name": "10up/distributor",
@@ -7144,15 +7144,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "4.0.1",
+            "version": "3.11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/4.0.1"
+                "reference": "tags/3.11.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.4.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.3.11.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
