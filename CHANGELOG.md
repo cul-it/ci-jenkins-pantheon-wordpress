@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.5.2] - 2024-03-06
+- downgrade wpackagist-plugin/wp-mail-smtp to 3.11.1 for real this time
+
 ## [v2.5.1] - 2024-03-06
 - downgrade to previous version "wpackagist-plugin/wp-mail-smtp": "3.11.1",
 - dependabot security update for rack
@@ -1202,6 +1205,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.5.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.2
 [v2.5.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.1
 [v2.5.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.0
 [v2.4.9]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.4.9
