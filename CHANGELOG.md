@@ -4,11 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.5.5] - 2024-04-04
+- change to run Jenkins again
+
+## [v2.5.4] - 2024-04-04
+- change to run Jenkins again
+
 ## [v2.5.3] - 2024-04-04
 - ul-it/culu": "1.7.1",
 - "cul-it/wp-custom-loop-widget": "2.0.5",
 - "cul-it/culu-child": "1.0.1",
-- change to run Jenkins again
 
 ## [v2.5.2] - 2024-03-06
 - downgrade wpackagist-plugin/wp-mail-smtp to 3.11.1 for real this time
@@ -1211,6 +1216,8 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.5.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.3
+[v2.5.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.3
 [v2.5.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.3
 [v2.5.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.2
 [v2.5.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.1
