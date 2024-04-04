@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ul-it/culu": "1.7.1",
 - "cul-it/wp-custom-loop-widget": "2.0.5",
 - "cul-it/culu-child": "1.0.1",
+- change to run Jenkins again
 
 ## [v2.5.2] - 2024-03-06
 - downgrade wpackagist-plugin/wp-mail-smtp to 3.11.1 for real this time
