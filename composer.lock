@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a36321c2327e33d3168cf29dcf6241c",
+    "content-hash": "fa4af0f74b77833d22782953cc8c3e24",
     "packages": [
         {
             "name": "10up/distributor",
@@ -942,16 +942,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.7.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-cul-theme-culu.git",
-                "reference": "cf7660d1d00b174d085a28d2c823f850dfcd9cbf"
+                "reference": "c2a12914122d787666f349a80e3807bfb0fde464"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/cf7660d1d00b174d085a28d2c823f850dfcd9cbf",
-                "reference": "cf7660d1d00b174d085a28d2c823f850dfcd9cbf",
+                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/c2a12914122d787666f349a80e3807bfb0fde464",
+                "reference": "c2a12914122d787666f349a80e3807bfb0fde464",
                 "shasum": ""
             },
             "require": {
@@ -970,10 +970,44 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.7.0",
+                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.7.1",
                 "issues": "https://github.com/cul-it/wp-cul-theme-culu/issues"
             },
-            "time": "2024-03-05T16:36:51+00:00"
+            "time": "2024-04-01T18:46:24+00:00"
+        },
+        {
+            "name": "cul-it/culu-child",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cul-it/wp-cul-theme-culu-child.git",
+                "reference": "90224f94ee5e9a6242731d0dcbea9f2e51f1f746"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu-child/zipball/90224f94ee5e9a6242731d0dcbea9f2e51f1f746",
+                "reference": "90224f94ee5e9a6242731d0dcbea9f2e51f1f746",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Manolo Bevia",
+                    "email": "manolo.bevia@cornell.edu"
+                }
+            ],
+            "description": "WordPress child theme for Unified Library Website",
+            "support": {
+                "source": "https://github.com/cul-it/wp-cul-theme-culu-child/tree/v1.0.1",
+                "issues": "https://github.com/cul-it/wp-cul-theme-culu-child/issues"
+            },
+            "time": "2019-04-30T16:53:59+00:00"
         },
         {
             "name": "cul-it/draw-attention-pro",
@@ -1076,16 +1110,16 @@
         },
         {
             "name": "cul-it/wp-custom-loop-widget",
-            "version": "v2.0.4",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-custom-loop-widget.git",
-                "reference": "2b6a66719181bae9c99f26308f4b18baac3c441d"
+                "reference": "acf37e6cd7a505e2980275bdc296379c72744f63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/2b6a66719181bae9c99f26308f4b18baac3c441d",
-                "reference": "2b6a66719181bae9c99f26308f4b18baac3c441d",
+                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/acf37e6cd7a505e2980275bdc296379c72744f63",
+                "reference": "acf37e6cd7a505e2980275bdc296379c72744f63",
                 "shasum": ""
             },
             "require": {
@@ -1094,10 +1128,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v2.0.4",
+                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v2.0.5",
                 "issues": "https://github.com/cul-it/wp-custom-loop-widget/issues"
             },
-            "time": "2024-02-07T15:36:23+00:00"
+            "time": "2024-04-01T18:41:41+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
