@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ea6406ab59ce031d51c415eb40471ae",
+    "content-hash": "48fc1836b7b8b47784c11465df51bb8f",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -882,16 +882,16 @@
         },
         {
             "name": "cul-it/culu",
-            "version": "v1.7.1",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-cul-theme-culu.git",
-                "reference": "c2a12914122d787666f349a80e3807bfb0fde464"
+                "reference": "bf568d8ae0c78366c6712a1710673c66c4be29f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/c2a12914122d787666f349a80e3807bfb0fde464",
-                "reference": "c2a12914122d787666f349a80e3807bfb0fde464",
+                "url": "https://api.github.com/repos/cul-it/wp-cul-theme-culu/zipball/bf568d8ae0c78366c6712a1710673c66c4be29f6",
+                "reference": "bf568d8ae0c78366c6712a1710673c66c4be29f6",
                 "shasum": ""
             },
             "require": {
@@ -910,10 +910,10 @@
             ],
             "description": "WordPress theme for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.7.1",
+                "source": "https://github.com/cul-it/wp-cul-theme-culu/tree/v1.7.2",
                 "issues": "https://github.com/cul-it/wp-cul-theme-culu/issues"
             },
-            "time": "2024-04-01T18:46:24+00:00"
+            "time": "2024-04-05T19:02:14+00:00"
         },
         {
             "name": "cul-it/culu-child",
@@ -6704,15 +6704,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.9.25",
+            "version": "6.9.24",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.9.25"
+                "reference": "tags/6.9.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.25.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.24.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

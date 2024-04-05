@@ -99,7 +99,7 @@
         "cul-it/advanced-custom-fields-pro": "6.2.8",
         "cul-it/ares_wordpress": "1.0.9.2",
         "cul-it/cul-saml-auth": "1.0.2",
-        "cul-it/culu": "1.7.1",
+        "cul-it/culu": "1.7.2",
         "cul-it/culu-child": "1.0.1",
         "cul-it/draw-attention-pro": "3.0.11",
         "cul-it/elementor-pro": "3.19.2",
@@ -129,7 +129,7 @@
         "wpackagist-plugin/acf-better-search": "4.2.0",
         "wpackagist-plugin/acf-image-aspect-ratio-crop": "6.0.3",
         "wpackagist-plugin/acf-to-rest-api": "3.3.3",
-        "wpackagist-plugin/advanced-access-manager": "6.9.25",
+        "wpackagist-plugin/advanced-access-manager": "6.9.24",
         "wpackagist-plugin/anywhere-elementor": "1.2.10",
         "wpackagist-plugin/better-font-awesome": "2.0.4",
         "wpackagist-plugin/capability-manager-enhanced": "2.12.2",
@@ -201,7 +201,7 @@
             ]
         },
         "composer-exit-on-patch-failure": true,
-        "patches": {},
+        "patches": { },
         "enable-patching": true
     },
     "autoload": {
