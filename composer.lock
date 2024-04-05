@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa4af0f74b77833d22782953cc8c3e24",
+    "content-hash": "7ea4243eb5b065833e0fda75b3c3f83b",
     "packages": [
         {
             "name": "10up/distributor",
@@ -849,16 +849,16 @@
         },
         {
             "name": "cul-it/advanced-custom-fields-pro",
-            "version": "v6.2.7",
+            "version": "v6.2.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/advanced-custom-fields-pro.git",
-                "reference": "bb427e3b0251096e2cf0b0068343c4ffbad5c703"
+                "reference": "02e99446e55b9afa5da06bac5cee781873c57118"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/bb427e3b0251096e2cf0b0068343c4ffbad5c703",
-                "reference": "bb427e3b0251096e2cf0b0068343c4ffbad5c703",
+                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/02e99446e55b9afa5da06bac5cee781873c57118",
+                "reference": "02e99446e55b9afa5da06bac5cee781873c57118",
                 "shasum": ""
             },
             "require": {
@@ -867,10 +867,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v6.2.7",
+                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v6.2.8",
                 "issues": "https://github.com/cul-it/advanced-custom-fields-pro/issues"
             },
-            "time": "2024-03-05T17:18:10+00:00"
+            "time": "2024-04-05T13:51:35+00:00"
         },
         {
             "name": "cul-it/ares_wordpress",
@@ -6764,15 +6764,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.9.23",
+            "version": "6.9.25",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.9.23"
+                "reference": "tags/6.9.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.23.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.25.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6781,34 +6781,16 @@
             "homepage": "https://wordpress.org/plugins/advanced-access-manager/"
         },
         {
-            "name": "wpackagist-plugin/akismet",
-            "version": "5.3.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/5.3.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.5.3.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/akismet/"
-        },
-        {
             "name": "wpackagist-plugin/anywhere-elementor",
-            "version": "1.2.9",
+            "version": "1.2.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/anywhere-elementor/",
-                "reference": "tags/1.2.9"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/anywhere-elementor.1.2.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/anywhere-elementor.zip?timestamp=1707736470"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6854,15 +6836,15 @@
         },
         {
             "name": "wpackagist-plugin/code-snippets",
-            "version": "3.6.2",
+            "version": "3.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/code-snippets/",
-                "reference": "tags/3.6.2"
+                "reference": "tags/3.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/code-snippets.3.6.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/code-snippets.3.6.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6962,7 +6944,7 @@
         },
         {
             "name": "wpackagist-plugin/filebird",
-            "version": "5.6.2",
+            "version": "5.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/filebird/",
@@ -6970,7 +6952,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1709370713"
+                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1711684465"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
