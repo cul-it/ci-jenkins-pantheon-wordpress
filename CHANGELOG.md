@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.6.1] - 2024-04-05
+- delete "10up/distributor": "2.0.1",
+
 ## [v2.6.0] - 2024-04-05
 - update to php 8.1
 - "cul-it/advanced-custom-fields-pro": "6.2.8",
@@ -1225,6 +1228,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.6.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.6.1
 [v2.6.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.6.0
 [v2.5.5]: https://github.com/cul-it/[v2.5.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.5
 [v2.5.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.5.4
