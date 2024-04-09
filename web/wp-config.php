@@ -229,7 +229,7 @@ $table_prefix = getenv( 'DB_PREFIX' ) !== false ? getenv( 'DB_PREFIX' ) : 'wp_';
  */
 if (isset($_ENV['PANTHEON_ENVIRONMENT']) && php_sapi_name() != 'cli') {
  // Redirect to https://$primary_domain in the Live environment
- if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live' && defined(ULS_SITE_DOMAIN_NAME)) {
+ if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live' && defined('ULS_SITE_DOMAIN_NAME')) {
    /** Replace www.example.com with your registered domain name */
    $primary_domain = ULS_SITE_DOMAIN_NAME;
  }

@@ -25,7 +25,7 @@ index a76e6d11d..4a31e8e0e 100644
 + */
 +if (isset($_ENV['PANTHEON_ENVIRONMENT']) && php_sapi_name() != 'cli') {
 + // Redirect to https://$primary_domain in the Live environment
-+ if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live' && defined(ULS_SITE_DOMAIN_NAME)) {
++ if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live' && defined('ULS_SITE_DOMAIN_NAME')) {
 +   /** Replace www.example.com with your registered domain name */
 +   $primary_domain = ULS_SITE_DOMAIN_NAME;
 + }
