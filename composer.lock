@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fb8fc37871fa28766107cee3279e75f",
+    "content-hash": "6c9fe44cb8b3510d476bbd99432df421",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -797,16 +797,16 @@
         },
         {
             "name": "cul-it/advanced-custom-fields-pro",
-            "version": "v6.3.3",
+            "version": "v6.3.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/advanced-custom-fields-pro.git",
-                "reference": "47e7263d2be1f5049075369f4a650976a3cebe90"
+                "reference": "d5b31c5ce5dd172f9c01f990e4baff88391e7947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/47e7263d2be1f5049075369f4a650976a3cebe90",
-                "reference": "47e7263d2be1f5049075369f4a650976a3cebe90",
+                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/d5b31c5ce5dd172f9c01f990e4baff88391e7947",
+                "reference": "d5b31c5ce5dd172f9c01f990e4baff88391e7947",
                 "shasum": ""
             },
             "require": {
@@ -815,10 +815,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v6.3.3",
+                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v6.3.5.2",
                 "issues": "https://github.com/cul-it/advanced-custom-fields-pro/issues"
             },
-            "time": "2024-06-27T21:34:13+00:00"
+            "time": "2024-08-28T20:10:17+00:00"
         },
         {
             "name": "cul-it/ares_wordpress",
@@ -950,16 +950,16 @@
         },
         {
             "name": "cul-it/elementor-pro",
-            "version": "v3.19.2",
+            "version": "v3.23.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/elementor-pro.git",
-                "reference": "8ed032ce5bbd1e1579d54f8fd258696089797767"
+                "reference": "7de78b7e1564fdaff7a128270ffdaba68f889c90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/8ed032ce5bbd1e1579d54f8fd258696089797767",
-                "reference": "8ed032ce5bbd1e1579d54f8fd258696089797767",
+                "url": "https://api.github.com/repos/cul-it/elementor-pro/zipball/7de78b7e1564fdaff7a128270ffdaba68f889c90",
+                "reference": "7de78b7e1564fdaff7a128270ffdaba68f889c90",
                 "shasum": ""
             },
             "require": {
@@ -968,23 +968,23 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/elementor-pro/tree/v3.19.2",
+                "source": "https://github.com/cul-it/elementor-pro/tree/v3.23.3",
                 "issues": "https://github.com/cul-it/elementor-pro/issues"
             },
-            "time": "2024-02-08T14:31:28+00:00"
+            "time": "2024-08-28T19:57:54+00:00"
         },
         {
             "name": "cul-it/facetwp",
-            "version": "v4.3.1",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/facetwp.git",
-                "reference": "2093a004e05559d65f3fd28bacc289d10caa4b27"
+                "reference": "e3a6cee97efeacf28b92eecb98a5ed867ab8c852"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/2093a004e05559d65f3fd28bacc289d10caa4b27",
-                "reference": "2093a004e05559d65f3fd28bacc289d10caa4b27",
+                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/e3a6cee97efeacf28b92eecb98a5ed867ab8c852",
+                "reference": "e3a6cee97efeacf28b92eecb98a5ed867ab8c852",
                 "shasum": ""
             },
             "require": {
@@ -993,10 +993,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/facetwp/tree/v4.3.1",
+                "source": "https://github.com/cul-it/facetwp/tree/v4.3.3",
                 "issues": "https://github.com/cul-it/facetwp/issues"
             },
-            "time": "2024-06-27T15:57:04+00:00"
+            "time": "2024-08-28T16:03:21+00:00"
         },
         {
             "name": "cul-it/facetwp-conditional-logic",
@@ -1026,16 +1026,16 @@
         },
         {
             "name": "cul-it/wp-custom-loop-widget",
-            "version": "v2.0.8.5",
+            "version": "v2.0.8.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-custom-loop-widget.git",
-                "reference": "9403a52731c3f6499cac47224a0c471978b5e06d"
+                "reference": "c0999f34879b4ec0373b32d857f7b47859a07a25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/9403a52731c3f6499cac47224a0c471978b5e06d",
-                "reference": "9403a52731c3f6499cac47224a0c471978b5e06d",
+                "url": "https://api.github.com/repos/cul-it/wp-custom-loop-widget/zipball/c0999f34879b4ec0373b32d857f7b47859a07a25",
+                "reference": "c0999f34879b4ec0373b32d857f7b47859a07a25",
                 "shasum": ""
             },
             "require": {
@@ -1044,10 +1044,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v2.0.8.5",
+                "source": "https://github.com/cul-it/wp-custom-loop-widget/tree/v2.0.8.6",
                 "issues": "https://github.com/cul-it/wp-custom-loop-widget/issues"
             },
-            "time": "2024-06-25T20:55:19+00:00"
+            "time": "2024-08-26T16:57:14+00:00"
         },
         {
             "name": "cul-it/wp-libcal-hours",
@@ -1085,7 +1085,7 @@
         },
         {
             "name": "cul-it/wp-rss-categories",
-            "version": "v1.3.3.2",
+            "version": "v1.3.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-rss-categories.git",
@@ -1110,16 +1110,16 @@
         },
         {
             "name": "cul-it/wp-rss-keyword-filtering",
-            "version": "v1.6.3.1",
+            "version": "v1.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-rss-keyword-filtering.git",
-                "reference": "353229555e768e7debf3b9b236a3af0950e87e66"
+                "reference": "7af9a7347b077bc40dc4fc87b0e26f1c3fbe20bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-rss-keyword-filtering/zipball/353229555e768e7debf3b9b236a3af0950e87e66",
-                "reference": "353229555e768e7debf3b9b236a3af0950e87e66",
+                "url": "https://api.github.com/repos/cul-it/wp-rss-keyword-filtering/zipball/7af9a7347b077bc40dc4fc87b0e26f1c3fbe20bc",
+                "reference": "7af9a7347b077bc40dc4fc87b0e26f1c3fbe20bc",
                 "shasum": ""
             },
             "require": {
@@ -1128,23 +1128,23 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-rss-keyword-filtering/tree/v1.6.3.1",
+                "source": "https://github.com/cul-it/wp-rss-keyword-filtering/tree/v1.8",
                 "issues": "https://github.com/cul-it/wp-rss-keyword-filtering/issues"
             },
-            "time": "2019-10-24T16:42:34+00:00"
+            "time": "2024-06-28T19:07:47+00:00"
         },
         {
             "name": "cul-it/wp-rss-templates",
-            "version": "v0.2",
+            "version": "v0.3.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-rss-templates.git",
-                "reference": "49c84700915c256c5f137f3dc84cbd186719bf41"
+                "reference": "25e68622adc887e10842da5f50084c3517889966"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-rss-templates/zipball/49c84700915c256c5f137f3dc84cbd186719bf41",
-                "reference": "49c84700915c256c5f137f3dc84cbd186719bf41",
+                "url": "https://api.github.com/repos/cul-it/wp-rss-templates/zipball/25e68622adc887e10842da5f50084c3517889966",
+                "reference": "25e68622adc887e10842da5f50084c3517889966",
                 "shasum": ""
             },
             "require": {
@@ -1153,10 +1153,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-rss-templates/tree/v0.2",
+                "source": "https://github.com/cul-it/wp-rss-templates/tree/v0.3.2",
                 "issues": "https://github.com/cul-it/wp-rss-templates/issues"
             },
-            "time": "2020-06-11T15:46:06+00:00"
+            "time": "2024-06-28T19:07:37+00:00"
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
@@ -6675,15 +6675,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.9.33",
+            "version": "6.9.37",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.9.33"
+                "reference": "tags/6.9.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.33.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.37.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6765,15 +6765,15 @@
         },
         {
             "name": "wpackagist-plugin/coming-soon",
-            "version": "6.17.4",
+            "version": "6.18.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coming-soon/",
-                "reference": "tags/6.17.4"
+                "reference": "tags/6.18.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.17.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6837,15 +6837,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.19.2",
+            "version": "3.23.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.19.2"
+                "reference": "tags/3.23.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.19.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.23.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6855,15 +6855,15 @@
         },
         {
             "name": "wpackagist-plugin/filebird",
-            "version": "5.6.4",
+            "version": "6.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/filebird/",
-                "reference": "tags/5.6.4"
+                "reference": "tags/6.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/filebird.5.6.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/filebird.6.3.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6873,15 +6873,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "7.24.4",
+            "version": "8.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/7.24.4"
+                "reference": "tags/8.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.7.24.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.8.0.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6963,15 +6963,15 @@
         },
         {
             "name": "wpackagist-plugin/pantheon-advanced-page-cache",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pantheon-advanced-page-cache/",
-                "reference": "tags/2.0.0"
+                "reference": "tags/2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.2.0.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.2.1.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6981,15 +6981,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.4.2",
+            "version": "5.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.4.2"
+                "reference": "tags/5.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6999,15 +6999,15 @@
         },
         {
             "name": "wpackagist-plugin/relevanssi",
-            "version": "4.22.2",
+            "version": "4.23.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/relevanssi/",
-                "reference": "tags/4.22.2"
+                "reference": "tags/4.23.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.22.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/relevanssi.4.23.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7053,15 +7053,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "3.11.1",
+            "version": "4.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/3.11.1"
+                "reference": "tags/4.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.3.11.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.4.1.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7089,15 +7089,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-rss-aggregator",
-            "version": "4.23.11",
+            "version": "4.23.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-rss-aggregator/",
-                "reference": "tags/4.23.11"
+                "reference": "tags/4.23.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.23.11.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-rss-aggregator.4.23.12.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
