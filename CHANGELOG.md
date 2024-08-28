@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v2.7.1] - 2024-08-26
 ### Changed
 - "cul-it/culu": "1.7.5",
-- "cul-it/advanced-custom-fields-pro": "6.3.5",
+- "cul-it/advanced-custom-fields-pro": "6.3.5.2",
 - "cul-it/ares_wordpress": "1.0.9.3",
 - "cul-it/elementor-pro": "3.23.3",
 - "cul-it/facetwp": "4.3.3",
