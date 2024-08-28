@@ -31,10 +31,6 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:cul-it/wprssaggregator"
-        },
-        {
-            "type": "vcs",
             "url": "git@github.com:cul-it/draw-attention-pro"
         },
         {
