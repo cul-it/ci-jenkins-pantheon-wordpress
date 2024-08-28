@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.7.0] - 2024-06-27
+### Changed
+- "cul-it/culu": "1.7.5",
+- "cul-it/advanced-custom-fields-pro": "6.3.3",
+- "cul-it/ares_wordpress": "1.0.9.3",
+- "cul-it/facetwp": "4.3.1",
+- "cul-it/wp-custom-loop-widget": "2.0.8.5",
+- "pantheon-systems/wordpress-composer": "6.5.5",
+- "wpackagist-plugin/acf-better-search": "4.2.1",
+- "wpackagist-plugin/advanced-access-manager": "6.9.33",
+- "wpackagist-plugin/capability-manager-enhanced": "2.13.0",
+- "wpackagist-plugin/code-snippets": "3.6.5.1",
+- "wpackagist-plugin/coming-soon": "6.17.4",
+- "wpackagist-plugin/easy-notification-bar": "1.6",
+- "wpackagist-plugin/pantheon-advanced-page-cache": "2.0.0",
+- "wpackagist-plugin/relevanssi": "4.22.2",
+- "wpackagist-plugin/simple-social-icons": "3.2.5",
+- "wpackagist-plugin/wp-rss-aggregator": "4.23.11",
+
 ## [v2.6.5] - 2024-04-10
 - remove "cul-it/culu-child": "1.0.1",
 
@@ -1241,6 +1260,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.7.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.0
 [v2.6.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.6.5
 [v2.6.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.6.4
 [v2.6.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.6.3
