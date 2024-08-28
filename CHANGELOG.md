@@ -4,11 +4,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v2.7.1] 2024-08-28
+## [v2.7.1] - 2024-08-26
 ### Changed
-- "cul-it/facetwp-conditional-logic": "1.5"
+- "cul-it/culu": "1.7.5",
+- "cul-it/advanced-custom-fields-pro": "6.3.5",
+- "cul-it/ares_wordpress": "1.0.9.3",
+- "cul-it/elementor-pro": "3.23.3",
+- "cul-it/facetwp": "4.3.3",
+- "cul-it/facetwp-conditional-logic": "1.5",
+- "cul-it/wp-custom-loop-widget": "2.0.8.6",
+- "cul-it/wp-rss-categories": "1.3.3",
+- "cul-it/wp-rss-keyword-filtering": "1.8",
+- "cul-it/wp-rss-templates": "0.3.2",
+- "pantheon-systems/wordpress-composer": "6.5.5",
+- "wpackagist-plugin/acf-better-search": "4.2.1",
+- "wpackagist-plugin/advanced-access-manager": "6.9.37",
+- "wpackagist-plugin/capability-manager-enhanced": "2.13.0",
+- "wpackagist-plugin/code-snippets": "3.6.5.1",
+- "wpackagist-plugin/coming-soon": "6.18.5",
+- "wpackagist-plugin/easy-notification-bar": "1.6",
+- "wpackagist-plugin/elementor": "3.23.4",
+- "wpackagist-plugin/filebird": "6.3.2",
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "8.0.1",
+- "wpackagist-plugin/pantheon-advanced-page-cache": "2.1.0",
+- "wpackagist-plugin/redirection": "5.5.0",
+- "wpackagist-plugin/relevanssi": "4.23.0",
+- "wpackagist-plugin/simple-social-icons": "3.2.5",
+- "wpackagist-plugin/wp-mail-smtp": "4.1.1",
+- "wpackagist-plugin/wp-rss-aggregator": "4.23.12",
 ### Removed
--  "cul-it/wp-rss-aggregator": "4.15.2.1",
+- "cul-it/wp-rss-aggregator": "4.15.2.1"
 
 ## [v2.7.0] - 2024-06-27
 ### Changed
