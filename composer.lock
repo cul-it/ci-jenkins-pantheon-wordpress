@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce5b1f08f1c9041190db6d5ec2f315e8",
+    "content-hash": "25756acc566b55616596725d74e110bf",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -797,16 +797,16 @@
         },
         {
             "name": "cul-it/advanced-custom-fields-pro",
-            "version": "v6.3.5.2",
+            "version": "v6.3.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/advanced-custom-fields-pro.git",
-                "reference": "d5b31c5ce5dd172f9c01f990e4baff88391e7947"
+                "reference": "b8094e6f75633e4527463afd00521b982a7d3f50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/d5b31c5ce5dd172f9c01f990e4baff88391e7947",
-                "reference": "d5b31c5ce5dd172f9c01f990e4baff88391e7947",
+                "url": "https://api.github.com/repos/cul-it/advanced-custom-fields-pro/zipball/b8094e6f75633e4527463afd00521b982a7d3f50",
+                "reference": "b8094e6f75633e4527463afd00521b982a7d3f50",
                 "shasum": ""
             },
             "require": {
@@ -815,10 +815,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v6.3.5.2",
+                "source": "https://github.com/cul-it/advanced-custom-fields-pro/tree/v6.3.6",
                 "issues": "https://github.com/cul-it/advanced-custom-fields-pro/issues"
             },
-            "time": "2024-08-28T20:10:17+00:00"
+            "time": "2024-08-29T14:45:13+00:00"
         },
         {
             "name": "cul-it/ares_wordpress",
@@ -6801,15 +6801,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.15.1",
+            "version": "1.17.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.15.1"
+                "reference": "tags/1.17.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.15.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.17.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6927,15 +6927,15 @@
         },
         {
             "name": "wpackagist-plugin/json-content-importer",
-            "version": "1.5.4",
+            "version": "1.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/json-content-importer/",
-                "reference": "tags/1.5.4"
+                "reference": "tags/1.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.5.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.6.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -8113,16 +8113,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.29.1",
+            "version": "1.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "fcaefacf2d5c417e928405b71b400d4ce10daaf4"
+                "reference": "5ceb0e384997db59f38774bf79c2a6134252c08f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/fcaefacf2d5c417e928405b71b400d4ce10daaf4",
-                "reference": "fcaefacf2d5c417e928405b71b400d4ce10daaf4",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/5ceb0e384997db59f38774bf79c2a6134252c08f",
+                "reference": "5ceb0e384997db59f38774bf79c2a6134252c08f",
                 "shasum": ""
             },
             "require": {
@@ -8154,9 +8154,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.29.1"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.30.0"
             },
-            "time": "2024-05-31T08:52:43+00:00"
+            "time": "2024-08-29T09:54:52+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
