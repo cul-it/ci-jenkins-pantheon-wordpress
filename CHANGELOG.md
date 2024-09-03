@@ -6,19 +6,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v2.7.5] - 2024-09-03
 ### Changed
-- "cul-it/culu": "1.8",
 - "cul-it/wp-rss-aggregator": "4.23.12",
 - "wpackagist-plugin/advanced-access-manager": "6.9.38",
 - "simplesamlphp/simplesamlphp": "2.3.0",
 - "symfony/yaml": "^5.0 || ^6.4",
 - "vlucas/phpdotenv": "^5.3",
-- "roave/security-advisories": "dev-latest",
 - "squizlabs/php_codesniffer": "^3.7.2",
 - "wp-coding-standards/wpcs": "^3.0.1",
 - "phpunit/phpunit": "^9.5",
 - "brain/monkey": "^2.6"
 ### Removed
 - "wpackagist/wp-rss-aggregator": "4.23.12"
+
+## [v2.7.4] - 2024-09-03
+### Changed
+- "cul-it/culu": "1.8",
+- "roave/security-advisories": "dev-latest",
 
 ## [v2.7.3] - 2024-08-29
 ### Changed
@@ -1316,8 +1319,10 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+
 [v2.7.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.5
 [v2.7.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.4
+[v2.7.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.3
 [v2.7.2]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.2
 [v2.7.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.1
 [v2.7.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.0
