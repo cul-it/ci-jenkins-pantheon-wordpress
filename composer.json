@@ -95,7 +95,7 @@
         "cul-it/advanced-custom-fields-pro": "6.3.6",
         "cul-it/ares_wordpress": "1.0.9.3",
         "cul-it/cul-saml-auth": "1.0.2",
-        "cul-it/culu": "1.7.5",
+        "cul-it/culu": "1.8",
         "cul-it/draw-attention-pro": "3.0.11",
         "cul-it/elementor-pro": "3.23.3",
         "cul-it/facetwp": "4.3.3",
@@ -150,11 +150,11 @@
         "wpackagist-theme/twentynineteen": "2.7"
     },
     "require-dev": {
-        "roave/security-advisories": "dev-master",
-        "squizlabs/php_codesniffer": "3.7.2",
-        "wp-coding-standards/wpcs": "3.0.1",
+        "brain/monkey": "1.5.0",
         "phpunit/phpunit": "6.5.14",
-        "brain/monkey": "1.5.0"
+        "roave/security-advisories": "dev-latest",
+        "squizlabs/php_codesniffer": "3.7.2",
+        "wp-coding-standards/wpcs": "3.0.1"
     },
     "config": {
         "vendor-dir": "vendor",
