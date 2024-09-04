@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [v2.7.7] - 2024-09-04
+### Changed
+- "cul-it/wp-rss-aggregator": "4.23.12.2"
+
 ## [v2.7.6] - 2024-09-04
 ### Changed
 - "cul-it/wp-rss-aggregator": "4.23.12.1"
@@ -1324,7 +1328,8 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
-
+[v2.7.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.7
+[v2.7.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.6
 [v2.7.5]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.5
 [v2.7.4]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.4
 [v2.7.3]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.3
