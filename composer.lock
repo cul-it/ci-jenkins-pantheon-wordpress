@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc3f0e64246f2492c433d6f27734a385",
+    "content-hash": "f285205b923b34a0f33a902c527e9b3d",
     "packages": [
         {
             "name": "composer/installers",
@@ -447,16 +447,16 @@
         },
         {
             "name": "cul-it/wp-rss-aggregator",
-            "version": "v4.23.12.1",
+            "version": "v4.23.12.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-rss-aggregator.git",
-                "reference": "94353a8074fd1abdd569a798883b481e6feabcaa"
+                "reference": "d2262bed02cbe306b0dd77aaf0bb02e309bebf88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-rss-aggregator/zipball/94353a8074fd1abdd569a798883b481e6feabcaa",
-                "reference": "94353a8074fd1abdd569a798883b481e6feabcaa",
+                "url": "https://api.github.com/repos/cul-it/wp-rss-aggregator/zipball/d2262bed02cbe306b0dd77aaf0bb02e309bebf88",
+                "reference": "d2262bed02cbe306b0dd77aaf0bb02e309bebf88",
                 "shasum": ""
             },
             "require": {
@@ -465,10 +465,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-rss-aggregator/tree/v4.23.12.1",
+                "source": "https://github.com/cul-it/wp-rss-aggregator/tree/v4.23.12.2",
                 "issues": "https://github.com/cul-it/wp-rss-aggregator/issues"
             },
-            "time": "2024-09-03T18:07:45+00:00"
+            "time": "2024-09-04T19:03:38+00:00"
         },
         {
             "name": "cul-it/wp-rss-categories",
@@ -2834,8 +2834,6 @@
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-pcre": "*",
-                "ext-session": "*",
-                "ext-simplexml": "*",
                 "ext-spl": "*",
                 "ext-xmlreader": "*",
                 "php": "^8.1",
@@ -4186,10 +4184,12 @@
             "description": "Provides access to the localization data of the ICU library",
             "homepage": "https://symfony.com",
             "keywords": [
-                "compatibility",
-                "ctype",
-                "polyfill",
-                "portable"
+                "i18n",
+                "icu",
+                "internationalization",
+                "intl",
+                "l10n",
+                "localization"
             ],
             "support": {
                 "source": "https://github.com/symfony/intl/tree/v6.4.8"
