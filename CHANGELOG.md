@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [v2.7.6] - 2024-09-04
+### Changed
+- "cul-it/wp-rss-aggregator": "4.23.12.1"
+
 ## [v2.7.5] - 2024-09-03
 ### Changed
 - "cul-it/wp-rss-aggregator": "4.23.12",
