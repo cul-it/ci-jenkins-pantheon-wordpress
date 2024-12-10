@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f285205b923b34a0f33a902c527e9b3d",
+    "content-hash": "b0fadf57264f1908b2aa29a36cf225c0",
     "packages": [
         {
             "name": "composer/installers",
@@ -1508,16 +1508,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "6.5.5",
+            "version": "6.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "86607e4e300f852ace39775f9d7a745a65af7150"
+                "reference": "ec3d0bc3626bc85226e74d1615a9c9ac50214bbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/86607e4e300f852ace39775f9d7a745a65af7150",
-                "reference": "86607e4e300f852ace39775f9d7a745a65af7150",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/ec3d0bc3626bc85226e74d1615a9c9ac50214bbb",
+                "reference": "ec3d0bc3626bc85226e74d1615a9c9ac50214bbb",
                 "shasum": ""
             },
             "require": {
@@ -1535,10 +1535,10 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.5.5",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.7.1",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2024-06-24T22:20:18+00:00"
+            "time": "2024-11-21T21:20:27+00:00"
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
@@ -9807,8 +9807,8 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.1"
     },
