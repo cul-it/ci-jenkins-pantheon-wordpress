@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.8.0] - 2024-12-10
+- "pantheon-systems/wordpress-composer": "6.7.1",
+- "wpackagist-plugin/anywhere-elementor": "1.2.12",
+- "wpackagist-plugin/capability-manager-enhanced": "2.16.0",
+- "wpackagist-plugin/code-snippets": "3.6.6.1",
+- "wpackagist-plugin/coming-soon": "6.18.12",
+- "wpackagist-plugin/custom-post-type-ui": "1.17.2",
+- "wpackagist-plugin/elementor": "3.25.11",
+- "wpackagist-plugin/filebird": "6.4.2",
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "8.2.3",
+- "wpackagist-plugin/intuitive-custom-post-order": "3.1.5.1",
+- "wpackagist-plugin/kirki": "5.1.0",
+- "wpackagist-plugin/redirection": "5.5.1",
+- "wpackagist-plugin/relevanssi": "4.24.2",
+- "cul-it/advanced-custom-fields-pro": "6.3.11",
+- "cul-it/draw-attention-pro": "3.0.21",
+- "cul-it/facetwp": "4.3.4",
+
 ## [v2.7.8] - 2024-09-04
 ### no change
 
@@ -1330,6 +1348,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.8.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.8.0
 [v2.7.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.8
 [v2.7.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.7
 [v2.7.6]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.6
