@@ -42,10 +42,17 @@ branches=(
 # Loop over each element in the array
 for domain in "${domains[@]}"; do
     # Perform an action with each domain
+    echo "***"
+    echo "***"
     echo "Processing domain: $domain"
     # Add your custom action here, e.g., ping the domain
     for branch in "${branches[@]}"; do
-        echo "Processing branch: $branch"
-        terminus secrets:show "$domain.$branch" SAML_ADMIN_PAW
+        TERMINUS_SITE="$domain.$branch"
+        echo "***"
+        echo "Processing branch: $TERMINUS_SITE"
+        terminus env:view --print "$TERMINUS_SITE" || {
+            echo "Error: $TERMINUS_SITE not found."
+            continue
+        }
     done
 done
