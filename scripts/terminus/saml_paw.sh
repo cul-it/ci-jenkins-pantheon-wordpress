@@ -54,5 +54,8 @@ for domain in "${domains[@]}"; do
             echo "Error: $TERMINUS_SITE not found."
             continue
         }
+        echo "Setting SAML_ADMIN_PAW for $TERMINUS_SITE"
+        terminus secrets:set "$TERMINUS_SITE" SAML_ADMIN_PAW "$HASHED_SAML_ADMIN_PAW"
+        terminus secrets:show "$TERMINUS_SITE" SAML_ADMIN_PAW
     done
 done
