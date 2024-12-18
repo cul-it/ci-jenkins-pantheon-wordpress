@@ -57,5 +57,11 @@ for domain in "${domains[@]}"; do
         echo "Setting SAML_ADMIN_PAW for $TERMINUS_SITE"
         terminus secrets:set "$TERMINUS_SITE" SAML_ADMIN_PAW "$HASHED_SAML_ADMIN_PAW"
         terminus secrets:show "$TERMINUS_SITE" SAML_ADMIN_PAW
+        terminus secrets:show "$TERMINUS_SITE" SAML_SALT || {
+            echo "Generating SAML_SALT for $TERMINUS_SITE"
+            SALT=`LC_ALL=C tr -c -d '0123456789abcdefghijklmnopqrstuvwxyz' </dev/urandom | dd bs=32 count=1 2>/dev/null;echo`
+            terminus secrets:set "$TERMINUS_SITE" SAML_SALT "$SALT"
+            terminus secrets:show "$TERMINUS_SITE" SAML_SALT
+        }
     done
 done
