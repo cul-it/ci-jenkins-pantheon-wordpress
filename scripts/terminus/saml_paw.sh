@@ -4,7 +4,7 @@
 if [ -z "$HASHED_SAML_ADMIN_PAW" ]; then
   echo "Error: HASHED_SAML_ADMIN_PAW is not set."
   echo "Please export the HASHED_SAML_ADMIN_PAW environment variable before running $0."
-#   exit 1
+  exit 1
 fi
 
 # Define the array of domains
