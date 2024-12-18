@@ -10,11 +10,11 @@ fi
 # Define the array of domains
 domains=(
     "uls-upstream-test"
+    "main-cul"
     "digitalscholarship-library-cornell-edu"
     "uls-africana-library-cornell-edu"
     "uls-annex-library-cornell-edu"
     "uls-asia-library-cornell-edu"
-    "uls-bedrock1-library-cornell-edu"
     "uls-engineering-library-cornell-edu"
     "uls-finearts-library-cornell-edu"
     "uls-hotel-library-cornell-edu"
