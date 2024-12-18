@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.8.1] - 2024-12-18
+- added scripts/terminus/saml_paw.sh
+
 ## [v2.8.0] - 2024-12-10
 - "pantheon-systems/wordpress-composer": "6.7.1",
 - "wpackagist-plugin/anywhere-elementor": "1.2.12",
@@ -1348,6 +1351,7 @@ Relevanssi - 4.6.0 - see [Changelog](https://wordpress.org/plugins/relevanssi/#d
 - all-in-one-wp-migration v7.8 update
 
 [Unreleased]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/latest...HEAD
+[v2.8.1]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.8.1
 [v2.8.0]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.8.0
 [v2.7.8]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.8
 [v2.7.7]: https://github.com/cul-it/ci-jenkins-pantheon-wordpress/releases/tag/v2.7.7
