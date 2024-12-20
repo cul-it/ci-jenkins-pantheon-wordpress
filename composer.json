@@ -120,7 +120,7 @@
         "pear/archive_tar": "1.4.14",
         "roots/wp-password-bcrypt": "1.0.0",
         "rvtraveller/qs-composer-installer": "~1.1",
-        "simplesamlphp/simplesamlphp": "2.3.0",
+        "simplesamlphp/simplesamlphp": "2.3.5",
         "symfony/yaml": "^5.0 || ^6.4",
         "symfony/polyfill-intl-grapheme": "^1.27",
         "symfony/polyfill-php74": "^1.27",
