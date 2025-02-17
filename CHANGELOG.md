@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.9.0] - 2025-02-17
+### Changed
+- "wpackagist-plugin/acf-to-rest-api": "3.3.4",
+- "wpackagist-plugin/advanced-access-manager": "6.9.46",
+- "wpackagist-plugin/code-snippets": "3.6.8",
+- "wpackagist-plugin/coming-soon": "6.18.14",
+- "wpackagist-plugin/custom-icons-for-elementor": "0.3.4",
+- "wpackagist-plugin/elementor": "3.23.4",
+- "wpackagist-plugin/filebird": "6.4.6",
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "8.3.1",
+- "wpackagist-plugin/json-content-importer": "2.0.1"
+- "wpackagist-plugin/redirection": "5.5.2",
+- "wpackagist-plugin/relevanssi": "4.24.3",
+- "wpackagist-plugin/wp-mail-smtp": "4.3.0",
+- "cul-it/advanced-custom-fields-pro": "6.3.12",
+- "cul-it/facetwp": "4.3.6",
+
 ## [v2.8.2] - 2024-12-20
 - "simplesamlphp/simplesamlphp": "2.3.5",
 
