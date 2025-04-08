@@ -115,7 +115,7 @@
         "gettext/gettext": "^5.7",
         "guzzlehttp/guzzle": "^6.0",
         "pantheon-systems/quicksilver-pushback": "1.0.1",
-        "pantheon-systems/wordpress-composer": "6.7.1",
+        "pantheon-systems/wordpress-composer": "6.7.2",
         "pantheon-systems/wp-saml-auth": "2.1.4",
         "pear/archive_tar": "1.4.14",
         "roots/wp-password-bcrypt": "1.0.0",
