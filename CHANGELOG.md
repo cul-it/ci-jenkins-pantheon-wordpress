@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.10.0] - 2024-04-10
+- "pantheon-systems/wordpress-composer": "6.7.2",
+- "cul-it/advanced-custom-fields-pro": "6.4.0.1",
+- "cul-it/wp-ultimate-csv-importer-pro": "v8.1.4.1",
+- "wpackagist-plugin/advanced-access-manager": "6.9.49, 
+- "wpackagist-plugin/capability-manager-enhanced": "2.19.1",
+- "wpackagist-plugin/coming-soon": "6.18.15",
+- "wpackagist-plugin/filebird": "6.4.7",
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "8.4.1",
+- "wpackagist-plugin/json-content-importer": "2.0.3",
+- "wpackagist-plugin/pantheon-advanced-page-cache": "2.1.1",
+- "wpackagist-plugin/wp-mail-smtp": "4.4.0",
+- "wpackagist-theme/twentynineteen": "3.0"
+
 ## [v2.9.1] - 2025-02-19
 ### Changed
 - "simplesamlphp/simplesamlphp": "2.3.0",
