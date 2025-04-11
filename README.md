@@ -1,19 +1,16 @@
-# Example WordPress Composer
+# ci-jenkins-pantheon-wordpress
 
-## skip down to the bottom for [Jenkins Workflow](#workflow)
+This repository is a customized Composer-based WordPress workflow for Pantheon. It is currently used to manage and push updates to CUL Wordpress environments on Pantheon.
 
-[![CircleCI](https://circleci.com/gh/pantheon-systems/example-wordpress-composer.svg?style=svg)](https://circleci.com/gh/pantheon-systems/example-wordpress-composer)
+The workflow is based off of [Example Wordpress Composer](https://github.com/pantheon-systems/example-wordpress-composer). For more background information on this style of workflow, see the [Pantheon documentation](https://pantheon.io/docs/guides/github-pull-requests/).
 
-This repository is a start state for a Composer-based WordPress workflow with Pantheon. It is meant to be copied by the the [Terminus Build Tools Plugin](https://github.com/pantheon-systems/terminus-build-tools-plugin) which will set up for you a brand new
-
-* GitHub repo
-* Free Pantheon sandbox site
-* A CircleCI configuration to run tests and push from the source repo (GitHub) to Pantheon.
-
-For more background information on this style of workflow, see the [Pantheon documentation](https://pantheon.io/docs/guides/github-pull-requests/).
-
+**skip to [Jenkins Workflow](#workflow)**
+**skip to [Create a new site with upstream](#create-new-site-with-upstream)**
+**skip to [Build a new upstream](#build-new-upstream)**
 
 ## Installation
+
+Note the documentation below is for [Example Wordpress Composer](https://github.com/pantheon-systems/example-wordpress-composer) and will need to adapted before executing. 
 
 #### Prerequisites
 
@@ -64,53 +61,35 @@ Even within the `/web` directory you may notice that other directories and files
 
 If you are just browsing this repository on GitHub, you may not see some of the directories mentioned above like `wp-admin`. That is because WordPress core and its plugins are installed via Composer and ignored in the `.gitignore` file. Specific plugins are added to the project via `composer.json` and `composer.lock` keeps track of the exact version of each plugin (or other dependency). Generic Composer dependencies (not WordPress plugins or themes) are downloaded to the `/vendor` folder. Use the `require` section for any dependencies you wish to push to Pantheon, even those that might only be used on non-Live environments. Dependencies added in `require-dev` such as `php_codesniffer` or `phpunit` will not be pushed to Pantheon by the CI scripts.
 
-## Behat tests
+## Tests
 
-So that CircleCI will have some test to run, this repository includes a configuration of [WordHat](https://wordhat.info/), A WordPress Behat extension. You can add your own `.feature` files within `/tests/behat/features`. [A fuller guide on WordPress testing with Behat is forthcoming.](https://github.com/pantheon-systems/documentation/issues/2469)
+This repository includes a configuration of [WordHat](https://wordhat.info/), A WordPress Behat extension. You can add your own `.feature` files within `/tests/behat/features`. [A fuller guide on WordPress testing with Behat is forthcoming.](https://github.com/pantheon-systems/documentation/issues/2469)
 
-## Working locally with Lando
-To get started using Lando to develop locally complete these one-time steps. Please note than Lando is an independent product and is not supported by Pantheon. For further assistance please refer to the [Lando documentation](https://docs.devwithlando.io/).
-
-* [Install Lando](https://docs.devwithlando.io/installation/installing.html), if not already installed.
-* Clone this repository locally.
-* Run `lando init` and follow the prompts, choosing the Pantheon recipe followed by entering a valid machine token and selecting the Pantheon site created by [the Terminus build tools plugin].(https://github.com/pantheon-systems/terminus-build-tools-plugin).
-* Run `lando start` to start Lando.
-    - Save the local site URL. It should be similar to `https://<PROJECT_NAME>.lndo.site`.
-* Run `lando composer install --no-ansi --no-interaction --optimize-autoloader --no-progress` to download dependencies
-* Run `lando pull --code=none` to download the media files and database from Pantheon.
-* Visit the local site URL saved from above.
-
-You should now be able to edit your site locally. The steps above do not need to be completed on subsequent starts. You can stop Lando with `lando stop` and start it again with `lando start`.
-
-**Warning:** do NOT push/pull code between Lando and Pantheon directly. All code should be pushed to GitHub and deployed to Pantheon through a continuous integration service, such as CircleCI.
-
-Composer, Terminus and wp-cli commands should be run in Lando rather than on the host machine. This is done by prefixing the desired command with `lando`. For example, after a change to `composer.json` run `lando composer update` rather than `composer update`.
-
-## <a name="workflow">Jenkins Workflow</a>
-
-We're not using behat for testing - I couldn't get that to work. Check out the /features
-directory for cucumber tests.
+However, Behat tests are not currently in use, as past CUL-IT teams could not get them to run with this workflow. Instead, see the /features directory for cucumber tests.
 
 bundle exec cucumber SITE=ci-jenkins-pantheon-wordpress.pantheonsite.io STAGE=dev HTTPS=1 HEADLESS=1
 
-When a pull request is put into GitHub, the Jenkins job kicks off, creates a Pantheon multi-dev with the new PR code, runs the cucumber tests against it. If they succeed, the multidev is deleted, but the code is saved in a git branch by Pantheon. When the pull request in merged in GitHub (now a manual process), another Jenkins job gets kicked off, and if THAT one succeeds, Pantheon merges the changes for the multidev into dev. At this point, you can work with the dev branch as you normally would (Lando etc.).
+## <a name="workflow">Jenkins Workflow</a>
 
-Also, each multi-dev is created based on the current dev branch, so your dev code and database updates are included.
+When a pull request is opened in GitHub, the Jenkins job kicks off. This creates a Pantheon multidev environment with the new PR code and runs the cucumber tests against it. If these tests succeed, the multidev is deleted, but the code is saved in a git branch by Pantheon.
 
-Notes about the Pull Requests:
+When the pull request in merged in GitHub (now a manual process), an additional Jenkins job kicks off, and if it succeeds, Pantheon merges the changes for the multidev into dev. At this point, you can work with the dev branch as you normally would (including with Lando). 
 
-* They have to be pull requests against the master branch
-* If you use GitFlow, push your 'release' branches to GitHub to form the pull requests
-* If you don't use GitFlow, make a local branch based on the master branch, do your work there, and push that to GitHub and make that branch a pull request
-* Once the pull request passes all it's tests, you have to manually merge it into master (not like the automatic merge in blacklight). After you've merged it, it will take a few minutes before the Jenkins job kicks off, and a few minutes after that before the new code is available in the Pantheon dev branch.
+### Notes about the Pull Requests:
+
+* If you use gitflow, push your 'release' branches to GitHub to form the pull requests. 
+* If you don't use gitflow, make a local branch based on the master branch, do your work there, and push that to GitHub and make that branch a pull request. 
+* Once the pull request passes all its tests, you have to manually merge it into master. After you've merged it, it will take a few minutes before the Jenkins job kicks off and a few minutes after that before the new code is available in the Pantheon dev branch.
 
 The Jenkins job is
 https://awsjenkins.library.cornell.edu/job/ci-jenkins-pantheon-wordpress/
 
 The multidev sites in Pantheon are named ci-1, ci-2, ci-3, etc.
 
+## <a name="create-new-site-with-upstream">Create a new site with upstream</a>
+
 Creating a new site with this upstream:
-* Create site in the organization 'Cornell University: Cornell Information Technologies'
+* Create Pantheon site in the organization 'Cornell University: Cornell Information Technologies'
 * Use the upstream called CI-Jenkins-Wordpress-Upstream
 * Once at the site dashboard, select 'install later'
 * Switch the site to git development mode
@@ -142,7 +121,7 @@ to just above
 * select your theme
 * back in Pantheon, commit any changes made during installation using the SMTP Development Mode commit function.
 
-## <a name="email">Email configuration</a>
+### <a name="email">Email configuration</a>
 
 * Install terminus secrets: https://github.com/pantheon-systems/terminus-secrets-plugin
 * Set a secret for each site (dev,test,live) with the key 'SMTP_PW' and the correct value (ask for it)
@@ -172,46 +151,96 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
 
 ## <a name="new_upstream">Build a new upstream</a>
 
-* Update the WordPress version in composer.json (if there is a new version)
-* Update the regular plugin versions in composer.json
-    * These are listed in the "require" section of composer.json, excluding the ones with a 'cul-it/' prefix in the path.
-    * The Pantheon site wp-ci-library-cornell-edu can be used as a reference. It has all the upstream plugins enabled (except Akismet Anti-Spam which requires additional configuration).
-    * Do not update the plugin verson unless the Compatablilty with the new WordPress version is 100%.
-* Update the CULU theme.
-    * Tag the new release with the next version number (e.g. `v1.3.0`) in [cul-it/wp-cul-theme-culu](https://github.com/cul-it/wp-cul-theme-culu)
-    * Update the version number in this repo's [composer.json](https://github.com/cul-it/ci-jenkins-pantheon-wordpress/blob/master/composer.json) to match (e.g. "cul-it/culu": "1.3.0",)
-* Update the cul-it plugin repos
-    * These are listed in the "require" section of composer.json, with a 'cul-it/' prefix in the path.
-    * These are the 'Pro' or 'Paid' versions of WordPress plugins we've purchased.
-    * Each one has a GitHub repo containing the pro version of the plugin.
-    * The repos must be listed in the "repositories" section of composer.json
-    * Each repo must contain a composer.json file
-        * Example:
-          ```
-          {
-              "name": "cul-it/advanced-custom-fields-pro",
-              "description": "WordPress plugin for Unified Library Website",
-              "type": "wordpress-plugin",
-              "minimum-stability": "dev",
-              "prefer-stable": true,
-              "require": {
-                  "composer/installers": "^1.0"
-              }
-          }
-          ```
-    * Download and merge the latest version of the plugin from the vendor's web site
-    * Tag it with the proper version number in the GitHub repo (If you need another version of the same source version, you can add a .1 after the plugin's version.)
-    * Match the version number in the "require" section of composer.json
-* After all the updates to composer.json in ci-jenkins-pantheon-wordpress, run composer update in the local version to update composer.lock
-* Make a release tagged with the next version number for ci-jenkins-pantheon-wordpress (e.g. "release/v1.2.11")
-* Push the release to GitHub and submit a Pull Request
-* Jenkins should run and complete the tests: https://awsjenkins.library.cornell.edu/job/ci-jenkins-pantheon-wordpress/
-* If all goes well, finish the release, merge it into master, and push master to GitHub.
-* Jenkins should run and complete the tests a second time, this time creating a new version of the upstream in Pantheon
-* Test the new upstream
+### Check for updates 
+
+1. Go to the upstream test site in Pantheon, uls-upstream-test
+   * Make sure the site environments have the latest upstream version. 
+   * If site needs to be updated: Apply the upstream, create a local instance, run composer install, and then commit and push the changes created by running composer install.
+
+2. Check plugin updates, core WordPress updates, and core theme updates to determine what should be added to the new upstream
+   * Option 1: Go to the Patheon admin dashboard for uls-upsteam-test's Dev environment and select the "Status" menu option and then "run the checks now." This will give you a list of the plugin packages that need updating.
+   * Option 2: Check Wordpress admin UI -- see step #3 for more details.
+
+3. Check the plugins' compatibility with the WordPress version installed in the Pantheon instances (or the version about to be installed)
+   * Go to admin dashboard for uls-upsteam-test's multidev environments and select "getupstream" option and then "Visit getupstream site." 
+   * Login and navigate to "Updates" page in Wordpress admin UI. This will show you the list of plugins available to update and the expected compatiability with WP versions. 
+
+### Update composer files
+
+4. Clone ci-jenkins-pantheon-wordpress locally and open a new branch
+    * In the past, this project has often used gitflow with develop, feature, and release branches. 
+    * If you don't use gitflow, make a local branch based on the master branch and do your work there. You may want to use the naming convention for gitflow release branches using the next version number for ci-jenkins-pantheon-wordpress (e.g. "release/v1.2.11"). 
+5. Open and edit composer.json
+    * Update the regular plugin versions
+        * These are listed in the "require" section of composer.json, excluding the ones with a 'cul-it/' prefix in the path.
+        * The Pantheon site wp-ci-library-cornell-edu can be used as a reference. It has all the upstream plugins enabled (except Akismet Anti-Spam which requires additional configuration).
+        * Do not update the plugin verson unless the Compatablilty with the new WordPress version is 100%.
+    * Update the WordPress version, if appliable
+        * Find the plugin pantheon-systems/wordpress-composer and update with the new WordPress version number
+    * Update the cul-it plugin repositories, if applicable
+        * These plugins are typically the 'Pro' or 'Paid' versions of WordPress plugins that we've purchased.
+        * Each will be listed in the "require" section of composer.json, with a 'cul-it/' prefix in the path. 
+        * Each will have their own corresponding private CUL-IT Github repository. These repositories must be listed in the "repositories" section of composer.json.
+        * Download the latest version of the plugin from the vendor's web site and merge to the plugin's CUL-It GitHub repository. Tag it with the proper version number in the GitHub repository. If you need another version of the same source version, you can add a .1 after the plugin's version.
+        * Update the version number in the "require" section of composer.json to match. 
+    * Update the CULU theme, if applicable
+        * Tag the new release with the next version number (e.g. `v1.3.0`) in [cul-it/wp-cul-theme-culu](https://github.com/cul-it/wp-cul-theme-culu)
+        * Update the version number  in the "require" section of composer.json to match
+
+6. Run in terminal: 
+    ```
+    rm composer.lock
+    ```
+
+    ```
+    composer install
+    ```
+
+   If you get this error:
+   ```
+   Fatal error: Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer.phar/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+   ```
+   Type, `export COMPOSER_MEMORY_LIMIT=-1`, for fixing the error and then run again, `composer install`
+
+7. Open and edit `changelog.md` to document updates
+
+### Test and finalize updates
+
+8. Commit changes, push to GitHub, and open a pull request
+    * If you are using gitflow, make a release branch tagged with the next version number for ci-jenkins-pantheon-wordpress (e.g. "release/v1.2.11") before pushing to GitHub
+    * This will kick off a Jenkins job and run tests. See [Jenkins Workflow](#workflow) for details. 
+
+9. If the tests pass, merge the pull request to master
+    * If you did not use gitflow, create a release in GitHub and tag the release with the next version number for ci-jenkins-pantheon-wordpress (e.g. "release/v1.2.11"). 
+    * This will kick off a second Jenkins job and create a new version of the upstream in Pantheon. See [Jenkins Workflow](#workflow) for details. 
+
+10. Test the new upstream
     * Go to the Pantheon site wp-ci-library-cornell-edu and check for upstream updates
     * Apply the updates
     * Clone wp-ci-library-cornell-edu to the local machine
-    * Run composer install
+    * Run `composer install`
     * Commit to master and push to Pantheon
     * Go to site administration in Pantheon and activate any new plugins (except Akismet Anti-Spam)
+
+When ready, apply upstream to indvidual Wordpress sites in Pantheon. 
+
+## Working locally with Lando
+
+Lando can be used for local development and testing. 
+
+To get started using Lando to develop locally complete these one-time steps. Please note than Lando is an independent product and is not supported by Pantheon. For further assistance please refer to the [Lando documentation](https://docs.devwithlando.io/).
+
+* [Install Lando](https://docs.devwithlando.io/installation/installing.html), if not already installed.
+* Clone this repository locally.
+* Run `lando init` and follow the prompts, choosing the Pantheon recipe followed by entering a valid machine token and selecting the Pantheon site created by [the Terminus build tools plugin].(https://github.com/pantheon-systems/terminus-build-tools-plugin).
+* Run `lando start` to start Lando.
+    - Save the local site URL. It should be similar to `https://<PROJECT_NAME>.lndo.site`.
+* Run `lando composer install --no-ansi --no-interaction --optimize-autoloader --no-progress` to download dependencies
+* Run `lando pull --code=none` to download the media files and database from Pantheon.
+* Visit the local site URL saved from above.
+
+You should now be able to edit your site locally. The steps above do not need to be completed on subsequent starts. You can stop Lando with `lando stop` and start it again with `lando start`.
+
+**Warning:** do NOT push/pull code between Lando and Pantheon directly. All code should be pushed to GitHub and deployed to Pantheon through a continuous integration service, such as CircleCI.
+
+Composer, Terminus and wp-cli commands should be run in Lando rather than on the host machine. This is done by prefixing the desired command with `lando`. For example, after a change to `composer.json` run `lando composer update` rather than `composer update`.
