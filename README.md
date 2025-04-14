@@ -153,9 +153,8 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
 
 ### Check for updates 
 
-1. Go to the upstream test site in Pantheon, uls-upstream-test
-   * Make sure the site environments have the latest upstream version. 
-   * If site needs to be updated: Apply the upstream, create a local instance, run composer install, and then commit and push the changes created by running composer install.
+1. Use the upstream test site in Pantheon, uls-upstream-test, to check for updates
+   * Make sure the site environments are up-to-date with the latest upstream before proceeding
 
 2. Check plugin updates, core WordPress updates, and core theme updates to determine what should be added to the new upstream
    * Option 1: Go to the Patheon admin dashboard for uls-upsteam-test's Dev environment and select the "Status" menu option and then "run the checks now." This will give you a list of the plugin packages that need updating.
@@ -185,7 +184,7 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
         * Update the version number in the "require" section of composer.json to match. 
     * Update the CULU theme, if applicable
         * Tag the new release with the next version number (e.g. `v1.3.0`) in [cul-it/wp-cul-theme-culu](https://github.com/cul-it/wp-cul-theme-culu)
-        * Update the version number  in the "require" section of composer.json to match
+        * Update the version number in the "require" section of composer.json to match
 
 6. Run in terminal: 
     ```
