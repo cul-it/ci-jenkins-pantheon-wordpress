@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.11.0] - 2024-07-01
+- "cul-it/advanced-custom-fields-pro": "6.4.2.1"
+- "cul-it/culu": "1.9.1"
+- "pantheon-systems/wp-saml-auth": "2.2.0"
+- "wpackagist-plugin/acf-better-search": "4.3.1"
+- "wpackagist-plugin/advanced-access-manager": "7.0.6"
+- "wpackagist-plugin/capability-manager-enhanced": "2.19.2"
+- "wpackagist-plugin/custom-post-type-ui": "1.17.3"
+- "wpackagist-plugin/easy-notification-bar": "1.6.1"
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "8.6.2"
+- "wpackagist-plugin/relevanssi": "4.24.6"
+- "wpackagist-plugin/wp-mail-smtp": "4.5.0"
+
 ## [v2.10.0] - 2024-04-10
 - "pantheon-systems/wordpress-composer": "6.7.2",
 - "cul-it/advanced-custom-fields-pro": "6.4.0.1",
