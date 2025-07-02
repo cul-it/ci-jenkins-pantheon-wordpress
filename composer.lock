@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ef848db51cff32524e1cc2894f576d0",
+    "content-hash": "1d7a94af2e343677b3ce37fc58f51c83",
     "packages": [
         {
             "name": "composer/installers",
@@ -287,16 +287,16 @@
         },
         {
             "name": "cul-it/draw-attention-pro",
-            "version": "v3.0.21",
+            "version": "v3.0.26",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/draw-attention-pro.git",
-                "reference": "998e43a6579e67bd8b77f98e277cae4150548c03"
+                "reference": "d71ad84e8055fbce6631e62b4ecdfc5e5bce2100"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/draw-attention-pro/zipball/998e43a6579e67bd8b77f98e277cae4150548c03",
-                "reference": "998e43a6579e67bd8b77f98e277cae4150548c03",
+                "url": "https://api.github.com/repos/cul-it/draw-attention-pro/zipball/d71ad84e8055fbce6631e62b4ecdfc5e5bce2100",
+                "reference": "d71ad84e8055fbce6631e62b4ecdfc5e5bce2100",
                 "shasum": ""
             },
             "require": {
@@ -305,10 +305,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/draw-attention-pro/tree/v3.0.21",
+                "source": "https://github.com/cul-it/draw-attention-pro/tree/v3.0.26",
                 "issues": "https://github.com/cul-it/draw-attention-pro/issues"
             },
-            "time": "2024-12-10T18:22:42+00:00"
+            "time": "2025-07-02T18:50:13+00:00"
         },
         {
             "name": "cul-it/elementor-pro",
@@ -337,16 +337,16 @@
         },
         {
             "name": "cul-it/facetwp",
-            "version": "v4.3.6",
+            "version": "v4.4.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/facetwp.git",
-                "reference": "d15f31d3dd75cd2d3b0ef3510552cde824df9b62"
+                "reference": "1ec1f083610ea60d26474186fd2114ec8099aa0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/d15f31d3dd75cd2d3b0ef3510552cde824df9b62",
-                "reference": "d15f31d3dd75cd2d3b0ef3510552cde824df9b62",
+                "url": "https://api.github.com/repos/cul-it/facetwp/zipball/1ec1f083610ea60d26474186fd2114ec8099aa0a",
+                "reference": "1ec1f083610ea60d26474186fd2114ec8099aa0a",
                 "shasum": ""
             },
             "require": {
@@ -355,10 +355,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/facetwp/tree/v4.3.6",
+                "source": "https://github.com/cul-it/facetwp/tree/v4.4.1",
                 "issues": "https://github.com/cul-it/facetwp/issues"
             },
-            "time": "2025-02-17T19:10:18+00:00"
+            "time": "2025-07-02T18:51:34+00:00"
         },
         {
             "name": "cul-it/facetwp-conditional-logic",
@@ -447,16 +447,16 @@
         },
         {
             "name": "cul-it/wp-rss-aggregator",
-            "version": "v4.23.12.2",
+            "version": "v4.23.13",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-rss-aggregator.git",
-                "reference": "d2262bed02cbe306b0dd77aaf0bb02e309bebf88"
+                "reference": "dffbffb9a4ac59a3b38111c3b76e3117e1c1f588"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-rss-aggregator/zipball/d2262bed02cbe306b0dd77aaf0bb02e309bebf88",
-                "reference": "d2262bed02cbe306b0dd77aaf0bb02e309bebf88",
+                "url": "https://api.github.com/repos/cul-it/wp-rss-aggregator/zipball/dffbffb9a4ac59a3b38111c3b76e3117e1c1f588",
+                "reference": "dffbffb9a4ac59a3b38111c3b76e3117e1c1f588",
                 "shasum": ""
             },
             "require": {
@@ -465,10 +465,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-rss-aggregator/tree/v4.23.12.2",
+                "source": "https://github.com/cul-it/wp-rss-aggregator/tree/v4.23.13",
                 "issues": "https://github.com/cul-it/wp-rss-aggregator/issues"
             },
-            "time": "2024-09-04T19:03:38+00:00"
+            "time": "2025-07-02T18:52:25+00:00"
         },
         {
             "name": "cul-it/wp-rss-categories",
@@ -547,16 +547,16 @@
         },
         {
             "name": "cul-it/wp-ultimate-csv-importer-pro",
-            "version": "v8.1.4.1",
+            "version": "v8.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cul-it/wp-ultimate-csv-importer-pro.git",
-                "reference": "d8c76056e20adecdfc8b9f411da714c0ffc72e08"
+                "reference": "b15d5627b6a29ff7577de3c5b01029cc276a3cfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/d8c76056e20adecdfc8b9f411da714c0ffc72e08",
-                "reference": "d8c76056e20adecdfc8b9f411da714c0ffc72e08",
+                "url": "https://api.github.com/repos/cul-it/wp-ultimate-csv-importer-pro/zipball/b15d5627b6a29ff7577de3c5b01029cc276a3cfe",
+                "reference": "b15d5627b6a29ff7577de3c5b01029cc276a3cfe",
                 "shasum": ""
             },
             "require": {
@@ -566,10 +566,10 @@
             "type": "wordpress-plugin",
             "description": "WordPress plugin for Unified Library Website",
             "support": {
-                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v8.1.4.1",
+                "source": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/tree/v8.7",
                 "issues": "https://github.com/cul-it/wp-ultimate-csv-importer-pro/issues"
             },
-            "time": "2025-04-10T18:30:52+00:00"
+            "time": "2025-07-02T18:53:27+00:00"
         },
         {
             "name": "cweagans/composer-patches",
@@ -6157,15 +6157,15 @@
         },
         {
             "name": "wpackagist-plugin/coming-soon",
-            "version": "6.18.16",
+            "version": "6.18.17",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coming-soon/",
-                "reference": "tags/6.18.16"
+                "reference": "tags/6.18.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.16.zip"
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.17.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
