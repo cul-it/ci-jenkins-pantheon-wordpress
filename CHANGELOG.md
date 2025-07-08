@@ -4,14 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v2.11.1] - 2024-07-02
+## [v2.11.2] - 2025-07-08
+- "cul-it/wp-rss-aggregator": "4.23.13.1"
+
+## [v2.11.1] - 2025-07-02
 - "cul-it/draw-attention-pro": "3.0.26"
 - "cul-it/facetwp": "4.4.1"
 - "cul-it/wp-rss-aggregator": "4.23.13"
 - "cul-it/wp-ultimate-csv-importer-pro": "8.7"
 - "wpackagist-plugin/coming-soon": "6.18.17"
 
-## [v2.11.0] - 2024-07-01
+## [v2.11.0] - 2025-07-01
 - "cul-it/advanced-custom-fields-pro": "6.4.2.1"
 - "cul-it/culu": "1.9.1"
 - "pantheon-systems/wp-saml-auth": "2.2.0"
@@ -24,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - "wpackagist-plugin/relevanssi": "4.24.6"
 - "wpackagist-plugin/wp-mail-smtp": "4.5.0"
 
-## [v2.10.0] - 2024-04-10
+## [v2.10.0] - 2025-04-10
 - "pantheon-systems/wordpress-composer": "6.7.2",
 - "cul-it/advanced-custom-fields-pro": "6.4.0.1",
 - "cul-it/wp-ultimate-csv-importer-pro": "v8.1.4.1",
