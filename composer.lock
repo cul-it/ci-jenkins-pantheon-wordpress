@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20218a4a73de9d940ae6182e134cb71b",
+    "content-hash": "7b218fa078bfcfd3df7d1793f7a7d713",
     "packages": [
         {
             "name": "composer/installers",
@@ -1543,16 +1543,16 @@
         },
         {
             "name": "pantheon-systems/wp-saml-auth",
-            "version": "2.2.0",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wp-saml-auth.git",
-                "reference": "401308b3c851a86fa0d714881d67db2fdcae3302"
+                "reference": "4cffc29e613eedb78c6987ec452e20b36e0b830a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wp-saml-auth/zipball/401308b3c851a86fa0d714881d67db2fdcae3302",
-                "reference": "401308b3c851a86fa0d714881d67db2fdcae3302",
+                "url": "https://api.github.com/repos/pantheon-systems/wp-saml-auth/zipball/4cffc29e613eedb78c6987ec452e20b36e0b830a",
+                "reference": "4cffc29e613eedb78c6987ec452e20b36e0b830a",
                 "shasum": ""
             },
             "require": {
@@ -1560,16 +1560,13 @@
                 "php": "^7.3 || ^8.0"
             },
             "require-dev": {
-                "behat/behat": "^3.14",
-                "behat/gherkin": "4.9.0",
                 "pantheon-systems/pantheon-wordpress-upstream-tests": "dev-master",
                 "pantheon-systems/pantheon-wp-coding-standards": "^2.0",
-                "pantheon-systems/wpunit-helpers": "^2.0",
                 "phpunit/phpunit": "^9",
                 "symfony/filesystem": "^5",
                 "symfony/service-contracts": "^2",
                 "symfony/translation-contracts": "^2",
-                "yoast/phpunit-polyfills": "^3.0"
+                "yoast/phpunit-polyfills": "^2.0"
             },
             "type": "wordpress-plugin",
             "autoload": {
@@ -1594,9 +1591,9 @@
             "description": "SAML authentication for WordPress, using SimpleSAMLphp.",
             "support": {
                 "issues": "https://github.com/pantheon-systems/wp-saml-auth/issues",
-                "source": "https://github.com/pantheon-systems/wp-saml-auth/tree/2.2.0"
+                "source": "https://github.com/pantheon-systems/wp-saml-auth/tree/2.1.4"
             },
-            "time": "2025-06-12T23:08:18+00:00"
+            "time": "2023-11-27T20:29:52+00:00"
         },
         {
             "name": "pear/archive_tar",
