@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.12.1] - 2025-09-03
+- revert to "pantheon-systems/wp-saml-auth": "2.1.4"
+- remove "wpackagist-plugin/custom-icons-for-elementor"
+- "cul-it/advanced-custom-fields-pro": "6.5.0.1"
+- "wpackagist-plugin/advanced-access-manager": "7.0.8"
+- "wpackagist-plugin/anywhere-elementor": "1.2.13"
+- "wpackagist-plugin/capability-manager-enhanced": "2.20.0"
+- "wpackagist-plugin/code-snippets": "3.7.0"
+- "wpackagist-plugin/coming-soon": "6.18.18"
+- "wpackagist-plugin/custom-post-type-ui": "1.18.0"
+- "wpackagist-plugin/google-analytics-dashboard-for-wp": "8.7.4"
+- "wpackagist-plugin/relevanssi": "4.25.0"
+- "wpackagist-plugin/wp-mail-smtp": "4.6.0"
+
 ## [v2.12.0] - 2025-08-28
 - "pantheon-systems/wp-saml-auth": "2.2.0"
 - "simplesamlphp/simplesamlphp": "2.4.0"
