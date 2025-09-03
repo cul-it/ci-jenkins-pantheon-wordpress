@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v2.12.1] - 2025-09-03
 - revert to "pantheon-systems/wp-saml-auth": "2.1.4"
+- remove "wpackagist-plugin/custom-icons-for-elementor"
 - "cul-it/advanced-custom-fields-pro": "6.5.0.1"
 - "wpackagist-plugin/advanced-access-manager": "7.0.8"
 - "wpackagist-plugin/anywhere-elementor": "1.2.13"

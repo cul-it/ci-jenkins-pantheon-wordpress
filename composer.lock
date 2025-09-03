@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b3953374adb9982701cfe771f0a3756",
+    "content-hash": "e41782174222f4f9fc84c4c2bd8da601",
     "packages": [
         {
             "name": "composer/installers",
@@ -6174,24 +6174,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/coming-soon/"
-        },
-        {
-            "name": "wpackagist-plugin/custom-icons-for-elementor",
-            "version": "0.3.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/custom-icons-for-elementor/",
-                "reference": "tags/0.3.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-icons-for-elementor.0.3.4.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-icons-for-elementor/"
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
