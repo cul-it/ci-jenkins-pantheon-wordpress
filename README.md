@@ -218,7 +218,7 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
     * Apply the updates
     * Clone wp-ci-library-cornell-edu to the local machine
     * Run `composer install`
-    * (SEE STEP 11, if applicatble, run `bash saml-link-add.sh`)
+    * (SEE STEP 11, if applicable, run `bash saml-link-add.sh`)
     * Commit to master and push to Pantheon
     * Go to site administration in Pantheon and activate any new plugins (except Akismet Anti-Spam)
 
