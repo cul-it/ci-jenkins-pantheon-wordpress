@@ -218,8 +218,11 @@ terminus secrets:set [site].[dev,test,live] SMTP_PW [redacted]
     * Apply the updates
     * Clone wp-ci-library-cornell-edu to the local machine
     * Run `composer install`
+    * (SEE STEP 11, if applicatble, run `bash saml-link-add.sh`)
     * Commit to master and push to Pantheon
     * Go to site administration in Pantheon and activate any new plugins (except Akismet Anti-Spam)
+
+11. Updating simplesamlphp library: if simplesamlphp was updated, the symlinks will have been deleted and the shiboleth one-click login functionality will be broken in production for the unit sites. To recreate the symlinks to the private dir you need to take the extra step of running the bash script saml-link-add. This can not be tested on the uls-upstream-test site, only the live environment for unit sites with domain names.
 
 When ready, apply upstream to indvidual Wordpress sites in Pantheon. 
 
